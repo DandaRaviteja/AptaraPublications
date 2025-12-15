@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "file:/E:/PEM/Publicaciones%20Academicas/JATS-Publishing-1-2-MathML3-DTD/JATS-journalpublishing1-mathml3.dtd">
+<?xml-stylesheet type="text/xsl" href="jpub3-html.xsl"?>
+<article article-type="research-article" dtd-version="1.2" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">medu</journal-id>
+<journal-title-group>
+<journal-title>Medunab</journal-title>
+<abbrev-journal-title>Medunab</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">0123-7047</issn>
+<issn pub-type="epub">2382-4603</issn>
+<publisher>
+<publisher-name>Universidad Autónoma De Bucaramanga</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">3610</article-id>
+<article-id pub-id-type="doi">10.29375/01237047.3610</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo de reflexión no derivado de investigación</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Experiencia de implementación de una guía para la prevención de caídas como trabajo interdisciplinar en una unidad de cuidados del adulto mayor</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">Experience as regards the implementation of guidelines for preventing falls as part of interdisciplinary work in an elderly care unit</trans-title>
+</trans-title-group>
+<trans-title-group>
+<trans-title xml:lang="pt">Experiência na implementação de uma guia de prevenção de quedas como trabalho interdisciplinar em uma unidade de atenção a idosos</trans-title>
+</trans-title-group>
+</title-group>
+ <contrib-group>
+ <contrib contrib-type="author">
+<name>
+<surname>Coltters-Miranda</surname>
+<given-names>Cynthia</given-names>
+</name>
+<degrees>Enf.</degrees>
+<aff>
+<institution content-type="orgname">Enfermera, Jefe Unidad de Cuidados del Adulto mayor, Champion BPSO Clínica las Condes</institution>
+<addr-line>
+<named-content content-type="city">Santiago</named-content>
+</addr-line>
+<country country="CL">Chile</country>
+<institution content-type="original">Enfermera, Jefe Unidad de Cuidados del Adulto mayor, Champion BPSO Clínica las Condes, Santiago, Chile.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Belmar-Valdebenito</surname>
+<given-names>Alejandra</given-names>
+</name>
+<degrees>Enf., MSc.</degrees>
+<aff>
+<institution content-type="orgname">Enfermera, Postulante a Magíster en Epidemiología, Líder Programa de Buenas Prácticas de RNAO, Clínica las Condes</institution>
+<addr-line>
+<named-content content-type="city">Santiago</named-content>
+</addr-line>
+<country country="CL">Chile</country>
+<institution content-type="original">Enfermera, Postulante a Magíster en Epidemiología, Líder Programa de Buenas Prácticas de RNAO, Clínica las Condes, Santiago, Chile.</institution>
+</aff>
+</contrib>
+</contrib-group>
+<author-notes>
+<corresp id="c1">Cynthia Coltters Miranda, Clínica las Condes, Santiago, Chile. <email>ccoltters@clinicalascondes.cl</email></corresp>
+<fn fn-type="conflict">
+<p><bold>Conflicto de Intereses</bold></p>
+<p>Los autores declaran no tener conflicto de interés.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>31</day>
+<month>03</month>
+<year>2020</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>23</volume>
+<issue>1</issue>
+<fpage>95</fpage>
+<lpage>106</lpage>
+<history>
+<date date-type="received">
+<day>17</day>
+<month>05</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>17</day>
+<month>09</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© 2020 Universidad Autónoma De Bucaramanga</copyright-statement>
+<copyright-year>2020</copyright-year>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+<license-p>Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title><bold>RESUMEN</bold></title>
+<sec>
+<title><bold>Introducciòn.</bold></title>
+<p>Las caídas son un importante problema de salud pública. La Organización Mundial de la Salud (OMS) estima que anualmente se producen 646,000 caídas con consecuencias fatales, convirtiéndolas en la segunda causa de muerte por lesiones no intencionales a nivel mundial. Las mayores tasas de mortalidad asociadas a este evento corresponden a los mayores de 60 años. Como resultado, los adultos mayores disminuyen su movilidad, pueden presentar alteraciones cognitivas y resultar socialmente aislados, lo que aumenta el riesgo de caídas posteriores, costos de salud e índices de mortalidad. Durante el proceso de hospitalización, factores intrínsecos del adulto mayor, sumado al ambiente hospitalario, generan un entorno propicio para la producción de eventos adversos, impulsando al personal de salud a tomar medidas de prevención específicas enfocadas en este grupo etario en particular. El presente manuscrito tiene como objetivo describir el proceso de implementación de la guía de Prevención de Caídas y disminución de las lesiones derivadas de las caídas de la Registered Nurses’ Association of Ontario (RNAO), en la Unidad de cuidados del adulto mayor (UCAM) en Clínica las Condes (CLC).</p>
+</sec>
+<sec>
+<title><bold>Temas de reflexión.</bold></title>
+<p>A través de un enfoque interdisciplinar el cual desarrolla 5 puntos principales de acción: adquisición de infraestructura específica, contratación de personal médico y de enfermería especializado en cuidados del adulto mayor, capacitación continua que incluya actualización de conocimientos sobre cuidados del adulto senescente y, finalmente, supervisión de enfermería durante todo el proceso de prevención.</p>
+</sec>
+<sec>
+<title><bold>Conclusiones.</bold></title>
+<p>La implementación de estrategias interdisciplinares para la prevención de caídas en adultos mayores es una herramienta basada en evidencia científica que genera disminución de este evento adverso y de las lesiones que posteriormente se desarrollan producto de una caída durante la hospitalización del adulto senescente.</p>
+</sec>
+</abstract>
+<trans-abstract xml:lang="en">
+<title><bold>ABSTRACT</bold></title>
+<sec>
+<title><bold>Introduction.</bold></title>
+<p>Falls are a serious public health problem. The World Health Organization (WHO) estimates that there are 646,000 falls per year, which have a fatal outcome, making them the second leading cause of unintentional injury death worldwide. The highest mortality rates associated with these falls are among senior citizens aged over 60 years. Falls can reduce senior citizens’ mobility, cause them to suffer from cognitive disorders and make them socially isolated, increasing the risk of subsequent falls, health costs and mortality rates. During the hospitalization process, intrinsic factors for elderly patients, added to the hospital conditions, generate an environment conducive to the occurrence of adverse events, driving health staff to take specific prevention measures focused on this age group in particular. This article aims to describe the implementation process of the guidelines for fall prevention and injury reduction of the Registered Nurses’ Association of Ontario (RNAO) in the Elderly Care Unit (UCAM, for the Spanish original) of Clínica las Condes (CLC).</p>
+</sec>
+<sec>
+<title><bold>Reflection topics.</bold></title>
+<p>through an interdisciplinary approach that develops five main action points: acquisition of a specific infrastructure; procurement of medical and nursing staff specialized in elderly care; ongoing training that includes knowledge refresher courses on elderly care; and, finally, nursing supervision throughout the prevention process.</p>
+</sec>
+<sec>
+<title><bold>Conclusions.</bold></title>
+<p>The implementation of interdisciplinary strategies for preventing falls in senior citizens is a tool based on scientific evidence that reduces the cases of this adverse event and of the injuries that subsequently develop as a result of a fall during the hospitalization of the elderly patient.</p>
+</sec>
+</trans-abstract>
+<trans-abstract xml:lang="pt">
+<title><bold>RESUMO</bold></title>
+<sec>
+<title><bold>Introdução.</bold></title>
+<p>As quedas são um grande problema de saúde pública. A Organização Mundial da Saúde (OMS) estima que, anualmente, ocorrem 646.000 quedas com consequências fatais, tornando-as a segunda principal causa de morte por lesões não intencionais em todo o mundo. As taxas mais altas de mortalidade associadas a esse evento correspondem a pessoas com mais de 60 anos. Como resultado, os idosos diminuem sua mobilidade, podem apresentar alterações cognitivas e serem socialmente isolados, aumentando o risco de quedas subsequentes, custos de saúde e taxas de mortalidade. Durante o processo de hospitalização, fatores intrínsecos do idoso, agregados ao ambiente hospitalar, geram um ambiente propício à produção de eventos adversos, incentivando o pessoal de saúde a tomar medidas específicas de prevenção focadas nessa faixa etária específica. O objetivo deste manuscrito é descrever o processo de implementação da Guia de Prevenção de Quedas e redução de lesões resultantes de quedas da Registered Nurses’ Association of Ontario (RNAO), na Unidade de Atendimento ao Idoso (UCAM) na Clínica Las Condes (CLC).</p>
+</sec>
+<sec>
+<title><bold>Reflexão.</bold></title>
+<p>mediante uma abordagem interdisciplinar que desenvolve cinco pontos principais de ação: aquisição de infraestrutura específica, contratação de equipe médica e de enfermagem especializada no cuidado ao idoso, capacitação contínua que inclua a atualização do conhecimento sobre o atendimento ao adulto senescente e, por fim, a supervisão de enfermagem em todo o processo de prevenção.</p>
+</sec>
+<sec>
+<title><bold>Conclusões.</bold></title>
+<p>A implementação de estratégias interdisciplinares para a prevenção de quedas em idosos é uma ferramenta baseada em evidências científicas que promove uma diminuição desse evento adverso e das lesões que subsequentemente se desenvolvem como resultado de uma queda durante a hospitalização do adulto senescente.</p>
+</sec>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title><bold>Palabras claves:</bold></title>
+<kwd>Accidentes por Caídas</kwd>
+<kwd>Adulto Mayor</kwd>
+<kwd>Pacientes Internos</kwd>
+<kwd>Prevención Primaria</kwd>
+<kwd>Enfermería Basada en Evidencia</kwd>
+<kwd>Grupo de Atención al Paciente</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title><bold>Keywords:</bold></title>
+<kwd>Accidental Falls</kwd>
+<kwd>Aged</kwd>
+<kwd>Inpatients</kwd>
+<kwd>Primary Prevention</kwd>
+<kwd>Evidence-based Nursing</kwd>
+<kwd>Patient Care Team</kwd>
+</kwd-group>
+<kwd-group xml:lang="pt">
+<title><bold>Palavras-chave:</bold></title>
+<kwd>Acidentes por Quedas</kwd>
+<kwd>Idoso</kwd>
+<kwd>Pacientes Internados</kwd>
+<kwd>Prevenção Primária</kwd>
+<kwd>Enfermagem Baseada em Evidências</kwd>
+<kwd>Equipe de Assistência ao Paciente</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec sec-type="sec-1-3610">
+<title><bold>Introducciòn</bold></title>
+<p>Las caídas son un importante problema de salud pública. Según datos aportados por la Organización Mundial de Salud (OMS), una caída se define como “el hecho por el que una persona termina sin darse cuenta en el suelo, en el pavimento o en otro nivel inferior, con o sin lesión” (<xref ref-type="bibr" rid="ref-1-3610">1</xref>).</p>
+<p>Se calcula que anualmente se producen 646,000 caídas con consecuencias fatales a nivel mundial, lo que las convierte en la segunda causa de muerte por lesiones no intencionales, después de los traumatismos causados por accidentes de tránsito. Más del 80% de las muertes relacionadas con caídas se registran en países de bajos y medianos ingresos; un 60% de esas muertes se producen en las Regiones del Pacífico Occidental y Asia Sudoriental. Las mayores tasas de mortalidad por esta causa corresponden en todas las regiones del mundo a los mayores de 60 años (<xref ref-type="bibr" rid="ref-2-3610">2</xref>).</p>
+<p>La magnitud del riesgo en este grupo etario puede deberse, en parte, a los trastornos físicos, sensoriales y cognitivos relacionados con el envejecimiento, así como a la falta de adaptación del entorno a las necesidades de la población de edad avanzada (<xref ref-type="bibr" rid="ref-3-3610">3</xref>).</p>
+<p>La mayoría de las caídas que se producen en los adultos mayores son de origen multifactorial y se producen con mayor periodicidad con la acumulación de estos factores. Gran parte de estos son provenientes de la inadaptación que el adulto mayor sufre en el medio en el cual se encuentra viviendo, por una inadecuada accesibilidad que dificulta su movilidad, e inclusive durante la vivencia de alguna enfermedad o proceso invalidante debido a los efectos de la medicación, deterioro del equilibrio y la deambulación (<xref ref-type="bibr" rid="ref-4-3610">4</xref>).</p>
+<p>Como resultado de una caída, los adultos mayores disminuyen su movilidad, temen caer en depresión y ser aislados socialmente, lo que aumenta el riesgo de caídas posteriores, eleva los costos de salud y, de igual forma, puede terminar en consecuencias fatales (<xref ref-type="bibr" rid="ref-3-3610">3</xref>).</p>
+<p>Durante un proceso de hospitalización, este escenario puede volverse aún más riesgoso, provocando lesiones de carácter irreversible en el adulto senescente. Según García-Reyes y López-Torres, el porcentaje anual de caídas de adultos mayores en unidades de hospitalización bordea el 50%, mientras que en la comunidad esta frecuencia alcanza el 30% (<xref ref-type="bibr" rid="ref-4-3610">4</xref>). Los mismos autores describen que las principales variables implicadas en una caída en pacientes institucionalizados se relacionan con pertenecer al sexo femenino, tener obesidad, poseer incapacidad funcional y sufrir alguna enfermedad neurológica, especialmente accidente vascular y demencias, al igual que algunas enfermedades crónicas como diabetes mellitus (<xref ref-type="bibr" rid="ref-5-3610">5</xref>).</p>
+<p>Otro tema no menos importante es el relacionado con los costes de una caída los cuales son de orden personal y económico. Datos entregados por el sistema de salud canadiense estiman que las caídas suponen para el sistema unos 8,700 millones de dólares al año, además de que un evento de este tipo puede aumentar la media de hospitalización a 22 días, lo que supera a cualquier otra causa de hospitalización en la población adulto mayor (<xref ref-type="bibr" rid="ref-6-3610">6</xref>).</p>
+<p>Al comprender que las caídas en el adulto mayor son provocadas por múltiples factores, nace la necesidad de crear un enfoque interdisciplinario para su prevención. La agencia de Investigación y Calidad sanitaria (AHQR), correspondiente a una de las 12 agencias del Departamento de Salud y Servicios humanos de Estados Unidos, plantea claramente que algunas de las intervenciones de prevención de caídas son altamente rutinarias, mientras que otras deben adaptarse al perfil de los pacientes; sin embargo, cualquiera sea la estrategia, se requiere de todo el equipo de salud y de una cultura organizacional y práctica que permita generar una prevención de alta calidad (<xref ref-type="bibr" rid="ref-7-3610">7</xref>)</p>
+<p>Bajo este contexto, la Registered Nurses’ Association of Ontario (RNAO) institución que agrupa a la Asociación de Enfermeras registradas, enfermeras practicantes y estudiantes de enfermería de la región de Ontario; Canadá, se ha preocupado de abordar el tema de prevención de caídas a través de su Programa de Buenas Prácticas (BPG), el cual busca promover, difundir y apoyar activamente la adopción de guías basadas en evidencia científica sobre temas clínicos y entornos de trabajo saludables. Este programa es totalmente gratuito y se encuentra en más de 125 recintos hospitalarios a nivel internacional, convirtiendo a las instituciones que lo implementan en Centros Comprometidos con Cuidados de Excelencia (BPSO; Best Practice Spotlight Organization). Sin duda, a través del tiempo el programa de buenas prácticas de RNAO se ha convertido en una herramienta importante para reducir la variación en el manejo clínico y mejorar los resultados de los pacientes en su atención (<xref ref-type="bibr" rid="ref-8-3610">8</xref>). Estos resultados se logran a través del fuerte sustento teórico de cada guía de buena práctica y de su metodología de implementación, la cual, a través de seis pasos bien establecidos, permite incorporar las recomendaciones basadas en evidencia al trabajo clínico diario y sostenerlas en el tiempo (<xref ref-type="bibr" rid="ref-9-3610">9</xref>).</p>
+<p>Este proceso es determinado por RNAO como el “Marco de conocimiento para la acción”, en el cual se desarrollan cada una de las seis etapas mencionadas, las cuales consisten en: (<xref ref-type="fig" rid="fig-1-3610">Figura 1</xref>)</p>
+<fig id="fig-1-3610">
+<label><bold>Figura 1.</bold></label>
+<caption><title>Herramienta de Implantaciòn de Buenas Prácticas, RNAO 2012.</title></caption>
+<p><bold>Fuente.</bold> Adaptado de Straus S, Tetroe J, Graham I. “Knowledge translation in health care: moving from evidence to practice”, 2009.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_1-3610.png"/>
+</fig>
+<list list-type="numbered">
+<list-item><p>Identificaciòn del problema</p></list-item>
+<list-item><p>Adaptación del conocimiento al contexto local</p></list-item>
+<list-item><p>Evaluación de facilitadores y barreras para el uso del conocimiento</p></list-item>
+<list-item><p>Selección, adaptación e implantación de estrategias de implementación</p></list-item>
+<list-item><p>Monitorización del conocimiento y evaluación de resultados</p></list-item>
+<list-item><p>Sostenibilidad del uso del conocimiento</p></list-item>
+</list>
+<p>La prevención de caídas en el ámbito hospitalario es una problemática de la cual los centros hospitalarios de Chile no han estado exentos. Clínica las Condes (CLC) es un centro privado, de alta complejidad ubicado en el área oriente de la ciudad de Santiago de Chile, con aproximadamente 300 camas disponibles para atención desde pacientes neonatos hasta adultos mayores.</p>
+<p>En su camino hacia la mejora continua, CLC ha implementado la Guía RNAO de Prevención de Caídas y lesiones derivadas de las Caídas en personas mayores desde enero de 2016, generando grandes cambios dentro de la institución que datan desde el uso de escalas de valoración del riesgo de caídas hasta la incorporación de nuevas acciones preventivas a considerar para la prevención de este evento adverso. En este contexto, CLC inaugura durante el año 2018 su Unidad de cuidados del adulto mayor (UCAM), en la cual la prevención de caídas se torna aún más desafiante, lo que requiere del esfuerzo de todo el equipo de salud para resguardar la seguridad y calidad de atención de este tipo de pacientes.</p>
+<p>El presente manuscrito tiene como objetivo dar a conocer el proceso de implementación de la Guía de Prevención de Caídas y Disminución de lesiones derivadas de RNAO (<xref ref-type="bibr" rid="ref-6-3610">6</xref>) en una Unidad de cuidados del adulto mayor, a través del trabajo realizado por el equipo interdisciplinar de dicha unidad.</p>
+</sec>
+<sec sec-type="sec-2-3610">
+<title><bold>Antecedentes</bold></title>
+<p>Según datos del Instituto Nacional de Estadísticas de Chile, el Censo de población y vivienda de 2017 mostró que el país se encuentra en una etapa avanzada de transición demográfica, es decir, presenta un envejecimiento continuo y constante de su población con un porcentaje creciente de habitantes mayores de 60 años y más (<xref ref-type="bibr" rid="ref-10-3610">10</xref>).</p>
+<p>Desde esta perspectiva nace la necesidad de adaptar los cuidados en salud hacia una población en vías de envejecimiento, con requerimientos más específicos que los de la población general. A modo general, Chile ha avanzado en la generación de Políticas Públicas para la población mayor de 65 años impulsadas por el Ministerio de Salud (MINSAL) a través de algunas iniciativas trascendentales como la creación del Programa de Salud del Adulto Mayor, el cual implementa en atención primaria los siguientes programas: cardiovascular, respiratorio y de inmunización. Además, MINSAL también resguarda a la población senescente a través de la generación de Garantías Explícitas en Salud (GES), facilitando con esto el acceso oportuno a la atención de salud y su correspondiente resguardo financiero (<xref ref-type="bibr" rid="ref-11-3610">11</xref>).</p>
+<p>De manera local y preparándose para este desafio, CLC decide abrir su Unidad de cuidados del adulto mayor (UCAM) en el mes de mayo de 2018, esta clínica cuenta con un total de 14 camas, e incorporó a su staff un total de 8 enfermeras, 4 técnicos de enfermería, 8 asistentes de cuidado y médicos geriatras desde el inicio de su funcionamiento. Desde su apertura, UCAM cuenta con un promedio de edad de sus pacientes que supera los 75 años, lo que incrementa los riesgos de sufrir eventos adversos durante la hospitalización. Uno de los principales eventos a prevenir son las caídas dentro del hospital, ya que su prevalencia fluctúa en alrededor de un 30% para las personas mayores de 65 años y de un 50% para las personas de 80 años y más (<xref ref-type="bibr" rid="ref-12-3610">12</xref>).</p>
+<p>Las principales recomendaciones utilizadas para la prevención de caídas en adultos mayores durante el proceso de hospitalización se pueden clasificar en los siguientes ítems: (<xref ref-type="bibr" rid="ref-12-3610">12</xref>)</p>
+<list list-type="numbered">
+<list-item><p>Predicción del riesgo de caídas en pacientes hospitalizados. (Considerar valoración multifactorial)</p></list-item>
+<list-item><p>Generar evaluación e intervenciones sistemáticas. (Considerar intervención interdisciplinar)</p></list-item>
+<list-item><p>Proporcionar información oral y escrita relevante, y apoyo para pacientes, sus familiares y cuidadores. (Considerar la participación del paciente y su empoderamiento en las medidas de prevención)</p></list-item>
+</list>
+<p>Para la implementación de estos pilares en la prevención de caídas, CLC ha trabajado desde el año 2016 en la implementación de la Guía de buenas prácticas de Prevención de Caídas y lesiones derivadas de las caídas en personas mayores de RNAO, la cual actualizó sus recomendaciones en el año 2017 dirigiéndolas hacia el equipo interdisciplinar y no solamente hacia el estamento de enfermería.</p>
+<p>Durante el primer período de implementación de la Guía de Prevención de caídas de RNAO en CLC, se realizaron diversas actividades derivadas de recomendaciones basadas en evidencia científica, las cuales se enumeran a continuación:</p>
+<list list-type="numbered">
+<list-item><p>Generación de un plan de implementación en conjunto con la Gerencia de Enfermería y el área de Calidad asistencial de la institución.</p></list-item>
+<list-item><p>Creación de una política institucional ad hoc con la incorporación de recomendaciones para prevención de caídas basadas en evidencia científica con incorporación de bibliografía.</p></list-item>
+<list-item><p>Cambio de escalas de valoración de riesgo de caídas por escalas validadas a nivel internacional.</p></list-item>
+<list-item><p>Incorporación de estrategias de prevención de caídas; entre ellas realización de rondas de seguridad.</p></list-item>
+<list-item><p>Educación al personal de Enfermería sobre nuevas estrategias de prevención de caídas.</p></list-item>
+<list-item><p>Sostenibilidad de la implementación a través de módulos de educación continuos para el personal.</p></list-item>
+</list>
+<p>Posterior a la implementación general, CLC decide actualizar su política institucional acorde a las recomendaciones de Prevención de caídas para el equipo interprofesional de RNAO. Es en este trabajo, realizado durante al año 2018, al cual se suma la Unidad de Cuidados del Adulto Mayor (UCAM).</p>
+</sec>
+<sec sec-type="sec-3-3610">
+<title><bold>Proceso de implementación</bold></title>
+<p>Para la implementación de las recomendaciones derivadas de la Guía de prevención de caídas y lesiones derivadas de las caídas de RNAO en UCAM, se generan 5 fases principales las cuales se detallan a continuación:</p>
+<list list-type="numbered">
+<list-item><p>Incorporación de infraestructura específica destinada a la prevención de eventos adversos y a maximizar el confort en la población adulto mayor atendida en la unidad. Entre ellos se cuenta desde la creación de una sala de rehabilitación kinésica hasta la compra de sillones especialmente acondicionados para los pacientes, los cuales permiten mantener una postura recta e impiden los desplazamientos durante la sedestación.</p>
+<p>A estos, además se suman el ingreso de sujetadores de pacientes a sillas, los cuales reemplazan el uso de contenciones torácicas en sujetos con alteración del equilibrio mientras se encuentran en posición sentada, permitiendo mayor comodidad y resguardo de la seguridad física del paciente.</p>
+<p>Igual de trascendental fue la incorporación de recordatorios visuales dentro de la unidad para la prevención de caídas, mediante los cuales se asignan tareas específicas al personal en un horario definido. Una de estas tareas son la realización de rondas horarias, estrategia sugerida por la Guía de prevención de caídas de RNAO (<xref ref-type="bibr" rid="ref-6-3610">6</xref>), la cual busca la reducción de este evento a través de acciones proactivas que permitan evaluar al paciente de manera constante.</p>
+<p>En Clínica las Condes, las rondas horarias están protocolizadas para su realización cada 2 horas permitiendo evaluar 5 puntos principales: posición del paciente, presencia de dolor, necesidades fisiológicas, artículos personales al alcance y orden de la habitación. (<xref ref-type="fig" rid="fig-2-3610">Figura 2</xref>)
+<fig id="fig-2-3610">
+<label><bold>Figura 2.</bold></label>
+<caption><title>Sujetador de paciente a silla multiuso</title></caption>
+<p><bold>Fuente.</bold> <ext-link ext-link-type="uri" xlink:href="http://www.blunding.com/">http://www.blunding.com/</ext-link></p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_2-3610.png"/>
+</fig></p>
+</list-item>
+<list-item><p>Ingreso de personal clínico idóneo. Al tratarse de una unidad nueva dentro de la institución, previo a su apertura, se consideró la contratación de enfermeras tratantes y técnicos de enfermería de igual forma que en los otros servicios de hospitalización. Sin embargo, el cambio se genera en la contratación de asistentes de cuidado, quienes apoyan a los técnicos de enfermería en las transferencias y movilización de pacientes, al igual que en el ingreso de médicos que posean la especialidad de geriatría como requisito de ingreso.</p></list-item>
+<list-item><p>Capacitación específica del personal previo a la apertura de la unidad. Tanto enfermeras, técnicos de enfermería y asistentes de cuidado, deben realizar un proceso de inducción adaptado a las necesidades educativas generales de la unidad, con una duración de una semana para técnicos de enfermería y asistentes de cuidado, y de dos semanas para enfermeras. El objetivo de este proceso es nivelar los conocimientos del personal en ingreso a través de la realización de cursos de tipo transversal y además introducirlos a la especialidad geriátrica mediante la realización de clases específicas. El detalle de los cursos impartidos en este proceso de capacitación se detalla en la <xref ref-type="table" rid="tabw-1-3610">tabla 1</xref>.
+<table-wrap id="tabw-1-3610">
+<label><bold>Tabla 1:</bold></label>
+<caption><title>Contenidos del proceso de inducción de Enfermeras y Técnicos de Enfermería de la Unidad de Cuidados del Adulto Mayor</title></caption>
+<table id="tab-1-3610" frame="hsides" border="1" rules="all">
+<colgroup width="100%">
+<col width="50%"/>
+<col width="50%"/>
+</colgroup>
+<thead>
+<tr>
+<th valign="middle" align="center" style="background: lightgrey"><p>Enfermeros(as)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="middle" align="left"><p>1 E-learning. Prevención de lesiones de piel.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>2 E-learning. Ergonomía.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>3 E-learning. Prevención de Infecciones asociadas a la atención de salud.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>4 Curso Cuidados de los Accesos vasculares.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>5 Curso Manejo de ficha electrónica.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>6 Curso Administración de medicamentos.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>7 Curso Prevención de caídas.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>8 Curso Calidad y seguridad de la atención.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>9 Generalidades Banco de Sangre.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>10 Taller de Electrocardiografía.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>11 Curso Prevención y manejo del dolor.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>12 Taller uso desfibrilador y carro de emergencias.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>13 Generalidades laboratorio clínico.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>14 Prevencion y manejo de lesiones de piel.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>15 Cuidados en pacientes con diabetes mellitus.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>16 Manejo de equipos críticos.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>17 Manejo de drenajes pleurales.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>18 Curso Soporte vital básico.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>19 Curso específico: prevención de caídas en el adulto mayor y ayudas técnicas.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>20 Curso habilidades comunicacionales.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>21 Valoración geriátrica integral.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>22 Manejo de paciente con deterioro cognitivo.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center" style="background: lightgrey"><p><bold>Técnicos de Enfermería</bold></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>1 E-learning. Prevención de lesiones de piel.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>2 E-learning. Prevención de Infecciones asociadas a la atención de salud.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>3 Curso Manejo de ficha electrónica.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>4 Curso Calidad y seguridad de la atención.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>5 Taller de Electrocardiografía.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>6 Curso específico: Prevención de caídas en el adulto mayor y ayudas técnicas.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>7 Curso habilidades comunicacionales.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>8 Valoración geriátrica integral.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>9 Manejo de paciente con deterioro cognitivo.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>10 Manejo de drenajes pleurales.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>11 Control de signos vitales.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>12 Curso Salva corazones.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>13 Curso Cuidados de Enfermería.</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left" style="background: lightgrey"><p>14 Prevencion y manejo de lesiones de piel.</p></td>
+</tr>
+</tbody>
+</table>
+</table-wrap></p></list-item>
+<list-item><p>Generación de un programa de actualización continua para la unidad que permita abordar temáticas cotidianas del cuidado del adulto mayor desde las distintas áreas de atención. En este programa se abordan temas impartidos por enfermeras, médicos y kinesiólogos dirigido a todo el personal que forme parte de UCAM con exigencia de renovación de a lo menos cada 2 años.</p></list-item>
+<list-item><p>Realización de supervisión sobre prevención de caídas al personal clínico de manera programada y con feedback inmediato. El sistema de supervisión es realizado a través de pautas dicotómicas de observación del proceso de manera programada a través de calendarizaciones randomizadas. Este proceso es exigido por MINSAL a todas las instituciones públicas y privadas de salud, el cual es regulado por la Superintendencia de Salud de Chile (<xref ref-type="bibr" rid="ref-13-3610">13</xref>), quienes deben velar por el correcto cumplimiento de las medidas preventivas para evitar caídas en pacientes hospitalizados a nivel nacional.</p></list-item>
+</list>
+<p>Es importante destacar que durante el proceso de implementación de UCAM la infraestructura requerida, los materiales para prevención de caídas y la capacitación específica realizada al personal previo a su apertura tuvo un costo aproximado de $14,000 USD. Al comparar este valor con los costos que implican una caída en un paciente hospitalizado, Clínica las Condes podría reportar aproximadamente un gasto de unos $12,000 USD anuales en caídas con lesiones leves o sin lesión, considerando en este ítem el control por un médico especialista y cuidados de enfermería específicos posterior a la caída. Sin embargo, en aquellos pacientes que han reportado caídas con lesión, este monto podría aumentar aproximadamente hasta $58,000 USD considerando la prolongación de la estadía hospitalaria, realización de imágenes diagnósticas y probables intervenciones quirúrgicas para subsanar el daño.</p>
+<p>A las 5 fases descritas anteriormente, se adicionan algunas intervenciones realizadas por el equipo interprofesional para el cuidado global del paciente adulto mayor. Entre estas estrategias se encuentran la aplicación de medidas no farmacológicas para prevención de delirium, promoción del levantamiento precoz de los pacientes, utilización de señalética para destacar a los pacientes con riesgo de caídas, realización por parte de las enfermeras del índice de Barthel (<xref ref-type="bibr" rid="ref-14-3610">14</xref>) durante el ingreso del paciente a la unidad y posteriormente una vez por semana, además de la aplicación de escalas de movilidad y fragilidad por parte de kinesiología, las cuales categorizan al paciente permitiendo la asignación de actividades específicas que, a su vez, apoyan la prevención de caídas. (<xref ref-type="fig" rid="fig-3-3610">Figura 3</xref>)</p>
+<fig id="fig-3-3610">
+<label><bold>Figura 3.</bold></label>
+<caption><title>Algoritmo de Categorización de intervención Kinésica en Unidad de Cuidados del Adulto Mayor.</title></caption>
+<p><bold>Fuente.</bold> Protocolo de categorización de intervención kinésica en Unidad de cuidados del Adulto mayor. Servicio de Kinesiología Hospitalizados. Clínica las Condes.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_3-3610.png"/>
+</fig>
+<p>Una de las escalas utilizadas para este fin, es la escala “Short Physical Performance Battery” (SPPB) (<xref ref-type="bibr" rid="ref-15-3610">15</xref>), la cual evalúa la esfera funcional en pacientes geriátricos a través de la medición del equilibrio, velocidad de la marcha y, finalmente, medición de la respuesta del paciente al sentarse en una silla 5 veces. Con los resultados de esta escala, se obtiene una visión general del grado de dependencia física del paciente, lo que permite diseñar tratamientos integrales y planes de cuidado adaptados a los pacientes ancianos.</p>
+<p>En resumen, los pasos abordados tienen como finalidad, además de entregar un fuerte sustento teórico al personal ingresado a la unidad, crear una identidad colectiva que diferencie la atención a los pacientes adultos mayores y otorgue un sello de calidad y humanización en el cuidado.</p>
+</sec>
+<sec sec-type="sec-4-3610">
+<title><bold>Evaluación</bold></title>
+<p>Desde su apertura en mayo de 2018, UCAM se ha caracterizado por presentar una ocupación de sus camas cercana al setenta por ciento, con un promedio de estadía por paciente de 3,1 días y una mediana de edad de ingreso a la unidad de 80 años.</p>
+<p>El nivel de dependencia de los usuarios atendidos en la unidad es determinado a través de la utilización de la herramienta de Categorización de usuarios por riesgo dependencia (CUDYR) creada por la Pontificia Universidad Católica de Chile en el año 1995 y exigida a nivel nacional por el Ministerio de salud de Chile (MINSAL) desde el año 2008 (<xref ref-type="bibr" rid="ref-16-3610">16</xref>). Para la unidad de Cuidados del adulto mayor, el nivel más frecuente de dependencia pesquisado ubica a los pacientes en la clasificación C2 (mediano riesgo y dependencia parcial) con un 39.1%. Sin embargo, un 17.1% de sus pacientes es catalogado con un nivel de riesgo dependencia de B1 (alto riesgo y dependencia total), lo anterior aumenta el grado de dependencia en las actividades y, consecuentemente, los riesgos del paciente de sufrir un evento adverso durante su hospitalización.</p>
+<p>En cuanto a los riesgos de desarrollar eventos adversos, algunos de los riesgos claros dentro de esta población es la eventual generación de lesiones de piel y la presencia de caídas dentro de la institución. En cuanto al primer tipo de evento, la herramienta utilizada en la unidad para valorar el riesgo de presentar lesiones de piel es la escala de Braden (<xref ref-type="bibr" rid="ref-17-3610">17</xref>) la cual se presenta como un instrumento válido y confiable para esta finalidad. UCAM presenta un 35.1% de su población con riesgo bajo de presentar lesiones de piel, un 13.7% con riesgo moderado y un 7.4% con riesgo alto de presentar lesiones de piel, información que ha permitido gestionar materiales necesarios para su prevención, como la disposición de superficies reductoras de presión, incorporación de insumos de prevención cutánea y mayor dotación de personal para realizar las actividades de movilización de pacientes como representa el caso de la incorporación de las asistentes de cuidado.</p>
+<p>Otro de los eventos principales producidos en población adulta mayor tiene que ver con la presencia de caídas dentro del hospital. Como medida primaria de prevención y de acuerdo a recomendaciones basadas en evidencia (<xref ref-type="bibr" rid="ref-4-3610">4</xref>,<xref ref-type="bibr" rid="ref-6-3610">6</xref>,<xref ref-type="bibr" rid="ref-18-3610">18</xref>,<xref ref-type="bibr" rid="ref-19-3610">19</xref>), los centros de salud deben valorar de manera sistemática el riesgo de caídas de los pacientes hospitalizados. Para la medición del riesgo de caídas, CLC utiliza la escala de J. H Downton para todos sus pacientes desde el año 2017, la cual cataloga a los individuos como “Con riesgo de caídas” con un puntaje igual o mayor a 3 en adultos, e igual o mayor a <italic>4</italic> en niños (<xref ref-type="bibr" rid="ref-20-3610">20</xref>).</p>
+<p>Para este ítem UCAM mantiene un 20.3% de sus pacientes con un puntaje superior a 3, es decir con riesgo de caídas de manera sostenida, siendo los sujetos con puntaje de 2 quienes les siguen con un 18.7%. (<xref ref-type="table" rid="tabw-2-3610">Tabla 2</xref>)</p>
+<table-wrap id="tabw-2-3610">
+<label><bold>Tabla 2:</bold></label>
+<caption><title>Características demográficas y clínicas de pacientes atendidos en la Unidad de Cuidados del Adulto Mayor en comparación a la Unidad de Médico Quirúrgico. Mayo-diciembre 2018.</title></caption>
+<table id="tab-2-3610" frame="hsides" border="1" rules="all">
+<colgroup width="100%">
+<col width="33.3%"/>
+<col width="33.3%"/>
+<col width="33.3%"/>
+</colgroup>
+<thead>
+<tr>
+<th valign="middle" align="left"><p></p></th>
+<th valign="middle" align="center"><p><bold>Pacientes UCAM<sup>*</sup></bold></p></th>
+<th valign="middle" align="center"><p><bold>Pacientes MQ<sup>*</sup></bold></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="middle" align="left"><p>Mediana edad</p></td>
+<td valign="middle" align="center"><p></p></td>
+<td valign="middle" align="center"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p></p></td>
+<td valign="middle" align="center"><p>80 años</p></td>
+<td valign="middle" align="center"><p>72 años</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Promedio días de estadía</p></td>
+<td valign="middle" align="center"><p></p></td>
+<td valign="middle" align="center"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p></p></td>
+<td valign="middle" align="center"><p>3.1 días</p></td>
+<td valign="middle" align="center"><p>3.6 días</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Categorización por Riesgo/Dependencia</p></td>
+<td valign="middle" align="center"><p></p></td>
+<td valign="middle" align="center"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>A1</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>B1</p></td>
+<td valign="middle" align="center"><p>17.1%</p></td>
+<td valign="middle" align="center"><p>6.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>B2</p></td>
+<td valign="middle" align="center"><p>4.5%</p></td>
+<td valign="middle" align="center"><p>7.2%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>C1</p></td>
+<td valign="middle" align="center"><p>34.9%</p></td>
+<td valign="middle" align="center"><p>8.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>C2</p></td>
+<td valign="middle" align="center"><p>39.1%</p></td>
+<td valign="middle" align="center"><p>64.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>C3</p></td>
+<td valign="middle" align="center"><p>3.0%</p></td>
+<td valign="middle" align="center"><p>8.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>D1</p></td>
+<td valign="middle" align="center"><p>0.2%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>D2</p></td>
+<td valign="middle" align="center"><p>0.9%</p></td>
+<td valign="middle" align="center"><p>2.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>D3</p></td>
+<td valign="middle" align="center"><p>0.2%</p></td>
+<td valign="middle" align="center"><p>1.2%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Valoración del riesgo de Úlceras por presión<sup>*</sup></p></td>
+<td valign="middle" align="center"><p></p></td>
+<td valign="middle" align="center"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Sin Riesgo (>ó = 19 puntos)</p></td>
+<td valign="middle" align="center"><p>37.7%</p></td>
+<td valign="middle" align="center"><p>77.7%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Riesgo Bajo (15 a 18 Puntos)</p></td>
+<td valign="middle" align="center"><p>35.1%</p></td>
+<td valign="middle" align="center"><p>8.3%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Riesgo Moderado (13 a 14 Puntos)</p></td>
+<td valign="middle" align="center"><p>13.7%</p></td>
+<td valign="middle" align="center"><p>2.5%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Riesgo Alto (&#x003C; ó = 12 puntos)</p></td>
+<td valign="middle" align="center"><p>7.4%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Sin Registro</p></td>
+<td valign="middle" align="center"><p>6.1%</p></td>
+<td valign="middle" align="center"><p>11.6%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Valoración del riesgo de Caídas<sup>*</sup></p></td>
+<td valign="middle" align="center"><p></p></td>
+<td valign="middle" align="center"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>0 puntos</p></td>
+<td valign="middle" align="center"><p>7.7%</p></td>
+<td valign="middle" align="center"><p>16.9%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>1 puntos</p></td>
+<td valign="middle" align="center"><p>17.0%</p></td>
+<td valign="middle" align="center"><p>26.9%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>2 puntos</p></td>
+<td valign="middle" align="center"><p>18.7%</p></td>
+<td valign="middle" align="center"><p>25.4%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>3 puntos</p></td>
+<td valign="middle" align="center"><p>20.3%</p></td>
+<td valign="middle" align="center"><p>14.6%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>4 puntos</p></td>
+<td valign="middle" align="center"><p>15.4%</p></td>
+<td valign="middle" align="center"><p>3.1%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>5 puntos</p></td>
+<td valign="middle" align="center"><p>9.2%</p></td>
+<td valign="middle" align="center"><p>2.3%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>6 puntos</p></td>
+<td valign="middle" align="center"><p>3.8%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>7 puntos</p></td>
+<td valign="middle" align="center"><p>1.7%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>8 puntos</p></td>
+<td valign="middle" align="center"><p>0.1%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>9 puntos</p></td>
+<td valign="middle" align="center"><p>0,1%</p></td>
+<td valign="middle" align="center"><p>0.0%</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p>Sin registro</p></td>
+<td valign="middle" align="center"><p>6.0%</p></td>
+<td valign="middle" align="center"><p>10.8%</p></td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p><sup>*</sup>UCAM: Unidad de Cuidados del adulto Mayor</p>
+<p><sup>*</sup>MQ: Unidad Médico Quirúrgico</p>
+<p><sup>*</sup>Valoración del riesgo de UPP por escala de BRADEN</p>
+<p><sup>*</sup>Valoración del riesgo de caídas por escala de J.H DOWNTON</p>
+<p><bold>Fuente:</bold> Elaboración Propia. Datos UCAM/MQ mayo- diciembre 2018.</p>
+</table-wrap-foot>
+</table-wrap>
+<p>Con los antecedentes anteriormente expuestos, se hacen evidentes las vulnerabilidades del adulto mayor que se encuentra internado en el hospital. El cambio en la funcionalidad, el aumento de la fragilidad capilar y el deterioro cognitivo entre otros expone a esta población a mayores riesgos durante la atención y conlleva a la obtención de peores resultados de salud.</p>
+<p>De manera general en CLC, el comportamiento de las caídas es similar al referido en la literatura internacional (<xref ref-type="bibr" rid="ref-6-3610">6</xref>). Este evento se presenta de igual forma en su mayoría en pacientes adultos mayores, con una leve tendencia al alza en mujeres y de manera más frecuente dentro de las habitaciones o box de atención. (<xref ref-type="fig" rid="fig-4-3610">Figuras 4</xref>, <xref ref-type="fig" rid="fig-5-3610">5</xref> y <xref ref-type="fig" rid="fig-6-3610">6</xref>)</p>
+<fig id="fig-4-3610">
+<label><bold>Figura 4:</bold></label>
+<caption><title>Tendencia de caídas generales por grupo etario. Clínica las Condes. Enero-diciembre 2018.</title></caption>
+<p><bold>Fuente.</bold> Plataforma de Gestión de Eventos adversos. Clínica las Condes. Enero-diciembre 2018.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_4-3610.png"/>
+</fig>
+<fig id="fig-5-3610">
+<label><bold>Figura 5.</bold></label>
+<caption><title>Porcentaje del riesgo de caídas en pacientes que presentaron una caída. Clínica las Condes enero-diciembre 2018.</title></caption>
+<p><bold>Fuente.</bold> Plataforma de Gestión de Eventos adversos. Clínica las Condes. Enero-diciembre 2018.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_5-3610.png"/>
+</fig>
+<fig id="fig-6-3610">
+<label><bold>Figura 6.</bold></label>
+<caption><title>Distribución porcentual de caídas según sexo. Clínica las Condes. Enero-diciembre 2018.</title></caption>
+<p><bold>Fuente.</bold> Plataforma de Gestión de Eventos adversos. Clínica las Condes. Enero-diciembre 2018.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_6-3610.png"/>
+</fig>
+<p>Específicamente en UCAM desde su apertura en mayo de 2018 a la fecha, se han registrado 3 eventos de caídas, de estos solo uno presentó lesión con herida abrasiva, repitiéndose el lugar de ocurrencia del evento, dentro de la habitación del paciente específicamente en los sillones de sedestación.</p>
+<p>Es interesante destacar que previo a la apertura de UCAM, los pacientes adultos mayores que ingresaban a CLC eran atendidos principalmente en la Unidad de Médico Quirúrgico o camas básicas, presentando un promedio de 3.6 días de estadía y una mediana de edad de 72 años, mostrando, además, un perfil de categorización predominante de pacientes C2 (mediano riesgo y dependencia parcial) con un 64.7% y solo un 6.7% de pacientes B1 (alto riesgo y dependencia total). Sin embargo, y a pesar de las características beneficiosas de sus pacientes, fue la unidad con el mayor número de caídas durante el 2018 por sobre las unidades de Hematoncología y Pediatría, tal y como se muestra en la <xref ref-type="fig" rid="fig-7-3610">figura 7</xref>.</p>
+<fig id="fig-7-3610">
+<label><bold>Figura 7:</bold></label>
+<caption><title><bold>T</bold>otal de Caídas Unidades de Hospitalización. Clínica las Condes. Mayo-diciembre 2018.</title></caption>
+<p><bold>Fuente.</bold> Plataforma de Gestión de Eventos adversos. Clínica las Condes. Enero-diciembre 2018.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig_7-3610.png"/>
+</fig>
+</sec>
+<sec sec-type="sec-5-3610">
+<title><bold>Conclusiones</bold></title>
+<p>En resumen, la generación de caídas en el adulto mayor es un problema frecuente tanto en los pacientes que se encuentran dentro del hospital como fuera de él. En CLC, la tendencia de este evento es similar a la señalada por la literatura, colocando al adulto mayor como el rango etario con mayor riesgo de sufrir este evento debido, principalmente, a sus características intrínsecas y factores del ambiente.</p>
+<p>Considerando estas condiciones, UCAM ha implementado una estrategia de cuidado interdisciplinar para la prevención de caídas en sus pacientes, lo que ha permitido disminuir el número de caídas en comparación con otras unidades con características similares y ha reducido la frecuencia de lesiones asociadas al mismo evento a pesar de cuidar de pacientes con un promedio de edad sobre los 80 años con un nivel de dependencia alto entregado por la categorización de usuarios.</p>
+<p>Dentro de las estrategias de prevención utilizadas se encuentran la valoración del riesgo de caídas por una escala validada para su uso, realización de evaluaciones de funcionalidad por kinesiología, realización de rondas horarias por todos los miembros del equipo de salud, incorporación de insumos específicos para la prevención de caídas, recordatorios visuales para el personal y capacitación continua de los mismos.</p>
+<p>De las acciones mencionadas, la que representó una implementación más dificultosa fue el uso de la escala de J.H Downton para valoración de riesgo de caídas, debido, principalmente, a que gran parte de los pacientes atendidos en la unidad son catalogados con riesgo de caídas, y por ende, el problema tiende a disminuir su real magnitud entre los miembros del personal, dato descrito en otras investigaciones que han evaluado las características psicométricas de esta escala y las cuales señalan que la escala de J.H Downton tiene mejor desempeño en pacientes no hospitalizados (<xref ref-type="bibr" rid="ref-20-3610">20</xref>).</p>
+<p>Considerando este punto, UCAM se encuentra actualmente trabajando para optimizar la valoración del riesgo de caídas en pacientes geriátricos, lo cual se perfila como el desafío futuro, manteniendo las acciones preventivas de orden multidisciplinar, las cuales, hasta el momento, han podido demostrar resultados óptimos en la reducción de caídas y de caídas con lesión en los pacientes atendidos en dicha unidad.</p>
+</sec>
+<sec sec-type="sec-6-3610">
+<title><bold>Financiación</bold></title>
+<p>No se requirió de financiamiento extra para la realización de las actividades descritas para prevención de caídas.</p>
+</sec>
+</body>
+<back>
+<ref-list><title><bold>Referencias</bold></title><ref id="ref-1-3610"><label>1.</label><mixed-citation publication-type="book"><comment>World Health Organization.</comment><article-title xml:lang="en">WHO Global Report on Falls Prevention in Older Age</article-title>. <publisher-loc>Francia</publisher-loc>:<publisher-name>World Health Organization</publisher-name><year>2007</year>; <fpage>53</fpage>p.</mixed-citation></ref>
+<ref id="ref-2-3610"><label>2.</label><mixed-citation publication-type="book"><article-title xml:lang="en">World Health Organization. Caídas [Internet]</article-title>. <source xml:lang="es">Organización Mundial de la Salud</source>. <year>2018</year><comment>[citado 11 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/es/news-room/fact-sheets/detail/falls">https://www.who.int/es/news-room/fact-sheets/detail/falls</ext-link></mixed-citation></ref>
+<ref id="ref-3-3610"><label>3.</label><mixed-citation publication-type="web"><article-title xml:lang="en">Falling Risks in Elderly Adults : a Prospective Cohort Study - Full Text View - ClinicalTrials.gov [Internet]</article-title>. <comment>[citado 11 de enero de 2019]. Disponible en:</comment> <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT03361059">https://clinicaltrials.gov/ct2/show/NCT03361059</ext-link></mixed-citation></ref>
+<ref id="ref-4-3610"><label>4.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>García</surname> <given-names>MJC</given-names></string-name>, <string-name><surname>Cala</surname> <given-names>GL</given-names></string-name>, <string-name><surname>Martínez</surname> <given-names>ARO</given-names></string-name>, <string-name><surname>Lendínez</surname> <given-names>AC</given-names></string-name>.</person-group> <article-title xml:lang="es">Prevención de caídas en el adulto mayor: revisión de nuevos conceptos basada en la evidencia</article-title>. <source xml:lang="en">EJIHPE Eur J Investig Health Psychol Educ [Internet]</source>. <year>2016</year><comment>[citado 14 de enero de 2019]</comment>;<volume>6</volume><issue>(2):</issue><fpage>71</fpage>-<lpage>82</lpage>.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=6130992">https://dialnet.unirioja.es/servlet/articulo?codigo=6130992</ext-link></mixed-citation></ref>
+<ref id="ref-5-3610"><label>5.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>Ramos</surname> <given-names>MGR</given-names></string-name>, <string-name><surname>Ferrer</surname> <given-names>AV</given-names></string-name>, <string-name><surname>Campo</surname> <given-names>JMDC del</given-names></string-name>, <string-name><surname>Hidalgo</surname> <given-names>JLT</given-names></string-name>, <string-name><surname>Arco</surname> <given-names>NM del</given-names></string-name>, <string-name><surname>Martínez</surname> <given-names>IP</given-names></string-name>.</person-group> <article-title xml:lang="es">Factores de riesgo de Caídas en ancianos</article-title>. <source xml:lang="pt">Rev Clínica Med Fam [Internet]</source>. <year>2007</year><comment>[citado 14 de enero de 2019]</comment>;<volume>2</volume><issue>(1):</issue><fpage>20</fpage>–<lpage>4</lpage>.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=169617650005">http://www.redalyc.org/articulo.oa?id=169617650005</ext-link></mixed-citation></ref>
+<ref id="ref-6-3610"><label>6.</label><mixed-citation publication-type="book"><comment>Registered Nurses of Ontario</comment>. <article-title xml:lang="en">Preventing falls and reducing injury from falls, fourth edition [Internet]</article-title>. <comment>[citado 14 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://rnao.ca/bpg/guidelines/prevention-falls-and-fall-injuries">https://rnao.ca/bpg/guidelines/prevention-falls-and-fall-injuries</ext-link></mixed-citation></ref>
+<ref id="ref-7-3610"><label>7.</label><mixed-citation publication-type="book"><comment>Agency for healthcare research and quality</comment>. <article-title xml:lang="es">Prevención de caídas en hospitales [Internet]</article-title>. <year>2013</year><comment>[citado 14 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.ahrq.gov/professionals/systems/hospital/fallpxtoolkit/fallpxtkover.html">https://www.ahrq.gov/professionals/systems/hospital/fallpxtoolkit/fallpxtkover.html</ext-link></mixed-citation></ref>
+<ref id="ref-8-3610"><label>8.</label><mixed-citation publication-type="book"><article-title xml:lang="es">Best Practice Spotlight Organisation: ciencia de la implementación en su máxima expresión [Internet]</article-title>. <comment>[citado 16 de mayo de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.reflectionsonnursingleadership.org/features/more-features/best-practice-spotlight-organization-implementation-science-at-its-best">https://www.reflectionsonnursingleadership.org/features/more-features/best-practice-spotlight-organization-implementation-science-at-its-best</ext-link></mixed-citation></ref>
+<ref id="ref-9-3610"><label>9.</label><mixed-citation publication-type="book"><comment>Registered Nurses Of Ontario (RNAO)</comment>. <article-title xml:lang="es">Herramienta de implantación de buenas prácticas [Internet]</article-title>. <source xml:lang="gl">segunda edición. investén</source>;<year>2012</year><comment>[citado 16 de mayo de 2019]</comment>. <fpage>158</fpage> p.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://rnao.ca/sites/rnao-ca/files/Toolkit_en15.pdf">https://rnao.ca/sites/rnao-ca/files/Toolkit_en15.pdf</ext-link></mixed-citation></ref>
+<ref id="ref-10-3610"><label>10.</label><mixed-citation publication-type="book"><comment>Instituto nacional de Estadísticas</comment>. <article-title xml:lang="es">Demográficas y Vitales [Internet]</article-title>. <source xml:lang="es">Estadísticas demográficas y vitales</source>. <year>2016</year><comment>[citado 15 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.ine.cl/estadisticas/demograficas-y-vitales">http://www.ine.cl/estadisticas/demograficas-y-vitales</ext-link></mixed-citation></ref>
+<ref id="ref-11-3610"><label>11.</label><mixed-citation publication-type="book"><comment>Comisión económica para América latina y el Caribe</comment>. <article-title xml:lang="es">Protección y participación en la vejez: escenarios futuros y políticas públicas para enfrentar el envejecimiento en Chile | Repositorio Digital | Comisión Económica para América Latina y el Caribe [Internet]</article-title>. <source xml:lang="es">Repositorio CEPAL</source>. <year>2007</year><comment>[citado 15 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://repositorio.cepal.org/handle/11362/3581">https://repositorio.cepal.org/handle/11362/3581</ext-link></mixed-citation></ref>
+<ref id="ref-12-3610"><label>12.</label><mixed-citation publication-type="book"><comment>National Institute for Health and Care Excellence (NICE)</comment>. <article-title xml:lang="en">Falls in older people: assessing risk and prevention (CG161)- ClinicalKey for Nursing [Internet]</article-title>. <source xml:lang="en">Guideline</source>. <year>2013</year><comment>[citado 15 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.clinicalkey.com/nursing/#!/content/nice_guidelines/65-s2.0-CG161">https://www.clinicalkey.com/nursing/#!/content/nice_guidelines/65-s2.0-CG161</ext-link></mixed-citation></ref>
+<ref id="ref-13-3610"><label>13.</label><mixed-citation publication-type="book"><comment>Resolución Exenta N° 1031 - Resolución Exenta N° 1031 [Internet]</comment>. <article-title xml:lang="es">Observatorio de Calidad en Salud</article-title>. <source xml:lang="es">Superintendencia de Salud, Gobierno de Chile</source>. <comment>[citado 4 de febrero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.supersalud.gob.cl/observatorio/671/w3-article-8928.html">http://www.supersalud.gob.cl/observatorio/671/w3-article-8928.html</ext-link></mixed-citation></ref>
+<ref id="ref-14-3610"><label>14.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>javier</surname> <given-names>Cid Ruzafa</given-names></string-name>, <string-name><surname>Javier</surname> <given-names>Damian Moreno</given-names></string-name>.</person-group> <article-title xml:lang="es">Valoración de la discapacidad física: el índice de Barthel [Internet]</article-title>. <comment>[citado 30 de enero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&#x0026;pid=S1135-57271997000200004">http://scielo.isciii.es/scielo.php?script=sci_arttext&#x0026;pid=S1135-57271997000200004</ext-link></mixed-citation></ref>
+<ref id="ref-15-3610"><label>15.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>Martínez-Monje</surname> <given-names>F</given-names></string-name>, <string-name><surname>Cortés-Gálvez</surname> <given-names>JM</given-names></string-name>, <string-name><surname>Cartagena-Pérez</surname> <given-names>Y</given-names></string-name>, <string-name><surname>Alfonso-Cano</surname> <given-names>C</given-names></string-name>, <string-name><surname>Sánchez-López</surname> <given-names>MI</given-names></string-name>, <string-name><surname>Leal-Hernández</surname> <given-names>M</given-names></string-name>.</person-group> <article-title xml:lang="es">Valoración de la capacidad funcional en ancianos mayores de 70 años con la escala Short Physical Performance Battery</article-title>. <source xml:lang="lb">Aten Fam [Internet]</source>. <day>1</day> de<month>octubre</month> de<year>2017</year><comment>[citado 4 de febrero de 2019]</comment>;<volume>24</volume><issue>(4):</issue><fpage>145</fpage>-<lpage>9</lpage>.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1405887117300536">http://www.sciencedirect.com/science/article/pii/S1405887117300536</ext-link></mixed-citation></ref>
+<ref id="ref-16-3610"><label>16.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>García</surname> <given-names>GMA</given-names></string-name>, <string-name><surname>Castillo</surname> <given-names>FL</given-names></string-name>.</person-group> <article-title xml:lang="es">Categorización de usuarios: una herramienta para evaluar las cargas de trabajo de enfermería</article-title>. <source xml:lang="es">Rev Médica Chile [Internet]</source>. <month>febrero</month> de<year>2000</year><comment>[citado 30 de enero de 2019]</comment>;<volume>128</volume><issue>(2):</issue><fpage>177</fpage>-<lpage>83</lpage><comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://scielo.conicyt.cl/scielo.php?script=sci_abstract&#x0026;pid=S0034-98872000000200007&#x0026;lng=es&#x0026;nrm=iso&#x0026;tlng=es">https://scielo.conicyt.cl/scielo.php?script=sci_abstract&#x0026;pid=S0034-98872000000200007&#x0026;lng=es&#x0026;nrm=iso&#x0026;tlng=es</ext-link></mixed-citation></ref>
+<ref id="ref-17-3610"><label>17.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>Bernal</surname> <given-names>MC</given-names></string-name>, <string-name><surname>Curcio</surname> <given-names>CL</given-names></string-name>, <string-name><surname>Chacón</surname> <given-names>JA</given-names></string-name>, <string-name><surname>Gómez</surname> <given-names>JF</given-names></string-name>, <string-name><surname>Botero</surname> <given-names>AM</given-names></string-name>.</person-group> <article-title xml:lang="es">Validez y fiabilidad de la escala de Braden para predecir riesgo de úlceras por presión en ancianosl</article-title>. <source xml:lang="es">Rev Esp Geriatría Gerontol [Internet]</source>. <day>1</day> de<month>enero</month> de<year>2001</year><comment>[citado 30 de enero de 2019]</comment>;<volume>36</volume><issue>(5):</issue><fpage>281</fpage>-<lpage>6</lpage>.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S0211139X01747373">http://www.sciencedirect.com/science/article/pii/S0211139X01747373</ext-link></mixed-citation></ref>
+<ref id="ref-18-3610"><label>18.</label><mixed-citation publication-type="book"><article-title xml:lang="en">Falls in older people: assessing risk and prevention | Guidance and guidelines | NICE [Internet]</article-title>. <comment>[citado 5 de febrero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.nice.org.uk/guidance/cg161">https://www.nice.org.uk/guidance/cgl61</ext-link></mixed-citation></ref>
+<ref id="ref-19-3610"><label>19.</label><mixed-citation publication-type="book"><comment>Joint Commission International JCI</comment>. <article-title xml:lang="en">Preventing Falls in Inpatient and Outpatient Settings - General News - News [Internet]</article-title>. <source xml:lang="en">Joint Commission International</source>. <comment>[citado 5 de febrero de 2019]. Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="https://www.jointcommissioninternational.org/6th-edition-in-depth-preventing-falls-in-inpatient-and-outpatient-settings/">https://www.jointcommissioninternational.org/6th-edition-in-depth-preventing-falls-in-inpatient-and-outpatient-settings/</ext-link></mixed-citation></ref>
+<ref id="ref-20-3610"><label>20.</label><mixed-citation publication-type="book"><person-group person-group-type="allauthors"><string-name><surname>Bueno-García</surname> <given-names>MJ</given-names></string-name>, <string-name><surname>Roldán-Chicano</surname> <given-names>MT</given-names></string-name>, <string-name><surname>Rodríguez-Tello</surname> <given-names>J</given-names></string-name>, <string-name><surname>Meroño-Rivera</surname> <given-names>MD</given-names></string-name>, <string-name><surname>Dávila-Martínez</surname> <given-names>R</given-names></string-name>, <string-name><surname>Berenguer-García</surname> <given-names>N</given-names></string-name>.</person-group> <article-title xml:lang="es">Características de la escala Downton en la valoración del riesgo de caídas en pacientes hospitalizados</article-title>. <source xml:lang="pt">Enferm Clínica [Internet]</source>. <day>1</day> de <month>julio</month> de<year>2017</year><comment>[citado 5 de febrero de 2019]</comment>;<volume>27</volume><issue>(4):</issue><fpage>227</fpage>-<lpage>34</lpage>.<comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1130862117300256">http://www.sciencedirect.com/science/article/pii/S1130862117300256</ext-link></mixed-citation></ref></ref-list>
+</back>
+</article>

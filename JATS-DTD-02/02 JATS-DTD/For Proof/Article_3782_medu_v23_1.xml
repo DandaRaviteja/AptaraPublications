@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "file:/E:/PEM/Publicaciones%20Academicas/JATS-Publishing-1-2-MathML3-DTD/JATS-journalpublishing1-mathml3.dtd">
+<?xml-stylesheet type="text/xsl" href="jpub3-html.xsl"?>
+<article article-type="research-article" dtd-version="1.2" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">medu</journal-id>
+<journal-title-group>
+<journal-title>Medunab</journal-title>
+<abbrev-journal-title>Medunab</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">0123-7047</issn>
+<issn pub-type="epub">2382-4603</issn>
+<publisher>
+<publisher-name>Universidad Autónoma De Bucaramanga</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">3782</article-id>
+<article-id pub-id-type="doi">10.29375/01237047.3782</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo original</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Percepciones sobre el conocimiento de la detección temprana de la ambliopía de médicos generales y pediatras de Bucaramanga</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">Perceptions on knowledge about the early detection of amblyopia among general practitioners and pediatricians in Bucaramanga</trans-title>
+</trans-title-group>
+<trans-title-group>
+<trans-title xml:lang="pt">Percepções sobre o conhecimento da detecção precoce de ambliopia de médicos gerais e pediatras de Bucaramanga</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Maldonado Rueda</surname>
+<given-names>Silvia Juliana</given-names>
+</name>
+<degrees>Opt.</degrees>
+<aff>
+<institution content-type="orgname">Optómetra, Universidad Santo Tomás</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Optómetra, Universidad Santo Tomás, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Marzal Guerra</surname>
+<given-names>Elsa Emilia</given-names>
+</name>
+<degrees>Opt.</degrees>
+<aff>
+<institution content-type="orgname">Optómetra, Universidad Santo Tomás</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Optómetra, Universidad Santo Tomás, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Delgado-Serrano</surname>
+<given-names>Josué</given-names>
+</name>
+<degrees>MD.</degrees>
+<aff>
+<institution content-type="orgname">Médico, Universidad Autónoma de Bucaramanga</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Médico, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Cepeda-Bareño</surname>
+<given-names>Daniel Felipe</given-names>
+</name>
+<degrees>MD.</degrees>
+<aff>
+<institution content-type="orgname">Médico, Universidad Autónoma de Bucaramanga</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Médico, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Pilar Oviedo Cáceres</surname>
+<given-names>María del</given-names>
+</name>
+<degrees>Opt., MSc., PhD.(c)</degrees>
+<aff>
+<institution content-type="orgname">Optómetra, Magíster en Salud Pública, Candidata a Doctora en Salud Pública. Docente Universidad Santo Tomás</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Optómetra, Magíster en Salud Pública, Candidata a Doctora en Salud Pública. Docente Universidad Santo Tomás, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+</contrib-group>
+<author-notes>
+<corresp id="c1">María del Pilar Oviedo-Cáceres. Optómetra, Magíster en Salud Pública, Candidata a Doctora en Salud Pública. Facultad de Optometría, Universidad Santo Tomás, Campus Floridablanca, Santander, Colombia. <email>maria.oviedo@ustabuca.edu.co</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>31</day>
+<month>03</month>
+<year>2020</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>23</volume>
+<issue>1</issue>
+<fpage>62</fpage>
+<lpage>71</lpage>
+<history>
+<date date-type="received">
+<day>12</day>
+<month>10</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>31</day>
+<month>01</month>
+<year>2020</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© 2020 Universidad Autónoma De Bucaramanga</copyright-statement>
+<copyright-year>2020</copyright-year>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+<license-p>Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title><bold>RESUMEN</bold></title>
+<sec>
+<title><bold>Introducción.</bold></title>
+<p>La ambliopía es un desorden visual originado durante el desarrollo cortical considerándose la causa de ceguera prevenible más frecuente. El diagnóstico y tratamiento temprano han demostrado ser efectivos; sin embargo, su detección es tardía debido, en parte, a falta de conocimiento. El objetivo del presente artículo es describir las percepciones sobre el conocimiento de médicos generales y pediatras en Bucaramanga acerca de la detección temprana de la ambliopía.</p>
+</sec>
+<sec>
+<title><bold>Metodología.</bold></title>
+<p>Se realizó un estudio cualitativo descriptivo de tipo exploratorio, utilizando como técnica entrevistas semi-estructuradas a 20 profesionales de la salud, para ello se usó el enfoque de Taylor y Bogdan.</p>
+</sec>
+<sec>
+<title><bold>Resultados.</bold></title>
+<p>Las entrevistas permitieron identificar dos categorías: falencias en el proceso de formación del pregrado y posgrado, y barreras de infraestructura para la realización de valoración visual; además de cuatro subcategorías entre las que se identifican conceptos erróneos sobre la ambliopía, falta de claridad sobre la edad oportuna para la realización de la valoración visual de primera vez, así como imaginarios errados relacionados con la valoración y remisión a servicios especializados de optometría y oftalmología. Discusión. El estudio permitió develar la falta de conocimientos de los profesionales de la salud y las distintas causas que contribuyen a esta problemática, así como la importancia del fortalecimiento de este tema en los currículos.</p>
+</sec>
+<sec>
+<title><bold>Conclusión.</bold></title>
+<p>Es necesario fortalecer el conocimiento de los médicos generales y pediatras con el fin de detectar precozmente los niños en riesgo de ambliopía y reducir la carga de la enfermedad.</p>
+</sec>
+</abstract>
+<trans-abstract xml:lang="en">
+<title><bold>ABSTRACT</bold></title>
+<sec>
+<title><bold>Introduction.</bold></title>
+<p>Amblyopia is a visual disorder that arises during cortical development, and is considered the most frequent cause of preventable blindness. Early diagnosis and treatment have been demonstrated to be highly effective. However, it is often detected at a late stage, partly due to lack of knowledge. The purpose of this article is to describe the perceived knowledge of general practitioners and pediatricians in Bucaramanga on the early detection of amblyopia.</p>
+</sec>
+<sec>
+<title><bold>Methodology.</bold></title>
+<p>A descriptive, qualitative exploratory study was performed, by means of semi-structured interviews of 20 healthcare professionals, using the approach suggested by Taylor and Bogdan.</p>
+</sec>
+<sec>
+<title><bold>Results.</bold></title>
+<p>The interview results found two types of issues: shortcomings in undergraduate and graduate training, lack of infrastructure to perform the visual assessment. It also detected four sub-categories, including incorrect concepts about amblyopia, lack of clarity about the right age to perform the first-time visual assessment, and erroneous beliefs about the assessment and referral to specialized optometry and ophthalmology services.</p>
+</sec>
+<sec>
+<title><bold>Discussion.</bold></title>
+<p>The study found gaps in knowledge by healthcare professionals as well as the different contributing factors to this problem, and indicates the importance of strengthening this subject in the curricula.</p>
+</sec>
+<sec>
+<title><bold>Conclusion.</bold></title>
+<p>It is necessary to strengthen knowledge among general practitioners and pediatricians to enable the early detection of children at risk of amblyopia and reduce the burden of this disease.</p>
+</sec>
+</trans-abstract>
+<trans-abstract xml:lang="pt">
+<title><bold>RESUMO</bold></title>
+<sec>
+<title><bold>Introdução.</bold></title>
+<p>A ambliopia é um transtorno visual causado durante o desenvolvimento cortical, considerado a causa mais frequente de cegueira evitável. O diagnóstico e o tratamento precoce provaram ser eficazes; no entanto, sua detecção é tardia devido, em parte, à falta de conhecimento. O objetivo deste artigo é descrever as percepções sobre o conhecimento de médicos gerais e pediatras em Bucaramanga a respeito da detecção precoce da ambliopia.</p>
+</sec>
+<sec>
+<title><bold>Métodos.</bold></title>
+<p>Foi realizado um estudo descritivo, exploratório e qualitativo, utilizando entrevistas semiestruturadas com 20 profissionais de saúde, fazendo uso da abordagem de Taylor e Bogdan.</p>
+</sec>
+<sec>
+<title><bold>Resultados.</bold></title>
+<p>As entrevistas permitiram identificar duas categorias, falhas no processo de formação dos graduandos e pósgraduandos, barreiras de infraestrutura para realizar avaliação visual e quatro subcategorias, entre as quais estão: conceitos errôneos sobre a ambliopia, falta de clareza sobre a idade apropriada para realizar a primeira avaliação visual, bem como uma valoração errônea relacionada com a avaliação e encaminhamento para serviços especializados de optometria e oftalmologia.</p>
+</sec>
+<sec>
+<title><bold>Discussão.</bold></title>
+<p>O estudo revelou o desconhecimento dos profissionais da saúde e as diferentes causas que contribuem para esse problema, bem como a importância de fortalecer essa questão nos currículos.</p>
+</sec>
+<sec>
+<title><bold>Conclusão.</bold></title>
+<p>É necessário ampliar o conhecimento dos médicos gerais e pediatras na detecção precoce das crianças em risco de ambliopia e reduzir a carga da doença.</p>
+</sec>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title><bold>Palabras claves:</bold></title>
+<kwd>Ambliopía</kwd>
+<kwd>Prevention Secundaria</kwd>
+<kwd>Agudezavisual</kwd>
+<kwd>Pediatria</kwd>
+<kwd>Optometría</kwd>
+<kwd>Conocimiento</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title><bold>Keywords:</bold></title>
+<kwd>Amblyopia</kwd>
+<kwd>Secondary Prevention</kwd>
+<kwd>Visual Acuity</kwd>
+<kwd>Pediatrics</kwd>
+<kwd>Optometry</kwd>
+<kwd>Knowledge</kwd>
+</kwd-group>
+<kwd-group xml:lang="pt">
+<title><bold>Palavras-chave:</bold></title>
+<kwd>Ambliopia</kwd>
+<kwd>Prevenção Secundária</kwd>
+<kwd>Acuidade Visual</kwd>
+<kwd>Pediatria</kwd>
+<kwd>Optometria</kwd>
+<kwd>Conhecimento</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec sec-type="sec-1-3782">
+<title><bold>Introducción</bold></title>
+<p>La ambliopía es un desorden en el desarrollo cortical que se da en edades tempranas, se manifiesta con disminución monocular o binocular en la agudeza visual no atribuible a anormalidades estructurales en el ojo o en las vías visuales (<xref ref-type="bibr" rid="ref-1-3782">1</xref>). Esta se produce por la inhibición de señales neurológicas en la vía visual del ojo ambliope durante el desarrollo visual, lo que provoca una disparidad en la visión procedente de cada ojo (<xref ref-type="bibr" rid="ref-2-3782">2</xref>). Clínicamente se define como una agudeza visual deficiente que no puede corregirse inmediatamente con medidas terapéuticas convencionales como gafas o lentes de contacto; requiere de un tratamiento especializado oportuno (<xref ref-type="bibr" rid="ref-3-3782">3</xref>).</p>
+<p>Sus principales factores de riesgo incluyen pr ematurez, bajo peso para la edad gestacional, antecedente familiar, retraso en el desarrollo, tabaquismo, abuso de sustancias durante el embarazo, el estrabismo, los errores de refracción, catarata, historia familiar de ambliopía y puntaje APGAR bajo a los 5 minutos (<xref ref-type="bibr" rid="ref-4-3782">4</xref>).</p>
+<p>Globalmente, esta afectación se considera la principal causa de disfunción monocular, afectando entre el 2 y el 5% de la población general (<xref ref-type="bibr" rid="ref-5-3782">5</xref>). En Colombia se registran alrededor de 41,519 casos de ambliopia, con una prevalencia estimada para el 2014 de 19.08 casos por cada 100,000 habitantes, siendo más frecuente en mujeres (<xref ref-type="bibr" rid="ref-6-3782">6</xref>). La ambliopía es la causa más importante de ceguera prevenible en niños, así como una de las principales causas de pérdida visual unilateral que persiste en la edad adulta, lo que limita la capacidad para el procesamiento de la información visual, y por tanto de las actividades de aprendizaje y desarrollo (<xref ref-type="bibr" rid="ref-2-3782">2</xref>).</p>
+<p>Teniendo en cuenta su frecuencia y el impacto que representa en el desarrollo neurosensorial, esta condición visual puede afectar la inclusión de niños en la sociedad como miembros activos, afectando así su calidad de vida. Hay evidencia que reporta que además de imponer una carga económica a la sociedad, esta condición causa trastornos psicológicos, ansiedad social e incapacidad para realizar en actividades grupales (<xref ref-type="bibr" rid="ref-7-3782">7</xref>). La detección temprana de la ambliopía es crucial para obtener la mejor respuesta al tratamiento. Si la ambliopía no se reconoce o no se trata después de los primeros años de vida, a menudo no se puede tratar con éxito y la visión no se puede restaurar por completo en el ojo ambliópico (<xref ref-type="bibr" rid="ref-8-3782">8</xref>). En Colombia se recomienda realizar tamización visual a los niños desde el nacimiento, con periodicidad semestral hasta que el niño coopere con el examen de agudeza visual y, posteriormente, seguimiento anual hasta los 5 años (<xref ref-type="bibr" rid="ref-9-3782">9</xref>). Internacionalmente, se recomienda iniciar el tratamiento de la ambliopia antes de los 3 o 4 años de edad (<xref ref-type="bibr" rid="ref-10-3782">10</xref>,<xref ref-type="bibr" rid="ref-11-3782">11</xref>).</p>
+<p>A pesar de lo anterior, el diagnóstico sigue siendo tardío y son varios los motivos que lo retrasan (<xref ref-type="bibr" rid="ref-12-3782">12</xref>,<xref ref-type="bibr" rid="ref-13-3782">13</xref>), entre los que se destaca la falta de conocimiento de los profesionales de la salud. Por tanto, en la formación de pregrado y posgrado de pediatría debe concederse la debida importancia a la profundización en este tema, de modo que los futuros profesionales sean capaces de valorar y reconocer las implicaciones clínicas, de desarrollo y sociales de las alteraciones del desarrollo ocular en niñas y niños, para su identificación temprana y derivación a los servicios especializados.</p>
+<p>En este sentido cobra relevancia indagar por la percepción sobre el conocimiento que tienen estos profesionales acerca de la ambliopia, entendiendo el conocimiento como “un acto consciente, una forma particular e individual de visualizar las complejidades de una situación y de reunir recursos internos experimentados anteriormente para darle significado” (<xref ref-type="bibr" rid="ref-14-3782">14</xref>), o dicho de otra manera como la organización o suma de información con que cuenta un grupo acerca de un hecho o fenómeno.</p>
+<p>Mundialmente se ha reportado preocupación por la formación de los médicos y los efectos que esto implica sobre la salud de la comunidad y el buen desarrollo de los sistemas de salud (<xref ref-type="bibr" rid="ref-15-3782">15</xref>); sin embargo, en la actualidad son pocos los estudios a nivel regional que permiten comprender las dinámicas que se dan en la práctica clínica de médicos generales y pediatras en torno a esta problemática; por lo tanto, el objetivo de este artículo es describir las percepciones sobre el conocimientos que tienen los médicos generales y pediatras de Bucaramanga acerca de la detección temprana de ambliopía.</p>
+</sec>
+<sec sec-type="sec-2-3782">
+<title><bold>Metodología</bold></title>
+<p>La investigación se posiciona en el paradigma cualitativo a fin comprender el fenómeno dentro de su contexto usual, retomando a Creswell, quien considera que la investigación cualitativa es un proceso interpretativo de indagación que examina un problema humano o social (<xref ref-type="bibr" rid="ref-16-3782">16</xref>). En este sentido, se realizó un estudio cualitativo descriptivo de tipo exploratorio, con el objetivo de indagar sobre las percepciones que tienen los profesionales en medicina y pediatría acerca del conocimiento acerca de la ambliopía. Se utilizó este enfoque por su capacidad de recabar por lo esencial de la experiencia vivida por los profesionales durante el proceso de atención clínica de pacientes pediátricos, así como sus opiniones y prácticas asumidas en la atención rutinaria. Estos estudios son aplicados cuando el objetivo es examinar un problema poco estudiado (<xref ref-type="bibr" rid="ref-17-3782">17</xref>). En la actualidad, a nivel nacional no se cuentan con estudios de este tipo que indaguen conocimientos sobre el tema de la presente investigación.</p>
+<p>Como herramienta de recolección de información se utilizó la entrevista semiestructurada, la cual permitió que a través de una conversación se pudieran abordar los temas relacionados con conocimientos de ambliopía, elementos que se tienen en cuenta a la hora de hacer valoración visual de niñas y niños, criterios de remisión a valoración especializada, entre otros (<xref ref-type="bibr" rid="ref-18-3782">18</xref>). Se utilizó esta técnica dada su ventaja en cuanto a la posibilidad de adaptarse para motivar al interlocutor, aclarar términos, identificar ambigüedades y reducir formalismos, entre otros (<xref ref-type="bibr" rid="ref-19-3782">19</xref>). Las entrevistas fueron realizadas en su totalidad por una de las investigadoras con experiencia en investigación cualitativa. Cada entrevista duró aproximadamente una hora. Para el desarrollo de las mismas se construyó un guion que permitió propiciar la conversación en los aspectos generales de la investigación, con preguntas tales como ¿Qué es lo primero que asocia cuando se le menciona la palabra ambliopía?, ¿Cómo valora la salud visual en los pacientes que asisten a consulta?, ¿En su proceso de formación recibió información sobre ambliopía? A partir de la formulación de las anteriores preguntas, la investigadora orientó la conversación para profundizar en los aspectos emergentes, que eran claves para la comprensión del fenómeno.</p>
+<p>La elección de los participantes se realizó teniendo en cuenta lo propuesto por De la Cuesta, promoviendo la información diversa para hacer una descripción rica sobre el fenómeno de estudio, en este sentido se invitaron a participar a médicos generales y pediatras con diferentes años de experiencia, vinculación a instituciones públicas y privadas, y egresados de diferentes escuelas (<xref ref-type="bibr" rid="ref-20-3782">20</xref>).</p>
+<p>Para el proceso de análisis se utilizó el diseño metodológico desde el enfoque propuesto por Taylor y Bogdan, quienes plantean un método para el análisis de la información a partir de los hallazgos dados en las entrevistas, por tanto, se siguió el proceso de descubrimiento, codificación y relativización de los datos (<xref ref-type="bibr" rid="ref-21-3782">21</xref>). Todas las entrevistas fueron grabadas en medio magnético, identificadas teniendo en cuenta el rol del entrevistado, asignándose un número para cada una. Para apoyar el análisis de los relatos de los participantes se utilizó el software Atlas Ti (v. 6.2). Las transcripciones fueron leídas y releídas por los investigadores tomando notas de los pensamientos iniciales y los posibles códigos. Posteriormente el equipo de investigación revisó y discutió los temas y las citas de apoyo hasta que se alcanzó el consenso.</p>
+<p>La selección de los participantes fue intencional, utilizando el criterio de entrevistado especial, definido como aquellos que se ubican en una posición de observación y actuación única en la comunidad (<xref ref-type="bibr" rid="ref-22-3782">22</xref>), en este sentido, se invitaron a participar a profesionales en medicina general y especialistas en pediatría con diferentes años de experiencia y diversa escuela de formación que trabajan en dos centros de atención de referencia de la ciudad de Bucaramanga. Para definir el número de participantes a entrevistar se utilizó el criterio de saturación, entendido como el momento en que después de la realización de un número de entrevistas el material cualitativo deja de aportar datos nuevos, los datos comienzan a ser repetitivos y no se logran aprehensiones nuevas importantes.</p>
+<p>En total se realizaron 20 entrevistas: 10 a médicos generales y 10 a pediatras que trabajan en instituciones de Bucaramanga y su área metropolitana. Las personas fueron contactadas personalmente. A cada participante se le explicó los objetivos de la investigación, la metodología empleada y los resultados esperados del estudio. Se les solicitó su consentimiento informado de manera verbal para la realización de las entrevistas semi-estructuradas. En todo momento se garantizó el manejo ético, anónimo y confidencial de la información. Esta investigación contó con el aval del comité de investigaciones de la facultad de Optometría de la Universidad Santo Tomás-Bucaramanga.</p>
+</sec>
+<sec sec-type="sec-3-3782">
+<title><bold>Resultados</bold></title>
+<p>Los hallazgos más relevantes de la presente investigación se reflejan en la <xref ref-type="bibr" rid="fig-1-3782">figura 1</xref>, la cual describe las categorías emergentes.</p>
+<fig id="fig-1-3782">
+<label><bold>Figura 1.</bold></label>
+<caption><title>categorías y subcategorías emergentes tras el análisis de discurso</title></caption>
+<p><bold>Fuente:</bold> Elaboración propia.</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig-1-3782.png"/>
+</fig>
+<p>Estas categorías y subcategorías emergen a partir del análisis del discurso de las personas entrevistadas tras la revisión del texto y los aspectos de la última fase del análisis de relativización según Taylor y Bogdan (<xref ref-type="bibr" rid="ref-21-3782">21</xref>). De esta manera, se identifica que los médicos generales y especialistas en pediatría no cuentan con formación académica que les permita realizar una adecuada detección oportuna de las alteraciones visuales y oculares que pueden generar ambliopía, lo cual se explica por la ausencia de espacios formativos específicos en salud visual en el currículo de las escuelas de medicina y de la especialidad, así como la falta de espacios de práctica para el acercamiento al tema. Estos dos elementos tienen unas implicaciones en la práctica clínica, pues no cuentan con herramientas suficientes para la atención de pacientes: se identifican por una parte conceptos erróneos sobre la ambliopía, falta de claridad sobre la edad oportuna para la realización de la valoración visual de primera vez de los pacientes pediátricos, así como imaginarios errados relacionados con la valoración y remisión a servicios especializados de optometría y oftalmología. A estas situaciones se suman las barreras relacionadas con el contexto administrativo en el que se da la prestación de los servicios de salud, pues los profesionales en su práctica cotidiana no cuentan con los recursos tecnológicos necesarios para la detección de alteraciones visuales y/u oculares.</p>
+<sec sec-type="sec-4-3782">
+<title><bold>Ausencia de espacios formativos y de práctica para el acercamiento al tema</bold></title>
+<p>El desarrollo de la investigación permitió identificar a través del discurso de las personas entrevistadas que los médicos generales y especialistas no cuentan con una formación académica que les permita tener herramientas para una detección temprana de las alteraciones visuales y oculares que pueden generar ambliopía.</p>
+<p><italic>“No nunca, nunca fue enfatizar en ambliopía, no, tuvimos una clase y listo, en quinto semestre nos la nombraron, pero ya” [Médica general 23 años]. “No, en la universidad no se manejó el tema de ambliopía, y fue muy poco lo que se manejó de agudeza visual” [Médico general 51 años]. “No, nada ni en la especialización ni en el pregrado me mencionaron ese tema, nos hablaban más que todo de las patologías que se puede encontrar en fondo de ojo como retinopatías, desprendimiento de retina, etc.” [Médica pediatra 47 años]. “La verdad es que este tema no se toca mucho, incluso ni siquiera en la especialización que es donde se supone debería haber un poco más de información ya que está más enfocada a los niños ¿no?” [Médica pediatra, 43 años]</italic></p>
+<p>Las personas entrevistadas identifican que en su formación no cuentan con suficientes espacios y tiempos para abordar esta temática; los centros de formación han centrado la atención hacia otro tipo de alteraciones visuales y oculares.</p>
+<p><italic>“La parte de oftalmología, pero de verdad muy somero, muy orientado a las patologías, como la miopía, la hipermetropía, la presbicia” [Médica general, 23 años]. “Cuando rotamos por oftalmología no fue algo muy profundo, casi siempre las clases se concentraban más en las infecciones de ojo, en el glaucoma, más que en los trastornos de la agudeza visual” [Médica general, 25 años]</italic></p>
+<p>Así mismo, identifican la falta de espacios académicos y de práctica clínica para tener un acercamiento más detallado del tema.</p>
+<p><italic>“Nosotros rotamos apenas 15 días, y allá le dan información completa de como examinar, y pues ellos lo llevan a uno a cirugía a ver, pero sobre ambliopía no” [Médica general, 36 años] “En la formación como estudiante, uno en realidad no enfatiza mucho en eso porque cuando uno está estudiando medicina, la materia electiva que le dan a uno se llama oftalmología, entonces son solamente tres meses que ve uno de la materia en sí, y supongo que es una cosa gigante y uno no alcanza a ver todo el tema” [Médica general, 25 años]</italic></p>
+<p>En este sentido, desde los profesionales de medicina general no se reconoce la ambliopía como un problema prioritario de salud visual que genera secuelas a largo plazo si no es detectada ni tratada a tiempo. Esta situación difiere en algunos de los testimonios de las personas especialistas en pediatría, pues se menciona la importancia del tema para evitar complicaciones a largo plazo, por lo tanto, reconocen la importancia de un diagnóstico temprano para dar un manejo oportuno para obtener mejores resultados</p>
+<p><italic>“La ambliopía es una situación donde puede dejar secuelas de por vida” [Médica pediatra, 41 años]. “Obviamente alteraciones que se tienen que ver desde muy temprano por el desarrollo neurológico, por la pérdida de este, la idea es hacer tratamiento antes de los seis años” [Médico pediatra, 47 años].</italic></p>
+</sec>
+<sec sec-type="sec-5-3782">
+<title><bold>Falencias en el conocimiento de la ruta de atención para la detección temprana de alteraciones visuales</bold></title>
+<p>Por otra parte, el análisis del discurso permitió identificar que no existe claridad en relación con la ruta para la atención de niñas y niños con alteraciones visuales y oculares, lo cual se explica desde el desconocimiento de los profesionales frente al concepto de ambliopía, su manejo y criterios de remisión. Esta falta de conocimiento es percibida como una barrera para la atención especializada, pues esta alteración es una condición crítica que de no ser tratada a tiempo genera secuelas permanentes.</p>
+<p>Un aspecto crítico emergente en el análisis de la información tiene que ver con la realización del examen físico rutinario y la falta de consenso en relación con la edad ideal para la derivación a servicios especializados de salud visual. En este sentido se identifican imaginarios relacionados con la necesidad de que las niñas y niños puedan dar respuesta a las pruebas de agudeza visual y, por tanto, se espera a que estén en etapa escolar para derivar a valoración; esto devela las falencias en la exploración sensorial visual como aspectos cruciales en la atención. A lo anterior se suman los aspectos normativos del sistema de salud que define ciertas edades para los controles de promoción y prevención. La mayoría de los médicos generales menciona que la edad ideal para la primera valoración visual es de cinco años.</p>
+<p><italic>“Por lo general es a los 5 años es como la edad en la que los niños empiezan a pronunciar más o menos claro” [Médica general 25 años]. “Un niño pequeño no te va a decir que ve bien, lo hace cuando comienza a hablar bien que es a partir de los dos o tres años” [Médica general 26 años] “Hago agudeza visual a los niños grandes porque a los pequeños es muy difícil porque dependen mucho de la colaboración” [Médico pediatra, 44 años].</italic></p>
+<p>En esta misma vía, y teniendo en cuenta que los profesionales asumen la viabilidad de realizar la valoración de agudeza visual en cuanto las posibilidades de respuesta que pueda dar el paciente a las cartillas de Snellen, solamente valoran esta función visual en población en etapa escolar y en los casos cuyo motivo de consulta esté orientado a dificultades visuales. En este sentido se remiten a aquellos con alteraciones a esta prueba.</p>
+<p><italic>“Lo evalúo sí es el motivo de consulta, a todos no se les hace” [Médica general 29 años]. “Primero que todo que los papás me lleguen reportando alguna anomalía en los ojitos del niño, como que están desviados, o que le duelen” [Médica pediatra, 47 años]. “Que no me siga los objetos cuando se los muestro, que reporte que ve menos por un ojo que por el otro, que la misma mamita me diga que está viendo algo raro en sus ojos” [Médica pediatra, 38 años].</italic></p>
+<p>Por su parte, médicos pediatras tienen una perspectiva distinta en relación con la edad ideal para la valoración visual; sin embargo, no se identifican criterios homogéneos en relación con el momento ideal de derivación, pues para unos se debe hacer desde los dos años, y para otros desde el momento del nacimiento.</p>
+<p><italic>“Pues yo digo que desde que tengan 2 años aproximadamente que entiendan y colaboren un poco más con el doctor y con la prueba que se le va a realizar” [Médica pediatra, 44 años]. “A partir del año de vida, o incluso hasta antes, creo que el niño debe estar en constante valoración visual a medida que pasa el tiempo” [Médica pediatra, 38 años].</italic></p>
+<p>Pese a lo anterior se identifican algunos pediatras que sí hacen exploración física ocular a sus pacientes.</p>
+<p><italic>“Hago respuesta pupilar, fondo de ojo, la carta de Snellen y ya, es básicamente eso lo que hacemos en consulta” [Médica pediatra, 47 años].</italic></p>
+</sec>
+<sec sec-type="sec-6-3782">
+<title><bold>Barreras de infraestructura para la realización de valoración visual</bold></title>
+<p>Sumado a los anteriores aspectos críticos, los profesionales manifiestan que en sus consultorios no cuentan con los elementos básicos requeridos ni con las condiciones necesarias, se destaca la ausencia de cartillas, tanto de visión lejana como visión próxima, el espacio limitado de cada uno de los consultorios, el nivel de iluminación, entre otros.</p>
+<p><italic>“Aquí es difícil porque no están los metros que se requieren para la toma de la agudeza visual entonces pues aquí uno hace lo que puede” [Médica general, 29 años]. “No nada, aquí no hay para realizar test oculares” [Médico general, 49 años]. “Generalmente en los consultorios solo hay para tomar en visión lejana a 6 metros, en visión próxima casi nunca, muy pocos consultorios tienen para medirla” [Médico pediatra, 51 años].</italic></p>
+<p>Por otra parte, se identifica a partir del discurso de los entrevistados que médicos pediatras tienen diversas conceptualizaciones en relación con la ambliopía y con las edades oportunas para la realización de un examen visual. Así mismo, se encuentra que la valoración visual no está siendo incluida de forma rutinaria en la exploración física.</p>
+</sec>
+</sec>
+<sec sec-type="sec-7-3782">
+<title><bold>Discusión</bold></title>
+<p>El presente estudio logró identificar dos categorías emergentes a partir del análisis del discurso de las personas entrevistadas: las falencias en el proceso de formación de pregrado y postgrado, así como las barreras en infraestructura para la realización de una valoración visual adecuada.</p>
+<p>En primera instancia, se ha demostrado que la detección temprana de alteraciones visuales se asocia con menor prevalencia de ambliopía y mejor agudeza visual (<xref ref-type="bibr" rid="ref-23-3782">23</xref>), y que la detección y manejo temprano de problemas visuales en la edad pediátrica permiten asegurar la maduración visual exitosa y el mejor potencial para el desarrollo de la visión binocular (<xref ref-type="bibr" rid="ref-24-3782">24</xref>), además, tradicionalmente se ha visto que el médico de atención primaria juega un papel fundamental en el inicio del proceso de tratamiento al ser el primero en enfrentarse a la detección de condiciones ambliogénicas en niños (<xref ref-type="bibr" rid="ref-11-3782">11</xref>). A pesar de esto, se identificó que los médicos generales, e incluso los pediatras incluidos en este estudio, no cuentan con espacios formativos ni de práctica que les permitan desarrollar herramientas para detectar de forma temprana la ambliopía ni las condiciones ambliogénicas y que, además, no cuentan con tiempo suficiente para abordar esta temática, pues el currículo actual centra su atención en otro tipo de alteraciones visuales. Por otra parte, los médicos generales no reconocen la ambliopía como un problema prioritario de salud visual. En este sentido, Brooks sugiere que las derivaciones oftalmológicas se retrasan debido al supuesto de que las condiciones visuales en los niños se corrigen en el tiempo, por lo cual esta creencia se considera como un factor que puede influenciar la práctica clínica (<xref ref-type="bibr" rid="ref-25-3782">25</xref>).</p>
+<p>Teniendo en cuenta lo anterior, se ha observado la necesidad de informar a los médicos generales y pediatras acerca de la ambliopía (<xref ref-type="bibr" rid="ref-26-3782">26</xref>,<xref ref-type="bibr" rid="ref-27-3782">27</xref>), y se ha planteado que los recursos y la educación deben estar dirigidos a estos profesionales, quienes tienen las mejores oportunidades para realizar pruebas de detección (<xref ref-type="bibr" rid="ref-28-3782">28</xref>). Por lo tanto, y teniendo en cuenta los resultados del presente estudio, se hace la reflexión en torno a la necesidad de revisar los contenidos programáticos de los programas de pregrado y postgrado con el fin generar una mayor sensibilidad acerca de esta problemática.</p>
+<p>Por otra parte, el presente estudio identificó que la falta de conocimiento de los profesionales conlleva a que no exista claridad con relación a la ruta para la atención de niñas y niños con alteraciones visuales y oculares, lo cual se convierte en una barrera para la atención especializada. La mayoría de los médicos del presente estudio mencionan que la edad ideal para la primera valoración visual es los 5 años, a pesar de que la guía de práctica clínica (GPC) para la prevención, la detección temprana, el diagnóstico, el tratamiento y el seguimiento de la ambliopía en menores de 18 años recomienda realizar tamización visual a los niños desde el momento del nacimiento, con una periodicidad semestral hasta que el niño coopere con el examen de agudeza visual, y posteriormente, seguimiento anual (<xref ref-type="bibr" rid="ref-9-3782">9</xref>). La realización de un examen visual temprano es ideal si se tiene en cuenta que el tratamiento de la ambliopía se recomienda antes del cierre de una ventana crítica del desarrollo visual, en promedio a los 7 años de edad (<xref ref-type="bibr" rid="ref-29-3782">29</xref>). A pesar de lo anterior, se ha reportado que los niños con ambliopía son remitidos a su primera evaluación oftalmológica mucho más tarde de lo deseado (<xref ref-type="bibr" rid="ref-13-3782">13</xref>).</p>
+<p>En general, los médicos entrevistados asocian la viabilidad de la realización de un examen visual con la posibilidad de respuesta y colaboración que pueda brindar el niño a la hora de realizar la valoración visual, es decir, a edades mayores. Esta situación se ha reportado previamente; Wasserman reportó que hasta 2/3 de los pacientes menores de 3 años que acuden al pediatra no reciben una valoración visual adecuada, por razones similares a las descritas en el presente estudio (<xref ref-type="bibr" rid="ref-30-3782">30</xref>). Asimismo, estudios locales han reportado que los padres bogotanos manifiestan no haber recibido una valoración visual adecuada al llevar a sus hijos a consulta (<xref ref-type="bibr" rid="ref-31-3782">31</xref>), y que el diagnóstico de ambliopía en niños boyacenses se ha realizado entre los 4 y los 11 años de edad (<xref ref-type="bibr" rid="ref-32-3782">32</xref>). Por otra parte, se ha visto que los padres pueden retrasar la búsqueda de atención (<xref ref-type="bibr" rid="ref-24-3782">24</xref>), y que hasta en el 76% de los casos la principal causa de retraso en el diagnóstico es el desconocimiento del problema por padres o tutores (<xref ref-type="bibr" rid="ref-12-3782">12</xref>). Por lo tanto, es importante que el médico general y el pediatra estén familiarizados con la ambliopía y que se dedique especial atención a la detección temprana de problemas visuales en las valoraciones rutinarias de crecimiento y desarrollo.</p>
+<p>Por último, se identificó una falencia generalizada en la disponibilidad de elementos básicos y condiciones necesarias para la realización de un examen visual adecuado. A pesar de que la GPC colombiana recomienda realizar examen pupilar, evaluación del rojo retiniano, inspección externa y evaluar agudeza visual con optotipos como el HOTV o LEA symbols (<xref ref-type="bibr" rid="ref-9-3782">9</xref>), y que desde hace varios años se han publicado estudios que informan acerca de la baja agudeza diagnóstica de la tradicional cartilla de Snellen (<xref ref-type="bibr" rid="ref-33-3782">33</xref>,<xref ref-type="bibr" rid="ref-34-3782">34</xref>), los médicos generales y pediatras participantes en esta investigación coinciden en señalar que en sus consultorios cuentan únicamente con dicha cartilla y, que en la mayoría de los casos, no se cumplen con los requisitos de espacio y distancia para garantizar el mayor rendimiento de la prueba.</p>
+<p>Teniendo en cuenta lo anterior y retomando lo mencionado por Peñalosa, es fundamental que para el ejercicio adecuado de sus funciones, el profesional médico se encuentre actualizado en sus conocimientos; pues de ello depende el resultado en la calidad en la prestación de sus servicios así como en la calidad de la atención, para lo cual es necesario involucrarse en programas de educación médica continua (<xref ref-type="bibr" rid="ref-35-3782">35</xref>).</p>
+<p>Prevenir casos nuevos de ambliopía tiene efectos importantes en términos de salud pública, pues se contribuye a la reducción de costos de rehabilitación y entrenamiento de la condición visual y, así mismo, a mitigar su impacto negativo en el proceso de crecimiento de niñas y niños con esta condición. En este sentido, se hace necesario fortalecer los procesos de formación académicos de los profesionales en medicina general y especialización en pediatría sobre este tema, lo cual permitirá mejorar sus competencias, entendidas éstas como el conjunto de conocimientos, habilidades y actitudes que permiten una excelente práctica médica, en continuo perfeccionamiento, adecuada al contexto social en que se desarrolla (<xref ref-type="bibr" rid="ref-35-3782">35</xref>,<xref ref-type="bibr" rid="ref-36-3782">36</xref>).</p>
+</sec>
+<sec sec-type="sec-8-3782">
+<title><bold>Conclusiones</bold></title>
+<p>Los hallazgos más relevantes se concentran en el hecho de que existe una percepción general de falta de conocimiento de los profesionales entrevistados con relación a la conceptualización de la ambliopía, los aspectos claves para su detección temprana y como para su manejo oportuno. Lo anterior genera barreras para acceder a los servicios de salud visual especializados de forma oportuna, por lo cual es necesario fortalecer los procesos de formación de los profesionales de la salud en estos aspectos.</p>
+<p>Es necesario fortalecer la atención ocular desde los primeros niveles de atención en el sistema de salud que permita hacer frente a las causas de ambliopía y, de esta manera, intervenir oportunamente a niños y niñas en riesgo, lo cual redunda en la reducción de las repercusiones funcionales de la disminución de visión, la facilitación de la educación y, por tanto, su adecuado desarrollo visual. En este sentido, sin duda la evaluación periódica de la visión y la derivación adecuada a un optómetra y oftalmólogo pediátrico son pasos importantes en la detección de niños con riesgo de ambliopía.</p>
+</sec>
+</body>
+<back>
+<ref-list><title><bold>Referencias</bold></title><ref id="ref-1-3782"><label>1.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Papageorgiou</surname> <given-names>E</given-names></string-name>, <string-name><surname>Asproudis</surname> <given-names>I</given-names></string-name>, <string-name><surname>Maconachie</surname> <given-names>G</given-names></string-name>, <string-name><surname>Tsironi</surname> <given-names>EE</given-names></string-name>, <string-name><surname>Gottlob</surname> <given-names>I</given-names></string-name>.</person-group> <article-title xml:lang="en">The treatment of amblyopia: current practice and emerging trends</article-title>. <source xml:lang="en">Graefes Arch Clin Exp Ophthalmol</source>. <month>junio de</month><year>2019</year>;<volume>257</volume><issue>(6):</issue><fpage>1061</fpage>-<lpage>78</lpage>.</mixed-citation></ref>
+<ref id="ref-2-3782"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Bermúdez</surname> <given-names>ML</given-names></string-name>, <string-name><surname>Camacho</surname> <given-names>M</given-names></string-name>, <string-name><surname>Figueroa</surname> <given-names>Olarte LF</given-names></string-name>, <string-name><surname>Medrano</surname> <given-names>MSM</given-names></string-name>, <string-name><surname>León</surname> <given-names>AA</given-names></string-name>.</person-group> <article-title xml:lang="es">Relación entre la ambliopía y el proceso de lectura</article-title>. <source xml:lang="ca">Cienc Tecnol Para Salud Vis Ocul</source>. <day>5</day><month>de septiembre de</month><year>2016</year>;<volume>14</volume><issue>(2)</issue>:<fpage>83</fpage>.</mixed-citation></ref>
+<ref id="ref-3-3782"><label>3.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Wong</surname>, <given-names>AM.</given-names></string-name></person-group> <article-title xml:lang="en">New concepts concerning the neural mechanisms of amblyopia and their clinical implications</article-title>. <source xml:lang="en">Can J Ophthalmol</source>. <year>2012</year>;<volume>47</volume><issue>(5)</issue>:<fpage>399</fpage>-<lpage>409</lpage>.</mixed-citation></ref>
+<ref id="ref-4-3782"><label>4.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Guimaraes</surname> <given-names>S</given-names></string-name>, <string-name><surname>Vieira</surname> <given-names>M</given-names></string-name>, <string-name><surname>Queirós</surname> <given-names>T</given-names></string-name>, <string-name><surname>Soares</surname> <given-names>A</given-names></string-name>, <string-name><surname>Costa</surname> <given-names>P</given-names></string-name>, <string-name><surname>Silva</surname> <given-names>E</given-names></string-name>.</person-group> <article-title xml:lang="en">New pediatric risk factors for amblyopia: strabismic versus refractive</article-title>. <source xml:lang="en">Eur J Ophthalmol</source>, <month>marzo de</month><year>2018</year>;<volume>28</volume><issue>(2)</issue>:<fpage>229</fpage>-<lpage>33</lpage>.</mixed-citation></ref>
+<ref id="ref-5-3782"><label>5.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Gopal</surname> <given-names>SS</given-names></string-name>, <string-name><surname>Kelkar</surname> <given-names>J</given-names></string-name>, <string-name><surname>Kelkar</surname> <given-names>A</given-names></string-name>, <string-name><surname>Pandit</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">Simplified updates on the pathophysiology and recent developments in the treatment of amblyopia: A review</article-title>. <source xml:lang="en">Indian J Ophthalmol</source>. <year>2019</year>;<volume>67</volume><issue>(9)</issue>:<fpage>1392</fpage>.</mixed-citation></ref>
+<ref id="ref-6-3782"><label>6.</label><mixed-citation publication-type="web"><comment>Ministerio de Salud y Protección Social. Análisis de situación de salud visual en colombia 2016 [Internet]</comment>. <year>2016</year>. <comment>Disponible en:</comment> <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ENT/asis-salud-visual-colombia-2016.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ENT/asis-salud-visual-colombia-2016.pdf</ext-link></mixed-citation></ref>
+<ref id="ref-7-3782"><label>7.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Siddiqui</surname> <given-names>AH</given-names></string-name>, <string-name><surname>Raza</surname> <given-names>SA</given-names></string-name>,<string-name><surname>Ghazipura</surname> <given-names>A</given-names></string-name>, <string-name><surname>Hussain</surname> <given-names>MA</given-names></string-name>, <string-name><surname>Iqbal</surname> <given-names>S</given-names></string-name>, <string-name><surname>Ahsan</surname> <given-names>K</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Analysis of association between type of amblyopia and gender at a tertiary care hospital in Karachi</article-title>. <source xml:lang="da">JPMA J Pak Med Assoc</source>. <publisher-loc>Mayo de</publisher-loc><year>2016</year>;<volume>66</volume><issue>(5)</issue>:<fpage>545</fpage>-<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="ref-8-3782"><label>8.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Amblyopia</surname> <given-names>DeSantis D.</given-names></string-name>.</person-group> <article-title xml:lang="en">Pediatr Clin North Am</article-title>. <month>junio de</month><year>2014</year>;<volume>61</volume><issue>(3)</issue>:<fpage>505</fpage>-<lpage>18</lpage>.</mixed-citation></ref>
+<ref id="ref-9-3782"><label>9.</label><mixed-citation publication-type="web"><comment>Ministerio de Salud y Protección Social. Guía de Práctica Clínica para la prevención, la detección temprana, el diagnóstico, el tratamiento y el seguimiento de la ambliopía en menores de 18 años [Internet]</comment>. <year>2016</year>. <comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://gpc.minsalud.gov.co/gpc_sites/Repositorio/Conv_637/GPC_ambliopia/GUIA_AMBLIOPIA_COMPLETA.pdf">http://gpc.minsalud.gov.co/gpc_sites/Repositorio/Conv_637/GPC_ambliopia/GUIA_AMBLIOPIA_COMPLETA.pdf</ext-link></mixed-citation></ref>
+<ref id="ref-10-3782"><label>10.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Kvarnstrom</surname> <given-names>G</given-names></string-name>, <string-name><surname>Jakobsson</surname> <given-names>P</given-names></string-name>, <string-name><surname>Lennerstrand</surname> <given-names>G</given-names></string-name>.</person-group> <article-title xml:lang="en">Visual screening of Swedish children: An ophthalmological evaluation</article-title>.<source xml:lang="en">Acta Ophthalmol Scand</source>. <month>junio de</month><year>2001</year>;<volume>79</volume><issue>(3)</issue>:<fpage>240</fpage>-<lpage>4</lpage>.</mixed-citation></ref>
+<ref id="ref-11-3782"><label>11.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Hartmann</surname> <given-names>EE</given-names></string-name>, <string-name><surname>Dobson</surname> <given-names>V</given-names></string-name>, <string-name><surname>Hainline</surname> <given-names>L</given-names></string-name>, <string-name><surname>Marsh-Tootle</surname> <given-names>W</given-names></string-name>, <string-name><surname>Quinn</surname> <given-names>GE</given-names></string-name>, <string-name><surname>Ruttum</surname> <given-names>MS</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Preschool Vision Screening: Summary of a Task Force Report</article-title>. <source xml:lang="en">Pediatrics</source>. <month>1 de noviembre de</month><year>2000</year>;<volume>106</volume><issue>(5)</issue>:<fpage>1105</fpage>-<lpage>16</lpage>.</mixed-citation></ref>
+<ref id="ref-12-3782"><label>12.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Ojeda</surname> <given-names>CC</given-names></string-name>, <string-name><surname>Quiroz</surname> <given-names>FG</given-names></string-name>, <string-name><surname>Meza</surname> <given-names>MG</given-names></string-name>.</person-group> <article-title xml:lang="es">Ametropía y ambliopía en escolares de 42 escuelas del programa “Escuelas Saludables” en la DISA II</article-title>, <source xml:lang="ml">Lima. Perú</source>,
+ <year>2007-2008</year>. <year>2009</year>; <fpage>5</fpage>.</mixed-citation></ref>
+<ref id="ref-13-3782"><label>13.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Vieira</surname> <given-names>MJ</given-names></string-name>, <string-name><surname>Guimarães</surname> <given-names>SV</given-names></string-name>, <string-name><surname>Costa</surname> <given-names>P</given-names></string-name>, <string-name><surname>Silva</surname> <given-names>E</given-names></string-name>.</person-group> <article-title xml:lang="en">Late Ophthalmologic Referral of Anisometropic Amblyopia: A Retrospective Study of Different Amblyopia Subtypes</article-title>. <source xml:lang="ca">Acta Médica Port</source>. <month>29 de marzo de</month><year>2019</year>;<volume>32</volume><issue>(3)</issue>:<fpage>179</fpage>.</mixed-citation></ref>
+<ref id="ref-14-3782"><label>14.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Rubio Acuña</surname> <given-names>M</given-names></string-name>, <string-name><surname>Arias Burgos</surname> <given-names>M</given-names></string-name>.</person-group> <article-title xml:lang="es">Fenomenología y conocimiento disciplinar de enfermería</article-title>. <source xml:lang="en">Rev Cuba Enferm</source>. <month>septiembre de</month><year>2013</year>;<volume>29</volume><issue>(3)</issue>:<fpage>191</fpage>-<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="ref-15-3782"><label>15.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Serna</surname> <given-names>CT</given-names></string-name>.</person-group> <article-title xml:lang="es">Evolución del currículo médico y los nuevos desafíos</article-title>. <source xml:lang="es">Rev Fac Cienc Salud Univ Cauca</source>. <month>1 de enero de</month><year>2019</year>;<volume>21</volume><issue>(l)</issue>:<fpage>34</fpage>-<lpage>42</lpage>.</mixed-citation></ref>
+<ref id="ref-16-3782"><label>16.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Creswell</surname> <given-names>JW</given-names></string-name>.</person-group> <article-title xml:lang="en">Research Design: Qualitative, Quantitative and Mixed Methods Approaches</article-title>. <edition>Editión: 4th.</edition> <publisher-loc>Thousand Oaks:</publisher-loc> <publisher-name>SAGE Publications, Inc.</publisher-name><year>2014</year>; <fpage>273</fpage>.</mixed-citation></ref>
+<ref id="ref-17-3782"><label>17.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Ulin</surname> <given-names>P</given-names></string-name>, <string-name><surname>Robinson</surname> <given-names>E</given-names></string-name>, <string-name><surname>Tolley</surname> <given-names>E</given-names></string-name>.</person-group> <article-title xml:lang="es">Investigación aplicada en salud pública. Métodos cualitativos</article-title>. <source xml:lang="es">Organ Panam Salud</source>. <year>2006</year>; <fpage>33</fpage>-<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="ref-18-3782"><label>18.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Britten</surname> <given-names>N.</given-names></string-name></person-group> <article-title xml:lang="en">Qualitative interviews in medical research</article-title>. <source xml:lang="nl">BMJ</source>. <month>22 dejulio de</month><year>1995</year>;<volume>311</volume><issue>(6999)</issue>:<fpage>251</fpage>-<lpage>3</lpage>.</mixed-citation></ref>
+<ref id="ref-19-3782"><label>19.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Díaz-Bravo</surname> <given-names>L</given-names></string-name>, <string-name><surname>Torruco-García</surname> <given-names>U</given-names></string-name>, <string-name><surname>Martínez-Hernández</surname> <given-names>M</given-names></string-name>, <string-name><surname>Varela-Ruiz</surname> <given-names>M</given-names></string-name>.</person-group> <article-title xml:lang="es">La entrevista, recurso flexible y dinámico</article-title>. <source xml:lang="ca">Investig En Educ Médica</source>. <month>septiembre de</month><year>2013</year>;<volume>2</volume><issue>(7)</issue>:<fpage>162</fpage>-<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="ref-20-3782"><label>20.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>De la Cuesta</surname> <given-names>C</given-names></string-name>.</person-group> <article-title xml:lang="en">The quality of qualitative research: from evaluation to attainment</article-title>. <source xml:lang="es">Texto Contexto - Enferm</source>. <month>septiembre de</month><year>2015</year>;<volume>24</volume><issue>(3)</issue>:<fpage>883</fpage>-<lpage>90</lpage>.</mixed-citation></ref>
+<ref id="ref-21-3782"><label>21.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Taylor</surname> <given-names>SJ</given-names></string-name>, <string-name><surname>Bogdan</surname> <given-names>R</given-names></string-name>.</person-group> <article-title xml:lang="es">Introducción a los métodos cualitativos de investigación: la búsqueda de significados</article-title>. <source xml:lang="pt">Grupo Planeta (GBS)</source>;<year>1987</year>. <fpage>348 p</fpage>.</mixed-citation></ref>
+<ref id="ref-22-3782"><label>22.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Martínez-Salgado</surname> <given-names>C</given-names></string-name>.</person-group> <article-title xml:lang="es">El muestreo en investigación cualitativa</article-title>. <source xml:lang="es">Principios básicos y algunas controversias</source>. <year>2012</year>; <fpage>7</fpage>.</mixed-citation></ref>
+<ref id="ref-23-3782"><label>23.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Nishimura</surname> <given-names>M</given-names></string-name>, <string-name><surname>Wong</surname> <given-names>A</given-names></string-name>, <string-name><surname>Cohen</surname> <given-names>A</given-names></string-name>, <string-name><surname>Thorpe</surname> <given-names>K</given-names></string-name>, <string-name><surname>Maurer</surname> <given-names>D</given-names></string-name>.</person-group> <article-title xml:lang="en">Choosing appropriate tools and referral criteria for vision screening of children aged 4–5 years in Canada: a quantitative analysis</article-title>. <source xml:lang="nl">BMJ Open</source>. <month>septiembre de</month><year>2019</year>;<volume>9</volume><issue>(9)</issue>:<fpage>e032138</fpage>.</mixed-citation></ref>
+<ref id="ref-24-3782"><label>24.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Parvataneni</surname> <given-names>M</given-names></string-name>, <string-name><surname>Christiansen</surname> <given-names>SP</given-names></string-name>, <string-name><surname>Jensen</surname> <given-names>AA</given-names></string-name>, <string-name><surname>Summers</surname> <given-names>CG</given-names></string-name>.</person-group> <article-title xml:lang="en">Referral patterns for common amblyogenic conditions</article-title>. <source xml:lang="en">J Am Assoc Pediatr Ophthalmol Strabismus</source>. <month>febrero de</month><year>2005</year>;<volume>9</volume><issue>(l)</issue>:<fpage>22</fpage>-<lpage>5</lpage>.</mixed-citation></ref>
+<ref id="ref-25-3782"><label>25.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Brooks</surname> <given-names>S</given-names></string-name>.</person-group> <article-title xml:lang="en">Strabismus and amblyopia in children: the role of primary care</article-title>. <source xml:lang="en">Compr Ther</source>. <year>1997</year>;<volume>23</volume>:<fpage>60</fpage>-<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref-26-3782"><label>26.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Moguel-Ancheita</surname> <given-names>S</given-names></string-name>.</person-group> <article-title xml:lang="es">Campaña de detectión de ambliopía y estrabismo</article-title>. <publisher-loc>México</publisher-loc><year>2016</year>. <comment>Rev Mex Oftalmol</comment>. <month>25 de junio de</month><year>2017</year>;<volume>92</volume><issue>(l)</issue>:<fpage>1498</fpage>.</mixed-citation></ref>
+<ref id="ref-27-3782"><label>27.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Kohli</surname> <given-names>P</given-names></string-name>, <string-name><surname>Bansal</surname> <given-names>RK</given-names></string-name>, <string-name><surname>Soni</surname> <given-names>T</given-names></string-name>, <string-name><surname>Agrawal</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">Amblyopia: It is time to take action</article-title>. <source xml:lang="en">Indian J Ophthalmol</source>. <month>9 de enero de</month><year>2018</year>;<volume>66</volume><issue>(9)</issue>:<fpage>1374</fpage>.</mixed-citation></ref>
+<ref id="ref-28-3782"><label>28.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Chua</surname> <given-names>BE-G</given-names></string-name>, <string-name><surname>Johnson</surname> <given-names>K</given-names></string-name>.</person-group> <article-title xml:lang="en">A retrospective review of the associations between amblyopia type, patient age, treatment compliance and referral patterns</article-title>. <source xml:lang="en">Clin Experiment Ophthalmol</source>. <month>abril de</month><year>2004</year>;<volume>32</volume><issue>(2)</issue>:<fpage>175</fpage>-<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="ref-29-3782"><label>29.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Holmes</surname> <given-names>JM</given-names></string-name>, <string-name><surname>Levi</surname> <given-names>DM</given-names></string-name>.</person-group> <article-title xml:lang="en">Treatment of amblyopia as a function of age</article-title>. <source xml:lang="da">Vis Neurosci</source>. <year>2018</year>;<volume>35</volume>:<fpage>E015</fpage>.</mixed-citation></ref>
+<ref id="ref-30-3782"><label>30.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Wasserman</surname> <given-names>R</given-names></string-name>, <string-name><surname>Croft</surname> <given-names>C</given-names></string-name>, <string-name><surname>Brotherton</surname> <given-names>SE</given-names></string-name>.</person-group> <article-title xml:lang="en">Preschool vision screening in pediatric practice: a study from the pediatric research in office settings (PROS) network</article-title>. <source xml:lang="en">American Academy of Pediatrics. Pediatrics</source>. <month>mayo de</month><year>1992</year>;<volume>89</volume><issue>(5 pt l)</issue>:<fpage>834</fpage>-<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="ref-31-3782"><label>31.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Solano Aroca</surname>, <given-names>S</given-names></string-name>, <string-name><surname>Benavides Torres</surname>, <given-names></given-names>A.</string-name>,</person-group> <article-title xml:lang="es">Factores asociados al diagnóstico tardío de la ambliopía en niños de 4 a 12 años de edad en la ciudad de Bogotá [Internet]</article-title>. <comment>[Bogotá]: Universidad de la Salle</comment>;<year>2014</year>. <comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://repository.lasalle.edu.co/handle/10185/17815">http://repository.lasalle.edu.co/handle/10185/17815</ext-link></mixed-citation></ref>
+<ref id="ref-32-3782"><label>32.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Gayón Muñoz</surname> <given-names>AC</given-names></string-name>, <string-name><surname>Baracaldo Benjumea</surname> <given-names>LE</given-names></string-name>.</person-group> <article-title xml:lang="es">Factores influyentes en el diagnóstico tardío de ambliopía en pacientes de 4 a 12 años en el municipio de Santa Rosa de Viterbo - Boyacá [Internet]</article-title>. <comment>[Bogotá]: Universidad de la Salle</comment>;<year>2015</year>. <comment>Disponible en</comment>: <ext-link ext-link-type="uri" xlink:href="http://repository.lasalle.edu.co/handle/10185/18104">http://repository.lasalle.edu.co/handle/10185/18104</ext-link></mixed-citation></ref>
+<ref id="ref-33-3782"><label>33.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Vivekanand</surname> <given-names>U</given-names></string-name>, <string-name><surname>Gonsalves</surname> <given-names>S</given-names></string-name>, <string-name><surname>Bhat</surname> <given-names>SS</given-names></string-name>.</person-group> <article-title xml:lang="en">Is LEA symbol better compared to Snellen chart for visual acuity assessment in preschool children? Romanian J Ophthalmol</article-title>. <month>marzo de</month><year>2019</year>;<volume>63</volume><issue>(l)</issue>:<fpage>35</fpage>-<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="ref-34-3782"><label>34.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Lovie-Kitchin</surname> <given-names>JE</given-names></string-name>.</person-group> <article-title xml:lang="en">Is it time to confine Snellen charts to the annals of history? Ophthalmic Physiol Opt J Br Coll Ophthalmic Opt Optom</article-title>. <month>noviembre de</month><year>2015</year>;<volume>35</volume><issue>(6)</issue>:<fpage>631</fpage>-<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref-35-3782"><label>35.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Peñalosa</surname> <given-names>EÁ</given-names></string-name>, <string-name><surname>López</surname> <given-names>RS</given-names></string-name>.</person-group> <article-title xml:lang="es">Estado actual de la educación médica en Colombia</article-title>. <source xml:lang="es">Medicina (Mex)</source>. <month>30 de septiembre de</month><year>2015</year>;<volume>37</volume><issue>(3)</issue>:<fpage>276</fpage>-<lpage>85</lpage>.</mixed-citation></ref>
+<ref id="ref-36-3782"><label>36.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Herreros</surname> <given-names>P</given-names></string-name>, <string-name><surname>María</surname> <given-names>J</given-names></string-name>.</person-group> <article-title xml:lang="pt">Competencias Médicas. Educ Médica</article-title>, <month>septiembre de</month><year>2005</year>;<volume>8</volume>:<fpage>04</fpage>-<lpage>6</lpage></mixed-citation></ref></ref-list>
+</back>
+</article>

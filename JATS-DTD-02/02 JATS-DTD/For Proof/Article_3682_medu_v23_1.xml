@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "file:/E:/PEM/Publicaciones%20Academicas/JATS-Publishing-1-2-MathML3-DTD/JATS-journalpublishing1-mathml3.dtd">
+<?xml-stylesheet type="text/xsl" href="jpub3-html.xsl"?>
+<article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">medu</journal-id>
+<journal-title-group>
+<journal-title>Medunab</journal-title>
+<abbrev-journal-title>Medunab</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">0123-7047</issn>
+<issn pub-type="epub">2382-4603</issn>
+<publisher>
+<publisher-name>Universidad Autónoma De Bucaramanga</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">3682</article-id>
+<article-id pub-id-type="doi">10.29375/01237047.3682</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Original Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Necrotizing enterocolitis: socio-demographic, clinical and histopathological findings in a series of neonatal autopsies</article-title>
+<trans-title-group>
+<trans-title xml:lang="es">Enterocolitis necrotizante: hallazgos sociodemográficos, clínicos e histopatológicos en una serie de autopsias neonatales</trans-title>
+</trans-title-group>
+<trans-title-group>
+<trans-title xml:lang="pt">Enterocolite necrosante, achados sociodemográficos, clínicos e histopatológicos em uma série de autópsias neonatais</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Sandoval-Martínez</surname>
+<given-names>Diana K.</given-names>
+</name>
+<degrees>MD., Esp.</degrees>
+<aff>
+<institution content-type="orgname">Physician, Specialist in Pathology. Hospital Universitario de Santander, Department of Pathology, Universidad Industrial de Santander</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Physician, Specialist in Pathology. Hospital Universitario de Santander, Department of Pathology, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Jaimes-Sanabria</surname>
+<given-names>Mayra Z.</given-names>
+</name>
+<degrees>MD.</degrees>
+<aff>
+<institution content-type="orgname">Physician and Surgeon, Universidad Industrial de Santander</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Physician and Surgeon, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Jiménez-Vargas</surname>
+<given-names>Fanny L.</given-names>
+</name>
+<degrees>MD.</degrees>
+<aff>
+<institution content-type="orgname">Physician and Surgeon, Universidad Industrial de Santander</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Physician and Surgeon, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia.
+</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Chaparro-Zaraza</surname>
+<given-names>Diego F.</given-names>
+</name>
+<degrees>Est.</degrees>
+<aff>
+<institution content-type="orgname">Medical Student, Universidad Industrial de Santander</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Medical Student, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Manrique-Hernández</surname>
+<given-names>Edgar F.</given-names>
+</name>
+<degrees>MD.</degrees>
+<aff>
+<institution content-type="orgname">Physician and Surgeon, Universidad Industrial de Santander</institution>
+<addr-line>
+<named-content content-type="city">Bucaramanga, Santander</named-content>
+</addr-line>
+<country country="CO">Colombia</country>
+<institution content-type="original">Physician and Surgeon, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia.</institution>
+</aff>
+</contrib>
+</contrib-group>
+<author-notes>
+<corresp id="c1">Diana K. Sandoval. Health Faculty, Department of Pathology, Universidad Industrial de Santander. Carrera 32 #29-31. Bucaramanga, Santander, Colombia. <email>kt_sandoval@hotmail.com</email></corresp>
+<fn fn-type="conflict">
+<p><bold>Conflicts of Interest</bold></p>
+<p>None reported.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>31</day>
+<month>03</month>
+<year>2020</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>23</volume>
+<issue>1</issue>
+<fpage>43</fpage>
+<lpage>50</lpage>
+<history>
+<date date-type="received">
+<day>13</day>
+<month>08</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>20</day>
+<month>01</month>
+<year>2020</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© 2020 Universidad Autónoma De Bucaramanga</copyright-statement>
+<copyright-year>2020</copyright-year>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="en">
+<license-p>Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title><bold>ABSTRACT</bold></title>
+<sec>
+<title><bold>Introduction.</bold></title>
+<p>Necrotizing enterocolitis is a disorder characterized by the ischemic necrosis of intestinal mucosa. It is the most serious gastrointestinal disease affecting neonates, with high morbidity and mortality rates, mainly among premature newborns. The purpose of this study is to describe the clinical and anatamopathological characteristics of deceased newborns with necrotizing enterocolitis, diagnosed at a high-complexity hospital.</p>
+</sec>
+<sec>
+<title><bold>Methodology.</bold></title>
+<p>This is a descriptive retrospective study of 21 cases of medical-scientific autopsies performed at a high-complexity hospital in northeastern Colombia, with anatomo-pathological findings of necrotizing enterocolitis, performed between January 2013 and July 2017.</p>
+</sec>
+<sec>
+<title><bold>Results</bold></title>
+<p>85.7% of the newborns were pre-term, and the same percentage had weight at birth below 2.5 kilograms. Regarding the mothers’ background, 14.3% displayed a spectrum of hypertensive disorders associated with pregnancy, and 23.8% had maternal infections. The three most frequent locations of necrotizing enterocolitis were the ileum, ascending colon and transverse colon.</p>
+</sec>
+<sec>
+<title><bold>Discussion.</bold></title>
+<p>According to some authors, up to 85% of all cases of necrotizing enterocolitis occur in premature patients, especially in babies with extremely low weight at birth. There are forms of necrotizing enterocolitis that occur in full term babies, and they are generally associated with contributing factors, which is consistent with the findings of this study.</p>
+</sec>
+<sec>
+<title><bold>Conclusions.</bold></title>
+<p>This study of a Colombian population is consistent with other descriptions of the global population, where necrotizing enterocolitis arises more frequently in pre-term newborns and low weight at birth.</p>
+</sec>
+</abstract>
+<trans-abstract xml:lang="es">
+<title><bold>RESUMEN</bold></title>
+<sec>
+<title><bold>Introducción.</bold></title>
+<p>La enterocolitis necrotizante es un trastorno caracterizado por la necrosis isquémica de la mucosa intestinal, es la enfermedad gastrointestinal más grave que afecta a los neonatos, con alta morbilidad y mortalidad, principalmente en prematuros. El objetivo del presente estudio es describir las características clínicas y anatomopatológicas de los recién nacidos fallecidos con enterocolitis necrotizante, diagnosticados en un hospital de alta complejidad.</p>
+</sec>
+<sec>
+<title><bold>Metodología.</bold></title>
+<p>Este es un estudio descriptivo retrospectivo de 21 casos de autopsias médico-científicas hechas en un hospital de alta complejidad del nororiente colombiano, con hallazgos anatomopatológicos de enterocolitis necrotizante, realizadas entre enero de 2013 y julio de 2017.</p>
+</sec>
+<sec>
+<title><bold>Resultados.</bold></title>
+<p>El 85.7% de los recién nacidos eran pretérminos, un igual porcentaje presentaba un peso menor a 2,500 gramos al nacer. Respecto a los antecedentes matemos el 14.3% tuvieron espectro de trastornos hipertensivos asociados al embarazo y el 23.8% infección materna. Los tres sitios más frecuentes de ubicación de enterocolitis necrotizantes fue íleon, colon ascendente y colon transverso.</p>
+</sec>
+<sec>
+<title><bold>Discusión.</bold></title>
+<p>Según algunos autores, hasta el 85% de todos los casos de enterocolitis necrotizante ocurren en pacientes prematuros, especialmente en bebés con peso extremadamente bajo al nacer. Hay formas de enterocolitis necrotizante que ocurren en bebés a término y, generalmente, están asociadas con factores predisponentes, resultados compatibles con lo que encontramos en esta investigación.</p>
+</sec>
+<sec>
+<title><bold>Conclusiones.</bold></title>
+<p>Este estudio elaborado con población colombiana se correlaciona con lo descrito en la población mundial en la cual la enterocolitis necrotizante se presenta más en los recién nacidos pretérmino y con bajo peso al nacer.</p>
+</sec>
+</trans-abstract>
+<trans-abstract xml:lang="pt">
+<title><bold>RESUMO</bold></title>
+<sec>
+<title><bold>Introdução.</bold></title>
+<p>A enterocolite necrosante é um transtorno caracterizado por necrose isquêmica da mucosa intestinal e é a doença gastrointestinal mais grave que afeta aos recém-nascidos, com alta morbimortalidade, principalmente em prematuros. O objetivo deste estudo é descrever as características clínicas e anatomopatológicas dos recém-nascidos que morreram com enterocolite necrosante, diagnosticados em um hospital de alta complexidade.</p>
+</sec>
+<sec>
+<title><bold>Métodos.</bold></title>
+<p>Este é um estudo descritivo retrospectivo de 21 casos de autópsias médico-científicas feitas em um hospital de alta complexidade no nordeste da Colômbia, com achados anatomopatológicos de enterocolite necrosante, realizadas entre janeiro de 2013 e julho de 2017.</p>
+</sec>
+<sec>
+<title><bold>Resultados.</bold></title>
+<p>85.7% dos recém-nascidos eram prematuros. Uma porcentagem igual tinha um peso menor que 2.500 gramas ao nascer. Em relação à história materna, 14.3% possuíam espectro de transtornos hipertensivos associados à gravidez e 23.8% à infecção materna. Os três locais mais frequentes de enterocolite necrosantes foram íleo, colo ascendente e colo transverso. Discussão. Segundo alguns autores, até 85% de todos os casos de enterocolite necrosante ocorrem em prematuros, principalmente em bebês com peso extremamente baixo ao nascer. Existem formas de enterocolite necrosante que ocorrem em bebês a termo e, geralmente, estão associadas a fatores predisponentes, resultados compatíveis com os achados nesta pesquisa.</p>
+</sec>
+<sec>
+<title><bold>Conclusão.</bold></title>
+<p>Este estudo realizado com população colombiana está correlacionado com o descrito na população mundial em que a enterocolite necrosante ocorre mais nos recém-nascidos prematuros e com baixo peso ao nascer.</p>
+</sec>
+</trans-abstract>
+<kwd-group xml:lang="en">
+<title><bold>Keywords:</bold></title>
+<kwd>Necrotizing Enterocolitis</kwd>
+<kwd>Newborn</kwd>
+<kwd>Premature newborn</kwd>
+<kwd>Low-weight Newborn</kwd>
+<kwd>Autopsy</kwd>
+</kwd-group>
+<kwd-group xml:lang="es">
+<title><bold>Palabras clave:</bold></title>
+<kwd>Enterocolitis Necrotizante</kwd>
+<kwd>Recién Nacido</kwd>
+<kwd>Recién Nacido prematuro</kwd>
+<kwd>Recién Nacido de Bajo Peso</kwd>
+<kwd>Autopsia</kwd>
+</kwd-group>
+<kwd-group xml:lang="pt">
+<title><bold>Palavras-chave:</bold></title>
+<kwd>Enterocolite Necrosante</kwd>
+<kwd>Recém-Nascido</kwd>
+<kwd>Recém-Nascido Prematuro</kwd>
+<kwd>Recém-Nascido de Baixo Peso</kwd>
+<kwd>Autópsia</kwd>
+</kwd-group>
+<funding-group>
+<funding-statement><bold>Acknowledgments</bold></funding-statement>
+<funding-statement>We thank the Department of Pathology of Universidad Industrial de Santander.</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+<body>
+<sec sec-type="sec-1-3682">
+<title><bold>Introduction</bold></title>
+<p>Necrotizing enterocolitis (NEC) is a disorder characterized by the ischemic necrosis of the intestinal mucosa, inflammation, invasion of gas-formation organisms and diffusion of gas in the muscular and portal venous systems. This makes it the most serious gastrointestinal disease in the newborn (<xref ref-type="bibr" rid="ref-1-3682">1</xref>). It is associated with high morbidity and mortality (<xref ref-type="bibr" rid="ref-2-3682">2</xref>). Its clinical diagnosis is challenging, but it is generally based on the presence of intolerance to food, abdominal distension, bloody stool and findings of intramural gas in abdominal images (intestinal pneumatosis), pneumoperitoneum or hepato-biliary gas. However, the final NEC diagnosis is performed based on intestinal surgical or post-mortem samples with histological findings of intestinal inflammation, infarction and necrosis (<xref ref-type="bibr" rid="ref-3-3682">3</xref>).</p>
+<p>The global incidence of NEC is close to one per 1,000 live births (<xref ref-type="bibr" rid="ref-4-3682">4</xref>). Incidence in Latin America and Colombia is unknown because there is no reliable data, due to inconsistencies in diagnoses and data gathering (<xref ref-type="bibr" rid="ref-5-3682">5</xref>). It is present in up to 7% of newborns in neonatal intensive care (<xref ref-type="bibr" rid="ref-6-3682">6</xref>); with approximate mortality rates of between 20% and 30% (<xref ref-type="bibr" rid="ref-7-3682">7</xref>,<xref ref-type="bibr" rid="ref-8-3682">8</xref>). It is most commonly found in premature newborns, but close to 13% of cases arise in full term babies (<xref ref-type="bibr" rid="ref-1-3682">1</xref>) and it affects between 3% and 5% of all newborns with low weight at birth (<xref ref-type="bibr" rid="ref-6-3682">6</xref>,<xref ref-type="bibr" rid="ref-9-3682">9</xref>).</p>
+    <p>NEC is a multi-factor disease whose pathogenesis is not well understood and controversial. However, there are two possible mechanisms involved in the physiopathology: the first considers that the alteration of the blood flow in the mesenteric veins produces secondary ischemia of the intestine, whereas the second suggests a mechanism involving an inflammatory response (<xref ref-type="bibr" rid="ref-10-3682">10</xref>). Over 90% of cases occur in newborns with low birthweight (&#x003C;1500 g) and less than 32 weeks of gestation (<xref ref-type="bibr" rid="ref-11-3682">11</xref>).</p>
+<p>NEC is a clinical and research priority because of its high economic and psychosocial cost. Consequently, a better understanding of the characteristics of NEC patients would be useful for developing preventive measures for vulnerable patients. The purpose of this study is to describe the clinical and anatamopathological characteristics of deceased newborns with NEC, diagnosed at a high-complexity hospital in northeastern Colombia.</p>
+</sec>
+<sec sec-type="sec-2-3682">
+<title><bold>Methodology</bold></title>
+<p>A descriptive retrospective study was performed on newborns on whom medical-scientific autopsies were performed at a high complexity hospital (Hospital Universitario de Santander), between January 2013 and July 2017. During this period, 2,134 medical-scientific autopsies were performed, of which 334 were neonatal autopsies. Inclusion criteria were the confirmation of the diagnosis based on clinical, radiological and histo-pathological criteria of NEC, the availability of information about gestational age, weight at birth, mother’s age, and clinical information of the mother and the neonate. The exclusion criteria were the absence of the inclusion criteria. In total, 21 neonates with NEC met the inclusion criteria.</p>
+<p>The following variables were taken into consideration: pre-natal, perinatal and post-natal characteristics: mother’s age, major prior events of the mother such as infections (<xref ref-type="bibr" rid="ref-1-3682">1</xref>), premature breakage of membranes (<xref ref-type="bibr" rid="ref-2-3682">2</xref>), spectrum of hypertensive disorders associated with pregnancy, parity, twin pregnancy, form of delivery (vaginal or cesarean) (<xref ref-type="bibr" rid="ref-8-3682">8</xref>), gestational age at birth (weeks), sex (<xref ref-type="bibr" rid="ref-1-3682">1</xref>), presence of hypoxic-ischemic injuries (<xref ref-type="bibr" rid="ref-12-3682">12</xref>), weight at birth (grams) (<xref ref-type="bibr" rid="ref-2-3682">2</xref>), time of extra-uterine life (days), surgical management of enterocolitis (<xref ref-type="bibr" rid="ref-9-3682">9</xref>), co-morbidityes such as congenital cardiac malformations (<xref ref-type="bibr" rid="ref-6-3682">6</xref>) and gastrointestinal malformations of the neonates (<xref ref-type="bibr" rid="ref-13-3682">13</xref>), location of the enterocolitis (<xref ref-type="bibr" rid="ref-6-3682">6</xref>) and cause of death.</p>
+<p>Data was collected from the medical-scientific autopsy reports on the patients. The data was input using Microsoft Excel® software, and data analysis was performed using the Stata software, version 13 (StataCorp LP, College Station, TX, USA). Frequencies, percentages and measures of central tendency were extracted for the categorical variables, including maximum and minimum values in the case of continuous variables.</p>
+<p>This study follows the technical rules defined in the modified Declaration of Helsinki (Brazil 2013) and the Belmont report. Additionally, according to Colombian National Health Institute public health regulations, autopsies must be performed on 100% of cases of perinatal and late neonatal death whenever the cause has not been determined (<xref ref-type="bibr" rid="ref-14-3682">14</xref>). Consequently, no informed consent was required.</p>
+</sec>
+<sec sec-type="sec-3-3682">
+<title><bold>Results</bold></title>
+<p>During the period of the study, 21 NEC cases were recruited. <xref ref-type="table" rid="tab-1-3682">Table 1</xref> describes the general characteristics of the population.</p>
+<table-wrap id="tabw-1-3682">
+<label><bold>Table 1.</bold></label>
+<caption><title>Population Characteristics</title></caption>
+<table id="tab-1-3682" frame="hsides" border="1" rules="all">
+<colgroup width="100%">
+<col width="50%"/>
+<col width="50%"/>
+</colgroup>
+<tbody>
+<tr>
+<td valign="middle" align="left"><p><bold>Gender</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Male</p></td>
+<td valign="middle" align="left"><p>11 (52.4%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Female</p></td>
+<td valign="middle" align="left"><p>10 (47.6%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Mother’s age (years)</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Mean</p></td>
+<td valign="middle" align="left"><p>24,95 ± 6.58 (15-38)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Parity</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>First childbirth</p></td>
+<td valign="middle" align="left"><p>7 (33.3%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Multiple childbirths</p></td>
+<td valign="middle" align="left"><p>11 (52.4%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>No data</p></td>
+<td valign="middle" align="left"><p>2 (14.3%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Gestational age (weeks)</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Mean</p></td>
+<td valign="middle" align="left"><p>31.2 (24-40)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Full term newborns</p></td>
+<td valign="middle" align="left"><p>3 (14.3%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Pre-term newborns</p></td>
+<td valign="middle" align="left"><p>18 (85.7%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Twin pregnancy</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Yes</p></td>
+<td valign="middle" align="left"><p>3 (14.3%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>No</p></td>
+<td valign="middle" align="left"><p>18 (85.7%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Form of delivery</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Cesarean</p></td>
+<td valign="middle" align="left"><p>12 (57.1%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Vaginal</p></td>
+<td valign="middle" align="left"><p>9 (42.9%)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="left"><p><bold>Weight at birth (grams)</bold></p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Mean</p></td>
+<td valign="middle" align="left"><p>1609 ± 699 (490-3000)</p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Time of extra-uterine life (days)</p></td>
+<td valign="middle" align="left"><p></p></td>
+</tr>
+<tr>
+<td valign="middle" align="right"><p>Mean</p></td>
+<td valign="middle" align="left"><p>11 ± 8 (2-27)</p></td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p><bold>Source:</bold> Prepared by authors.</p>
+</table-wrap-foot>
+</table-wrap>
+    <p>14.3% (n=3) were teenage mothers (&#x003C; 18 years old) and there were no cases of older mothers (> 38 years old). 85.7% (n=18) were newborns with weight under 2.5 kg; 19.1% (n=4) had low weight at birth (&#x003C;1.5 kg) and 23.8% (n=5) had extremely low weight at birth (&#x003C;1 kg). (<xref ref-type="table" rid="tab-2-3682">Table 2</xref>)</p>
+<table-wrap id="tabw-2-3682">
+<label><bold>Table 2.</bold></label>
+<caption><title>Neonatal clinical characteristics of 21 cases of necrotizing enterocolitis</title></caption>
+<table id="tab-2-3682" frame="hsides" border="1" rules="all">
+<colgroup width="100%">
+<col width="25%"/>
+<col width="25%"/>
+<col width="25%"/>
+<col width="25%"/>
+</colgroup>
+<thead>
+<tr>
+<th valign="middle" align="center"><p><bold>Case</bold></p></th>
+<th valign="middle" align="center"><p><bold><xref ref-type="fn" rid="tab-2_fn1-3682">GA</xref> (weeks)</bold></p></th>
+<th valign="middle" align="center"><p><bold>Weight (g)</bold></p></th>
+<th valign="middle" align="left"><p><bold>Anatomic location of enterocolitis</bold></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="middle" align="center"><p>1</p></td>
+<td valign="middle" align="center"><p>36.2</p></td>
+<td valign="middle" align="center"><p>1590</p></td>
+<td valign="middle" align="left"><p>Ileum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref>, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref>, <xref ref-type="fn" rid="tab-2_fn4-3682">DC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>2</p></td>
+<td valign="middle" align="center"><p>31.4</p></td>
+<td valign="middle" align="center"><p>1540</p></td>
+<td valign="middle" align="left"><p>Caecum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>3</p></td>
+<td valign="middle" align="center"><p>28.3</p></td>
+<td valign="middle" align="center"><p>1040</p></td>
+<td valign="middle" align="left"><p>Ileum, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>4</p></td>
+<td valign="middle" align="center"><p>31.5</p></td>
+<td valign="middle" align="center"><p>1830</p></td>
+<td valign="middle" align="left"><p>Jejunum, ileum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>5</p></td>
+<td valign="middle" align="center"><p>31</p></td>
+<td valign="middle" align="center"><p>1810</p></td>
+<td valign="middle" align="left"><p>Ileum, Caecum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref>, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref>, <xref ref-type="fn" rid="tab-2_fn4-3682">DC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>6</p></td>
+<td valign="middle" align="center"><p>33</p></td>
+<td valign="middle" align="center"><p>1790</p></td>
+<td valign="middle" align="left"><p><xref ref-type="fn" rid="tab-2_fn6-3682"><sup>****</sup></xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>7</p></td>
+<td valign="middle" align="center"><p>27.6</p></td>
+<td valign="middle" align="center"><p>900</p></td>
+<td valign="middle" align="left"><p>Jejunum, ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>8</p></td>
+<td valign="middle" align="center"><p>38.5</p></td>
+<td valign="middle" align="center"><p>3000</p></td>
+<td valign="middle" align="left"><p>Ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>9</p></td>
+<td valign="middle" align="center"><p>30</p></td>
+<td valign="middle" align="center"><p>1450</p></td>
+<td valign="middle" align="left"><p>Ileum, <xref ref-type="fn" rid="tab-2_fn5-3682">ICV</xref>, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref>, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>10</p></td>
+<td valign="middle" align="center"><p>28</p></td>
+<td valign="middle" align="center"><p>780</p></td>
+<td valign="middle" align="left"><p>Jejunum, ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>11</p></td>
+<td valign="middle" align="center"><p>25.4</p></td>
+<td valign="middle" align="center"><p>990</p></td>
+<td valign="middle" align="left"><p>Ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>12</p></td>
+<td valign="middle" align="center"><p>30.5</p></td>
+<td valign="middle" align="center"><p>1840</p></td>
+<td valign="middle" align="left"><p>Ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>13</p></td>
+<td valign="middle" align="center"><p>28</p></td>
+<td valign="middle" align="center"><p>940</p></td>
+<td valign="middle" align="left"><p>Ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>14</p></td>
+<td valign="middle" align="center"><p>33.3</p></td>
+<td valign="middle" align="center"><p>1510</p></td>
+<td valign="middle" align="left"><p>Ileum, caecum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>15</p></td>
+<td valign="middle" align="center"><p>37</p></td>
+<td valign="middle" align="center"><p>3000</p></td>
+<td valign="middle" align="left"><p>Ileum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>16</p></td>
+<td valign="middle" align="center"><p>33</p></td>
+<td valign="middle" align="center"><p>2190</p></td>
+<td valign="middle" align="left"><p><xref ref-type="fn" rid="tab-2_fn6-3682"><sup>****</sup></xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>17</p></td>
+<td valign="middle" align="center"><p>33</p></td>
+<td valign="middle" align="center"><p>2200</p></td>
+<td valign="middle" align="left"><p>Duodenum, ileum, Jejunum, <xref ref-type="fn" rid="tab-2_fn5-3682">ICV</xref>, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref>, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref>, <xref ref-type="fn" rid="tab-2_fn4-3682">DC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>18</p></td>
+<td valign="middle" align="center"><p>24</p></td>
+<td valign="middle" align="center"><p>490</p></td>
+<td valign="middle" align="left"><p>Ileum, caecum</p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>19</p></td>
+<td valign="middle" align="center"><p>27.6</p></td>
+<td valign="middle" align="center"><p>1080</p></td>
+<td valign="middle" align="left"><p>Jejunum, ileum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>20</p></td>
+<td valign="middle" align="center"><p>28</p></td>
+<td valign="middle" align="center"><p>1220</p></td>
+<td valign="middle" align="left"><p>Ileum, <xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref></p></td>
+</tr>
+<tr>
+<td valign="middle" align="center"><p>21</p></td>
+<td valign="middle" align="center"><p>40</p></td>
+<td valign="middle" align="center"><p>2600</p></td>
+<td valign="middle" align="left"><p><xref ref-type="fn" rid="tab-2_fn2-3682">AC</xref>, <xref ref-type="fn" rid="tab-2_fn3-3682">TC</xref>, <xref ref-type="fn" rid="tab-2_fn4-3682">DC</xref></p></td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn id="tab-2_fn1-3682"><label>GA:</label> <p>Gestational age,</p></fn>
+<fn id="tab-2_fn2-3682"><label>AC:</label> <p>ascending colon,</p></fn>
+<fn id="tab-2_fn3-3682"><label>TC:</label> <p>Traverse colon,</p></fn>
+<fn id="tab-2_fn4-3682"><label>DC:</label> <p>Descending colon,</p></fn>
+<fn id="tab-2_fn5-3682"><label>ICV:</label> <p>Ileocecal valve.</p></fn>
+<fn id="tab-2_fn6-3682"><label><sup>****</sup>:</label> <p>No location data reported.</p></fn>
+<p><bold>Source:</bold> Prepared by the authors</p>
+</table-wrap-foot>
+</table-wrap>
+<p>In the mothers’ history it was found that 38.1% (n=8) had at least one important background event, and 19.1% (n=4) had more than one maternal background event. 14.3% (n=3) had a spectrum of hypertensive disorders associated with pregnancy; 23.8% (n=5) maternal infection, of which one case with treated gestational syphilis, and 33.3% (n=7) had premature breakage of membranes.</p>
+<p>In terms of the neonatal risk factors, 38.1% (n=8) displayed at least one associated pathology and 33.3% displayed more than one. In 52.4% (n=ll) of the cases, hypoxic ischemic injury was diagnosed (perinatal asphyxia). 14.3% (n=3) displayed restriction in intrauterine growth. 14.3% (n=3) displayed neonatal kernicterus, and cardiac malformations were detected in 28.6% (n=6), on the abdominal wall of the gastroschisis type, 9.5% (n=2) and gastrointestinal (Hirschsprung disease and small intestine atresia type I with proximal cystic dilation), 4.6% (n=l), as well as one case of trisomy 13, one case of Crigler-Najjar syndrome and one case of disorganization-like syndrome. 28.6% (n=6) received surgical treatment.</p>
+<p>In 62% (n=13) of the cases, NEC was considered the basic cause of death. In the remaining cases, NEC was an additional finding and the basic cause of death was intra-ventricular hemorrhage (n=3), intra-alveolar hemorrhage (n=l), gastroschisis (n=2) and two cases of congenital anomalies of the intra-ventricular communication type and disorganization-like syndrome.</p>
+<p>The frequency of location of NEC was: ileum 89.5% (n=17), ascending colon 47.4% (n=9), transverse colon 31.6% (n=6), jejunum 26.3% (n=5), caecum 26.3% (n=5), descending colon 21.1% (n=4), ileocecal valve 10.5% (n=2) and duodenum 5.3% (n=l). (<xref ref-type="table" rid="tab-2-3682">Table 2</xref>) (<xref ref-type="fig" rid="fig-1-3682">Figure 1</xref>).</p>
+<fig id="fig-1-3682">
+<label><bold>Figure 1.</bold></label>
+<caption><title>Letter A, case 5: compromised colon with peritonitis and fibrinous membranes; Letter B, case 7: compromised jejunum and ileum with evident pneumatosis; Letter C, case 9: compromised ileum, ileocecal valve, ascending and transverse colon; Letter D, case 1: patient with jaundice and ileostomy; Letter E, case 12: case associated with kernicterus; Letter F, case 12: histological cross-section of ileum displays transmural inflammation with damage to the muscle fibers</title></caption>
+<p><bold>Source.</bold> Prepared by the authors</p>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig-1-3682.png"/>
+</fig>
+</sec>
+<sec sec-type="sec-4-3682">
+<title><bold>Discussion</bold></title>
+<p>Inpremature newborns with NEC, studies have indicated that intestinal immaturity generates susceptibility due to reduced protection and repair of the intestinal wall (<xref ref-type="bibr" rid="ref-6-3682">6</xref>,<xref ref-type="bibr" rid="ref-15-3682">15</xref>). Additionally, low birthweight is a risk factor for the development and prognosis of NEC. Studies report that there is an inverse relationship between mortality and weight at birth (<xref ref-type="bibr" rid="ref-2-3682">2</xref>,<xref ref-type="bibr" rid="ref-6-3682">6</xref>), and according to some authors, up to 85% of all NEC cases arise mainly in premature patients, in newborns of extremely low weight (<xref ref-type="bibr" rid="ref-4-3682">4</xref>). These results are consistent with the findings of this study, in which 85.7% were bom pre-term and the same percentage had weights of less than 2,500 grams.</p>
+<p>Some forms of NEC that are found in full term babies are often associated with contributing factors, such as restricted intrauterine growth, perinatal asphyxia (<xref ref-type="bibr" rid="ref-16-3682">16</xref>), prolonged rupture of membranes (<xref ref-type="bibr" rid="ref-17-3682">17</xref>), breathing insufficiency, sepsis, neonatal convulsions, hypoglycemia, hypothermia and hyperthermia (<xref ref-type="bibr" rid="ref-13-3682">13</xref>), blood transfusions, defects of the neural tube (<xref ref-type="bibr" rid="ref-17-3682">17</xref>), gastroschisis (<xref ref-type="bibr" rid="ref-13-3682">13</xref>), and congenital heart disease (<xref ref-type="bibr" rid="ref-16-3682">16</xref>). In this study, 14.3% (n=3) of the cases were full term newborns, among which two cases were found with hypoxic-ischemic injuries and one case with cardiac malformation of the intra-ventricular communications type; the hypoxic-ischemic injury cases were associated independently to premature breakage of membranes and restriction of intrauterine growth.</p>
+<p>Several studies have found greater NEC frequency in premature neonates with serious complex congenital heart disease (<xref ref-type="bibr" rid="ref-18-3682">18</xref>), who displayed greater risk of developing NEC due to the reduction of mesenteric perfusion (<xref ref-type="bibr" rid="ref-17-3682">17</xref>,<xref ref-type="bibr" rid="ref-19-3682">19</xref>). This information is consistent with this study, in which 83.3% (n=5/6) of cases with NEC and congenital heart disease were premature newborns.</p>
+<p>The concept of dysbiosis is highly relevant for the pathogenesis of NEC. Dysbiosis means an unbalance between protective bacteria and opportunistic harmful bacteria (<xref ref-type="bibr" rid="ref-20-3682">20</xref>). The premature newborns display poor colonization of protective bacteria, due to their immaturity (<xref ref-type="bibr" rid="ref-21-3682">21</xref>). Other factors that cause lower exposure to protective bacteria are delivery by cesarean, feeding with milk formula, early empirical anti-bacterial therapy and therapy using histamine blockers (<xref ref-type="bibr" rid="ref-20-3682">20</xref>). In this study, in over half of the cases delivery was by cesarean, which may have been a contributing factor to the appearance of NEC.</p>
+<p>In terms of gestational age, NEC affects the colon of full term newborns and the small intestine in pre-term newborns; the jejunum is the most frequently affected location in extremely premature babies (&#x003C; 30 weeks) and the ileum is most affected in premature babies (30-36 weeks) (<xref ref-type="bibr" rid="ref-6-3682">6</xref>). Inconsistent data with this study. In future studies, it is recommended to broaden the sample in order to confirm or refute the findings.</p>
+<p>25% of neonates with NEC undewent surgical treatment; post-operation mortality is between 20 and 60%. Perioperative complications arise in up to 70% of cases, including death, complications related to enterostomy, intestinal stenosis, sepsis, peritonitis and wound infections (<xref ref-type="bibr" rid="ref-9-3682">9</xref>). Additionally, the long-term effects of NEC are intestinal stenosis, short bowel syndrome, growth impairment and neurological development problems (<xref ref-type="bibr" rid="ref-20-3682">20</xref>,<xref ref-type="bibr" rid="ref-22-3682">22</xref>).</p>
+<p>Necrotizing enterocolitis generates an inflammatory response syndrome that has been associated with producing the neuro-toxicity of bilirubin, which is more frequent in premature newborns (<xref ref-type="bibr" rid="ref-23-3682">23</xref>, <xref ref-type="bibr" rid="ref-24-3682">24</xref>). In this sample 3 cases of neonatal kernicterus were diagnosed, all of them newborns of less than 36.6 weeks. There is also a relationship between the spectrum of hypertensive disorders associated with pregnancy that generates fetal hypoxia and restrictions to intrauterine growth, which may be the underlying mechanism that predisposes the neonate to NEC, where preeclampsia is a risk factor in premature newborns and in newborns with birthweight below 1.5 kg (<xref ref-type="bibr" rid="ref-25-3682">25</xref>). In this study, cases involving a spectrum of hypertensive disorders associated with pregnancy and NEC were found in the premature newborns: two of the three cases had a weight at birth of less than 1,500 g, and the third displayed restriction of intrauterine growth.</p>
+<p>This study has limitations in that it was carried out in a single region of the country, the cohort was retrospective, only access to autopsy reports was available, and the total population that developed enterocolitis is unknown. Despite these limitations, the study describes the characteristics of the patients that developed NEC at a high-complexity healthcare center in the northeastern region of Colombia and at neighboring medical centers, because according to Colombian law all cases of neonatal death must be investigated to determine the cause of death, finding that the results are consistent with the literature.</p>
+</sec>
+<sec sec-type="sec-5-3682">
+<title><bold>Conclusion</bold></title>
+<p>The pathogenesis and clinical presentation of enterocolitis has not been fully clarified. This study performed with a Colombian population is consistent with what is described for the world population, where necrotizing enterocolitis is more frequent in pre-term newborns, with low birthweight, ischemic hypoxic injury, cardiac malformations in premature newborns, spectrum of hypertensive disorders associated with pregnancy and maternal infection.</p>
+</sec>
+<sec sec-type="sec-6-3682">
+<title><bold>Funding</bold></title>
+<p>No funding was received.</p>
+</sec>
+</body>
+<back>
+<ref-list><title><bold>References</bold></title>
+<ref id="ref-1-3682"><label>1.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Stafford</surname> <given-names>IA</given-names></string-name>, <string-name><surname>Rodrigue</surname> <given-names>E</given-names></string-name>, <string-name><surname>Berra</surname> <given-names>A</given-names></string-name>, <string-name><surname>Adams</surname> <given-names>W</given-names></string-name>, <string-name><surname>Heard</surname> <given-names>AJ</given-names></string-name>, <string-name><surname>Hagan</surname> <given-names>JL</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">The strong correlation between neonatal early-onset Group B Streptococcal disease and necrotizing enterocolitis</article-title>. <source xml:lang="en">European Journal of Obstetrics and Gynecology and Reproductive Biology</source>. <year>2018</year>;<volume>223</volume>,<fpage>93</fpage>-<lpage>97.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.ejogrb.2018.02.024.</pub-id></mixed-citation></ref>
+<ref id="ref-2-3682"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Samuels</surname> <given-names>N</given-names></string-name>, <string-name><surname>Van-De-Graaf</surname> <given-names>RA</given-names></string-name>, <string-name><surname>De-Jonge</surname> <given-names>RCJ</given-names></string-name>, <string-name><surname>Reiss</surname> <given-names>IKM</given-names></string-name>, <string-name><surname>Vermeulen</surname> <given-names>MJ</given-names></string-name>.</person-group> <article-title xml:lang="en">Risk factors for necrotizing enterocolitis in neonates: a systematic review of prognostic studies</article-title>. <source xml:lang="en">BMC Pediatrics</source>. <year>2017</year>;<volume>17</volume><issue>(1):</issue><fpage>105.</fpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1186/sl2887-017-0847-3.</pub-id></mixed-citation></ref>
+<ref id="ref-3-3682"><label>3.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Neu</surname> <given-names>J</given-names></string-name>, <string-name><surname>Walker</surname> <given-names>WA</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing Enterocolitis</article-title>. <source xml:lang="en">The New England Journal of Medicine</source>. <year>2011</year>;<volume>364</volume>: <fpage>255</fpage>-<lpage>264.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1056/nejmra1005408.</pub-id></mixed-citation></ref>
+<ref id="ref-4-3682"><label>4.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Moschopoulos</surname> <given-names>C</given-names></string-name>, <string-name><surname>Kratimenos</surname> <given-names>P</given-names></string-name>, <string-name><surname>Koutroulis</surname> <given-names>I</given-names></string-name>, <string-name><surname>Shah</surname> <given-names>BV</given-names></string-name>, <string-name><surname>Mowes</surname> <given-names>A</given-names></string-name>, <string-name><surname>Bhandari</surname> <given-names>V</given-names></string-name>.</person-group> <article-title xml:lang="en">Review Article The Neurodevelopmental Perspective of Surgical Necrotizing Enterocolitis: The Role of the Gut-Brain Axis</article-title>. <source xml:lang="en">Mediators of Inflammation</source>. <year>2018</year>:<fpage>1</fpage>-<lpage>8</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.1155/2018/7456857.</pub-id></mixed-citation></ref>
+<ref id="ref-5-3682"><label>5.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Zani</surname> <given-names>A</given-names></string-name>, <string-name><surname>Pierro</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing enterocolitis: controversies and challenges</article-title>. <source xml:lang="en">F1000Research</source>. <year>2015</year>. doi: https://doi.Org/<pub-id pub-id-type="doi">10.12688/fl000research.6888.1.</pub-id></mixed-citation></ref>
+<ref id="ref-6-3682"><label>6.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Feldens</surname> <given-names>L</given-names></string-name>, <string-name><surname>Souza</surname> <given-names>JCK</given-names></string-name>, <string-name><surname>Fraga</surname> <given-names>JC</given-names></string-name>.</person-group> <article-title xml:lang="en">There is an association between disease location and gestational age at birth in newborns submitted to surgery due to necrotizing enterocolitis</article-title>. <source xml:lang="pt">Jornal de Pediatria</source>. <year>2018</year>;<volume>94</volume><issue>(3):</issue><fpage>320</fpage>-<lpage>324.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.jped.2017.06.010.</pub-id></mixed-citation></ref>
+<ref id="ref-7-3682"><label>7.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Aceti</surname> <given-names>A</given-names></string-name>, <string-name><surname>Beghetti</surname> <given-names>I</given-names></string-name>, <string-name><surname>Martini</surname> <given-names>S</given-names></string-name>, <string-name><surname>Faldella</surname> <given-names>G</given-names></string-name>, <string-name><surname>Corvaglia</surname> <given-names>L</given-names></string-name>.</person-group> <article-title xml:lang="en">Review Article Oxidative Stress and Necrotizing Enterocolitis: Pathogenetic Mechanisms, Opportunities for Intervention, and Role of Human Milk</article-title>. <source xml:lang="en">Oxidative Medicine and Cellular Longevity</source>. <year>2018</year>:<fpage>1</fpage>-<lpage>7</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.1155/2018/7397659.</pub-id></mixed-citation></ref>
+<ref id="ref-8-3682"><label>8.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Yang</surname> <given-names>CC</given-names></string-name>, <string-name><surname>Tang</surname> <given-names>PL</given-names></string-name>, <string-name><surname>Liu</surname> <given-names>PY</given-names></string-name>, <string-name><surname>Huang</surname> <given-names>WC</given-names></string-name>, <string-name><surname>Chen</surname> <given-names>YY</given-names></string-name>, <string-name><surname>Wang</surname> <given-names>H</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Maternal pregnancy-induced hypertension increases subsequent neonatal necrotizing enterocolitis risk</article-title>. <source xml:lang="en">Medicine</source>. <year>2018</year>;<volume>97</volume><issue>(31):</issue><fpage>ell739.</fpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1097/MD.0000000000011739.</pub-id></mixed-citation></ref>
+<ref id="ref-9-3682"><label>9.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Mutanen</surname> <given-names>A</given-names></string-name>, <string-name><surname>Pierro</surname> <given-names>A</given-names></string-name>, <string-name><surname>Zani</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">Perioperative Complications Following Surgery for Necrotizing Enterocolitis</article-title>. <source xml:lang="en">European Journal of Pediatric Surgery</source>. <year>2018</year>;<volume>28</volume><issue>(2):</issue><fpage>148</fpage>-<lpage>151.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1055/s-0038-1636943.</pub-id></mixed-citation></ref>
+<ref id="ref-10-3682"><label>10.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Szpecht</surname> <given-names>D</given-names></string-name>, <string-name><surname>Neumann-Klimasińska</surname> <given-names>N</given-names></string-name>, <string-name><surname>Błaszczyński</surname> <given-names>M</given-names></string-name>, <string-name><surname>Seremak-Mrozikiewicz</surname> <given-names>A</given-names></string-name>, <string-name><surname>Kurzawińska</surname> <given-names>G</given-names></string-name>, <string-name><surname>Cygan</surname> <given-names>D</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Candidate gene analysis in pathogenesis of surgically and non-surgically treated necrotizing enterocolitis in preterm infants</article-title>. <source xml:lang="en">Molecular and Cellular Biochemistry</source>. <year>2018</year>;<volume>439</volume><issue>(1-2)</issue>:<fpage>53</fpage>-<lpage>63</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.1007/s11010-017-3135-5.</pub-id></mixed-citation></ref>
+<ref id="ref-11-3682"><label>11.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Rees</surname> <given-names>CM</given-names></string-name>, <string-name><surname>Eaton</surname> <given-names>S</given-names></string-name>, <string-name><surname>Pierro</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">National prospective surveillance study of necrotizing enterocolitis in neonatal intensive care units</article-title>. <source xml:lang="en">Journal of Pediatric Surgery</source>. <year>2010</year>;<volume>45</volume><issue>(7)</issue>:<fpage>1391</fpage>–<lpage>1397</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.jpedsurg.2009.12.002.</pub-id></mixed-citation></ref>
+<ref id="ref-12-3682"><label>12.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Lu</surname> <given-names>Q</given-names></string-name>, <string-name><surname>Cheng</surname> <given-names>S</given-names></string-name>, <string-name><surname>Zhou</surname> <given-names>M</given-names></string-name>, <string-name><surname>Yu</surname> <given-names>J</given-names></string-name>.</person-group> <article-title xml:lang="en">Risk Factors for Necrotizing Enterocolitis in Neonates: A Retrospective Case-Control Study</article-title>. <source xml:lang="en">Pediatrics &#x0026; Neonatology</source>. <year>2017</year>;<volume>58</volume><issue>(2):</issue><fpage>165</fpage>-<lpage>170.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.pedneo.2016.04.002.</pub-id></mixed-citation></ref>
+<ref id="ref-13-3682"><label>13.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Müller</surname> <given-names>MJ</given-names></string-name>, <string-name><surname>Paul</surname> <given-names>T</given-names></string-name>, <string-name><surname>Seeliger</surname> <given-names>S</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing enterocolitis in premature infants and newborns</article-title>. <source xml:lang="en">Journal of Neonatal-Perinatal Medicine</source>. <year>2016</year>;<volume>16;9</volume><issue>(3)</issue>:<fpage>233</fpage>-<lpage>242</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.3233/NPM-16915130.</pub-id></mixed-citation></ref>
+<ref id="ref-14-3682"><label>14.</label><mixed-citation publication-type="journal"><collab>Equipo Maternidad Segura Subdirección de Prevención, Vigilancia y Control en Salud Pública Instituto Nacional de Salud</collab>.<article-title xml:lang="es">Mortalidad Perinatal y Neonatal Tardía</article-title>. <source xml:lang="es">Protocolo de vigilancia en salud pública</source>. <year>2017</year>:<fpage>1</fpage>-<lpage>31</lpage>p</mixed-citation></ref>
+<ref id="ref-15-3682"><label>15.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Denning</surname> <given-names>TL</given-names></string-name>, <string-name><surname>Bhatia</surname> <given-names>AM</given-names></string-name>, <string-name><surname>Kane</surname> <given-names>AF</given-names></string-name>, <string-name><surname>Patel</surname> <given-names>RM</given-names></string-name>, <string-name><surname>Denning</surname> <given-names>PW</given-names></string-name>.</person-group> <article-title xml:lang="en">Pathogenesis of NEC: Role of the innate and adaptive immune response</article-title>. <source xml:lang="en">Seminars in Perinatology</source>. <year>2017</year>;<volume>41</volume><issue>(1)</issue>:<fpage>15</fpage>-<lpage>28</lpage>.doi: https://doi.org/<pub-id pub-id-type="doi">10.1053/j.semperi.2016.09.014.</pub-id></mixed-citation></ref>
+<ref id="ref-16-3682"><label>16.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Hackam</surname> <given-names>D</given-names></string-name>, <string-name><surname>Caplan</surname> <given-names>M</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing enterocolitis: Pathophysiology from a historical context</article-title>. <source xml:lang="en">Seminars in Pediatric Surgery</source>. <year>2018</year>;<volume>27</volume><issue>(1)</issue>:<fpage>11</fpage>-<lpage>18</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1053/j.sempedsurg.2017.11.003.</pub-id></mixed-citation></ref>
+<ref id="ref-17-3682"><label>17.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Lau</surname> <given-names>PE</given-names></string-name>, <string-name><surname>Cruz</surname> <given-names>SM</given-names></string-name>, <string-name><surname>Ocampo</surname> <given-names>EC</given-names></string-name>, <string-name><surname>Nuthakki</surname> <given-names>S</given-names></string-name>, <string-name><surname>Style</surname> <given-names>CC</given-names></string-name>, <string-name><surname>Lee</surname> <given-names>TC</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Necrotizing enterocolitis in patients with congenital heart disease: A single center experience</article-title>. <source xml:lang="en">Journal of Pediatric Surgery</source>. <year>2018</year>;<volume>53</volume><issue>(5):</issue><fpage>914</fpage>-<lpage>917.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.jpedsurg.2018.02.014.</pub-id></mixed-citation></ref>
+<ref id="ref-18-3682"><label>18.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Duci</surname> <given-names>M</given-names></string-name>, <string-name><surname>Fascetti</surname> <given-names>F</given-names></string-name>, <string-name><surname>Marta</surname> <given-names>L</given-names></string-name>, <string-name><surname>Elena</surname> <given-names>E</given-names></string-name>, <string-name><surname>Maria</surname> <given-names>P</given-names></string-name>, <string-name><surname>Cavicchiolo</surname> <given-names>E</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Neonatal independent predictors of severe NEC</article-title>. <source xml:lang="en">Pediatric Surgery International</source>. <year>2018</year>;<volume>34</volume><issue>(6):</issue><fpage>663</fpage>-<lpage>669.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1007/s00383-018-4261-1.</pub-id></mixed-citation></ref>
+<ref id="ref-19-3682"><label>19.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Lopez</surname> <given-names>NL</given-names></string-name>, <string-name><surname>Gowda</surname> <given-names>C</given-names></string-name>, <string-name><surname>Backes</surname> <given-names>CH</given-names></string-name>, <string-name><surname>Nandi</surname> <given-names>D</given-names></string-name>, <string-name><surname>Rn</surname> <given-names>HM</given-names></string-name>, <string-name><surname>Fichtner</surname> <given-names>S</given-names></string-name>, <etal>et al.</etal></person-group> <article-title xml:lang="en">Differences in midterm outcomes in infants with hypoplastic left heart syndrome diagnosed with necrotizing enterocolitis: NP-CQIC database analysis</article-title>. <source xml:lang="en">Congenital Heart Disease</source>. <year>2018</year>;<volume>13</volume><issue>(4):</issue><fpage>512</fpage>-<lpage>518.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1111/chd.12602.</pub-id></mixed-citation></ref>
+<ref id="ref-20-3682"><label>20.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Agnoni</surname> <given-names>A</given-names></string-name>, <string-name><surname>Lazaros-Amendola</surname> <given-names>C</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing enterocolitis: Current concepts in practice</article-title>. <source xml:lang="en">Journal of the American Academy of Physician Assistants</source>. <year>2017</year>;<volume>30</volume><issue>(8):</issue><fpage>16</fpage>-<lpage>21.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1097/0l.JAA.0000521131.85173.f9.</pub-id></mixed-citation></ref>
+<ref id="ref-21-3682"><label>21.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Caplan</surname> <given-names>MS</given-names></string-name>, <string-name><surname>Fanaroff</surname> <given-names>A</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing: A historical perspective</article-title>. <source xml:lang="en">Seminars in Perinatology</source>. <year>2017</year>;<volume>41</volume><issue>(1):</issue><fpage>2</fpage>-<lpage>6.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1053/j.semperi.2016.09.012.</pub-id></mixed-citation></ref>
+<ref id="ref-22-3682"><label>22.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Rich</surname> <given-names>BS</given-names></string-name>, <string-name><surname>Dolgin</surname> <given-names>SE</given-names></string-name>.</person-group> <article-title xml:lang="en">Necrotizing Enterocolitis</article-title>. <source xml:lang="en">Pediatrics in Review</source>. <year>2017</year>;<volume>38</volume><issue>(12):</issue><fpage>552</fpage>-<lpage>559.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1542/pir.2017-0002.</pub-id></mixed-citation></ref>
+<ref id="ref-23-3682"><label>23.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Watchko</surname> <given-names>JF</given-names></string-name>.</person-group> <article-title xml:lang="en">Bilirubin-Induced Neurotoxicity in the Preterm Neonate</article-title>. <source xml:lang="en">Clinics in Perinatology</source>. <year>2016</year>;<volume>43</volume><issue>(2):</issue><fpage>297</fpage>-<lpage>311.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1016/j.clp.2016.01.007.</pub-id></mixed-citation></ref>
+<ref id="ref-24-3682"><label>24.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Watchko</surname> <given-names>JF</given-names></string-name>, <string-name><surname>Maisels</surname> <given-names>MJ</given-names></string-name>.</person-group> <article-title xml:lang="en">The enigma of low bilirubin kernicterus in premature infants: why does it still occur, and is it preventable?</article-title><source xml:lang="en">Seminars in Perinatology</source>. <year>2014</year>;<volume>38</volume><issue>(7):</issue><fpage>397</fpage>-<lpage>406.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.1053/j.semperi.2014.08.002.</pub-id></mixed-citation></ref>
+<ref id="ref-25-3682"><label>25.</label><mixed-citation publication-type="journal"><person-group person-group-type="allauthors"><string-name><surname>Perger</surname> <given-names>L</given-names></string-name>, <string-name><surname>Mukhopadhyay</surname> <given-names>D</given-names></string-name>, <string-name><surname>Komidar</surname> <given-names>L</given-names></string-name>, <string-name><surname>Wiggins-Dohlvik</surname> <given-names>K</given-names></string-name>, <string-name><surname>Uddin</surname> <given-names>MN</given-names></string-name>, <string-name><surname>Beeram</surname> <given-names>M</given-names></string-name>.</person-group> <article-title xml:lang="en">Maternal pre-eclampsia as a risk factor for necrotizing enterocolitis</article-title>. <source xml:lang="en">The Journal of Maternal-Fetal &#x0026; Neonatal Medicine</source>. <year>2016</year>;<volume>29</volume><issue>(13):</issue><fpage>2098</fpage>-<lpage>103.</lpage> doi: https://doi.org/<pub-id pub-id-type="doi">10.3109/14767058.2015.1076386.</pub-id></mixed-citation></ref></ref-list>
+</back>
+</article>
