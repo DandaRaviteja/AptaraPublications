@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273600</article-id>
+<xplore-article-id>11273600</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>Pathological-to-Healthy Speech Conversion Using Continuous-Time Neural Modeling</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Salma</given-names> <surname>Chlaikhy</surname></string-name>
+<string-name specific-use="index"><given-names>Salma</given-names> <surname>Chlaikhy</surname></string-name>
+</name-alternatives>
+<email>salma.chlaikhy-etu@etu.univh2c.ma</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Adil</given-names> <surname>Chakhtouna</surname></string-name>
+<string-name specific-use="index"><given-names>Adil</given-names> <surname>Chakhtouna</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Abdellah</given-names> <surname>Adib</surname></string-name>
+<string-name specific-use="index"><given-names>Abdellah</given-names> <surname>Adib</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>*</sup>
+<institution-wrap>
+<institution content-type="institution">Team Data Science and Artificial Intelligence, Laboratory of Intelligence Machine (LIM), Faculty of Sciences and Technologies, Hassan II University</institution>
+</institution-wrap>
+<city>Mohammedia</city>
+<country>Morocco</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273600_ft.xml</self-uri>
+<self-uri content-type="print">1014435.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Patients with motor speech disorders like dysarthria, Parkinson&#x0027;s, or stroke often present with lower speech intelligibility, making everyday communication difficult. Here, we introduce a modular and interpretable pathway for pathological-to-healthy speech restoration in the absence of parallel training material. The pathway is comprised of three phases: (1) A Neural Ordinary Differential Equation (Neural ODE) architecture designed to correct distorted Mel-Frequency Cepstral Coefficients (MFCCs), producing smooth trajectories characteristic of healthy-sounding speech; (2) a Bidirectional Long Short-Term Memory (BLSTM)-based Automatic Speech Recognition (ASR) architecture to recover linguistic content; and (3) a FastSpeech 2 in conjunction with HiFi-GAN text-to-speech system trained on clean samples for high-fidelity synthesis. Tests on the UASpeech database affirm that the proposed framework outperforms existing baselines in terms of intelligibility and demonstrates substantial robustness to both speaker variability and data sparsity. The modular nature facilitates clinically pertinent release for restoration in assistive applications.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Motor speech disorders</kwd>
+<kwd>Dysarthria</kwd>
+<kwd>Speech intelligibility</kwd>
+<kwd>Pathological-to-Healthy</kwd>
+<kwd>Modular pipeline</kwd>
+<kwd>Interpretable model</kwd>
+<kwd>Neural ODE</kwd>
+<kwd>MFCCs</kwd>
+<kwd>BLSTM</kwd>
+<kwd>ASR</kwd>
+<kwd>Text-to-speech synthesis</kwd>
+<kwd>Speech recognition</kwd>
+<kwd>Speech conversion</kwd>
+<kwd>Non-parallel data</kwd>
+<kwd>Clinically relevant deployment</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>National Center for Scientific and Technical Research</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>We sincerely appreciate the support from the National Center for Scientific and Technical Research (CNRST) through the &#x201C;PhD-Associate Scholarship - PASS&#x201D; program. This funding was critical for the successful execution of our research.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="44"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Following this introduction, the remainder of this article is organized as follows. <xref ref-type="sec" rid="sec2">Section 2</xref> provides a brief review of related work on pathological-to-healthy VC approaches. <xref ref-type="sec" rid="sec3">Section 3</xref> provides an overview of the proposed workflow. <xref ref-type="sec" rid="sec4">Sections 4</xref> and <xref ref-type="sec" rid="sec5">5</xref> describe the experimental setup and present an analysis of the obtained results, respectively. Finally, Section 6 concludes the study and offers directions for future research.</p>
+<p>With the advent of advanced speech systems and wireless communication technologies, human interaction is increasingly shifting toward speech-based modalities. Applications such as voice messaging, virtual assistants, and smart devices have made spoken language a primary channel of communication <xref ref-type="bibr" rid="ref1">[1]</xref>. According to a study by Stanford University <xref ref-type="bibr" rid="ref2">[2]</xref>, speech is approximately three times faster than typing, offering users a more intuitive and efficient alternative to text. Consequently, people now prefer speech because it is faster and more emotionally expressive than text, enabling clearer comprehension of others&#x0027; sentiments and a better understanding of the addressee&#x0027;s emotional state <xref ref-type="bibr" rid="ref3">[3]</xref> <xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>However, this shift toward speech-dominant interaction introduces serious challenges for individuals with motor speech disorders, such as dysarthria, Parkinson&#x0027;s disease, post-stroke impairments, and Alzheimer&#x0027;s disease. These conditions often result in severely impaired speech intelligibility, restricting the affected individuals&#x0027; ability to participate in everyday conversations, social relationships, and professional life <xref ref-type="bibr" rid="ref5">[5]</xref>. In fact, recent studies indicate that certain neurodegenerative diseases, like Alzheimer&#x0027;s, can be detected through vocal biomarkers, offering new diagnostic avenues but further emphasizing the vulnerability of speech as a communication channel <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+<p>While there have been substantial advancements in ASR and Text-To-Speech (TTS) systems, mainstream technologies still fail to serve users with disordered speech. Conventional ASR models are trained on large corpora of healthy speech and typically struggle to generalize to pathological input, leading to high word error rates and communication breakdowns <xref ref-type="bibr" rid="ref7">[7]</xref>. Moreover, enhancement methods such as voice conversion (VC) frequently rely on parallel datasets matched recordings of pathological and healthy speech which are both scarce and difficult to collect <xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+<p>To address these limitations, we propose a modular speech restoration pipeline that is designed to:
+<list list-type="ordered">
+<list-item><label>1)</label><p>Correct disordered acoustic features.</p></list-item>
+<list-item><label>2)</label><p>Extract the underlying linguistic content.</p></list-item>
+<list-item><label>3)</label><p>Synthesize intelligible and natural speech.</p></list-item>
+</list></p>
+<p>Our central element is a Neural ODE module, the one that maps pathological MFCCs to continuous, healthy-like acoustic trajectories with unpaired training data. To our best knowledge, this work is the initial one in the literature of pathological-to-healthy VC to propose the neural ODE framework. We further employ a BLSTM-based ASR module to perform transcription, together with a FastSpeech 2 with HiFi-GAN model with high-quality speech generation. It is the first-time use of FastSpeech 2 with HiFi-GAN in VC of pathological-to-healthy voices.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Works</title>
+<p>Dysarthric speech is a highly non-standard stimulus for standard ASR systems. Due to the imprecise articulation, speech rate that is too slow, and distortion of the phoneme, standard ASR models catastrophically fail under this type of speech. Accordingly, the community has developed specialpurpose ASR systems and adaptation methods that are specific to dysarthria.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Classical Signal Processing and Source-Filter Based Approaches</title>
+<p>The earliest attempts at pathological VC relied primarily on the use of classical signal processing techniques and the source-filter model of speech production. They tried to modify the acoustic features directly or manipulate the estimated glottal source.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Spectral adjustment and improvement:</bold> Many of the earliest methods entailed direct spectral adjustments to eliminate observed roughness, breathiness, or unwanted noise. Several methods, like Wiener filtering <xref ref-type="bibr" rid="ref26">[26]</xref>, spectral subtraction <xref ref-type="bibr" rid="ref9">[9]</xref>, or adaptive filtering, developed originally as denoising processes, have been adapted to remove specific features of dysphonic speech, with the aim of achieving a smoother or clearer spectral contour <xref ref-type="bibr" rid="ref15">[15]</xref>. These methods often prove unsuccessful, however, to preserve the natural quality and intelligibility in the most serious pathologies, and often introduce an unwanted artificial quality.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Glottal source modeling and manipulation:</bold> Recognizing that the majority of the voice pathologies result from irregularities in the vibration of the vocal folds, numerous studies focused on modeling and manipulating the glottal source <xref ref-type="bibr" rid="ref12">[12]</xref>. Most of the techniques involved predicting the glottal flow waveform from pathological speech and then synthesizing the voice based on an altered, &#x201C;normalized&#x201D; glottal source. Parametric representations, such as the Liljencrants-Fant (LF) model <xref ref-type="bibr" rid="ref21">[21]</xref> or the Rosenberg model <xref ref-type="bibr" rid="ref25">[25]</xref>, were often adopted to manipulate parameters such as the instant of glottal closure, open quotient, and asymmetry, thereby normalizing the source excitation <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref20">[20]</xref>. The limitation with such methods is, however, accurately predicting the glottal source from highly a aperiodic or noisy pathological speech.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Statistical Parametric Approaches</title>
+<p>With the advancement of statistical modeling, voice conversion methods have increasingly focused on learning statistical relationships between the acoustic features of pathological and healthy voices.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Gaussian Mixture Model (GMM)-based VC:</bold> This method&#x0027;s popularity increased because it could represent the joint probability distribution of the source and target acoustic features <xref ref-type="bibr" rid="ref27">[27]</xref>. Most GMM-based systems train, under the mapping function, an adaptive GMM, which is typically employed in mapping acoustic features (e.g., MFCCs, <inline-formula><tex-math notation="LaTeX">$F_{0}$</tex-math></inline-formula> contours, and Mel-cepstral distortion) of a pathological speaker to the corresponding ones of the healthy speaker <xref ref-type="bibr" rid="ref16">[16]</xref>, <xref ref-type="bibr" rid="ref29">[29]</xref>. Though offering improved generalization and smoother transformations at the spectral level with respect to direct manipulation, the methods still often require the availability of parallel data (i.e., the same utterances being recorded both by the pathological and the healthy speakers), which is a serious limitation given the limited availability of such collections of data for most of the voice disorders.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>HHidden Markov Model (HMM)-based Synthesis:</bold> Though more often used in the context of TTS synthesis, HMMs have been modified for the purposes of VC <xref ref-type="bibr" rid="ref30">[30]</xref>. They may capture the temporal dynamics of speech characteristics and produce more natural-sounding and coherent conversions by simultaneously modeling prosodic and spectral features <xref ref-type="bibr" rid="ref33">[33]</xref>. Like GMMs, their performance in pathological conversion is frequently restricted by the availability of large parallel corpora.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>Deep Learning Based Approaches</title>
+<p>The recent breakthroughs in deep learning have greatly accelerated the VC area, providing stronger and more flexible models that can process complicated non-linear mappings and synthesize higher-quality speech, frequently with fewer requirements of strictly parallel data.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) Networks:</bold> They are best suited to process temporal data like speech. Long-term temporal relations in speech waveforms have been learned with the help of RNNs, and notably with LSTMs, which led to transformed voices that sounded more natural and coherent due to enhanced modeling of prosodic and spectral dynamics <xref ref-type="bibr" rid="ref22">[22]</xref>, <xref ref-type="bibr" rid="ref28">[28]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Generative Adversarial Networks (GANs):</bold> are an effective method of generating naturalistic data <xref ref-type="bibr" rid="ref13">[13]</xref>. For VC, a generator network generates converted speech, and a discriminator network tries to discriminate between real and generated speech. This adversarial training has the effect of making the generator produce very natural and real-sounding speech, often surpassing existing methods in terms of perceptual quality <xref ref-type="bibr" rid="ref17">[17]</xref>. Cycle-GANs, in particular, are noteworthy because they enable non-parallel VC, lifting the restrictive data requirements by embedding mappings between unpaired speech collections <xref ref-type="bibr" rid="ref18">[18]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Variational Autoencoders (VAEs):</bold> are generative models that learn a latent representation of the input data <xref ref-type="bibr" rid="ref19">[19]</xref>. In VC, VAEs can be used to disentangle latent factors related to speaker identity (pathological vs. healthy) from linguistic content <xref ref-type="bibr" rid="ref14">[14]</xref>. This disentanglement allows for the manipulation of specific voice characteristics while preserving the underlying speech message, making them promising for controlled pathological voice modification.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Sequence-to-Sequence Models with Attention Mechanisms:</bold> Architectures borrowed from TTS synthesis, such as Tacotron <xref ref-type="bibr" rid="ref32">[32]</xref> and Transformer-based models <xref ref-type="bibr" rid="ref31">[31]</xref>, have been adapted for VC. These models can learn complex end-to-end mappings from input acoustic features (pathological speech) to target acoustic features (normalized speech), often generating high-fidelity audio due to their strong contextual modeling capabilities <xref ref-type="bibr" rid="ref24">[24]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>AutoVC and StarGAN-VC:</bold> These newer frameworks mark advances in any-to-any VC and non-parallel VC. AutoVC centers around separating content and speaker identity in an autoencoder setup, enabling flexible transformations of voices without the need for parallel data <xref ref-type="bibr" rid="ref23">[23]</xref>. StarGAN-VC takes an extension beyond this, accommodating multi-target VC with a single model, such that the pathological voice may be transformed to any number of different healthy target voices or, conversely, with much lower model complexity and data requirements <xref ref-type="bibr" rid="ref11">[11]</xref>.</p></list-item>
+</list></p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>System Overview</title>
+<p>The objective of our system is to recover naturalness and intelligibility of pathological speech with the help of a three-stage modular pipeline. Unlike end-to-end systems, the present framework clearly distinguishes between acoustic correction, linguistic identification, and speech synthesis, making the pipeline more interpretable, flexible to train, and adaptable to the clinics.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Modular pipeline for pathological speech restoration: mfccs features are first corrected using a neural ode model, transcribed using a blstm-based asr system, and finally reconstructed via tts (fastspeech 2+ hifi-gan).</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273600-fig-1-source.tif"/>
+</fig></p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Input Representation: Mfccs of Pathological Speech</title>
+<p>Our processing pipeline starts with extracting MFCCs in raw pathological speech. MFCCs have long been considered a stable and compact spectral representation and have been extensively applied in speech processing applications like automatic speech recognition (ASR) because of their capability of capturing static as well as dynamic properties of the vocal tract.Our processing pipeline begins with the extraction of MFCCs from the raw pathological speech signal. Prior to feature extraction, all audio recordings were down-sampled to 16 kHz and normalized. To better capture the complexity and subtle distortions present in dysarthric speech, we extracted high-resolution high-resolution configuration (64 MFCCs), unlike the conventional 13 - or 20 -coefficient settings, enhances the model&#x0027;s sensitivity to subtle articulatory and prosodic anomalies present in dysarthric speech.</p>
+<p>MFCCs were computed using a 25 ms Hamming window with a 10 ms frame shift, followed by a 1024-point Fast Fourier Transform (FFT). A 64-filter Mel filterbank was applied to the magnitude spectrum, then log compression and a Discrete Cosine Transform (DCT) were used to derive the cepstral coefficients. Features were then standardized using z-score normalization per speaker to reduce inter-speaker and session-based variability.</p>
+<p>These MFCCs were used as inputs to the Neural ODE correction module. The output of this module, which consists of the corrected MFCCs, was then fed into the BLSTM-based ASR model.
+<table-wrap id="table1">
+<label>Table I</label>
+<caption><title>Mfccs extraction parameters</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273600-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sampling Rate</td>
+<td>16 kHz</td>
+</tr>
+<tr>
+<td>Window Type</td>
+<td>Hamming</td>
+</tr>
+<tr>
+<td>Frame Length</td>
+<td>25 ms</td>
+</tr>
+<tr>
+<td>Frame Shift</td>
+<td>10 ms</td>
+</tr>
+<tr>
+<td>FFT Size</td>
+<td>1024</td>
+</tr>
+<tr>
+<td>Number of Mel Filters</td>
+<td>64</td>
+</tr>
+<tr>
+<td>MFCCs Dimensions</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Normalization</td>
+<td>z-score (per speaker)</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<sec id="sec3a1">
+<label>1)</label>
+<title>Step 1: Correction of MFCCs with Neural ODE:</title>
+<p>The first step in our pipeline is to correct the distorted spectral patterns in pathological speech. To that end, we introduce a Neural ODE model that transforms the jagged MFCCs tjectories into smoother, natural-appearing representations that resemble healthy speech. Our Neural ODE model is structured into three primary components:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>ODEBlock:</bold> Defines the continuous-time dynamics of the system through a small convolutional network that models the evolution of spectral features over time.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>ODEGenerator:</bold> Maps input MFCCs features into a latent space, integrates the dynamics over time using the Neural ODE solver, and reconstructs corrected spectral features in the original space.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Discriminator:</bold> A convolutional network that supports adversarial training by distinguishing between real healthy speech features and those generated by the model, encouraging realistic corrections.</p></list-item>
+</list>
+</p>
+<p>Unlike the conventional neural networks, with their discrete layers of transformation, the Neural ODEs specify an infinitedimensional, continuous transformation that is shaped during training by the learned vector field. Integration of the field along the temporal dimension allows the model to register the fluid dynamic evolution of spectral features more like the fluid speech of humans. The continuous-time representation has the following benefits in the pathological VC setting:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Smooth Corrections Without Sudden Shifts:</bold> Neural ODEs naturally enforce smooth temporal transitions across frames, thereby avoiding the abrupt spectral discontinuities commonly observed in stepwise models. This leads to neater, smoother output and preserves the natural fluency of the intrinsic speech.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Unsupervised Learning Without Parallel Data:</bold> One of the larger challenges in the field is that there is little or no parallel dataset,aligned pairs of the same utterance both of pathological and healthy speakers. Neural ODEs can learn informative transformations between domains without such data, and the approach is therefore more applicable and scalable in the clinical world.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Robustness Across Speaker Variability:</bold> Highlighting the natural dynamics of spectral transformation, rather than possessing the ability to learn static input-output mappings, the Neural ODE is extremely generalizable across speakers as well as speech disorders. This type of adaptability is core to the building of reliable assistive technology capable of processing heterogenous and new examples.</p></list-item>
+</list></p>
+<p>The model transforms the input MFCCs along an abstract temporal axis in order to yield normalized spectral depictions. This step alleviates widespread distortions such as energy variations, spectral anomalies, as well as anomalous tilts, retaining nevertheless inherent linguistic content. The whole architecture is concurrently trained using a blend of reconstruction loss, serving fidelity to the initial message, as well as adversarial loss, serving acoustic realism. All of the convolutional parameters, kernel sizes as well as channel depths, stand as tunables such that the model can scale adaptively depending on complexity of input data.</p>
+</sec>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Step 2: Recognition of Speech with Blstm</title>
+<p>The spectrally corrected MFCCs are passed on to a BLSTM network to perform ASR. This step is responsible for properly extracting the linguistic content (words or phonemes) from the enhanced acoustic features.</p>
+<p>BLSTM processes the future and the past, and it can learn temporal contextual patterns due to this fact. Its bidirectional structure makes it particularly suitable for handling the irregular timing and residual distortions characteristic of pathological speech. The model utilizes both the forward and the backward context, thus enhancing the accuracy and the recognition&#x0027;s robustness.</p>
+<p>The structure of the ASR module is the following:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Two stacked BLSTM layers with 256 and 128 hidden units respectively.</p></list-item>
+<list-item><label>&#x2022;</label><p>A linear projection layer to map BLSTM outputs to character or phoneme targets.</p></list-item>
+<list-item><label>&#x2022;</label><p>A Connectionist Temporal Classification (CTC) loss to align input sequences with transcriptions without requiring explicit frame-level alignment.</p></list-item>
+</list>
+</p>
+<p>To properly train the ASR module, we employed the TORGO dataset an established database comprising speech from both the dysarthric and the control speakers. TORGO is rich in word- and phoneme-aligned utterances produced under strictly controlled recording conditions and is, hence, especially ideal for supervised model training that is designed to cope with disordered speech. Trained on TORGO, the model sees genuine pathological variation and is able to adapt to the timing and articulatory irregularities unique to the speakers with dysarthria.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Stage 3: Fastspeech + Hifi-Gan Voice Reconstruction</title>
+<p>The final step of the pipeline, after pulling the linguistic content out through the ASR module, generates the final fluent and natural-sounding speech waveform from the recognized text, doing so with a two-stage neural TTS stack that is made up of: FastSpeech 2 and HiFi-GAN.</p>
+<p>FastSpeech 2 is a non-autoregressive speech synthesis model that predicts phoneme or text sequences and converts them into Mel-spectrograms. Relative to autoregressive counterparts such as Tacotron 2, it has faster inference, higher stability, and explicit pitch, duration, and energy control. These characteristics render it highly efficient in alleviating the prosodic irregularities that usually pervade disordered speech situations.</p>
+<p>The generated Mel-spectrograms are then converted into time-domain audio using HiFi-GAN, a high-quality generative vocoder. HiFi-GAN is known for its ability to synthesize speech with near-natural audio quality while maintaining realtime inference speed, making it suitable for assistive or interactive speech applications.</p>
+<p>As trained, FastSpeech 2 and HiFi-GAN were trained on the healthy, clean speech dataset that is the LJ Speech corpus <xref ref-type="bibr" rid="ref34">[34]</xref>. This is a dataset of professionally recorded utterances with consistent prosody and clear speech articulation. By training the TTS systems on healthy speech, the system can be used as a speech re-normalization layer, transforming the recognized linguistic content back into a healthy-sounding acoustic realization.</p>
+<p>It follows the TTS precedent that is demonstrated with improved robustness and quality during speech output if synthesis is disentangled from the acoustic variability of the pathological input <xref ref-type="bibr" rid="ref35">[35]</xref>. By letting clean data take care of synthesis, the TTS module ensures that output speech is natural, intelligible, and speaker-consistent despite imperfect upstream recognition.</p>
+<p>Such a mixture guarantees that the overall speech is both understandable and natural and speaker-consistent, and it facilitates quick inference, which allows the pipeline to be applied to assistive real-time speech applications.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Databases</title>
+<p>To assess the proposed pathological speech conversion system, two complementary datasets were used:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>TORGO Corpus</bold> <xref ref-type="bibr" rid="ref36">[36]</xref>: A dysarthric speech dataset containing paired recordings from both control (healthy) and dysarthric speakers. It provides high-quality audio with aligned transcripts, making it suitable for training and evaluating the ASR module. Four representative speakers were selected for this study: F01, M03, F03, and M05.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>LJ Speech Corpus</bold> <xref ref-type="bibr" rid="ref34">[34]</xref>: A publicly available dataset consisting of 13,100 short English phrases spoken by a single female speaker. It was used to train the FastSpeech 2 + HiFi-GAN TTS system for generating high-quality healthy speech.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec3e">
+<label>E.</label>
+<title>Modularity and Design Advantages</title>
+<p>The modular design has the following benefits:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Individual training of every component,</p></list-item>
+<list-item><label>&#x2022;</label><p>Scalable and adaptable across speakers,</p></list-item>
+<list-item><label>&#x2022;</label><p>Individual module performance interpretability,</p></list-item>
+<list-item><label>&#x2022;</label><p>Traceability of errors, which allows clinical feedback and diagnosis.</p></list-item>
+</list>
+</p>
+<p>Individual modules may be replaced or enhanced without having to retrain the overall system. This modularity allows our approach to be flexibly adapted to individual users and effectively deployed in practical clinical environments.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results and Discussion</title>
+<p>To assess the quality of the proposed pathological speech conversion system, we conducted experiments on the widely-used UASpeech dataset <xref ref-type="bibr" rid="ref37">[37]</xref>, which contains dysarthric speech from speakers with varying severity levels. This dataset serves as a strong benchmark for evaluating methods aimed at restoring speech intelligibility.</p>
+<p>We selected four representative speakers (F04, M05, F02, and M07) from the dataset to compare our approach against three systems: ASA-DSR <xref ref-type="bibr" rid="ref39">[39]</xref> and Unit-DSR <xref ref-type="bibr" rid="ref38">[38]</xref>, and CycleGAN <xref ref-type="bibr" rid="ref41">[41]</xref>. The main evaluation metric was Word Error Rate (WER), derived from automatic speech recognition performance. This metric is widely recognized for its correlation with perceived speech intelligibility.
+<table-wrap id="table2">
+<label>Table II</label>
+<caption><title>Evaluation for speech intelligibility wer (&#x0025;)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273600-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Method</th>
+<th>F04</th>
+<th>M05</th>
+<th>F02</th>
+<th>M07</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASA-DSR</td>
+<td>65.6</td>
+<td>62.5</td>
+<td>65.8</td>
+<td>62.7</td>
+</tr>
+<tr>
+<td>Unit-DSR</td>
+<td>65.5</td>
+<td>64.4</td>
+<td>68.3</td>
+<td>62.1</td>
+</tr>
+<tr>
+<td>Cycle-GAN</td>
+<td>60.8</td>
+<td>59.2</td>
+<td>47.2</td>
+<td>54.1</td>
+</tr>
+<tr>
+<td><bold>Proposed</bold></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{5 6. 7}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{5 4. 0}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{4 1. 8}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{4 9. 3}$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>The proposed pipeline integrates a Neural ODE-based spectral correction module, a BLSTM-based ASR system, and a neural TTS synthesis. While the model performs well on speakers F02 and M05, its performance is significantly lower on F04 and M07 in comparison to the baseline methods. Several factors could contribute to this discrepancy:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Speaker Variability:</bold> Differences in dysarthria severity, articulatory inconsistencies, and speaker-specific traits can significantly influence the model&#x0027;s ability to generalize <xref ref-type="bibr" rid="ref40">[40]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Lack of Data:</bold> The limited quantity of pathological speech data available for training deep learning models often results in overfitting or underfitting, especially for speakers with more severe impairments <xref ref-type="bibr" rid="ref42">[42]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Model Complexity and Training:</bold> While modular design promotes interpretability, it may require additional tuning of hyperparameters, architectural adjustments, or more advanced domain adaptation techniques to achieve optimal robustness.</p></list-item>
+</list>
+</p>
+<p>Apart from inherent processing challenges of pathological speech, our method has some advantages. Continuous-time Neural ODE dynamics enables smooth, realistic correction of spectral features, enabling enhancement of acoustic naturalness withoutparallel speech. In conjunction with a BLSTM-based ASR, the system precisely detects distorted phonetic patterns, due to module-based design enabling easy clinician transfer. These strengths bolster the method as potential method of extracting intelligibility in impaired speech. Despite these disadvantages, continuous-time modeling of spectral features using Neural ODE has some distinct advantages in capturing smooth temporal dynamics of pathological speech, as can be seen in contemporary research in speech restoration as well as biomedical signal processing <xref ref-type="bibr" rid="ref43">[43]</xref>. In addition, supplementing this with a BLSTM-based ASR network enables improved identification of distorted phonetic patterns..</p>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This work contributed a module-based structure of neural modeling-based continuous-time pathological-to-healthy speech restoration. It utilizes Neural ODE-based spectral correction, a BLSTM-based ASR module, combined with a FastSpeech <inline-formula><tex-math notation="LaTeX">$2+$</tex-math></inline-formula> HiFi-GAN synthesis backend. It is in contrast with end-to-end systems because this can be trained independently, is interpretable, as well as clinically deployable.</p>
+<p>Experiments on the UASpeech corpus demonstrated that our system achieves similar measures of intelligibility, especially under conditions of limited as well as unpaired data. In absence of parallel corpora as well as employing continuous-time dynamics, it offers a computationally efficient as well as scalable pathway towards speech assistive rehabilitation.</p>
+<p>Future work would entail exploration of utilizing larger-scale and heterogeneous datasets, including multi-speaker as well as cross-lingual corpora, towards generalizing the model further. In addition, human listener-based subjective testing will be required in order to assess perceived improvements in naturalness and speech intelligibility beyond those assessible with objective measures <xref ref-type="bibr" rid="ref44">[44]</xref>.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>We sincerely appreciate the support from the National Center for Scientific and Technical Research (CNRST) through the &#x201C;PhD-Associate Scholarship - PASS&#x201D; program. This funding was critical for the successful execution of our research.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>V.</given-names> <surname>Kepuska</surname></string-name> and <string-name><given-names>G.</given-names> <surname>Bohouta</surname></string-name></person-group>, <article-title>Next-generation of virtual personal assistants (Microsoft Cortana, Apple Siri, Amazon Alexa and Google Home)</article-title>, <source specific-use="IEEE">Proceedings of the 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC)</source>, pp. <fpage>99</fpage>&#x2013;<lpage>103</lpage>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Ruan</surname></string-name>, <string-name><given-names>J. O.</given-names> <surname>Wobbrock</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Liou</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Ng</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Landay</surname></string-name></person-group>, <article-title>Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones</article-title>, <source>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</source>, vol.<volume>1</volume>, no. <issue>4</issue>, Article <fpage>123</fpage>, <conf-date>Dec. 2017</conf-date>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Chakhtouna</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Sekkate</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Adib</surname></string-name></person-group>, <article-title>Efficient bimodal emotion recognition system based on speech/text embeddings and ensemble learning fusion</article-title>, <source>Annals of Telecommunications</source>, vol.<volume>80</volume>, no. <issue>5</issue>, pp. <fpage>379</fpage>&#x2013;<lpage>399</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Sekkate</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Khalil</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Adib</surname></string-name></person-group>, <article-title>A statistical feature extraction for deep speech emotion recognition in a bilingual scenario</article-title>, <source>Multimedia Tools and Applications</source>, vol.<volume>82</volume>, no. <issue>8</issue>, pp. <fpage>11443</fpage>&#x2013;<lpage>11460</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. C.</given-names> <surname>Coppens-Hofman</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Terband</surname></string-name>, <string-name><given-names>A. F.</given-names> <surname>Snik</surname></string-name>, and <string-name><given-names>B. A.</given-names> <surname>Maassen</surname></string-name></person-group>, <article-title>Speech characteristics and intelligibility in adults with mild and moderate intellectual disabilities</article-title>, <source>Folia Phoniatrica et Logopaedica</source>, vol.<volume>68</volume>, no. <issue>4</issue>, pp. <fpage>175</fpage>&#x2013;<lpage>182</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>El Hallani</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Chakhtouna</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Adib</surname></string-name></person-group>, <article-title>Advanced speech biomarker integration for robust Alzheimer&#x0027;s disease diagnosis</article-title>, <source>Annals of Telecommunications</source>, vol.<volume>80</volume>, pp. <fpage>427</fpage>&#x2013;<lpage>444</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. P.</given-names> <surname>Rowe</surname></string-name>, <string-name><given-names>S. E.</given-names> <surname>Gutz</surname></string-name>, <string-name><given-names>M. F.</given-names> <surname>Maffei</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Tomanek</surname></string-name>, and <string-name><given-names>J. R.</given-names> <surname>Green</surname></string-name></person-group>, <article-title>Characterizing dysarthria diversity for automatic speech recognition: A tutorial from the clinical perspective</article-title>, <source>Frontiers in Computer Science</source>, vol. <volume>4</volume>, Article <issue>770210</issue>, <month>Apr.</month> <year>2022</year>, doi: <pub-id pub-id-type="doi">10.3389/fcomp.2022.770210</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Boll</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Christensen</surname></string-name>, <string-name><given-names>S. H.</given-names> <surname>Jensen</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Gr&#x00F8;nkj&#x00E6;r</surname></string-name></person-group>, <article-title>Voice conversion challenges with non-parallel speech data</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. F.</given-names> <surname>Boll</surname></string-name></person-group>, <article-title>Suppression of acoustic noise in speech using spectral subtraction</article-title>, <source specific-use="IEEE">IEEE Transactions on Acoustics, Speech, and Signal Processing</source>, vol.<volume>27</volume>, no. <issue>2</issue>, pp. <fpage>113</fpage>&#x2013;<lpage>120</lpage>, <year>1979</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. G.</given-names> <surname>Childers</surname></string-name></person-group>, <article-title>Glottal source modeling for voice conversion</article-title>, <source>Speech Communication</source>, vol.<volume>16</volume>, no. <issue>2</issue>, pp. <fpage>127</fpage>&#x2013;<lpage>138</lpage>, <year>1995</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Kameoka</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Kaneko</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Tanaka</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Hojo</surname></string-name></person-group>, <article-title>StarGAN-VC2: Rethinking real-time voice conversion with a non-parallel many-to-many model</article-title>, <source>Proceedings of Interspeech</source>, pp. <fpage>2662</fpage>&#x2013;<lpage>2666</lpage>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Fant</surname></string-name></person-group>, <article-title>Speech production modeling</article-title>, <source>Journal of the Acoustical Society of America</source>, vol.<volume>93</volume>, no. <issue>3</issue>, pp. <fpage>1644</fpage>&#x2013;<lpage>1652</lpage>, <year>1993</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I.</given-names> <surname>Goodfellow</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Pouget-Abadie</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Mirza</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Warde-Farley</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ozair</surname></string-name>, <etal>et al.</etal></person-group>, <article-title>Generative adversarial nets</article-title>, <source>Advances in Neural Information Processing Systems</source>, vol.<volume>27</volume>, <year>2014</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C. C.</given-names> <surname>Hsu</surname></string-name>, <string-name><given-names>H. S.</given-names> <surname>Hwang</surname></string-name>, and <string-name><given-names>H. W.</given-names> <surname>Lee</surname></string-name></person-group>, <article-title>Voice conversion with non-parallel data by using variational autoencoders</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Jones</surname></string-name> and <string-name><given-names>L.</given-names> <surname>Brown</surname></string-name></person-group>, <article-title>Adaptive filtering for speech enhancement in dysphonic voices</article-title>, <source>Speech Communication</source>, vol.<volume>34</volume>, no. <issue>3</issue>, pp. <fpage>211</fpage>&#x2013;<lpage>225</lpage>, <year>2001</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Kain</surname></string-name> and <string-name><given-names>M. W.</given-names> <surname>Macon</surname></string-name></person-group>, <article-title>Voice conversion in text-to-speech synthesis</article-title>, <source>Proceedings of the 7th European Conference on Speech Communication and Technology (Eurospeech)</source>, <conf-date>2001</conf-date>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Kaneko</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Kameoka</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Tanaka</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Hojo</surname></string-name></person-group>, <article-title>Generative adversarial network-based acoustic feature transformation for high-quality voice conversion</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2017</conf-date>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Kaneko</surname></string-name> and <string-name><given-names>H.</given-names> <surname>Kameoka</surname></string-name></person-group>, <article-title>Parallel-data-free voice conversion using Cycle-Consistent Adversarial Networks</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. P.</given-names> <surname>Kingma</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Welling</surname></string-name></person-group>, <article-title>Auto-encoding variational Bayes</article-title>, <source>International Conference on Learning Representations (ICLR)</source>, <conf-date>2014</conf-date>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Li</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Wang</surname></string-name></person-group>, <article-title>Voice conversion based on glottal source modification</article-title>, <source>Speech Communication</source>, vol.<volume>50</volume>, no. <issue>2</issue>, pp. <fpage>101</fpage>&#x2013;<lpage>115</lpage>, <year>2008</year>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="thesis" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. C.</given-names> <surname>Liljencrants</surname></string-name> and <string-name><given-names>G.</given-names> <surname>Fant</surname></string-name></person-group>, <article-title>A voice source model for synthesis</article-title>, <source>Speech Transmission Laboratory, Royal Institute of Technology (KTH)</source>, <year>1975</year>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. R.</given-names> <surname>Mohamed</surname></string-name>, <string-name><given-names>G. E.</given-names> <surname>Dahl</surname></string-name>, and <string-name><given-names>G.</given-names> <surname>Hinton</surname></string-name></person-group>, <article-title>Acoustic modeling using deep belief networks</article-title>, <source specific-use="IEEE">IEEE Transactions on Audio, Speech, and Language Processing</source>, vol.<volume>20</volume>, no. <issue>5</issue>, pp. <fpage>14</fpage>&#x2013;<lpage>22</lpage>, <year>2012</year>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Qian</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Yu</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Jiang</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Meng</surname></string-name></person-group>, <article-title>Autovc: Zeroshot voice style transfer with only content encoder</article-title>, <source>Proceedings of the 36th International Conference on Machine Learning (ICML)</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref24"><label>[24]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Ren</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Ruan</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Tripathy</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Zhao</surname></string-name></person-group>, <article-title>Fast Speech: Fast, robust and controllable text to speech</article-title>, <source>Advances in Neural Information Processing Systems</source>, vol.<volume>32</volume>, <year>2019</year>.</mixed-citation></ref>
+<ref id="ref25"><label>[25]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. E.</given-names> <surname>Rosenberg</surname></string-name></person-group>, <article-title>Effect of glottal pulse shape on the quality of natural vowels</article-title>, <source>Journal of the Acoustical Society of America</source>, vol.<volume>49</volume>, no. <issue>2A</issue>, pp. <fpage>583</fpage>&#x2013;<lpage>590</lpage>, <year>1971</year>.</mixed-citation></ref>
+<ref id="ref26"><label>[26]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. O.</given-names> <surname>Smith</surname></string-name>, <string-name><given-names>J. S.</given-names> <surname>Abel</surname></string-name>, and <string-name><given-names>A. V.</given-names> <surname>Oppenheim</surname></string-name></person-group>, <article-title>The Wiener filter for adaptive enhancement of speech</article-title>, <source specific-use="IEEE">IEEE Transactions on Acoustics, Speech, and Signal Processing</source>, vol.<volume>33</volume>, no. <issue>4</issue>, pp. <fpage>856</fpage>&#x2013;<lpage>861</lpage>, <year>1985</year>.</mixed-citation></ref>
+<ref id="ref27"><label>[27]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Stylianou</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Cosi</surname></string-name>, and <string-name><given-names>F.</given-names> <surname>Cremona</surname></string-name></person-group>, <article-title>Voice transformation based on prosodic and spectral mapping</article-title>, <source>Proceedings of the 5th International Conference on Spoken Language Processing (ICSLP)</source>, <conf-date>1998</conf-date>.</mixed-citation></ref>
+<ref id="ref28"><label>[28]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Tachibana</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Uenoyama</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Aihara</surname></string-name></person-group>, <article-title>Voice synthesis with deep neural networks</article-title>, <source>Proceedings of the 43rd International Conference on Acoustics, Speech and Signal Processing (ICASSP)</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref29"><label>[29]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Toda</surname></string-name>, <string-name><given-names>A. W.</given-names> <surname>Black</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Tokuda</surname></string-name></person-group>, <article-title>Voice conversion based on maximum likelihood estimation of spectral parameters with Gaussian mixture models</article-title>, <source specific-use="IEEE">IEEE Transactions on Audio, Speech, and Language Processing</source>, vol.<volume>15</volume>, no. <issue>8</issue>, pp. <fpage>2206</fpage>&#x2013;<lpage>2217</lpage>, <year>2007</year>.</mixed-citation></ref>
+<ref id="ref30"><label>[30]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Tokuda</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Yoshimura</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Masuko</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Kobayashi</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Imai</surname></string-name></person-group>, <article-title>Speech synthesis based on hidden Markov models</article-title>, <source specific-use="IEEE">Proceedings of the IEEE</source>, vol.<volume>88</volume>, no. <issue>8</issue>, pp. <fpage>1251</fpage>&#x2013;<lpage>1262</lpage>, <conf-date>2000</conf-date>.</mixed-citation></ref>
+<ref id="ref31"><label>[31]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Vaswani</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Shazeer</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Parmar</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Jones</surname></string-name>, <string-name><given-names>A. N.</given-names> <surname>Gomez</surname></string-name>, <etal>et al.</etal></person-group>, <article-title>Attention is all you need</article-title>, <source>Advances in Neural Information Processing Systems</source>, vol.<volume>30</volume>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref32"><label>[32]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Skerry-Ryan</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Stanton</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Battenberg</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Clark</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Chan</surname></string-name>, <etal>et al.</etal></person-group>, <article-title>Tacotron: Towards end-to-end speech synthesis</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2017</conf-date>.</mixed-citation></ref>
+<ref id="ref33"><label>[33]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Zen</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Toda</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Tokuda</surname></string-name></person-group>, <article-title>A statistical parametric speech synthesis system with a high-quality speech database</article-title>, <source>Proceedings of Interspeech</source>, <conf-date>2009</conf-date>.</mixed-citation></ref>
+<ref id="ref34"><label>[34]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Ito</surname></string-name> and <string-name><given-names>L.</given-names> <surname>Johnson</surname></string-name></person-group>, &#x201C;<source>The LJ Speech Dataset</source>,&#x201D; <uri>https://keithito.com/LJ-Speech-Dataset</uri>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref35"><label>[35]</label> <mixed-citation publication-type="thesis" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Kong</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Kim</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Bae</surname></string-name></person-group>, &#x201C;<article-title>HiFi-GAN: Generative adversarial network for efficient and high fidelity speech synthesis</article-title>,&#x201D; in <source>Advances in Neural Information Processing Systems (NeurIPS)</source>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref36"><label>[36]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Rudzicz</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Namasivayam</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Wolff</surname></string-name></person-group>, &#x201C;<article-title>The TORGO database of acoustic and articulatory speech from speakers with dysarthria</article-title>,&#x201D; <source>Language Resources and Evaluation</source>, vol. <volume>46</volume>, no. <issue>4</issue>, pp. <fpage>523</fpage>&#x2013;<lpage>541</lpage>, <year>2012</year>.</mixed-citation></ref>
+<ref id="ref37"><label>[37]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Kim</surname></string-name> and <string-name><given-names>F.</given-names> <surname>Rudzicz</surname></string-name></person-group>, &#x201C;<article-title>UASpeech: A dysarthric speech corpus for the study of impaired speech recognition</article-title>,&#x201D; <source>Computer Speech &#x0026; Language</source>, vol. <volume>52</volume>, pp. <fpage>101</fpage>&#x2013;<lpage>118</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref38"><label>[38]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Meng</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Meng</surname></string-name></person-group>, &#x201C;<article-title>UNIT-DSR: Dysarthric Speech Reconstruction System Using Speech Unit Normalization</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref39"><label>[39]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Lu</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Meng</surname></string-name></person-group>, &#x201C;<article-title>Speaker Identity Preservation in Dysarthric Speech Reconstruction by Adversarial Speaker Adaptation</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref40"><label>[40]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Tsanas</surname></string-name>, <string-name><given-names>M. A.</given-names> <surname>Little</surname></string-name>, <string-name><given-names>P. E.</given-names> <surname>McSharry</surname></string-name>, and <string-name><given-names>L. O.</given-names> <surname>Ramig</surname></string-name></person-group>, &#x201C;<article-title>Accurate telemonitoring of Parkinson&#x0027;s disease progression by noninvasive speech tests</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Biomedical Engineering</source>, vol. <volume>57</volume>, no. <issue>4</issue>, pp. <fpage>884</fpage>&#x2013;<lpage>893</lpage>, <year>2010</year>.</mixed-citation></ref>
+<ref id="ref41"><label>[41]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Chlaikhy</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Chakhtouna</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Adib</surname></string-name></person-group>, &#x201C;<chapter-title>Cycle-GAN Dysarthric-to-Normal Voice Conversion</chapter-title>,&#x201D; in <source>Proc. COCIA 2025, Lecture Notes in Networks and Systems</source>, vol. <volume>1584</volume>, <publisher-name>Springer</publisher-name>, <publisher-loc>Cham</publisher-loc>, pp. <fpage>413</fpage>&#x2013;<lpage>418</lpage>, <year>2026</year>.</mixed-citation></ref>
+<ref id="ref42"><label>[42]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Rudzicz</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Namasivayam</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Wolff</surname></string-name></person-group>, &#x201C;<article-title>The TORGO database of acoustic and articulatory speech from speakers with dysarthria</article-title>,&#x201D; <source>Language Resources and Evaluation</source>, vol. <volume>46</volume>, no. <issue>4</issue>, pp. <fpage>523</fpage>&#x2013;<lpage>541</lpage>, <year>2012</year>.</mixed-citation></ref>
+<ref id="ref43"><label>[43]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R. T. Q.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Rubanova</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Bettencourt</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Duvenaud</surname></string-name></person-group>, &#x201C;<article-title>Neural ordinary differential equations</article-title>,&#x201D; in <source>Advances in Neural Information Processing Systems</source>, vol. <volume>31</volume>, pp. <fpage>6571</fpage>&#x2013;<lpage>6583</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref44"><label>[44]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Dupont</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Hermansky</surname></string-name>, and <string-name><given-names>F.</given-names> <surname>Michaud</surname></string-name></person-group>, &#x201C;<article-title>Neural ordinary differential equations for speech enhancement</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</source>, pp. <fpage>6169</fpage>&#x2013;<lpage>6173</lpage>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

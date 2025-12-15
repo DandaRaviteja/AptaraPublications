@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">EE&#x0026;AE</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 10th International Conference on Energy Efficiency and Agricultural Engineering (EE&#x0026;AE)</conf-full-title>
+<conf-normalized-title>Energy Efficiency and Agricultural Engineering (EE&#x0026;AE), 2025 10th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-1299-6</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 10th International Conference on Energy Efficiency and Agricultural Engineering (EE&#x0026;AE)</conf-name>
+<conf-start iso-8601-date="2025-11-05"><day>05</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-07"><day>07</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Stara Zagora</city>, <country>Bulgaria</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/EEAE65901.2025.11273200</article-id>
+<xplore-article-id>11273200</xplore-article-id>
+<xplore-issue>11273194</xplore-issue>
+<xplore-pub-id>11273191</xplore-pub-id>
+<title-group>
+<article-title>Innodiversification Approach to Assessing the Sustainability and Effectiveness of Organizations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<contrib-id contrib-id-type="orcid">0000-0002-9837-4849</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Mikhail</given-names> <surname>Chernyakov</surname></string-name>
+<string-name specific-use="index"><given-names>Mikhail</given-names> <surname>Chernyakov</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<contrib-id contrib-id-type="orcid">0000-0002-1953-960X</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Maria</given-names> <surname>Chernyakova</surname></string-name>
+<string-name specific-use="index"><given-names>Maria</given-names> <surname>Chernyakova</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<contrib-id contrib-id-type="orcid">0000-0002-6909-5904</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Vladislav</given-names> <surname>Chernyakov</surname></string-name>
+<string-name specific-use="index"><given-names>Vladislav</given-names> <surname>Chernyakov</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<contrib-id contrib-id-type="orcid">0000-0002-5325-1239</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Olga</given-names> <surname>Chistyakova</surname></string-name>
+<string-name specific-use="index"><given-names>Olga</given-names> <surname>Chistyakova</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<contrib-id contrib-id-type="orcid">0009-0007-6768-0994</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Victor</given-names> <surname>Chechulin</surname></string-name>
+<string-name specific-use="index"><given-names>Victor</given-names> <surname>Chechulin</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<contrib-id contrib-id-type="orcid">0000-0002-3931-7764</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shakir</given-names> <surname>Suleymanov</surname></string-name>
+<string-name specific-use="index"><given-names>Shakir</given-names> <surname>Suleymanov</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">Siberian University of Consumer Cooperation, Kazan Cooperative, Institute (branch) of the Russian, University of Cooperation</institution>
+</institution-wrap>
+<city>Novosibirsk</city>
+<country>Russia</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Siberian Institute of Management of the Russian Academy of National Economy and Public Administration</institution>
+</institution-wrap>
+<city>Novosibirsk</city>
+<country>Russia</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Siberian University of Consumer Cooperation</institution>
+</institution-wrap>
+<city>Novosibirsk</city>
+<country>Russia</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-07"><day>7</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<permissions>
+<copyright-statement>979-8-3315-1299-6 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273200_ft.xml</self-uri>
+<self-uri content-type="print">220.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The article is devoted to the study of the sustainability and efficiency of consumer cooperation based on the innodiversification approach. The authors cluster the correlation coefficients of indicators for the period 2014-2023, identifying linear and nonlinear dependencies. The paper presents mathematical models constructed using linear and nonlinear regression, which make it possible to predict the dynamics of sustainability and efficiency indicators. The results of the study confirm the hypothesis of a significant influence of the time factor on the activities of consumer cooperatives. Quantitative analysis revealed that 54.7 &#x0025; of all inter-indicator correlations and 61.3 &#x0025; of indicator-time correlations were high or very high (<inline-formula><tex-math notation="LaTeX">$\mathbf{R} \geq \mathbf{0. 7}$</tex-math></inline-formula>). The constructed models, with an average approximation error not exceeding 5&#x0025;, demonstrate high predictive accuracy.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>consumer cooperation</kwd>
+<kwd>sustainability</kwd>
+<kwd>efficiency</kwd>
+<kwd>innovation and diversification approach</kwd>
+<kwd>correlation analysis</kwd>
+<kwd>linear regression</kwd>
+<kwd>mathematical modeling</kwd>
+<kwd>forecasting</kwd>
+</kwd-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="5"/>
+<equation-count count="0"/>
+<ref-count count="10"/>
+<page-count count="5"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The relevance of the research is due to the need to develop modern approaches to assessing the sustainability and efficiency of consumer cooperation in a dynamically changing economic environment <xref ref-type="bibr" rid="ref1">[1]</xref>. Consumer cooperation plays an important role in the socio-economic development of regions, and understanding the factors influencing its sustainability is key to making managerial decisions <xref ref-type="bibr" rid="ref2">[2]</xref>. Existing studies often focus on either financial stability <xref ref-type="bibr" rid="ref7">[7]</xref>, <xref ref-type="bibr" rid="ref8">[8]</xref> or investment efficiency <xref ref-type="bibr" rid="ref5">[5]</xref> in isolation. However, an integrated approach that combines these aspects is lacking. The innodiversification approach proposed by the authors, which integrates principles of innovation and diversification, allows for a comprehensive analysis by considering both direct and indirect dependencies between a wide array of indicators <xref ref-type="bibr" rid="ref3">[3]</xref>, <xref ref-type="bibr" rid="ref4">[4]</xref>. This makes the study particularly significant.</p>
+<p>The purpose of the research is to develop and test an innodiversification approach to assessing the sustainability and efficiency of consumer cooperation based on the analysis of correlation dependencies and the construction of mathematical models for predicting the dynamics of key indicators.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Research Methodology</title>
+<p>The study is based on official annual statistical data for the Novosibirsk Region consumer cooperation societies for the period 2014-2023. The dataset comprises 44 indicators (36 for sustainability, Ni, and 8 for efficiency, Ei) across 10 time periods, resulting in 946 unique correlation pairs. The variables cover key aspects of organizational performance, including fixed assets (Y1-Y3), financial metrics (Y5, Y14, Y16, Y19), human resources (Y6, Y8, Y9), market activity (Y10, Y22-Y30), environmental responsibility (Y31-Y33), and social impact (Y34-Y36). Efficiency indicators (E1-E8) encompass productivity, turnover, and profitability.</p>
+<p>All calculations and model constructions were performed using the Python programming language (v 3.11) with the Scikit-learn library for clustering and the Statsmodels library for regression analysis. This environment was chosen for its robustness in statistical modeling and reproducibility.</p>
+<p>The paper uses methods of correlation analysis (Pearson&#x0027;s coefficient), data clustering (K-means algorithm for grouping correlation magnitudes), and regression analysis (linear and nonlinear). The authors apply the technology of approximating the function of one variable to construct mathematical models. The &#x201C;innodiversification approach&#x201D; is conceptualized as a hierarchical framework for classifying indicators based on the strength and nature of their dependencies. Indicators with a strong direct linear relationship with time (correlation <inline-formula><tex-math notation="LaTeX">$\mathrm{R} \geq 0.7$</tex-math></inline-formula>) are assigned to the first level of direct influence. Indicators with weaker direct links but strong correlations with other first-level indicators are assigned to a second level of indirect influence, modeled via multivariate regression. This provides a deeper, multi-layered understanding of the system&#x0027;s dynamics <xref ref-type="bibr" rid="ref7">[7]</xref>, <xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Correlation Analysis</title>
+<p>To calculate the correlation coefficients between sustainability (Yi) and efficiency (Ti) indicators for the period 2014-2023, the Pearson correlation coefficient can be used. The Pearson correlation coefficient measures the linear relationship between two variables and takes values from -1 to 1, where <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref6">[6]</xref>:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>1 means a perfect positive linear relationship,</p></list-item>
+<list-item><label>&#x2022;</label><p>&#x2212;1 means a perfect negative linear relationship,</p></list-item>
+<list-item><label>&#x2022;</label><p>0 means there is no linear relationship.</p></list-item>
+</list></p>
+<p>The analysis of the obtained correlation coefficients suggests grouping them into five clusters (<xref ref-type="table" rid="table1">Table 1</xref>) <xref ref-type="bibr" rid="ref9">[9]</xref>.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Clustering of correlation coefficients of consumer cooperation activity indicators for the period 2014-2023</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Cluster name</th>
+<th>Cluster range</th>
+<th>Number of correlation coefficients in a cluster</th>
+<th>Cluster share &#x0025;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very high correlation</td>
+<td>0.90-1.00</td>
+<td>296</td>
+<td>31,33</td>
+</tr>
+<tr>
+<td>High correlation</td>
+<td>0.70-0.89</td>
+<td>222</td>
+<td>23,33</td>
+</tr>
+<tr>
+<td>Cluster name</td>
+<td>0.50-0.69</td>
+<td>145</td>
+<td>15,33</td>
+</tr>
+<tr>
+<td>Average correlation</td>
+<td>0.30-0.49</td>
+<td>132</td>
+<td>14,00</td>
+</tr>
+<tr>
+<td>low correlation</td>
+<td>&#x2212;0.30-0.29</td>
+<td>151</td>
+<td>16,00</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>&#x043E;&#x0442; -1.0 &#x0434;&#x043E; 1.0</td>
+<td>946</td>
+<td>100,00</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>The correlation coefficients were grouped by absolute values for ease of analysis. To build predictive models, it is important to determine the impact of the time period on sustainability and efficiency. The range of high and very high correlation (<inline-formula><tex-math notation="LaTeX">$\mathrm{R}=0.7$</tex-math></inline-formula>) included more than half of the correlation coefficients <inline-formula><tex-math notation="LaTeX">$(54.7 \%)$</tex-math></inline-formula>, which confirms the hypothesis of the existence of a mathematical relationship between the indicators of consumer cooperation. Of particular interest for forecasting is the dependence of sustainability and efficiency indicators on the time period (<xref ref-type="table" rid="table1">Table 1</xref>) <xref ref-type="bibr" rid="ref9">[9]</xref>.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Clustering of correlation coefficients of sustainability and efficiency indicators from the time period of the consumer cooperation for 2014-2023</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Cluster name</th>
+<th>Cluster range</th>
+<th>Number of correlation coefficients in a cluster</th>
+<th>Cluster share &#x0025;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very high correlation</td>
+<td>0.90-1.00</td>
+<td>15</td>
+<td>34,09</td>
+</tr>
+<tr>
+<td>High correlation</td>
+<td>0.70-0.89</td>
+<td>12</td>
+<td>27,27</td>
+</tr>
+<tr>
+<td>Cluster name</td>
+<td>0.50-0.69</td>
+<td>8</td>
+<td>18,18</td>
+</tr>
+<tr>
+<td>Average correlation</td>
+<td>0.30-0.49</td>
+<td>2</td>
+<td>4,55</td>
+</tr>
+<tr>
+<td>low correlation</td>
+<td>0-0.29</td>
+<td>7</td>
+<td>15,91</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>&#x043E;&#x0442; -1.0 &#x0434;&#x043E; 1.0</td>
+<td>44</td>
+<td>100,00</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>The range of high and very high correlation (<inline-formula><tex-math notation="LaTeX">$\mathrm{R} \geq 0.7$</tex-math></inline-formula>) included 27 correlation coefficients (61.3 &#x0025;), which confirms the hypothesis that there is a linear dependence of most indicators of sustainability and efficiency on the time period of consumer cooperation.</p>
+<p>According to a different diversification approach, these indicators should be attributed to the first level of direct influence of a multilevel mathematical model. As a result, a dynamic matrix was formed, consisting of sustainability and efficiency indicators that have a direct linear dependence on the time period.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Regression Analysis</title>
+<p>The results of approximation by a linear function of the dependence of dynamic indicators of consumer cooperation activity on the time period are shown in <xref ref-type="table" rid="table3">Table 3</xref>.
+<table-wrap id="table3">
+<label>Table III.</label>
+<caption><title>Mathematical models of indicators of sustainability and efficiency of consumer cooperation activities</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-3-source.tif"/>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-3a-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Indicator names</th>
+<th>Designation</th>
+<th>Linear regression</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Average annual cost of buildings and structures</td>
+<td>Y1</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 1=2858,56 * ~\mathrm{T}-5745637,40$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Average annual cost of machinery and equipment</td>
+<td>Y2</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 2=617,78^{*} ~\mathrm{T}-1243443,47$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Average annual cost of vehicles</td>
+<td>Y3</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 3=602,81^{*} ~\mathrm{T}-1215033,13$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Average annual amount of funds</td>
+<td>Y5</td>
+<td>Y5=4182,07*T-8425698,67</td>
+</tr>
+<tr>
+<td>Average age of staff</td>
+<td>Y6</td>
+<td>Y6=-1,01*T+2089,73</td>
+</tr>
+<tr>
+<td>Average salary</td>
+<td>Y8</td>
+<td>Y8=2361,90*T-4745567,73</td>
+</tr>
+<tr>
+<td>The average amount of premium payments</td>
+<td>Y9</td>
+<td>Y9=404,88*T-813042,53</td>
+</tr>
+<tr>
+<td>Number of shareholders</td>
+<td>Y10</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 10=-254,78^{*} ~\mathrm{T}+518172,20$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The coefficient of financial independence</td>
+<td>Y14</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 14=0,02 * ~\mathrm{T}-35,13$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Turnover ratio of accounts payable</td>
+<td>Y16</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 16=0,33 * ~\mathrm{T}-663,42$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Absolute liquidity ratio</td>
+<td>Y19</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 19=0,43 * ~\mathrm{T}-864,75$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The level of cooperation of the population</td>
+<td>Y22</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 22=0,19 * ~\mathrm{T}-382,19$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The share of non-food products in the retail trade turnover of consumer cooperation</td>
+<td>Y23</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 23=0,67 * ~\mathrm{T}-1323,59$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The number of shops per 1,000 inhabitants of the serviced population</td>
+<td>Y24</td>
+<td>Y24=-0,09*T+180,64</td>
+</tr>
+<tr>
+<td>The share of retail trade turnover of consumer cooperation in the total volume of the territory</td>
+<td>Y25</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 25=-0,09 * ~\mathrm{T}+181,00$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Coverage of monetary income of the population by retail trade turnover of consumer cooperation</td>
+<td>Y26</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 26=-0,32^{*} ~\mathrm{T}+656,48$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The share of own-made goods in the total retail turnover of consumer cooperation</td>
+<td>Y28</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 28=-0,28^{*} ~\mathrm{T}+563,01$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Sales volume per shareholder</td>
+<td>Y29</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 29=6,64 * ~\mathrm{T}-13369,04$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Payment for negative environmental impact, thousand rubles</td>
+<td>Y30</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 30=-0,06^{*} ~\mathrm{T}+126,13$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The ratio of investments in fixed assets aimed at environmental protection to revenue, &#x0025;</td>
+<td>Y31</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 31=1,06 * ~\mathrm{T}-2138,96$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The coefficient of participation of consumer cooperatives in the rural labor market</td>
+<td>Y33</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 33=-0,10^{*} ~\mathrm{T}+205,01$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The coefficient of participation of consumer cooperatives in achieving the subsistence level</td>
+<td>Y34</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 34=0,11^{*} ~\mathrm{T}-227,61$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The coefficient of participation of consumer cooperation in the formation of monetary incomes of the rural population</td>
+<td>Y35</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 35=0,02 * ~\mathrm{T}-38,84$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>The amount of paid services per capita</td>
+<td>Y36</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 36=0,05 * ~\mathrm{T}-105,00$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Volume of activity per shareholder</td>
+<td>E2</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 2=6,69 * ~\mathrm{T}-13468,21$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Labor productivity</td>
+<td>E3</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 3=1,98 * ~\mathrm{T}-3987,06$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Turnover ratio</td>
+<td>E4</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 4=0,10 * ~\mathrm{T}-191,71$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>Linear regression is one of the most widely used methods for modeling the dependence of variables. In the context of consumer cooperation, linear regression allows us to establish a linear relationship between sustainability and efficiency indicators (Yi and Ei) and the time period (T). The main advantages of linear regression include:
+<list list-type="ordered">
+<list-item><label>1.</label><p>Easy to interpret: Linear models are easy to interpret and allow you to clearly see the impact of time on performance.</p></list-item>
+<list-item><label>2.</label><p>Forecasting: the obtained models can be used to predict future values of indicators based on current data.</p></list-item>
+<list-item><label>3.</label><p>Significance assessment: linear regression coefficients allow us to assess the significance of each indicator and its contribution to the overall model.</p></list-item>
+</list></p>
+<p>The analysis of indicators of sustainability (Yi) and efficiency (Ei) of consumer co-operation activity shows that linear regression is a reasonable method for modeling the dependence of these indicators on time. The accuracy of the models was estimated by the Average Approximation Error (AAE) parameter, calculated as the mean absolute percentage error between the actual and predicted values. For all linear models presented in <xref ref-type="table" rid="table3">Table 3</xref>, the AAE did not exceed 5&#x0025;, which confirms the statistical adequacy and high predictive quality of the selected models. The innodiversification approach makes it possible to justify the choice of each indicator, emphasizing their contribution to the stability and efficiency of consumer cooperation (<xref ref-type="table" rid="table4">Table 4</xref>) <xref ref-type="bibr" rid="ref10">[10]</xref>.
+<table-wrap id="table4">
+<label>Table IV.</label>
+<caption><title>The results of the analysis of mathematical models of indicators of sustainability (ni) and efficiency (ei) of consumer cooperation activities</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-4-source.tif"/>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-4a-source.tif"/>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-4b-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Naming of the indicator</th>
+<th>Validity</th>
+<th>Innodiversification approach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Average annual rate Cost of buildings and structures (Y1)</td>
+<td>Buildings and structures are an important asset of a consumer cooperative that affects its performance sustainability</td>
+<td>Investment in infrastructure contributes to diversification and innovation, which increases productivity sustainability of cooperation</td>
+</tr>
+<tr>
+<td>Average annual rate cost of machinery and equipment (Y2)</td>
+<td>Machinery and equipment are key elements of the production process</td>
+<td>Equipment upgrades and upgrades contribute to improving the company&#x0027;s efficiency and innovation</td>
+</tr>
+<tr>
+<td>Average annual cost vehicles (Y3)</td>
+<td>Vehicles provide logistics and operational cooperation</td>
+<td>Investment in transport contributes to the diversification of supply chains</td>
+</tr>
+<tr>
+<td>Average Annual amount of funds (Y5)</td>
+<td>Cash provides liquidity and financial stability to the company</td>
+<td>Cash flow management contributes to the diversification of financial resources</td>
+</tr>
+<tr>
+<td>Average age of staff (Y6)</td>
+<td>The age of employees affects the experience and qualifications of employees of the company</td>
+<td>Diversity age groups promotes innovation and adaptability</td>
+</tr>
+<tr>
+<td>Average salary (Y8)</td>
+<td>Salary the fee affects the motivation and satisfaction of the company&#x0027;s employees</td>
+<td>Competitive price salaries help attract and retain talented employees</td>
+</tr>
+<tr>
+<td>Average amount of bonus payments (Y9)</td>
+<td>Bonuses encourage employee productivity and loyalty</td>
+<td>Flexible system bonus payments help diversify the company&#x0027;s motivational strategies</td>
+</tr>
+<tr>
+<td>Size shareholders (Y10)</td>
+<td>Size the number of shareholders affects the scale and sustainability of the cooperation</td>
+<td>Increase the increase in the number of shareholders contributes to the diversification of sources of financing</td>
+</tr>
+<tr>
+<td>Financial Independence Coefficient (Y14)</td>
+<td>Financial independence ensures the sustainability and autonomy of cooperation</td>
+<td>Diversification increases the financial sustainability of the company</td>
+</tr>
+<tr>
+<td>Ratio turnover of accounts payable (Y16)</td>
+<td>Turnover rate debt management affects the Bank&#x0027;s liquidity and financial stability</td>
+<td>Effective debt management contributes to the diversification of financial flows</td>
+</tr>
+<tr>
+<td>Ratio absolute liquidity (Y19)</td>
+<td>Absolute liquidity ensures the cooperative&#x0027;s ability to meet short-term obligations</td>
+<td>Liquidity management contributes to the diversification of financial resources</td>
+</tr>
+<tr>
+<td>Cooperation level population (Y22)</td>
+<td>Level cooperation affects the scale and sustainability of cooperation</td>
+<td>Increase the level of cooperation contributes to the diversification of market participants</td>
+</tr>
+<tr>
+<td>Fraction non-food products in retail turnover Consumer cooperation (Y23)</td>
+<td>Diversification increases the sustainability and adaptability of cooperation</td>
+<td>Diversity it promotes innovation and product diversification</td>
+</tr>
+<tr>
+<td>Quantity stores per 1000 inhabitants of the served population (Y24)</td>
+<td>Density it affects the accessibility and convenience of stores for consumers</td>
+<td>Increase the number of stores contributes to the diversification of retail outlets</td>
+</tr>
+<tr>
+<td>Share of turnover retail trade consumer cooperation in the total volume of the territory (Y25)</td>
+<td>The share of turnover affects the competitiveness and sustainability of cooperation</td>
+<td>Increasing the share of turnover contributes to the diversification of the company&#x0027;s market positions</td>
+</tr>
+<tr>
+<td>Coverage of monetary incomes of the population by retail trade turnover of consumer cooperation (Y26)</td>
+<td>Income coverage affects the sustainability and scale of cooperation</td>
+<td>Increasing income coverage contributes to the diversification of the consumer base</td>
+</tr>
+<tr>
+<td>Share of own-made goods in total retail trade turnover consumer cooperatives (Y28)</td>
+<td>Own name production increases the sustainability and competitiveness of cooperation</td>
+<td>Diversity the company&#x0027;s own products contribute to innovation and product diversification</td>
+</tr>
+<tr>
+<td>Sales volume at shareholder (Y29)</td>
+<td>Sales volume it affects the effectiveness and sustainability of cooperation</td>
+<td>Increase sales volume contributes to the diversification of the company&#x0027;s revenue</td>
+</tr>
+<tr>
+<td>Payment for negative impact on the environment, thousand rub. (Y30)</td>
+<td>Environmental information responsibility affects the sustainability and reputation of a cooperative</td>
+<td>Investments in the environment contribute to diversification and innovation</td>
+</tr>
+<tr>
+<td>Ratio of fixed capital investment aimed at environmental protection to revenue, &#x0025; (Y31)</td>
+<td>Investments in the environment increase the sustainability and reputation of cooperation</td>
+<td>Environmental investments promote diversification and innovation</td>
+</tr>
+<tr>
+<td>Ratio participation of consumer cooperatives in the rural labor market (Y33)</td>
+<td>Participation in the labor market affects the sustainability and social responsibility of the cooperative</td>
+<td>Diversity the labor force contributes to the diversification and adaptability of the economy</td>
+</tr>
+<tr>
+<td>Ratio participation of consumer cooperatives in achieving the subsistence minimum (Y34)</td>
+<td>Participation in the achieving the minimum subsistence level affects social sustainability cooperatives</td>
+<td>Social investment promotes diversification and innovation</td>
+</tr>
+<tr>
+<td>Ratio participation of consumer cooperatives in the formation of monetary incomes of rural population (Y35)</td>
+<td>Participation in income generation affects sustainability and social responsibility cooperatives</td>
+<td>Diversity sources of income contributes to the diversification and adaptability of the company</td>
+</tr>
+<tr>
+<td>Amount of paid services per capita (Y36)</td>
+<td>Paid services they affect the effectiveness and sustainability of cooperation</td>
+<td>Diversity it promotes diversification and innovation</td>
+</tr>
+<tr>
+<td>Volume of activity per shareholder (E2)</td>
+<td>The volume of activity affects the efficiency and sustainability of the cooperative</td>
+<td>Increase the volume of activities contributes to the diversification of the Company&#x0027;s income</td>
+</tr>
+<tr>
+<td>Efficiency labor (E3)</td>
+<td>Efficiency labor market affects the efficiency and sustainability of cooperation</td>
+<td>Raising productivity contributes to diversification and innovation</td>
+</tr>
+<tr>
+<td>Ratio turnover rate (E4)</td>
+<td>Turnover rate it affects the liquidity and financial stability of the cooperative</td>
+<td>Effective turnover management contributes to the diversification of financial flows</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>The results presented in <xref ref-type="table" rid="table4">Table IV</xref> were obtained through a qualitative analysis based on the innodiversification framework. For each indicator with a established linear relationship to time (from <xref ref-type="table" rid="table3">Table III</xref>), we provide a dual justification: its intrinsic &#x201C;Validity&#x201D; for assessing sustainability/efficiency and its role from the perspective of the &#x201C;Innodiversification Approach&#x201D; (i.e., how it contributes to innovation and diversification of the cooperative&#x0027;s activities).</p>
+<p><xref ref-type="table" rid="table4">Table 4</xref> presents the results of an analysis using the innodiversification approach of indicators of sustainability (Yi) and effectiveness (Yi) of consumer cooperation activities depending on the time period, including the validity of the choice of each indicator.</p>
+<p>According to the innodiversification approach, indicators that are not included in the group of the first level (linear relationship with the time period) can be attributed to the second (indirect) level of influence. Thus, the average annual cost of working capital (Y4) has a correlation coefficient with a time period of only 0.19 and belongs to the cluster &#x201C;very low correlation&#x201D;, which indicates the absence of linear dependence. However, it has a correlation coefficient of 0.63 (average correlation) with the average annual cost of buildings and structures (Y1) and the probability of their relationship is three times higher than that of the time period. Therefore, it is necessary to check whether there is a connection between them. The test results are shown in <xref ref-type="table" rid="table5">table 5</xref> <xref ref-type="bibr" rid="ref10">[10]</xref>.
+<table-wrap id="table5">
+<label>Table V.</label>
+<caption><title>The results of the analysis of mathematical models of indicators of sustainability (ni) and efficiency (ei) of consumer cooperation activities</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-5-source.tif"/>
+<graphic position="float" orientation="portrait" xlink:href="11273200-table-5a-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Names of indicators</th>
+<th>Designation</th>
+<th>Regression</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3">Average annual cost of working capital</td>
+<td rowspan="3">Y4</td>
+<td>Linear: Y4=0,446*Y1+10930,1</td>
+</tr>
+<tr>
+<td>Quadratic: <inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 4=0,00053^{*} \mathrm{Y}^{1}$</tex-math></inline-formula> 3,08*Y1+60266,4</td>
+</tr>
+<tr>
+<td>Cubic: Y4=0,00000000072<italic>Y1&#x00B3;+0,000125</italic> Y1 <inline-formula><tex-math notation="LaTeX">${ }^{2}$</tex-math></inline-formula>-5,336*Y1+81726,815</td>
+</tr>
+<tr>
+<td>Level of education</td>
+<td>Y7</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 7=-0,1526{ }^{*} \mathrm{Y} 23+17,31$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Volume growth rate ratio activities and salaries</td>
+<td>Y11</td>
+<td>Y11=04843*Y26+0.8044</td>
+</tr>
+<tr>
+<td>Volume growth rate ratio operating costs and production costs</td>
+<td>Y12</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 12=-0,00723^{*} \mathrm{Y} 31+1,033$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Activity growth rate ratio and payments to shareholders</td>
+<td>Y13</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 13=-0,000041^{*} \mathrm{Y} 10+1,1165$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Accounts receivable turnover ratio</td>
+<td>Y15</td>
+<td>Y15=-0,772*Y6+43,3267</td>
+</tr>
+<tr>
+<td>Financial independence ratio</td>
+<td>Y17</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 17=0,0000071^{*} \mathrm{Y} 4+0,2129$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Turnover ratio of accounts payable</td>
+<td>Y18</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 18=0,000008^{*} \mathrm{Y} 4+0,15$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Quick liquidity ratio</td>
+<td>Y20</td>
+<td>Y20=1,479*Y19+0,416</td>
+</tr>
+<tr>
+<td>Current liquidity ratio</td>
+<td>Y21</td>
+<td>Y21=1,427*Y19+1,316</td>
+</tr>
+<tr>
+<td>Sales volume per 1 resident served consumer cooperation organizations</td>
+<td>Y27</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 27=-0,05737 * \mathrm{Y} 9+2,818$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Share of current environmental protection costs in the organization&#x0027;s expenses, &#x0025;</td>
+<td>Y32</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{Y} 32=-2,61^{*} \mathrm{Y} 13+1,316$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Fund output</td>
+<td>E1</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 1=-0,0000223^{*} \mathrm{Y} 1+2,93$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Return on assets, &#x0025; (by net profit)</td>
+<td>E5</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 5=0,00164^{*} \mathrm{Y} 5-10,712$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Return on fixed assets</td>
+<td>E6</td>
+<td>E6=0,00479*Y5-35,442</td>
+</tr>
+<tr>
+<td>Current asset turnover ratio</td>
+<td>E7</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 7=-0,000036^{*} \mathrm{Y} 4+2,743$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Return on equity</td>
+<td>E8</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{E} 8=0,001744 * \mathrm{Y} 5+2.93$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>The choice of model form (linear, quadratic, cubic) was driven by the data structure and the goal of achieving the best fit. For instance, the relationship for the indicator Y4 (Average annual cost of working capital) was tested against Y1. While a linear model was significant, a quadratic and subsequently a cubic regression were also fitted. The cubic model, of the form Y4 <inline-formula><tex-math notation="LaTeX">$=a^{*} Y 1^{\wedge} 3+b^{*} Y 1^{\wedge} 2+c^{*} Y 1+d$</tex-math></inline-formula>, was ultimately selected as it provided the lowest AAE, capturing the non-linear saturation effect where growth in fixed assets (Y1) leads to a disproportionately smaller increase in required working capital (Y4) after a certain point. This reflects a real economic phenomenon of optimizing asset structure.</p>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>The practical significance of the research lies in the possibility of using the developed models for forecasting and planning the activities of consumer cooperation. The obtained results can be used by the management of cooperatives to increase the stability and efficiency of their work. The theoretical significance lies in the development of a methodology for assessing sustainability and efficiency through the prism of an innodiversification approach, which expands scientific understanding of the factors influencing the activities of cooperatives.</p>
+<p>The authors conclude that more than half of the indicators of sustainability and <bold>efficiency</bold> of consumer cooperation have a high or very high correlation with the time factor&#x2025;. The authors also emphasize the need for further research of indirect dependencies between indicators using more complex modeling techniques, which can contribute to more accurate forecasting and increase the stability of cooperation. It is recommended to use the developed mathematical models for forecasting and managing key indicators. The authors also emphasize the need for further research of indirect dependencies between indicators, which can contribute to more accurate forecasting and increase the stability of cooperation. The use of an innodiversification approach and mathematical modeling makes the research relevant and practically applicable.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Chernyakov</surname></string-name>, <string-name><given-names>O.</given-names> <surname>Chistyakova</surname></string-name>, and <string-name><given-names>V.</given-names> <surname>Chernyakov</surname></string-name></person-group>, &#x201C;<article-title>Management by objectives: modeling the investment policy of service enterprises from the perspective of the digital economy</article-title>,&#x201D; <source>Energy Efficiency and Agricultural Engineering (EE&#x0026;AE-2024), 9 intern. conf., Bulgaria, Ruse, 27-29 June 2024</source>, <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2024</conf-date>. - <fpage>6</fpage> p. URL: <uri>https://ieeexplore.ieee.org/document/10600598</uri> (access date: <date-in-citation><day>31</day>.<month>07</month>.<year>2024</year></date-in-citation>), DOI <pub-id pub-id-type="doi">10.1109/EEAE60309.2024.10600598</pub-id>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Chernyakov</surname></string-name>, <string-name><given-names>M</given-names> <surname>Chernyakova</surname></string-name> and <string-name><given-names>K</given-names> <surname>Akberov</surname></string-name></person-group>, &#x201C;<article-title>Innodiversification model of the digital economy of the agricultural sector</article-title>&#x201D;, <source>2nd International Scientific conference on New Industrialization - Global, National, Regional Dimension (SICNI)</source>, <conf-date>2019</conf-date>, <volume>240</volume>, pp. <fpage>562</fpage>&#x2013;<lpage>567</lpage>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.M.</given-names> <surname>Batkovsky</surname></string-name></person-group>, &#x201C;<article-title>Substantiation of rational options for diversifying innovatively active enterprises of the military-industrial complex</article-title>&#x201D; /<person-group person-group-type="author"><string-name><given-names>A.M.</given-names> <surname>Batkovsky</surname></string-name>, <string-name><given-names>A.V.</given-names> <surname>Leonov</surname></string-name>, <string-name><given-names>A. Y.</given-names> <surname>Pronin</surname></string-name></person-group> // <source>International Journal of Professional Science</source>, <year>2019</year>, <volume>8</volume>, pp. <fpage>25</fpage>&#x2013;<lpage>36</lpage>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.M.</given-names> <surname>Batkovsky</surname></string-name>, <string-name><given-names>P. V.</given-names> <surname>Kravchuk</surname></string-name>, <string-name><given-names>A.V.</given-names> <surname>Fomina</surname></string-name></person-group>, &#x201C;<article-title>Assessment of the sustainability of the development of innovatively active enterprises of the military-industrial complex in the context of their diversification</article-title>&#x201D;, <source>International Journal of professional science</source>, <year>2020</year>, <volume>1</volume>, pp. <fpage>562</fpage>&#x2013;<lpage>567</lpage>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Yu. A.</given-names> <surname>Rakhmatullina</surname></string-name>, <string-name><given-names>R. F.</given-names> <surname>Yunusova</surname></string-name>, <string-name><given-names>R. R.</given-names> <surname>Yarullin</surname></string-name></person-group>, &#x201C;<article-title>The costbenefit concept in the economic assessment of the effectiveness of investments in public projects</article-title>&#x201D;, <source>Discussion</source>, <year>2022</year>, <volume>4</volume>(<issue>113</issue>), pp. <fpage>42</fpage>&#x2013;<lpage>50</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X</given-names> <surname>Li</surname></string-name>, <string-name><given-names>W</given-names> <surname>Phromphithakkul</surname></string-name>, <string-name><given-names>H</given-names> <surname>Sun</surname></string-name></person-group>, &#x201C;<article-title>Digital Economy, Internet Usage, and Resident Satisfaction</article-title>&#x201D;, <source>Finance Research Letters</source>. <year>2025</year>. <volume>77</volume>, <fpage>106995</fpage>. <uri>https://doi.org/10.1016/j.frl.2025.106995</uri>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G. S.</given-names> <surname>Merzlikina</surname></string-name>, <string-name><given-names>P. Y.</given-names> <surname>Alekseeva</surname></string-name></person-group>, &#x201C;<article-title>Methodological support for assessing the economic sustainability of an industrial enterprise</article-title>&#x201D;, <source>Business. Education. Pravo</source>, <year>2018</year>, <volume>3</volume>(<issue>44</issue>), pp. <fpage>74</fpage>&#x2013;<lpage>80</lpage>. DOI: <pub-id pub-id-type="doi">10.25683/V0LBI.2018.44.351</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L. S.</given-names> <surname>Mokina</surname></string-name>, <string-name><given-names>D.S.</given-names> <surname>Shcheblykina</surname></string-name></person-group>, &#x201C;<article-title>Assessment of the financial stability of an industrial enterprise and the problems of ensuring it in the context of the economic crisis</article-title>&#x201D;, <source>Journal of Economic Research</source>, <year>2018</year>, <volume>4</volume>(<issue>1</issue>), pp. <fpage>26</fpage>&#x2013;<lpage>40</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>V. M.</given-names> <surname>Chernyakov</surname></string-name></person-group>&#x201C;<article-title>The methodology of forecasting the results of the agro-industrial complex of the region</article-title>&#x201D;, <source>Herald of Siberian Institute of Business and Information Technologies</source> <year>2024</year>;<volume>13</volume>(<issue>4</issue>):<fpage>155</fpage>&#x2013;<lpage>160</lpage>. (In Russ.) <uri>https://doi.org/10.24412/2225-8264-2024-4-878/</uri>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. M.</given-names> <surname>Chernyakova</surname></string-name></person-group>, &#x201C;<article-title>Innodiversification approach to regulating the process of transformation of the dairy industry into the digital economy</article-title>&#x201D;, <source>Novosibirsk, Novosibirsk State Technical University</source>, <year>2020</year>, <fpage>380</fpage> p.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

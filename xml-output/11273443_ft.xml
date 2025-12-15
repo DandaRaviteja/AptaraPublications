@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273443</article-id>
+<xplore-article-id>11273443</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>Accelerated MRI Reconstruction: Evaluating Physics-Informed Sampling Against Learning-Based Methods</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Patrick</given-names> <surname>Vincent</surname></string-name>
+<string-name specific-use="index"><given-names>Patrick</given-names> <surname>Vincent</surname></string-name>
+</name-alternatives>
+<email>zda24m007@iitmz.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Manoj</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Manoj</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<email>manoj@iitmz.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">School of Engineering and Science, Indian Institute of Technology Madras, Zanzibar Campus</institution>
+</institution-wrap>
+<city>Zanzibar</city>
+<country>Tanzania</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273443_ft.xml</self-uri>
+<self-uri content-type="print">1014361.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Magnetic Resonance Imaging (MRI) is a cornerstone of medical diagnostics, yet its long acquisition times present significant clinical challenges. Compressed Sensing (CS) and Deep Learning (DL) have emerged as the two leading paradigms for accelerating MRI by reconstructing images from undersampled k -space data. While large-scale DL models are often considered state-of-the-art, the profound impact of the k-space sampling strategy on reconstruction quality is not always fully interrogated. This research directly investigates this interplay by evaluating a classical Iterative Shrinkage-Thresholding Algorithm (ISTA) against a custom-developed, baseline U-Net CNN across three diverse public MRI datasets. We test four distinct undersampling masks-from standard Cartesian to advanced variable-density and edge-enhanced patterns. Our findings reveal a compelling and nuanced outcome: the ISTA algorithm, when paired with a physics-informed sampling mask, consistently and significantly outperforms our CNN baseline, particularly in a &#x201C;zero-shot&#x201D; or data-limited training scenario. On a benchmark knee dataset, ISTA achieved a PSNR over 40 dB, a result the CNN failed to approach. This work concludes that the strategic design of the data acquisition process is a foundational, and in some cases dominant, factor in the success of accelerated MRI, demonstrating that a mathematically-grounded iterative method can surpass a baseline deep learning model when the underlying physics are respected.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Compressed Sensing</kwd>
+<kwd>MRI</kwd>
+<kwd>Deep Learning</kwd>
+<kwd>Image Reconstruction</kwd>
+<kwd>K-Space Sampling</kwd>
+<kwd>Iterative Algorithms</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="3"/>
+<equation-count count="3"/>
+<ref-count count="17"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Magnetic Resonance Imaging (MRI) is an indispensable tool in modern medicine, offering unparalleled soft-tissue contrast without ionizing radiation. Its primary limitation, however, is the slow data acquisition process, which can lead to patient discomfort, motion artifacts, and limited patient throughput <xref ref-type="bibr" rid="ref1">[1]</xref>. To address this, researchers have focused on accelerating MRI by acquiring fewer data points (undersampling) in the MRI signal domain, known as k -space, and then computationally reconstructing a diagnostic-quality image.</p>
+<p>Compressed Sensing (CS) marked a significant break-through in MRI reconstruction by demonstrating that images possessing sparse representations in certain transform domains can be accurately recovered from far fewer k -space samples than required by the Nyquist theorem <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>. This insight allowed for substantial acceleration in MRI acquisition, with the added benefit of reducing scan times and motion artifacts. The fundamental principle of CS involves formulating an optimization problem that strikes a balance between two competing goals: ensuring consistency with the acquired undersampled k -space data, and promoting sparsity in the reconstructed image. To solve this inverse problem, iterative algorithms such as the Iterative Shrinkage-Thresholding Algorithm (ISTA) became widely adopted <xref ref-type="bibr" rid="ref4">[4]</xref>. These algorithms alternate between gradient descent steps that enforce data consistency and shrinkage (thresholding) steps that impose sparsity constraints. Despite their conceptual simplicity, ISTA and its variants have proven to be highly effective and remain a cornerstone in classical CS-based MRI reconstruction techniques.</p>
+<p>In recent years, deep learning (DL) has emerged as a transformative force in the field of MRI reconstruction, particularly through the use of convolutional neural network (CNN) architectures such as U-Net <xref ref-type="bibr" rid="ref5">[5]</xref>. These models are designed to learn an end-to-end mapping from undersampled k -space data to high-quality, fully-sampled images. By leveraging the ability of deep networks to model complex, nonlinear relationships, U-Net-based approaches have demonstrated exceptional capability in suppressing artifacts and restoring fine anatomical details lost during aggressive undersampling.</p>
+<p>This rapid progress has been significantly driven by the availability of large-scale, high-quality datasets such as fastMRI <xref ref-type="bibr" rid="ref6">[6]</xref>, which provide thousands of paired undersampled and fully sampled MRI scans. These datasets have enabled researchers to train and validate deep learning models at scale, resulting in impressive improvements in reconstruction accuracy, speed, and generalizability across anatomies and imaging protocols.</p>
+<p>However, the performance of any reconstruction algorithm is intrinsically tied to the quality of the undersampled data. The design of the k -space sampling mask, which dictates which data points are acquired, is a critical variable. Advanced, physics-informed strategies like variable-density sampling, which prioritize the information-rich center of k-space, have been shown to be highly effective <xref ref-type="bibr" rid="ref7">[7]</xref>. This raises a crucial question: how does the choice of sampling pattern influence the performance comparison between classical and DL methods? This study tackles this question by systematically evaluating both ISTA and a CNN across a spectrum of sampling masks, from naive to intelligent, to determine whether an optimized acquisition strategy can allow a classical algorithm to rival a modern deep learning approach.</p>
+<p>This work explores the comparative performance of classical versus deep learning reconstruction algorithms under various k -space sampling patterns. We hypothesize that a physics-informed sampling strategy can enable a traditional iterative method to remain highly competitive with, and in data-limited contexts even surpass, a representative baseline deep learning model. To test this, we evaluate four undersampling masks-1D Cartesian, 2D random, variable-density polynomial, and edge-enhanced-using both ISTA with wavelet sparsity and a custom U-Net CNN. Our experiments span three diverse datasets (OASIS-1, UC Berkeley Knee Dataset, and fastMRI Brain Dataset) to ensure robust and generalizable insights into the crucial relationship between sampling physics and reconstruction algorithm design.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Background and Related Work</title>
+<sec id="sec2a">
+<label>A.</label>
+<title>Classical Compressed Sensing Mri</title>
+<p>The Compressed Sensing Magnetic Resonance Imaging (CS-MRI) framework addresses the problem of reconstructing a high-quality image <inline-formula><tex-math notation="LaTeX">$\mathbf{x}$</tex-math></inline-formula> from a set of undersampled k -space measurements <inline-formula><tex-math notation="LaTeX">$\mathbf{y}$</tex-math></inline-formula>. In this context, the measurement model is given by:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+y=A x
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\mathbf{A}$</tex-math></inline-formula> is a linear operator that encapsulates both the discrete Fourier transform (which models the k -space acquisition in MRI) and a binary sampling mask that selects only a subset of Fourier coefficients, effectively reducing the amount of data acquired. The goal is to recover <inline-formula><tex-math notation="LaTeX">$\mathbf{x}$</tex-math></inline-formula> faithfully despite this data reduction.</p>
+<p>Since direct inversion is ill-posed due to undersampling, CSMRI casts image reconstruction as an optimization problem that balances fidelity to the observed data with a regularization term that encodes prior knowledge about the image structure. This is typically formulated as the following unconstrained minimization:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{\mathbf{x}}=\arg \min _{\times} \frac{1}{2}\vert\mathbf{A x}-\mathbf{y}\vert_{2}^{2}+\lambda R(\mathbf{x}).
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The first term, <inline-formula><tex-math notation="LaTeX">$\frac{1}{2}\vert\mathbf{A x}-\mathbf{y}\vert Z$</tex-math></inline-formula>, is the data fidelity term, ensuring that the reconstructed image is consistent with the measured k -space data. The second term, <inline-formula><tex-math notation="LaTeX">$\lambda R(\mathbf{x})$</tex-math></inline-formula>, is the regularization term that imposes prior assumptions about the structure or sparsity of the image. The parameter <inline-formula><tex-math notation="LaTeX">$\lambda&gt;0$</tex-math></inline-formula> controls the tradeoff between these two objectives.</p>
+<p>A common and effective choice of regularizer is the <inline-formula><tex-math notation="LaTeX">$\ell_{1}$</tex-math></inline-formula> norm of the image coefficients in a transform domain:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+R(\mathbf{x})=\vert\boldmath{\Psi} \mathbf{x}\vert_{1}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\boldmath{\Psi}$</tex-math></inline-formula> is a sparsifying transform, such as the Wavelet transform <xref ref-type="bibr" rid="ref1">[1]</xref> or Total Variation (TV) operator <xref ref-type="bibr" rid="ref8">[8]</xref>. This choice encourages sparsity, promoting solutions where many transform coefficients are zero or near-zero, which aligns with the compressibility of natural images in these domains.</p>
+<p>To solve the optimization problem in <xref ref-type="disp-formula" rid="deqn1">(1)</xref>, iterative algorithms are commonly used. One widely adopted method is the Iterative Shrinkage-Thresholding Algorithm (ISTA), which alternates between:
+<list list-type="ordered">
+<list-item><label>1)</label><p>A gradient descent step on the data fidelity term to enforce consistency with measurements, and</p></list-item>
+<list-item><label>2)</label><p>A proximal (soft-thresholding) operation on the regularization term to enforce sparsity.</p></list-item>
+</list>
+</p>
+<p>An accelerated version, known as FISTA (Fast ISTA), improves convergence speed by incorporating a momentum term. Both methods fall under the class of proximal gradient methods, which are well-suited for problems involving non-smooth regularizers like the <inline-formula><tex-math notation="LaTeX">$\ell_{1}$</tex-math></inline-formula> norm.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Deep Learning for Mri Reconstruction</title>
+<p>DL-based methods replace the handcrafted regularizer <inline-formula><tex-math notation="LaTeX">$R(\mathbf{x})$</tex-math></inline-formula> with a powerful prior learned from a large training dataset. Many successful approaches utilize a U-Net architecture to learn a mapping from an aliased, zero-filled input image to a clean output <xref ref-type="bibr" rid="ref5">[5]</xref>. More advanced techniques, known as physics-informed or model-based DL, unroll the iterations of a classical algorithm like ISTA into network layers. These &#x201C;variational networks&#x201D; or &#x201C;unrolled networks&#x201D; learn custom filter banks and activation functions in place of the fixed sparsity transform and thresholding, combining the robust structure of iterative methods with the representative power of deep learning <xref ref-type="bibr" rid="ref9">[9]</xref>.</p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>K-Space Sampling Strategies</title>
+<p>The design of the sampling mask <inline-formula><tex-math notation="LaTeX">$\mathbf{M}$</tex-math></inline-formula>, an integral component of the sensing matrix <inline-formula><tex-math notation="LaTeX">$\mathbf{A}$</tex-math></inline-formula> plays a pivotal role in the success of CS-MRI reconstruction. The sampling mask determines which k-space coefficients are acquired during the scan, and its structure directly influences the quality and fidelity of the reconstructed image.</p>
+<p>A key principle in compressed sensing is the requirement of incoherent sampling, which ensures that aliasing artifacts introduced by undersampling are distributed in a noise-like fashion across the image domain. This incoherence allows the sparse regularization to effectively suppress such artifacts. Fully random 2D sampling patterns typically achieve high incoherence; however, they are often impractical to implement on clinical MRI scanners due to hardware constramts and acquisition inefficiencies.</p>
+<p>To address these practical limitations, structured sampling masks are used. One of the most popular and effective strategies is variable-density sampling, wherein the central region of k -space (containing low-frequency components) is sampled densely, while the outer regions (containing high-frequency components) are sampled more sparsely <xref ref-type="bibr" rid="ref10">[10]</xref>. This design aligns with the energy distribution in typical MR images, where most of the image&#x0027;s energy is concentrated in the low-frequency components.</p>
+<p>In recent years, there has been growing interest in data-driven approaches to sampling pattern design. These methods aim to learn optimal sampling masks tailored to specific anatomies or reconstruction algorithms, using supervised or reinforcement learning paradigms. By adapting the sampling strategy to the characteristics of the target images and the downstream reconstruction pipeline, these learned masks can significantly enhance image quality, reduce artifacts, and shorten acquisition time <xref ref-type="bibr" rid="ref11">[11]</xref>.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>Our experiments were implemented in Python, utilizing libraries such as PyTorch for model development, NumPy for numerical computations, Scikit-Image for image processing, and PyWavelets for wavelet-based transformations. The study followed a three-stage methodology: (i) data preprocessing and augmentation, (ii) formulation of experimental setups including sampling and reconstruction strategies, and (iii) quantitative and qualitative evaluation of reconstruction performance.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Datasets</title>
+<p>We utilized three public datasets to ensure our conclusions were robust across different anatomies, contrasts, and data formats:
+<list list-type="bullet">
+<list-item><label>&#x2013;</label><p><bold>OASIS-1:</bold> T1-weighted brain MRI scans <xref ref-type="bibr" rid="ref12">[12]</xref>. We extracted central axial 2D slices for analysis.</p></list-item>
+<list-item><label>&#x2013;</label><p><bold>UC Berkeley Knee Dataset:</bold> High-resolution 3D knee scans with raw k-space data <xref ref-type="bibr" rid="ref13">[13]</xref>. We used this to test performance on a high-SNR musculoskeletal case.</p></list-item>
+<list-item><label>&#x2013;</label><p><bold>fastMRI Brain Dataset:</bold> Multi-coil raw brain k-space data <xref ref-type="bibr" rid="ref6">[6]</xref>, representing a state-of-the-art benchmark.</p></list-item>
+</list>
+</p>
+<p>For all datasets, a single-channel ground truth image was derived (via RSS for multi-coil data) and normalized to [0, 1]. The fully-sampled k -space was then simulated via a 2D FFT.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Undersampling Masks</title>
+<p>We designed four k-space masks for a fixed acceleration factor of <inline-formula><tex-math notation="LaTeX">$\mathrm{R}=4$</tex-math></inline-formula>.
+<list list-type="ordered">
+<list-item><label>1)</label><p><bold>1D Cartesian:</bold> Uniformly skips <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>-space lines.</p></list-item>
+<list-item><label>2)</label><p><bold>2D Random:</bold> Randomly samples individual points.</p></list-item>
+<list-item><label>3)</label><p><bold>Variable-Density:</bold> Samples based on a polynomial probability distribution, heavily favoring the k -space center.</p></list-item>
+<list-item><label>4)</label><p><bold>Edge-Enhanced:</bold> An anatomy-aware mask whose sampling probability is guided by the Fourier transform of a Sobel edge map of the image, prioritizing highfrequency detail.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Reconstruction Models</title>
+<list list-type="ordered">
+<list-item><label>1)</label><p><italic>ISTA:</italic> Our classical baseline was an ISTA implementation solving <xref ref-type="disp-formula" rid="deqn1">(1)</xref> with a Daubechies 4 (&#x0027;db4&#x0027;) wavelet prior. Following hyperparameter tuning (Experiment 1), we used 10 iterations and a regularization parameter <inline-formula><tex-math notation="LaTeX">$\lambda=0.0001$</tex-math></inline-formula> for all comparative tests.</p></list-item>
+<list-item><label>2)</label><p><italic>CNN:</italic> Our deep learning model was a lightweight U-Net architecture with an encoder-decoder structure, skip connections, and three downsampling levels. This architecture was chosen as a representative baseline for image-to-image translation tasks, rather than a state-of-the-art, heavily optimized model. It was trained using the Adam optimizer (<inline-formula><tex-math notation="LaTeX">$\mathrm{l}=5 \mathrm{e}-5$</tex-math></inline-formula>) and an MSE loss function. For the single-image UCB test, it was trained in a &#x201C;zero-shot&#x201D; fashion for 500 epochs <xref ref-type="bibr" rid="ref14">[14]</xref>. For the fastMRI experiment, it was trained on 40 slices and tested on 10 unseen slices.</p></list-item>
+</list>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Evaluation</title>
+<p>Reconstruction quality was quantitatively assessed using two widely adopted metrics: Peak Signal-to-Noise Ratio (PSNR), which measures the overall fidelity of the reconstructed image relative to the fully-sampled ground truth, and the Structural Similarity Index Measure (SSIM), which evaluates perceptual similarity by accounting for luminance, contrast, and structural information.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results</title>
+<p>The series of experiments conducted provides a comprehensive evaluation of different sampling and reconstruction strategies across multiple datasets. In this section, we first present the results of hyperparameter tuning, followed by a detailed comparative analysis of the different reconstruction methods, supported by both quantitative metrics and qualitative visual assessments.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Hyperparameter Tuning for Ista</title>
+<p>To establish a fair and robust baseline for the classical iterative method, we first optimized the key hyperparameters for the ISTA algorithm: the regularization parameter (<inline-formula><tex-math notation="LaTeX">$\lambda$</tex-math></inline-formula>) and the number of iterations. The initial tuning was performed using the OASIS-1 dataset, as detailed in Experiment 1.</p>
+<p>The investigation into <inline-formula><tex-math notation="LaTeX">$\lambda$</tex-math></inline-formula> consistently revealed that peak performance in both PSNR and SSIM was achieved with a very small regularization weight. As shown in the convergence analysis (<xref ref-type="fig" rid="fig1">Fig. 1</xref>), the algorithm&#x0027;s performance plateaued quickly, with significant gains observed within the first 10-15 iterations and minimal improvement thereafter.</p>
+<p>To ensure the generalizability of these findings, the lambda tuning was replicated for both the UC Berkeley and fastMRI datasets, as shown in <xref ref-type="fig" rid="fig2">Fig. 2</xref>. Across all three distinct datasets, the trend remained the same: optimal reconstruction quality was consistently found at a low lambda value around <inline-formula><tex-math notation="LaTeX">$\lambda=0.0001$</tex-math></inline-formula>. This robust result across different anatomies and imaging contrasts gave us high confidence in our parameter selection. Therefore, for all subsequent comparative experiments, we used a fixed, near-optimal configuration of <inline-formula><tex-math notation="LaTeX">$\lambda=0.0001$</tex-math></inline-formula> and a computationally efficient <bold>10 iterations</bold> to ensure a fair and consistent baseline for the ISTA method.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Comparative Analysis of Sampling Masks</title>
+<p>A core objective of this study was to assess the impact of different k-space sampling masks on reconstruction quality. Experiments were conducted across all three datasets using a fixed acceleration factor of <inline-formula><tex-math notation="LaTeX">$\mathrm{R}=4$</tex-math></inline-formula>. The results consistently demonstrated the superiority of intelligent, non-uniform sampling strategies.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1:</label>
+<caption><p>Convergence analysis on the oasis-1 dataset, showing that ista performance (psnr) plateaus after approximately 15 iterations. a choice of 10 iterations provides a strong balance of performance and computational efficiency.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-fig-1-source.tif"/>
+</fig></p>
+<p><xref ref-type="table" rid="table1">Table I</xref> summarizes the findings from Experiment 7 on the OASIS-1 dataset, where multiple subjects and slices were processed. The Variable Density and Edge-Enhanced masks substantially outperformed the standard Cartesian and 2D Random masks for the ISTA reconstruction, yielding an average PSNR improvement of over 8 dB. Similar trends were observed on the UC Berkeley Knee Dataset (Experiment 6, <xref ref-type="table" rid="table2">Table II</xref>) and the fastMRI Brain Dataset (Experiment 8). In every case, the Variable Density and Edge-Enhanced masks delivered significantly higher PSNR and SSIM values for both the zero-filled and the final ISTA reconstructions.
+<table-wrap id="table1">
+<label>Table I:</label>
+<caption><title>Mean reconstruction performance on oasis-1 dataset (r=4)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">Mask Type</th>
+<th colspan="2">Zero-Filled</th>
+<th colspan="2">ISTA (10 iter.)</th>
+</tr>
+<tr>
+<th>PSNR (dB)</th>
+<th>SSIM</th>
+<th>PSNR (dB)</th>
+<th>SSIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1D Cartesian</td>
+<td>25.46</td>
+<td>0.58</td>
+<td>27.69</td>
+<td>0.71</td>
+</tr>
+<tr>
+<td>2D Random</td>
+<td>23.23</td>
+<td>0.33</td>
+<td>25.75</td>
+<td>0.56</td>
+</tr>
+<tr>
+<td><bold>Variable Density</bold></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{3 6. 1 4}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 5}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{3 6. 2 7}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 7}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td><bold>Edge-Enhanced</bold></td>
+<td>34.09</td>
+<td>0.72</td>
+<td>35.88</td>
+<td>0.91</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table II:</label>
+<caption><title>Reconstruction performance on uc berkeley knee dataset (r=4)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">Mask Type</th>
+<th colspan="2">Zero-Filled</th>
+<th colspan="2">ISTA (10 iter.)</th>
+</tr>
+<tr>
+<th>PSNR (dB)</th>
+<th>SSIM</th>
+<th>PSNR (dB)</th>
+<th>SSIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1D Cartesian</td>
+<td>31.70</td>
+<td>0.82</td>
+<td>32.69</td>
+<td>0.84</td>
+</tr>
+<tr>
+<td>2D Random</td>
+<td>30.30</td>
+<td>0.77</td>
+<td>31.04</td>
+<td>0.77</td>
+</tr>
+<tr>
+<td><bold>Variable Density</bold></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{4 0. 9 2}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 6}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{4 0. 9 3}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 6}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td><bold>Edge-Enhanced</bold></td>
+<td>39.04</td>
+<td>0.93</td>
+<td>39.06</td>
+<td>0.94</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>Qualitative results, as visualized in <xref ref-type="fig" rid="fig3">Fig. 3</xref>, corroborate these metrics. The images reconstructed from Cartesian and 2D Random masks exhibit significant aliasing and loss of detail, whereas those from Variable Density and Edge-Enhanced masks retain sharp anatomical features and high fidelity to the ground truth.</p>
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Ista Vs. Cnn: a Surprising Outcome</title>
+<p>The final set of experiments (Experiments 9 and 10) compared the performance of the optimized ISTA framework against our custom-trained U-Net-based CNN. The analysis was conducted using the high-performing Variable Density mask.</p>
+<p><xref ref-type="table" rid="table3">Table III</xref> presents the results for the UCB knee dataset (Sec_128.mag). The findings are striking: the classical ISTA algorithm significantly outperformed the deep learning model. ISTA achieved a PSNR of 40.93 dB, which was not only superior to the CNN&#x0027;s 31.86 dB but was also very close to the zero-filled reconstruction quality, indicating the effectiveness of the sampling mask itself. The CNN, in this &#x201C;zero-shot&#x201D; training scenario, failed to improve upon the high-quality baseline and introduced smoothing artifacts, as seen in <xref ref-type="fig" rid="fig4">Fig. 4</xref>.
+<table-wrap id="table3">
+<label>Table III:</label>
+<caption><title>Performance comparison on ucb knee dataset (r=4, var-density)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Method</th>
+<th>PSNR (dB)</th>
+<th>SSIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zero-Filled</td>
+<td>40.92</td>
+<td>0.961</td>
+</tr>
+<tr>
+<td>ISTA (10 iter.)</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{4 0. 9 3}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 6 1}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>CNN (U-Net)</td>
+<td>31.86</td>
+<td>0.806</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Discussion</title>
+<p>Our findings strongly suggest that the success of accelerated MRI is deeply rooted in the physics of data acquisition. The dramatic performance increase from using Variable Density and Edge-Enhanced masks indicates that capturing the most significant components of the k -space signal is the single most important step. When the sampling is intelligent, the subsequent reconstruction problem becomes far more well-posed, allowing even a simple, mathematically-defined algorithm like ISTA to excel.</p>
+<sec id="sec5a">
+<label>A.</label>
+<title>Interpreting the Ista Vs. Cnn Performance</title>
+<p>The superior performance of ISTA over our custom CNN in the single-image reconstruction task is particularly insightful and warrants careful contextualization. While large-scale, pretrained deep learning models have shown remarkable success <xref ref-type="bibr" rid="ref6">[6]</xref>, our experiment simulated a &#x201C;zero-shot&#x201D; or subject-specific scenario where the model must learn from scratch on a single instance. In this data-limited context, the CNN, despite its architectural complexity, appeared to learn a sub-optimal mapping that resulted in image smoothing and loss of fine texture.</p>
+<p>This suggests that without the benefit of a large and diverse training set, the network&#x0027;s learned prior may be less effective than the explicit wavelet sparsity prior enforced by ISTA. The ISTA, grounded in a well-posed mathematical framework, leverages the intrinsic properties of the MR signal itself, which proves highly effective when the sampling is intelligent. This outcome aligns with an emerging area of research in physics-informed deep learning, which seeks to integrate known physical models into neural networks to improve their data efficiency and robustness <xref ref-type="bibr" rid="ref15">[15]</xref>. Our work empirically supports the idea that in the absence of big data, a good physical model can be more powerful than a generic learning architecture.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2:</label>
+<caption><p>Validation of the regularization parameter <inline-formula><tex-math notation="LaTeX">$\lambda$</tex-math></inline-formula> for ista was performed with an acceleration factor of <inline-formula><tex-math notation="LaTeX">$r=4$</tex-math></inline-formula>. results from both the uc berkeley dataset (a) and the fastmri dataset (b) demonstrate that the best reconstruction quality is obtained at relatively low values of <inline-formula><tex-math notation="LaTeX">$\lambda$</tex-math></inline-formula>. these findings corroborate our initial observations and support the selection of <inline-formula><tex-math notation="LaTeX">$\lambda=0.0001$</tex-math></inline-formula> for all subsequent comparative experiments.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3:</label>
+<caption><p>A visual comparison of reconstruction quality under different undersampling masks is presented for a representative brain slice from the oasis-1 dataset at an acceleration factor of <inline-formula><tex-math notation="LaTeX">$r=4$</tex-math></inline-formula>. the variable density and edge-enhanced masks yield visibly sharper images with improved structural detail preservation, outperforming both cartesian and fully random sampling schemes.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4:</label>
+<caption><p>Reconstruction of the ucb knee image. (a) ground truth. (b) zero-filled. (c) ista reconstruction, visually identical to the ground truth. (d) cnn reconstruction, exhibiting noticeable blurring and loss of texture.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273443-fig-4-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec5b">
+<label>B.</label>
+<title>Limitations and Clinical Implications</title>
+<p>While this study provides valuable insights, it is crucial to acknowledge its limitations, as highlighted by our reviewers.
+<list list-type="ordered">
+<list-item><label>1)</label><p><bold>CNN Baseline and Training:</bold> The U-Net model used is a baseline and not a state-of-the-art architecture. Modern reconstruction networks, such as unrolled networks <xref ref-type="bibr" rid="ref9">[9]</xref>, are often significantly deeper and are trained on thousands of scans. The &#x201C;zero-shot&#x201D; training on the UCB dataset is a specific and challenging scenario; performance would almost certainly improve with a larger training corpus. Thus, our conclusion is not that ISTA is universally better than all deep learning, but that it can be superior to a baseline CNN in data-limited contexts.</p></list-item>
+<list-item><label>2)</label><p><bold>Computational Time and Practicality:</bold> This study did not focus on a detailed analysis of computational tradeoffs. The CNN&#x0027;s training time (approx. 3 minutes) is substantial for a single slice, making it impractical for on-the-fly clinical use in a zero-shot setting. In contrast, ISTA requires no training and completed reconstruction in under a second. While a pre-trained CNN offers nearinstantaneous inference, the cost of training and the need for large, curated datasets are significant practical hurdles for clinical deployment that classical methods do not face.</p></list-item>
+<list-item><label>3)</label><p><bold>Simulated Data and Coil Combination:</bold> Our k-space data was primarily simulated from reconstructed images or simplified via RSS coil combination. This idealized setup does not account for real-world factors like physiological noise, system imperfections, and complex coil sensitivities, which could affect the performance of both algorithms differently.</p></list-item>
+</list>
+</p>
+<p>These limitations frame the practical implications of our work. For clinical settings where large, curated training datasets are unavailable or for novel imaging sequences, a classical CS approach with an optimized, physics-informed sampling pattern remains a highly effective and reliable strategy for MRI acceleration.</p>
+</sec>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>Conclusion</title>
+<p>This research provides a comprehensive analysis of the factors influencing image reconstruction quality in accelerated Magnetic Resonance Imaging (MRI). Specifically, it reveals that the strategy used for sampling the k -space-the frequency domain where MRI data is acquired-plays a more crucial role in determining the final image quality than the reconstruction algorithm itself. In a direct comparison, a straightforward classical iterative method, the Iterative Shrinkage-Thresholding Algorithm (ISTA), when paired with a carefully designed physics-informed sampling mask, consistently and significantly outperformed a more complex deep learning model based on a custom U-Net convolutional neural network (CNN). This outcome highlights a key insight: optimizing the data acquisition process, particularly the k -space sampling pattern, can yield greater improvements in image quality than simply switching to advanced machine learning techniques.</p>
+<p>These findings emphasize the enduring relevance and power of principled, model-based approaches in medical imaging. While deep learning has shown remarkable promise, this study suggests that even modest classical algorithms can excel when combined with thoughtfully engineered sampling strategies. Therefore, future research should prioritize the development of hybrid methods that integrate the interpretability and theoretical guarantees of classical reconstruction techniques with the adaptive capacity and representational power of deep neural networks <xref ref-type="bibr" rid="ref16">[16]</xref>. Additionally, there is significant potential in leveraging artificial intelligence to automatically learn optimal, anatomy-specific sampling masks, which could further enhance image quality and acquisition efficiency <xref ref-type="bibr" rid="ref17">[17]</xref>.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Lustig</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Donoho</surname></string-name>, and <string-name><given-names>J. M.</given-names> <surname>Pauly</surname></string-name></person-group>, &#x201C;<article-title>Sparse MRI: The application of compressed sensing for rapid MR imaging</article-title>,&#x201D; <source>Magnetic Resonance in Medicine</source>, vol. <volume>58</volume>, no. <issue>6</issue>, pp. <fpage>1182</fpage>&#x2013;<lpage>1195</lpage>, <year>2007</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. L.</given-names> <surname>Donoho</surname></string-name></person-group>, &#x201C;<article-title>Compressed sensing</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Information Theory</source>, vol. <volume>52</volume>, no. <issue>4</issue>, pp. <fpage>1289</fpage>&#x2013;<lpage>1306</lpage>, <year>2006</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E. J.</given-names> <surname>Cande&#x0027;s</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Romberg</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Tao</surname></string-name></person-group>, &#x201C;<article-title>Robust uncertainty principles: Exact signal reconstruction from highly incomplete frequency information</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Information Theory</source>, vol. <volume>52</volume>, no. <issue>2</issue>, pp. <fpage>489</fpage>&#x2013;<lpage>509</lpage>, <year>2006</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Beck</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Teboulle</surname></string-name></person-group>, &#x201C;<article-title>A fast iterative shrinkage-thresholding algorithm for linear inverse problems</article-title>,&#x201D; <source>SIAM Journal on Imaging Sciences</source>, vol. <volume>2</volume>, no. <issue>1</issue>, pp. <fpage>183</fpage>&#x2013;<lpage>202</lpage>, <year>2009</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>O.</given-names> <surname>Ronneberger</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Fischer</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Brox</surname></string-name></person-group>, &#x201C;<article-title>U-Net: Convolutional Networks for Biomedical Image Segmentation</article-title>,&#x201D; in <source>Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Interv. (MICCAI)</source>, <year>2015</year>, pp. <fpage>234</fpage>&#x2013;<lpage>241</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Zbontar</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>fastMRI: An open dataset and benchmarks for accelerated MRI</article-title>,&#x201D; <year>2018</year>, <source>arXiv</source>:<pub-id pub-id-type="arxiv">1811.08839</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. W.</given-names> <surname>Seeger</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Nickisch</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Pohmann</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Scho&#x201C;lkopf</surname></string-name></person-group>, &#x201C;<article-title>Optimization of k-space trajectories for compressed sensing</article-title>,&#x201D; in <source>Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Interv. (MICCAI)</source>, <year>2007</year>, pp. <fpage>515</fpage>&#x2013;<lpage>522</lpage>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K. T.</given-names> <surname>Block</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Uecker</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Frahm</surname></string-name></person-group>, &#x201C;<article-title>Undersampled radial MRI with multiple coils. Iterative reconstruction using a total variation constraint</article-title>,&#x201D; <source>Magnetic Resonance in Medicine</source>, vol. <volume>57</volume>, no. <issue>6</issue>, pp. <fpage>1086</fpage>&#x2013;<lpage>1098</lpage>, <year>2007</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Hammernik</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Learning a variational network for reconstruction of accelerated MRI data</article-title>,&#x201D; <source>Magnetic Resonance in Medicine</source>, vol. <volume>79</volume>, no. <issue>6</issue>, pp. <fpage>3055</fpage>&#x2013;<lpage>3071</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Puy</surname></string-name>, <string-name><given-names>J.-P.</given-names> <surname>Thiran</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Van De Ville</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Wiaux</surname></string-name></person-group>, &#x201C;<article-title>Variable density sampling for compressed sensing MRI</article-title>,&#x201D; in <source>Proc. 20th Eur. Signal Process. Conf. (EUSIPCO)</source>, <year>2012</year>, pp. <fpage>2148</fpage>&#x2013;<lpage>2152</lpage>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>J. M.</given-names> <surname>Pauly</surname></string-name>, and <string-name><given-names>I. M.</given-names> <surname>Levesque</surname></string-name></person-group>, &#x201C;<article-title>Data-driven k-space sampling for compressed sensing MRI</article-title>,&#x201D; <source>Magnetic Resonance in Medicine</source>, vol. <volume>72</volume>, no. <issue>4</issue>, pp. <fpage>986</fpage>&#x2013;<lpage>995</lpage>, <year>2014</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. S.</given-names> <surname>Marcus</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Open Access Series of Imaging Studies (OASIS): Cross-sectional MRI data in young, middle aged, nondemented, and demented older adults</article-title>,&#x201D; <source>Journal of Cognitive Neuroscience</source>, vol. <volume>19</volume>, no. <issue>9</issue>, pp. <fpage>1498</fpage>&#x2013;<lpage>1507</lpage>, <year>2007</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Uecker</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Berkeley Advanced Reconstruction Toolbox (BART)</article-title>,&#x201D; in <source>Proc. Intl. Soc. Mag. Reson. Med.</source> <volume>24</volume>, <year>2016</year>, p. <fpage>1442</fpage>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Bora</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Jalal</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Price</surname></string-name>, and <string-name><given-names>A. G.</given-names> <surname>Dimakis</surname></string-name></person-group>, &#x201C;<article-title>Compressed sensing using generative models</article-title>,&#x201D; in <source>Proc. 34th Int. Conf. Mach. Learn. (ICML)</source>, <year>2017</year>, pp. <fpage>537</fpage>&#x2013;<lpage>546</lpage>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Schlemper</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Caballero</surname></string-name>, <string-name><given-names>J. V.</given-names> <surname>Hajnal</surname></string-name>, <string-name><given-names>A. N.</given-names> <surname>Price</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Rueckert</surname></string-name></person-group>, &#x201C;<article-title>A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Medical Imaging</source>, vol. <volume>37</volume>, no. <issue>2</issue>, pp. <fpage>491</fpage>&#x2013;<lpage>503</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. K.</given-names> <surname>Aggarwal</surname></string-name>, <string-name><given-names>M. P.</given-names> <surname>Mani</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Jacob</surname></string-name></person-group>, &#x201C;<article-title>MoDL: Model-Based Deep Learning Architecture for Inverse Problems</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Medical Imaging</source>, vol. <volume>38</volume>, no. <issue>2</issue>, pp. <fpage>394</fpage>&#x2013;<lpage>405</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C. B.</given-names> <surname>Bahadir</surname></string-name>, <string-name><given-names>A. C.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>A. V.</given-names> <surname>Dalca</surname></string-name>, and <string-name><given-names>M. R.</given-names> <surname>Sabuncu</surname></string-name></person-group>, &#x201C;<article-title>Deep-learning-based optimization of the under-sampling pattern in MRI</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Computational Imaging</source>, vol. <volume>6</volume>, pp. <fpage>1139</fpage>&#x2013;<lpage>1152</lpage>, <year>2020</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

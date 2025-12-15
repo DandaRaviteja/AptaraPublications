@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273418</article-id>
+<xplore-article-id>11273418</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>A Scalable Soil Moisture Sensor Using LSTM and Random Forest</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Mohammed</given-names> <surname>FLISSAT</surname></string-name>
+<string-name specific-use="index"><given-names>Mohammed</given-names> <surname>FLISSAT</surname></string-name>
+</name-alternatives>
+<email>flissat.mohammed.cedoc@ehtp.ac.ma</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Mohammed</given-names> <surname>ELAROUSSI</surname></string-name>
+<string-name specific-use="index"><given-names>Mohammed</given-names> <surname>ELAROUSSI</surname></string-name>
+</name-alternatives>
+<email>elaroussi@ehtp.ac.ma</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Electrical Engineering</institution>
+<institution content-type="institution">&#x00C9;cole Hassania des Travaux Publics (EHTP)</institution>
+</institution-wrap>
+<addr-line>Km. 7 El Jadida Road</addr-line>
+<city>Casablanca</city>
+<country>Morocco</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273418_ft.xml</self-uri>
+<self-uri content-type="print">1014389.pdf</self-uri>
+<abstract xml:lang="en">
+<p>This paper presents a scalable framework for virtual soil moisture sensing based on time series data collected from environmental sensors installed at the Rabat site. The proposed architecture leverages a Hadoop-based data pipeline that employs MapReduce for the distributed preprocessing of high-volume sensor data. We investigate the predictive performance of two models-Long Short-Term Memory (LSTM) and Random Forest (RF)-at different soil depths. Experimental results show that the LSTM model efficiently captures temporal patterns in the data, while the RF model demonstrates strong performance with reduced computational cost. These results confirm the effectiveness of combining deep learning and ensemble learning approaches for accurate and scalable soil moisture forecasting in smart farming applications.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Soil Moisture Forecasting</kwd>
+<kwd>Smart Farming</kwd>
+<kwd>Long Short-Term Memory (LSTM)</kwd>
+<kwd>Random Forest</kwd>
+<kwd>Hadoop</kwd>
+<kwd>MapReduce</kwd>
+<kwd>Time Series Prediction</kwd>
+<kwd>Virtual Sensors</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>Laboratory of Systems Engineering</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>The authors would like to express their sincere gratitude to Professor ELAROUSSI, thesis advisor, for his invaluable guidance, constructive feedback, and continuous support throughout the development of this research work. Special thanks are also extended to the &#x00C9;cole Hassania des Travaux Publics (EHTP), particularly the Laboratory of Systems Engineering (LaGes), for providing the research environment, technical resources, and institutional support necessary for the successful execution of this study. The authors also appreciate the assistance of the High Performance Computing staff at EHTP in deploying the Hadoop-based data processing infrastructure.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="8"/>
+<equation-count count="2"/>
+<ref-count count="19"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Soil moisture plays a critical role in agriculture and hydrology, directly affecting crop development, irrigation planning, and sustainable water resource management <xref ref-type="bibr" rid="ref1">[1]</xref>. Accurate monitoring of soil moisture is fundamental to the success of precision farming practices, where data-driven approaches enable optimized irrigation scheduling, reduced water waste, and improved crop yields. Traditional measurement techniques such as Time Domain Reflectometry (TDR) and Frequency Domain Reflectometry (FDR) provide reliable results but are costly, energy-demanding, and impractical for widespread deployment across large agricultural areas <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>.</p>
+<p>In response to these limitations, virtual soil moisture sensors have emerged as a promising solution. By utilizing historical environmental data and machine learning techniques, virtual sensors estimate physical parameters without requiring extensive sensor installations <xref ref-type="bibr" rid="ref4">[4]</xref>. Among the machine learning techniques, ensemble methods such as Random Forest (RF) have gained popularity for their robustness and generalization capabilities, particularly in handling nonlinear relationships and noisy datasets <xref ref-type="bibr" rid="ref5">[5]</xref>&#x2013;<xref ref-type="bibr" rid="ref6"/><xref ref-type="bibr" rid="ref7">[7]</xref>. In parallel, deep learning models-especially Long Short-Term Memory (LSTM) net-works-have demonstrated a strong capacity for capturing temporal dependencies in multivariate time series, achieving high accuracy in soil moisture forecasting tasks <xref ref-type="bibr" rid="ref8">[8]</xref>&#x2013;<xref ref-type="bibr" rid="ref9"/><xref ref-type="bibr" rid="ref10"/><xref ref-type="bibr" rid="ref11">[11]</xref>.</p>
+<p>At the same time, the growing volume and velocity of sensor-generated data necessitate scalable processing infrastructures. Big data frameworks such as Hadoop provide distributed storage and computing capabilities suitable for handling large-scale environmental datasets. The MapReduce programming paradigm enables efficient and parallelizable preprocessing, which is essential for extracting features from sensor time series at scale <xref ref-type="bibr" rid="ref12">[12]</xref>&#x2013;<xref ref-type="bibr" rid="ref13"/><xref ref-type="bibr" rid="ref14">[14]</xref>. Recent smart farming platforms increasingly incorporate such technologies to support real-time and batch analytics in Internet of Things (IoT) environments <xref ref-type="bibr" rid="ref15">[15]</xref>, <xref ref-type="bibr" rid="ref16">[16]</xref>.</p>
+<p>Although LSTM and RF are widely used in the machine learning literature, their combined application within a scalable big data framework for soil moisture forecasting in smart farming remains underexplored. Our study contributes novel insights by operationalizing the concept of virtual sensors and evaluating model performance across multiple soil depths using real-world data from a large experimental site in Rabat, equipped with over 40 environmental sensors. The integration of Hadoop-based preprocessing further distinguishes this work by addressing the scalability challenges inherent in environmental IoT systems. By doing so, this paper bridges the gap between theoretical modeling and practical deployment in data-intensive agricultural contexts.</p>
+<p>The main contributions of this work are summarized as follows:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>We design a scalable data processing pipeline based on Hadoop and MapReduce, tailored to the challenges of soil moisture time series data.</p></list-item>
+<list-item><label>&#x2022;</label><p>We implement and evaluate LSTM and RF models for multi-depth soil moisture forecasting using real-world data from a dense sensor network.</p></list-item>
+<list-item><label>&#x2022;</label><p>We analyze the strengths and limitations of each model under varying spatial and temporal conditions to assess their suitability as virtual sensors in smart farming applications.</p></list-item>
+</list></p>
+<p>The remainder of this paper is organized as follows: <xref ref-type="sec" rid="sec2">Section II</xref> reviews relevant literature. <xref ref-type="sec" rid="sec3">Section III</xref> presents the dataset and preprocessing steps. <xref ref-type="sec" rid="sec4">Section IV</xref> details the modeling approach and experimental setup. <xref ref-type="sec" rid="sec5">Section V</xref> discusses the results. <xref ref-type="sec" rid="sec6">Section VI</xref> concludes the paper and outlines future work.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>Soil moisture estimation has been a critical area of research in environmental monitoring and precision agriculture. Traditional measurement techniques such as Time Domain Reflectometry (TDR) and Frequency Domain Reflectometry (FDR) offer accurate readings but are constrained by their high cost, power consumption, and limited scalability in field conditions <xref ref-type="bibr" rid="ref2">[2]</xref>. As a result, virtual sensor approaches have emerged, using machine learning models trained on historical environmental data to estimate soil moisture across various spatial and temporal resolutions <xref ref-type="bibr" rid="ref3">[3]</xref>, <xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>Among machine learning techniques, Random Forest (RF) has gained wide adoption due to its robustness to noise, low risk of overfitting, and capacity to handle high-dimensional, nonlinear datasets <xref ref-type="bibr" rid="ref5">[5]</xref>. Several studies have demonstrated the efficacy of RF in soil moisture estimation. For example, Shokati et al. <xref ref-type="bibr" rid="ref6">[6]</xref> employed RF in conjunction with Sentinel-2, Landsat-8/9, and UAV-based hyperspectral data to predict surface soil moisture with high accuracy. Similarly, Adab et al. <xref ref-type="bibr" rid="ref7">[7]</xref> utilized ensemble learning techniques, including RF, to estimate surface moisture from remote sensing observations. Tyralis et al. <xref ref-type="bibr" rid="ref17">[17]</xref> provided a focused review on the use of RF in hydrological and water-related applications, highlighting its adaptability to heterogeneous environmental datasets.</p>
+<p>In parallel, deep learning techniques-particularly Long Short-Term Memory (LSTM) networks-have shown significant promise in time series forecasting for environmental data. Initially introduced by Hochreiter and Schmidhuber <xref ref-type="bibr" rid="ref8">[8]</xref>, LSTM networks are capable of learning long-range temporal dependencies, which is critical for accurately modeling the dynamics of soil moisture influenced by rainfall, temperature, and evapotranspiration. Several recent studies have validated the strength of LSTM in this domain: <xref ref-type="bibr" rid="ref10">[10]</xref> applied multivariate LSTM for forecasting soil moisture under changing climatic conditions, while <xref ref-type="bibr" rid="ref11">[11]</xref> demonstrated improved accuracy over traditional models using meteorological features. Xu et al. <xref ref-type="bibr" rid="ref18">[18]</xref> proposed a hybrid PSO-LSTM model in which Particle Swarm Optimization was employed to fine-tune critical LSTM hyperparameters-such as batch size, time steps, and the number of hidden units-resulting in improved forecasting accuracy and extended lead times in rainfall-runoff prediction.</p>
+<p>In terms of data infrastructure, the increasing availability of sensor-generated time series has led to the adoption of big data platforms for storage and processing. Hadoop, with its distributed file system (HDFS) and the MapReduce programming model, has been widely used for scalable preprocessing of large environmental datasets <xref ref-type="bibr" rid="ref12">[12]</xref>. Applications in smart farming now frequently include such platforms to enable robust data pipelines for batch processing and feature extraction <xref ref-type="bibr" rid="ref13">[13]</xref>, <xref ref-type="bibr" rid="ref14">[14]</xref>. Lambda architectures have also been proposed to support both real-time and batch analytics in agricultural monitoring systems <xref ref-type="bibr" rid="ref15">[15]</xref>. The integration of these technologies with Internet of Things (IoT) devices further enhances scalability and responsiveness, as demonstrated in <xref ref-type="bibr" rid="ref19">[19]</xref>.</p>
+<p>Despite these advancements, few studies have explored the combined use of distributed big data platforms like Hadoop with both deep learning and ensemble models in a unified pipeline for multi-depth soil moisture forecasting. This research aims to address this gap by proposing a scalable framework that integrates Hadoop-based preprocessing with LSTM and RF models to enable accurate virtual soil moisture sensing using real-world sensor data.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Dataset and Preprocessing</title>
+<p>This study utilizes time series data collected from a network of environmental sensors deployed at the Rabat experimental site in Morocco. The dataset includes both hourly and daily measurements of key agro-environmental variables such as soil moisture, temperature, and humidity, recorded at multiple depths-specifically at 30 cm and 90 cm. These sensors are part of an IoT-based infrastructure designed for continuous, high-frequency monitoring to support smart farming.</p>
+<p>The raw sensor data is organized in structured text files (.txt) stored within two subdirectories: <monospace>Hourly/</monospace> and <monospace>Daily/</monospace>, representing different temporal resolutions. Each file includes tab-separated values with attributes such as timestamp, location, sensor depth, and environmental readings. While the current dataset size remains moderate (hundreds of megabytes), future deployments and long-term monitoring are expected to produce large volumes of data. Therefore, scalability and efficiency in data preprocessing are key considerations.</p>
+<p>Each record in the dataset contains: <monospace>Location, Date, Time</monospace>, Volumetric Water Content (VW), and Temperature (T) at depths of <inline-formula><tex-math notation="LaTeX">$30,60,90,120$</tex-math></inline-formula>, and 150 cm. This vertical profiling offers insights into subsurface soil conditions, which are critical for effective moisture prediction.</p>
+<p>To prepare the data for machine learning models, we developed a scalable data preprocessing pipeline based on Apache Hadoop and the MapReduce programming model. The dataset was first uploaded to the Hadoop Distributed File System (HDFS). A series of MapReduce jobs were then applied to perform parsing, cleaning, normalization, and feature extraction.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Preprocessing Pipeline</title>
+<p>The distributed pipeline includes the following stages:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Parsing and Cleaning:</bold> Invalid records and outliers were removed based on domain-specific thresholds and statistical rules.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Time Synchronization:</bold> Readings from multiple depths were aligned to construct temporally consistent multivariate sequences.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Feature Engineering:</bold> Lagged variables, rolling statistics, and temporal gradients were computed to enrich the input space.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Normalization:</bold> Continuous variables were scaled to the [0, 1] range using Min-Max normalization to enhance model convergence.</p></list-item>
+</list></p>
+<p>Each stage is implemented as an independent MapReduce job, allowing distributed execution and efficient processing. This architecture ensures the system remains robust and scalable under increasing data loads.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Machine Learning-Ready Datasets</title>
+<p>The final output consists of two structured datasets exported as CSV files:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><monospace>daily_ml_input.csv:</monospace> Aggregated daily data for traditional ML models like Random Forest.</p></list-item>
+<list-item><label>&#x2022;</label><p><monospace>hourly_ml_input.csv:</monospace> High-resolution hourly sequences used for time-series models such as LSTM.</p></list-item>
+</list>
+</p>
+<p>Both datasets contain harmonized columns including soil moisture (target variable), temperature, humidity, sensor depth, and derived features. These preprocessed inputs serve as the foundation for the modeling experiments presented in <xref ref-type="sec" rid="sec4">Section IV</xref>.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Modeling and Experimental Setup</title>
+<p>This section describes the modeling strategies and experiments designed to predict volumetric water content (VW) from sensor time series data. The primary goal is to forecast soil moisture at 30 cm depth using LSTM and Random Forest (RF) models. We also evaluate their performance at 90 cm depth to examine robustness across soil layers.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Lstm-Based Prediction</title>
+<p>Long Short-Term Memory (LSTM) networks are well-suited for time-dependent soil moisture series, capable of modeling long-range dependencies and non-linear patterns. Each LSTM cell contains a set of gates that regulate the flow of information through the network over time. The architecture of a standard LSTM cell is illustrated in <xref ref-type="fig" rid="fig1">Figure 1</xref>.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Forget Gate:</bold> <inline-formula><tex-math notation="LaTeX">$f_{t}=\sigma\left(W_{f} \cdot\left[h_{t-1}, x_{t}\right]+b_{f}\right)$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Input Gate:</bold> <inline-formula><tex-math notation="LaTeX">$i_{t}=\sigma\left(W_{i} \cdot\left[h_{t-1}, x_{t}\right]+b_{i}\right), \tilde{c}_{t}=\tanh \left(W_{c}\right$</tex-math></inline-formula>. <inline-formula><tex-math notation="LaTeX">$\left.\left[h_{t-1}, x_{t}\right]+b_{c}\right)$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Cell Update:</bold> <inline-formula><tex-math notation="LaTeX">$c_{t}=f_{t} \odot c_{t-1}+i_{t} \odot \tilde{c}_{t}$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Output Gate:</bold> <inline-formula><tex-math notation="LaTeX">$o_{t}=\sigma\left(W_{o} \cdot\left[h_{t-1}, x_{t}\right]+b_{o}\right), h_{t}=o_{t} \odot \tanh \left(c_{t}\right)$</tex-math></inline-formula></p></list-item>
+</list>
+</p>
+<p>Variables: <inline-formula><tex-math notation="LaTeX">$x_{t}$</tex-math></inline-formula>: input, <inline-formula><tex-math notation="LaTeX">$h_{t-1}$</tex-math></inline-formula>: previous hidden state, <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula>: sigmoid, &#x2299;: element-wise product.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Lstm cell structure.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-fig-1-source.tif"/>
+</fig></p>
+<list list-type="ordered">
+<list-item><label>1)</label><p><italic>Training and Results (30 cm):</italic> The LSTM was trained over 15 epochs with the Adam optimizer (batch size: 64), using normalized sequences and early stopping. <xref ref-type="table" rid="table1">Table I</xref> shows the loss trends.</p>
+<p>Evaluation metrics are reported in <xref ref-type="table" rid="table2">Table II</xref>. Predictions align well with the observed data (<xref ref-type="fig" rid="fig2">Fig. 2</xref>).</p></list-item>
+<list-item><label>2)</label><p><italic>Extension to 90 cm Depth:</italic> The same LSTM configuration was reused for VW_90cm. Training converged after 6 epochs (<xref ref-type="table" rid="table3">Table III</xref>). Performance was lower due to increased complexity at deeper soil layers (<xref ref-type="table" rid="table4">Table IV</xref>, <xref ref-type="fig" rid="fig3">Fig. 3</xref>).</p></list-item>
+</list>
+<table-wrap id="table1">
+<label>Table I</label>
+<caption><title>Lstm training and validation loss (vw_30cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Epoch</th>
+<th>Train Loss</th>
+<th>Val Loss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0.0070</td>
+<td>0.0043</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>15</td>
+<td>0.0065</td>
+<td>0.0043</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table II</label>
+<caption><title>Lstm test performance (vw_30cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>RMSE</td>
+<td>0.0662</td>
+</tr>
+<tr>
+<td>MAE</td>
+<td>0.0425</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></td>
+<td>0.3452</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Lstm forecast - vw_30cm.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-fig-2-source.tif"/>
+</fig>
+<table-wrap id="table3">
+<label>Table III</label>
+<caption><title>Lstm training and validation loss (vw_90cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Epoch</th>
+<th>Train Loss</th>
+<th>Val Loss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0.0372</td>
+<td>0.0231</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\ldots$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>6</td>
+<td>0.0355</td>
+<td>0.0240</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table4">
+<label>Table IV</label>
+<caption><title>Lstm test performance (vw_90cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-4-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>RMSE</td>
+<td>0.0925</td>
+</tr>
+<tr>
+<td>MAE</td>
+<td>0.0688</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></td>
+<td>0.2718</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>To contextualize the performance at <inline-formula><tex-math notation="LaTeX">$90, ~\text{cm}$</tex-math></inline-formula>, a comparison with the <inline-formula><tex-math notation="LaTeX">$30, ~\text{cm}$</tex-math></inline-formula> depth is presented in <xref ref-type="table" rid="table5">Table V</xref>. Results show higher errors and lower <inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula> at <inline-formula><tex-math notation="LaTeX">$90, ~\text{cm}$</tex-math></inline-formula>, confirming reduced model accuracy with depth due to increased subsurface variability.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Lstm forecast - vw_90cm.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-fig-3-source.tif"/>
+</fig>
+<table-wrap id="table5">
+<label>Table V</label>
+<caption><title>Lstm comparison by depth</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-5-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Metric</th>
+<th><inline-formula><tex-math notation="LaTeX">$\mathbf{3 0} \mathbf{~ c m}$</tex-math></inline-formula></th>
+<th><inline-formula><tex-math notation="LaTeX">$\mathbf{9 0} \mathbf{~ c m}$</tex-math></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RMSE</td>
+<td>0.0662</td>
+<td>0.0925</td>
+</tr>
+<tr>
+<td>MAE</td>
+<td>0.0425</td>
+<td>0.0688</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></td>
+<td>0.3452</td>
+<td>0.2718</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Random Forest-Based Soil Moisture Forecasting</title>
+<p>Random Forest (RF), a tree ensemble method, offers an interpretable and robust alternative for modeling non-linear dependencies in soil moisture data. Each tree is trained on a bootstrap sample, and features are randomly selected at each split.
+<list list-type="ordered">
+<list-item><label>1)</label><p><italic>Configuration and Features:</italic> We used 100 trees (<monospace>n_estimators</monospace>) with a maximum depth of 20. The <monospace>max_features</monospace> was set to the square root of total features. Input features included lag variables and rolling statistics (mean, std, min, max) over past time windows.</p></list-item>
+<list-item><label>2)</label><p><italic>Mathematical Formulation of the RF Model:</italic> Random Forest (RF) is an ensemble regression method that combines the predictions of multiple decision trees to improve generalization and reduce variance.</p>
+<p>Formally, given a training dataset <inline-formula><tex-math notation="LaTeX">$\mathcal{D}=\left\{\left(x_{i}, y_{i}\right)\right\}_{i=1}^{N}$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$x_{i} \in \mathbb{R}^{d}$</tex-math></inline-formula> denotes the input feature vector and <inline-formula><tex-math notation="LaTeX">$y_{i} \in \mathbb{R}$</tex-math></inline-formula> the target variable (soil moisture), the RF model constructs <inline-formula><tex-math notation="LaTeX">$T$</tex-math></inline-formula> regression trees <inline-formula><tex-math notation="LaTeX">$\left\{h_{t}(x)\right\}_{t=1}^{T}$</tex-math></inline-formula>. Each tree is trained on a bootstrap sample <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{t} \subset \mathcal{D}$</tex-math></inline-formula> and selects a random subset of features <inline-formula><tex-math notation="LaTeX">$\mathcal{F}_{t} \subset\{1, \ldots, d\}$</tex-math></inline-formula> at each split.</p>
+<p>The final prediction <inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the average of individual tree outputs:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\frac{1}{T} \sum_{t=1}^{T} h_{t}(x) \tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Each tree <inline-formula><tex-math notation="LaTeX">$h_{t}(x)$</tex-math></inline-formula> partitions the feature space into disjoint regions <inline-formula><tex-math notation="LaTeX">$\left\{R_{t, j}\right\}$</tex-math></inline-formula> and assigns a constant value to each region based on the average of training samples falling in that region:
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+h_t(x) = \sum_{j=1}^{J_t} \hat{y}_{t,j} \cdot \mathbf{1}_{\{x \in R_{t,j}\}} \tag{2}
+\end{equation*}</tex-math></disp-formula>
+where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$J_{t}$</tex-math></inline-formula> is the number of leaves in tree <inline-formula><tex-math notation="LaTeX">$t$</tex-math></inline-formula>,</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}_{t, j}=\frac{1}{\left\vertR_{t, j}\right\vert} \sum_{x_{i} \in R_{t, j}} y_{i}$</tex-math></inline-formula> is the mean response in leaf <inline-formula><tex-math notation="LaTeX">$j$</tex-math></inline-formula>,</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\nVdash_{{\cdot}}$</tex-math></inline-formula> is the indicator function.</p></list-item>
+</list></p>
+<p>The randomness introduced through bootstrap sampling and feature subsampling ensures diversity among trees, which is key to the ensemble&#x0027;s ability to generalize and reduce overfitting.</p></list-item>
+<list-item><label>3)</label><p><italic>Training and Results (30 cm):</italic> Using the same data splits as the LSTM experiments, RF was trained with 5-fold cross-validation. Results are shown in <xref ref-type="table" rid="table6">Table VI</xref> and <xref ref-type="fig" rid="fig4">Fig. 4</xref>.</p></list-item>
+<list-item><label>4)</label><p><italic>Prediction at 90 cm Depth:</italic> RF was also applied to VW_90cm data. The metrics in <xref ref-type="table" rid="table7">Table VII</xref> indicate a decrease in performance compared to shallower depth (<xref ref-type="fig" rid="fig5">Fig. 5</xref>).</p></list-item>
+</list>
+<table-wrap id="table6">
+<label>Table VI</label>
+<caption><title>Rf test performance (vw_30cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-6-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>RMSE</td>
+<td>0.0598</td>
+</tr>
+<tr>
+<td>MAE</td>
+<td>0.0412</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></td>
+<td>0.4123</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Rf forecast - vw_30cm.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-fig-4-source.tif"/>
+</fig>
+<table-wrap id="table7">
+<label>Table VII</label>
+<caption><title>Rf test performance (vw_90cm)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-7-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>RMSE</td>
+<td>0.0876</td>
+</tr>
+<tr>
+<td>MAE</td>
+<td>0.0641</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></td>
+<td>0.3086</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Discussion</title>
+<p><xref ref-type="table" rid="table8">Table VIII</xref> presents the evaluation results of LSTM and RF models for soil moisture forecasting at two depths, based on RMSE, MAE, and <inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula> metrics. These results provide insights into the models&#x0027; behavior across varying conditions.</p>
+<p>The comparative evaluation of the LSTM and Random Forest (RF) models across two soil depths highlights their distinct predictive behaviors. While LSTM captures temporal dependencies effectively, RF consistently achieves lower RMSE and MAE, along with higher <inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula> scores at both depths. These results suggest that RF may offer better generalization and efficiency in settings with limited temporal complexity, whereas LSTM models are better suited for capturing subtle sequential patterns, especially in denser datasets.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Rf forecast - vw_90cm.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-fig-5-source.tif"/>
+</fig>
+<table-wrap id="table8">
+<label>Table VIII</label>
+<caption><title>Performance comparison of lstm and random forest (rf) models at two soil depths (30 cm and 90 cm), evaluated using rmse, mae, and <inline-formula><tex-math notation="LaTeX">$r^{2}$</tex-math></inline-formula>.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273418-table-8-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Depth</th>
+<th>RMSE</th>
+<th>MAE</th>
+<th><inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LSTM</td>
+<td>30 cm</td>
+<td>0.0662</td>
+<td>0.0425</td>
+<td>0.3452</td>
+</tr>
+<tr>
+<td>RF</td>
+<td>30 cm</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 0 5 9 8}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 0 4 1 2}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 4 1 2 3}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>LSTM</td>
+<td>90 cm</td>
+<td>0.0925</td>
+<td>0.0688</td>
+<td>0.2718</td>
+</tr>
+<tr>
+<td>RF</td>
+<td>90 cm</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 0 8 7 6}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 0 6 4 1}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 3 0 8 6}$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>At 30 cm depth-representing the most active root zone for many crops-RF outperformed LSTM in all evaluation metrics, achieving a lower RMSE (0.0598 vs. 0.0662) and a higher <inline-formula><tex-math notation="LaTeX">$R^{2}$</tex-math></inline-formula> (0.4123 vs. 0.3452). This suggests that RF&#x0027;s tree-based architecture effectively captures local patterns and non-linear interactions from engineered features such as lag values and rolling statistics. Its robustness, combined with relatively low training complexity, makes it a practical option for near-surface monitoring.</p>
+<p>However, LSTM provided smoother and more stable predictions, particularly suited for capturing temporal dependencies over longer horizons. Its gated recurrent structure enables it to learn sequential patterns directly from raw time series data without explicit feature extraction. This is especially beneficial when long-term trends are critical, such as in detecting gradual shifts in soil water balance.</p>
+<p>At 90 cm depth, both models experienced performance degradation, consistent with the increased difficulty of modeling deeper soil dynamics due to delayed infiltration and reduced sensor signal responsiveness. Despite this, RF continued to outperform LSTM (<inline-formula><tex-math notation="LaTeX">$R^{2}=0.3086$</tex-math></inline-formula> vs. 0.2718), albeit with increased variance and occasional overfitting, as observed in the prediction curves. LSTM, in contrast, maintained its characteristic smoothness but exhibited underreaction to sudden changes, indicating a potential need for richer input signals (e.g., precipitation, evapotranspiration, soil texture).</p>
+<p>These findings indicate that **model selection should consider both the target depth and the prediction objective**. RF is well-suited for applications requiring fast deployment, interpretability, and accurate short-term forecasts. LSTM is more appropriate when sequential dynamics and temporal consistency are critical, assuming sufficient data and computational resources are available.</p>
+<p>While the predictive accuracy remains moderate (<inline-formula><tex-math notation="LaTeX">$R^{2}&lt;0.5$</tex-math></inline-formula>), this is consistent with the inherent variability and noise of real-world environmental data. Despite these constraints, the models effectively capture relevant temporal and spatial dynamics, confirming the viability of virtual soil moisture sensing and providing a solid baseline for future enhancements.</p>
+<p>Although the experimental data originates from a single geographical site, the deployed sensor network includes over 40 distributed probes, each generating high-frequency, multivariate time series. This configuration results in substantial data volume and heterogeneity, thereby justifying the use of a Hadoop-based distributed pipeline for scalable ingestion and preprocessing. The framework has been validated under these real-world constraints and can be extended to larger deployments across wider agricultural regions with minimal architectural modifications.</p>
+<p>This study focuses on comparing two representative and widely-used models-LSTM and Random Forest-under a unified, scalable framework. Their complementary properties allow us to explore the trade-offs between sequential modeling and feature-based learning. While additional benchmarks (e.g., with gradient boosting or SVR) could be informative, the current comparison already provides a strong foundation for assessing virtual sensing feasibility across depths and computational settings.</p>
+<p>Beyond algorithmic performance, real-world deployment of virtual soil moisture sensing systems faces practical challenges that must be addressed. These include data quality fluctuations due to harsh outdoor environments, intermittent connectivity in rural areas, and the limited computational capacity available on edge devices. Moreover, ensuring model transferability across different crop types, soil textures, and climatic conditions remains an open challenge. Issues related to data ownership, privacy, and cost of initial infrastructure also require careful consideration. Nevertheless, the modularity of the proposed architecture allows for gradual integration into operational smart farming platforms, supporting hybrid deployments where cloud and edge components coexist.</p>
+<p>In summary, both models contribute valuable perspectives for virtual soil moisture sensing. Their integration-within an ensemble or hybrid framework-could further improve forecasting reliability in smart farming scenarios and support the development of more adaptive, data-driven irrigation systems at scale.</p>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>Conclusion and Future Work</title>
+<p>This paper presented a scalable virtual soil moisture sensing framework based on LSTM and Random Forest models, integrated with a Hadoop-based preprocessing pipeline. Using real-world time series from over 40 distributed sensors deployed on an experimental agricultural site in Rabat, we evaluated the predictive performance of both models across two soil depths.</p>
+<p>Although the dataset originates from a single geographical site, it reflects diverse soil and climatic conditions, and the proposed architecture is designed for seamless integration of additional datasets. This flexibility supports future extensions to multi-site and large-scale deployments.</p>
+<p>Experimental results demonstrate that LSTM effectively captures temporal dependencies when data density is sufficient, while Random Forest provides robust and efficient performance with simpler configurations. The complementary strengths of these models underscore the relevance of combining sequence-based and feature-based learning approaches within a scalable infrastructure.</p>
+<p>The framework illustrates how distributed data processing and machine learning can jointly enable reliable soil moisture forecasting at scale, supporting smart farming practices grounded in real-time environmental intelligence.</p>
+<p>Finally, by acknowledging the practical challenges of de-ployment-such as sensor variability, limited connectivity, and generalization across contexts-this work takes a step toward operational readiness. The modularity and distributed nature of the proposed solution make it well-suited for future integration into privacy-aware, edge-compatible smart agriculture platforms.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>The authors would like to express their sincere gratitude to Professor ELAROUSSI, thesis advisor, for his invaluable guidance, constructive feedback, and continuous support throughout the development of this research work.</p>
+<p>Special thanks are also extended to the &#x00C9;cole Hassania des Travaux Publics (EHTP), particularly the Laboratory of Systems Engineering (LaGes), for providing the research environment, technical resources, and institutional support necessary for the successful execution of this study. The authors also appreciate the assistance of the High Performance Computing staff at EHTP in deploying the Hadoop-based data processing infrastructure.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K. G.</given-names> <surname>Liakos</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Busato</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Moshou</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Pearson</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Bochtis</surname></string-name></person-group>, &#x201C;<article-title>Machine learning in agriculture: A review</article-title>,&#x201D; <source>Sensors</source>, vol. <volume>18</volume>, no. <issue>8</issue>, p. <fpage>2674</fpage>, <year>2018</year>. [Online]. Available: <uri>https://www.mdpi.com/14248220/18/8/2674</uri>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C. K.</given-names> <surname>Gasch</surname></string-name>, <string-name><given-names>D. J.</given-names> <surname>Brown</surname></string-name>, <string-name><given-names>E. S.</given-names> <surname>Brooks</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Yourek</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Poggio</surname></string-name>, <string-name><given-names>D. R.</given-names> <surname>Cobos</surname></string-name>, and <string-name><given-names>C. S.</given-names> <surname>Campbell</surname></string-name></person-group>, &#x201C;<article-title>A pragmatic, automated approach for retroactive calibration of soil moisture sensors using a two-step, soilspecific correction</article-title>,&#x201D; <source>Computers and Electronics in Agriculture</source>, vol. <volume>137</volume>, pp. <fpage>29</fpage>&#x2013;<lpage>40</lpage>, <month>May</month> <year>2017</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. M.</given-names> <surname>Jawad</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Nordin</surname></string-name>, <string-name><given-names>S. K.</given-names> <surname>Gharghan</surname></string-name>, <string-name><given-names>A. M.</given-names> <surname>Jawad</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Ismail</surname></string-name></person-group>, &#x201C;<article-title>Energy-efficient wireless sensor networks for precision agriculture: A review</article-title>,&#x201D; <source>Sensors</source>, vol. <volume>17</volume>, no. <issue>8</issue>, p. <fpage>1781</fpage>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Patrizi</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Bartolini</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Ciani</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Gallo</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Sommella</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Carrat&#x00F9;</surname></string-name></person-group>, &#x201C;<article-title>A virtual soil moisture sensor for smart farming using deep learning</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Instrumentation and Measurement</source>, vol. <volume>71</volume>, <year>2022</year>, date of Publication: <date-in-citation>04 August 2022</date-in-citation>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Breiman</surname></string-name></person-group>, &#x201C;<article-title>Random forests</article-title>,&#x201D; <source>Machine learning</source>, vol. <volume>45</volume>, no. <issue>1</issue>, pp. <fpage>5</fpage>&#x2013;<lpage>32</lpage>, <year>2001</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Shokati</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Mashal</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Noroozi</surname></string-name>, <string-name><given-names>A. A.</given-names> <surname>Abkar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Mirzaei</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Mohammadi-Doqozloo</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Taghizadeh-Mehrjardi</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Khosravani</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Nabiollahi</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Scholten</surname></string-name></person-group>, &#x201C;<article-title>Random forest-based soil moisture estimation using sentinel-2, landsat-8/9, and uav-based hyperspectral data</article-title>,&#x201D; <source>Remote Sensing</source>, vol. <volume>16</volume>, no. <issue>11</issue>, p. <fpage>1962</fpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Adab</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Morbidelli</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Saltalippi</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Moradian</surname></string-name>, and <string-name><given-names>G. A.</given-names> <surname>Fallah Ghalhari</surname></string-name></person-group>, &#x201C;<article-title>Machine learning to estimate surface soil moisture from remote sensing data</article-title>,&#x201D; <source>Water</source>, vol. <volume>12</volume>, no. <issue>11</issue>, p. <fpage>3223</fpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Hochreiter</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Schmidhuber</surname></string-name></person-group>, &#x201C;<article-title>Long short-term memory</article-title>,&#x201D; <source>Neural computation</source>, vol. <volume>9</volume>, no. <issue>8</issue>, pp. <fpage>1735</fpage>&#x2013;<lpage>1780</lpage>, <year>1997</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Taheri</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Bigdeli</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Imanian</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Mohammadian</surname></string-name></person-group>, &#x201C;<article-title>An overview of machine-learning methods for soil moisture estimation</article-title>,&#x201D; <source>Water</source>, vol. <volume>17</volume>, no. <issue>11</issue>, p. <fpage>1638</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Zhao</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Luo</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Jiang</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Prediction of soil moisture using bigru-lstm model with stl decomposition in qinghai-tibet plateau</article-title>,&#x201D; <source>PeerJ</source>, vol. <volume>11</volume>, p. <fpage>e15851</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Geng</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Yan</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>C.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Enhancing data-driven soil moisture modeling with physically-guided 1 stm networks</article-title>,&#x201D; <source>Frontiers in Forests and Global Change</source>, vol. <volume>7</volume>, p. <fpage>1353011</fpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>White</surname></string-name></person-group>, <source>Hadoop: The Definitive Guide</source>, <edition>4th</edition> ed. <publisher-name>O&#x0027;Reilly Media, Inc.</publisher-name>, <year>2015</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Pacella</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Papa</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Papadia</surname></string-name>, and <string-name><given-names>E.</given-names> <surname>Fedeli</surname></string-name></person-group>, &#x201C;<article-title>A scalable framework for sensor data ingestion and real-time processing in cloud manufacturing</article-title>,&#x201D; <source>Algorithms</source>, vol. <volume>18</volume>, no. <issue>1</issue>, p. <fpage>22</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Tawakuli</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Havers</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Gulisano</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Kaiser</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Engel</surname></string-name></person-group>, &#x201C;<article-title>Survey: Time-series data preprocessing: A survey and an empirical analysis</article-title>,&#x201D; <source>Journal of Engineering Research</source>, vol. <volume>13</volume>, no. <issue>2</issue>, pp. <fpage>674</fpage>&#x2013;<lpage>711</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print">&#x201C;<article-title>A scalable smart farming big data platform for real-time and batch processing based on lambda architecture</article-title>,&#x201D; <source>JSMS</source>, vol. <volume>13</volume>, no. <issue>2</issue>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Theofilou</surname></string-name>, <string-name><given-names>S. A.</given-names> <surname>Nastis</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Tsagris</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Rodriguez-Perez</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Mattas</surname></string-name></person-group>, &#x201C;<article-title>Design and implementation of a scalable data warehouse for agricultural big data</article-title>,&#x201D; <source>Sustainability</source>, vol. <volume>17</volume>, no. <issue>8</issue>, p. <fpage>3727</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Tyralis</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Papacharalampous</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Langousis</surname></string-name></person-group>, &#x201C;<article-title>A brief review of random forests for water scientists and practitioners and their recent history in water resources</article-title>,&#x201D; <source>Water</source>, vol. <volume>11</volume>, no. <issue>5</issue>, p. <fpage>910</fpage>, <year>2019</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Jian</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Zhang</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Research on particle swarm optimization in lstm neural networks for rainfall-runoff simulation</article-title>,&#x201D; <source>Journal of Hydrology</source>, vol. <volume>608</volume>, p. <fpage>127553</fpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>A hadoop processing method for massive sensor network data based on internet of things</article-title>,&#x201D; <source>International Journal of Wireless Information Networks</source>, vol. <volume>27</volume>, pp. <fpage>299</fpage>&#x2013;<lpage>306</lpage>, <year>2020</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

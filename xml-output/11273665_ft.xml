@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273665</article-id>
+<xplore-article-id>11273665</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>Inventory Management Using Physics Informed Machine Learning</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Ali Hamad</given-names> <surname>Bakar</surname></string-name>
+<string-name specific-use="index"><given-names>Ali Hamad</given-names> <surname>Bakar</surname></string-name>
+</name-alternatives>
+<email>ZDA23M003@iitmz.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Manoj</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Manoj</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<email>manoj@iitmz.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">School of Engineering and Science, Indian Institute of Technology Madras Zanzibar</institution>
+</institution-wrap>
+<city>Zanzibar</city>
+<country>Tanzania</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273665_ft.xml</self-uri>
+<self-uri content-type="print">1014469.pdf</self-uri>
+<abstract xml:lang="en">
+<p>This paper presents a novel approach to inventory management by applying compartmental models based on differential equations across all three stages of the inventory lifecycle: raw materials, work in progress (WIP), and finished goods. Unlike previous studies that focus primarily on raw materials, our research provides a comprehensive framework for managing the entire inventory system. The proposed model effectively predicts inventory dynamics and optimizes costs while maintaining appropriate stock levels. This model enables more robust decision making in inventory management by unifying control theory and machine learning. It holds potential for realtime implementation in supply chains and can be extended to stochastic environments, perishable goods, and multi-echelon systems.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Inventory Management</kwd>
+<kwd>Compartmental Models</kwd>
+<kwd>Optimal Control</kwd>
+<kwd>Artificial Neural Networks</kwd>
+</kwd-group>
+<counts>
+<fig-count count="9"/>
+<table-count count="0"/>
+<equation-count count="17"/>
+<ref-count count="20"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Inventory management is a critical component of supply chain operations, significantly influencing organizational performance and profitability <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>. Traditional inventory management methods often emphasize individual stages in isolation, rather than adopting a holistic view of the entire system <xref ref-type="bibr" rid="ref20">[20]</xref>. This research proposes a comprehensive framework that models all three key stages of inventory, raw materials, work-in-progress (WIP), and finished goods, using compartmental models formulated through differential equations, combined with artificial intelligence techniques.</p>
+<p>Originally developed in the field of epidemiology <xref ref-type="bibr" rid="ref1">[1]</xref>, compartmental modeling has demonstrated considerable potential in supply chain applications as well <xref ref-type="bibr" rid="ref18">[18]</xref>. Recent advancements in neural networks and optimal control theory have enabled the development of more sophisticated approaches for inventory optimization <xref ref-type="bibr" rid="ref16">[16]</xref>. Building upon these developments, our study addresses several gaps in the existing literature by integrating control-theoretic and machine learning perspectives.</p>
+<p>Specifically, our approach leverages Pontryagin&#x0027;s Maximum Principle (PMP) <xref ref-type="bibr" rid="ref14">[14]</xref> in conjunction with neural networks to derive optimal inventory control strategies. While prior research has primarily applied Physics-Informed Neural Networks (PINNs) to the management of raw material inventory <xref ref-type="bibr" rid="ref8">[8]</xref>, our work extends the application of PINNs to all stages of the inventory lifecycle. This broader scope offers a more unified and effective method for managing inventory across the supply chain.</p>
+<p>The key contributions of this work include:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>A novel compartmental model framework that captures the dynamics of all three inventory stages simultaneously.</p></list-item>
+<list-item><label>&#x2022;</label><p>Integration of Pontryagin&#x0027;s Maximum Principle with neural networks for inventory optimization.</p></list-item>
+<list-item><label>&#x2022;</label><p>Comprehensive numerical validation demonstrating the effectiveness of the proposed method.</p></list-item>
+</list>
+</p>
+<p>This paper is organized as follows. <xref ref-type="sec" rid="sec2">Section 2</xref> presents the mathematical formulation of our compartmental inventory model. <xref ref-type="sec" rid="sec3">Section 3</xref> details the optimization framework and Pontryagin&#x0027;s approach. <xref ref-type="sec" rid="sec4">Section 4</xref> describes our numerical methods and presents results. Finally, <xref ref-type="sec" rid="sec5">Section 5</xref> concludes with implications and future research directions.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Model Formulation</title>
+<p>Our research introduces an Artificial Neural Network (ANN)-based Decision Support System for optimizing inventory management through compartmental modeling. This approach treats inventory as a system of interconnected stocks whose dynamics are governed by differential equations, similar to models used in epidemiological studies <xref ref-type="bibr" rid="ref4">[4]</xref> but adapted for supply chain applications <xref ref-type="bibr" rid="ref6">[6]</xref>.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Inventory model.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-1-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> illustrates a three-stage inventory flow system commonly found in manufacturing and supply chain operations.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Raw Materials:</bold> These are the basic inputs required for production. Procurement decisions (governed by control variable <inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t)$</tex-math></inline-formula> determines how much raw material is added to the system.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Work in Progress (WIP)</bold> Raw materials are processed through manufacturing operations to become intermediate products. Transformation rates govern this stage, <inline-formula><tex-math notation="LaTeX">$\mu_{R}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mu_{W}$</tex-math></inline-formula>. Depicted by interconnected gears, symbolizing machinery and production complexity.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Finished Goods</bold> The final products are ready for customer delivery or sale. The sales or dispatch rate is controlled by <inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t)$</tex-math></inline-formula>.</p></list-item>
+</list></p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Inventory of Raw Materials</title>
+<p>Raw materials (R) are modeled as a stock that decreases through consumption in production and increases through procurement. The dynamics are governed by:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\frac{d R(t)}{d t}=\lambda_{r}(t)-\mu_{r}(t) R(t) \tag{1}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t)$</tex-math></inline-formula> represents the procurement rate of raw materials, <inline-formula><tex-math notation="LaTeX">$\mu_{r}(t)$</tex-math></inline-formula> denotes the rate at which raw materials are consumed and transferred to WIP. This formulation extends traditional economic order quantity models <xref ref-type="bibr" rid="ref7">[7]</xref> by incorporating time-varying rates.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Inventory of Work-in-Progress (Wip)</title>
+<p>Work-in-Progress (W) represents items undergoing transformation but not yet completed. Its dynamics are modeled by:
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\frac{d W(t)}{d t}=\mu_{r}(t) R(t)-\mu_{w}(t) W(t) \tag{2}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\mu_{r}(t) R(t)$</tex-math></inline-formula> is the rate at which raw materials are converted into WIP, <inline-formula><tex-math notation="LaTeX">$\mu_{w}(t) W(t)$</tex-math></inline-formula> represents the rate at which WIP is processed into finished goods. This approach aligns with recent work on production-inventory systems <xref ref-type="bibr" rid="ref9">[9]</xref>.</p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>Inventory of Finished Goods</title>
+<p>Finished Goods (F) represent completed products ready for distribution. Their dynamics follow:
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\frac{d F(t)}{d t}=\mu_{w}(t) W(t)-\lambda_{f}(t) F(t) \tag{3}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\mu_{w}(t) W(t)$</tex-math></inline-formula> is the rate at which WIP is converted into finished goods, <inline-formula><tex-math notation="LaTeX">$\lambda_{f}(t)$</tex-math></inline-formula> represents the rate at which finished goods are sold or dispatched. This formulation extends traditional inventory models <xref ref-type="bibr" rid="ref13">[13]</xref> by incorporating time-dependent demand patterns.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Optimization Problem</title>
+<p>Our optimization framework is inspired from Pontryagin&#x0027;s Maximum Principle (PMP) <xref ref-type="bibr" rid="ref11">[11]</xref> to minimize total inventory costs while maintaining appropriate stock levels. The model incorporates three primary cost components.</p>
+<p><bold>Holding cost:</bold> The cost of storing inventory over time is defined as:
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{equation*}
+C_{u}=\int_{0}^{T}\left(C_{R} R(t)+C_{W} W(t)+C_{F} F(t)\right) d t \tag{4}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$C_{R}, C_{W}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$C_{F}$</tex-math></inline-formula> represent the holding costs per unit of raw materials, WIP, and finished goods, respectively.</p>
+<p><bold>Procurement Cost:</bold> The expense of acquiring raw materials is given by:
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+C_{p}=\int_{0}^{T} K_{R} \lambda_{r}(t) d t \tag{5}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$K_{R}$</tex-math></inline-formula> represents the procurement cost per unit of raw materials</p>
+<p><bold>Production Cost:</bold> The expenses incurred during manufacturing are defined as:
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+C_{s}=\int_{0}^{T}\left(K_{W} \mu_{w}(t) W(t)\right) d t \tag{6}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$K_{W}$</tex-math></inline-formula> is the production cost per unit of WIP.</p>
+<p>The following differential equations govern the system dynamics:
+<disp-formula id="deqn7-deqn9"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+\frac{d R(t)}{d t}=\lambda_{r}(t)-\mu_{r}(t) R(t) \tag{7}\\
+\frac{d W(t)}{d t}=\mu_{r}(t) R(t)-\mu_{w}(t) W(t) \tag{8}\\
+\frac{d F(t)}{d t}=\mu_{w}(t) W(t)-\lambda_{f}(t) F(t)
+\end{gathered} \tag{9}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Non-Negativity Constraints</bold> All variables must be non-negative:
+<disp-formula id="deqn10"><tex-math notation="LaTeX">\begin{equation*}
+R(t), W(t), F(t), \lambda_{r}(t), \mu_{r}(t), \mu_{w}(t), \lambda_{f}(t) \geq 0 \tag{10}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Objective Function</bold> The goal is to minimize total cost:
+<disp-formula id="deqn11"><tex-math notation="LaTeX">\begin{equation*}
+C_{t o t a l}=H_{t o t a l}+P_{1}+P_{2} \tag{11}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$H_{\text {total }}$</tex-math></inline-formula> is total holding cost, <inline-formula><tex-math notation="LaTeX">$P_{1}$</tex-math></inline-formula> is procurement cost, and <inline-formula><tex-math notation="LaTeX">$P_{2}$</tex-math></inline-formula> is production cost.</p>
+<p><bold>Expression for Total Cost</bold> The total cost is expressed as:
+<disp-formula id="deqn12"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+C_{\text {total }}= &amp; \int_{0}^{T}\left(h_{R} \cdot R(t)+h_{W} \cdot W(t)+h_{F} \cdot F(t)\right. \\
+&amp; \left.+c_{R} \cdot \lambda_{r}(t)+c_{P} \cdot \mu_{w}(t) \cdot W(t)\right) d t
+\end{aligned} \tag{12}
+\end{equation*}</tex-math></disp-formula></p>
+<p>We apply the Pontryagin&#x0027;s Maximum Principle <xref ref-type="bibr" rid="ref3">[3]</xref> assuming constant rates for <inline-formula><tex-math notation="LaTeX">$\mu_{R}, \mu_{W}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\lambda_{F}$</tex-math></inline-formula> to simplify the control problem while maintaining the integrity of the model. Here, the control variables are <inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t), \mu_{r}(t), \mu_{w}(t), \lambda_{f}(t)$</tex-math></inline-formula>, and we assume that <inline-formula><tex-math notation="LaTeX">$h_{R}, h_{W}, h_{F}$</tex-math></inline-formula> are constant.</p>
+<p><bold>Hamiltonian Construction:</bold> The Hamiltonian incorporates the total cost and state dynamics:
+<disp-formula id="deqn13"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+H= &amp; h_{R} \cdot R(t)+h_{W} \cdot W(t)+h_{F} \cdot F(t)+c_{R} \cdot \lambda_{r}(t) \\
+&amp; +c_{P} \cdot \mu_{w}(t) \cdot W(t)+\psi_{R}(t) \cdot\left(\lambda_{r}(t)-\mu_{R} \cdot R(t)\right) \\
+&amp; +\psi_{W}(t) \cdot\left(\mu_{R} \cdot R(t)-\mu_{W} \cdot W(t)\right) \\
+&amp; +\psi_{F}(t) \cdot\left(\mu_{W} \cdot W(t)-\lambda_{F} \cdot F(t)\right)
+\end{aligned} \tag{13}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Optimality Conditions:</bold> In the context of this inventory management problem, the Hamiltonian function H represents the total instantaneous cost of the system, combining both the direct costs (such as inventory holding and procurement) and the impact of the system&#x0027;s dynamics through the co-state variables. It is a central component of Pontryagin&#x0027;s Maximum Principle used to derive the optimal control policy. This function encapsulates the system&#x0027;s objectives and constraints, and it is used to derive the necessary conditions for optimality, including the co-state equations and optimal control laws. The optimal control <inline-formula><tex-math notation="LaTeX">$\lambda_{r}^{*}(t), \mu_{r}^{*}(t), \mu_{w}^{*}(t), \lambda_{f}^{*}(t)$</tex-math></inline-formula> minimizes the Hamiltonian:
+<disp-formula id="deqn14"><tex-math notation="LaTeX">\begin{equation*}
+u^{*}(t)=\arg \min _{u(t)} H(x(t), u(t), \psi(t), t) \tag{14}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Co-state Equations</bold> The co-state variables evolve according to:
+<disp-formula id="deqn15-deqn17"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+\frac{d \psi_{R}(t)}{d t} &amp; =-\frac{\partial H}{\partial R(t)} \tag{15}\\
+\frac{d \psi_{W}(t)}{d t} &amp; =-\frac{\partial H}{\partial W(t)} \tag{16}\\
+\frac{d \psi_{F}(t)}{d t} &amp; =-\frac{\partial H}{\partial F(t)}
+\end{aligned} \tag{17}
+\end{equation*}</tex-math></disp-formula></p>
+<p>In the framework of optimal control theory, particularly under Pontryagin&#x0027;s Maximum Principle, the co-state equations govern the evolution of the adjoint variables, also known as Lagrange multipliers or co-state variables. These variables are denoted as <inline-formula><tex-math notation="LaTeX">$\psi_{R}(t), \psi_{W}(t)$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\psi_{F}(t)$</tex-math></inline-formula> are introduced to account for the influence of the state variables (e.g., inventory levels of raw materials, work-in-progress, and finished goods) on the total cost function. In practical terms, a co-state variable represents the shadow price or sensitivity of the system, it quantifies how much the total cost would change in response to a small variation in the corresponding state variable.</p>
+<p><bold>Boundary Conditions</bold> The final boundary conditions for co-state variables are:
+<disp-formula id="deqn18"><tex-math notation="LaTeX">\begin{equation*}
+\psi_{R}(T)=0, \psi_{W}(T)=0, \psi_{F}(T)=0 \tag{18}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Parameter Estimation</title>
+<p>We employed a range of methods to analyze and validate our inventory management system, drawing on recent advances in scientific machine learning <xref ref-type="bibr" rid="ref12">[12]</xref>. Specifically, we implemented the Runge-Kutta method <xref ref-type="bibr" rid="ref5">[5]</xref> with the following parameters:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Initial time: <inline-formula><tex-math notation="LaTeX">$t_{0}=0.0$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p>Initial raw materials: <inline-formula><tex-math notation="LaTeX">$R_{0}=100$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p>Initial work-in-progress (WIP): <inline-formula><tex-math notation="LaTeX">$W_{0}=40$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p>Initial finished goods: <inline-formula><tex-math notation="LaTeX">$F_{0}=10$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p>Time step: <inline-formula><tex-math notation="LaTeX">$h=0.1$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p>Number of steps: <inline-formula><tex-math notation="LaTeX">$n=100$</tex-math></inline-formula></p></list-item>
+</list></p>
+<p><xref ref-type="fig" rid="fig2">Figure 2</xref> presents the numerical simulation results of the system dynamics using the Runge-Kutta method. It illustrates the evolution over time of the three main inventory components:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$R(t)$</tex-math></inline-formula> - <bold>Raw Materials (Blue Curve):</bold> Initially starts at a high level and decreases over time due to consumption in the production process.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$W(t)$</tex-math></inline-formula> - <bold>Work-in-Progress (Orange Curve):</bold> Increases initially as raw materials are converted into intermediate products. It eventually stabilizes, indicating a balance between incoming and outgoing flow.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$F(t)$</tex-math></inline-formula> - <bold>Finished Goods (Green Curve):</bold> Grows gradually as WIP is processed into final products ready for sale.</p></list-item>
+</list>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Solution of the system of inventory management equations using the runge-kutta method.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-2-source.tif"/>
+</fig>
+</p>
+<p>This simulation validates the system&#x0027;s dynamic behavior governed by the differential equations.</p>
+<p>We also employed a neural network architecture consisting of three hidden layers, each with 20 neurons and tanh activation functions, following the design proposed in <xref ref-type="bibr" rid="ref10">[10]</xref>. The parameters used in the model were set as follows:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t)=1.0$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\mu_{r}(t)=0.1$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\mu_{w}(t)=0.05$</tex-math></inline-formula></p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\lambda_{f}(t)=0.02$</tex-math></inline-formula></p></list-item>
+</list>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Solution of the inventory management system using physics-informed neural networks (pinns)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-3-source.tif"/>
+</fig>
+</p>
+<p>The system reaches steady state behavior after a short time, where all inventory levels become stable as shown in <xref ref-type="fig" rid="fig3">Figure 3</xref>. PINNs successfully capture the dynamics without requiring large amounts of labeled data. The inventory of raw materials starts at zero and steadily increases, eventually saturating. This suggests the model learns to procure raw materials at a growing but stabilizing rate, as shown in <xref ref-type="fig" rid="fig4">Figure 4</xref>. The WIP inventory grows gradually over time, fed by the increasing raw materials and processed through internal production. Finished goods begin with negative values (due to model initialization) and increase slowly, representing the final output stage of the inventory system. The smooth and converging trends indicate that the PINN has successfully captured the dynamic inventory flow. Unlike classical methods (e.g. Runge-Kutta), PINNs do not need labeled solutions, they learn directly from the governing differential equations and constraints. These results show stability and learning of long-term behavior, making PINNs a reliable tool for complex inventory optimization systems.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Temporal dynamics of inventory levels in the raw material, work-in-progress, and finished goods compartments.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-4-source.tif"/>
+</fig></p>
+<sec id="sec4a">
+<title>Computing Costs:</title>
+<p>The system was simulated over a total time horizon of <inline-formula><tex-math notation="LaTeX">$T=10$</tex-math></inline-formula> units, divided into 100 equally spaced time points. The initial conditions were defined as:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+R(0)=100, \quad W(0)=0, \quad F(0)=0.
+\end{equation*}</tex-math></disp-formula></p>
+<p>Several cost components were analyzed following the framework presented in <xref ref-type="bibr" rid="ref15">[15]</xref>:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Holding Cost:</bold> Calculated as the cumulative cost of holding inventory across all three components (raw materials, WIP, and finished goods).</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Procurement Cost:</bold> Proportional to the rate of raw material procurement.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Production Cost:</bold> Dependent on the production rate and the level of work-in-progress.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Total Cost:</bold> Computed as the sum of all individual cost components.</p></list-item>
+</list>
+</p>
+<p>The results presented in <xref ref-type="fig" rid="fig5">Figure 5</xref> illustrate how inventory transitions through the various supply chain compartments over a 10 -unit time horizon. Raw materials, which begin at a high level of 100 units, decrease rapidly as a result of consumption in the production process. This sharp decline reflects an intensive procurement-to-processing phase with no replenishment.</p>
+<p>Starting from zero, the work-in-progress (WIP) inventory increases rapidly as raw materials are converted into intermediate products, reaching a peak around <inline-formula><tex-math notation="LaTeX">$t=2.5$</tex-math></inline-formula>. Thereafter, it declines steadily as the WIP is transformed into finished goods. Finished goods inventory also starts at zero and gradually accumulates as production output increases. The red curve, which represents finished goods, peaks near <inline-formula><tex-math notation="LaTeX">$t=4.5$</tex-math></inline-formula> and subsequently decreases as the rate of sales or depletion exceeds the rate of production.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Inventory dynamics across various supply chain compartments are observed over a 10 -unit time horizon.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Temporal dynamics of major cost components in the inventory management system under optimal control strategies.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-6-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig6">Figure 6</xref> illustrates the time evolution of key cost components in the inventory management system governed by optimal control strategies.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Holding Costs:</bold> Represent the cost of storing raw materials, work-in-progress (WIP), and finished goods. These costs peak around <inline-formula><tex-math notation="LaTeX">$t=2$</tex-math></inline-formula>, indicating maximum inventory levels, and then gradually decline as inventory decreases over time.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Procurement Costs:</bold> Associated with the rate of acquisition of raw materials, <inline-formula><tex-math notation="LaTeX">$\lambda_{r}(t)$</tex-math></inline-formula>. These costs start high, then drop, and stabilize, reflecting an efficient procurement strategy implemented early in the time horizon.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Production Costs:</bold> Dependent on the rate of WIP transformation, modeled as <inline-formula><tex-math notation="LaTeX">$\mu_{w}(t) \cdot W(t)$</tex-math></inline-formula>. These costs increase rapidly, peaking around <inline-formula><tex-math notation="LaTeX">$t=1.5$</tex-math></inline-formula>, and then slowly decline. This captures the dynamics of the production effort over time.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Total Costs:</bold> Computed as the sum of all three components:</p>
+<p>Total Cost = Holding Cost + Procurement Cost + Production Cost.</p>
+<p>Initially, the system experiences high total costs due to rapid procurement and production ramp-up. Over time, costs decrease as inventory is optimally depleted and production activities taper off. This trend validates the effectiveness of the applied optimal control strategies, demonstrating successful cost minimization over the time horizon.</p></list-item>
+</list>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>Evolution of cost components over successive replenishment cycles in a periodic inventory policy framework.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-7-source.tif"/>
+</fig></p>
+<p><bold>Periodic Inventory Replenishment Function</bold> We implemented a periodic replenishment function:
+<disp-formula id="deqn19"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Replenishment}(t)= \begin{cases}\text { rate }, &amp; \text { if }(t \bmod \text { period })=0 \\ 0, &amp; \text { otherwise }\end{cases} \tag{19}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Inventory Trajectories</bold></p>
+<p>We modeled the three-compartment inventory system with periodic raw material replenishment (pulses) following the approach in <xref ref-type="bibr" rid="ref17">[17]</xref>:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\lambda_{r}(t)= \begin{cases}\lambda_{r}, &amp; \text { if }(t \text { mod cycle time })&lt;\text { pulse duration } \\ 0, &amp; \text { otherwise }\end{cases}
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>Parameters included:</bold> Cycle time: 5 units, Pulse duration: 0.1 units, Raw material input rate <inline-formula><tex-math notation="LaTeX">$\lambda_{r}$</tex-math></inline-formula>: 100 units per cycle, Conversion rates <inline-formula><tex-math notation="LaTeX">$\mu_{r}, \mu_{w}, \mu_{x}: 0.8,0.8$</tex-math></inline-formula>, and 1.2, respectively <bold>Cyclic Restocking:</bold> Every 5 units of time, the system restocks raw materials, visible as sharp jumps in the blue line as shown in the <xref ref-type="fig" rid="fig8">Figure 8</xref>, while this periodic replenishment triggers a cascade of production across compartments.</p>
+<p><bold>Exponential Depletion:</bold> After each restock, raw materials are consumed first, decreasing exponentially. This drives work-in-progress (WIP), which also depletes gradually. Finished goods accumulate last, then reduce as sales happen. The three compartments follow first-order decay curves between restocks. Inventory flows maintain synchrony, showing a stable conversion process:</p>
+<p>Raw Materials <inline-formula><tex-math notation="LaTeX">$\quad \xrightarrow{\mu_{r}} \quad$</tex-math></inline-formula> Work in Progress (WIP) <inline-formula><tex-math notation="LaTeX">$\quad \xrightarrow{\mu_{w}}$</tex-math></inline-formula> Finished Goods.</p>
+<p>This system mimics batch manufacturing or periodic procurement, useful for: seasonal industries, production with scheduled delivery, and optimized warehouse space usage. The results highlight the effectiveness of using optimal control <inline-formula><tex-math notation="LaTeX">$\lambda_{r}$</tex-math></inline-formula>, <inline-formula><tex-math notation="LaTeX">$\mu_{r}, m u_{w}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\lambda_{f}$</tex-math></inline-formula> to minimize cost, maintain service levels, and prevent overstock or stockout.</p>
+<p>The Dispatch Rate is constrained by actual market demand as shown in <xref ref-type="fig" rid="fig9">Figure 9</xref>. The Raw Materials and WIP inventories adapt to maintain production continuity. Inventory accumulation or depletion is influenced by the time-varying demand. This simulation demonstrates a realistic production-dispatch scenario, where the inventory levels are regulated dynamically to match fluctuating demand while minimizing holding costs and avoiding overproduction.
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8.</label>
+<caption><p>Trajectory of inventory levels over time under a periodic replenishment policy, illustrating the cyclical pattern of stock depletion and replenishment across planning periods.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-8-source.tif"/>
+</fig>
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig. 9.</label>
+<caption><p>Inventory dynamics with demand constraint: time evolution of raw materials, work-in-progress, finished goods, and customer demand. the plot demonstrates the interaction between inventory levels and periodic demand fluctuations over time.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273665-fig-9-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec5">
+<title>Conclusion</title>
+<p>This study introduced a novel AI-augmented optimal control framework for inventory management, addressing the dynamic interactions among raw materials, work-in-progress (WIP), and finished goods. Simulation results revealed that our proposed method effectively stabilizes inventory trajectories, even under constraints like periodic replenishment and variable demand. The approach achieved superior cost efficiency compared to traditional methods, demonstrating strong generalization in approximating optimal state and control functions.</p>
+<p>This work bridges the gap between classical control theory and modern AI techniques, offering a scalable framework for real-time inventory optimization. Future extensions may include incorporating uncertainty, multi-echelon networks, perishability, and stochastic demand to enhance applicability in complex supply chain environments. Future research directions include:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Extension to multi-echelon supply chain networks</p></list-item>
+<list-item><label>&#x2022;</label><p>Incorporation of stochastic demand patterns</p></list-item>
+<list-item><label>&#x2022;</label><p>Application to perishable inventory systems</p></list-item>
+<list-item><label>&#x2022;</label><p>Real-world validation with industrial partners</p></list-item>
+</list></p>
+</sec>
+<sec id="sec6">
+<label>V.</label>
+<title>Data Availability Statement</title>
+<p>This study uses solely synthetic data, which was generated for the purpose of this research.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Anderson</surname>, <given-names>R. M.</given-names></string-name>, &#x0026; <string-name><surname>May</surname>, <given-names>R. M.</given-names></string-name></person-group> (<year>1991</year>). <source>Infectious diseases of humans: dynamics and control</source>. <publisher-name>Oxford university press</publisher-name>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Axs&#x00E4;ter</surname>, <given-names>S.</given-names></string-name></person-group> (<year>2015</year>). <chapter-title>Multi-Echelon Systems: Structures and Ordering Policies</chapter-title>. In <source>Inventory Control</source> (pp. <fpage>147</fpage>&#x2013;<lpage>170</lpage>). <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer International Publishing</publisher-name>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Bertsekas</surname>, <given-names>D.</given-names></string-name></person-group> (<year>2012</year>). <source>Dynamic programming and optimal control: Volume I</source> (Vol. <volume>4</volume>). <publisher-name>Athena scientific</publisher-name>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Brauer</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Castillo-Chavez</surname>, <given-names>C.</given-names></string-name>, &#x0026; <string-name><surname>Feng</surname>, <given-names>Z.</given-names></string-name></person-group> (<year>2019</year>). <source>Mathematical models in epidemiology</source> (Vol. <volume>32</volume>). <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Butcher</surname>, <given-names>J. C.</given-names></string-name></person-group> (<year>2016</year>). <source>Numerical methods for ordinary differential equations</source>. <publisher-name>John Wiley Sons</publisher-name>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Disney</surname>, <given-names>S. M.</given-names></string-name>, &#x0026; <string-name><surname>Towill</surname>, <given-names>D. R.</given-names></string-name></person-group> (<year>2006</year>). <article-title>A methodology for benchmarking replenishment-induced bullwhip</article-title>. <source>Supply Chain Management: An International Journal</source>, <volume>11</volume>(<issue>2</issue>), <fpage>160</fpage>&#x2013;<lpage>168</lpage>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Harris</surname>, <given-names>F. W.</given-names></string-name></person-group> (<year>1990</year>). <article-title>How many parts to make at once</article-title>. <source>Operations research</source>, <volume>38</volume>(<issue>6</issue>), <fpage>947</fpage>&#x2013;<lpage>950</lpage>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Karniadakis</surname>, <given-names>G. E.</given-names></string-name>, <string-name><surname>Kevrekidis</surname>, <given-names>I. G.</given-names></string-name>, <string-name><surname>Lu</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Perdikaris</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Wang</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Yang</surname>, <given-names>L.</given-names></string-name></person-group> (<year>2021</year>). <article-title>Physics-informed machine learning</article-title>. <source>Nature Reviews Physics</source>, <volume>3</volume>(<issue>6</issue>), <fpage>422</fpage>&#x2013;<lpage>440</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Kogan</surname>, <given-names>K.</given-names></string-name>, &#x0026; <string-name><surname>Tapiero</surname>, <given-names>C. S.</given-names></string-name></person-group> (<year>2007</year>). <source>Supply chain games: operations management and risk valuation</source>. <publisher-loc>Boston, MA</publisher-loc>: <publisher-name>Springer US</publisher-name>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Lagaris Lagaris</surname>, <given-names>I. E.</given-names></string-name>, <string-name><surname>Likas</surname>, <given-names>A.</given-names></string-name>, &#x0026; <string-name><surname>Fotiadis</surname>, <given-names>D. I.</given-names></string-name></person-group> (<year>1998</year>). <article-title>Artificial neural networks for solving ordinary and partial differential equations</article-title>. <source specific-use="IEEE">IEEE transactions on neural networks</source>, <volume>9</volume>(<issue>5</issue>), <fpage>987</fpage>&#x2013;<lpage>1000</lpage>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Liberzon</surname>, <given-names>D.</given-names></string-name></person-group> (<year>2011</year>). <source>Calculus of variations and optimal control theory: a concise introduction</source>. <publisher-name>Princeton university press</publisher-name>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Lu</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Meng</surname>, <given-names>X.</given-names></string-name>, <string-name><surname>Mao</surname>, <given-names>Z.</given-names></string-name>, &#x0026; <string-name><surname>Karniadakis</surname>, <given-names>G. E.</given-names></string-name></person-group> (<year>2021</year>). <article-title>DeepXDE: A deep learning library for solving differential equations</article-title>. <source>SIAM review</source>, <volume>63</volume>(<issue>1</issue>), <fpage>208</fpage>&#x2013;<lpage>228</lpage>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Nahmias</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Cheng</surname>, <given-names>Y.</given-names></string-name></person-group> (<year>2009</year>). <source>Production and operations analysis</source> (Vol. <volume>6</volume>). <publisher-loc>New York</publisher-loc>: <publisher-name>McGraw-hill</publisher-name>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Pontryagin</surname>, <given-names>L. S.</given-names></string-name></person-group> (<year>2018</year>). <source>Mathematical theory of optimal processes</source>. <publisher-name>Routledge</publisher-name>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Porteus Porteus</surname>, <given-names>E. L.</given-names></string-name></person-group> (<year>2002</year>). <source>Foundations of stochastic inventory theory</source>. <publisher-name>Stanford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Raissi</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Perdikaris</surname>, <given-names>P.</given-names></string-name>, &#x0026; <string-name><surname>Karniadakis</surname>, <given-names>G. E.</given-names></string-name></person-group> (<year>2019</year>). <article-title>Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations</article-title>. <source>Journal of Computational physics</source>, <volume>378</volume>, <fpage>686</fpage>&#x2013;<lpage>707</lpage>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Richards</surname>, <given-names>G.</given-names></string-name></person-group> (<year>2017</year>). <source>Warehouse management: a complete guide to improving efficiency and minimizing costs in the modern warehouse</source>. <publisher-name>Kogan Page Publishers</publisher-name>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Sourirajan Sourirajan</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Ozsen</surname>, <given-names>L.</given-names></string-name>, &#x0026; <string-name><surname>Uzsoy</surname>, <given-names>R.</given-names></string-name></person-group> (<year>2009</year>). <article-title>A genetic algorithm for a single product network design model with lead time and safety stock considerations</article-title>. <source>European Journal of Operational Research</source>, <volume>197</volume>(<issue>2</issue>), <fpage>599</fpage>&#x2013;<lpage>608</lpage>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Wild</surname>, <given-names>T.</given-names></string-name></person-group> (<year>2017</year>). <source>Best practice in inventory management</source>. <publisher-name>Routledge</publisher-name>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Zipkin</surname>, <given-names>P. H.</given-names></string-name></person-group> (<year>2000</year>). <source>Foundations of inventory management mcgraw-hill</source>. <publisher-loc>Irwin, New York, USA</publisher-loc>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

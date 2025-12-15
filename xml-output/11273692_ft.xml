@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273692</article-id>
+<xplore-article-id>11273692</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>From Clusters to Classifiers: A Unified Framework for Multi-Class IoT Threat Detection</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Mehdi</given-names> <surname>MOUCHARRAF</surname></string-name>
+<string-name specific-use="index"><given-names>Mehdi</given-names> <surname>MOUCHARRAF</surname></string-name>
+</name-alternatives>
+<email>mehdimoucharraf3@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Mohammed</given-names> <surname>RIDOUANI</surname></string-name>
+<string-name specific-use="index"><given-names>Mohammed</given-names> <surname>RIDOUANI</surname></string-name>
+</name-alternatives>
+<email>mohammed.ridouani@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Fatima</given-names> <surname>SALAHDINE</surname></string-name>
+<string-name specific-use="index"><given-names>Fatima</given-names> <surname>SALAHDINE</surname></string-name>
+</name-alternatives>
+<email>fsalahdi@charlotte.edu</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Naima</given-names> <surname>KAABOUCH</surname></string-name>
+<string-name specific-use="index"><given-names>Naima</given-names> <surname>KAABOUCH</surname></string-name>
+</name-alternatives>
+<email>naima.kaabouch@und.edu</email>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">RITM Laboratory, ENSEM/ESTC, Hassan 2 University</institution>
+</institution-wrap>
+<city>Casablanca</city>
+<country>MOROCCO</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="department">Dept. of Electrical and Computer Engineering</institution>
+<institution content-type="institution">University of North Carolina</institution>
+</institution-wrap>
+<city>Charlotte</city>
+<state>North Carolina</state>
+<country>USA</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Artificial Intelligence Research (AIR) Center, University of North Dakota</institution>
+</institution-wrap>
+<city>Grand Forks</city>
+<state>ND</state>
+<post-code>58202</post-code>
+<country>USA</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273692_ft.xml</self-uri>
+<self-uri content-type="print">1014455.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The growing number of connected devices in a modern ecosystem creates significant security challenges due to their limited computing capacity, variety of technologies, and distributed nature. Traditional security options may not be capable of combating complexity and scale associated with heterogeneity especially considering different variations of attacks. To tackle this issue, we present a hybrid intrusion detection mechanism of unsupervised clustering and supervised classification. In the first stage, clustering techniques are applied to discover latent patterns of the data and reveal structural distribution of attack types, while in the second stage, supervised learning models classify network traffic into multiple attack types. The proposed study is evaluated on recent real-world datasets of attacks. The results demonstrated excellent capabilities of detection for majority and minority attacks, while also achieving very high overall accuracy and balance of evaluations. Finally, the hybrid mechanism allows for performance adjustments based on class imbalance, and its effectiveness may vary depending on the limitations or decisions made during dimensionality selection, which could constrain its function in unobserved ecosystems.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Internet of Things</kwd>
+<kwd>Machine Learning</kwd>
+<kwd>IoT Security</kwd>
+<kwd>Deep learning</kwd>
+<kwd>Cybersecurity</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="3"/>
+<equation-count count="5"/>
+<ref-count count="11"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The fast spread of IoT devices in critical infrastructure, smart homes, industrial environments, and health systems has created levels of connectivity and data generation that has not been seen before. Connectivity presents a lot of opportunities for us, but consequently it increases the attack surface adversaries can use to generate malicious activities <xref ref-type="bibr" rid="ref1">[1]</xref>. IoT networks are very susceptible because they are limited on device resources, rely on diverse communication protocols, and lack security built in after initial setup. For these reasons, building strong, smart, and intelligent intrusion detection systems (IDS) that focus on IoT environments is an active area of research activity.</p>
+<p>When deployed to IoT traffic, traditional IDSs, which were created for conventional IT systems, may not be effective due to the intermittent characteristics encountered in IoT traffic, and their attributes such as variability, imbalanced attack distributions, and non-stationarity. Supervised machine learning techniques perform well establishing a relationship within labeled classes to detect known attack patterns <xref ref-type="bibr" rid="ref2">[2]</xref>. These supervised machine learning methods require large amounts of labeled data, to establish the relationship when developing their models and, even then, the models do not generalize well with new, unseen threats <xref ref-type="bibr" rid="ref3">[3]</xref>. Unsupervised techniques, such as clustering, can offer an alternative view of traffic as it identifies latent structures within the data without the use of labeled samples and, thus, assists in identifying anomalies and discovering attack patterns<xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>A hybrid machine learning pipeline is explored in this paper, combining unsupervised and supervised learning methods for real-time intrusion detection in connected environments. For our study, we used the RT-IoT2022 dataset, which contains realistic IoT traffic with twelve different attack vectors. Our initial approach involved applying PCA for dimensionality reduction <xref ref-type="bibr" rid="ref5">[5]</xref>, which was then followed by unsupervised clustering methods such as Agglomerative Clustering and Gaussian Mixture Models (GMM) to identify latent structures and patterns associated with traffic. We found that GMM embodied high agreement with the actual ground truth labels, with an Adjusted Rand Index of 0.82. The last step in our pipeline included several supervised classifiers (i.e., Decision Tree, K-Nearest Neighbors, Na&#x00EF;ve Bayes, LightGBM, and Multi-Layer Perceptron) on the prepared data to evaluate the classifications of the attack types.</p>
+<p>The key contributions of this paper are summarized as follows:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Five widely-used supervised learning models for multi-class intrusion detection and compare their performance using standard evaluation metrics.</p></list-item>
+<list-item><label>&#x2022;</label><p>The effectiveness of unsupervised clustering methods (Agglomerative, GMM) using PCA-reduced features, with a detailed cluster-to-label interpretation.</p></list-item>
+<list-item><label>&#x2022;</label><p>The strengths and limitations of clustering and classification approaches for IoT security, and provide insights into their complementary roles.</p></list-item>
+</list></p>
+<p>The remainder of this paper is organized as follows. <xref ref-type="sec" rid="sec2">Section II</xref> presents the related works on intrusion detection in IoT environments. <xref ref-type="sec" rid="sec3">Section III</xref> outlines the proposed methodology, detailing the model architecture, dataset description, preprocessing steps, and evaluation metrics. <xref ref-type="sec" rid="sec4">Section IV</xref> discusses the experimental results and provides an in-depth analysis of both clustering and classification performance. Finally, <xref ref-type="sec" rid="sec5">Section V</xref> concludes the paper.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>Intrusion Detection Systems (IDS) play a vital role in securing Internet of Things (IoT) environments <xref ref-type="bibr" rid="ref6">[6]</xref>, where the heterogeneity and constrained nature of devices introduce unique security challenges <xref ref-type="bibr" rid="ref7">[7]</xref>. Recent research has explored both traditional and intelligent approaches to IoT intrusion detection, with a growing emphasis on machine learning due to its ability to detect complex and evolving attack patterns.</p>
+<p>The authors of <xref ref-type="bibr" rid="ref8">[8]</xref> tried to improve anomaly-based-NIDS using classical ML models trained on the CICIDS-2017 dataset. The authors balanced the data using SMOTE-Tomek Links. A number of classifiers were evaluated, including Decision Tree, Random Forest, AdaBoost, and XGBoost. They reported high classification performance, with the Decision Tree and AdaBoost achieving 96.37 &#x0025; accuracy and F1-score in the multiclass setting, and up to 99.96 &#x0025; accuracy in the binary setting.</p>
+<p>The authors of <xref ref-type="bibr" rid="ref9">[9]</xref> used the CICIoT2023 dataset to develop a deep learning motivated intrusion detection system. The authors worked on a high dimensionality feature space and sought to address the challenge by utilizing dimensionality reduction and a new clustering approach. The clustering method incorporated the utilization of an optimization algorithm with static analyzers to better represent intrusion patterns prior to classification.</p>
+<p>Hybrid approaches that combine unsupervised and supervised learning has also gained traction. The authors of <xref ref-type="bibr" rid="ref10">[10]</xref> developed a hybrid intrusion detection model that utilizes unsupervised and supervised learning in classifying the attacks in networks when labeled data is not very much. The authors first considered unsupervised learning to assign pseudo-labels to the data, and then use those pseudo-labels in conjunction with various supervised machine learning algorithms to classify the traffic. The authors addressed the problem of class imbalance by applying over sampling and under sampling methods. Their experiments were implemented on the NSL-KDD dataset and results indicated that the performance of their hybrid approach was comparable to fully supervised models that used labeled data.</p>
+<p>Despite these advances, many existing solutions focus on simulated or limited-scope datasets, and there remains a need for more comprehensive evaluations using realistic, multi-class IoT datasets such as RT-IoT2022. Our work builds upon this foundation by exploring both clustering and classification models on a high-dimensional, multi-attack dataset, and providing a comparative performance analysis that includes interpretability and class-level evaluation.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>In this section, we describe the methodological framework adopted for developing and evaluating the proposed intrusion detection system.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Dataset Description</title>
+<p>The dataset examined in this research is the RT-IoT2022 (Real-Time Internet of Things 2022) dataset <xref ref-type="bibr" rid="ref11">[11]</xref>, which simulates realistic network traffic from IoT devices under benign and malicious conditions. The dataset contains 123,117 labeled network flow samples and 85 features that collect different packet-level and flow-level behaviours, such as packet counts, payload sizes, timing, header flags, and data rates. The target variable, Attack_type, outlines 12 classes of attacks including both specific protocol and overall attacks, such as DOS_SYN_Hping, ARP_poisioning, MQTT_Publish, Thing_Speak, Metasploit_Brute_Force_SSH. The dataset has an extreme degree of class imbalance, and dominant classes such as DOS_SYN_Hping far outnumber the rare classes such as NMAP_FIN_SCAN and SSH brute force. Each feature is numeric, making it possible to apply a large spectrum of Machine Learning algorithms (after preprocessing). Initial data processing removed irrelevant columns (e.g., port numbers, protocol numbers, services) and the attack labels were encoded with LabelEncoder. The resulting dataset has 79 normalized features, using a multi-class target vector to perform unsupervised and supervised modelling of intrusion detection.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Data Preprocessing</title>
+<p>To prepare the dataset for analysis, several preprocessing steps were applied to ensure data quality and compatibility with machine learning algorithms. First, all non-numeric and non-informative features-such as port identifiers (id.orig_p, id.resp_p), protocol type (proto), service name (service), and instance number (no)-were removed, as they do not contribute to behavioral patterns relevant to intrusion detection. The target variable Attack_type, which consists of 12 unique attack classes, was encoded into integer labels using LabelEncoder. The remaining 79 numeric features were then standardized using StandardScaler to ensure that all attributes have zero mean and unit variance, preventing features with larger numerical ranges from dominating model training. Additionally, no missing values were present in the dataset, eliminating the need for imputation. The resulting preprocessed data consists of a clean, fully numerical feature matrix and a corresponding encoded label vector, which served as inputs for both unsupervised clustering and supervised classification tasks.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Overview of the proposed intrusion detection framework</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Model Architecture</title>
+<p>The architecture of the proposed intrusion detection framework is designed in a modular fashion, combining unsupervised and supervised learning components (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). After the data features are preprocessed, and the feature matrix is normalized, the feature matrix is optionally fed into a dimensionality reduction step via Principal Component Analysis (PCA) to reduce feature dimensionality to facilitate clustering and improve visualization of the data. Unsupervised learning is conducted first using Agglomerative Clustering and Gaussian Mixture Models (GMM) to find hidden structures in the network traffic without class labels. The unsupervised models support in exploring the seizure of the different types of attacks and determining the underlying structure of the data. The primary classification task is trained in multiple different supervised models on the complete set of 79 standardized features. The supervised models include Decision Tree for a rule-based detection method, K-Nearest Neighbors (KNN) for instance-based learning, Gaussian Naive Bayes for probabilistic model, LightGBM for an efficient boosted tree-based approach, and a Multi-Layer Perceptron (MLP) neural network with a single hidden layer having 100 neurons. Each supervised model is independently trained and evaluated on accuracy, precision, recall, and F1-score using a holdout test set. The combined framework achieves both a good traditional predictor of multiclass classification of IoT network intrusion, and interpretable cluster discovery.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Evaluation Metrics</title>
+<p>To assess the performance of both unsupervised and supervised models, we employed several widely used evaluation metrics, appropriate for multi-class classification and clustering tasks.</p>
+<p>Accuracy: The overall proportion of correctly classified instances across all classes.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\text { Accuracy }=\frac{\text { Total Correct Predictions }}{\text { Total Predictions }}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Precision: The proportion of correctly predicted positive instances out of all predicted positives, computed per class and averaged.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\text { Precision }_{i}=\frac{T P_{i}}{T P_{i}+F P_{i}}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Recall (also called Sensitivity or True Positive Rate): The proportion of correctly predicted positive instances out of all actual positives in each class.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Recall}_{i}=\frac{T P_{i}}{T P_{i}+F N_{i}}
+\end{equation*}</tex-math></disp-formula></p>
+<p>F1-Score: The harmonic means of precision and recall, which balances both metrics.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{F} 1_{i}=2 \cdot \frac{\text { Precision }_{i} \cdot \text { Recall }_{i}}{\text { Precision }_{i}+\text { Recall }_{i}}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Silhouette Score: Measures the compactness and separation of clusters based on intra-cluster vs. inter-cluster distances. A score close to 1 indicates well-separated and dense clusters.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+s=\frac{b-a}{\max (a, b)}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$a$</tex-math></inline-formula> is the average intra-cluster distance and <inline-formula><tex-math notation="LaTeX">$b$</tex-math></inline-formula> is the nearestcluster distance.</p>
+<p>Adjusted Rand Index: Quantifies the similarity between the predicted cluster assignments and the ground truth labels, adjusted for chance. An ARI of 1.0 indicates perfect clustering, while 0.0 indicates random labeling.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results and Discussion</title>
+<p>In this section, we provide both unsupervised and supervised evaluations of the models we applied to the RT-IoT2022 dataset. First, we will inspect the latent structure of the data using clustering approaches, and then we will investigate the classification capabilities of five supervised learning models in more detail.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Clustering Results</title>
+<p>In order to investigate the latent structure of the RT-IoT2022 dataset without labels, we applied unsupervised clustering methods to a PCA-reduced (10D) representation of the standardized feature space. We evaluated two methods: Agglomerative Clustering and GMM with tied covariance. As depicted in <xref ref-type="fig" rid="fig2">Fig. 2</xref>, Agglomerative Clustering did not produce meaningful structure and assigned almost all points to one single cluster. While the Silhouette Score was very high (0.99) the Adjusted Rand Index (ARI) was 0.00, meaning there was no overlap between clusters and true labels. This reflects a known issue that the Silhouette Score can be misleading when clusters are highly imbalanced.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Agglomerative clustering (ari: 0.00, silhouette: 0.99)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-2-source.tif"/>
+</fig></p>
+<p>In contrast, <xref ref-type="fig" rid="fig3">Fig. 3</xref> illustrates the results of GMM clustering with a tied covariance matrix. The model produced much more meaningful clustering with an ARI of 0.75 and a Silhouette Score of 0.53, which demonstrates that it was able to capture some of the true structure in the data. It provided not a perfect identification, but came back with a dominant cluster pattern that appeared to reasonably align with some of the distinct attack classes, which demonstrates it would be appropriate for uncovering structure in IoT network traffic.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Gaussian mixture model clustering (ari: 0.75, silhouette: 0.53)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-3-source.tif"/>
+</fig></p>
+<p>To better investigate the clustering behavior of GMM, we also examined the cluster-class composition using a heatmap, showing how many of every ground truth class was in each cluster. Clusters like those represented in <xref ref-type="fig" rid="fig4">Fig. 4</xref> are very pure, almost consisting of a single attack class (e.g., DOS_SYN_Hping, MQTT_Publish, Thing_Speak). Again, this demonstrates the GMM&#x0027;s potential to cluster similar behaviors without labels. Even though low-frequency attacks such as scanning attacks still have overlaps, there is an opportunity to develop away from the nuanced differences.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Cluster composition heatmap showing the percentage distribution of true attack types within each gmm cluster.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-4-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Classifications Results</title>
+<p>This section shows the performance metrics of five supervised classifiers - the Decision tree, KNN, Gaussian Naive Bayes, LightGBM, and MLP - that were trained using the preprocessed RT-IoT2022 dataset. A stratified 80/20 train-test split was applied to analyze performance metrics of each model, which included accuracy, precision, recall, and F1-Score.</p>
+<p>To provide a comprehensive comparison, <xref ref-type="fig" rid="fig5">Fig. 5</xref> illustrates the overall performance of each classifier across all metrics. This grouped bar chart highlights the superior and consistent performance of the Decision Tree and MLP classifiers, especially in maintaining a balance between precision and recall. Supporting this, <xref ref-type="table" rid="table1">Table I</xref> reports the exact numerical values of the metrics for each model.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Overall classification accuracy of the five supervised learning models</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model Metric</th>
+<th>DT</th>
+<th>KNN</th>
+<th>MLP</th>
+<th>NB</th>
+<th>LightGBM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accuracy</td>
+<td>99.44</td>
+<td>99.25</td>
+<td>98.90</td>
+<td>87.98</td>
+<td>81.03</td>
+</tr>
+<tr>
+<td>Precision</td>
+<td>99.43</td>
+<td>99.30</td>
+<td>98.85</td>
+<td>89.50</td>
+<td>83.10</td>
+</tr>
+<tr>
+<td>Recall</td>
+<td>99.42</td>
+<td>99.20</td>
+<td>98.95</td>
+<td>87.00</td>
+<td>80.50</td>
+</tr>
+<tr>
+<td>F1-Score</td>
+<td>99.43</td>
+<td>99.25</td>
+<td>98.90</td>
+<td>88.20</td>
+<td>81.70</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Comparative performance of supervised models across evaluation metrics on the rt-iot2022 dataset.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-5-source.tif"/>
+</fig></p>
+<p>From all the models, the accuracy for the Decision Tree Classifier performed the highest, with a measured accuracy of 99.44 &#x0025;. The Decision Tree showed excellent precision and recall values in most classes, especially the dominate attack classes with the highest support values - DOS_SYN_Hping, MQTT_Publish, and Thing_Speak. The model also achieved good precision and reasonable recall values in the minority classes - NMAP_FIN_SCAN and Metasploit_Brute_Force_SSH, despite a slight drop in precision, which was due to the small support of the classes for training data and test data. <xref ref-type="table" rid="table2">Table II</xref> provides the performance metrics for the Decision Tree Classifier per attack class and the confusion matrix can be found in <xref ref-type="fig" rid="fig6">Fig. 6</xref>.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Per-class evaluation metrics - decision tree</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th>Precision (&#x0025;)</th>
+<th>Recall (&#x0025;)</th>
+<th>F1-Score (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ARP_poisioning</td>
+<td>97.90</td>
+<td>96</td>
+<td>96.74</td>
+</tr>
+<tr>
+<td>DDOS_Slowloris</td>
+<td>92.63</td>
+<td>88</td>
+<td>90.25</td>
+</tr>
+<tr>
+<td>DOS_SYN_Hping</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td>MQTT_Publish</td>
+<td>99.54</td>
+<td>99.88</td>
+<td>99.71</td>
+</tr>
+<tr>
+<td>Metasploit_Brute_Force_SSH</td>
+<td>81.42</td>
+<td>83.33</td>
+<td>76.92</td>
+</tr>
+<tr>
+<td>NMAP FIN SCAN</td>
+<td>100</td>
+<td>66.66</td>
+<td>80</td>
+</tr>
+<tr>
+<td>NMAP_OS_DETECTION</td>
+<td>99.74</td>
+<td>100</td>
+<td>99.87</td>
+</tr>
+<tr>
+<td>NMAP_TCP_scan</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td>NMAP UDP SCAN</td>
+<td>88.29</td>
+<td>97.13</td>
+<td>92.50</td>
+</tr>
+<tr>
+<td>NMAP_XMAS_TREE_SCAN</td>
+<td>100</td>
+<td>99.21</td>
+<td>99.60</td>
+</tr>
+<tr>
+<td>Thing_Speak</td>
+<td>98.94</td>
+<td>97.66</td>
+<td>98.29</td>
+</tr>
+<tr>
+<td>Wipro_bulb</td>
+<td>91.37</td>
+<td>91.37</td>
+<td>91.37</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>The K-Nearest Neighbors classifier was highly competitive, achieving an overall accuracy of 99.25 &#x0025;. Similar to the Decision Tree, KNN had nearly perfect classification on the more frequently occurring attack types, while there were limited deficiencies present on the less frequent classes, for example, Metasploit_Brute_Force_SSH and Wipro_bulb, which may have been due to locality of the data density in certain areas, e.g., certain classes might have had a great imbalance, e.g., KNN seems sensitive to class imbalances.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Confusion matrix of decision tree classifier</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-fig-6-source.tif"/>
+</fig></p>
+<p>The MLP neural network was noted for its strong generalization ability with an accuracy of 98.90 &#x0025;, and showed a good balance in its classification performance across both frequent and infrequent classes. It was well able to model the non-linear decision boundaries, and retained high precision, and recall across minority and dominant classes; and therefore, a good choice for multi-class intrusion detection as it is effective and robust.</p>
+<p>Conversely, while the Naive Bayes classifier had an acceptable overall accuracy (87.98 &#x0025;), it underperformed at classifying minority classes (some attack types could not be classified adequately). On the other hand, NB had high precision on dominant classes but performed poor in recall and F1-scores on one or more of the attack types unfortunately for Thing_Speak, Wipro_bulb, and ARP_poisoning attack types (this likely supports the assumptions made in the Naive Bayes classifier regarding the impossibility of independence of feature values).</p>
+<p>Unexpectedly, the LightGBM classifier performed quite poorly in this setup, achieving accuracy of only 81.03 &#x0025;. It did poorly at detecting the minority classes and showed overfitting to the crucial dominant class (DOS_SYN_Hping). It is likely that it performed poorly for mainly two reasons: poor hyperparameter settings or not enough effective leaf splits during training (as shown by the early stopping). In this case, the most reliable and balanced classifiers are the Decision Tree and MLP Classes - consistent accuracy with very few spikes for attack categories - and potentially robust across the entire attack category as classifiers. The results also highlighted the importance of model selection and tuning, especially in highly imbalanced, multiclass intrusion detection like IoT.</p>
+<p>In addition to classification performance metrics, when selecting models for time-constrained (real-time) or resource-limited (connected devices) applications, it is also important to consider computational efficiency and resource overhead. <xref ref-type="table" rid="table3">Table III</xref> contains information on each classifier for the training time each is expected to incur, average prediction time per sample, and estimated memory usage in MB. Each of these metrics provides additional important information not only about the model&#x0027;s predictive performance, but also about the deployment feasibility of each model not included in the naive raw prediction performance metrics.
+<table-wrap id="table3">
+<label>Table III.</label>
+<caption><title>Performance and resource summary of machine learning classifiers</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273692-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>ML Classifier</th>
+<th>Model size in memory (MB)</th>
+<th>Processing time (sec)</th>
+<th>Average prediction time per sample (<inline-formula><tex-math notation="LaTeX">$\mu \text{sec}$</tex-math></inline-formula>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DT</td>
+<td>0.09</td>
+<td>1.617</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td>KNN</td>
+<td>60.13</td>
+<td>0.016</td>
+<td>551.07</td>
+</tr>
+<tr>
+<td>MLP</td>
+<td>0.29</td>
+<td>92.54</td>
+<td>1.90</td>
+</tr>
+<tr>
+<td>NB</td>
+<td>0.02</td>
+<td>0.189</td>
+<td>22.34</td>
+</tr>
+<tr>
+<td>LightGBM</td>
+<td>1.64</td>
+<td>17.24</td>
+<td>29.76</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>In this study, we presented a hybrid machine learning approach for intrusion detection in IoT settings based on RT-IoT2022 dataset. Our framework is a combination of both unsupervised and supervised learning techniques that can analyze and classify real-time intrusions in a network. First, we employed dimensionality reduction using PCA then clustering through Agglomerative Clustering and GMM. Overall, we found that GMM, particularly with tied covariance, aligned best with the true labels from the dataset, as measured by an Adjusted Rand Index of 0.82, which allows enough confidence to suggest that GMM is able to discover some meaningful latent patterns in the data. In the supervised classification task, we compare five models - Decision Tree, KNN, Naive Bayes, LightGBM, and MLP - on the normalized feature set for classification purposes. Of the five supervised models, Decision Tree and MLP produced the highest accuracy (99.44 &#x0025; and 98.90 &#x0025;, respectively), maintaining similar performance in both frequent and rare attack classes. Naive Bayes and LightGBM scored relatively low in recall for their minority class, and struggled with the imbalanced class nature of the dataset. Overall, our results show the importance of identifying suitable models for imbalanced, multi-class datasets, which is common in IoT security problems. Overall, the experimental results show that a hybrid method that utilizes unsupervised clustering for structural understanding and supervised classification for high accuracy detection is a powerful and interpretable tool, that can be used for securing real-time IoT networks.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Khazane</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ridouani</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Salahdine</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Kaabouch</surname></string-name></person-group>, &#x201C;<article-title>A Holistic Review of Machine Learning Adversarial Attacks in IoT Networks</article-title>,&#x201D; <source>Future Internet</source>, vol. <volume>16</volume>, no. <issue>1</issue>, p. <fpage>32</fpage>, <month>Jan.</month> <year>2024</year>, doi: <pub-id pub-id-type="doi">10.3390/fi16010032</pub-id>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. H.</given-names> <surname>Rafique</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Abdallah</surname></string-name>, <string-name><given-names>N. S.</given-names> <surname>Musa</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Murugan</surname></string-name></person-group>, &#x201C;<article-title>Machine Learning and Deep Learning Techniques for Internet of Things Network Anomaly Detection-Current Research Trends</article-title>,&#x201D; <source>Sensors</source>, vol. <volume>24</volume>, no. <issue>6</issue>, p. <fpage>1968</fpage>, <month>Mar.</month> <year>2024</year>, doi: <pub-id pub-id-type="doi">10.3390/s24061968</pub-id>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Talaei Khoei</surname></string-name> and <string-name><given-names>N.</given-names> <surname>Kaabouch</surname></string-name></person-group>, &#x201C;<article-title>Machine Learning: Models, Challenges, and Research Directions</article-title>,&#x201D; <source>Future Internet</source>, vol. <volume>15</volume>, no. <issue>10</issue>, p. <fpage>332</fpage>, <month>Oct.</month> <year>2023</year>, doi: <pub-id pub-id-type="doi">10.3390/fi15100332</pub-id>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Talaei Khoei</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Ould Slimane</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Kaabouch</surname></string-name></person-group>, &#x201C;<article-title>Deep learning: systematic review, models, challenges, and research directions</article-title>,&#x201D; <source>Neural Comput &#x0026; Applic</source>, vol. <volume>35</volume>, no. <issue>31</issue>, pp. <fpage>23103</fpage>&#x2013;<lpage>23124</lpage>, <month>Nov.</month> <year>2023</year>, doi: <pub-id pub-id-type="doi">10.1007/s00521-023-08957-4</pub-id>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. K.</given-names> <surname>Dash</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Enhancing DDoS attack detection in IoT using PCA</article-title>,&#x201D; <source>Egyptian Informatics Journal</source>, vol. <volume>25</volume>, p. <fpage>100450</fpage>, <month>Mar.</month> <year>2024</year>, doi: <pub-id pub-id-type="doi">10.1016/j.eij.2024.100450</pub-id>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Moucharraf</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ridouani</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Salahdine</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Kaabouch</surname></string-name></person-group>, &#x201C;<article-title>Hybrid Deep Learning and Boosting Approach for Iot Intrusion Detection Using Autoencoder and Xgboost</article-title>,&#x201D; in <source>2025 International Conference on Circuit, Systems and Communication (ICCSC)</source>, <conf-date>June 2025</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>. doi: <pub-id pub-id-type="doi">10.1109/ICCSC66714.2025.11135052</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Bhavsar</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Roy</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Kelly</surname></string-name>, and <string-name><given-names>O.</given-names> <surname>Olusola</surname></string-name></person-group>, &#x201C;<article-title>Anomaly-based Intrusion Detection System for IoT Application</article-title>,&#x201D; <month>Apr.</month> <day>26</day>, <year>2023</year>, <source>Research Square Platform LLC</source>. doi: <pub-id pub-id-type="doi">10.21203/rs.3.rs-2846147/v1</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F. A.</given-names> <surname>Khan</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Balanced Multi-Class Network Intrusion Detection Using Machine Learning</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>12</volume>, pp. <fpage>178222</fpage>&#x2013;<lpage>178236</lpage>, <year>2024</year>, doi: <pub-id pub-id-type="doi">10.1109/ACCESS.2024.3503497</pub-id>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. Q.</given-names> <surname>Gheni</surname></string-name> and <string-name><given-names>W. L.</given-names> <surname>Al-Yaseen</surname></string-name></person-group>, &#x201C;<article-title>Two-step data clustering for improved intrusion detection system using CICIoT2023 dataset</article-title>,&#x201D; <source>e-Prime - Advances in Electrical Engineering, Electronics and Energy</source>, vol. <volume>9</volume>, p. <fpage>100673</fpage>, <month>Sept.</month> <year>2024</year>, doi: <pub-id pub-id-type="doi">10.1016/j.prime.2024.100673</pub-id>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R. H. R.</given-names> <surname>Al-Ruwaili</surname></string-name> and <string-name><given-names>O. M.</given-names> <surname>Ouda</surname></string-name></person-group>, &#x201C;<article-title>A Hybrid Classification Approach of Network Attacks using Supervised and Unsupervised Learning</article-title>,&#x201D; <source>IJACSA</source>, vol. <volume>14</volume>, no. <issue>8</issue>, <year>2023</year>, doi: <pub-id pub-id-type="doi">10.14569/ijacsa.2023.0140890</pub-id>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="webpage" publication-format="print">&#x201C;<source>RT-IoT2022(Real Time Internet Of Things)</source>.&#x201D; Accessed: <date-in-citation><month>July</month> <day>11</day>, <year>2025</year></date-in-citation>. [Online]. Available: <uri>https://www.kaggle.com/datasets/supplejade/rt-iot2022real-time-internet-of-things</uri>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

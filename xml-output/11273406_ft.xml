@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/04/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273406</article-id>
+<xplore-article-id>11273406</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>Enhancing Energy Efficiency Through Kubernetes Scheduling Techniques</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Aneeq</given-names> <surname>Malik</surname></string-name>
+<string-name specific-use="index"><given-names>Aneeq</given-names> <surname>Malik</surname></string-name>
+</name-alternatives>
+<email>aneeqlik@cloud.neduet.edu.pk</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Ali</given-names> <surname>Syed</surname></string-name>
+<string-name specific-use="index"><given-names>Ali</given-names> <surname>Syed</surname></string-name>
+</name-alternatives>
+<email>a.syed@reply.com</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Syed Muhammad</given-names> <surname>Sheraz</surname></string-name>
+<string-name specific-use="index"><given-names>Syed Muhammad</given-names> <surname>Sheraz</surname></string-name>
+</name-alternatives>
+<email>sheraz@neduet.edu.pk</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Hassan</given-names> <surname>Sohail</surname></string-name>
+<string-name specific-use="index"><given-names>Hassan</given-names> <surname>Sohail</surname></string-name>
+</name-alternatives>
+<email>hassansohail@cloud.neduet.edu.pk</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Sabih ur</given-names> <surname>Rehman</surname></string-name>
+<string-name specific-use="index"><given-names>Sabih ur</given-names> <surname>Rehman</surname></string-name>
+</name-alternatives>
+<email>sabihrehman@cloud.neduet.edu.pk</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Rao</given-names> <surname>Faiq</surname></string-name>
+<string-name specific-use="index"><given-names>Rao</given-names> <surname>Faiq</surname></string-name>
+</name-alternatives>
+<email>raofaiq@cloud.neduet.edu.pk</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Software Engineering</institution>
+<institution content-type="institution">NED University of Engineering &#x0026; Technology</institution>
+</institution-wrap>
+<city>Karachi</city>
+<country>Pakistan</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Reply Ltd.</institution>
+</institution-wrap>
+<city>London</city>
+<country>UK</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273406_ft.xml</self-uri>
+<self-uri content-type="print">1014451.pdf</self-uri>
+<abstract xml:lang="en">
+<p>This work explores the utilization of Kubernetes&#x0027; (HPA) and (VPA) mechanisms to enhance energy efficiency in server infrastructures. The work proposes a merged approach of Kubernetes scheduling techniques to optimize resource allocation based on different workload requirements. The objective is to achieve energy-efficient solutions that improve performance and reduce cost liabilities for organizations. The methodology includes a two-dimensional bin packing problem for long-running services, where pods are allocated with the least number of cluster nodes based on CPU and memory requests. The runtime monitor fields on nodes help group applications with comparable runtime and forecast resource use until the subsequent scaling cycle. Autoscaling techniques, including HPA and VPA, are implemented for long-term processing applications. While VPA modifies the resource requests and limits of containers inside of already-existing pods, HPA modifies the number of replicas based on CPU utilization or custom metrics. The study highlights the difference between HPA and VPA in terms of capacity adjustments. While HPA scales by creating or deleting pods, VPA scales by dynamically altering the CPU or memory in the current pod containers. The work emphasizes synergy between VPA and HPA, where VPA calculates and adjusts the appropriate resource allocation, while HPA scale pods horizontally using custom metrics. The work explores the influence of container and virtual machine (VM) differences on enhancing energy efficiency through Kubernetes&#x0027; HPA and VPA mechanisms. It delves into how these mechanisms address resource allocation challenges and optimize energy consumption. The paper concludes by highlighting the potential of software-based solutions, specifically Kubernetes, for improving energy efficiency in server infrastructures.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Kubernetes</kwd>
+<kwd>metrics-server</kwd>
+<kwd>energy efficiency</kwd>
+<kwd>resource allocation</kwd>
+<kwd>autoscaling</kwd>
+</kwd-group>
+<counts>
+<fig-count count="9"/>
+<table-count count="1"/>
+<equation-count count="0"/>
+<ref-count count="12"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>In the modern digital landscape, the demand for energy-efficient server infrastructures has become increasingly significant <xref ref-type="bibr" rid="ref1">[1]</xref>. As organizations strive to optimize resource utilization and reduce operational costs, software-based solutions play a pivotal role in achieving sustainable and environmentally conscious server management <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>. In this study, we explore the utilization of Kubernetes, a widely recognized container orchestration system, to improve energy efficiency <xref ref-type="bibr" rid="ref4">[4]</xref>. Our focus is on effectively employing the (HPA) and (VPA) functionalities within Kubernetes for this purpose <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref6">[6]</xref>. To automate the deployment, scaling, and maintenance of containerized applications, Kubernetes is a powerful solution. By leveraging its built-in features and extensible architecture, organizations can streamline their server operations while minimizing energy consumption. The HPA and VPA mechanisms within Kubernetes offer flexible options for dynamically adjusting resource allocation based on workload demands, thus enabling organizations to establish a balance between effectiveness and energy conservation.</p>
+<p>In context of server infrastructures, the characteristics of containers and virtual machines (VMs) influence the efficacy of energy-efficient practices <xref ref-type="bibr" rid="ref7">[7]</xref>. Containers provide lightweight and isolated runtime environments, allowing for efficient resource utilization. On the other hand, VMs offer hardware-level virtualization, enabling fine-grained control over resource allocation but potentially incurring higher overhead costs. Understanding the implications of these differences is crucial in developing strategies that maximize energy efficiency while ensuring optimal application performance. The difference of containers and virtual machines is shown in <xref ref-type="fig" rid="fig1">Fig. 1</xref>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Difference between vms and containers</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-1-source.tif"/>
+</fig></p>
+<p>The objective of this research is to propose a merged approach of Kubernetes scheduling techniques that harnesses the power of HPA and VPA to optimize resource allocation and enhance energy efficiency. Our methodology revolves around two key aspects: scheduling and autoscaling. Regarding enduring services, we approach the processes for scheduling as a two-dimensional bin packing problem, carefully allocating pods to minimize the number of cluster nodes required. Based on the unique requirements of each task, memory requests are given a higher priority than CPU demands.</p>
+<p>To address workload fluctuations and varying resource demands, autoscaling techniques are employed. Both HPA and VPA play pivotal roles in this regard. HPA dynamically adjusts the number of pod replicas based on CPU utilization or custom-defined metrics, ensuring that the application scales horizontally to meet demand. VPA, on the other hand, focuses on optimizing resource requests and limits within existing pod containers, providing granular control over CPU and memory allocation.</p>
+<p>By leveraging the complementary capabilities of VPA and HPA, we aim to achieve optimal energy efficiency in server infrastructures. VPA ensures each pod receives a set amount of resources, over historical usage patterns and workload requirements. Meanwhile, HPA scales the application horizontally, dynamically adapting the number of pod replicas to match the workload demand and maximize resource utilization. This research paper presents a comprehensive exploration of Kubernetes&#x0027; HPA and VPA mechanisms in the context of enhancing energy efficiency. By leveraging these features alongside care-ful scheduling and autoscaling strategies, organizations can effectively optimize resource allocation, reduce operational costs, and contribute to sustainable server infrastructures.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Review</title>
+<p>Kubernetes Resource Management: Kubernetes is an opensource container orchestration solution that provides excellent distributed resource management. It provides computational optimization capabilities such as resource allocation, scalability, and scheduling <xref ref-type="bibr" rid="ref8">[8]</xref>. Kubernetes defines application requirements using declaration models, which then automatically regulate resource allocations and policies based on these requirements. Vertical Pod Autoscaler (VPA): Vertical Pod Autoscaler (VPA) is a Kubernetes component that changes the resource needs and constraints of individual containers in a pod based on historical use patterns. VPA assesses the resource utilization of pods and advises or automatically updates their resource settings to ensure effective resource usage <xref ref-type="bibr" rid="ref9">[9]</xref>. VPA optimizes the utilization of CPU and memory resources by dynamically scaling the resource allocations of pods.</p>
+<p>Horizontal Pod Autoscaler (HPA): This critical Kubernetes component adjusts the number of pod replicas automatically depending on observed CPU utilization or configurable criteria. HPA monitors pod CPU use and changes the number of replicas to maintain the appropriate target CPU utilization <xref ref-type="bibr" rid="ref10">[10]</xref>. By expanding the number of pods horizontally, HPA guarantees that the workload is appropriately distributed among several copies, improving resource utilization and application performance. Energy Efficiency in Kubernetes Networks: Energy efficiency is a key topic in data centers and cloud computing settings. Several research efforts have been sought to improve the energy efficiency of the Kubernetes network. Many solutions, including multitasking, dynamic provisioning, and intelligent scheduling, have been examined in this research to minimize energy consumption while still meeting application performance requirements <xref ref-type="bibr" rid="ref11">[11]</xref>.</p>
+<p>Hypervisor Technology for Resource Allocation: Virtual machine monitors (VMMs), also known as hypervisors, enable the virtualization of physical computing power, allowing several virtual machines (VMs) to run on a single physical computer. Hypervisors provide approaches for effective resource management and allocation such as resource segmentation, isolation, and CPU and memory scheduling <xref ref-type="bibr" rid="ref12">[12]</xref>. Kubernetes and hypervisor technologies provide resource allocation optimization and energy savings by dynamically adjusting resource distribution depending on workload needs <xref ref-type="bibr" rid="ref10">[10]</xref>.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>There is a significant demand for and opportunity for employing software-based solutions to increase energy efficiency. It is critical to note that different sorts of requirements have different types of resource allocations based on their demands. We provided a hybrid approach of Kubernetes scheduling approaches in this paper. The Kubernetes system seeks to automate load balancing through distributing nodes equally among the required needs. This Kubernetes feature makes logical sense when examining the system just from the standpoint of its virtual infrastructure, since it decreases the possibility of nodes being excessively (underutilized) resources. The fundamental purpose of this research is to suggest energyefficient solutions that to organisations may use to improve their performance and reduce their costs. Given the scheduling goal, we offered aconfiguration advancement that modifies the HPA and VPA. The resource settings in this section are focused on diverse workloads operating on a Kubernetes cluster. For example, certain workloads may require more CPU resources, whilst others may require more memory resources. Improving energy efficiency may be accomplished by using the appropriate quantity of resources, avoiding overprovision, and employing cost-effective pricing mechanisms. Kubernetes is a container orchestration solution for managing and deploying containers. Kubernetes may assist in improving efficiency by lowering energy usage by automating resource provisioning management across the application life cycle. Our research takes two approaches, which are stated below:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>By automatically resizing nodes in terms of response to workload fluctuations during runtime.</p></list-item>
+<list-item><label>&#x2022;</label><p>By rescheduling and deprovisioning underutilized virtual machine instances.</p></list-item>
+</list></p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Pods Scheduling</title>
+<p>For heavy services, the scheduled operations might be seen as a two-dimensional bin packing issue. Every pod is configured depending on the two attributes it must acquire: CPU and memory needs. Our objective is to assign these pods to the fewest number of cluster nodes possible. Assuming the CPU is a compressible resource, we view memory as a higher priority when ordering or prioritizing the resource for each pod. Our purpose is to do two operations:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Grouping programs with comparable runtime.</p></list-item>
+<list-item><label>&#x2022;</label><p>Forecasting resource utilization till the next scaling cycle.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Pods Autoscaling</title>
+<p>Kubernetes auto scaling techniques are used to select a mix of containers that can achieve cost effectiveness in terms of the desired resource volume for applications obtaining long-term processing. Because these resources might be released prior to the acquisition of any instance or container, their capacity has a direct impact on the autoscaling choice. Thus, autoscaling would be deemed superfluous if the capacity could not meet the resource allocation requirements of all outstanding applications. As a result, in order to address this issue, we recommend using both Kubernetes autoscaling (Horizontal and Vertical Pods Autoscaling) strategies simultaneously.</p>
+<p>In our research, three types of Kubernetes autoscalers were employed, each having a distinct function. They are as follows:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>HPA:</bold> The control of the number of application replicas is managed by the Horizontal Pod Autoscaler (HPA). HPA adjusts the pod count in replication controllers, deployments, replica sets, or stateful sets based on CPU utilization. Additionally, HPA can be configured to make scaling decisions using custom criteria specified by the user or external factors.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>VPA:</bold> Changes the resource demands and constraints of the cluster&#x0027;s containers.</p></list-item>
+</list>
+</p>
+<p>The primary distinction between VPA and HPA is their capacity to scale nodes; HPA scales by generating or deleting pods, whereas VPA scales by raising or lowering CPU or memory capabilities within the existing pod container. The table below demonstrates the difference in capacity modifications required by applications operating on nodes vs containers.</p>
+<p>To get a more visualized experience of how the VPA and HPA works in our study, we can refer to the following depictions as shown in <xref ref-type="fig" rid="fig3">Fig. 3</xref> and <xref ref-type="fig" rid="fig2">Fig. 2</xref> respectively.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Vpa autoscaling</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Hpa autoscaling</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-3-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Using Vpa with Hpa</title>
+<p>In this study, we introduced a hybrid approach that combines VPA and HPA techniques to enhance system performance. The VPA method determines the optimal CPU memory allocation, while the HPA approach scales the pods horizontally based on a customized metric server inspired by VPA&#x0027;s suggestions. <xref ref-type="fig" rid="fig4">Fig. 4</xref> illustrates our proposed model.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Working of Our Proposed Technique</title>
+<p>The following VPA components are used in the operation of our proposed model: <bold>VPA Recommendation:</bold> The recommender system monitors resource utilization and calculates target values accordingly. It maintains a record of metric history and provides sensible recommendations for resource demands. The limits for resource allocation are adjusted up or down depending on the proportion of defined limit requests.</p>
+<p><bold>VPA Updater:</bold> The system effectively removes pods that require higher resource constraints by following the recommendations provided by the recommender.</p>
+<p><bold>VPA Admission Controller:</bold> This is the critical component that maintains the CPU and Memory parameters when a new pod begins or anytime the Updater requests that the pods&#x0027; needs be restated.</p>
+<p>The proposed Kubernetes component operates as shown in <xref ref-type="fig" rid="fig5">Fig. 5</xref>. The HPA operates in a &#x201C;check, update, check again&#x201D; continuously. Here&#x0027;s how we&#x0027;ve set it up in our planned study: The Horizontal Pod Autoscaler (HPA) continually monitors a Deployment, Replication Controller, Replica Set, or Stateful Set&#x0027;s resource utilization.</p>
+<p>The HPA determines the number of copies needed to match the current demand based on the collected resource utilization. If the current number of replicas falls below the target number, HPA will scale up the application by producing additional pods. If the current replica count exceeds the target replica count, the HPA will scale down the application by eliminating pods. <xref ref-type="fig" rid="fig6">Fig. 6</xref> demonstrates the working of HPA.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results</title>
+<p>The table above compares two different types of Kubernetes clusters: a Simple Kubernetes Cluster and a Kubernetes Cluster with HPA (Horizontal Pod Autoscaler) and VPA (Vertical Pod Autoscaler). In terms of resource utilization, the Simple Kubernetes Cluster has an average CPU utilization of 60 &#x0025; and an average memory utilization of 80 &#x0025;. On the other hand, the Kubernetes Cluster with HPA and VPA exhibits higher resource utilization, with an average CPU utilization of 40 &#x0025; and an average memory utilization of 90 &#x0025;. When it comes to response time, the Simple Kubernetes Cluster has an average response time of 200 ms per request, while the Kubernetes Cluster with HPA and VPA achieves a faster response time of 150 ms per request. In terms of infrastructure costs, the Simple Kubernetes Cluster is priced at &#x0024; 400 per month, whereas the Kubernetes Cluster with HPA and VPA offers cost savings with a monthly cost of &#x0024;200.7. Additionally, the Kubernetes Cluster with HPA and VPA provides a 35 &#x0025; improvement in developer productivity, although no specific information is provided for the Simple Kubernetes Cluster. The pictorial representations of Efficiency Monitoring, Load Monitoring and Response Monitoring are shown in <xref ref-type="fig" rid="fig7">Figs. 7</xref>, <xref ref-type="fig" rid="fig8">8</xref> and <xref ref-type="fig" rid="fig9">9</xref> respectively.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Hpa and vpa architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-4-source.tif"/>
+</fig></p>
+<p>5.png
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Vpa components</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Hpa architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-6-source.tif"/>
+</fig>
+<table-wrap id="table1">
+<label>Table I</label>
+<caption><title>Efficiency comparison</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th>Simple Cluster</th>
+<th>Cluster with HPA+VPA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU Utilization</td>
+<td>60 &#x0025;</td>
+<td>40 &#x0025;</td>
+</tr>
+<tr>
+<td>Memory Utilization</td>
+<td>80 &#x0025;</td>
+<td>90 &#x0025;</td>
+</tr>
+<tr>
+<td>Response Time</td>
+<td>200 ms</td>
+<td>150 ms</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>&#x0024; 400/month</td>
+<td>&#x0024; 200.70 /month</td>
+</tr>
+<tr>
+<td>Dev Productivity</td>
+<td>&#x2013;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+35 \%$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>Efficiency monitoring</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-7-source.tif"/>
+</fig>
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8.</label>
+<caption><p>Load monitoring</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-8-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>The study proposes a hybrid Kubernetes autoscaling strategy combining HPA and VPA to optimize energy usage, improve performance, and reduce operational costs. From the experimental analysis, it has been seen that the proposed strategy not only reduces CPU utilization by 33 &#x0025; but also reduced the response time by 25 &#x0025;. Moreover, the productivity has been increased by 35 &#x0025;. The operational cost has also been decreased by approximately 50 &#x0025;. Therefore, it can be concluded that the use of Kubernetes containers is beneficial for attaining energy efficiency and it also addresses resources allocation challenges.
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig. 9.</label>
+<caption><p>Response monitoring</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273406-fig-9-source.tif"/>
+</fig></p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I. S. M.</given-names> <surname>Isa</surname></string-name>, <string-name><given-names>T. E.</given-names> <surname>El-Gorashi</surname></string-name>, <string-name><given-names>M. O.</given-names> <surname>Musa</surname></string-name>, and <string-name><given-names>J. M.</given-names> <surname>Elmirghani</surname></string-name></person-group>, &#x201C;<article-title>Resilient energy efficient iot infrastructure with server and network protection for healthcare monitoring applications</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>12</volume>, pp. <fpage>48910</fpage>&#x2013;<lpage>48940</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Pazienza</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Baselli</surname></string-name>, <string-name><given-names>D. C.</given-names> <surname>Vinci</surname></string-name>, and <string-name><given-names>M. V.</given-names> <surname>Trussoni</surname></string-name></person-group>, &#x201C;<article-title>A holistic approach to environmentally sustainable computing</article-title>,&#x201D; <source>Innovations in Systems and Software Engineering</source>, vol. <volume>20</volume>, no. <issue>3</issue>, pp. <fpage>347</fpage>&#x2013;<lpage>371</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Buyya</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ilager</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Arroba</surname></string-name></person-group>, &#x201C;<article-title>Energy-efficiency and sustainability in new generation cloud computing: a vision and directions for integrated management of data centre resources and workloads</article-title>,&#x201D; <source>Software: Practice and Experience</source>, vol. <volume>54</volume>, no. <issue>1</issue>, pp. <fpage>24</fpage>&#x2013;<lpage>38</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Espinosa</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Ulied</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Escrig</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Fern&#x00E1;ndez-Fern&#x00E1;ndez</surname></string-name>, and <string-name><given-names>R.</given-names> <surname>Touma</surname></string-name></person-group>, &#x201C;<article-title>Optimizing energy consumption of kubernetes clusters with deep reinforcement learning</article-title>,&#x201D; in <source>Artificial Intelligence Research and Development. IOS Press</source>, <year>2024</year>, pp. <fpage>26</fpage>&#x2013;<lpage>35</lpage>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Hong</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Nam</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Kim</surname></string-name></person-group>, &#x201C;<article-title>On the analysis of interrelationship between auto-scaling policy and qos of faas workloads</article-title>,&#x201D; <source>Sensors</source>, vol. <volume>24</volume>, no. <issue>12</issue>, p. <fpage>3774</fpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K. Q.</given-names> <surname>Pham</surname></string-name> and <string-name><given-names>T.</given-names> <surname>Kim</surname></string-name></person-group>, &#x201C;<article-title>Elastic federated learning with kubernetes vertical pod autoscaler for edge computing</article-title>,&#x201D; <source>Future Generation Computer Systems</source>, vol. <volume>158</volume>, pp. <fpage>501</fpage>&#x2013;<lpage>515</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Dervinis</surname></string-name></person-group>, &#x201C;<article-title>Energy and resource modeling: A comparative analysis of containers and virtual machines</article-title>,&#x201D; <source>PROFESSIONAL STUDIES: Theory And Practice</source>, vol. <volume>28</volume>, no. <issue>2</issue>, pp. <fpage>29</fpage>&#x2013;<lpage>34</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Verma</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Pedrosa</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Korupolu</surname></string-name></person-group>, &#x201C;<article-title>Large-scale cluster management at google with borg</article-title>,&#x201D; in <source>EuroSys, Bordeaux, France</source>, <year>2015</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Niazi</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Vertical pod autoscaling in kubernetes for elastic container collaborative framework</article-title>,&#x201D; <source>Journal XYZ</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Zhong</surname></string-name> and <string-name><given-names>R.</given-names> <surname>Buyya</surname></string-name></person-group>, &#x201C;<article-title>A cost-efficient container orchestration strategy in kubernetes-based cloud computing infrastructures</article-title>,&#x201D; <source>ACM</source>, vol. <volume>20</volume>, no. <issue>1533-5399</issue>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Hameed</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>A survey and taxonomy on energy efficient resource allocation techniques for cloud computing systems</article-title>,&#x201D; <source>Computing</source>, vol. <volume>98</volume>, pp. <fpage>751</fpage>&#x2013;<lpage>774</lpage>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Pillai</surname></string-name>, and <string-name><given-names>K. G.</given-names> <surname>Shin</surname></string-name></person-group>, &#x201C;<article-title>Design and implementation of power-aware virtual memory</article-title>,&#x201D; <source>University of Michigan</source>, <year>2013</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

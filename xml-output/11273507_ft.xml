@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 12/03/2025 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">SITA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-full-title>
+<conf-normalized-title>Intelligent Systems: Theories and Applications (SITA), 2025 International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5989-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 International Conference on Intelligent Systems: Theories and Applications (SITA)</conf-name>
+<conf-start iso-8601-date="2025-10-20"><day>20</day><month>10</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-10-21"><day>21</day><month>10</month><year>2025</year></conf-end>
+<conf-loc><city>Rabat</city>, <country>Morocco</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/SITA67914.2025.11273507</article-id>
+<xplore-article-id>11273507</xplore-article-id>
+<xplore-issue>11273192</xplore-issue>
+<xplore-pub-id>11273189</xplore-pub-id>
+<title-group>
+<article-title>Exploring the Impact of Optimization Algorithms in Federated Learning Under Non-IID Contexts</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Asmae</given-names> <surname>Ananouch</surname></string-name>
+<string-name specific-use="index"><given-names>Asmae</given-names> <surname>Ananouch</surname></string-name>
+</name-alternatives>
+<email>asmae_ananouch@um5.ac.ma</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Hamid</given-names> <surname>Khalifi</surname></string-name>
+<string-name specific-use="index"><given-names>Hamid</given-names> <surname>Khalifi</surname></string-name>
+</name-alternatives>
+<email>h.khalifi@um5r.ac.ma</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Faissal</given-names> <surname>Ouardi</surname></string-name>
+<string-name specific-use="index"><given-names>Faissal</given-names> <surname>Ouardi</surname></string-name>
+</name-alternatives>
+<email>f.ouardi@um5r.ac.ma</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Computer Science</institution>
+<institution content-type="institution">Faculty of Sciences, Mohammed V University in Rabat</institution>
+</institution-wrap>
+<city>Rabat</city>
+<country>Morocco</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-10-21"><day>21</day><month>Oct.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5989-2 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11273507_ft.xml</self-uri>
+<self-uri content-type="print">1014359.pdf</self-uri>
+<abstract xml:lang="en">
+<p>As machine learning becomes increasingly widespread across different sectors, it encounters key challenges such as data privacy, uneven data distribution, and limited data access. Federated learning (FL) emerges as a decentralized and privacy-preserving solution that enables model training across distributed devices without sharing raw data. This study presents a comparative analysis of two optimization algorithms, FedAvg and FedProx, within the FL framework. The focus is placed on evaluating their behavior under non-IID settings, simulated through different usage contexts: IoT (1 class/client), mobile (2 classes/client), and desktop (5 classes/client). Using the MNIST dataset and the LeNet model, the evaluation investigates metrics such as accuracy and convergence over 200 communication rounds. The findings aim to highlight how each algorithm handles data heterogeneity and to guide future FL deployments in real-world scenarios.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Federated Learning</kwd>
+<kwd>Optimization Algorithms</kwd>
+<kwd>Comparative Analysis</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>National Center for Scientific and Technical Research</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>I would like to express my gratitude to the National Center for Scientific and Technical Research (CNRST) for its support and funding through the PhD-Associate Scholarship - PASS, which has greatly contributed to the advancement of my research.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="23"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The swift growth of machine learning across various application areas has led to an increased need for privacy-preserving and decentralized methods, marking the emergence of FL. In contrast to traditional centralized training, FL facilitates collaborative model development among distributed devices without the need to share raw data. However, this model presents a significant challenge: data heterogeneity. Users and devices supply data collected under very diverse conditions, ranging from IoT sensors with limited patterns to mobile applications with moderate variations, to desktop systems with more diverse usage patterns. This type of variability results in non-independent and non-identically distributed (non-IID <sup><xref ref-type="fn" rid="fn1">1</xref></sup> <fn id="fn1"><label><sup>1</sup></label><p>In the context of federated learning, this means that different clients (devices) may have datasets with varying distributions, leading to difficulties in learning and model convergence. <xref ref-type="bibr" rid="ref15">[15]</xref></p></fn>) data, which significantly complicates optimization and convergence processes in FL.</p>
+<p>Despite the growing body of work on federated optimization, most studies either assume simplified data partitions or focus on a single experimental setting. Consequently, the relative strengths and weaknesses of popular algorithms such as FedAvg and FedProx remain insufficiently understood when confronted with realistic non-IID data. Specifically, there has been a lack of focus on how various application contexts (IoT, mobile, desktop) affect heterogeneity and subsequently impact the performance of algorithms. This paper addresses this gap by providing a comparative analysis of FedAvg and FedProx under varying context-aware partitions of the MNIST dataset, highlighting how each algorithm adapts to heterogeneous data distributions.</p>
+<p>The remainder of this paper is organized as follows. <bold><xref ref-type="sec" rid="sec2">Section II</xref></bold> provides background on FL concepts and foundations. <bold><xref ref-type="sec" rid="sec3">Section III</xref></bold> reviews related work on the use of FL in non-IID contexts and on federated optimization algorithms. <bold><xref ref-type="sec" rid="sec4">Section IV</xref></bold> presents the experimental setup, including dataset partitioning to simulate different contexts, the model architecture, and evaluation metrics. <bold><xref ref-type="sec" rid="sec5">Section V</xref></bold> presents and examines the findings from the comparative analysis across various contextaware scenarios. Finally, <bold><xref ref-type="sec" rid="sec6">Section VI</xref></bold> concludes the paper and suggests avenues for future research.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Background</title>
+<sec id="sec2a">
+<label>A.</label>
+<title>Overview of Federated Learning</title>
+<p>FL is a method invented by Google in 2016 <xref ref-type="bibr" rid="ref2">[2]</xref>, defining this innovation as a decentralized approach to model training, which is a specific case of distributed training, while focusing on data confidentiality. The main aim of this method is to provide effective training to the global model through updates developed by clients (which refers to the devices that participate in the training).</p>
+<p>The field of FL has gained great popularity in recent years, and various applications of this algorithm have been realized, starting with the first application developed by Google <xref ref-type="bibr" rid="ref3">[3]</xref>, which exploited FL to train, evaluate and deploy a model to improve the quality of search suggestions on the <bold>Gboard</bold> virtual keyboard, without direct access to user data. Subsequently, FL applications have become extremely common and were outlined in the review <xref ref-type="bibr" rid="ref4">[4]</xref>, including Privacy-Sensitive Healthcare, recommender systems, Smart Cities and other industries. The key issue in all these areas is the need to preserve data confidentiality, or the lack of centralized data.</p>
+<p>The accompanying illustration <xref ref-type="fig" rid="fig1">Fig. 1</xref> shows the typical architecture of FL, or more precisely, the process of model formation using the FL method. What differentiates this type of learning from others is its ability to preserve data confidentiality while enabling collaborative learning. This illustration shows the key elements that contribute to model building:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Server:</bold> the central component that shares the global model, gets model updates from clients and handles the aggregation of these updates to create a high-performance model after a number of training iterations.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Clients:</bold> a key aspect of the configuration, which can be constituted by mobile devices, computers, IoT devices, enterprise systems and so on. Their main function is to train the model provided by the server on their respective local data.</p>
+<p>To provide a more comprehensive understanding of the architectural models of federated learning, we refer to the study by <xref ref-type="bibr" rid="ref5">[5]</xref>, which offer a collection of architectural patterns to address the design challenges of FL systems.</p></list-item>
+</list>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1:</label>
+<caption><p>Illustration of the federated learning architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273507-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Foundations for Fl Algorithm Development</title>
+<p>In this section, we describe the main steps involved in building a FL algorithm.
+<list list-type="ordered">
+<list-item><label>1)</label><p><italic>Data partitioning:</italic> Data partitioning in FL is a way of implementing the decentralized aspect of this approach. It primarily relates to how data is allocated among clients involved in model development and training, when distributing a substantial dataset among them. This concept differs from the case where each client has its own data, which differs from each other. The manner in which data is partitioned in a FL model varies depending on the nature of the data, the aim of the model, the number of clients and the technical constraints of the clients and the system. In this article <xref ref-type="bibr" rid="ref7">[7]</xref>, the authors have experimented with their system using the three main data partitioning methods (horizontal partitioning, vertical partitioning and hybrid partitioning), and have tested the performance of each approach on the training of the model.</p></list-item>
+<list-item><label>2)</label><p><italic>Client Selection:</italic> Since FL operates on distributed devices whose availability varies, it is important to select an optimal fraction of clients for each training round. Involving all available clients can lead to inefficiencies due to communication constraints. The challenge is to find a balance between model convergence, computational efficiency and fairness while taking into account factors such as data heterogeneity, device availability as well as network conditions. This study <xref ref-type="bibr" rid="ref9">[9]</xref> provides a representative overview of existing challenges and opportunities in FL client selection, covering the most general client selection criteria that are widely applicable to FL systems. In addition, it presents a comprehensive review of existing FL client selection algorithms. Among these algorithms, <bold>FedCS (Federated Client Selection)</bold> <xref ref-type="bibr" rid="ref8">[8]</xref> is a protocol aimed at enhancing client selection in federated learning by considering the computational resources and network conditions of clients. This algorithm provides several benefits compared to other client selection techniques, especially regarding increased efficiency and adaptability. This algorithm aims to select as many clients as possible within a specified deadline. Additionally, there are other well-known techniques, such as <bold>random selection</bold>. It is a simple, fair, and scalable approach to FL. However, it does have its limitations when it comes to addressing client heterogeneity and ensuring efficient training.</p>
+<p>The selection of clients for model training is not necessarily done on real devices. This is known as the Virtual Client Engine, a method of simulating multiple clients on a single device. This approach is particularly adopted FL simulation frameworks such as Flower, TensorFlow Federated (TFF), PySyft and FedML. It offers a number of advantages, including a reduction in the need for physical devices.</p></list-item>
+<list-item><label>3)</label><p><italic>Server-Client Interaction and Model Aggregation:</italic> FL is acknowledged for its ability to develop machine learning models in a decentralized and collaborative manner. This methodology is built on two essential components: The server, which acts the role of orchestrator, coordinating the learning process, and the clients, who train the model locally using their own data. The interaction between these two entities is a key step in the process. The aim of this communication is to enable the server to aggregate the updates sent by the clients to produce an improved global model. This paper <xref ref-type="bibr" rid="ref10">[10]</xref> explores different aggregation strategies, focusing on their role in updating global models. Furthermore, it examines the benefits and drawbacks of each approach, emphasizing the specific updates shared by the clients, which differ from one strategy to another (e.g., model parameter updates, gradient updates, weight updates, etc.).</p></list-item>
+</list></p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Related Work</title>
+<p>Like most decentralized systems, FL inherently faces challenges related to heterogeneity, which arise from several factors: statistical heterogeneity (differences in data distribution between clients), system heterogeneity (variations in computing power, memory and connectivity), which often leads to stragglers <sup><xref ref-type="fn" rid="fn2">2</xref></sup> <fn id="fn2"><label><sup>2</sup></label><p>Stragglers are clients (devices) that require much more time to train their local model and communicate with the server.</p></fn>, and device heterogeneity (different device types and reliability), and behavioral heterogeneity (differences in participation or data generation patterns). In addition, model-heterogeneous FL has been the subject of numerous studies, such as <xref ref-type="bibr" rid="ref17">[17]</xref>, which focus specifically on model heterogeneity but also discuss its interaction with other heterogeneity types. Meanwhile, other works explore the interplay between data heterogeneity and system heterogeneity <xref ref-type="bibr" rid="ref18">[18]</xref>. Surveys such as <xref ref-type="bibr" rid="ref16">[16]</xref> emphasize that the combination of these factors degrades the overall performance of the global model, particularly when data are non-IID.</p>
+<p>To mitigate the impact of heterogeneity in FL, several methodologies have been proposed in recent years.</p>
+<p>Among the promising methods to tackle heterogeneity in FL, optimization approaches have been the subject of numerous studies. These approaches adapt learning to the non-IID nature of data distributions, unbalanced participation, and variability at the system level. <xref ref-type="table" rid="table1">Table I</xref> lists a variety of the more popular optimization algorithms in the field of FL, with their defining characteristics and use cases adapted to each algorithm.</p>
+<p>In parallel with optimization-based solutions, various clientlevel and data-level methods have been proposed to address heterogeneity in FL. Among them, Client selection strategies aim to accelerate convergence and improve model quality by focusing on participants that provide the most informative or reliable updates. Wolfrath et al. <xref ref-type="bibr" rid="ref19">[19]</xref> proposed a cluster-based client selection approach that accounts for heterogeneity by considering variations at both the system and statistical levels, thereby mitigating the effect of stragglers and reducing the proportion of imbalanced data. In another direction, clusteringbased approaches have been developed to handle highly dispersed data distributions. Long et al. <xref ref-type="bibr" rid="ref20">[20]</xref> introduced Multi-Center Federated Learning, which clusters clients and trains multiple global models in order to approximate the global model or converge local subsets toward a consistent model. More recently, methods that take data quality into account have been introduced. They dynamically adjust client participation based on data quality measures, so that noisy or low-quality local data does not overly affect the learned global model.</p>
+<p>However, personalization-based techniques for dealing with heterogeneity in FL have also been proposed. For instance, Deng et al. <xref ref-type="bibr" rid="ref21">[21]</xref> introduced TailorFL, a dual-personalized framework that adapts both the model structure and its parameters to each client&#x0027;s computing power and data distribution. Through a combination of a resource-aware pruning strategy and a scale-based aggregation mechanism, TailorFL enables devices with varying computing capabilities and non-IID data distributions to train effectively while maintaining personalized models for local inference. Experimental results demonstrate that TailorFL not only improves accuracy in heterogeneous conditions, but also reduces communication and computational costs. Personalization thus appears to be a promising solution to be explored.</p>
+<p>A range of approaches-including optimization, client selection, clustering, data quality management, and personal-ization-have been proposed to reduce heterogeneity in FL. Other research has used context-aware FL to consider the conditions that lead to heterogeneity and adjust training processes accordingly. For example, Huang et al. <xref ref-type="bibr" rid="ref22">[22]</xref> demonstrate how context-awareness (system and network conditions) can directly mitigate heterogeneity in FL by estimating each client&#x0027;s training and reporting phases before they participate. This method mitigates the adverse impacts of stragglers and enhances training effectiveness in diverse mobile settings. Qu et al. <xref ref-type="bibr" rid="ref23">[23]</xref> show Context-Aware Online Client Selection (COCS) for hierarchical FL, which leverages contextual data such as computational capacity and connection quality to make dynamic client selections. Their findings demonstrate that integrating context into the client selection process can significantly enhance convergence speed, fairness, and model accuracy in heterogeneous environments.</p>
+<p>Previous research emphasizes the variety of approaches to reduce heterogeneity in FL; however, the specific influence of application context has not been fully examined. In this regard, our study adds to this growing field by assessing federated optimization algorithms in IoT, mobile, and desktop environments.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Experimental Setup</title>
+<p>To analyze the effect of device context in the FL approach on model heterogeneity, we simulated three architectures, each representing a different context (IoT, mobile, desktop). These three settings cover a wide range in terms of data diversity. For instance, IoT devices typically focus on a specific function, resulting in homogeneous data; however, when these data are shared among multiple clients, they become highly heterogeneous. In contrast, the mobile and desktop contexts represent environments with higher data diversity. Thus, once the data is partitioned among clients, the level of heterogeneity between devices decreases compared to the IoT case. To this end, we conducted a series of simulations using both the <bold>FedAvg</bold> and <bold>FedProx</bold> algorithms to compare their performance across different scenarios.</p>
+<p>To simulate our context-based study, we used the MNIST dataset, a widely recognized benchmark for image classification. We selected a representative sample of the data for our experiments and distributed it across 10 clients in a nonIID manner. Each client received data corresponding to its assigned context, in order to simulate realistic usage scenarios (see <xref ref-type="table" rid="table2">Table II</xref>).</p>
+<p>To train our model, we used the LeNet architecture because of its compatibility with the MNIST dataset and its demonstrated effectiveness in digit classification tasks. The server orchestrates the training process by collecting model updates from clients and aggregating them into a global model during each communication round. This process ensures data confidentiality, as the server cannot access local client data. To optimize training, we focused on two widely used federated algorithms - FedAvg and FedProx - with the aim of evaluating their performance in different usage contexts. FedAvg is the core algorithm that averages local client updates to learn a global model. On the other hand, FedProx modifies FedAvg by adding a proximity term <inline-formula><tex-math notation="LaTeX">$\mu$</tex-math></inline-formula> in the local objective that ensures local updates remain close to the global model. This variation makes FedProx more robust to heterogeneity, as it reduces divergence caused by highly non-IID data distributions.
+<table-wrap id="table1">
+<label>Table I:</label>
+<caption><title>Comparison of federated learning optimization algorithms</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273507-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Main Characteristics</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FedAvg <xref ref-type="bibr" rid="ref2">[2]</xref></td>
+<td>This algorithm aims to reduce the number of communication rounds between the server and clients by applying multiple gradient steps per round.</td>
+<td>Standard FL, used as a basis for comparing other algorithms.</td>
+</tr>
+<tr>
+<td>FedProx <xref ref-type="bibr" rid="ref11">[11]</xref></td>
+<td>FedProx is an extension of the FedAvg algorithm that incorporates a proximal term into the local loss function, penalizing deviations of the local model from the global model.</td>
+<td>Scenarios with heterogeneous data and computational resources.</td>
+</tr>
+<tr>
+<td>FedOpt (FedAdam, FedYogi, FedAdagrad)</td>
+<td>This algorithm extends the standard FedAvg algorithm by integrating adaptive optimization techniques such as Adam, AdaGrad, and Yogi into the global model update process.</td>
+<td>Models that require faster convergence.</td>
+</tr>
+<tr>
+<td>FedNova <xref ref-type="bibr" rid="ref12">[12]</xref></td>
+<td>FedNova is a federated learning approach designed to address objective inconsistency in heterogeneous settings by normalizing local updates to ensure fair and stable global aggregation.</td>
+<td>Systems with a variable number of local optimization steps and differences in local objectives.</td>
+</tr>
+<tr>
+<td>FedPer <xref ref-type="bibr" rid="ref13">[13]</xref></td>
+<td>Unlike traditional FL methods that train a single global model for all clients, FedPer allows each client to have a personalized model while still benefiting from a shared global model.</td>
+<td>Applications requiring personalized models, such as content recommendation.</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table II:</label>
+<caption><title>Simulation contexts and their associated number of local classes and degree of non-iid.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273507-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Context</th>
+<th># of Local Classes per Client</th>
+<th>Degree of Non-IID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desktop</td>
+<td>5</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Mobile</td>
+<td>2</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>IoT</td>
+<td>1</td>
+<td>High</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>The majority of hyperparameters remained constant in each simulation, with only two elements changing: the data context, which was modified by changing the number of local classes per client to represent IoT, mobile, or desktop environments; and the specific FL algorithm used (FedAvg or FedProx). In all cases, the training was conducted over 200 communication rounds using 10 clients, each performing 3 local epochs per round.</p>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Results and Discussion</title>
+<p>The results of all simulations were illustrated in two graphs: one for the FedAvg algorithm and the other for the FedProx algorithm. Both <xref ref-type="fig" rid="fig2">Figs. 2</xref> and <xref ref-type="fig" rid="fig3">3</xref> show the evolution of model accuracy across the three usage contexts: desktop, mobile, and IoT. We place particular emphasis on the IoT context, as it illustrates the most critical non-IID scenario due to extreme class imbalance (1 class per client).</p>
+<p>From <xref ref-type="fig" rid="fig2">Fig. 2</xref>, the findings indicate strong performance in a desktop environment, where the model quickly converges and reaches an accuracy of approximately 0.95. In comparison, within a mobile framework, FedAvg exhibits a slower convergence speed, with accuracy leveling off at about 0.80 after 200 communication rounds. The IoT setting is marked by significantly unbalanced data, leading to the lowest performance metrics: accuracy gradually improves but shows considerable fluctuations, ultimately stabilizing at around 0.50. This highlights FedAvg&#x0027;s vulnerability to extreme variations in data.</p>
+<p>In <xref ref-type="fig" rid="fig3">Fig. 3</xref>, FedProx results are shown under the same conditions. In the desktop setting, it achieves the highest accuracy, approaching 0.95. In the mobile environment, FedProx shows similar performance to FedAvg, achieving around 0.80, with slightly more stable convergence. In the context of IoT, FedProx shows significant improvements compared to FedAvg, with its final accuracy increasing from approximately 0.50 to 0.58. This suggests that the proximity component in FedProx successfully reduces the divergence caused by nonIID data, thereby improving its robustness in highly diverse environments.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2:</label>
+<caption><p>Fedavg accuracy over 200 rounds under different usage contexts</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273507-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3:</label>
+<caption><p>Fedprox accuracy over 200 rounds under different usage contexts</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11273507-fig-3-source.tif"/>
+</fig></p>
+<p>Based on the results illustrated in the two figures, it is evident that the context of the devices participating in FL training affects the convergence of the model, due to the way data are distributed across clients. However, the comparison of the two optimization algorithms used shows how each of them works to handle heterogeneity under these setups. As expected, FedProx demonstrates a significant improvement in the most critical case, namely the IoT setting.</p>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>Conclusion</title>
+<p>This study investigated the performance of two prominent federated learning algorithms, FedAvg and FedProx, in a context-sensitive simulation using the MNIST dataset. By simulating non-IID conditions among clients, we assessed the ability of each algorithm to handle data heterogeneity. The results revealed that context-aware data distribution significantly affects model performance, with FedProx showing better stability in highly heterogeneous environments.</p>
+<p>Although this study focused on a simulated environment using the MNIST dataset, future work could delve into context-aware federated learning using real-world datasets to better reflect practical applications. In addition, although many studies have compared federated learning algorithms, there is still a need for further research in this area.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>I would like to express my gratitude to the National Center for Scientific and Technical Research (CNRST) for its support and funding through the PhD-Associate Scholarship - PASS, which has greatly contributed to the advancement of my research.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Kairouz</surname></string-name>, <string-name><given-names>H. B.</given-names> <surname>McMahan</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Avent</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Advances and open problems in federated learning</article-title>,&#x201D; <source>Foundations and Trends&#x00AE; in Machine Learning</source>, vol. <volume>14</volume>, no. <issue>1-2</issue>, pp. <fpage>1</fpage>&#x2013;<lpage>210</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>McMahan</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Moore</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Ramage</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Communication-efficient learning of deep networks from decentralized data</article-title>,&#x201D; in <source>Proc. Artificial Intelligence and Statistics (AISTATS), PMLR</source>, <year>2017</year>, pp. <fpage>1273</fpage>&#x2013;<lpage>1282</lpage>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Andrew</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Eichner</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Applied federated learning: Improving Google keyboard query suggestions</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">1812.02903</pub-id>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Wen</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Lan</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>A survey on federated learning: challenges and applications</article-title>,&#x201D; <source>International Journal of Machine Learning and Cybernetics</source>, vol. <volume>14</volume>, no. <issue>2</issue>, pp. <fpage>513</fpage>&#x2013;<lpage>535</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. K.</given-names> <surname>Lo</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Lu</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Zhu</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Architectural patterns for the design of federated learning systems</article-title>,&#x201D; <source>Journal of Systems and Software</source>, vol. <volume>191</volume>, p. <fpage>111357</fpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Diao</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Chen</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Federated learning on non-IID data silos: An experimental study</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE 38th Int. Conf. Data Eng. (ICDE)</source>, <year>2022</year>, pp. <fpage>965</fpage>&#x2013;<lpage>978</lpage>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Ahmadzai</surname></string-name> and <string-name><given-names>G.</given-names> <surname>Nguyen</surname></string-name></person-group>, &#x201C;<article-title>Data partitioning effects in federated learning</article-title>,&#x201D; <source>Proc. CEUR-WS</source>, vol. <volume>1613</volume>, pp. <fpage>73</fpage>&#x2013;<lpage>80</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Nishio</surname></string-name> and <string-name><given-names>R.</given-names> <surname>Yonetani</surname></string-name></person-group>, &#x201C;<article-title>Client selection for federated learning with heterogeneous resources in mobile edge</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE Int. Conf. Communications (ICC)</source>, <year>2019</year>, pp. <fpage>1</fpage>&#x2013;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Fu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Gao</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Client selection in federated learning: Principles, challenges, and opportunities</article-title>,&#x201D; <source specific-use="IEEE">IEEE Internet of Things Journal</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Moshawrab</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Adda</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Bouzouane</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Reviewing federated learning aggregation algorithms: Strategies, contributions, limitations and future perspectives</article-title>,&#x201D; <source>Electronics</source>, vol. <volume>12</volume>, no. <issue>10</issue>, p. <fpage>2287</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>A. K.</given-names> <surname>Sahu</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Zaheer</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Federated optimization in heterogeneous networks</article-title>,&#x201D; <source>Proc. Machine Learning and Systems</source>, vol. <volume>2</volume>, pp. <fpage>429</fpage>&#x2013;<lpage>450</lpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Liang</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Tackling the objective inconsistency problem in heterogeneous federated optimization</article-title>,&#x201D; <source>Advances in Neural Information Processing Systems (NeurIPS)</source>, vol. <volume>33</volume>, pp. <fpage>7611</fpage>&#x2013;<lpage>7623</lpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. G.</given-names> <surname>Arivazhagan</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Aggarwal</surname></string-name>, <string-name><given-names>A. K.</given-names> <surname>Singh</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Federated learning with personalization layers</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="doi">1912.00818</pub-id>, <year>2019</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Asad</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Moustafa</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Ito</surname></string-name></person-group>, &#x201C;<article-title>FedOpt: Towards communication efficiency and privacy preservation in federated learning</article-title>,&#x201D; <source>Applied Sciences</source>, vol. <volume>10</volume>, no. <issue>8</issue>, p. <fpage>2864</fpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Lu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Pan</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Si</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Federated learning with non-IID data: A survey</article-title>,&#x201D; <source specific-use="IEEE">IEEE Internet Things J.</source>, vol. <volume>11</volume>, no. <issue>11</issue>, pp. <fpage>19188</fpage>&#x2013;<lpage>19209</lpage>, <month>Jun.</month> <year>2024</year>, doi: <pub-id pub-id-type="doi">10.1109/JIOT.2024.3376548</pub-id>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>L.</given-names> <surname>He</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Ma</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>A survey on heterogeneous federated learning</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2210.04505</pub-id>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Fan</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Luo</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Xu</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Zhou</surname></string-name></person-group>, &#x201C;<article-title>A survey on model-heterogeneous federated learning: Problems, methods, and prospects</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2312.12091</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Maeng</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Lu</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Melis</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Nguyen</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Rabbat</surname></string-name>, and <string-name><given-names>C. J.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Towards fair federated recommendation learning: Characterizing the inter-dependence of system and data heterogeneity</article-title>,&#x201D; in <source>Proc. 16th ACM Conf. Recommender Systems (RecSys)</source>, <year>2022</year>, pp. <fpage>156</fpage>&#x2013;<lpage>167</lpage>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Wolfrath</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Sreekumar</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Chandra</surname></string-name></person-group>, &#x201C;<article-title>HACCS: Heterogeneity-Aware Clustered Client Selection for Accelerated Federated Learning</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE International Conference on Distributed Computing Systems (ICDCS)</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Long</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Xie</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Shen</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Zhou</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Jiang</surname></string-name></person-group>, &#x201C;<article-title>Multi-center federated learning: clients clustering for better personalization</article-title>,&#x201D; <source>World Wide Web</source>, vol. <volume>26</volume>, no. <issue>1</issue>, pp. <fpage>481</fpage>&#x2013;<lpage>500</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Deng</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Ren</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Lyu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>TailorFL: Dual-personalized federated learning under system and data heterogeneity</article-title>,&#x201D; in <source>Proc. 20th ACM Conf. Embedded Networked Sensor Systems (SenSys)</source>, <conf-loc>Boston, MA, USA</conf-loc>, <conf-date>Nov. 2022</conf-date>, pp. <fpage>592</fpage>&#x2013;<lpage>606</lpage>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Zhou</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Lin</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Zheng</surname></string-name></person-group>, &#x201C;<article-title>ContextFL: Context-aware federated learning by estimating the training and reporting phases of mobile clients</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE 42nd Int. Conf. Distributed Computing Systems (ICDCS)</source>, <conf-loc>Bologna, Italy</conf-loc>, <conf-date>Jul. 2022</conf-date>, pp. <fpage>570</fpage>&#x2013;<lpage>580</lpage>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Qu</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Duan</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Lu</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>Context-aware online client selection for hierarchical federated learning</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Parallel Distrib. Syst.</source>, vol. <volume>33</volume>, no. <issue>12</issue>, pp. <fpage>4353</fpage>&#x2013;<lpage>4367</lpage>, <month>Dec.</month> <year>2022</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>
