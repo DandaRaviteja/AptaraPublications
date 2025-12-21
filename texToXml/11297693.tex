@@ -1,0 +1,353 @@
+\documentclass[10pt,conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+
+\usepackage{latex-patch}
+
+\title{Comparison Between Cuk and Boost-Buck integration }
+
+\author{\IEEEauthorblockN{Matheus Birkhan Dias}
+\IEEEauthorblockA{PPGESE \\ Federal University of Santa Catarina Joinville, Brazil \\ birkhan.matheusdias@gmail.com}
+\and
+\IEEEauthorblockN{Andr&#x00E9; Anderson da Luz da Costa PPGESE}
+\IEEEauthorblockA{Federal University of Santa Catarina Joinville, Brazil \\ andluzcos23@gmail.com}
+\and
+\IEEEauthorblockN{Jeiel Santos Ara&#x00FA;jo Oliveira PPGESE}
+\IEEEauthorblockA{Federal University of Santa Catarina Joinville, Brazil \\ jeielsantosg@gmail.com}
+\and
+\IEEEauthorblockN{Valdomiro Botelho Junior}
+\IEEEauthorblockA{PPGESE \\ Federal University of Santa Catarina Joinville, Brazil \\ valdomirojr888@gmail.com}
+\and
+\IEEEauthorblockN{Andressa Wickert Kreutz PPGESE}
+\IEEEauthorblockA{Federal University of Santa Catarina Joinville, Brazil \\ andressakreutz@gmail.com}
+\and
+\IEEEauthorblockN{Dalton Luiz Rech Vidor}
+\IEEEauthorblockA{PPGESE \\ Federal University of Santa Catarina \\ Joinville, Brazil \\ dalton.vidor@ufsc.br}}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper presents a comparative analysis between the Cuk converter and the integration of Boost and Buck converters, focusing on dynamic modeling and behavior in steady-state and transient regimes. Initially, it is demonstrated that the voltage ratios Vo/Vin in steady-state and the transfer functions are identical, highlighting the functional equivalence between the topologies. The analysis is complemented by simulations and experimental validation, which confirm the similarity of their responses. The results show that the BoostBuck integration topology presents advantages over the classical Cuk converter, regarding lower conduction power losses, reduced voltage stresses, and improved dynamic performance, depending on the design parameters.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Cuk converter, Boost-Buck integration, DCDC converters
+\end{IEEEkeywords}
+
+\section[I]{INTRODUCTION}
+DC-DC converters play an essential role in modern electronic systems, enabling voltage regulation according to application requirements. The choice of topology directly affects efficiency, cost, and system reliability, making the selection of the most suitable converter a central challenge for engineers.
+
+Over time, the literature has extensively investigated the design, modeling, and control strategies of various converter topologies. After the development of the Cuk converter \cite{bib1}, four basic DC-DC topologies were recognized: Buck, Boost, Buck-Boost, and Cuk \cite{bib2}-\cite{bib4}, after this, Zeta and Sepic were added. While Buck and Boost are limited to step-down and step-up operations, respectively, Buck-Boost and Cuk allow both step-up and step-down operation, in addition to introducing features such as polarity inversion and continuous input or output currents. Later studies have suggested that most DC-DC topologies, including the Cuk, could be derived from the basic Buck-Boost converter \cite{bib4}, \cite{bib5}, reinforcing the functional proximity between Buck-Boost and Cuk \cite{bib6}. For instance, \cite{bib7} explored their combination to increase voltage gain, emphasizing that they share boosting capability and opposite input and output polarities.
+
+It is worth noting that Cuk, in his original work, developed the converter that bears his name by integrating the Boost and Buck converters \cite{bib1}. The aim was to minimize the number of semiconductors, as these devices were expensive at that time. The proposed topology enabled bidirectional conversion and reduced component count \cite{bib1}, \cite{bib2}. However, with modern advances in semiconductor technology, cost is no longer the dominant constraint. Instead, design criteria such as implementation simplicity, control flexibility, and efficiency under different operating conditions have gained greater relevance in topology selection. In this context, it is relevant to question the actual benefit of reducing the number of semiconductors compared to employing a Boost-Buck integration, which preserves both stages with independent control.
+
+Recent literature has increasingly addressed this issue by proposing many different topologies aimed at reducing losses and improving efficiency \cite{bib8}-\cite{bib12}. In particular, cascade structures have drawn attention for their ability to balance simplicity and performance. The Boost-Buck cascade, originally presented by \cite{bib13} and later revisited in \cite{bib14}-\cite{bib16}, takes advantage of the simplicity and wellknown characteristics of its individual stages to provide flexible voltage regulation with fewer passive components and reduced conduction losses.
+
+Despite these promising developments, systematic comparisons between the classical Cuk converter and the BoostBuck integration remain limited in the literature. While both fulfill similar functional roles, they impose different voltage and current stresses on the components, which directly affect conduction losses, control complexity, and practical feasibility. This paper addresses this gap by presenting a comparative study between the Cuk converter and the BoostBuck integration, discussing their advantages, limitations, and operating conditions, with the aim of providing guidance for topology selection in practical applications.
+
+\section[II]{Converter Topologies}
+The basic structure of the Cuk converter consists of two switches, two capacitors, and two inductors, as shown in Fig.~\ref{fig1}. Focusing on the continuous conduction mode, the converter will be represented with its switch and diode integrated into the model. By arranging the switches in series while preserving the original topology, the standard Cuk converter can be restructured as a Boost stage followed by a Buck stage, as illustrated in Fig.~\ref{fig2}.
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-2}
+\caption[Fig. 1:]{Conventional Cuk converter structure.}\label{fig1}
+\end{figure}
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-2(1)}
+\caption[Fig. 2:]{Boost-Buck integrated converter structure.}\label{fig2}
+\end{figure}
+
+The key component of the Cuk converter is the energytransfer capacitor $C_{1}$, which is responsible for coupling energy between the input and output stages. Originally proposed by \cite{bib1}, the converter integrates the principles of the Boost and Buck stages into a reduced configuration. Its static voltage gain is expressed by (1), where $V_{i}$ and $V_{o}$ denote the input and output voltages, respectively, and $D$ is the duty cycle.
+\begin{equation}
+\frac{V_{o_{c u k}}}{V_{i_{c u k}}}=\frac{D_{c u k}}{1-D_{c u k}}
+\label{eqn1}\end{equation}
+
+The Boost-Buck converter topology considered in this work consists of a Boost converter cascaded with a Buck converter, employing four switches: two high-side devices (SW1 and SW1') and two low-side devices (SW2 and SW2'). At first glance, this structure appears to require two independent control signals due to the separate operation of the stages. However, at the first moment the commands for SW1 and SW1' will be the same in the Cuk and BoostBuck, as well SW2 and SW2' are the same commands in both converters. The converters behave as a single controlled one.
+
+Under these synchronized switching conditions, the Boost-Buck integration operates with a single effective control input, and the resulting system exhibits the same transfer function as the Cuk converter for the same duty cycle $D$. This key observation forms the basis for establishing dynamic equivalence between the two topologies.
+
+The static gains for the Boost and Buck converters are expressed at (2) and (3), respectively.
+\begin{equation}
+\begin{gathered}
+\frac{V_{o_{b o o s t}}}{V_{i n_{b o o s t}}}=\frac{1}{1-D_{b o o s t}} . \\
+\frac{V_{o b u c k}}{V_{i n_{b u c k}}}=D_{b u c k},
+\end{gathered}
+\label{eqn2}\end{equation}
+
+The RMS current through the switch for the Boost and Buck converters can be calculated as in (4) and (5), respectively, with $I_{o}=V_{o} / R$ being the load current.
+\begin{equation}
+\begin{aligned}
+I_{\mathrm{sw}, \mathrm{rms}}^{\mathrm{Boost}} & =\frac{\sqrt{D}}{1-D} I_{o} \\
+I_{\mathrm{sw}, \mathrm{rms}}^{\mathrm{Buck}} & =I_{o} \sqrt{D}
+\end{aligned}
+\label{eqn3}\end{equation}
+
+The design equations for the Boost, Buck, and Cuk converters are summarized in Table I, based on \cite{bib17}.
+
+\begin{table*}
+\caption[TABLE I:]{Design Equations for the Converters}\label{tbl1}
+\begin{tabular}{|l|l|l|}
+\toprule
+Topology & Inductor & Capacitor \\
+\colrule
+Boost & $L_{1}=\frac{V_{i} D}{\Delta i_{L_{1}} f}$ & $C_{1}=\frac{V_{o} D R}{\Delta V_{C_{1}} f}$ \\
+Buck & $L_{2}=\frac{V_{i} D}{\Delta i_{L_{2}} f}$ & $C_{2}=\frac{1-D}{8 L_{2}\left(\Delta V_{o} / V_{o}\right) f^{2}}$ \\
+Cuk & $L_{1}=\frac{V_{i} D}{\Delta i_{L_{1}} f} L_{2}=\frac{V_{i} D}{\Delta i_{L_{2}} f}$ & $C_{1}=\frac{V_{o} D R}{\Delta V_{C_{1}} f} C_{2}=\frac{1-D}{8 L_{2}\left(\Delta V_{o} / V_{o}\right) f^{2}}$ \\
+\botrule
+\end{tabular}
+
+\end{table*}
+
+\section[III]{Converters Evalution}
+Considering the Cuk converter and Boost-Buck integration, the voltages can be related as expressed in (6)-(8).
+\begin{equation}
+\begin{aligned}
+V_{i n_{b u c k}} & =V_{o_{b o o s t}}, \\
+V_{i n_{b o o s t}} & =V_{i n_{c u k}}, \\
+V_{o b u c k} & =V_{o c u k}
+\end{aligned}
+\label{eqn4}\end{equation}
+
+By combining (2)-(7), the expression in (9) is obtained.
+\begin{equation}
+V_{o_{b u c k}}=D_{b u c k} \frac{1}{1-D_{b o o s t}} V_{i n_{c u k}}
+\label{eqn5}\end{equation}
+
+Finally, using (8), the static voltage gain of the Cuk converter can be expressed in terms of the duty cycles of the Buck and Boost stages, as shown in (10).
+\begin{equation}
+\frac{V_{o_{c u k}}}{V_{i n_{c u k}}}=\frac{D_{\text {buck }}}{1-D_{\text {boost }}} .
+\label{eqn6}\end{equation}
+
+From (1) and (10), the duty-cycle relationship can be derived as (11) and rearranged into (12).
+\begin{equation}
+\begin{gathered}
+\frac{D_{c u k}}{1-D_{c u k}}=\frac{D_{b u c k}}{1-D_{b o o s t}}, \\
+D_{c u k}=\frac{D_{b u c k}}{1-D_{b o o s t}+D_{b u c k}} .
+\end{gathered}
+\label{eqn7}\end{equation}
+
+These relationships are summarized in the flowchart illustrated in Fig.~\ref{fig3}.
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-3(1)}
+\caption[Fig. 3:]{Summary of converter relationships.}\label{fig3}
+\end{figure}
+
+\section[IV]{Losses analysis}
+As discussed in Section II, the Cuk converter can be interpreted as a integration of Boost and Buck stages, where inductor $L_{1}$ and capacitor $C_{1}$ compose the Boost section, while inductor $L_{2}$ and capacitor $C_{2}$ form the Buck section. This structural equivalence allows for the analysis of conduction losses by decomposing the Cuk converter into its two elementary stages.
+
+In switched-mode power converters employing MOSFETs as active devices, the conduction losses can be expressed as:
+\begin{equation}
+P_{\text {cond }}=I_{\mathrm{rms}}^{2} \cdot R_{\mathrm{DS}(\mathrm{on})},
+\label{eqn8}\end{equation}
+
+where $I_{\mathrm{rms}}$ is the RMS current through the switch and $R_{\mathrm{DS}(\mathrm{on})}$ is the on-state resistance of the MOSFET.
+
+In the conventional Cuk topology, the RMS current through the main switch combines the contributions of both Boost and Buck stages, leading to higher conduction losses. The RMS current can be written as:
+\begin{equation}
+\begin{aligned}
+& I_{\mathrm{Sw} 1, \mathrm{rms}}^{\mathrm{Cuk}}=\underbrace{\frac{\sqrt{D} I_{o, \text { Boost }}}{1-D}}_{\text {Boost term }}+\underbrace{I_{o, \text { Buck }} \cdot \sqrt{D}}_{\text {Buck term }} . \\
+& I_{\mathrm{Sw} 2, \mathrm{rms}}^{\mathrm{Cuk}}=\underbrace{\frac{I_{o, \text { Boost }}}{\sqrt{1-D}}}_{\text {Boost term }}+\underbrace{I_{o, \text { Buck }} \cdot \sqrt{1-D}}_{\text {Buck term }} .
+\end{aligned}
+\label{eqn9}\end{equation}
+
+Starting from the conduction-loss and the RMS currents obtained, was compared the conventional Cuk with the Boost-Buck integration. Assuming identical MOSFETs, continuous conduction, identical output power, and neglecting current ripple terms beyond the RMS definitions, the ratio between the total switches conduction losses simplifies to a function of the duty cycle $D$ :
+\begin{equation}
+\frac{P_{\text {cond,Sw }}^{\text {Boost-Buck }}}{P_{\text {cond,Sw }}^{\text {Cuk }}}=D^{2}+(1-D)^{2}
+\label{eqn10}\end{equation}
+
+The expression graphic can be observed in Fig.~\ref{fig4}.
+
+\subsection[A]{Stress over Capacitor}
+The Boost-Buck association presents an operational advantage over the conventional Cuk converter with respect to the voltage stress at the intermediate node. In the Cuk topology, the voltage across the coupling capacitor $C_{1}$ is given by:
+\begin{equation}
+V_{C_{1}}=V_{\mathrm{in}}+V_{\mathrm{o}}
+\label{eqn11}\end{equation}
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-3}
+\caption[Fig. 4:]{Conduction loss ratio between Boost-Buck and Cuk converters.}\label{fig4}
+\end{figure}
+
+Consequently, any variation in the input source $V_{\mathrm{s}}$ directly modifies the voltage across $C_{1}$, which in turn affects the dynamic response of the converter.
+
+\section[V]{Control Strategy}
+Two control strategies were implemented and compared on both topologies: (i) a single voltage-loop control; and (ii) a current-mode control with an inner inductor-current loop and an outer voltage loop. All controllers were designed with averaged state-space models in a generic computeraided control design environment.
+
+\subsection[A]{Link to the Static Relations}
+The static relations in Sec. III motivate two choices adopted here: (a) in the cascaded Boost-Buck, the intermediate node is actively regulated so that the two stages operate with comfortable control margin; and (b) in current-mode, one inductor current is assigned to each stage to exploit the natural input-output decoupling of the cascade.
+
+\subsection[B]{Single Voltage-Loop Control (PI)}
+Only the output voltage $V_{o}$ is regulated.
+
+\begin{enumerate}
+  \item Cuk: A PI controller directly drives the single effective control input (duty $D_{\text {cuk }}$ ) to track the reference $V_{O_{\text {ref }}}$. Tuning uses the small-signal transfer $G_{v d}(s)=\hat{V}_{o}(s) / \hat{d}(s)$ obtained from the averaged model.
+  \item Boost-Buck Integration: Two coordinated (yet independently tuned) PIs are employed, forming a hierarchical voltage regulator:
+\end{enumerate}
+
+\begin{itemize}
+  \item Boost loop (bus regulation): it regulates the intermediate/bus capacitor (input of the Buck) with the rule
+\end{itemize}
+\begin{equation}
+V_{b u s_{\mathrm{ref}}}= \begin{cases}1.1 V_{o_{\mathrm{ref}}}, & V_{o_{\mathrm{ref}}}>V_{i n}, \\ 1.1 V_{i n}, & \text { otherwise } .\end{cases}
+\label{eqn12}\end{equation}
+
+This keeps the bus slightly above the downstream demand, providing headroom for dynamic control without unnecessary stress.
+
+\begin{itemize}
+  \item Buck loop (output regulation): it tracks $V_{O_{\text {ref }}}$ using $D_{\text {buck }}$.
+
+Despite the architectural differences, the steady-state gain of the Boost-Buck remains identical to the Cuk for the same operating point.
+\end{itemize}
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-4(1)}
+\caption[Fig. 5:]{Voltage-loop control: responses to input-voltage steps of $20 \%$ and load steps of $20 \%$ in $R$.}\label{fig5}
+\end{figure}
+
+\subsection[C]{Current-Mode Control (Outer $V_{o}$, Inner $i_{L}$ )}
+The current-mode strategy follows the digital currentmode method described in \cite{bib18}, where the inductor current is sampled once per switching period and a compensating ramp is used in the modulator to guarantee steady-state stability. Let $G_{i d}(s)=\hat{i}_{L}(s) / \hat{d}(s)$ and $G_{v i}(s)=\hat{V}_{o}(s) / \hat{i}_{L}(s)$ denote the inner and outer plants.
+
+\begin{enumerate}
+  \item Cuk: The inner loop regulates the current of $L_{1}$ (coupled to $C_{1}$ ) with a fast PI; the outer PI regulates $V_{o}$ and produces $i_{L 1_{\text {ref }}}$.
+  \item Boost-Buck Integration: Three loops are used:
+\end{enumerate}
+
+\begin{itemize}
+  \item Boost inner loop: regulates $i_{L_{1}}$ and, consequently, the bus energy. A practical reference rule that improves input-step rejection is
+\end{itemize}
+\begin{equation}
+V_{b u s_{\mathrm{ref}}}=V_{i n}+V_{o_{\mathrm{ref}}} .
+\label{eqn13}\end{equation}
+
+\begin{itemize}
+  \item Buck inner loop: regulates $i_{L_{2}}$, which supplies the load.
+  \item Outer loop: a PI on $V_{O}$ generates $i_{L 2_{\text {ref }}}$; a static allocator maps ( $V_{o_{\text {ref }}}, V_{b u s_{\text {ref }}}$ ) to consistent references for the two inner loops.
+
+The compensating ramp used by the modulator follows the stability condition of \cite{bib18} and was selected so that the inner current loops remain well damped across the operating range.
+\end{itemize}
+
+\subsection[D]{Summary of Observed Behavior}
+With identical operating points and passive components, the Boost-Buck consistently exhibited smaller outputvoltage overshoot than the Cuk in all tests. For load steps of $20 \%$ in $R$, both topologies showed comparable recovery speeds (settling times were similar), with the Boost-Buck presenting slightly better damping. For input-voltage steps of $20 \%$, under the single voltage-loop scheme the recovery speed was also similar between both converters; however,
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-4}
+\caption[Fig. 6:]{Current-mode control: responses to input-voltage steps of $20 \%$ and load steps of $20 \%$ in $R$.}\label{fig6}
+\end{figure}
+
+in current-mode the input step produced virtually no disturbance on the Boost-Buck output, clearly evidencing the decoupling achieved by assigning the inner current loops to $L_{1}$ (Boost) and $L_{2}$ (Buck) and regulating the intermediate bus (Figs. 5-6).
+
+From a control perspective, this characteristic imposes an additional challenge, since the controller must continuously accommodate the coupled variation of $V_{\text {in }}$ and $V_{\mathrm{o}}$ in the intermediate bus. By contrast, in the Boost-Buck integration the intermediate node corresponds only to the output of the Boost stage, and therefore the stress across the switching devices is decoupled from the instantaneous sum of input and output voltages. This structural difference not only reduces the voltage stress on passive and active components, but also simplifies the control design.
+
+\section[VI]{EXPERIMENTAL RESULTS}
+To experimentally validate the theoretical analysis presented in Section IV, laboratory prototypes of both Boost-Buck and Cuk converters were assembled under identical conditions. The converters were designed using the same inductance and capacitance values to ensure a fair comparison. Input and output powers were measured for both topologies across a range of duty cycles between 0.2 and 0.6. The total power loss for each converter was determined according to:
+\begin{equation}
+P_{\text {loss }}=P_{\text {in }}-P_{\text {out }}
+\label{eqn14}\end{equation}
+
+To provide a direct performance comparison, the relative loss ratio between the Boost-Buck and Cuk converters was defined as:
+\begin{equation}
+\text { Loss Ratio }=\frac{P_{\text {loss, Boost-Buck }}}{P_{\text {loss, Cuk }}}
+\label{eqn15}\end{equation}
+
+\begin{figure}
+\includegraphics[max width=\textwidth]{11297693-5}
+\caption[Fig. 7:]{Experimental loss ratio between Boost-Buck and Cuk converters for different duty cycles.}\label{fig7}
+\end{figure}
+
+From Fig.~\ref{fig7}, it can be observed that the Boost-Buck converter exhibits lower total losses across most of the investigated duty-cycle range. The minimum loss ratio occurs around $D=0.3-0.4$, where the Boost-Buck converter dissipates approximately $30 \%$ less power than the Cuk topology. This behavior is consistent with the theoretical predictions of conduction losses discussed in Section IV, confirming that current distribution among multiple switches in the Boost-Buck structure effectively reduces device stress.
+
+Since the switching-loss behavior was not evaluated, the overall behavior is expected to be similar to that observed in the conduction-loss analysis. The experimental findings validate that the Boost-Buck converter provides a superior efficiency profile over a wide operating range while maintaining similar switching behavior to the Cuk converter.
+
+Therefore, the experimental data confirm that the fourswitch Boost-Buck topology achieves a favorable balance between efficiency and reliability, making it a strong candidate for applications requiring bidirectional energy flow or adaptive DC-DC conversion.
+
+\section[VII]{CONCLUSIONS}
+This work shows a comparative analysis of Boost-Buck and Cuk converters using MOSFETs and synchronous switchings. When Slobodan Cuk presented the Cuk converter, one important characteristic was integrating switches in order to reduce costs. Now the semiconductors are cheaper, and these papers or designs must be reviewed. This work shows an important reduction in conduction losses and improvement in dynamic responses, even for load or input voltage steps when the Boost-Buck integration is selected. It was also demonstrated that the voltage stress across the Cuk is the sum of input and output voltages, and in Boost-Buck it could be the bigger voltage, not the sum.
+
+In summary, the simulation and experimental results validate the Boost-Buck integration as an efficient and flexible alternative to the classical Cuk converter, maintaining similar operational characteristics while offering several advantages. Specifically, the integration provides lower voltage stress on the switches, reducing the current over switches and leading to a reduction of conduction losses. Additionally,\\
+the decoupled control strategy enabled by the cascaded stages further contributes to improve system flexibility and dynamic response, making the Boost-Buck topology a more advantageous alternative in power electronics applications demanding robust and efficient voltage regulation.
+
+\section*{Acknowledgment}
+This work was supported in part by the Funda&#x00E7;&#x00E3;o de Amparo &#x00E0; Pesquisa e Inova&#x00E7;&#x00E3;o do Estado de Santa Catarina (FAPESC, Grant No. 3245/202) and in part by the Coordena&#x00E7;&#x00E3;o de Aperfei&#x00E7;oamento de Pessoal de N&#x00ED;vel Superior (CAPES), Brazil.
+
+In addition, this article was developed collaboratively as part of the coursework for the subject Modeling and Control of Static Converters (Modelagem e Controle de Conversores Est&#x00E1;ticos) offered by the Graduate Program in Electronic Systems Engineering (PPGESE) at the Federal University of Santa Catarina (UFSC), Joinville campus.
+
+\begin{thebibliography}{00}
+
+\bibitem[1]{bib1}
+S. &#x0106;uk and R. Middlebrook, "A new optimum topology switching dc-to-dc converter," in 1977 IEEE Power Electronics Specialists Conference, 1977, pp. 160-179.
+
+\bibitem[2]{bib2}
+S. Cuk, "General topological properties of switching structures," in 1979 IEEE Power Electronics Specialists Conference, 1979, pp. 109130.
+
+\bibitem[3]{bib3}
+R. W. Erickson, "Synthesis of switched-mode converters," in 1983 IEEE Power Electronics Specialists Conference, 1983, pp. 9-22.
+
+\bibitem[4]{bib4}
+R. Tymerski and V. Vorperian, "Generation, classification and analysis of switched-mode dc-to-dc converters by the use of converter cells," in INTELEC '86 - International Telecommunications Energy Conference, 1986, pp. 181-195.
+
+\bibitem[5]{bib5}
+B. W. Williams, "Generation and analysis of canonical switching cell dc-to-dc converters," IEEE Transactions on Industrial Electronics, vol. 61, no. 1, pp. 329-346, 2014.
+
+\bibitem[6]{bib6}
+C. Wu, "Evaluation and implementation of the optimum magnetics design of the cuk converter in comparison to the conventional buckboost converter," IEEE Transactions on Magnetics, vol. 18, no. 6, pp. 1728-1730, 1982.
+
+\bibitem[7]{bib7}
+D. Rong, N. Wang, X. Sun, and H. Dong, "High-gain combined buck-boost-cuk converter with coupled inductance," IET Power Electronics, vol. 14, no. 2, pp. 351-360, 2021.
+
+\bibitem[8]{bib8}
+W. Hassan, D. D.-C. Lu, and W. Xiao, "Single-switch high step-up dc-dc converter with low and steady switch voltage stress," IEEE Transactions on Industrial Electronics, vol. 66, no. 12, pp. 93269338, 2019.
+
+\bibitem[9]{bib9}
+M. Rezvanyvardom and A. Mirzaei, "Zero-voltage transition nonisolated bidirectional buck-boost dc-dc converter with coupled inductors," IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 9, no. 3, pp. 3266-3275, 2021.
+
+\bibitem[10]{bib10}
+A. Singh, V. Siva, A. Kumar, and S. K. Singh, "Analysis and design of switched lc converter with reduced voltage stress for photovoltaic applications," IEEE Transactions on Industry Applications, vol. 59, no. 5, pp. 6468-6479, 2023.
+
+\bibitem[11]{bib11}
+C. Cui, Y. Tang, Y. Guo, H. Sun, and L. Jiang, "High step-up switchedcapacitor active switched-inductor converter with self-voltage balancing and low stress," IEEE Transactions on Industrial Electronics, vol. 69, no. 10, pp. 10112-10128, 2022.
+
+\bibitem[12]{bib12}
+S. Habibi, R. Rahimi, M. Ferdowsi, and P. Shamsi, "Coupled inductorbased single-switch quadratic high step-up dc-dc converters with reduced voltage stress on switch," IEEE Journal of Emerging and Selected Topics in Industrial Electronics, vol. 4, no. 2, pp. 434-446, 2023.
+
+\bibitem[13]{bib13}
+S. Cuk and R. Middlebrook, "A new optimum topology switching dc-to-dc converter," in 1977 IEEE Power Electronics Specialists Conference, 1977, pp. 160-179.
+
+\bibitem[14]{bib14}
+Y. Triki, A. Bechouche, H. Seddiki, and D. O. Abdeslam, "A smart battery charger based on a cascaded boost-buck converter for photovoltaic applications," in IECON 2018-44th Annual Conference of the IEEE Industrial Electronics Society, 2018, pp. 3466-3471.
+
+\bibitem[15]{bib15}
+R. Li, X. Chen, Y. Chen, X. Ni, and J. Gu, "A smart controller based on cascaded boost-buck converter for high power laser diode," in 2021 IEEE 4th International Conference on Renewable Energy and Power Engineering (REPE), 2021, pp. 92-98.
+
+\bibitem[16]{bib16}
+M. Nassary, E. Vidal-Idiarte, and J. Calvente, "Ac/dc four-switches boost buck converter for ev battery charging," in 2023 IEEE 17th International Conference on Compatibility, Power Electronics and Power Engineering (CPE-POWERENG), 2023, pp. 1-7.
+
+\bibitem[17]{bib17}
+D. W. Hart, Power Electronics. New York: McGraw-Hill, 2011.
+
+\bibitem[18]{bib18}
+S. Chattopadhyay and S. Das, "A digital current-mode control technique for dc-dc converters," IEEE Transactions on Power Electronics, vol. 21, no. 6, pp. 1718-1726, 2006.
+
+
+\end{thebibliography}
+
+
+\page{***}
+
+
+\copy{***}
+
+\end{document}
