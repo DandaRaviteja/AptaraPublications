@@ -9,6 +9,42 @@ import logging
 import sys
 import os
 from datetime import datetime
+import pandas as pd
+from pathlib import Path
+
+
+# ============================================================================
+# load employee article mapping
+# ============================================================================
+
+def load_employee_article_mapping(excel_path: str,sheet_name:str) -> dict[str, list[str]]:
+    """
+    Reads Excel and returns:
+    {
+        'Employee Name': ['article1', 'article2', ...]
+    }
+    """
+    df = pd.read_excel(excel_path,sheet_name=sheet_name)
+
+    # ---- Validation (important in real systems) ----
+    required_columns = {"Employee_name", "Work_Id"}
+    missing = required_columns - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing required columns in Excel: {missing}")
+
+    # ---- Cleanup ----
+    df = df.dropna(subset=["Employee_name", "Work_Id"])
+    df["Employee_name"] = df["Employee_name"].astype(str).str.strip()
+    df["Work_Id"] = df["Work_Id"].astype(str).str.strip()
+
+    # ---- Group ----
+    employee_articles = (
+        df.groupby("Employee_name")["Work_Id"]
+        .apply(list)
+        .to_dict()
+    )
+
+    return employee_articles
 
 # ============================================================================
 # LOGGING SETUP
@@ -121,7 +157,8 @@ def get_article_ids():
 
 def get_download_path_with_date_and_associate(associate_name):
     """Get download path with today's date folder and associate subfolder"""
-    base_path = r'G:\My Drive\Arczenrick\IEEE\2025\December'
+    #base_path = r'G:\My Drive\Arczenrick\IEEE\2025\December'
+    base_path = r'C:\Aptara\Downloads'
     today_folder = datetime.now().strftime("%Y%m%d")  # 20251123
     
     # Create path: base/YYYYMMDD/AssociateName/
@@ -159,7 +196,7 @@ def start_xcp_and_click():
     print("\n[1/3] Starting XCP application...")
     
     CONFIG = {
-        'XCP_EXE': r'E:\Haritha\01_IEEE_XML\IEEE_Tools\download\setup.exe',
+        'XCP_EXE': r'C:\Aptara\Tools\IEEE_Tools\download\setup.exe',
         'XCP_WINDOW_TITLE': 'XCP Integrated System - Environment Selection',
         'XCP_BUTTON_TEXT': 'Start XCP Integrated System',
         'BACKEND': 'uia',
@@ -249,7 +286,7 @@ def wait_for_powerizec(timeout=10):
     logging.error(f"✗ PowerIZEC window not found within {timeout}s")
     print(f"❌ PowerIZEC window not found within {timeout}s")
     return None
-
+    
 def automate_powerizec(window, article_ids_string, article_list, download_path):
     """Automate PowerIZEC with comma-separated article IDs"""
     
@@ -396,7 +433,7 @@ def automate_powerizec(window, article_ids_string, article_list, download_path):
         # Click Download button
         logging.info("\n[Step 5] Submitting download request...")
         print("\n[Step 5/5] Submitting download request...")
-        
+
         buttons = [c for c in all_descendants if c.element_info.control_type == "Button"]
         
         submitted = False
@@ -423,14 +460,14 @@ def automate_powerizec(window, article_ids_string, article_list, download_path):
         print(f"⏳ Tool will now process all articles automatically...")
         
         # Wait for completion
-        return wait_for_completion(len(article_list), timeout=300)
+        return wait_for_completion(len(article_list), timeout=60)
         
     except Exception as e:
         logging.error(f"✗ Error: {e}", exc_info=True)
         print(f"❌ Error: {e}")
         return False
 
-def wait_for_completion(article_count, timeout=300):
+def wait_for_completion(article_count, timeout=60):
     """Wait for download completion dialog/prompt"""
     logging.info("\n" + "="*70)
     logging.info("WAITING FOR DOWNLOAD COMPLETION")
@@ -453,7 +490,7 @@ def wait_for_completion(article_count, timeout=300):
     
     while (time.time() - start_time) < timeout:
         elapsed = int(time.time() - start_time)
-        
+    
         # Print status every 15 seconds
         if elapsed - last_update >= 15:
             remaining = timeout - elapsed
@@ -475,6 +512,7 @@ def wait_for_completion(article_count, timeout=300):
                             
                             success_keywords = [
                                 'download complete',
+                                'download completed',
                                 'completed successfully',
                                 'all downloads complete',
                                 'processing complete',
@@ -534,96 +572,94 @@ def wait_for_completion(article_count, timeout=300):
 def main():
     """Main automation workflow"""
     
-    # Get interactive input
-    associate_name = get_associate_name()
-    article_ids_string, article_list = get_article_ids()
-    
-    # Create download path
-    download_path = get_download_path_with_date_and_associate(associate_name)
-    
-    today = datetime.now().strftime("%Y-%m-%d")
-    
-    logging.info("\n" + "█"*70)
-    logging.info("XCP TO POWERIZEC - BATCH DOWNLOAD")
-    logging.info("█"*70)
-    logging.info(f"\nDate: {today}")
-    logging.info(f"Associate: {associate_name}")
-    logging.info(f"Number of Articles: {len(article_list)}")
-    logging.info(f"Article IDs: {article_ids_string}")
-    logging.info(f"Download Path: {download_path}\n")
-    
-    try:
-        # Phase 1: Start XCP
-        success = start_xcp_and_click()
-        if not success:
-            logging.error("✗ Phase 1 failed")
-            print("\n❌ Phase 1 failed")
-            return False
-        
-        # Wait for PowerIZEC
-        powerizec_window = wait_for_powerizec(timeout=10)
-        
-        if not powerizec_window:
-            logging.error("✗ PowerIZEC window not found")
-            print("\n❌ PowerIZEC window not found")
-            return False
-        
-        # Phase 2: Submit and wait
-        completion_success = automate_powerizec(powerizec_window, article_ids_string, article_list, download_path)
-        
-        if not completion_success:
-            logging.warning("⚠ Downloads may still be in progress")
-            print("\n⚠️  Downloads may still be in progress")
-        
-        # Final summary
-        print("\n" + "="*70)
-        if completion_success:
-            print("✅✅✅ ALL DOWNLOADS COMPLETED SUCCESSFULLY ✅✅✅")
-        else:
-            print("⚠️⚠️⚠️  DOWNLOAD STATUS UNCERTAIN ⚠️⚠️⚠️")
-        print("="*70)
-        print(f"\n📥 Requested {len(article_list)} article(s)")
-        print(f"📋 Article IDs: {article_ids_string}")
-        print(f"👤 Associate: {associate_name}")
-        print(f"📁 Download Path: {download_path}")
-        
-        if completion_success:
-            print(f"\n✅ All downloads completed successfully!")
-        else:
-            print(f"\n⚠️  Timeout reached - please verify downloads manually")
-        
-        print(f"📝 Log file: {log_file}")
-        print("="*70 + "\n")
-        
-        logging.info("\n" + "="*70)
-        if completion_success:
-            logging.info("✓✓✓ ALL DOWNLOADS COMPLETED SUCCESSFULLY ✓✓✓")
-        else:
-            logging.info("⚠⚠⚠ DOWNLOAD STATUS UNCERTAIN ⚠⚠⚠")
-        logging.info("="*70)
-        logging.info(f"\n📥 Requested {len(article_list)} article(s)")
-        logging.info(f"📋 Article IDs: {article_ids_string}")
-        logging.info(f"👤 Associate: {associate_name}")
-        logging.info(f"📁 Download Path: {download_path}")
-        
-        if completion_success:
-            logging.info(f"\n✅ All downloads completed successfully!")
-        else:
-            logging.info(f"\n⚠️  Timeout reached")
-        
-        logging.info(f"📝 Log file: {log_file}")
-        logging.info("="*70)
-        
-        return completion_success
-        
-    except KeyboardInterrupt:
-        logging.info("\n⚠ Interrupted by user")
-        print("\n⚠️  Interrupted by user")
+    # Get interactive input    
+    # logging.info("\n" + "█"*70)
+    # logging.info("XCP TO POWERIZEC - BATCH DOWNLOAD")
+    # logging.info("█"*70)
+    # logging.info(f"\nDate: {today}")
+    # logging.info(f"Associate: {associate_name}")
+    # logging.info(f"Number of Articles: {len(article_list)}")
+    # logging.info(f"Article IDs: {article_ids_string}")
+    # logging.info(f"Download Path: {download_path}\n")
+    excel_path=r"C:\Aptara\Aptara_Employee_workflow.xlsx"
+    sheet_name='Employee_work'
+
+    # Phase 1: Start XCP
+    success = start_xcp_and_click()
+    if not success:
+        logging.error("✗ Phase 1 failed")
+        print("\n❌ Phase 1 failed")
         return False
-    except Exception as e:
-        logging.error(f"\n✗ Critical error: {e}", exc_info=True)
-        print(f"\n❌ Critical error: {e}")
-        return False
+    employee_article_map = load_employee_article_mapping(excel_path,sheet_name)
+    for associate_name, article_list in employee_article_map.items():
+        article_ids_string = ",".join(article_list)
+
+        download_path = get_download_path_with_date_and_associate(associate_name)
+    
+        try:
+            
+            # Wait for PowerIZEC
+            powerizec_window = wait_for_powerizec(timeout=10)
+            
+            if not powerizec_window:
+                logging.error("✗ PowerIZEC window not found")
+                print("\n❌ PowerIZEC window not found")
+                return False
+            
+            # Phase 2: Submit and wait
+            completion_success = automate_powerizec(powerizec_window, article_ids_string, article_list, download_path)
+            
+            if not completion_success:
+                logging.warning("⚠ Downloads may still be in progress")
+                print("\n⚠️  Downloads may still be in progress")
+            
+            # Final summary
+            print("\n" + "="*70)
+            if completion_success:
+                print("✅✅✅ ALL DOWNLOADS COMPLETED SUCCESSFULLY ✅✅✅")
+            else:
+                print("⚠️⚠️⚠️  DOWNLOAD STATUS UNCERTAIN ⚠️⚠️⚠️")
+            print("="*70)
+            print(f"\n📥 Requested {len(article_list)} article(s)")
+            print(f"📋 Article IDs: {article_ids_string}")
+            print(f"👤 Associate: {associate_name}")
+            print(f"📁 Download Path: {download_path}")
+            
+            if completion_success:
+                print(f"\n✅ All downloads completed successfully!")
+            else:
+                print(f"\n⚠️  Timeout reached - please verify downloads manually")
+            
+            print(f"📝 Log file: {log_file}")
+            print("="*70 + "\n")
+            
+            logging.info("\n" + "="*70)
+            if completion_success:
+                logging.info("✓✓✓ ALL DOWNLOADS COMPLETED SUCCESSFULLY ✓✓✓")
+            else:
+                logging.info("⚠⚠⚠ DOWNLOAD STATUS UNCERTAIN ⚠⚠⚠")
+            logging.info("="*70)
+            logging.info(f"\n📥 Requested {len(article_list)} article(s)")
+            logging.info(f"📋 Article IDs: {article_ids_string}")
+            logging.info(f"👤 Associate: {associate_name}")
+            logging.info(f"📁 Download Path: {download_path}")
+            
+            if completion_success:
+                logging.info(f"\n✅ All downloads completed successfully!")
+            else:
+                logging.info(f"\n⚠️  Timeout reached")
+            
+            logging.info(f"📝 Log file: {log_file}")
+            logging.info("="*70)
+            
+        except KeyboardInterrupt:
+            logging.info("\n⚠ Interrupted by user")
+            print("\n⚠️  Interrupted by user")
+            return False
+        except Exception as e:
+            logging.error(f"\n✗ Critical error: {e}", exc_info=True)
+            print(f"\n❌ Critical error: {e}")
+            return False
 
 if __name__ == "__main__":
     success = main()
