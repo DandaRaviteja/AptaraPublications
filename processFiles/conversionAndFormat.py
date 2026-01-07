@@ -50,7 +50,8 @@ BASE_PATH = r"G:\My Drive\Arczenrick\IEEE\2025\December"
 
 def get_today_folder(base_path):
     today_str = datetime.now().strftime("%Y%m%d")
-    today_folder = os.path.join(base_path, today_str)
+    today_folder = os.path.join(base_path
+                                , today_str)
     if not os.path.exists(today_folder):
         logging.warning(f"Today's folder does not exist: {today_folder}")
         return None

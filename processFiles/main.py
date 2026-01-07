@@ -5,16 +5,17 @@ Downloads → Converts → Formats → Cleans → Validates
 """
 import os
 from datetime import datetime   
-from downloadingFiles import run_download
+#from downloadingFiles import run_download
 from conversionAndFormat import run_convert
 from captionreplacement import run_captions
 from sectiontitlecase import run_section_titlecase
 from tagsreplacement import run_replacements
-from equation_replacer import run_fix_equations
+from equationreplacer import run_fix_equations
 
 def get_root_path():
     """Prompt user for root folder path once at start"""
-    default_path = r"G:\My Drive\Arczenrick\IEEE\2025\December"
+    default_path = r"G:\My Drive\Arczenrick\IEEE\2026\January"
+    #default_path = r"G:\My Drive\\VaveTechnologies\IEEE\2026\January"
     
     print("\n" + "="*70)
     print("📁 IEEE ARTICLE PROCESSING PIPELINE")
@@ -54,17 +55,17 @@ def main():
         return False
 
     # Phase 3-5: All processing steps use the SAME root_path
-    print("\n✏️  PHASE 3: CAPTION PROCESSING")
-    run_captions(root_path=root_path)
-
-    print("\n📝 PHASE 4: SECTION TITLE CASE")
+    print("\n📝 PHASE3: SECTION TITLE CASE")
     run_section_titlecase(root_path=root_path)
 
-    print("\n🔧 PHASE 5: TAG REPLACEMENTS & CLEANUP")
-    run_replacements(root_path=root_path)
+    print("\n✏️  PHASE 4: CAPTION PROCESSING")
+    run_captions(root_path=root_path)
     
-    print("\n🔧 PHASE 6: EQUATION FIXER")
+    print("\n🔧 PHASE 5: EQUATION FIXER")
     run_fix_equations(root_path=root_path)
+
+    print("\n🔧 PHASE 6: TAG REPLACEMENTS & CLEANUP")
+    run_replacements(root_path=root_path)
 
     print("\n" + "=" * 70)
     print("✅✅✅ PIPELINE COMPLETED SUCCESSFULLY ✅✅✅")
