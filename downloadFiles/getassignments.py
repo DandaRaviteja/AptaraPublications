@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 from typing import Dict, List
 
-EXCEL_PATH = r"C:\Users\raviteja\OneDrive\Documents\IEEE_December.xlsx"
+EXCEL_PATH = r"G:\My Drive\VaveTech-IEEE-JAN.gsheet"
 DEFAULT_ROOT_PATH = r"G:\My Drive\Arczenrick\IEEE\2025\December"
 
 def load_employee_articles_for_today(

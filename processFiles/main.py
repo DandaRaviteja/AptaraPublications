@@ -61,8 +61,8 @@ def main():
     print("\n✏️  PHASE 4: CAPTION PROCESSING")
     run_captions(root_path=root_path)
     
-    print("\n🔧 PHASE 5: EQUATION FIXER")
-    run_fix_equations(root_path=root_path)
+#    print("\n🔧 PHASE 5: EQUATION FIXER")
+#    run_fix_equations(root_path=root_path)
 
     print("\n🔧 PHASE 6: TAG REPLACEMENTS & CLEANUP")
     run_replacements(root_path=root_path)

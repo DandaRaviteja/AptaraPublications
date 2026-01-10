@@ -88,7 +88,10 @@ REPLACEMENTS = [
     ('<publisher-loc>doi</publisher-loc>: <publisher-name>', 'doi: <pub-id pub-id-type="doi">'),
     ('</p>\n<table-wrap', '\n<table-wrap'),
     ('<publisher-loc>DOI</publisher-loc>: <publisher-name>', 'DOI: <pub-id pub-id-type="doi">'),
-    ('publication-type="webpage"', 'publication-type="online"')
+    ('publication-type="webpage"', 'publication-type="online"'),
+    ('PMID: ', 'PMID: <pub-id pub-id-type="pmid">'),
+    ('PMCID: ', 'PMCID: <pub-id pub-id-type="pmcid">'),
+    ('<source>Proceedings of the IEEE', '<source specific-use="IEEE">Proceedings of the IEEE')
 
 ]
 
