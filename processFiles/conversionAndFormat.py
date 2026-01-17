@@ -42,12 +42,13 @@ CONFIG = {
     'BACKEND': 'uia',
 }
 
-BASE_PATH = r"G:\My Drive\Arczenrick\IEEE\2025\December"
+BASE_PATH = r"G:\My Drive\VaveTechnologies\IEEE\January"
 
 # ============================================================================
 # FOLDER DISCOVERY
 # ============================================================================
 
+'''
 def get_today_folder(base_path):
     today_str = datetime.now().strftime("%Y%m%d")
     today_folder = os.path.join(base_path
@@ -56,6 +57,30 @@ def get_today_folder(base_path):
         logging.warning(f"Today's folder does not exist: {today_folder}")
         return None
     return today_folder
+'''
+
+def get_target_folder(base_path, target_date=None):
+    """
+    Finds the processing folder.
+    :param base_path: The root directory (e.g., December 2025)
+    :param target_date: A string like '20251225'. If None, uses today's date.
+    """
+    # 1. Handle default: If no date provided, use today
+    if not target_date:
+        target_date = datetime.now().strftime("%Y%m%d")
+        logging.info(f"No date provided. Using default (today): {target_date}")
+    
+    # 2. Construct the full path
+    target_folder = os.path.join(base_path, target_date)
+    
+    # 3. Validation
+    if not os.path.exists(target_folder):
+        logging.error(f"✗ Folder not found: {target_folder}")
+        return None
+        
+    logging.info(f"✓ Target folder confirmed: {target_folder}")
+    return target_folder
+
 
 def find_leaf_folders(base_folder):
     """Find leaf folders"""
@@ -528,10 +553,13 @@ def main(root_path: str = BASE_PATH):
     logging.info("█"*70 + "\n")
     
     # Get today's batch pairs
-    today_folder = get_today_folder(root_path)
-    if not today_folder:
-        logging.error("Cannot find today's folder")
-        return False
+    print(f"\nDefault folder date: {datetime.now().strftime('%Y%m%d')}")
+    user_input = input("Enter date (YYYYMMDD) or press ENTER for today: ").strip()
+
+    today_folder = get_target_folder(root_path, user_input)
+  #  if not today_folder:
+  #      logging.error("Cannot find today's folder")
+  #      return False
     
     leaf_folders = find_leaf_folders(today_folder)
     pairs = pair_input_with_meta(leaf_folders)

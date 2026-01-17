@@ -1,100 +1,87 @@
-#!/usr/bin/env python3
-"""
-IEEE ASSIGNMENTS EXTRACTOR - Print assignments from Excel for manual use
-Associate Name --> Article IDs --> Download Path
-"""
 import os
 import sys
 import pandas as pd
 from datetime import datetime
 from typing import Dict, List
 
-EXCEL_PATH = r"G:\My Drive\VaveTech-IEEE-JAN.gsheet"
+EXCEL_PATH = r"G:\My Drive\VaveTech-IEEE-JAN.xlsx"
 DEFAULT_ROOT_PATH = r"G:\My Drive\Arczenrick\IEEE\2025\December"
 
-def load_employee_articles_for_today(
-    df, 
-    employee_col: str = "Assigned TO",    # Column T
-    workid_col: str = "Article",          # Column R
-    date_col: str = "Imported Date"       # Column S
-) -> Dict[str, List[str]]:
-    """Extract assignments from Excel DataFrame"""
+def load_employee_articles_for_today(df) -> Dict[str, List[str]]:
+    # Use EXACT column names from your Sheet1
+    col_employee = "Assigned TO"
+    col_article = "Article"
+    col_date = "Assigned Date"
+
     print(f"\n📊 EXTRACTING ASSIGNMENTS")
-    print(f"👥 Employee: '{employee_col}'")
-    print(f"📄 Articles: '{workid_col}'") 
-    print(f"📅 Date: '{date_col}'")
     
-    # Filter today's articles
+    # Check if headers exist
+    if col_employee not in df.columns:
+        print(f"❌ Error: Could not find column '{col_employee}'")
+        print(f"Available columns: {list(df.columns[:5])} ... {list(df.columns[-5:])}")
+        return {}
+
+    # 1. Format today's date to match your sheet (e.g., '12-Jan' or '2026-01-12')
+    # Based on your file, it looks like YYYY-MM-DD format in the data
     today_date = datetime.now().strftime("%Y-%m-%d")
-    date_col_data = df.iloc[:, 18].astype(str)  # Column S (index 18)
-    date_mask = date_col_data.str.contains(today_date, na=False)
+    
+    # 2. Filter for today's assignments
+    # We convert to string to handle potential datetime objects safely
+    date_mask = df[col_date].astype(str).str.contains(today_date, na=False)
     today_articles = df[date_mask]
     
-    print(f"📅 Today ({today_date}): {len(today_articles)} matching rows")
+    print(f"📅 Filtered Date ({today_date}): {len(today_articles)} rows found")
     
     if today_articles.empty:
-        print("❌ No assignments found for today!")
-        return {}
-    
-    # Group by employee
+        # Fallback: check if the sheet uses 'DD-Mon' format (like '07-Jan')
+        alt_date = datetime.now().strftime("%d-%b")
+        date_mask = df[col_date].astype(str).str.contains(alt_date, na=False, case=False)
+        today_articles = df[date_mask]
+        if not today_articles.empty:
+            print(f"📅 Found matches using alternate format ({alt_date})")
+
+    # 3. Group by employee
     associates = {}
     for _, row in today_articles.iterrows():
-        emp_name = str(row.iloc[19]).strip()  # Column T (index 19)
-        article_id = str(row.iloc[17]).strip()  # Column R (index 17)
+        emp_name = str(row[col_employee]).strip()
+        article_id = str(row[col_article]).strip()
         
-        if article_id.isdigit() and emp_name and emp_name != 'nan':
+        if emp_name.lower() != 'nan' and article_id.lower() != 'nan':
             if emp_name not in associates:
                 associates[emp_name] = []
             associates[emp_name].append(article_id)
     
-    # Remove duplicates, sort
-    for emp in associates:
-        associates[emp] = sorted(list(set(associates[emp])))
-    
-    return associates
-
-def print_assignments(associates: Dict[str, List[str]]):
-    """Print clean assignments for manual copy-paste"""
-    print("\n" + "="*100)
-    print("📋 TODAY'S ASSIGNMENTS (Associate --> Articles --> Path)")
-    print("="*100)
-    
-    today_folder = datetime.now().strftime("%Y%m%d")
-    total_articles = 0
-    
-    for emp_name, article_ids in associates.items():
-        ids_string = ','.join(article_ids)
-        full_path = os.path.join(DEFAULT_ROOT_PATH, today_folder, emp_name)
-        
-        print(f"👤 {emp_name:<12} --> 📄 {ids_string:<50} --> 📁 {full_path}")
-        print()
-        total_articles += len(article_ids)
-    
-    print(f"\n🎯 SUMMARY: {len(associates)} associates, {total_articles} articles")
-    print("="*100)
+    # Clean up and sort
+    return {k: sorted(list(set(v))) for k, v in associates.items()}
 
 def main():
-    """Extract and display assignments"""
     print("🚀 IEEE ASSIGNMENTS EXTRACTOR")
     print("=" * 60)
     
     if not os.path.exists(EXCEL_PATH):
         print(f"❌ Excel missing: {EXCEL_PATH}")
-        sys.exit(1)
+        return
+
+    # LOAD SHEET1 SPECIFICALLY
+    try:
+        df = pd.read_excel(EXCEL_PATH, sheet_name='Sheet1')
+        print(f"📊 Loaded: {len(df)} rows from Sheet1")
+    except Exception as e:
+        print(f"❌ Error loading Sheet1: {e}")
+        return
     
-    # Load Excel
-    df = pd.read_excel(EXCEL_PATH, header=0)
-    print(f"📊 Loaded: {len(df)} rows")
-    
-    # Extract assignments
     associates = load_employee_articles_for_today(df)
     
     if not associates:
-        print("❌ No assignments found for today!")
-        sys.exit(1)
-    
-    # Print clean format
-    print_assignments(associates)
+        print("❌ No assignments found for today's date in 'Sheet1'.")
+        return
+
+    # Print results (using your existing print_assignments logic)
+    print("\n" + "="*100)
+    print("📋 TODAY'S ASSIGNMENTS")
+    print("="*100)
+    for emp, ids in associates.items():
+        print(f"👤 {emp:<15} --> 📄 {', '.join(ids)}")
 
 if __name__ == "__main__":
     main()

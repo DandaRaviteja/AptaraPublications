@@ -1,0 +1,120 @@
+2026-01-12 19:39:27,233 - INFO - Log file: logs\xcp_powerizec_20260112_193927.log
+2026-01-12 19:39:27,236 - INFO - Loading Excel: G:\My Drive\VaveTech-IEEE-JAN.xlsx [Sheet1]
+2026-01-12 19:39:27,662 - INFO - Excel loaded: 142 rows, 21 columns
+2026-01-12 19:39:27,677 - INFO - Employee 'Haritha': 12 raw → 12 valid articles
+2026-01-12 19:39:27,678 - INFO - Employee 'Jithendra': 12 raw → 12 valid articles
+2026-01-12 19:39:27,680 - INFO - Employee 'Navya': 4 raw → 4 valid articles
+2026-01-12 19:39:27,681 - INFO - Employee 'Sravanthi': 12 raw → 12 valid articles
+2026-01-12 19:39:27,682 - INFO - Employee 'Swapna': 12 raw → 12 valid articles
+2026-01-12 19:39:27,685 - INFO - Final: 5 employees, 52 total articles
+2026-01-12 19:39:27,751 - INFO - ✓ Created/verified folder structure:
+2026-01-12 19:39:27,753 - INFO -   Date folder: 20260112
+2026-01-12 19:39:27,753 - INFO -   Associate: Haritha
+2026-01-12 19:39:27,754 - INFO -   Full path: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Haritha
+2026-01-12 19:39:27,756 - INFO - ======================================================================
+2026-01-12 19:39:27,756 - INFO - PHASE 1: XCP ENVIRONMENT SELECTION
+2026-01-12 19:39:27,758 - INFO - ======================================================================
+2026-01-12 19:39:27,768 - INFO - 
+[1.1] Starting XCP application...
+2026-01-12 19:39:27,985 - INFO - ✓ XCP started
+2026-01-12 19:39:31,011 - INFO - 
+[1.2] Finding XCP window...
+2026-01-12 19:39:34,430 - ERROR - ✗ XCP window not found
+2026-01-12 19:39:44,469 - INFO - ✓ Created/verified folder structure:
+2026-01-12 19:39:44,484 - INFO -   Date folder: 20260112
+2026-01-12 19:39:44,485 - INFO -   Associate: Jithendra
+2026-01-12 19:39:44,488 - INFO -   Full path: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Jithendra
+2026-01-12 19:39:44,504 - INFO - ======================================================================
+2026-01-12 19:39:44,507 - INFO - PHASE 1: XCP ENVIRONMENT SELECTION
+2026-01-12 19:39:44,509 - INFO - ======================================================================
+2026-01-12 19:39:44,511 - INFO - 
+[1.1] Starting XCP application...
+2026-01-12 19:39:44,691 - INFO - ✓ XCP started
+2026-01-12 19:39:47,692 - INFO - 
+[1.2] Finding XCP window...
+2026-01-12 19:39:51,355 - INFO - ✓ Found: XCP Integrated System - Environment Selection
+2026-01-12 19:39:51,355 - INFO - 
+[1.3] Clicking 'Start XCP Integrated System' button...
+2026-01-12 19:39:51,409 - INFO - ✓ Found button: 'Start XCP Integrated System'
+2026-01-12 19:39:51,439 - INFO - ✓ Button clicked!
+2026-01-12 19:39:51,485 - INFO - 
+======================================================================
+2026-01-12 19:39:51,491 - INFO - PHASE 2: POWERIZEC DOWNLOADER
+2026-01-12 19:39:51,501 - INFO - ======================================================================
+2026-01-12 19:39:51,503 - INFO - 
+[2.1] Waiting for PowerIZEC window...
+2026-01-12 19:39:59,013 - INFO - ✓ PowerIZEC window found! (after 4.6s)
+2026-01-12 19:40:00,015 - INFO - 
+[2.2] Processing 12 article(s)...
+2026-01-12 19:40:00,019 - INFO - Article IDs: 11342162,11342198,11342223,11342229,11341000,11341026,11341056,11341390,11341747,11344106,11344234,11344372
+2026-01-12 19:40:00,193 - INFO - 
+[Step 1] Selecting 'IEEE Meta' radio button...
+2026-01-12 19:40:00,318 - INFO - ✓ IEEE Meta selected!
+2026-01-12 19:40:01,319 - INFO - 
+[Step 2] Finding 'Article Names' field...
+2026-01-12 19:40:01,342 - INFO - ✓ Found 'Article Names' field
+2026-01-12 19:40:01,343 - INFO - 
+[Step 3] Entering Article IDs...
+2026-01-12 19:40:03,396 - INFO - ✓ Entered 12 article ID(s) (method 1)
+2026-01-12 19:40:03,897 - INFO - 
+[Step 4] Setting Download Path...
+2026-01-12 19:40:05,127 - INFO - ✓ Path set: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Jithendra
+2026-01-12 19:40:05,628 - INFO - 
+[Step 5] Submitting download request...
+2026-01-12 19:40:09,701 - INFO - ⚠ No explicit submit button found - submission may be automatic
+2026-01-12 19:40:11,702 - INFO - ✓ Download request submitted for 12 article(s)
+2026-01-12 19:40:11,704 - INFO - 
+======================================================================
+2026-01-12 19:40:11,716 - INFO - WAITING FOR DOWNLOAD COMPLETION POPUP
+2026-01-12 19:40:11,718 - INFO - ======================================================================
+2026-01-12 19:40:11,729 - INFO - Monitoring for popup (timeout: 120s = 2min)
+2026-01-12 19:41:10,953 - INFO - ✓ AUTO-CLICKED ''
+2026-01-12 19:41:21,218 - INFO - ✓ Created/verified folder structure:
+2026-01-12 19:41:21,218 - INFO -   Date folder: 20260112
+2026-01-12 19:41:21,219 - INFO -   Associate: Navya
+2026-01-12 19:41:21,220 - INFO -   Full path: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Navya
+2026-01-12 19:41:21,221 - INFO - ======================================================================
+2026-01-12 19:41:21,223 - INFO - PHASE 1: XCP ENVIRONMENT SELECTION
+2026-01-12 19:41:21,226 - INFO - ======================================================================
+2026-01-12 19:41:21,228 - INFO - 
+[1.1] Starting XCP application...
+2026-01-12 19:41:21,575 - INFO - ✓ XCP started
+2026-01-12 19:41:24,578 - INFO - 
+[1.2] Finding XCP window...
+2026-01-12 19:41:28,539 - ERROR - ✗ XCP window not found
+2026-01-12 19:41:38,559 - INFO - ✓ Created/verified folder structure:
+2026-01-12 19:41:38,560 - INFO -   Date folder: 20260112
+2026-01-12 19:41:38,560 - INFO -   Associate: Sravanthi
+2026-01-12 19:41:38,561 - INFO -   Full path: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Sravanthi
+2026-01-12 19:41:38,563 - INFO - ======================================================================
+2026-01-12 19:41:38,563 - INFO - PHASE 1: XCP ENVIRONMENT SELECTION
+2026-01-12 19:41:38,564 - INFO - ======================================================================
+2026-01-12 19:41:38,566 - INFO - 
+[1.1] Starting XCP application...
+2026-01-12 19:41:38,784 - INFO - ✓ XCP started
+2026-01-12 19:41:41,787 - INFO - 
+[1.2] Finding XCP window...
+2026-01-12 19:41:49,307 - INFO - ✓ Found: XCP Integrated System - Environment Selection
+2026-01-12 19:41:49,308 - INFO - 
+[1.3] Clicking 'Start XCP Integrated System' button...
+2026-01-12 19:41:49,397 - INFO - ✓ Found button: 'Start XCP Integrated System'
+2026-01-12 19:41:49,432 - INFO - ✓ Button clicked!
+2026-01-12 19:41:49,476 - INFO - 
+======================================================================
+2026-01-12 19:41:49,485 - INFO - PHASE 2: POWERIZEC DOWNLOADER
+2026-01-12 19:41:49,486 - INFO - ======================================================================
+2026-01-12 19:41:49,490 - INFO - 
+[2.1] Waiting for PowerIZEC window...
+2026-01-12 19:42:06,715 - ERROR - ✗ PowerIZEC window not found within 15s
+2026-01-12 19:42:16,727 - INFO - ✓ Created/verified folder structure:
+2026-01-12 19:42:16,728 - INFO -   Date folder: 20260112
+2026-01-12 19:42:16,729 - INFO -   Associate: Swapna
+2026-01-12 19:42:16,729 - INFO -   Full path: G:\My Drive\Arczenrick\IEEE\2025\December\20260112\Swapna
+2026-01-12 19:42:16,730 - INFO - ======================================================================
+2026-01-12 19:42:16,731 - INFO - PHASE 1: XCP ENVIRONMENT SELECTION
+2026-01-12 19:42:16,731 - INFO - ======================================================================
+2026-01-12 19:42:16,733 - INFO - 
+[1.1] Starting XCP application...
+2026-01-12 19:42:17,123 - INFO - ✓ XCP started
+2026-01-12 19:42:20,185 - INFO - 
+[1.2] Finding XCP window...

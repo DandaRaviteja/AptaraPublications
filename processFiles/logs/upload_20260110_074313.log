@@ -1,0 +1,1704 @@
+2026-01-10 07:43:13,853 - INFO - Logging initialized. Log file: logs\upload_20260110_074313.log
+2026-01-10 07:43:21,427 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:43:21,428 - INFO - STAGE 3: IEEE XML CONVERSION UPLOAD
+2026-01-10 07:43:21,428 - INFO - ██████████████████████████████████████████████████████████████████████
+
+2026-01-10 07:43:21,618 - INFO - Found 34 item(s) to process
+
+2026-01-10 07:43:21,621 - INFO - ======================================================================
+2026-01-10 07:43:21,621 - INFO - PHASE 1: OPENING IEEE XML CONVERSION TOOL
+2026-01-10 07:43:21,621 - INFO - ======================================================================
+2026-01-10 07:43:21,622 - INFO - 
+[1.1] Starting application...
+2026-01-10 07:43:24,129 - INFO - ✓ Application started
+2026-01-10 07:43:28,130 - INFO - 
+[1.2] Finding tool window...
+2026-01-10 07:43:28,484 - INFO - ✓ Found window: 'IEEE_XML_Conversion_App'
+2026-01-10 07:43:29,485 - INFO - 
+======================================================================
+2026-01-10 07:43:29,485 - INFO - PHASE 2: CLICK CONVERSION TAB
+2026-01-10 07:43:29,486 - INFO - ======================================================================
+2026-01-10 07:43:29,486 - INFO - 
+[2.1] Looking for 'Conversion' tab...
+2026-01-10 07:43:29,785 - INFO - Found 3 tab item(s)
+2026-01-10 07:43:29,787 - INFO -   Tab 1: 'PreQA'
+2026-01-10 07:43:29,789 - INFO -   Tab 2: 'Conversion'
+2026-01-10 07:43:29,790 - INFO - ✓ Found 'Conversion' tab: 'Conversion'
+2026-01-10 07:43:29,790 - INFO - Clicking Conversion tab...
+2026-01-10 07:43:29,917 - INFO - ✓ Clicked Conversion tab
+2026-01-10 07:43:31,918 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:43:31,920 - INFO - PROCESSING ITEM 1/34
+2026-01-10 07:43:31,921 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:43:31,921 - INFO - 
+Item: 66301-11344076-NU_11344174
+2026-01-10 07:43:31,922 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344174
+2026-01-10 07:43:31,922 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344174\Meta
+2026-01-10 07:43:31,923 - INFO - 
+======================================================================
+2026-01-10 07:43:31,923 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:43:31,924 - INFO - ======================================================================
+2026-01-10 07:43:32,925 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:43:33,201 - INFO - Found 2 Edit field(s)
+2026-01-10 07:43:33,202 - INFO - ✓ Using fields by position
+2026-01-10 07:43:33,202 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:43:33,203 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344174
+2026-01-10 07:43:34,883 - INFO - ✓ Entered input folder path
+2026-01-10 07:43:35,384 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:43:35,385 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344174\Meta
+2026-01-10 07:43:37,138 - INFO - ✓ Entered meta folder path
+2026-01-10 07:43:37,639 - INFO - ✓ All paths entered successfully
+2026-01-10 07:43:37,639 - INFO - 
+======================================================================
+2026-01-10 07:43:37,639 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:43:37,640 - INFO - ======================================================================
+2026-01-10 07:43:37,640 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:43:37,929 - INFO - Found 4 button(s)
+2026-01-10 07:43:37,932 - INFO - ✓ Found 'Process' button
+2026-01-10 07:43:37,933 - INFO - Clicking Process button...
+2026-01-10 07:43:38,049 - INFO - ✓ Process button clicked
+2026-01-10 07:43:39,050 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:43:49,344 - WARNING - ⚠ No OK button found within 10s
+2026-01-10 07:43:49,345 - ERROR - ✗ Failed to click OK button
+2026-01-10 07:43:49,346 - ERROR - ✗ Failed to process 66301-11344076-NU_11344174
+2026-01-10 07:43:49,347 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:43:49,348 - INFO - PROCESSING ITEM 2/34
+2026-01-10 07:43:49,349 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:43:49,350 - INFO - 
+Item: 66301-11344076-NU_11344203
+2026-01-10 07:43:49,352 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344203
+2026-01-10 07:43:49,355 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344203\Meta
+2026-01-10 07:43:49,358 - INFO - 
+======================================================================
+2026-01-10 07:43:49,361 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:43:49,362 - INFO - ======================================================================
+2026-01-10 07:43:50,363 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:43:50,632 - INFO - Found 2 Edit field(s)
+2026-01-10 07:43:50,633 - INFO - ✓ Using fields by position
+2026-01-10 07:43:50,633 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:43:50,634 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344203
+2026-01-10 07:43:52,355 - INFO - ✓ Entered input folder path
+2026-01-10 07:43:52,856 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:43:52,857 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344203\Meta
+2026-01-10 07:43:54,614 - INFO - ✓ Entered meta folder path
+2026-01-10 07:43:55,115 - INFO - ✓ All paths entered successfully
+2026-01-10 07:43:55,116 - INFO - 
+======================================================================
+2026-01-10 07:43:55,118 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:43:55,119 - INFO - ======================================================================
+2026-01-10 07:43:55,120 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:43:55,402 - INFO - Found 4 button(s)
+2026-01-10 07:43:55,405 - INFO - ✓ Found 'Process' button
+2026-01-10 07:43:55,405 - INFO - Clicking Process button...
+2026-01-10 07:43:55,528 - INFO - ✓ Process button clicked
+2026-01-10 07:43:56,529 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:44:07,711 - WARNING - ⚠ No OK button found within 10s
+2026-01-10 07:44:07,712 - ERROR - ✗ Failed to click OK button
+2026-01-10 07:44:07,714 - ERROR - ✗ Failed to process 66301-11344076-NU_11344203
+2026-01-10 07:44:07,715 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:07,716 - INFO - PROCESSING ITEM 3/34
+2026-01-10 07:44:07,717 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:07,718 - INFO - 
+Item: 66301-11344076-NU_11344261
+2026-01-10 07:44:07,720 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344261
+2026-01-10 07:44:07,722 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344261\Meta
+2026-01-10 07:44:07,724 - INFO - 
+======================================================================
+2026-01-10 07:44:07,725 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:44:07,726 - INFO - ======================================================================
+2026-01-10 07:44:08,727 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:44:08,983 - INFO - Found 2 Edit field(s)
+2026-01-10 07:44:08,984 - INFO - ✓ Using fields by position
+2026-01-10 07:44:08,985 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:44:08,985 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344261
+2026-01-10 07:44:10,636 - INFO - ✓ Entered input folder path
+2026-01-10 07:44:11,136 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:44:11,137 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344261\Meta
+2026-01-10 07:44:12,879 - INFO - ✓ Entered meta folder path
+2026-01-10 07:44:13,380 - INFO - ✓ All paths entered successfully
+2026-01-10 07:44:13,381 - INFO - 
+======================================================================
+2026-01-10 07:44:13,382 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:44:13,383 - INFO - ======================================================================
+2026-01-10 07:44:13,383 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:44:13,659 - INFO - Found 4 button(s)
+2026-01-10 07:44:13,663 - INFO - ✓ Found 'Process' button
+2026-01-10 07:44:13,663 - INFO - Clicking Process button...
+2026-01-10 07:44:13,773 - INFO - ✓ Process button clicked
+2026-01-10 07:44:14,774 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:44:25,309 - WARNING - ⚠ No OK button found within 10s
+2026-01-10 07:44:25,310 - ERROR - ✗ Failed to click OK button
+2026-01-10 07:44:25,311 - ERROR - ✗ Failed to process 66301-11344076-NU_11344261
+2026-01-10 07:44:25,312 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:25,314 - INFO - PROCESSING ITEM 4/34
+2026-01-10 07:44:25,315 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:25,317 - INFO - 
+Item: 66301-11344076-NU_11344340
+2026-01-10 07:44:25,321 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344340
+2026-01-10 07:44:25,322 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344340\Meta
+2026-01-10 07:44:25,325 - INFO - 
+======================================================================
+2026-01-10 07:44:25,327 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:44:25,329 - INFO - ======================================================================
+2026-01-10 07:44:26,333 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:44:26,617 - INFO - Found 2 Edit field(s)
+2026-01-10 07:44:26,618 - INFO - ✓ Using fields by position
+2026-01-10 07:44:26,619 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:44:26,619 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344340
+2026-01-10 07:44:28,553 - INFO - ✓ Entered input folder path
+2026-01-10 07:44:29,054 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:44:29,056 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\66301-11344076-NU\66301-11344076-NU_11344340\Meta
+2026-01-10 07:44:30,810 - INFO - ✓ Entered meta folder path
+2026-01-10 07:44:31,311 - INFO - ✓ All paths entered successfully
+2026-01-10 07:44:31,312 - INFO - 
+======================================================================
+2026-01-10 07:44:31,313 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:44:31,314 - INFO - ======================================================================
+2026-01-10 07:44:31,316 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:44:31,585 - INFO - Found 4 button(s)
+2026-01-10 07:44:31,588 - INFO - ✓ Found 'Process' button
+2026-01-10 07:44:31,588 - INFO - Clicking Process button...
+2026-01-10 07:44:31,701 - INFO - ✓ Process button clicked
+2026-01-10 07:44:32,702 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:44:43,276 - WARNING - ⚠ No OK button found within 10s
+2026-01-10 07:44:43,277 - ERROR - ✗ Failed to click OK button
+2026-01-10 07:44:43,278 - ERROR - ✗ Failed to process 66301-11344076-NU_11344340
+2026-01-10 07:44:43,279 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:43,281 - INFO - PROCESSING ITEM 5/34
+2026-01-10 07:44:43,282 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:43,283 - INFO - 
+Item: 64299-11344063-NU_11344130
+2026-01-10 07:44:43,287 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130
+2026-01-10 07:44:43,288 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130\Meta
+2026-01-10 07:44:43,289 - INFO - 
+======================================================================
+2026-01-10 07:44:43,292 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:44:43,293 - INFO - ======================================================================
+2026-01-10 07:44:44,295 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:44:44,577 - INFO - Found 2 Edit field(s)
+2026-01-10 07:44:44,578 - INFO - ✓ Using fields by position
+2026-01-10 07:44:44,578 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:44:44,578 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130
+2026-01-10 07:44:46,283 - INFO - ✓ Entered input folder path
+2026-01-10 07:44:46,784 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:44:46,785 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130\Meta
+2026-01-10 07:44:48,531 - INFO - ✓ Entered meta folder path
+2026-01-10 07:44:49,032 - INFO - ✓ All paths entered successfully
+2026-01-10 07:44:49,033 - INFO - 
+======================================================================
+2026-01-10 07:44:49,035 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:44:49,036 - INFO - ======================================================================
+2026-01-10 07:44:49,037 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:44:49,321 - INFO - Found 4 button(s)
+2026-01-10 07:44:49,324 - INFO - ✓ Found 'Process' button
+2026-01-10 07:44:49,324 - INFO - Clicking Process button...
+2026-01-10 07:44:49,432 - INFO - ✓ Process button clicked
+2026-01-10 07:44:50,432 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:44:51,069 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:44:51,074 - INFO - ✓ Clicked OK button
+2026-01-10 07:44:54,076 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:44:54,083 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130\Meta
+2026-01-10 07:44:54,087 - INFO - ✓ Found Appout folder
+2026-01-10 07:44:54,104 - INFO - ✓ Found unique ID folder: 64299_11344130
+2026-01-10 07:44:54,124 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:44:54,129 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130\Meta
+2026-01-10 07:44:54,130 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344130\Appout\64299_11344130\Meta
+2026-01-10 07:44:54,132 - INFO - ✓ 64299-11344063-NU_11344130 processed successfully
+2026-01-10 07:44:54,133 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:44:56,135 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:56,136 - INFO - PROCESSING ITEM 6/34
+2026-01-10 07:44:56,137 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:44:56,142 - INFO - 
+Item: 64299-11344063-NU_11344095
+2026-01-10 07:44:56,145 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095
+2026-01-10 07:44:56,146 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095\Meta
+2026-01-10 07:44:56,147 - INFO - 
+======================================================================
+2026-01-10 07:44:56,148 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:44:56,150 - INFO - ======================================================================
+2026-01-10 07:44:57,152 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:44:57,483 - INFO - Found 2 Edit field(s)
+2026-01-10 07:44:57,484 - INFO - ✓ Using fields by position
+2026-01-10 07:44:57,484 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:44:57,484 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095
+2026-01-10 07:44:59,195 - INFO - ✓ Entered input folder path
+2026-01-10 07:44:59,695 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:44:59,697 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095\Meta
+2026-01-10 07:45:01,450 - INFO - ✓ Entered meta folder path
+2026-01-10 07:45:01,951 - INFO - ✓ All paths entered successfully
+2026-01-10 07:45:01,951 - INFO - 
+======================================================================
+2026-01-10 07:45:01,952 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:45:01,955 - INFO - ======================================================================
+2026-01-10 07:45:01,957 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:45:02,244 - INFO - Found 4 button(s)
+2026-01-10 07:45:02,249 - INFO - ✓ Found 'Process' button
+2026-01-10 07:45:02,249 - INFO - Clicking Process button...
+2026-01-10 07:45:02,362 - INFO - ✓ Process button clicked
+2026-01-10 07:45:03,363 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:45:04,016 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:45:04,022 - INFO - ✓ Clicked OK button
+2026-01-10 07:45:07,032 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:45:07,040 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095\Meta
+2026-01-10 07:45:07,045 - INFO - ✓ Found Appout folder
+2026-01-10 07:45:07,059 - INFO - ✓ Found unique ID folder: 64299_11344095
+2026-01-10 07:45:07,083 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:45:07,084 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095\Meta
+2026-01-10 07:45:07,089 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344095\Appout\64299_11344095\Meta
+2026-01-10 07:45:07,091 - INFO - ✓ 64299-11344063-NU_11344095 processed successfully
+2026-01-10 07:45:07,092 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:45:09,093 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:09,096 - INFO - PROCESSING ITEM 7/34
+2026-01-10 07:45:09,097 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:09,098 - INFO - 
+Item: 64299-11344063-NU_11344168
+2026-01-10 07:45:09,100 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168
+2026-01-10 07:45:09,110 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168\Meta
+2026-01-10 07:45:09,111 - INFO - 
+======================================================================
+2026-01-10 07:45:09,112 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:45:09,112 - INFO - ======================================================================
+2026-01-10 07:45:10,113 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:45:10,449 - INFO - Found 2 Edit field(s)
+2026-01-10 07:45:10,450 - INFO - ✓ Using fields by position
+2026-01-10 07:45:10,450 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:45:10,452 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168
+2026-01-10 07:45:12,152 - INFO - ✓ Entered input folder path
+2026-01-10 07:45:12,654 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:45:12,656 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168\Meta
+2026-01-10 07:45:14,422 - INFO - ✓ Entered meta folder path
+2026-01-10 07:45:14,922 - INFO - ✓ All paths entered successfully
+2026-01-10 07:45:14,922 - INFO - 
+======================================================================
+2026-01-10 07:45:14,923 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:45:14,923 - INFO - ======================================================================
+2026-01-10 07:45:14,924 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:45:15,186 - INFO - Found 4 button(s)
+2026-01-10 07:45:15,189 - INFO - ✓ Found 'Process' button
+2026-01-10 07:45:15,190 - INFO - Clicking Process button...
+2026-01-10 07:45:15,310 - INFO - ✓ Process button clicked
+2026-01-10 07:45:16,311 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:45:16,957 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:45:16,959 - INFO - ✓ Clicked OK button
+2026-01-10 07:45:19,961 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:45:19,964 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168\Meta
+2026-01-10 07:45:19,966 - INFO - ✓ Found Appout folder
+2026-01-10 07:45:19,970 - INFO - ✓ Found unique ID folder: 64299_11344168
+2026-01-10 07:45:19,991 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:45:19,996 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168\Meta
+2026-01-10 07:45:19,997 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344168\Appout\64299_11344168\Meta
+2026-01-10 07:45:20,001 - INFO - ✓ 64299-11344063-NU_11344168 processed successfully
+2026-01-10 07:45:20,005 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:45:22,006 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:22,007 - INFO - PROCESSING ITEM 8/34
+2026-01-10 07:45:22,008 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:22,009 - INFO - 
+Item: 64299-11344063-NU_11344185
+2026-01-10 07:45:22,010 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185
+2026-01-10 07:45:22,011 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185\Meta
+2026-01-10 07:45:22,011 - INFO - 
+======================================================================
+2026-01-10 07:45:22,012 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:45:22,014 - INFO - ======================================================================
+2026-01-10 07:45:23,022 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:45:23,347 - INFO - Found 2 Edit field(s)
+2026-01-10 07:45:23,348 - INFO - ✓ Using fields by position
+2026-01-10 07:45:23,350 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:45:23,350 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185
+2026-01-10 07:45:25,037 - INFO - ✓ Entered input folder path
+2026-01-10 07:45:25,538 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:45:25,538 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185\Meta
+2026-01-10 07:45:27,267 - INFO - ✓ Entered meta folder path
+2026-01-10 07:45:27,767 - INFO - ✓ All paths entered successfully
+2026-01-10 07:45:27,768 - INFO - 
+======================================================================
+2026-01-10 07:45:27,768 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:45:27,769 - INFO - ======================================================================
+2026-01-10 07:45:27,769 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:45:28,042 - INFO - Found 4 button(s)
+2026-01-10 07:45:28,045 - INFO - ✓ Found 'Process' button
+2026-01-10 07:45:28,045 - INFO - Clicking Process button...
+2026-01-10 07:45:28,155 - INFO - ✓ Process button clicked
+2026-01-10 07:45:29,156 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:45:29,845 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:45:29,848 - INFO - ✓ Clicked OK button
+2026-01-10 07:45:32,850 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:45:32,852 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185\Meta
+2026-01-10 07:45:32,853 - INFO - ✓ Found Appout folder
+2026-01-10 07:45:32,856 - INFO - ✓ Found unique ID folder: 64299_11344185
+2026-01-10 07:45:32,874 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:45:32,874 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185\Meta
+2026-01-10 07:45:32,875 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Haritha\64299-11344063-NU\64299-11344063-NU_11344185\Appout\64299_11344185\Meta
+2026-01-10 07:45:32,876 - INFO - ✓ 64299-11344063-NU_11344185 processed successfully
+2026-01-10 07:45:32,876 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:45:34,878 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:34,880 - INFO - PROCESSING ITEM 9/34
+2026-01-10 07:45:34,880 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:34,881 - INFO - 
+Item: 64299-11344063-NU_11344121
+2026-01-10 07:45:34,881 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121
+2026-01-10 07:45:34,882 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121\Meta
+2026-01-10 07:45:34,882 - INFO - 
+======================================================================
+2026-01-10 07:45:34,882 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:45:34,883 - INFO - ======================================================================
+2026-01-10 07:45:35,883 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:45:36,199 - INFO - Found 2 Edit field(s)
+2026-01-10 07:45:36,200 - INFO - ✓ Using fields by position
+2026-01-10 07:45:36,200 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:45:36,201 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121
+2026-01-10 07:45:37,928 - INFO - ✓ Entered input folder path
+2026-01-10 07:45:38,432 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:45:38,433 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121\Meta
+2026-01-10 07:45:40,216 - INFO - ✓ Entered meta folder path
+2026-01-10 07:45:40,717 - INFO - ✓ All paths entered successfully
+2026-01-10 07:45:40,719 - INFO - 
+======================================================================
+2026-01-10 07:45:40,720 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:45:40,722 - INFO - ======================================================================
+2026-01-10 07:45:40,723 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:45:41,021 - INFO - Found 4 button(s)
+2026-01-10 07:45:41,025 - INFO - ✓ Found 'Process' button
+2026-01-10 07:45:41,025 - INFO - Clicking Process button...
+2026-01-10 07:45:41,135 - INFO - ✓ Process button clicked
+2026-01-10 07:45:42,136 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:45:42,788 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:45:42,789 - INFO - ✓ Clicked OK button
+2026-01-10 07:45:45,791 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:45:45,799 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121\Meta
+2026-01-10 07:45:45,805 - INFO - ✓ Found Appout folder
+2026-01-10 07:45:45,818 - INFO - ✓ Found unique ID folder: 64299_11344121
+2026-01-10 07:45:45,840 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:45:45,847 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121\Meta
+2026-01-10 07:45:45,848 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344121\Appout\64299_11344121\Meta
+2026-01-10 07:45:45,849 - INFO - ✓ 64299-11344063-NU_11344121 processed successfully
+2026-01-10 07:45:45,850 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:45:47,851 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:47,852 - INFO - PROCESSING ITEM 10/34
+2026-01-10 07:45:47,852 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:45:47,852 - INFO - 
+Item: 64299-11344063-NU_11344302
+2026-01-10 07:45:47,853 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302
+2026-01-10 07:45:47,853 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302\Meta
+2026-01-10 07:45:47,854 - INFO - 
+======================================================================
+2026-01-10 07:45:47,854 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:45:47,854 - INFO - ======================================================================
+2026-01-10 07:45:48,855 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:45:49,188 - INFO - Found 2 Edit field(s)
+2026-01-10 07:45:49,189 - INFO - ✓ Using fields by position
+2026-01-10 07:45:49,189 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:45:49,190 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302
+2026-01-10 07:45:50,899 - INFO - ✓ Entered input folder path
+2026-01-10 07:45:51,400 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:45:51,400 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302\Meta
+2026-01-10 07:45:53,177 - INFO - ✓ Entered meta folder path
+2026-01-10 07:45:53,677 - INFO - ✓ All paths entered successfully
+2026-01-10 07:45:53,679 - INFO - 
+======================================================================
+2026-01-10 07:45:53,681 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:45:53,682 - INFO - ======================================================================
+2026-01-10 07:45:53,683 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:45:53,984 - INFO - Found 4 button(s)
+2026-01-10 07:45:53,987 - INFO - ✓ Found 'Process' button
+2026-01-10 07:45:53,987 - INFO - Clicking Process button...
+2026-01-10 07:45:54,099 - INFO - ✓ Process button clicked
+2026-01-10 07:45:55,100 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:45:55,751 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:45:55,753 - INFO - ✓ Clicked OK button
+2026-01-10 07:45:58,755 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:45:58,766 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302\Meta
+2026-01-10 07:45:58,772 - INFO - ✓ Found Appout folder
+2026-01-10 07:45:58,785 - INFO - ✓ Found unique ID folder: 64299_11344302
+2026-01-10 07:45:58,804 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:45:58,805 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302\Meta
+2026-01-10 07:45:58,810 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344302\Appout\64299_11344302\Meta
+2026-01-10 07:45:58,812 - INFO - ✓ 64299-11344063-NU_11344302 processed successfully
+2026-01-10 07:45:58,813 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:46:00,815 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:00,817 - INFO - PROCESSING ITEM 11/34
+2026-01-10 07:46:00,817 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:00,819 - INFO - 
+Item: 64299-11344063-NU_11344346
+2026-01-10 07:46:00,821 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346
+2026-01-10 07:46:00,822 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346\Meta
+2026-01-10 07:46:00,827 - INFO - 
+======================================================================
+2026-01-10 07:46:00,828 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:46:00,829 - INFO - ======================================================================
+2026-01-10 07:46:01,830 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:46:02,161 - INFO - Found 2 Edit field(s)
+2026-01-10 07:46:02,162 - INFO - ✓ Using fields by position
+2026-01-10 07:46:02,163 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:46:02,163 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346
+2026-01-10 07:46:03,884 - INFO - ✓ Entered input folder path
+2026-01-10 07:46:04,385 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:46:04,385 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346\Meta
+2026-01-10 07:46:06,164 - INFO - ✓ Entered meta folder path
+2026-01-10 07:46:06,666 - INFO - ✓ All paths entered successfully
+2026-01-10 07:46:06,667 - INFO - 
+======================================================================
+2026-01-10 07:46:06,668 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:46:06,669 - INFO - ======================================================================
+2026-01-10 07:46:06,670 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:46:06,975 - INFO - Found 4 button(s)
+2026-01-10 07:46:06,978 - INFO - ✓ Found 'Process' button
+2026-01-10 07:46:06,978 - INFO - Clicking Process button...
+2026-01-10 07:46:07,098 - INFO - ✓ Process button clicked
+2026-01-10 07:46:08,099 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:46:08,763 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:46:08,765 - INFO - ✓ Clicked OK button
+2026-01-10 07:46:11,766 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:46:11,768 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346\Meta
+2026-01-10 07:46:11,769 - INFO - ✓ Found Appout folder
+2026-01-10 07:46:11,773 - INFO - ✓ Found unique ID folder: 64299_11344346
+2026-01-10 07:46:11,782 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:46:11,783 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346\Meta
+2026-01-10 07:46:11,784 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\64299-11344063-NU\64299-11344063-NU_11344346\Appout\64299_11344346\Meta
+2026-01-10 07:46:11,784 - INFO - ✓ 64299-11344063-NU_11344346 processed successfully
+2026-01-10 07:46:11,785 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:46:13,786 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:13,790 - INFO - PROCESSING ITEM 12/34
+2026-01-10 07:46:13,791 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:13,792 - INFO - 
+Item: 66817-11344079-NU_11344569
+2026-01-10 07:46:13,793 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569
+2026-01-10 07:46:13,794 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569\Meta
+2026-01-10 07:46:13,796 - INFO - 
+======================================================================
+2026-01-10 07:46:13,797 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:46:13,798 - INFO - ======================================================================
+2026-01-10 07:46:14,799 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:46:15,145 - INFO - Found 2 Edit field(s)
+2026-01-10 07:46:15,146 - INFO - ✓ Using fields by position
+2026-01-10 07:46:15,146 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:46:15,147 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569
+2026-01-10 07:46:16,870 - INFO - ✓ Entered input folder path
+2026-01-10 07:46:17,372 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:46:17,373 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569\Meta
+2026-01-10 07:46:19,147 - INFO - ✓ Entered meta folder path
+2026-01-10 07:46:19,648 - INFO - ✓ All paths entered successfully
+2026-01-10 07:46:19,649 - INFO - 
+======================================================================
+2026-01-10 07:46:19,650 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:46:19,657 - INFO - ======================================================================
+2026-01-10 07:46:19,659 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:46:19,940 - INFO - Found 4 button(s)
+2026-01-10 07:46:19,943 - INFO - ✓ Found 'Process' button
+2026-01-10 07:46:19,943 - INFO - Clicking Process button...
+2026-01-10 07:46:20,063 - INFO - ✓ Process button clicked
+2026-01-10 07:46:21,063 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:46:21,797 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:46:21,799 - INFO - ✓ Clicked OK button
+2026-01-10 07:46:24,802 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:46:24,810 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569\Meta
+2026-01-10 07:46:24,815 - INFO - ✓ Found Appout folder
+2026-01-10 07:46:24,828 - INFO - ✓ Found unique ID folder: 66817_11344569
+2026-01-10 07:46:24,848 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:46:24,849 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569\Meta
+2026-01-10 07:46:24,858 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344569\Appout\66817_11344569\Meta
+2026-01-10 07:46:24,859 - INFO - ✓ 66817-11344079-NU_11344569 processed successfully
+2026-01-10 07:46:24,860 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:46:26,861 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:26,862 - INFO - PROCESSING ITEM 13/34
+2026-01-10 07:46:26,863 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:26,863 - INFO - 
+Item: 66817-11344079-NU_11344584
+2026-01-10 07:46:26,864 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584
+2026-01-10 07:46:26,865 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584\Meta
+2026-01-10 07:46:26,865 - INFO - 
+======================================================================
+2026-01-10 07:46:26,870 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:46:26,873 - INFO - ======================================================================
+2026-01-10 07:46:27,874 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:46:28,213 - INFO - Found 2 Edit field(s)
+2026-01-10 07:46:28,214 - INFO - ✓ Using fields by position
+2026-01-10 07:46:28,215 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:46:28,215 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584
+2026-01-10 07:46:29,950 - INFO - ✓ Entered input folder path
+2026-01-10 07:46:30,452 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:46:30,454 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584\Meta
+2026-01-10 07:46:32,238 - INFO - ✓ Entered meta folder path
+2026-01-10 07:46:32,739 - INFO - ✓ All paths entered successfully
+2026-01-10 07:46:32,740 - INFO - 
+======================================================================
+2026-01-10 07:46:32,740 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:46:32,741 - INFO - ======================================================================
+2026-01-10 07:46:32,741 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:46:33,013 - INFO - Found 4 button(s)
+2026-01-10 07:46:33,017 - INFO - ✓ Found 'Process' button
+2026-01-10 07:46:33,018 - INFO - Clicking Process button...
+2026-01-10 07:46:33,141 - INFO - ✓ Process button clicked
+2026-01-10 07:46:34,142 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:46:34,822 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:46:34,824 - INFO - ✓ Clicked OK button
+2026-01-10 07:46:37,826 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:46:37,836 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584\Meta
+2026-01-10 07:46:37,845 - INFO - ✓ Found Appout folder
+2026-01-10 07:46:37,894 - INFO - ✓ Found unique ID folder: 66817_11344584
+2026-01-10 07:46:37,908 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:46:37,909 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584\Meta
+2026-01-10 07:46:37,909 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66817-11344079-NU\66817-11344079-NU_11344584\Appout\66817_11344584\Meta
+2026-01-10 07:46:37,911 - INFO - ✓ 66817-11344079-NU_11344584 processed successfully
+2026-01-10 07:46:37,912 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:46:39,914 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:39,916 - INFO - PROCESSING ITEM 14/34
+2026-01-10 07:46:39,917 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:39,917 - INFO - 
+Item: 66301-11344076-NU_11344136
+2026-01-10 07:46:39,918 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136
+2026-01-10 07:46:39,919 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136\Meta
+2026-01-10 07:46:39,919 - INFO - 
+======================================================================
+2026-01-10 07:46:39,920 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:46:39,921 - INFO - ======================================================================
+2026-01-10 07:46:40,922 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:46:41,232 - INFO - Found 2 Edit field(s)
+2026-01-10 07:46:41,233 - INFO - ✓ Using fields by position
+2026-01-10 07:46:41,233 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:46:41,233 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136
+2026-01-10 07:46:42,949 - INFO - ✓ Entered input folder path
+2026-01-10 07:46:43,450 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:46:43,450 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136\Meta
+2026-01-10 07:46:45,214 - INFO - ✓ Entered meta folder path
+2026-01-10 07:46:45,715 - INFO - ✓ All paths entered successfully
+2026-01-10 07:46:45,716 - INFO - 
+======================================================================
+2026-01-10 07:46:45,717 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:46:45,717 - INFO - ======================================================================
+2026-01-10 07:46:45,718 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:46:45,996 - INFO - Found 4 button(s)
+2026-01-10 07:46:46,000 - INFO - ✓ Found 'Process' button
+2026-01-10 07:46:46,001 - INFO - Clicking Process button...
+2026-01-10 07:46:46,121 - INFO - ✓ Process button clicked
+2026-01-10 07:46:47,122 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:46:47,773 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:46:47,774 - INFO - ✓ Clicked OK button
+2026-01-10 07:46:50,776 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:46:50,780 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136\Meta
+2026-01-10 07:46:50,782 - INFO - ✓ Found Appout folder
+2026-01-10 07:46:50,785 - INFO - ✓ Found unique ID folder: 66301_11344136
+2026-01-10 07:46:50,799 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:46:50,800 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136\Meta
+2026-01-10 07:46:50,801 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344136\Appout\66301_11344136\Meta
+2026-01-10 07:46:50,804 - INFO - ✓ 66301-11344076-NU_11344136 processed successfully
+2026-01-10 07:46:50,807 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:46:52,808 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:52,809 - INFO - PROCESSING ITEM 15/34
+2026-01-10 07:46:52,813 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:46:52,815 - INFO - 
+Item: 66301-11344076-NU_11344162
+2026-01-10 07:46:52,822 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162
+2026-01-10 07:46:52,823 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162\Meta
+2026-01-10 07:46:52,825 - INFO - 
+======================================================================
+2026-01-10 07:46:52,837 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:46:52,838 - INFO - ======================================================================
+2026-01-10 07:46:53,839 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:46:54,168 - INFO - Found 2 Edit field(s)
+2026-01-10 07:46:54,169 - INFO - ✓ Using fields by position
+2026-01-10 07:46:54,169 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:46:54,169 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162
+2026-01-10 07:46:55,902 - INFO - ✓ Entered input folder path
+2026-01-10 07:46:56,403 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:46:56,405 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162\Meta
+2026-01-10 07:46:58,174 - INFO - ✓ Entered meta folder path
+2026-01-10 07:46:58,676 - INFO - ✓ All paths entered successfully
+2026-01-10 07:46:58,678 - INFO - 
+======================================================================
+2026-01-10 07:46:58,680 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:46:58,681 - INFO - ======================================================================
+2026-01-10 07:46:58,681 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:46:58,984 - INFO - Found 4 button(s)
+2026-01-10 07:46:58,988 - INFO - ✓ Found 'Process' button
+2026-01-10 07:46:58,988 - INFO - Clicking Process button...
+2026-01-10 07:46:59,102 - INFO - ✓ Process button clicked
+2026-01-10 07:47:00,103 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:47:00,763 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:47:00,764 - INFO - ✓ Clicked OK button
+2026-01-10 07:47:03,766 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:47:03,769 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162\Meta
+2026-01-10 07:47:03,770 - INFO - ✓ Found Appout folder
+2026-01-10 07:47:03,774 - INFO - ✓ Found unique ID folder: 66301_11344162
+2026-01-10 07:47:03,787 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:47:03,789 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162\Meta
+2026-01-10 07:47:03,790 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344162\Appout\66301_11344162\Meta
+2026-01-10 07:47:03,794 - INFO - ✓ 66301-11344076-NU_11344162 processed successfully
+2026-01-10 07:47:03,795 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:47:05,797 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:05,798 - INFO - PROCESSING ITEM 16/34
+2026-01-10 07:47:05,799 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:05,800 - INFO - 
+Item: 66301-11344076-NU_11344502
+2026-01-10 07:47:05,801 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502
+2026-01-10 07:47:05,801 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502\Meta
+2026-01-10 07:47:05,802 - INFO - 
+======================================================================
+2026-01-10 07:47:05,803 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:47:05,804 - INFO - ======================================================================
+2026-01-10 07:47:06,809 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:47:07,138 - INFO - Found 2 Edit field(s)
+2026-01-10 07:47:07,139 - INFO - ✓ Using fields by position
+2026-01-10 07:47:07,140 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:47:07,141 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502
+2026-01-10 07:47:08,859 - INFO - ✓ Entered input folder path
+2026-01-10 07:47:09,360 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:47:09,361 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502\Meta
+2026-01-10 07:47:11,125 - INFO - ✓ Entered meta folder path
+2026-01-10 07:47:11,626 - INFO - ✓ All paths entered successfully
+2026-01-10 07:47:11,627 - INFO - 
+======================================================================
+2026-01-10 07:47:11,629 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:47:11,630 - INFO - ======================================================================
+2026-01-10 07:47:11,631 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:47:11,946 - INFO - Found 4 button(s)
+2026-01-10 07:47:11,949 - INFO - ✓ Found 'Process' button
+2026-01-10 07:47:11,949 - INFO - Clicking Process button...
+2026-01-10 07:47:12,063 - INFO - ✓ Process button clicked
+2026-01-10 07:47:13,064 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:47:13,682 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:47:13,684 - INFO - ✓ Clicked OK button
+2026-01-10 07:47:16,685 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:47:16,687 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502\Meta
+2026-01-10 07:47:16,689 - INFO - ✓ Found Appout folder
+2026-01-10 07:47:16,691 - INFO - ✓ Found unique ID folder: 66301_11344502
+2026-01-10 07:47:16,699 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:47:16,700 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502\Meta
+2026-01-10 07:47:16,701 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Sravanthi\66301-11344076-NU\66301-11344076-NU_11344502\Appout\66301_11344502\Meta
+2026-01-10 07:47:16,701 - INFO - ✓ 66301-11344076-NU_11344502 processed successfully
+2026-01-10 07:47:16,702 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:47:18,703 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:18,704 - INFO - PROCESSING ITEM 17/34
+2026-01-10 07:47:18,705 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:18,705 - INFO - 
+Item: 66301-11344076-NU_11344108
+2026-01-10 07:47:18,706 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108
+2026-01-10 07:47:18,706 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108\Meta
+2026-01-10 07:47:18,707 - INFO - 
+======================================================================
+2026-01-10 07:47:18,707 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:47:18,708 - INFO - ======================================================================
+2026-01-10 07:47:19,709 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:47:20,033 - INFO - Found 2 Edit field(s)
+2026-01-10 07:47:20,034 - INFO - ✓ Using fields by position
+2026-01-10 07:47:20,034 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:47:20,035 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108
+2026-01-10 07:47:21,766 - INFO - ✓ Entered input folder path
+2026-01-10 07:47:22,267 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:47:22,268 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108\Meta
+2026-01-10 07:47:24,044 - INFO - ✓ Entered meta folder path
+2026-01-10 07:47:24,545 - INFO - ✓ All paths entered successfully
+2026-01-10 07:47:24,545 - INFO - 
+======================================================================
+2026-01-10 07:47:24,546 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:47:24,546 - INFO - ======================================================================
+2026-01-10 07:47:24,547 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:47:24,838 - INFO - Found 4 button(s)
+2026-01-10 07:47:24,842 - INFO - ✓ Found 'Process' button
+2026-01-10 07:47:24,842 - INFO - Clicking Process button...
+2026-01-10 07:47:24,962 - INFO - ✓ Process button clicked
+2026-01-10 07:47:25,963 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:47:26,626 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:47:26,628 - INFO - ✓ Clicked OK button
+2026-01-10 07:47:29,629 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:47:29,631 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108\Meta
+2026-01-10 07:47:29,633 - INFO - ✓ Found Appout folder
+2026-01-10 07:47:29,636 - INFO - ✓ Found unique ID folder: 66301_11344108
+2026-01-10 07:47:29,741 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:47:29,741 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108\Meta
+2026-01-10 07:47:29,742 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344108\Appout\66301_11344108\Meta
+2026-01-10 07:47:29,742 - INFO - ✓ 66301-11344076-NU_11344108 processed successfully
+2026-01-10 07:47:29,743 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:47:31,744 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:31,745 - INFO - PROCESSING ITEM 18/34
+2026-01-10 07:47:31,745 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:31,746 - INFO - 
+Item: 66301-11344076-NU_11344220
+2026-01-10 07:47:31,746 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220
+2026-01-10 07:47:31,747 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220\Meta
+2026-01-10 07:47:31,747 - INFO - 
+======================================================================
+2026-01-10 07:47:31,748 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:47:31,749 - INFO - ======================================================================
+2026-01-10 07:47:32,750 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:47:33,086 - INFO - Found 2 Edit field(s)
+2026-01-10 07:47:33,087 - INFO - ✓ Using fields by position
+2026-01-10 07:47:33,087 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:47:33,088 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220
+2026-01-10 07:47:34,821 - INFO - ✓ Entered input folder path
+2026-01-10 07:47:35,322 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:47:35,323 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220\Meta
+2026-01-10 07:47:37,095 - INFO - ✓ Entered meta folder path
+2026-01-10 07:47:37,596 - INFO - ✓ All paths entered successfully
+2026-01-10 07:47:37,597 - INFO - 
+======================================================================
+2026-01-10 07:47:37,598 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:47:37,598 - INFO - ======================================================================
+2026-01-10 07:47:37,602 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:47:37,890 - INFO - Found 4 button(s)
+2026-01-10 07:47:37,893 - INFO - ✓ Found 'Process' button
+2026-01-10 07:47:37,893 - INFO - Clicking Process button...
+2026-01-10 07:47:38,009 - INFO - ✓ Process button clicked
+2026-01-10 07:47:39,010 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:47:39,740 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:47:39,741 - INFO - ✓ Clicked OK button
+2026-01-10 07:47:42,743 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:47:42,752 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220\Meta
+2026-01-10 07:47:42,757 - INFO - ✓ Found Appout folder
+2026-01-10 07:47:42,769 - INFO - ✓ Found unique ID folder: 66301_11344220
+2026-01-10 07:47:42,796 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:47:42,801 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220\Meta
+2026-01-10 07:47:42,803 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344220\Appout\66301_11344220\Meta
+2026-01-10 07:47:42,804 - INFO - ✓ 66301-11344076-NU_11344220 processed successfully
+2026-01-10 07:47:42,805 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:47:44,807 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:44,808 - INFO - PROCESSING ITEM 19/34
+2026-01-10 07:47:44,808 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:44,809 - INFO - 
+Item: 66301-11344076-NU_11344310
+2026-01-10 07:47:44,809 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310
+2026-01-10 07:47:44,809 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310\Meta
+2026-01-10 07:47:44,810 - INFO - 
+======================================================================
+2026-01-10 07:47:44,810 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:47:44,811 - INFO - ======================================================================
+2026-01-10 07:47:45,812 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:47:46,399 - INFO - Found 2 Edit field(s)
+2026-01-10 07:47:46,406 - INFO - ✓ Using fields by position
+2026-01-10 07:47:46,406 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:47:46,407 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310
+2026-01-10 07:47:48,177 - INFO - ✓ Entered input folder path
+2026-01-10 07:47:48,678 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:47:48,679 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310\Meta
+2026-01-10 07:47:50,453 - INFO - ✓ Entered meta folder path
+2026-01-10 07:47:50,954 - INFO - ✓ All paths entered successfully
+2026-01-10 07:47:50,955 - INFO - 
+======================================================================
+2026-01-10 07:47:50,957 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:47:50,958 - INFO - ======================================================================
+2026-01-10 07:47:50,959 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:47:51,252 - INFO - Found 4 button(s)
+2026-01-10 07:47:51,255 - INFO - ✓ Found 'Process' button
+2026-01-10 07:47:51,256 - INFO - Clicking Process button...
+2026-01-10 07:47:51,373 - INFO - ✓ Process button clicked
+2026-01-10 07:47:52,374 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:47:53,038 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:47:53,040 - INFO - ✓ Clicked OK button
+2026-01-10 07:47:56,042 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:47:56,049 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310\Meta
+2026-01-10 07:47:56,054 - INFO - ✓ Found Appout folder
+2026-01-10 07:47:56,061 - INFO - ✓ Found unique ID folder: 66301_11344310
+2026-01-10 07:47:56,085 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:47:56,085 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310\Meta
+2026-01-10 07:47:56,086 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\66301-11344076-NU\66301-11344076-NU_11344310\Appout\66301_11344310\Meta
+2026-01-10 07:47:56,086 - INFO - ✓ 66301-11344076-NU_11344310 processed successfully
+2026-01-10 07:47:56,087 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:47:58,088 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:58,089 - INFO - PROCESSING ITEM 20/34
+2026-01-10 07:47:58,090 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:47:58,090 - INFO - 
+Item: 64299-11344063-NU_11344143
+2026-01-10 07:47:58,091 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143
+2026-01-10 07:47:58,092 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143\Meta
+2026-01-10 07:47:58,093 - INFO - 
+======================================================================
+2026-01-10 07:47:58,094 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:47:58,100 - INFO - ======================================================================
+2026-01-10 07:47:59,101 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:47:59,437 - INFO - Found 2 Edit field(s)
+2026-01-10 07:47:59,439 - INFO - ✓ Using fields by position
+2026-01-10 07:47:59,439 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:47:59,439 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143
+2026-01-10 07:48:01,170 - INFO - ✓ Entered input folder path
+2026-01-10 07:48:01,672 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:48:01,673 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143\Meta
+2026-01-10 07:48:03,451 - INFO - ✓ Entered meta folder path
+2026-01-10 07:48:03,952 - INFO - ✓ All paths entered successfully
+2026-01-10 07:48:03,953 - INFO - 
+======================================================================
+2026-01-10 07:48:03,955 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:48:03,956 - INFO - ======================================================================
+2026-01-10 07:48:03,957 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:48:04,250 - INFO - Found 4 button(s)
+2026-01-10 07:48:04,253 - INFO - ✓ Found 'Process' button
+2026-01-10 07:48:04,253 - INFO - Clicking Process button...
+2026-01-10 07:48:04,370 - INFO - ✓ Process button clicked
+2026-01-10 07:48:05,370 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:48:06,056 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:48:06,058 - INFO - ✓ Clicked OK button
+2026-01-10 07:48:09,061 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:48:09,065 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143\Meta
+2026-01-10 07:48:09,069 - INFO - ✓ Found Appout folder
+2026-01-10 07:48:09,077 - INFO - ✓ Found unique ID folder: 64299_11344143
+2026-01-10 07:48:09,088 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:48:09,088 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143\Meta
+2026-01-10 07:48:09,089 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344143\Appout\64299_11344143\Meta
+2026-01-10 07:48:09,089 - INFO - ✓ 64299-11344063-NU_11344143 processed successfully
+2026-01-10 07:48:09,090 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:48:11,091 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:11,095 - INFO - PROCESSING ITEM 21/34
+2026-01-10 07:48:11,096 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:11,097 - INFO - 
+Item: 64299-11344063-NU_11344064
+2026-01-10 07:48:11,098 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064
+2026-01-10 07:48:11,099 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064\Meta
+2026-01-10 07:48:11,099 - INFO - 
+======================================================================
+2026-01-10 07:48:11,101 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:48:11,102 - INFO - ======================================================================
+2026-01-10 07:48:12,104 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:48:12,437 - INFO - Found 2 Edit field(s)
+2026-01-10 07:48:12,438 - INFO - ✓ Using fields by position
+2026-01-10 07:48:12,438 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:48:12,439 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064
+2026-01-10 07:48:14,164 - INFO - ✓ Entered input folder path
+2026-01-10 07:48:14,665 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:48:14,668 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064\Meta
+2026-01-10 07:48:16,451 - INFO - ✓ Entered meta folder path
+2026-01-10 07:48:16,952 - INFO - ✓ All paths entered successfully
+2026-01-10 07:48:16,953 - INFO - 
+======================================================================
+2026-01-10 07:48:16,955 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:48:16,956 - INFO - ======================================================================
+2026-01-10 07:48:16,957 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:48:17,234 - INFO - Found 4 button(s)
+2026-01-10 07:48:17,237 - INFO - ✓ Found 'Process' button
+2026-01-10 07:48:17,237 - INFO - Clicking Process button...
+2026-01-10 07:48:17,347 - INFO - ✓ Process button clicked
+2026-01-10 07:48:18,348 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:48:19,017 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:48:19,019 - INFO - ✓ Clicked OK button
+2026-01-10 07:48:22,020 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:48:22,024 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064\Meta
+2026-01-10 07:48:22,026 - INFO - ✓ Found Appout folder
+2026-01-10 07:48:22,029 - INFO - ✓ Found unique ID folder: 64299_11344064
+2026-01-10 07:48:22,043 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:48:22,044 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064\Meta
+2026-01-10 07:48:22,046 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Jithendra\64299-11344063-NU\64299-11344063-NU_11344064\Appout\64299_11344064\Meta
+2026-01-10 07:48:22,049 - INFO - ✓ 64299-11344063-NU_11344064 processed successfully
+2026-01-10 07:48:22,050 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:48:24,052 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:24,053 - INFO - PROCESSING ITEM 22/34
+2026-01-10 07:48:24,054 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:24,057 - INFO - 
+Item: 66301-11344076-NU_11344243
+2026-01-10 07:48:24,059 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243
+2026-01-10 07:48:24,061 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243\Meta
+2026-01-10 07:48:24,062 - INFO - 
+======================================================================
+2026-01-10 07:48:24,063 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:48:24,064 - INFO - ======================================================================
+2026-01-10 07:48:25,065 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:48:25,423 - INFO - Found 2 Edit field(s)
+2026-01-10 07:48:25,425 - INFO - ✓ Using fields by position
+2026-01-10 07:48:25,425 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:48:25,426 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243
+2026-01-10 07:48:27,078 - INFO - ✓ Entered input folder path
+2026-01-10 07:48:27,579 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:48:27,580 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243\Meta
+2026-01-10 07:48:29,298 - INFO - ✓ Entered meta folder path
+2026-01-10 07:48:29,799 - INFO - ✓ All paths entered successfully
+2026-01-10 07:48:29,800 - INFO - 
+======================================================================
+2026-01-10 07:48:29,802 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:48:29,803 - INFO - ======================================================================
+2026-01-10 07:48:29,804 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:48:30,095 - INFO - Found 4 button(s)
+2026-01-10 07:48:30,098 - INFO - ✓ Found 'Process' button
+2026-01-10 07:48:30,098 - INFO - Clicking Process button...
+2026-01-10 07:48:30,211 - INFO - ✓ Process button clicked
+2026-01-10 07:48:31,212 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:48:31,888 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:48:31,890 - INFO - ✓ Clicked OK button
+2026-01-10 07:48:34,892 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:48:34,896 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243\Meta
+2026-01-10 07:48:34,898 - INFO - ✓ Found Appout folder
+2026-01-10 07:48:34,906 - INFO - ✓ Found unique ID folder: 66301_11344243
+2026-01-10 07:48:34,926 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:48:34,926 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243\Meta
+2026-01-10 07:48:34,927 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344243\Appout\66301_11344243\Meta
+2026-01-10 07:48:34,928 - INFO - ✓ 66301-11344076-NU_11344243 processed successfully
+2026-01-10 07:48:34,929 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:48:36,931 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:36,933 - INFO - PROCESSING ITEM 23/34
+2026-01-10 07:48:36,934 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:36,940 - INFO - 
+Item: 66301-11344076-NU_11344303
+2026-01-10 07:48:36,943 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303
+2026-01-10 07:48:36,944 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303\Meta
+2026-01-10 07:48:36,946 - INFO - 
+======================================================================
+2026-01-10 07:48:36,950 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:48:36,954 - INFO - ======================================================================
+2026-01-10 07:48:37,956 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:48:38,286 - INFO - Found 2 Edit field(s)
+2026-01-10 07:48:38,287 - INFO - ✓ Using fields by position
+2026-01-10 07:48:38,287 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:48:38,288 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303
+2026-01-10 07:48:39,971 - INFO - ✓ Entered input folder path
+2026-01-10 07:48:40,472 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:48:40,473 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303\Meta
+2026-01-10 07:48:42,219 - INFO - ✓ Entered meta folder path
+2026-01-10 07:48:42,720 - INFO - ✓ All paths entered successfully
+2026-01-10 07:48:42,722 - INFO - 
+======================================================================
+2026-01-10 07:48:42,723 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:48:42,724 - INFO - ======================================================================
+2026-01-10 07:48:42,726 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:48:43,020 - INFO - Found 4 button(s)
+2026-01-10 07:48:43,023 - INFO - ✓ Found 'Process' button
+2026-01-10 07:48:43,023 - INFO - Clicking Process button...
+2026-01-10 07:48:43,143 - INFO - ✓ Process button clicked
+2026-01-10 07:48:44,144 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:48:44,821 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:48:44,822 - INFO - ✓ Clicked OK button
+2026-01-10 07:48:47,825 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:48:47,831 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303\Meta
+2026-01-10 07:48:47,838 - INFO - ✓ Found Appout folder
+2026-01-10 07:48:47,847 - INFO - ✓ Found unique ID folder: 66301_11344303
+2026-01-10 07:48:47,876 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:48:47,877 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303\Meta
+2026-01-10 07:48:47,878 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344303\Appout\66301_11344303\Meta
+2026-01-10 07:48:47,881 - INFO - ✓ 66301-11344076-NU_11344303 processed successfully
+2026-01-10 07:48:47,881 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:48:49,888 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:49,889 - INFO - PROCESSING ITEM 24/34
+2026-01-10 07:48:49,891 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:48:49,892 - INFO - 
+Item: 66301-11344076-NU_11344363
+2026-01-10 07:48:49,893 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363
+2026-01-10 07:48:49,895 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363\Meta
+2026-01-10 07:48:49,907 - INFO - 
+======================================================================
+2026-01-10 07:48:49,908 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:48:49,911 - INFO - ======================================================================
+2026-01-10 07:48:50,912 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:48:51,244 - INFO - Found 2 Edit field(s)
+2026-01-10 07:48:51,245 - INFO - ✓ Using fields by position
+2026-01-10 07:48:51,246 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:48:51,246 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363
+2026-01-10 07:48:52,916 - INFO - ✓ Entered input folder path
+2026-01-10 07:48:53,420 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:48:53,423 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363\Meta
+2026-01-10 07:48:55,155 - INFO - ✓ Entered meta folder path
+2026-01-10 07:48:55,656 - INFO - ✓ All paths entered successfully
+2026-01-10 07:48:55,656 - INFO - 
+======================================================================
+2026-01-10 07:48:55,657 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:48:55,658 - INFO - ======================================================================
+2026-01-10 07:48:55,658 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:48:55,925 - INFO - Found 4 button(s)
+2026-01-10 07:48:55,928 - INFO - ✓ Found 'Process' button
+2026-01-10 07:48:55,928 - INFO - Clicking Process button...
+2026-01-10 07:48:56,039 - INFO - ✓ Process button clicked
+2026-01-10 07:48:57,040 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:48:57,708 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:48:57,709 - INFO - ✓ Clicked OK button
+2026-01-10 07:49:00,711 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:49:00,716 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363\Meta
+2026-01-10 07:49:00,719 - INFO - ✓ Found Appout folder
+2026-01-10 07:49:00,726 - INFO - ✓ Found unique ID folder: 66301_11344363
+2026-01-10 07:49:00,753 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:49:00,755 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363\Meta
+2026-01-10 07:49:00,755 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344363\Appout\66301_11344363\Meta
+2026-01-10 07:49:00,756 - INFO - ✓ 66301-11344076-NU_11344363 processed successfully
+2026-01-10 07:49:00,757 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:49:02,758 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:02,758 - INFO - PROCESSING ITEM 25/34
+2026-01-10 07:49:02,759 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:02,760 - INFO - 
+Item: 66301-11344076-NU_11344461
+2026-01-10 07:49:02,760 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461
+2026-01-10 07:49:02,761 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461\Meta
+2026-01-10 07:49:02,761 - INFO - 
+======================================================================
+2026-01-10 07:49:02,766 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:49:02,767 - INFO - ======================================================================
+2026-01-10 07:49:03,768 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:49:04,114 - INFO - Found 2 Edit field(s)
+2026-01-10 07:49:04,115 - INFO - ✓ Using fields by position
+2026-01-10 07:49:04,115 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:49:04,116 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461
+2026-01-10 07:49:05,804 - INFO - ✓ Entered input folder path
+2026-01-10 07:49:06,305 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:49:06,307 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461\Meta
+2026-01-10 07:49:08,038 - INFO - ✓ Entered meta folder path
+2026-01-10 07:49:08,539 - INFO - ✓ All paths entered successfully
+2026-01-10 07:49:08,540 - INFO - 
+======================================================================
+2026-01-10 07:49:08,541 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:49:08,541 - INFO - ======================================================================
+2026-01-10 07:49:08,541 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:49:08,814 - INFO - Found 4 button(s)
+2026-01-10 07:49:08,817 - INFO - ✓ Found 'Process' button
+2026-01-10 07:49:08,817 - INFO - Clicking Process button...
+2026-01-10 07:49:08,938 - INFO - ✓ Process button clicked
+2026-01-10 07:49:09,939 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:49:10,629 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:49:10,631 - INFO - ✓ Clicked OK button
+2026-01-10 07:49:13,633 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:49:13,639 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461\Meta
+2026-01-10 07:49:13,650 - INFO - ✓ Found Appout folder
+2026-01-10 07:49:13,654 - INFO - ✓ Found unique ID folder: 66301_11344461
+2026-01-10 07:49:13,684 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:49:13,685 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461\Meta
+2026-01-10 07:49:13,686 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344461\Appout\66301_11344461\Meta
+2026-01-10 07:49:13,686 - INFO - ✓ 66301-11344076-NU_11344461 processed successfully
+2026-01-10 07:49:13,687 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:49:15,688 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:15,689 - INFO - PROCESSING ITEM 26/34
+2026-01-10 07:49:15,689 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:15,690 - INFO - 
+Item: 66301-11344076-NU_11344469
+2026-01-10 07:49:15,691 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469
+2026-01-10 07:49:15,691 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469\Meta
+2026-01-10 07:49:15,692 - INFO - 
+======================================================================
+2026-01-10 07:49:15,697 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:49:15,699 - INFO - ======================================================================
+2026-01-10 07:49:16,701 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:49:17,023 - INFO - Found 2 Edit field(s)
+2026-01-10 07:49:17,024 - INFO - ✓ Using fields by position
+2026-01-10 07:49:17,024 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:49:17,024 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469
+2026-01-10 07:49:18,699 - INFO - ✓ Entered input folder path
+2026-01-10 07:49:19,200 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:49:19,201 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469\Meta
+2026-01-10 07:49:20,926 - INFO - ✓ Entered meta folder path
+2026-01-10 07:49:21,427 - INFO - ✓ All paths entered successfully
+2026-01-10 07:49:21,429 - INFO - 
+======================================================================
+2026-01-10 07:49:21,430 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:49:21,430 - INFO - ======================================================================
+2026-01-10 07:49:21,431 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:49:21,706 - INFO - Found 4 button(s)
+2026-01-10 07:49:21,711 - INFO - ✓ Found 'Process' button
+2026-01-10 07:49:21,711 - INFO - Clicking Process button...
+2026-01-10 07:49:21,835 - INFO - ✓ Process button clicked
+2026-01-10 07:49:22,836 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:49:23,504 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:49:23,506 - INFO - ✓ Clicked OK button
+2026-01-10 07:49:26,509 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:49:26,515 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469\Meta
+2026-01-10 07:49:26,520 - INFO - ✓ Found Appout folder
+2026-01-10 07:49:26,535 - INFO - ✓ Found unique ID folder: 66301_11344469
+2026-01-10 07:49:26,565 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:49:26,566 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469\Meta
+2026-01-10 07:49:26,567 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Navya\66301-11344076-NU\66301-11344076-NU_11344469\Appout\66301_11344469\Meta
+2026-01-10 07:49:26,568 - INFO - ✓ 66301-11344076-NU_11344469 processed successfully
+2026-01-10 07:49:26,568 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:49:28,570 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:28,571 - INFO - PROCESSING ITEM 27/34
+2026-01-10 07:49:28,573 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:28,577 - INFO - 
+Item: 66817-11344079-NU_11344580
+2026-01-10 07:49:28,580 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580
+2026-01-10 07:49:28,584 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580\Meta
+2026-01-10 07:49:28,585 - INFO - 
+======================================================================
+2026-01-10 07:49:28,602 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:49:28,604 - INFO - ======================================================================
+2026-01-10 07:49:29,605 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:49:29,943 - INFO - Found 2 Edit field(s)
+2026-01-10 07:49:29,944 - INFO - ✓ Using fields by position
+2026-01-10 07:49:29,944 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:49:29,944 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580
+2026-01-10 07:49:31,901 - INFO - ✓ Entered input folder path
+2026-01-10 07:49:32,403 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:49:32,404 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580\Meta
+2026-01-10 07:49:34,140 - INFO - ✓ Entered meta folder path
+2026-01-10 07:49:34,641 - INFO - ✓ All paths entered successfully
+2026-01-10 07:49:34,643 - INFO - 
+======================================================================
+2026-01-10 07:49:34,645 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:49:34,646 - INFO - ======================================================================
+2026-01-10 07:49:34,647 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:49:34,950 - INFO - Found 4 button(s)
+2026-01-10 07:49:34,953 - INFO - ✓ Found 'Process' button
+2026-01-10 07:49:34,954 - INFO - Clicking Process button...
+2026-01-10 07:49:35,063 - INFO - ✓ Process button clicked
+2026-01-10 07:49:36,063 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:49:36,718 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:49:36,719 - INFO - ✓ Clicked OK button
+2026-01-10 07:49:39,723 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:49:39,729 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580\Meta
+2026-01-10 07:49:39,734 - INFO - ✓ Found Appout folder
+2026-01-10 07:49:39,748 - INFO - ✓ Found unique ID folder: 66817_11344580
+2026-01-10 07:49:39,773 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:49:39,776 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580\Meta
+2026-01-10 07:49:39,777 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66817-11344079-NU\66817-11344079-NU_11344580\Appout\66817_11344580\Meta
+2026-01-10 07:49:39,777 - INFO - ✓ 66817-11344079-NU_11344580 processed successfully
+2026-01-10 07:49:39,778 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:49:41,779 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:41,780 - INFO - PROCESSING ITEM 28/34
+2026-01-10 07:49:41,781 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:41,782 - INFO - 
+Item: 66301-11344076-NU_11344238
+2026-01-10 07:49:41,783 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238
+2026-01-10 07:49:41,784 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238\Meta
+2026-01-10 07:49:41,784 - INFO - 
+======================================================================
+2026-01-10 07:49:41,786 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:49:41,791 - INFO - ======================================================================
+2026-01-10 07:49:42,793 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:49:43,124 - INFO - Found 2 Edit field(s)
+2026-01-10 07:49:43,136 - INFO - ✓ Using fields by position
+2026-01-10 07:49:43,137 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:49:43,137 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238
+2026-01-10 07:49:44,821 - INFO - ✓ Entered input folder path
+2026-01-10 07:49:45,322 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:49:45,323 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238\Meta
+2026-01-10 07:49:47,081 - INFO - ✓ Entered meta folder path
+2026-01-10 07:49:47,582 - INFO - ✓ All paths entered successfully
+2026-01-10 07:49:47,583 - INFO - 
+======================================================================
+2026-01-10 07:49:47,584 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:49:47,586 - INFO - ======================================================================
+2026-01-10 07:49:47,587 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:49:47,874 - INFO - Found 4 button(s)
+2026-01-10 07:49:47,877 - INFO - ✓ Found 'Process' button
+2026-01-10 07:49:47,877 - INFO - Clicking Process button...
+2026-01-10 07:49:47,995 - INFO - ✓ Process button clicked
+2026-01-10 07:49:48,996 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:49:49,667 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:49:49,672 - INFO - ✓ Clicked OK button
+2026-01-10 07:49:52,675 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:49:52,678 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238\Meta
+2026-01-10 07:49:52,681 - INFO - ✓ Found Appout folder
+2026-01-10 07:49:52,690 - INFO - ✓ Found unique ID folder: 66301_11344238
+2026-01-10 07:49:52,721 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:49:52,723 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238\Meta
+2026-01-10 07:49:52,724 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344238\Appout\66301_11344238\Meta
+2026-01-10 07:49:52,725 - INFO - ✓ 66301-11344076-NU_11344238 processed successfully
+2026-01-10 07:49:52,726 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:49:54,727 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:54,727 - INFO - PROCESSING ITEM 29/34
+2026-01-10 07:49:54,727 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:49:54,728 - INFO - 
+Item: 66301-11344076-NU_11344258
+2026-01-10 07:49:54,728 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258
+2026-01-10 07:49:54,728 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258\Meta
+2026-01-10 07:49:54,729 - INFO - 
+======================================================================
+2026-01-10 07:49:54,729 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:49:54,730 - INFO - ======================================================================
+2026-01-10 07:49:55,730 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:49:56,060 - INFO - Found 2 Edit field(s)
+2026-01-10 07:49:56,061 - INFO - ✓ Using fields by position
+2026-01-10 07:49:56,061 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:49:56,061 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258
+2026-01-10 07:49:57,734 - INFO - ✓ Entered input folder path
+2026-01-10 07:49:58,235 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:49:58,239 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258\Meta
+2026-01-10 07:49:59,986 - INFO - ✓ Entered meta folder path
+2026-01-10 07:50:00,487 - INFO - ✓ All paths entered successfully
+2026-01-10 07:50:00,488 - INFO - 
+======================================================================
+2026-01-10 07:50:00,490 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:50:00,491 - INFO - ======================================================================
+2026-01-10 07:50:00,492 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:50:00,770 - INFO - Found 4 button(s)
+2026-01-10 07:50:00,773 - INFO - ✓ Found 'Process' button
+2026-01-10 07:50:00,774 - INFO - Clicking Process button...
+2026-01-10 07:50:00,890 - INFO - ✓ Process button clicked
+2026-01-10 07:50:01,890 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:50:02,544 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:50:02,546 - INFO - ✓ Clicked OK button
+2026-01-10 07:50:05,551 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:50:05,558 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258\Meta
+2026-01-10 07:50:05,563 - INFO - ✓ Found Appout folder
+2026-01-10 07:50:05,578 - INFO - ✓ Found unique ID folder: 66301_11344258
+2026-01-10 07:50:05,599 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:50:05,604 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258\Meta
+2026-01-10 07:50:05,605 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344258\Appout\66301_11344258\Meta
+2026-01-10 07:50:05,607 - INFO - ✓ 66301-11344076-NU_11344258 processed successfully
+2026-01-10 07:50:05,608 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:50:07,609 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:07,610 - INFO - PROCESSING ITEM 30/34
+2026-01-10 07:50:07,611 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:07,613 - INFO - 
+Item: 66301-11344076-NU_11344275
+2026-01-10 07:50:07,620 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275
+2026-01-10 07:50:07,622 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275\Meta
+2026-01-10 07:50:07,624 - INFO - 
+======================================================================
+2026-01-10 07:50:07,625 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:50:07,625 - INFO - ======================================================================
+2026-01-10 07:50:08,633 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:50:08,967 - INFO - Found 2 Edit field(s)
+2026-01-10 07:50:08,968 - INFO - ✓ Using fields by position
+2026-01-10 07:50:08,969 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:50:08,969 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275
+2026-01-10 07:50:10,675 - INFO - ✓ Entered input folder path
+2026-01-10 07:50:11,176 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:50:11,178 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275\Meta
+2026-01-10 07:50:12,936 - INFO - ✓ Entered meta folder path
+2026-01-10 07:50:13,437 - INFO - ✓ All paths entered successfully
+2026-01-10 07:50:13,438 - INFO - 
+======================================================================
+2026-01-10 07:50:13,438 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:50:13,439 - INFO - ======================================================================
+2026-01-10 07:50:13,439 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:50:13,721 - INFO - Found 4 button(s)
+2026-01-10 07:50:13,724 - INFO - ✓ Found 'Process' button
+2026-01-10 07:50:13,724 - INFO - Clicking Process button...
+2026-01-10 07:50:13,840 - INFO - ✓ Process button clicked
+2026-01-10 07:50:14,840 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:50:15,477 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:50:15,481 - INFO - ✓ Clicked OK button
+2026-01-10 07:50:18,483 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:50:18,491 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275\Meta
+2026-01-10 07:50:18,500 - INFO - ✓ Found Appout folder
+2026-01-10 07:50:18,509 - INFO - ✓ Found unique ID folder: 66301_11344275
+2026-01-10 07:50:18,532 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:50:18,534 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275\Meta
+2026-01-10 07:50:18,534 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344275\Appout\66301_11344275\Meta
+2026-01-10 07:50:18,535 - INFO - ✓ 66301-11344076-NU_11344275 processed successfully
+2026-01-10 07:50:18,536 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:50:20,537 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:20,538 - INFO - PROCESSING ITEM 31/34
+2026-01-10 07:50:20,539 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:20,539 - INFO - 
+Item: 66301-11344076-NU_11344399
+2026-01-10 07:50:20,540 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399
+2026-01-10 07:50:20,541 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399\Meta
+2026-01-10 07:50:20,541 - INFO - 
+======================================================================
+2026-01-10 07:50:20,542 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:50:20,542 - INFO - ======================================================================
+2026-01-10 07:50:21,548 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:50:21,880 - INFO - Found 2 Edit field(s)
+2026-01-10 07:50:21,881 - INFO - ✓ Using fields by position
+2026-01-10 07:50:21,882 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:50:21,882 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399
+2026-01-10 07:50:23,583 - INFO - ✓ Entered input folder path
+2026-01-10 07:50:24,084 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:50:24,085 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399\Meta
+2026-01-10 07:50:25,828 - INFO - ✓ Entered meta folder path
+2026-01-10 07:50:26,329 - INFO - ✓ All paths entered successfully
+2026-01-10 07:50:26,329 - INFO - 
+======================================================================
+2026-01-10 07:50:26,330 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:50:26,330 - INFO - ======================================================================
+2026-01-10 07:50:26,330 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:50:26,617 - INFO - Found 4 button(s)
+2026-01-10 07:50:26,620 - INFO - ✓ Found 'Process' button
+2026-01-10 07:50:26,621 - INFO - Clicking Process button...
+2026-01-10 07:50:26,738 - INFO - ✓ Process button clicked
+2026-01-10 07:50:27,739 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:50:28,440 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:50:28,444 - INFO - ✓ Clicked OK button
+2026-01-10 07:50:31,447 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:50:31,451 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399\Meta
+2026-01-10 07:50:31,455 - INFO - ✓ Found Appout folder
+2026-01-10 07:50:31,469 - INFO - ✓ Found unique ID folder: 66301_11344399
+2026-01-10 07:50:31,490 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:50:31,495 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399\Meta
+2026-01-10 07:50:31,497 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344399\Appout\66301_11344399\Meta
+2026-01-10 07:50:31,498 - INFO - ✓ 66301-11344076-NU_11344399 processed successfully
+2026-01-10 07:50:31,498 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:50:33,500 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:33,501 - INFO - PROCESSING ITEM 32/34
+2026-01-10 07:50:33,502 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:33,503 - INFO - 
+Item: 66301-11344076-NU_11344536
+2026-01-10 07:50:33,504 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536
+2026-01-10 07:50:33,505 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536\Meta
+2026-01-10 07:50:33,506 - INFO - 
+======================================================================
+2026-01-10 07:50:33,515 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:50:33,517 - INFO - ======================================================================
+2026-01-10 07:50:34,518 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:50:34,843 - INFO - Found 2 Edit field(s)
+2026-01-10 07:50:34,844 - INFO - ✓ Using fields by position
+2026-01-10 07:50:34,844 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:50:34,845 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536
+2026-01-10 07:50:36,543 - INFO - ✓ Entered input folder path
+2026-01-10 07:50:37,044 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:50:37,045 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536\Meta
+2026-01-10 07:50:38,791 - INFO - ✓ Entered meta folder path
+2026-01-10 07:50:39,292 - INFO - ✓ All paths entered successfully
+2026-01-10 07:50:39,294 - INFO - 
+======================================================================
+2026-01-10 07:50:39,295 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:50:39,296 - INFO - ======================================================================
+2026-01-10 07:50:39,297 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:50:39,592 - INFO - Found 4 button(s)
+2026-01-10 07:50:39,596 - INFO - ✓ Found 'Process' button
+2026-01-10 07:50:39,596 - INFO - Clicking Process button...
+2026-01-10 07:50:39,717 - INFO - ✓ Process button clicked
+2026-01-10 07:50:40,718 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:50:41,387 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:50:41,391 - INFO - ✓ Clicked OK button
+2026-01-10 07:50:44,393 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:50:44,399 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536\Meta
+2026-01-10 07:50:44,404 - INFO - ✓ Found Appout folder
+2026-01-10 07:50:44,417 - INFO - ✓ Found unique ID folder: 66301_11344536
+2026-01-10 07:50:44,444 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:50:44,445 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536\Meta
+2026-01-10 07:50:44,446 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344536\Appout\66301_11344536\Meta
+2026-01-10 07:50:44,446 - INFO - ✓ 66301-11344076-NU_11344536 processed successfully
+2026-01-10 07:50:44,447 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:50:46,449 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:46,449 - INFO - PROCESSING ITEM 33/34
+2026-01-10 07:50:46,450 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:46,450 - INFO - 
+Item: 66301-11344076-NU_11344570
+2026-01-10 07:50:46,451 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570
+2026-01-10 07:50:46,451 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570\Meta
+2026-01-10 07:50:46,451 - INFO - 
+======================================================================
+2026-01-10 07:50:46,452 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:50:46,452 - INFO - ======================================================================
+2026-01-10 07:50:47,453 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:50:47,785 - INFO - Found 2 Edit field(s)
+2026-01-10 07:50:47,785 - INFO - ✓ Using fields by position
+2026-01-10 07:50:47,786 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:50:47,786 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570
+2026-01-10 07:50:49,493 - INFO - ✓ Entered input folder path
+2026-01-10 07:50:49,994 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:50:49,995 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570\Meta
+2026-01-10 07:50:51,742 - INFO - ✓ Entered meta folder path
+2026-01-10 07:50:52,243 - INFO - ✓ All paths entered successfully
+2026-01-10 07:50:52,244 - INFO - 
+======================================================================
+2026-01-10 07:50:52,245 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:50:52,246 - INFO - ======================================================================
+2026-01-10 07:50:52,247 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:50:52,537 - INFO - Found 4 button(s)
+2026-01-10 07:50:52,541 - INFO - ✓ Found 'Process' button
+2026-01-10 07:50:52,542 - INFO - Clicking Process button...
+2026-01-10 07:50:52,663 - INFO - ✓ Process button clicked
+2026-01-10 07:50:53,664 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:50:54,313 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:50:54,314 - INFO - ✓ Clicked OK button
+2026-01-10 07:50:57,315 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:50:57,318 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570\Meta
+2026-01-10 07:50:57,320 - INFO - ✓ Found Appout folder
+2026-01-10 07:50:57,323 - INFO - ✓ Found unique ID folder: 66301_11344570
+2026-01-10 07:50:57,331 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:50:57,331 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570\Meta
+2026-01-10 07:50:57,332 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\66301-11344076-NU\66301-11344076-NU_11344570\Appout\66301_11344570\Meta
+2026-01-10 07:50:57,333 - INFO - ✓ 66301-11344076-NU_11344570 processed successfully
+2026-01-10 07:50:57,333 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-10 07:50:59,334 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:59,340 - INFO - PROCESSING ITEM 34/34
+2026-01-10 07:50:59,341 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-10 07:50:59,342 - INFO - 
+Item: 63742-11344066-NU_11344932
+2026-01-10 07:50:59,343 - INFO - Input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932
+2026-01-10 07:50:59,345 - INFO - Meta:  G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932\Meta
+2026-01-10 07:50:59,346 - INFO - 
+======================================================================
+2026-01-10 07:50:59,348 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-10 07:50:59,349 - INFO - ======================================================================
+2026-01-10 07:51:00,367 - INFO - 
+[3.1] Finding edit fields...
+2026-01-10 07:51:00,715 - INFO - Found 2 Edit field(s)
+2026-01-10 07:51:00,716 - INFO - ✓ Using fields by position
+2026-01-10 07:51:00,717 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-10 07:51:00,719 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932
+2026-01-10 07:51:02,408 - INFO - ✓ Entered input folder path
+2026-01-10 07:51:02,909 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-10 07:51:02,909 - INFO -   Path: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932\Meta
+2026-01-10 07:51:04,641 - INFO - ✓ Entered meta folder path
+2026-01-10 07:51:05,142 - INFO - ✓ All paths entered successfully
+2026-01-10 07:51:05,143 - INFO - 
+======================================================================
+2026-01-10 07:51:05,144 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-10 07:51:05,145 - INFO - ======================================================================
+2026-01-10 07:51:05,145 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-10 07:51:05,426 - INFO - Found 4 button(s)
+2026-01-10 07:51:05,428 - INFO - ✓ Found 'Process' button
+2026-01-10 07:51:05,429 - INFO - Clicking Process button...
+2026-01-10 07:51:05,544 - INFO - ✓ Process button clicked
+2026-01-10 07:51:06,545 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-10 07:51:07,213 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-10 07:51:07,215 - INFO - ✓ Clicked OK button
+2026-01-10 07:51:10,219 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-10 07:51:10,223 - INFO - ✓ Found Meta folder in input: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932\Meta
+2026-01-10 07:51:10,225 - INFO - ✓ Found Appout folder
+2026-01-10 07:51:10,229 - INFO - ✓ Found unique ID folder: 63742_11344932
+2026-01-10 07:51:10,245 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-10 07:51:10,247 - INFO -   From: G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932\Meta
+2026-01-10 07:51:10,247 - INFO -   To:   G:\My Drive\VaveTechnologies\IEEE\January\20260110\Swapna\63742-11344066-NU\63742-11344066-NU_11344932\Appout\63742_11344932\Meta
+2026-01-10 07:51:10,251 - INFO - ✓ 63742-11344066-NU_11344932 processed successfully
+2026-01-10 07:51:10,256 - INFO - 
+======================================================================
+2026-01-10 07:51:10,258 - INFO - PROCESSING COMPLETE - SUMMARY
+2026-01-10 07:51:10,259 - INFO - ======================================================================
+2026-01-10 07:51:10,260 - INFO - Total Items: 34
+2026-01-10 07:51:10,260 - INFO - Successful: 30
+2026-01-10 07:51:10,261 - INFO - Failed: 4
+2026-01-10 07:51:10,262 - INFO - Success Rate: 88.2%
+2026-01-10 07:51:10,263 - INFO - 
+Failed Items:
+2026-01-10 07:51:10,264 - INFO -   - 66301-11344076-NU_11344174
+2026-01-10 07:51:10,264 - INFO -   - 66301-11344076-NU_11344203
+2026-01-10 07:51:10,273 - INFO -   - 66301-11344076-NU_11344261
+2026-01-10 07:51:10,273 - INFO -   - 66301-11344076-NU_11344340
+2026-01-10 07:51:10,274 - INFO - 
+Log file: logs\upload_20260110_074313.log
+2026-01-10 07:51:10,274 - INFO - ======================================================================

@@ -655,6 +655,7 @@ def wait_for_completion(article_count, timeout=120):  # 15 minutes
     print("   Downloads may still be processing...")
     return False
 
+
 # ============================================================================
 # MAIN
 # ============================================================================
@@ -662,8 +663,8 @@ def main(root_path: str = None, associate_name: str = None, article_ids_string: 
     """Main automation workflow - supports both interactive and batch modes"""
     
     # BATCH MODE: Use Excel mapping if provided
-    excel_path = r"C:\Users\raviteja\OneDrive\Documents\IEEE_December.xlsx"
-    sheet_name = "Dec-2025"  
+    excel_path = r"G:\My Drive\VaveTech-IEEE-JAN.xlsx"
+    sheet_name = "Sheet1"  
     if associate_name is None or article_ids_string is None:
         print("\n🔍 LOADING WORK FROM EXCEL...")
         employee_article_map = load_employee_articles_for_today(
@@ -671,7 +672,7 @@ def main(root_path: str = None, associate_name: str = None, article_ids_string: 
             sheet_name=sheet_name,
             employee_col="Assigned TO",      # Column T
             workid_col="Article",            # Column R  
-            date_col="Imported Date"         # Column S (optional)
+            date_col="Assigned Date"         # Column S (optional)
         )
         print_manual_commands(employee_article_map)
         if not employee_article_map:

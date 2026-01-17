@@ -1,0 +1,4 @@
+2026-01-13 19:49:00,292 - INFO - Log file: logs\xcp_powerizec_20260113_194900.log
+2026-01-13 19:49:00,511 - INFO - Loading Excel: G:\My Drive\VaveTech-IEEE-JAN.xlsx [Sheet1]
+2026-01-13 19:49:02,717 - INFO - Excel loaded: 142 rows, 21 columns
+2026-01-13 19:49:02,900 - WARNING - No valid data after filtering

@@ -48,7 +48,7 @@ def main():
     #    print("❌ Download step failed. Exiting pipeline.")
     #    return False
 
-    # Phase 2: Convert and format (modify to accept root_path too)
+    Phase 2: Convert and format (modify to accept root_path too)
     print("\n🔄 PHASE 2: CONVERSION & FORMATTING")
     if not run_convert(root_path=root_path):  # Pass root_path
         print("❌ Conversion step failed. Exiting pipeline.")

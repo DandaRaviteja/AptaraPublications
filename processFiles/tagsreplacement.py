@@ -2,7 +2,7 @@ import os
 import re
 from datetime import datetime
 
-ROOT_PATH = r"G:\My Drive\Arczenrick\IEEE\2025\December"
+ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\January"
 FILE_EXT = ".xml"
 
 REPLACEMENTS = [
