@@ -1,3 +1,4 @@
+'''
 import os
 import re
 from datetime import datetime
@@ -234,3 +235,5 @@ def run_fix_equations(root_path: str = r"G:\My Drive\Arczenrick\IEEE\2025\Decemb
 
 if __name__ == "__main__":
     run_fix_equations()
+'''
+

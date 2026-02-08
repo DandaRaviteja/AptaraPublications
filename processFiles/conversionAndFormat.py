@@ -37,12 +37,12 @@ log_file = setup_logging()
 # ============================================================================
 
 CONFIG = {
-    'EXE_PATH': r'E:\Haritha\01_IEEE_XML\IEEE_Tools\IEEE_XML_Conversion_App_1006_21Jul2025\IEEE_XML_Conversion_App.exe',
+    'EXE_PATH': r'E:\Haritha\01_IEEE_Tools_Guidelines\IEEE_Tools\IEEE_XML_Conversion_App_1006_21Jul2025\IEEE_XML_Conversion_App.exe',
     'TOOL_WINDOW_TITLE': 'IEEE_XML_Conversion_App',
     'BACKEND': 'uia',
 }
 
-BASE_PATH = r"G:\My Drive\VaveTechnologies\IEEE\January"
+BASE_PATH = r"G:\My Drive\VaveTechnologies\IEEE\February"
 
 # ============================================================================
 # FOLDER DISCOVERY
@@ -142,7 +142,7 @@ def open_ieee_tool():
 def find_tool_window():
     """Find the IEEE tool window"""
     logging.info(f"\n[1.2] Finding tool window...")
-    
+
     desktop = Desktop(backend=CONFIG['BACKEND'])
     
     for window in desktop.windows():
