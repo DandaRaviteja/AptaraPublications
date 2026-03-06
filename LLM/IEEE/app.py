@@ -6,8 +6,8 @@ import time
 
 # --- CONFIGURATION ---
 # Using the Hugging Face Inference API (Serverless/Free)
-HF_API_URL = "https://api-inference.huggingface.co/models/microsoft/phi-4"
-
+MODEL_ID = "microsoft/phi-4"
+HF_API_URL = f"https://router.huggingface.co/hf-inference/models/{MODEL_ID}"
 st.set_page_config(page_title="Surgical XML Editor", layout="wide")
 
 # --- 1. INITIALIZE SESSION STATE ---
