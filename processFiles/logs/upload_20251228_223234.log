@@ -1,0 +1,389 @@
+2025-12-28 22:32:34,041 - INFO - Logging initialized. Log file: logs\upload_20251228_223234.log
+2025-12-28 22:32:35,110 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:32:35,110 - INFO - STAGE 3: IEEE XML CONVERSION UPLOAD
+2025-12-28 22:32:35,111 - INFO - ██████████████████████████████████████████████████████████████████████
+
+2025-12-28 22:32:35,365 - INFO - Found 26 item(s) to process
+
+2025-12-28 22:32:35,368 - INFO - ======================================================================
+2025-12-28 22:32:35,368 - INFO - PHASE 1: OPENING IEEE XML CONVERSION TOOL
+2025-12-28 22:32:35,369 - INFO - ======================================================================
+2025-12-28 22:32:35,369 - INFO - 
+[1.1] Starting application...
+2025-12-28 22:32:36,393 - INFO - ✓ Application started
+2025-12-28 22:32:40,401 - INFO - 
+[1.2] Finding tool window...
+2025-12-28 22:32:40,588 - INFO - ✓ Found window: 'IEEE_XML_Conversion_App'
+2025-12-28 22:32:41,590 - INFO - 
+======================================================================
+2025-12-28 22:32:41,593 - INFO - PHASE 2: CLICK CONVERSION TAB
+2025-12-28 22:32:41,595 - INFO - ======================================================================
+2025-12-28 22:32:41,596 - INFO - 
+[2.1] Looking for 'Conversion' tab...
+2025-12-28 22:32:41,819 - INFO - Found 3 tab item(s)
+2025-12-28 22:32:41,821 - INFO -   Tab 1: 'PreQA'
+2025-12-28 22:32:41,822 - INFO -   Tab 2: 'Conversion'
+2025-12-28 22:32:41,823 - INFO - ✓ Found 'Conversion' tab: 'Conversion'
+2025-12-28 22:32:41,823 - INFO - Clicking Conversion tab...
+2025-12-28 22:32:41,951 - INFO - ✓ Clicked Conversion tab
+2025-12-28 22:32:43,952 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:32:43,953 - INFO - PROCESSING ITEM 1/26
+2025-12-28 22:32:43,955 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:32:43,956 - INFO - 
+Item: 66658_11317819
+2025-12-28 22:32:43,957 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317819\AppOut\66658_11317819
+2025-12-28 22:32:43,959 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317819\AppOut\66658_11317819\Meta
+2025-12-28 22:32:43,961 - INFO - 
+======================================================================
+2025-12-28 22:32:43,963 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:32:43,965 - INFO - ======================================================================
+2025-12-28 22:32:44,967 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:32:45,242 - INFO - Found 2 Edit field(s)
+2025-12-28 22:32:45,243 - INFO - ✓ Using fields by position
+2025-12-28 22:32:45,244 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:32:45,244 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317819\AppOut\66658_11317819
+2025-12-28 22:32:47,197 - INFO - ✓ Entered input folder path
+2025-12-28 22:32:47,698 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:32:47,699 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317819\AppOut\66658_11317819\Meta
+2025-12-28 22:32:49,713 - INFO - ✓ Entered meta folder path
+2025-12-28 22:32:50,214 - INFO - ✓ All paths entered successfully
+2025-12-28 22:32:50,215 - INFO - 
+======================================================================
+2025-12-28 22:32:50,217 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:32:50,219 - INFO - ======================================================================
+2025-12-28 22:32:50,220 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:32:50,497 - INFO - Found 4 button(s)
+2025-12-28 22:32:50,500 - INFO - ✓ Found 'Process' button
+2025-12-28 22:32:50,501 - INFO - Clicking Process button...
+2025-12-28 22:32:50,616 - INFO - ✓ Process button clicked
+2025-12-28 22:32:51,616 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:33:04,502 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:33:04,503 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:33:04,504 - ERROR - ✗ Failed to process 66658_11317819
+2025-12-28 22:33:04,505 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:04,507 - INFO - PROCESSING ITEM 2/26
+2025-12-28 22:33:04,508 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:04,509 - INFO - 
+Item: 66658_11317821
+2025-12-28 22:33:04,510 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317821\AppOut\66658_11317821
+2025-12-28 22:33:04,513 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317821\AppOut\66658_11317821\Meta
+2025-12-28 22:33:04,514 - INFO - 
+======================================================================
+2025-12-28 22:33:04,519 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:33:04,521 - INFO - ======================================================================
+2025-12-28 22:33:05,522 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:33:05,771 - INFO - Found 2 Edit field(s)
+2025-12-28 22:33:05,772 - INFO - ✓ Using fields by position
+2025-12-28 22:33:05,773 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:33:05,773 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317821\AppOut\66658_11317821
+2025-12-28 22:33:07,747 - INFO - ✓ Entered input folder path
+2025-12-28 22:33:08,248 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:33:08,249 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66658-11317799-NU\66658-11317799-NU_11317821\AppOut\66658_11317821\Meta
+2025-12-28 22:33:10,258 - INFO - ✓ Entered meta folder path
+2025-12-28 22:33:10,759 - INFO - ✓ All paths entered successfully
+2025-12-28 22:33:10,760 - INFO - 
+======================================================================
+2025-12-28 22:33:10,762 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:33:10,764 - INFO - ======================================================================
+2025-12-28 22:33:10,765 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:33:11,041 - INFO - Found 4 button(s)
+2025-12-28 22:33:11,044 - INFO - ✓ Found 'Process' button
+2025-12-28 22:33:11,044 - INFO - Clicking Process button...
+2025-12-28 22:33:11,160 - INFO - ✓ Process button clicked
+2025-12-28 22:33:12,161 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:33:22,323 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:33:22,324 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:33:22,324 - ERROR - ✗ Failed to process 66658_11317821
+2025-12-28 22:33:22,325 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:22,325 - INFO - PROCESSING ITEM 3/26
+2025-12-28 22:33:22,326 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:22,327 - INFO - 
+Item: 66672_11315053
+2025-12-28 22:33:22,327 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315053\AppOut\66672_11315053
+2025-12-28 22:33:22,328 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315053\AppOut\66672_11315053\Meta
+2025-12-28 22:33:22,328 - INFO - 
+======================================================================
+2025-12-28 22:33:22,329 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:33:22,329 - INFO - ======================================================================
+2025-12-28 22:33:23,330 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:33:23,589 - INFO - Found 2 Edit field(s)
+2025-12-28 22:33:23,590 - INFO - ✓ Using fields by position
+2025-12-28 22:33:23,591 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:33:23,591 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315053\AppOut\66672_11315053
+2025-12-28 22:33:25,542 - INFO - ✓ Entered input folder path
+2025-12-28 22:33:26,044 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:33:26,045 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315053\AppOut\66672_11315053\Meta
+2025-12-28 22:33:28,041 - INFO - ✓ Entered meta folder path
+2025-12-28 22:33:28,543 - INFO - ✓ All paths entered successfully
+2025-12-28 22:33:28,544 - INFO - 
+======================================================================
+2025-12-28 22:33:28,545 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:33:28,546 - INFO - ======================================================================
+2025-12-28 22:33:28,547 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:33:28,809 - INFO - Found 4 button(s)
+2025-12-28 22:33:28,811 - INFO - ✓ Found 'Process' button
+2025-12-28 22:33:28,812 - INFO - Clicking Process button...
+2025-12-28 22:33:28,923 - INFO - ✓ Process button clicked
+2025-12-28 22:33:29,932 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:33:43,285 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:33:43,287 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:33:43,288 - ERROR - ✗ Failed to process 66672_11315053
+2025-12-28 22:33:43,289 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:43,290 - INFO - PROCESSING ITEM 4/26
+2025-12-28 22:33:43,291 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:33:43,292 - INFO - 
+Item: 66672_11315057
+2025-12-28 22:33:43,295 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315057\AppOut\66672_11315057
+2025-12-28 22:33:43,298 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315057\AppOut\66672_11315057\Meta
+2025-12-28 22:33:43,301 - INFO - 
+======================================================================
+2025-12-28 22:33:43,303 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:33:43,307 - INFO - ======================================================================
+2025-12-28 22:33:44,308 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:33:44,576 - INFO - Found 2 Edit field(s)
+2025-12-28 22:33:44,577 - INFO - ✓ Using fields by position
+2025-12-28 22:33:44,577 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:33:44,577 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315057\AppOut\66672_11315057
+2025-12-28 22:33:46,530 - INFO - ✓ Entered input folder path
+2025-12-28 22:33:47,031 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:33:47,032 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315057\AppOut\66672_11315057\Meta
+2025-12-28 22:33:49,051 - INFO - ✓ Entered meta folder path
+2025-12-28 22:33:49,552 - INFO - ✓ All paths entered successfully
+2025-12-28 22:33:49,553 - INFO - 
+======================================================================
+2025-12-28 22:33:49,555 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:33:49,557 - INFO - ======================================================================
+2025-12-28 22:33:49,558 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:33:49,823 - INFO - Found 4 button(s)
+2025-12-28 22:33:49,826 - INFO - ✓ Found 'Process' button
+2025-12-28 22:33:49,827 - INFO - Clicking Process button...
+2025-12-28 22:33:49,934 - INFO - ✓ Process button clicked
+2025-12-28 22:33:50,935 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:34:00,948 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:34:00,949 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:34:00,951 - ERROR - ✗ Failed to process 66672_11315057
+2025-12-28 22:34:00,952 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:00,954 - INFO - PROCESSING ITEM 5/26
+2025-12-28 22:34:00,955 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:00,956 - INFO - 
+Item: 66672_11315061
+2025-12-28 22:34:00,958 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315061\AppOut\66672_11315061
+2025-12-28 22:34:00,960 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315061\AppOut\66672_11315061\Meta
+2025-12-28 22:34:00,961 - INFO - 
+======================================================================
+2025-12-28 22:34:00,965 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:34:00,970 - INFO - ======================================================================
+2025-12-28 22:34:01,973 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:34:02,230 - INFO - Found 2 Edit field(s)
+2025-12-28 22:34:02,231 - INFO - ✓ Using fields by position
+2025-12-28 22:34:02,232 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:34:02,232 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315061\AppOut\66672_11315061
+2025-12-28 22:34:04,167 - INFO - ✓ Entered input folder path
+2025-12-28 22:34:04,668 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:34:04,669 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315061\AppOut\66672_11315061\Meta
+2025-12-28 22:34:06,717 - INFO - ✓ Entered meta folder path
+2025-12-28 22:34:07,218 - INFO - ✓ All paths entered successfully
+2025-12-28 22:34:07,219 - INFO - 
+======================================================================
+2025-12-28 22:34:07,221 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:34:07,222 - INFO - ======================================================================
+2025-12-28 22:34:07,223 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:34:07,493 - INFO - Found 4 button(s)
+2025-12-28 22:34:07,496 - INFO - ✓ Found 'Process' button
+2025-12-28 22:34:07,496 - INFO - Clicking Process button...
+2025-12-28 22:34:07,614 - INFO - ✓ Process button clicked
+2025-12-28 22:34:08,615 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:34:19,391 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:34:19,392 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:34:19,394 - ERROR - ✗ Failed to process 66672_11315061
+2025-12-28 22:34:19,395 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:19,396 - INFO - PROCESSING ITEM 6/26
+2025-12-28 22:34:19,397 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:19,398 - INFO - 
+Item: 66672_11315064
+2025-12-28 22:34:19,399 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315064\AppOut\66672_11315064
+2025-12-28 22:34:19,402 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315064\AppOut\66672_11315064\Meta
+2025-12-28 22:34:19,403 - INFO - 
+======================================================================
+2025-12-28 22:34:19,408 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:34:19,412 - INFO - ======================================================================
+2025-12-28 22:34:20,417 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:34:20,668 - INFO - Found 2 Edit field(s)
+2025-12-28 22:34:20,669 - INFO - ✓ Using fields by position
+2025-12-28 22:34:20,669 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:34:20,670 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315064\AppOut\66672_11315064
+2025-12-28 22:34:22,618 - INFO - ✓ Entered input folder path
+2025-12-28 22:34:23,119 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:34:23,120 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315064\AppOut\66672_11315064\Meta
+2025-12-28 22:34:25,129 - INFO - ✓ Entered meta folder path
+2025-12-28 22:34:25,630 - INFO - ✓ All paths entered successfully
+2025-12-28 22:34:25,632 - INFO - 
+======================================================================
+2025-12-28 22:34:25,633 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:34:25,634 - INFO - ======================================================================
+2025-12-28 22:34:25,635 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:34:25,913 - INFO - Found 4 button(s)
+2025-12-28 22:34:25,916 - INFO - ✓ Found 'Process' button
+2025-12-28 22:34:25,917 - INFO - Clicking Process button...
+2025-12-28 22:34:26,026 - INFO - ✓ Process button clicked
+2025-12-28 22:34:27,027 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:34:40,315 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:34:40,317 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:34:40,318 - ERROR - ✗ Failed to process 66672_11315064
+2025-12-28 22:34:40,319 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:40,320 - INFO - PROCESSING ITEM 7/26
+2025-12-28 22:34:40,321 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:34:40,323 - INFO - 
+Item: 66672_11315070
+2025-12-28 22:34:40,326 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315070\AppOut\66672_11315070
+2025-12-28 22:34:40,328 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315070\AppOut\66672_11315070\Meta
+2025-12-28 22:34:40,332 - INFO - 
+======================================================================
+2025-12-28 22:34:40,335 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:34:40,336 - INFO - ======================================================================
+2025-12-28 22:34:41,351 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:34:41,702 - INFO - Found 2 Edit field(s)
+2025-12-28 22:34:41,703 - INFO - ✓ Using fields by position
+2025-12-28 22:34:41,703 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:34:41,703 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315070\AppOut\66672_11315070
+2025-12-28 22:34:43,635 - INFO - ✓ Entered input folder path
+2025-12-28 22:34:44,136 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:34:44,137 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315070\AppOut\66672_11315070\Meta
+2025-12-28 22:34:46,119 - INFO - ✓ Entered meta folder path
+2025-12-28 22:34:46,621 - INFO - ✓ All paths entered successfully
+2025-12-28 22:34:46,621 - INFO - 
+======================================================================
+2025-12-28 22:34:46,622 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:34:46,622 - INFO - ======================================================================
+2025-12-28 22:34:46,622 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:34:46,867 - INFO - Found 4 button(s)
+2025-12-28 22:34:46,871 - INFO - ✓ Found 'Process' button
+2025-12-28 22:34:46,871 - INFO - Clicking Process button...
+2025-12-28 22:34:46,988 - INFO - ✓ Process button clicked
+2025-12-28 22:34:47,989 - INFO - 
+[4.2] Waiting for OK button popup...
+2025-12-28 22:35:01,053 - WARNING - ⚠ No OK button found within 10s
+2025-12-28 22:35:01,054 - ERROR - ✗ Failed to click OK button
+2025-12-28 22:35:01,054 - ERROR - ✗ Failed to process 66672_11315070
+2025-12-28 22:35:01,055 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:01,056 - INFO - PROCESSING ITEM 8/26
+2025-12-28 22:35:01,056 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:01,057 - INFO - 
+Item: 66672_11315074
+2025-12-28 22:35:01,058 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315074\AppOut\66672_11315074
+2025-12-28 22:35:01,058 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315074\AppOut\66672_11315074\Meta
+2025-12-28 22:35:01,059 - INFO - 
+======================================================================
+2025-12-28 22:35:01,060 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:35:01,061 - INFO - ======================================================================
+2025-12-28 22:35:02,062 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:35:02,322 - INFO - Found 2 Edit field(s)
+2025-12-28 22:35:02,323 - INFO - ✓ Using fields by position
+2025-12-28 22:35:02,323 - INFO - 
+[3.2] Entering Input Folder path...
+2025-12-28 22:35:02,323 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315074\AppOut\66672_11315074
+2025-12-28 22:35:04,265 - INFO - ✓ Entered input folder path
+2025-12-28 22:35:04,766 - INFO - 
+[3.3] Entering Meta Folder path...
+2025-12-28 22:35:04,767 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315074\AppOut\66672_11315074\Meta
+2025-12-28 22:35:06,755 - INFO - ✓ Entered meta folder path
+2025-12-28 22:35:07,256 - INFO - ✓ All paths entered successfully
+2025-12-28 22:35:07,257 - INFO - 
+======================================================================
+2025-12-28 22:35:07,257 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2025-12-28 22:35:07,259 - INFO - ======================================================================
+2025-12-28 22:35:07,259 - INFO - 
+[4.1] Looking for 'Process' button...
+2025-12-28 22:35:07,261 - INFO - Found 0 button(s)
+2025-12-28 22:35:07,262 - ERROR - ✗ Process button not found
+2025-12-28 22:35:07,262 - ERROR - ✗ Failed to process 66672_11315074
+2025-12-28 22:35:07,263 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:07,264 - INFO - PROCESSING ITEM 9/26
+2025-12-28 22:35:07,264 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:07,265 - INFO - 
+Item: 66672_11315093
+2025-12-28 22:35:07,269 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315093\AppOut\66672_11315093
+2025-12-28 22:35:07,270 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315093\AppOut\66672_11315093\Meta
+2025-12-28 22:35:07,271 - INFO - 
+======================================================================
+2025-12-28 22:35:07,272 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:35:07,272 - INFO - ======================================================================
+2025-12-28 22:35:08,273 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:35:08,276 - INFO - Found 0 Edit field(s)
+2025-12-28 22:35:08,276 - ERROR - ✗ Not enough edit fields found (need 2, found 0)
+2025-12-28 22:35:08,278 - ERROR - ✗ Failed to input paths for 66672_11315093
+2025-12-28 22:35:08,280 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:08,281 - INFO - PROCESSING ITEM 10/26
+2025-12-28 22:35:08,281 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:08,282 - INFO - 
+Item: 66672_11315096
+2025-12-28 22:35:08,284 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315096\AppOut\66672_11315096
+2025-12-28 22:35:08,285 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\haritha\66672-11315051-NU\66672-11315051-NU_11315096\AppOut\66672_11315096\Meta
+2025-12-28 22:35:08,287 - INFO - 
+======================================================================
+2025-12-28 22:35:08,288 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:35:08,289 - INFO - ======================================================================
+2025-12-28 22:35:09,289 - INFO - 
+[3.1] Finding edit fields...
+2025-12-28 22:35:09,290 - INFO - Found 0 Edit field(s)
+2025-12-28 22:35:09,290 - ERROR - ✗ Not enough edit fields found (need 2, found 0)
+2025-12-28 22:35:09,291 - ERROR - ✗ Failed to input paths for 66672_11315096
+2025-12-28 22:35:09,291 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:09,292 - INFO - PROCESSING ITEM 11/26
+2025-12-28 22:35:09,292 - INFO - ██████████████████████████████████████████████████████████████████████
+2025-12-28 22:35:09,292 - INFO - 
+Item: 66672_11315062
+2025-12-28 22:35:09,293 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2025\December\20251228\Jithendra\66672-11315051-NU\66672-11315051-NU_11315062\AppOut\66672_11315062
+2025-12-28 22:35:09,293 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2025\December\20251228\Jithendra\66672-11315051-NU\66672-11315051-NU_11315062\AppOut\66672_11315062\Meta
+2025-12-28 22:35:09,293 - INFO - 
+======================================================================
+2025-12-28 22:35:09,294 - INFO - PHASE 3: INPUT FOLDER PATHS
+2025-12-28 22:35:09,294 - INFO - ======================================================================

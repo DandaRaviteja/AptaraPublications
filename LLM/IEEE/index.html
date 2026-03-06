@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Surgical XML Editor (Phi-4)</title>
+    <script src="https://js.puter.com/v2/"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+        .upload-section { border: 2px dashed #ccc; padding: 20px; margin-bottom: 10px; border-radius: 8px; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        #status { margin-top: 10px; font-weight: bold; color: #555; }
+        pre { background: #f4f4f4; padding: 15px; overflow-x: auto; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <h2>Surgical XML Editor <small>(Model: Phi-4)</small></h2>
+
+    <div class="upload-section">
+        <label>1. Upload **Source PDF** (or PDF Text):</label><br>
+        <input type="file" id="pdfFile" accept=".pdf,.txt">
+    </div>
+
+    <div class="upload-section">
+        <label>2. Upload **Raw XML Query**:</label><br>
+        <input type="file" id="xmlFile" accept=".xml">
+    </div>
+
+    <button onclick="processRemediation()">Run Surgical Remediation</button>
+
+    <div id="status"></div>
+    <h3>Output Result:</h3>
+    <pre id="output">The updated XML will appear here...</pre>
+
+    <script>
+        async function readFile(file) {
+            return new Promise((resolve) => {
+                const reader = new FileReader();
+                reader.onload = (e) => resolve(e.target.result);
+                reader.readAsText(file);
+            });
+        }
+
+        async function processRemediation() {
+            const pdfInput = document.getElementById('pdfFile').files[0];
+            const xmlInput = document.getElementById('xmlFile').files[0];
+            const status = document.getElementById('status');
+            const output = document.getElementById('output');
+
+            if (!pdfInput || !xmlInput) {
+                alert("Please upload both files first!");
+                return;
+            }
+
+            status.innerText = "Reading files and calling Phi-4...";
+            
+            try {
+                // 1. Load the data from the files
+                const pdfText = await readFile(pdfInput);
+                const rawXML = await readFile(xmlInput);
+
+                // 2. The Instruction Prompt (Your hardcoded instructions.txt logic)
+                const prompt = `
+                    You are a Surgical XML Editor. 
+                    STRICT RULES:
+                    - Preserve the PROTECTED ZONE (everything before <title-group>).
+                    - Use Hex Entities for markers (dagger = &#x2020;).
+                    - Update <contrib-group> using <name-alternatives> with display/index tags.
+                    - Move email into <contrib>.
+                    - Calculate fpage, lpage, and page-count.
+                    - Return ONLY the full XML code. No explanation.
+
+                    SOURCE PDF DATA:
+                    ${pdfText}
+
+                    RAW XML TO REMEDIATE:
+                    ${rawXML}`;
+
+                // 3. Call Phi-4 via Puter.js
+                const response = await puter.ai.chat(prompt, { 
+                    model: 'microsoft/phi-4',
+                    temperature: 0 
+                });
+
+                // 4. Display result
+                output.innerText = response.message.content;
+                status.innerText = "Remediation Complete!";
+                
+            } catch (err) {
+                status.innerText = "Error: " + err.message;
+            }
+        }
+    </script>
+</body>
+</html>

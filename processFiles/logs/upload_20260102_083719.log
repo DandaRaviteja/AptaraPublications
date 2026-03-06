@@ -1,0 +1,488 @@
+2026-01-02 08:37:19,143 - INFO - Logging initialized. Log file: logs\upload_20260102_083719.log
+2026-01-02 08:37:56,850 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:37:56,851 - INFO - STAGE 3: IEEE XML CONVERSION UPLOAD
+2026-01-02 08:37:56,851 - INFO - ██████████████████████████████████████████████████████████████████████
+
+2026-01-02 08:37:56,947 - INFO - Found 9 item(s) to process
+
+2026-01-02 08:37:56,947 - INFO - ======================================================================
+2026-01-02 08:37:56,948 - INFO - PHASE 1: OPENING IEEE XML CONVERSION TOOL
+2026-01-02 08:37:56,948 - INFO - ======================================================================
+2026-01-02 08:37:56,949 - INFO - 
+[1.1] Starting application...
+2026-01-02 08:38:01,583 - INFO - ✓ Application started
+2026-01-02 08:38:05,584 - INFO - 
+[1.2] Finding tool window...
+2026-01-02 08:38:05,915 - INFO - ✓ Found window: 'IEEE_XML_Conversion_App'
+2026-01-02 08:38:06,916 - INFO - 
+======================================================================
+2026-01-02 08:38:06,916 - INFO - PHASE 2: CLICK CONVERSION TAB
+2026-01-02 08:38:06,917 - INFO - ======================================================================
+2026-01-02 08:38:06,917 - INFO - 
+[2.1] Looking for 'Conversion' tab...
+2026-01-02 08:38:07,206 - INFO - Found 3 tab item(s)
+2026-01-02 08:38:07,208 - INFO -   Tab 1: 'PreQA'
+2026-01-02 08:38:07,210 - INFO -   Tab 2: 'Conversion'
+2026-01-02 08:38:07,210 - INFO - ✓ Found 'Conversion' tab: 'Conversion'
+2026-01-02 08:38:07,211 - INFO - Clicking Conversion tab...
+2026-01-02 08:38:07,344 - INFO - ✓ Clicked Conversion tab
+2026-01-02 08:38:09,345 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:09,345 - INFO - PROCESSING ITEM 1/9
+2026-01-02 08:38:09,346 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:09,346 - INFO - 
+Item: 68238-11320582-NU_11320634
+2026-01-02 08:38:09,347 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634
+2026-01-02 08:38:09,347 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634\Meta
+2026-01-02 08:38:09,348 - INFO - 
+======================================================================
+2026-01-02 08:38:09,348 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:38:09,349 - INFO - ======================================================================
+2026-01-02 08:38:10,350 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:38:10,613 - INFO - Found 2 Edit field(s)
+2026-01-02 08:38:10,614 - INFO - ✓ Using fields by position
+2026-01-02 08:38:10,614 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:38:10,615 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634
+2026-01-02 08:38:12,298 - INFO - ✓ Entered input folder path
+2026-01-02 08:38:12,799 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:38:12,800 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634\Meta
+2026-01-02 08:38:14,547 - INFO - ✓ Entered meta folder path
+2026-01-02 08:38:15,048 - INFO - ✓ All paths entered successfully
+2026-01-02 08:38:15,049 - INFO - 
+======================================================================
+2026-01-02 08:38:15,051 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:38:15,052 - INFO - ======================================================================
+2026-01-02 08:38:15,054 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:38:15,331 - INFO - Found 4 button(s)
+2026-01-02 08:38:15,334 - INFO - ✓ Found 'Process' button
+2026-01-02 08:38:15,334 - INFO - Clicking Process button...
+2026-01-02 08:38:15,441 - INFO - ✓ Process button clicked
+2026-01-02 08:38:16,442 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:38:17,734 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:38:17,739 - INFO - ✓ Clicked OK button
+2026-01-02 08:38:20,741 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:38:20,745 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634\Meta
+2026-01-02 08:38:20,754 - INFO - ✓ Found Appout folder
+2026-01-02 08:38:20,760 - INFO - ✓ Found unique ID folder: 68238_11320634
+2026-01-02 08:38:20,788 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:38:20,790 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634\Meta
+2026-01-02 08:38:20,793 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\68238-11320582-NU\68238-11320582-NU_11320634\Appout\68238_11320634\Meta
+2026-01-02 08:38:20,800 - INFO - ✓ 68238-11320582-NU_11320634 processed successfully
+2026-01-02 08:38:20,802 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:38:22,804 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:22,805 - INFO - PROCESSING ITEM 2/9
+2026-01-02 08:38:22,805 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:22,806 - INFO - 
+Item: 66518-11321316-NU_11321328
+2026-01-02 08:38:22,807 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328
+2026-01-02 08:38:22,808 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328\Meta
+2026-01-02 08:38:22,809 - INFO - 
+======================================================================
+2026-01-02 08:38:22,810 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:38:22,811 - INFO - ======================================================================
+2026-01-02 08:38:23,812 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:38:24,156 - INFO - Found 2 Edit field(s)
+2026-01-02 08:38:24,157 - INFO - ✓ Using fields by position
+2026-01-02 08:38:24,157 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:38:24,157 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328
+2026-01-02 08:38:25,831 - INFO - ✓ Entered input folder path
+2026-01-02 08:38:26,332 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:38:26,333 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328\Meta
+2026-01-02 08:38:28,058 - INFO - ✓ Entered meta folder path
+2026-01-02 08:38:28,560 - INFO - ✓ All paths entered successfully
+2026-01-02 08:38:28,560 - INFO - 
+======================================================================
+2026-01-02 08:38:28,561 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:38:28,561 - INFO - ======================================================================
+2026-01-02 08:38:28,562 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:38:28,893 - INFO - Found 4 button(s)
+2026-01-02 08:38:28,896 - INFO - ✓ Found 'Process' button
+2026-01-02 08:38:28,897 - INFO - Clicking Process button...
+2026-01-02 08:38:29,004 - INFO - ✓ Process button clicked
+2026-01-02 08:38:30,005 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:38:30,672 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:38:30,673 - INFO - ✓ Clicked OK button
+2026-01-02 08:38:33,675 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:38:33,683 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328\Meta
+2026-01-02 08:38:33,688 - INFO - ✓ Found Appout folder
+2026-01-02 08:38:33,701 - INFO - ✓ Found unique ID folder: 66518_11321328
+2026-01-02 08:38:33,719 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:38:33,721 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328\Meta
+2026-01-02 08:38:33,722 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11321328\Appout\66518_11321328\Meta
+2026-01-02 08:38:33,723 - INFO - ✓ 66518-11321316-NU_11321328 processed successfully
+2026-01-02 08:38:33,725 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:38:35,729 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:35,731 - INFO - PROCESSING ITEM 3/9
+2026-01-02 08:38:35,732 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:35,734 - INFO - 
+Item: 66518-11321316-NU_11322448
+2026-01-02 08:38:35,739 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448
+2026-01-02 08:38:35,748 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448\Meta
+2026-01-02 08:38:35,749 - INFO - 
+======================================================================
+2026-01-02 08:38:35,751 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:38:35,753 - INFO - ======================================================================
+2026-01-02 08:38:36,762 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:38:37,092 - INFO - Found 2 Edit field(s)
+2026-01-02 08:38:37,093 - INFO - ✓ Using fields by position
+2026-01-02 08:38:37,094 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:38:37,096 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448
+2026-01-02 08:38:38,777 - INFO - ✓ Entered input folder path
+2026-01-02 08:38:39,279 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:38:39,279 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448\Meta
+2026-01-02 08:38:41,018 - INFO - ✓ Entered meta folder path
+2026-01-02 08:38:41,519 - INFO - ✓ All paths entered successfully
+2026-01-02 08:38:41,520 - INFO - 
+======================================================================
+2026-01-02 08:38:41,521 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:38:41,521 - INFO - ======================================================================
+2026-01-02 08:38:41,522 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:38:41,814 - INFO - Found 4 button(s)
+2026-01-02 08:38:41,817 - INFO - ✓ Found 'Process' button
+2026-01-02 08:38:41,817 - INFO - Clicking Process button...
+2026-01-02 08:38:41,936 - INFO - ✓ Process button clicked
+2026-01-02 08:38:42,945 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:38:43,595 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:38:43,597 - INFO - ✓ Clicked OK button
+2026-01-02 08:38:46,598 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:38:46,600 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448\Meta
+2026-01-02 08:38:46,602 - INFO - ✓ Found Appout folder
+2026-01-02 08:38:46,604 - INFO - ✓ Found unique ID folder: 66518_11322448
+2026-01-02 08:38:46,613 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:38:46,614 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448\Meta
+2026-01-02 08:38:46,617 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322448\Appout\66518_11322448\Meta
+2026-01-02 08:38:46,620 - INFO - ✓ 66518-11321316-NU_11322448 processed successfully
+2026-01-02 08:38:46,621 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:38:48,622 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:48,623 - INFO - PROCESSING ITEM 4/9
+2026-01-02 08:38:48,624 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:38:48,625 - INFO - 
+Item: 66518-11321316-NU_11322450
+2026-01-02 08:38:48,626 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450
+2026-01-02 08:38:48,627 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450\Meta
+2026-01-02 08:38:48,627 - INFO - 
+======================================================================
+2026-01-02 08:38:48,627 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:38:48,628 - INFO - ======================================================================
+2026-01-02 08:38:49,629 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:38:49,960 - INFO - Found 2 Edit field(s)
+2026-01-02 08:38:49,961 - INFO - ✓ Using fields by position
+2026-01-02 08:38:49,961 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:38:49,962 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450
+2026-01-02 08:38:51,636 - INFO - ✓ Entered input folder path
+2026-01-02 08:38:52,137 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:38:52,138 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450\Meta
+2026-01-02 08:38:53,875 - INFO - ✓ Entered meta folder path
+2026-01-02 08:38:54,376 - INFO - ✓ All paths entered successfully
+2026-01-02 08:38:54,379 - INFO - 
+======================================================================
+2026-01-02 08:38:54,381 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:38:54,383 - INFO - ======================================================================
+2026-01-02 08:38:54,384 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:38:54,671 - INFO - Found 4 button(s)
+2026-01-02 08:38:54,675 - INFO - ✓ Found 'Process' button
+2026-01-02 08:38:54,675 - INFO - Clicking Process button...
+2026-01-02 08:38:54,781 - INFO - ✓ Process button clicked
+2026-01-02 08:38:55,782 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:38:56,407 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:38:56,410 - INFO - ✓ Clicked OK button
+2026-01-02 08:38:59,413 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:38:59,418 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450\Meta
+2026-01-02 08:38:59,428 - INFO - ✓ Found Appout folder
+2026-01-02 08:38:59,437 - INFO - ✓ Found unique ID folder: 66518_11322450
+2026-01-02 08:38:59,464 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:38:59,465 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450\Meta
+2026-01-02 08:38:59,466 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322450\Appout\66518_11322450\Meta
+2026-01-02 08:38:59,469 - INFO - ✓ 66518-11321316-NU_11322450 processed successfully
+2026-01-02 08:38:59,470 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:39:01,472 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:01,473 - INFO - PROCESSING ITEM 5/9
+2026-01-02 08:39:01,474 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:01,474 - INFO - 
+Item: 66518-11321316-NU_11322460
+2026-01-02 08:39:01,475 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460
+2026-01-02 08:39:01,475 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460\Meta
+2026-01-02 08:39:01,475 - INFO - 
+======================================================================
+2026-01-02 08:39:01,476 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:39:01,476 - INFO - ======================================================================
+2026-01-02 08:39:02,477 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:39:02,804 - INFO - Found 2 Edit field(s)
+2026-01-02 08:39:02,806 - INFO - ✓ Using fields by position
+2026-01-02 08:39:02,806 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:39:02,807 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460
+2026-01-02 08:39:04,493 - INFO - ✓ Entered input folder path
+2026-01-02 08:39:04,994 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:39:04,995 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460\Meta
+2026-01-02 08:39:06,727 - INFO - ✓ Entered meta folder path
+2026-01-02 08:39:07,228 - INFO - ✓ All paths entered successfully
+2026-01-02 08:39:07,229 - INFO - 
+======================================================================
+2026-01-02 08:39:07,230 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:39:07,230 - INFO - ======================================================================
+2026-01-02 08:39:07,231 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:39:07,532 - INFO - Found 4 button(s)
+2026-01-02 08:39:07,556 - INFO - ✓ Found 'Process' button
+2026-01-02 08:39:07,583 - INFO - Clicking Process button...
+2026-01-02 08:39:07,696 - INFO - ✓ Process button clicked
+2026-01-02 08:39:08,697 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:39:09,348 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:39:09,350 - INFO - ✓ Clicked OK button
+2026-01-02 08:39:12,352 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:39:12,359 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460\Meta
+2026-01-02 08:39:12,364 - INFO - ✓ Found Appout folder
+2026-01-02 08:39:12,370 - INFO - ✓ Found unique ID folder: 66518_11322460
+2026-01-02 08:39:12,390 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:39:12,390 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460\Meta
+2026-01-02 08:39:12,391 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Swapna\66518-11321316-NU\66518-11321316-NU_11322460\Appout\66518_11322460\Meta
+2026-01-02 08:39:12,391 - INFO - ✓ 66518-11321316-NU_11322460 processed successfully
+2026-01-02 08:39:12,392 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:39:14,393 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:14,394 - INFO - PROCESSING ITEM 6/9
+2026-01-02 08:39:14,395 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:14,396 - INFO - 
+Item: 68238-11320582-NU_11320685
+2026-01-02 08:39:14,397 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685
+2026-01-02 08:39:14,397 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685\Meta
+2026-01-02 08:39:14,398 - INFO - 
+======================================================================
+2026-01-02 08:39:14,399 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:39:14,400 - INFO - ======================================================================
+2026-01-02 08:39:15,408 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:39:15,739 - INFO - Found 2 Edit field(s)
+2026-01-02 08:39:15,740 - INFO - ✓ Using fields by position
+2026-01-02 08:39:15,740 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:39:15,741 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685
+2026-01-02 08:39:17,425 - INFO - ✓ Entered input folder path
+2026-01-02 08:39:17,926 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:39:17,927 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685\Meta
+2026-01-02 08:39:19,668 - INFO - ✓ Entered meta folder path
+2026-01-02 08:39:20,169 - INFO - ✓ All paths entered successfully
+2026-01-02 08:39:20,169 - INFO - 
+======================================================================
+2026-01-02 08:39:20,170 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:39:20,170 - INFO - ======================================================================
+2026-01-02 08:39:20,171 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:39:20,456 - INFO - Found 4 button(s)
+2026-01-02 08:39:20,459 - INFO - ✓ Found 'Process' button
+2026-01-02 08:39:20,460 - INFO - Clicking Process button...
+2026-01-02 08:39:20,577 - INFO - ✓ Process button clicked
+2026-01-02 08:39:21,578 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:39:22,243 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:39:22,245 - INFO - ✓ Clicked OK button
+2026-01-02 08:39:25,247 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:39:25,252 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685\Meta
+2026-01-02 08:39:25,254 - INFO - ✓ Found Appout folder
+2026-01-02 08:39:25,257 - INFO - ✓ Found unique ID folder: 68238_11320685
+2026-01-02 08:39:25,270 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:39:25,271 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685\Meta
+2026-01-02 08:39:25,273 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320685\Appout\68238_11320685\Meta
+2026-01-02 08:39:25,276 - INFO - ✓ 68238-11320582-NU_11320685 processed successfully
+2026-01-02 08:39:25,276 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:39:27,277 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:27,279 - INFO - PROCESSING ITEM 7/9
+2026-01-02 08:39:27,280 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:27,284 - INFO - 
+Item: 68238-11320582-NU_11320687
+2026-01-02 08:39:27,290 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687
+2026-01-02 08:39:27,296 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687\Meta
+2026-01-02 08:39:27,297 - INFO - 
+======================================================================
+2026-01-02 08:39:27,329 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:39:27,330 - INFO - ======================================================================
+2026-01-02 08:39:28,336 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:39:28,674 - INFO - Found 2 Edit field(s)
+2026-01-02 08:39:28,675 - INFO - ✓ Using fields by position
+2026-01-02 08:39:28,675 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:39:28,676 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687
+2026-01-02 08:39:30,360 - INFO - ✓ Entered input folder path
+2026-01-02 08:39:30,860 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:39:30,861 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687\Meta
+2026-01-02 08:39:32,604 - INFO - ✓ Entered meta folder path
+2026-01-02 08:39:33,105 - INFO - ✓ All paths entered successfully
+2026-01-02 08:39:33,106 - INFO - 
+======================================================================
+2026-01-02 08:39:33,107 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:39:33,107 - INFO - ======================================================================
+2026-01-02 08:39:33,108 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:39:33,399 - INFO - Found 4 button(s)
+2026-01-02 08:39:33,402 - INFO - ✓ Found 'Process' button
+2026-01-02 08:39:33,403 - INFO - Clicking Process button...
+2026-01-02 08:39:33,607 - INFO - ✓ Process button clicked
+2026-01-02 08:39:34,607 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:39:35,273 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:39:35,274 - INFO - ✓ Clicked OK button
+2026-01-02 08:39:38,277 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:39:38,285 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687\Meta
+2026-01-02 08:39:38,289 - INFO - ✓ Found Appout folder
+2026-01-02 08:39:38,306 - INFO - ✓ Found unique ID folder: 68238_11320687
+2026-01-02 08:39:38,333 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:39:38,334 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687\Meta
+2026-01-02 08:39:38,335 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320687\Appout\68238_11320687\Meta
+2026-01-02 08:39:38,338 - INFO - ✓ 68238-11320582-NU_11320687 processed successfully
+2026-01-02 08:39:38,339 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:39:40,342 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:40,344 - INFO - PROCESSING ITEM 8/9
+2026-01-02 08:39:40,347 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:40,350 - INFO - 
+Item: 68238-11320582-NU_11320693
+2026-01-02 08:39:40,353 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693
+2026-01-02 08:39:40,354 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693\Meta
+2026-01-02 08:39:40,355 - INFO - 
+======================================================================
+2026-01-02 08:39:40,357 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:39:40,358 - INFO - ======================================================================
+2026-01-02 08:39:41,360 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:39:41,701 - INFO - Found 2 Edit field(s)
+2026-01-02 08:39:41,702 - INFO - ✓ Using fields by position
+2026-01-02 08:39:41,702 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:39:41,703 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693
+2026-01-02 08:39:43,401 - INFO - ✓ Entered input folder path
+2026-01-02 08:39:43,902 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:39:43,903 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693\Meta
+2026-01-02 08:39:45,652 - INFO - ✓ Entered meta folder path
+2026-01-02 08:39:46,153 - INFO - ✓ All paths entered successfully
+2026-01-02 08:39:46,154 - INFO - 
+======================================================================
+2026-01-02 08:39:46,155 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:39:46,156 - INFO - ======================================================================
+2026-01-02 08:39:46,157 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:39:46,455 - INFO - Found 4 button(s)
+2026-01-02 08:39:46,458 - INFO - ✓ Found 'Process' button
+2026-01-02 08:39:46,459 - INFO - Clicking Process button...
+2026-01-02 08:39:46,670 - INFO - ✓ Process button clicked
+2026-01-02 08:39:47,671 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:39:48,318 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:39:48,320 - INFO - ✓ Clicked OK button
+2026-01-02 08:39:51,322 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:39:51,324 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693\Meta
+2026-01-02 08:39:51,328 - INFO - ✓ Found Appout folder
+2026-01-02 08:39:51,332 - INFO - ✓ Found unique ID folder: 68238_11320693
+2026-01-02 08:39:51,346 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:39:51,351 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693\Meta
+2026-01-02 08:39:51,352 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320693\Appout\68238_11320693\Meta
+2026-01-02 08:39:51,353 - INFO - ✓ 68238-11320582-NU_11320693 processed successfully
+2026-01-02 08:39:51,354 - INFO - 
+Waiting 2 seconds before next item...
+2026-01-02 08:39:53,354 - INFO - 
+██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:53,355 - INFO - PROCESSING ITEM 9/9
+2026-01-02 08:39:53,355 - INFO - ██████████████████████████████████████████████████████████████████████
+2026-01-02 08:39:53,356 - INFO - 
+Item: 68238-11320582-NU_11320702
+2026-01-02 08:39:53,356 - INFO - Input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702
+2026-01-02 08:39:53,357 - INFO - Meta:  G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702\Meta
+2026-01-02 08:39:53,357 - INFO - 
+======================================================================
+2026-01-02 08:39:53,357 - INFO - PHASE 3: INPUT FOLDER PATHS
+2026-01-02 08:39:53,358 - INFO - ======================================================================
+2026-01-02 08:39:54,361 - INFO - 
+[3.1] Finding edit fields...
+2026-01-02 08:39:54,702 - INFO - Found 2 Edit field(s)
+2026-01-02 08:39:54,703 - INFO - ✓ Using fields by position
+2026-01-02 08:39:54,703 - INFO - 
+[3.2] Entering Input Folder path...
+2026-01-02 08:39:54,704 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702
+2026-01-02 08:39:56,405 - INFO - ✓ Entered input folder path
+2026-01-02 08:39:56,905 - INFO - 
+[3.3] Entering Meta Folder path...
+2026-01-02 08:39:56,906 - INFO -   Path: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702\Meta
+2026-01-02 08:39:58,649 - INFO - ✓ Entered meta folder path
+2026-01-02 08:39:59,150 - INFO - ✓ All paths entered successfully
+2026-01-02 08:39:59,151 - INFO - 
+======================================================================
+2026-01-02 08:39:59,152 - INFO - PHASE 4: CLICK PROCESS BUTTON
+2026-01-02 08:39:59,153 - INFO - ======================================================================
+2026-01-02 08:39:59,154 - INFO - 
+[4.1] Looking for 'Process' button...
+2026-01-02 08:39:59,457 - INFO - Found 4 button(s)
+2026-01-02 08:39:59,462 - INFO - ✓ Found 'Process' button
+2026-01-02 08:39:59,463 - INFO - Clicking Process button...
+2026-01-02 08:39:59,665 - INFO - ✓ Process button clicked
+2026-01-02 08:40:00,666 - INFO - 
+[4.2] Waiting for OK button popup...
+2026-01-02 08:40:01,320 - INFO - ✓ OK button found by name! (after 0.0s)
+2026-01-02 08:40:01,321 - INFO - ✓ Clicked OK button
+2026-01-02 08:40:04,326 - INFO - 
+[4.3] Moving Meta folder to Appout/UniqueID...
+2026-01-02 08:40:04,332 - INFO - ✓ Found Meta folder in input: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702\Meta
+2026-01-02 08:40:04,346 - INFO - ✓ Found Appout folder
+2026-01-02 08:40:04,354 - INFO - ✓ Found unique ID folder: 68238_11320702
+2026-01-02 08:40:04,377 - INFO - ✓ Moved Meta folder to unique ID folder
+2026-01-02 08:40:04,378 - INFO -   From: G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702\Meta
+2026-01-02 08:40:04,379 - INFO -   To:   G:\My Drive\Arczenrick\IEEE\2026\January\20260102\Haritha\68238-11320582-NU\68238-11320582-NU_11320702\Appout\68238_11320702\Meta
+2026-01-02 08:40:04,380 - INFO - ✓ 68238-11320582-NU_11320702 processed successfully
+2026-01-02 08:40:04,380 - INFO - 
+======================================================================
+2026-01-02 08:40:04,381 - INFO - PROCESSING COMPLETE - SUMMARY
+2026-01-02 08:40:04,382 - INFO - ======================================================================
+2026-01-02 08:40:04,382 - INFO - Total Items: 9
+2026-01-02 08:40:04,383 - INFO - Successful: 9
+2026-01-02 08:40:04,384 - INFO - Failed: 0
+2026-01-02 08:40:04,384 - INFO - Success Rate: 100.0%
+2026-01-02 08:40:04,385 - INFO - 
+Log file: logs\upload_20260102_083719.log
+2026-01-02 08:40:04,396 - INFO - ======================================================================
