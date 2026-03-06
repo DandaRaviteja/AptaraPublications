@@ -7,7 +7,7 @@ from datetime import datetime
 # ================================
 # CONFIGURATION
 # ================================
-ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\February"
+ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\March"
 FILE_EXT = ".xml"
 
 # ================================
@@ -154,7 +154,7 @@ from datetime import datetime
 # ================================
 # CONFIGURATION
 # ================================
-ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\February"
+ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\March"
 FILE_EXT = ".xml"
 
 # ================================

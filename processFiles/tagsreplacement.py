@@ -3,7 +3,7 @@ import os
 import re
 from datetime import datetime
 
-ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\February"
+ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\March"
 FILE_EXT = ".xml"
 
 REPLACEMENTS = [
@@ -83,6 +83,7 @@ REPLACEMENTS = [
     ('<source>Proc. IEEE', '<source specific-use="IEEE">Proc. IEEE'),
     ('<source>IEEE', '<source specific-use="IEEE">IEEE'),
     ('<source>Proceedings of the IEEE', '<source specific-use="IEEE">Proceedings of the IEEE'),
+    ('<conf-name>Proceedings of the IEEE', '<source specific-use="IEEE">Proceedings of the IEEE'),
     ('\dagger</xref>', '<sup>&#x2020;</sup></xref>'),
     ('\ddagger</xref>', '<sup>&#x2021;</sup></xref>'),
     ('<inline-formula><tex-math notation="LaTeX">$=$</tex-math></inline-formula>', '='),
@@ -176,7 +177,7 @@ from datetime import datetime
 # ================================
 # CONFIGURATION
 # ================================
-ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\February"
+ROOT_PATH = r"G:\My Drive\VaveTechnologies\IEEE\March"
 FILE_EXT = ".xml"
 
 # List of (find_string, replace_string)
