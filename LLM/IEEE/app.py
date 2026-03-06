@@ -15,7 +15,8 @@ st.title("✂️ Surgical XML Editor (Phi-4)")
 with st.sidebar:
     st.header("Settings")
     # Change to "microsoft/phi-4" or "microsoft/Phi-4-mini-instruct"
-    model_id = st.text_input("Model ID", value="microsoft/phi-4")
+# This tells the router to find ANY provider currently hosting the model
+    model_id = "microsoft/phi-4:fastest"
     temp = st.slider("Temperature", 0.0, 1.0, 0.01)
     
     if st.button("🗑️ Reset"):
