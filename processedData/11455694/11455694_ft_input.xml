@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455694</article-id>
+<xplore-article-id>11455694</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>A Novel Optimizer Based Deep Neural Network Model for Iomt</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Buditi</given-names> <surname>Sriveni</surname></string-name>
+<string-name specific-use="index"><given-names>Buditi</given-names> <surname>Sriveni</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Naveen Kumar</given-names> <surname>Navuri</surname></string-name>
+<string-name specific-use="index"><given-names>Naveen Kumar</given-names> <surname>Navuri</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Korra</given-names> <surname>Srinivas</surname></string-name>
+<string-name specific-use="index"><given-names>Korra</given-names> <surname>Srinivas</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Tirumala</given-names> <surname>Paruchuri</surname></string-name>
+<string-name specific-use="index"><given-names>Tirumala</given-names> <surname>Paruchuri</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Jaganathan</given-names> <surname>Muthusamy</surname></string-name>
+<string-name specific-use="index"><given-names>Jaganathan</given-names> <surname>Muthusamy</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Dept. of CSE, Malla Reddy University \\ Hyderabad</institution>, 500100 \\ <email>mailforsriveni@gmail.com</email></aff>
+<aff id="aff2"><institution content-type="department">Dept. of CSE, Malla Reddy University \\ Hyderabad</institution>, 500100 \\ <email>naveennavuri@gmail.com</email></aff>
+<aff id="aff3"><institution content-type="department">Dept. of CSE</institution>, AIML
+<institution-wrap>
+<institution content-type="institution">Malla Reddy \\ Engineering College for Women Maisammaguda</institution>
+</institution-wrap>
+, Dhulapally, \\ Secunderabad, Telengana, 500100 \\ <email>ksrinivas023@gmail.com</email></aff>
+<aff id="aff4"><institution content-type="department">Dept. of CSE, Malla Reddy Deemed to be University \\ Maisammaguda</institution>, Medchal, Malkajgrir, Telengana, 500100 \\ <email>tirumalaparuchuri@gmail.com</email></aff>
+<aff id="aff5"><institution content-type="department">Dept. of CSE</institution>, Malla Reddy \\ Viswavidyapeeth \\ Venkatarama Colony, Suraram, Telengana, 500055 \\ <email>jaganathanm@bitsathy.ac.in</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455694_ft.xml</self-uri>
+<self-uri content-type="print">105.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Intelligent diagnostics and real-time monitoring in the field of Internet of Things (IoMT) is changing modern healthcare, which also raises the risk of cyber threats, which makes important to get a strong intrusion detection systems (IDS). The current research used the MSCAD dataset to show the efficiency of eight popular optimizer for training the deep neural network model, by considering the real IoMT network conditions. Analyzing different performance metrices shows that the DNN optimized with Adam performs the best as compared to others, achieving a precision of 0.97753. This level of accuracy shows just how important it is to choose the right optimizer when building effective deep learning-based intrusion detection systems for medical networks. The proposed DNNAdam method provides useful information for creating secure and successful cybersecurity solutions for limited resources, real-time healthcare systems by enhancing detection accuracy, reliability and flexibility in the IoMT environment.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>IoT</kwd>
+<kwd>Deep Nural Network</kwd>
+<kwd>IoMT</kwd>
+<kwd>Machine Learning</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="6"/>
+<equation-count count="11"/>
+<ref-count count="16"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Many research shows that the Internet of Things (IoT) is the next major technological advancement after the Internet. Nowadays all the basic facilities including agricultural sector, healthcare practices, and disaster detection are only a few of its applications; its continuous operation needs a number of sensors, computing units and storage devices. However, IoT is a seamless connectivity; it still needs to deal with different issues like heterogeneous devices, diverse protocols, energy limitations and computational constraints, which lead to several security gaps that must be addressed to ensure protection <xref ref-type="bibr" rid="ref1">[1]</xref>. Because many IoT devices have little security, they are at risk of problems with confidentiality, integrity, and authenticity. A great deal of security incidents are caused by unauthorised data or service loss, and physical security risks can be greatly increased by device-level vulnerabilities. To preserve the user privacy, it is essential to give the volume of personal data shared across different platforms with a secure mechanism will help to protect sensitive information and stop network intrusions <xref ref-type="bibr" rid="ref2">[2]</xref>. As the population of the world is raising, the cost of Healthcare costs is rising along with the world&#x0027;s population, requiring the development of intelligent systems that can provide real-time medical insights.</p>
+<p>To send medical data for communication through network, the Internet of Medical Things (IoMT) <xref ref-type="bibr" rid="ref3">[3]</xref> been used which is the extension version of the Internet of Things, and data like blood pressure, temperature, and heart rate been monitored which help to take important measures to save life of patients. Even IoMT makes it possible to provide services in remote areas across the globe, by which patients get an immediate solution to their health problems. IoMT is depends on cloud, virtual communication tools, and extensive sensing Healthcare systems is depending on cloud computing, virtual communication tools and sophisticated sensing equipment in future, and it improves the complexity of the systems and helps to widen the scope of care. With these advantages, make the system worries about security and privacy continue to prevent cloud-based healthcare systems from becoming widely used. Traditional Intrusion Detection Systems (IDSs) are becoming less effective in this environment, and research on creating effective countermeasures to the threats posed by these developments is conspicuously lacking.</p>
+<p>Sorting through medical data can be assisted by machine learning (ML). ML used different methods to find patterns in big datasets, which enhances healthcare operations like record management, precise forecasting, and patient treatment plan customisation <xref ref-type="bibr" rid="ref4">[4]</xref>&#x2013;<xref ref-type="bibr" rid="ref5"/><xref ref-type="bibr" rid="ref6">[6]</xref>. With it, technology can reduce human error. There are certain challenges with traditional machine learning techniques, such as high processing costs, memory problems, and reduced accuracy when dealing with extremely complicated data. However, deep learning (DL), a simpler kind of machine learning, tackles these problems by capturing hierarchical representations using deep neural networks. Optimisation methods that adjust weights and biases to lower mistakes and also increase prediction accuracy which is most important to success of training these models <xref ref-type="bibr" rid="ref7">[7]</xref>.</p>
+<p>Here, a deep neural network (DNN) model is designed whos work is to detect cyberattacks in healthcare networks. Several optimizers which including Adam, SGD, Adadelta, Adagrad, Nadam, Adamax, AdamW and RMSprop are evaluated to determine the most efficient option. Experimental findings show that the Adam-based DNN framework achieves superior accuracy and performance compared to traditional ML methods. The MSCAD (Multi-Step Cyber-Attack Dataset for Intrusion Detection) dataset is used to overcome limitations linked to medical network data of high dimensionality, with the primary goal of accurately identifying malicious activities.</p>
+<p>In this research work which is organised as follows: <xref ref-type="sec" rid="sec2">Section 2</xref> presents the outline, <xref ref-type="sec" rid="sec3">Section 3</xref> gives a shorter analysis on early developed models, <xref ref-type="sec" rid="sec4">Section 4</xref> summarises the essential background, <xref ref-type="sec" rid="sec5">Section 5</xref> outlines the proposed methodology, <xref ref-type="sec" rid="sec6">Section 6</xref> illustrates the experimental process, and <xref ref-type="sec" rid="sec7">Section 7</xref> concludes the study.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Research Outline</title>
+<p>In past years, the IoMT has become more forwardthinking in medical sectors, which includes taking next level in the field of remote monitoring of healthcare services, playing a key role for proper identify the medical conditions of patients. As the requirement is rising, different interconnected healthcare devices used in IoMT display some security limitations, making them easy target as significant threat, as they can possibly control or manipulate the medical data with equipment, which may create issues towards lives of patients. For this reason, addressing these problems becomes more important to improve the performance and efficacy of medical IoT systems. At the same time, the IoMT system handles sensitive medical information, which is are attractive target for very sensitive data attacks like Web Crawling. In this type of attacks which are specifically target main safety elements, which including more confidentiality. And such attacks have the potential to influence the trust on the system and wide operation of IoMT models. These concerns motivated the present study, which aims to identify the major security risks affecting IoMT systems and to recommend appropriate strategies to strengthen their protection.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Literature Review</title>
+<p>Recent studies have used machine learning to strengthen security within the IoMT ecosystem. Authors in <xref ref-type="bibr" rid="ref9">[9]</xref> analysed NSL-KDD attacks mechanism targeting IoT sensor networks and compared over eleven ML models, finding that tree-based and ensemble methods performed best. XGBoost mechanism has remained the highest accuracy of 97 &#x0025; with 90.5 &#x0025; MCC and 99.6 &#x0025; AUC. Authors in <xref ref-type="bibr" rid="ref10">[10]</xref> addressed six ML techniques for detecting attacks in MQTT-based communication. They tested packet-level and flow-based features using simulated MQTT traffic, showing that flow features are essential for identifying MQTT-specific threats, while packet features work well for general attacks.</p>
+<p>Ahmad et al. <xref ref-type="bibr" rid="ref11">[11]</xref> used a cluster-based intelligent engineering method for addressing the major issues like overfitting and data imbalance. Using RF, SVM and ANN, they reported 98.67 &#x0025; accuracy for binary classification and 97.37 &#x0025; for multiclass tasks. Iwendi et al. <xref ref-type="bibr" rid="ref12">[12]</xref> developed a feature-optimized IDS by the hybridization of Random Forest and genetic algorithm. Their approach, evaluated on NSLKDD using RF, NB and LR models, improved detection accuracy, recall and F1-score by selecting the most effective feature subsets, as mentioned in <xref ref-type="table" rid="table1">Table 1</xref>.
+<table-wrap id="table1">
+<label>Table 1.</label>
+<caption><title>A summary of various developed methods</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Dataset</td>
+<td>Metho ds</td>
+<td>Propose d Model</td>
+<td>Optimizer Used</td>
+<td>Performance Measure(&#x0025;)</td>
+<td>Ref.</td>
+</tr>
+<tr>
+<td>Synthetic Dataset</td>
+<td>ANN, DT, RF, KNN</td>
+<td>ANN</td>
+<td>Adam</td>
+<td>91.01</td>
+<td><xref ref-type="bibr" rid="ref8">[8]</xref></td>
+</tr>
+<tr>
+<td>NSL-KDD</td>
+<td>XGBoo st,</td>
+<td>XGBoost</td>
+<td>NA</td>
+<td>97.02</td>
+<td><xref ref-type="bibr" rid="ref9">[9]</xref></td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table 1.</label>
+<caption><title>A summary of various developed methods</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th>Tree Based Metho ds (NB)</th>
+<th/>
+<th/>
+<th/>
+<th/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MQTT Dataset</td>
+<td>SVM, Decisio n Tree</td>
+<td>RF</td>
+<td>NA</td>
+<td>99.046</td>
+<td><xref ref-type="bibr" rid="ref10">[10]</xref></td>
+</tr>
+<tr>
+<td>UNSWNB15</td>
+<td>RF, SVM, DNN</td>
+<td>ANN</td>
+<td>Adam</td>
+<td>96.964</td>
+<td><xref ref-type="bibr" rid="ref11">[11]</xref></td>
+</tr>
+<tr>
+<td>NSL-KDD, CSE-CICIDS2018</td>
+<td>RF, GA, NB, LR</td>
+<td>RF</td>
+<td>NA</td>
+<td>98.8134</td>
+<td><xref ref-type="bibr" rid="ref12">[12]</xref></td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>An advanced intrusion detection system for smart healthcare systems strengthens data processing and also enhances overall security, which also lowers the risk of important failures within IoMT networks. Numerous studies addressing different privacy concerns and cyberthreats in medical settings contribute to IoMT security. The simple solutions are typically more appropriate for real world healthcare applications, in other hand more complicated models may require more resources. In earlier, conventional machine learning techniques can produce inaccurate outcomes, with issue of overfitting. For that reason it become important to develop more effective learning techniques in order to enhance IDS performance. Nowadays cyber-attacks are increasing which leads critical situation for healthcare applications. We require strong protection techniques for both internal and external components to maintain the trustworthiness of IoMT infrastructures.</p>
+<p>In today&#x0027;s world, decision-making can become more transparent and reliable by utilising deep learning models and thoroughly examining the effectiveness of various optimizers. It also increases trust in the effectiveness of IDSs and gives researchers a new area to understand and evaluate detection techniques.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Basic Preliminaries</title>
+<p>Optimizers are used with machine learning, which makes a big impact on a model&#x0027;s performance. The choice of optimizer is crucial for deep neural networks (DNNs) because the efficiency of training of the model depends on the parameters of the model. Based on predetermined update rules that direct the refinement of weights during training, optimizers adjust hyperparameters, such as the learning rate. The main goal is to improve the performance based on base of accuracy by iteratively updating network weights in a way that minimises the loss function. In essence, an optimizer aims to reduce training loss and steer the model toward better generalization. This study employs eight different optimization techniques to train the proposed DNN model. A detailed description of each optimizer and its corresponding characteristics is presented in <xref ref-type="table" rid="table2">Table 2</xref>.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Sgd</title>
+<p>Stochastic Gradient Descent (SGD) is an advanced and faster form of the conventional Gradient Descent algorithm, commonly used for tasks like classification, linear regression, and backpropagation. Its main function is to iteratively minimise the cost function from an initial starting point. The mathematical representation of SGD is provided in equation~(\ref{eqn1}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+W_{k+1}=W_{k}-\alpha \nabla L\left(W_{k}; p, q\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Rmsprop</title>
+<p>It uses gradients by using an adaptive learning rate as an alternative of a hyperparameter that variates with time (Eq.~(\ref{eqn2})).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+W_{k+1}=W_{k}-\frac{\alpha}{\sqrt{M_{k+1}}+\varepsilon} \nabla L\left(W_{k}; p, q\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Where, <inline-formula><tex-math notation="LaTeX">$M_{k+1}=\beta M_{k}+(1-\beta)\left(\nabla L\left(W_{k}; p, q\right)\right)^{2}$</tex-math></inline-formula>,</p>
+<inline-formula><tex-math notation="LaTeX">$M_{k}$</tex-math></inline-formula> is the Moving average of the squared gradient, <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula>: Decay factor (which is close to 1)
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Adagrad</title>
+<p>It automatically adjusts the learning rate for each parameter according to its update history. Parameters decrease more frequently receive smaller learning rates, improving performance and eliminating the need for manual tuning. The mechanism of Adagrad is expressed in equation~(\ref{eqn3}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+W_{k+1}=W_{k}-\frac{\alpha}{\sqrt{G M_{k+1}}+\varepsilon} \nabla L\left(W_{k}; p, q\right) \\
+G M_{k+1}=G M_{k}\left(\nabla L\left(W_{k}; p, q\right)\right)^{2} \\
+G M_{k}: \text { Diagonal matrix elements accumulates } \\
+\text { the squared gradient }
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec4d">
+<label>D.</label>
+<title>Adadelta</title>
+<p>AdaDelta is the improved version of Adagrad that remove the necessity for a fixed initial learning rate. It adaptively updates hyper-parameters during training and is more resilient to gradient noise, using a limited window to control the impact of past accumulated gradients. Its mathematical formulation is shown in equation~(\ref{eqn4}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+W_{k+1}=W_{k}+\frac{\sqrt{E\left[\Delta m^{2}\right]_{k-1}+\varepsilon}}{\sqrt{E\left[n^{2}\right]_{k}+\varepsilon}} \nabla L\left(W_{k}; p, q\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec4e">
+<label>E.</label>
+<title>Adam</title>
+<p>Adam, short for Adaptive Moment Estimation, is one of the most extensively used optimization algorithms and shares conceptual similarities with both RMSProp and Adagrad. It utilizes the L2 norm (Euclidean norm) to achieve efficient, adaptable, and fast optimization. As its name suggests, Adam estimates adaptive learning rates for individual network weights by computing the first and second moments of the gradients. The operational mechanism of the Adam optimizer is presented in equation~(\ref{eqn5}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+W_{k+1}=W_{k}-\frac{\alpha}{\sqrt{\frac{V_{k+1}}{1-\beta_{2}^{K+1}}}+\varepsilon} * \frac{U_{k+1}}{1-\beta_{1}^{K+1}} \\
+\text { where }, U_{k+1}=\beta_{1} U_{k}+\left(1-\beta_{1}\right) \nabla L\left(W_{k}; p, q\right), \\
+V_{k+1}=\beta_{2} V_{k}+\left(1-\beta_{2}\right)\left(\nabla L\left(W_{k}; p, q\right)\right)^{2}
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec4f">
+<label>F.</label>
+<title>Adamax</title>
+<p>This algorithm serves as a modified form of Adam. It computes adaptive updates using lower-order moment estimates, making it highly efficient in terms of computation while also requiring minimal memory.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<title>For Adamax Equation~(\Ref{Eqn5}) Updated With</title>
+<inline-formula><tex-math notation="LaTeX">$V_{k}$</tex-math></inline-formula>: exponentially weighted infinity norm of the gradients
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+V_{k+1}=\max \left(\beta_{2} \cdot V_{k} \cdot\left|\nabla L\left(W_{k}; p, q\right)\right|\right.
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<sec id="sec5a">
+<label>G.</label>
+<title>Nadam</title>
+<p>Nadam, formed from the joining of Adam and Nesterov Accelerated Gradient (NAG), integrates Nesterov&#x0027;s momentum into Adam&#x0027;s adaptive moment estimation. By incorporating a look-ahead gradient update, Nadam achieves faster and more stable convergence, particularly in scenarios involving high curvature or noisy gradients. Its learning process benefits from the accelerated reduction in the moving averages of both past and current gradients. The operational formulation of the Nadam optimizer is presented in equation~(\ref{eqn6}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; W_{k+1} \\
+&amp; =W_{k}-\frac{\alpha}{\sqrt{\frac{V_{k+1}}{1-\beta_{2}^{K+1}}}+\varepsilon} \\
+&amp; *\left(\beta_{1} \frac{U_{k+1}}{1-\beta_{1}^{K+1}}+\frac{\left(1-\beta_{1}\right) \nabla L\left(W_{k}+\beta_{1} U_{k}; p, q\right)}{1-\beta_{1}^{K+1}}\right)
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec5b">
+<label>H.</label>
+<title>Adamw</title>
+<p>AdamW optimizer is the improved version of Adam that includes weight decay shown in <xref ref-type="table" rid="table2">table.2</xref>. It is a regularization process which use a penalty having large weights during the optimization process. AdamW is updated as shown in equation~(\ref{eqn7}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+W_{k+1}=W_{k}-\frac{\alpha}{\sqrt{\frac{V_{k+1}}{1-\beta_{2}^{K+1}}}+\varepsilon} * \frac{U_{k+1}}{1-\beta_{1}^{K+1}}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<table-wrap id="table3">
+<label>Table 2.</label>
+<caption><title>Optimizers abbreviation explanation</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> (\textbackslash alpha)</td>
+<td>Learning parameter</td>
+</tr>
+<tr>
+<td>(U_k)</td>
+<td>First moment (mean) of gradients</td>
+</tr>
+<tr>
+<td>(V_k)</td>
+<td>Second moment (variance) of gradients</td>
+</tr>
+<tr>
+<td> (\textbackslash beta_1)</td>
+<td>Exponential decay rate for 1st moment</td>
+</tr>
+<tr>
+<td> (\textbackslash beta_2)</td>
+<td>Exponential decay rate for 2nd moment</td>
+</tr>
+<tr>
+<td> (\textbackslash vartheta)</td>
+<td>Weight decay coefficient</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec6">
+<label>V.</label>
+<title>Methodology Discussion</title>
+<p>This section describes how to identify and categorise IoMT network vulnerabilities by using deep learning. The system integrates a DNN model and also several optimizers, and offers a thorough examination of every phase, highlighting each one&#x0027;s unique contributions and training time impacts.</p>
+<sec id="sec6a">
+<label>A.</label>
+<title><Inline-Formula><Tex-Math Notation="Latex">$D N N$</Tex-Math></Inline-Formula></title>
+<p>A deep neural network (DNN) used multiple neurons organised into layers, functioning as a feed-forward network when processed data moves from input to output <xref ref-type="bibr" rid="ref13">[13]</xref>. It typically includes an input layer to receive data, one or more hidden layers to process it, and an output layer to generate results. During training, the network adjusts layer weights to optimize performance. DNNs good in handling tabular and nonlinear data due to their ability to learn optimal mappings between inputs and outputs. Activation functions are useful in dealing with nonlinearity, which allows the network for capturing complex patterns, a property aligned with the universal approximation theorem. <xref ref-type="fig" rid="fig1">Fig 1</xref> illustrates the general structure of a DNN.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig 1.</label>
+<caption><p>Dnn architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec6b">
+<label>B.</label>
+<title>Proposed Method</title>
+<p>In this study, DNN fully connected with four layers was designed and optimized for effective intrusion detection. The initial single-hidden-layer configuration proved inadequate, so multiple architectures were tested, and a two-hidden-layer design delivered the best results, as illustrated in <xref ref-type="fig" rid="fig2">Fig 2</xref>. In this fully connected network, each neuron links to every neuron in the next layer. The input vector XXX consists of 66 features <inline-formula><tex-math notation="LaTeX">$\left(\mathrm{X}=\{\mathrm{x} 1, \mathrm{x} 2, \ldots, \mathrm{x} 66\} \mathrm{X}=\backslash\left\{\mathrm{x} \_1, \mathrm{x} \_2, \ldots, \mathrm{x}_{\_}\{66\} \backslash\right\} \mathrm{X}=\{\mathrm{x} 1, \mathrm{x} 2\right.$</tex-math></inline-formula>,..., X66\}), while the output vector YYY contains six values representing attack classes from (C0 to C5). The DNN architecture includes one hidden layer with 64 and another with 128 neurons, respectively, both using the ReLU <xref ref-type="bibr" rid="ref14">[14]</xref>, and a softmax output layer with six neurons. Mathematically it is expressed in equation~(\ref{eqn8}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+H L_{i}(X)=f_{\text {activation }}\left(W_{i} X+b_{i}\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<inline-formula><tex-math notation="LaTeX">$f_{\text {activation }}($</tex-math></inline-formula>.<inline-formula><tex-math notation="LaTeX">$) is denoting the non-linear activation$</tex-math></inline-formula> function. Similarly, <inline-formula><tex-math notation="LaTeX">$W_{i}$</tex-math></inline-formula> symbolizes the weight factor and <inline-formula><tex-math notation="LaTeX">$b_{i}$</tex-math></inline-formula> represents the bias factor.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig 2.</label>
+<caption><p>Model diagram of the proposed framework</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-2-source.tif"/>
+</fig>
+<p>The output nodes and hidden nodes are subjected to the softmax activation function <xref ref-type="bibr" rid="ref15">[15]</xref> and the ReLu activation function, respectively. In equations (9) and (10), the ReLu and softmax are considered.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+f_{\text {activation }(R e L u)}=\max (0, X)
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+f_{\text {activation (softmax) }}=\frac{e^{x_{i}}}{\sum_{k-1}^{n} e^{x_{k}}}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here the performance is to be improved by suitably decreasing the loss value.</p>
+</sec>
+</sec>
+<sec id="sec7">
+<label>VI.</label>
+<title>Result Analysis</title>
+<p>This section provides a broad view on MSCAD dataset, which is used inside the experiment to train the model using multiple optimizers, and it includes processes such as preparation of the dataset, experimental setup and at the end a comprehensive analysis of results that we got at the end for evaluation of identification of attacks within the IoMT environment.</p>
+<sec id="sec7a">
+<label>A.</label>
+<title>Dataset Overview</title>
+<p>Here we used the MSCAD dataset and the overview can find in the <xref ref-type="table" rid="table3">Table 3</xref>. This dataset was downloaded from IEEE DataPort <xref ref-type="bibr" rid="ref16">[16]</xref> and this dataset consists of 66 feature columns, and one more column is there "Label". On study the dataset, which is consists of two primary attack types that are carried out in stages such as volume-based DDoS attacks and bruteforce password attacks. In the brute-force scenario, an attacker scans ports, copies web pages offline using HTTrack Website Copier, and then targets hosts with a DDoS attack. A traffic-based DDoS using Radware, an HTTP Slowloris attack, and Full, SYN, FIN, and UDP port scans are all part of the volume-based DDoS attack. With 128,799 examples, the dataset offers a thorough standard for intrusion detection studies.
+<table-wrap id="table4">
+<label>Table 3.</label>
+<caption><title>Dataset description</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-4-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="8"/>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Feature</th>
+<th colspan="6">Attack Class Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Featur es</td>
+<td>Target Vectors</td>
+<td>Brut e Forc e</td>
+<td>HTT P DDo S</td>
+<td>ICM P Floo d</td>
+<td>Nor mal</td>
+<td>Port Sca n</td>
+<td>Web Crawlin g</td>
+</tr>
+<tr>
+<td>66</td>
+<td>1</td>
+<td>8850 2</td>
+<td>641</td>
+<td>45</td>
+<td>285 02</td>
+<td>110 81</td>
+<td>28</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</sec>
+<sec id="sec7b">
+<label>B.</label>
+<title>Experimental Setup</title>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>Language</td>
+<td>Python v 3.9</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>Keras, Tensorflow</td>
+</tr>
+<tr>
+<td>Hardware</td>
+<td>HP</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11 Home</td>
+</tr>
+<tr>
+<td>Processor</td>
+<td>Intel Core i5 &#x0026; GPU</td>
+</tr></tbody>
+</table>
+</sec>
+<sec id="sec7c">
+<label>C.</label>
+<title>Data Preparation</title>
+<p>MSCAD dataset was preprocessed through five main steps on data, so that the training of the model will start. First, pandas to clean up the data by removing any duplicates and inconsistent entries to make sure the data was reliable. Then deal with any missing values by dropping records that had NaNs. After that, converted categorical fields, like the &#x0027;Label&#x0027; column, into numerical values using label encoding. To help with training stability and convergence, In next step of preprocessing normalized all feature values with the min-max scaling technique. Since the dataset had a significant class imbalance, so implemented the SMOTE oversampling method with the &#x0027;auto&#x0027; strategy to even things out. 80 &#x0025; training and 20 &#x0025; testing samples are considered in this experiment, ensuring a random sampling for a fair separation.</p>
+</sec>
+<sec id="sec7d">
+<label>D.</label>
+<title>Evaluation Metrics</title>
+<p>The efficiency of the algorithm was evaluated by using five standard performance metrics shown in <xref ref-type="table" rid="table4">Table 4</xref>. The performance of each models are compared for best analysis of the result.</p>
+</sec>
+<sec id="sec7e">
+<label>E.</label>
+<title>Experimental Result Analysis</title>
+<p>This section presents the influence of different optimiser algorithms on the performance of the DNN model using the MSCAD dataset. This study also comparations the proposed DNN-based attack detection framework with several traditional ML techniques, including LR, DT and ensemble models such as RF, Bagging, GBoost and AdaBoost. The qualified performance of these ML models against the proposed DNN-Adam architecture is summarized in <xref ref-type="table" rid="table4">Table 4</xref>, while <xref ref-type="table" rid="table5">Table 5</xref> provides the experimental results demonstrating the variance on the optimizer&#x0027;s performance on the DNN model. In <xref ref-type="table" rid="table4">table 4</xref>, PF1 is the precision, PF2 is the Recall, PF3 is the F1 score, PF4 is the F2 score and Pf5 is F3 score.
+<table-wrap id="table5">
+<label>Table 4.</label>
+<caption><title>Three ml model compared to dnn-adam</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-5-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th>Name of the Model</th>
+<th>PF1</th>
+<th>PF2</th>
+<th>PF3</th>
+<th>PF4</th>
+<th>PF5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DT</td>
+<td>0.78882</td>
+<td>0.79261</td>
+<td>0.78924</td>
+<td>0.78923</td>
+<td>0.7783</td>
+</tr>
+<tr>
+<td>LR</td>
+<td>0.63673</td>
+<td>0.59624</td>
+<td>0.61154</td>
+<td>0.61152</td>
+<td>0.6014</td>
+</tr>
+<tr>
+<td>RF</td>
+<td>0.98222</td>
+<td>0.92445</td>
+<td>0.94993</td>
+<td>0.94973</td>
+<td>0.9422</td>
+</tr>
+<tr>
+<td>Proposed model</td>
+<td>0.97751</td>
+<td>0.97731</td>
+<td>0.97722</td>
+<td>0.97712</td>
+<td>0.9670</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table6">
+<label>Table 5.</label>
+<caption><title>Results analysis with different optimizers</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-table-6-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="7"/>
+</colgroup>
+<thead>
+<tr>
+<th>Classificati on Model</th>
+<th>PF1</th>
+<th>PF2</th>
+<th>PF3</th>
+<th>PF4</th>
+<th>PF5</th>
+<th>GPUTime Elapsed (Minutes)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DNNAdadelta</td>
+<td>0.832</td>
+<td>0.80454</td>
+<td>0.80 3</td>
+<td>0.803</td>
+<td>0.803</td>
+<td>12.054</td>
+</tr>
+<tr>
+<td>DNN-SGD</td>
+<td>0.852</td>
+<td>0.83303</td>
+<td>0.83 294</td>
+<td>0.832</td>
+<td>0.832</td>
+<td>10.333</td>
+</tr>
+<tr>
+<td>DNNAdagrad</td>
+<td>0.863</td>
+<td>0.84412</td>
+<td>0.84 464</td>
+<td>0.844</td>
+<td>0.844</td>
+<td>12.224</td>
+</tr>
+<tr>
+<td>DNNAdamW</td>
+<td>0.975</td>
+<td>0.97555</td>
+<td>0.97 5</td>
+<td>0.975</td>
+<td>0.975</td>
+<td>11.466</td>
+</tr>
+<tr>
+<td>DNNRMSprop</td>
+<td>0.976</td>
+<td>0.9760</td>
+<td>0.97 52</td>
+<td>0.975 72</td>
+<td>0.9758 4</td>
+<td>12.202</td>
+</tr>
+<tr>
+<td>DNNAdamax</td>
+<td>0.9768</td>
+<td>0.976703</td>
+<td>0.97 67</td>
+<td>0.976 63</td>
+<td>0.9767 5</td>
+<td>9.5603</td>
+</tr>
+<tr>
+<td>DNNNadam</td>
+<td>0.9773</td>
+<td>0.977202</td>
+<td>0.97 7</td>
+<td>0.977 12</td>
+<td>0.9772 3</td>
+<td>10.4112</td>
+</tr>
+<tr>
+<td>Proposed Model</td>
+<td>0.9775</td>
+<td>0.97735</td>
+<td>0.97 722</td>
+<td>0.977 19</td>
+<td>0.9772 6</td>
+<td>9.4056</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>However, traditional ML models, Adaboost demonstrates the highest performance, achieving an F1-score of 0.9318 and an overall accuracy of 0.9204. These accuracy levels still fall noticeably short of the effectiveness achieved by the DNNAdam model. The results clearly show that the integration of an appropriate optimizer significantly enhances the performance of the DL model. As evidenced in <xref ref-type="table" rid="table5">Table 5</xref>, the proposed DNN-Adam architecture surpasses all other evaluated models and proved to be the best performing model.
+<fig id="fig3" position="float" orientation="portrait">
+<label>***</label>
+<caption><p>(a) dnn-adagrad</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>***</label>
+<caption><p>(b) dnn-adamw</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-4-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig 3.</label>
+<caption><p>Validation accuracy analysis of all models</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-3-source.tif"/>
+</fig></p>
+<p>The graphs in <xref ref-type="fig" rid="fig3">fig 3</xref>, shows the performance of various optimizers applied to the DNN model for 200 epochs with respect to validation accuracy. The graph, it shows DNN Adadelta setup performs the worst result as compare to others. In other hand optimizers Adamax, Nadam, and Adam perform noticeably better. DNN - Adam experiment setup is the most successful optimizer, which consistently achieves the highest accuracy and the fastest convergence.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig 4.</label>
+<caption><p>Validation loss analysis of all models</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455694-fig-5-source.tif"/>
+</fig></p>
+<p>From the above <xref ref-type="fig" rid="fig4">fig 4</xref> shows the losses of different optimizers which influenced the performance of DNN models by the nature of datset and optimizer&#x0027;s characteristics. These differ in performance arises from the distinct ways by which the optimizer affects the model performance such as ability to learn meaningful internal representations. After all analysis, it is found that DNN - Adam setup achives the lowest loss as compare to others, further confirming its robustness and effectiveness. From the result of DNN - Adam algorithm found that it achieves a good score in F1-Score having less training and execution time as compared to all other optimizers.</p>
+</sec>
+</sec>
+<sec id="sec8">
+<label>VII.</label>
+<title>Conclusion</title>
+<p>Effective identifying unauthorized entries is critical within an IoMT framework. On the based of optimizer integration with Deep Neural Networks (DNN), are employed for IDS in this investigation. To assess the performance of diverse Deep Neural Network (DNN) optimizers, experiments were executed with the ensuing parameters. The performance has been achieved with a setting of no. of epochs 200,66 neurons at the input layer, 1st hidden layer encompassing 64 units and so on. The model was assessed on the Medical Smart City Attack Dataset (MSCAD), which encompasses six distinct categories of attacks. In addition to evaluating the intrusion detection, this work is taken several other issues and domains, which include difference detection and disease identification. As experimental result shows strong accuracy, the model requires considerable computational resources, as is common with DNN-based systems. Future work will explore automated hyper-parameter optimization and advanced feature selection techniques to reduce computational cost and further improve performance.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Litoussi</given-names>, <surname>Mohamed</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>IoT security: challenges and countermeasures</article-title>.&#x201D; Procedia Computer Science <volume>177</volume> (<year>2020</year>): <fpage>503</fpage>&#x2013;<lpage>508</lpage>. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.1016/j.procs.2020.10.069</publisher-name>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Razzaq</given-names>, <surname>Mirza Abdur</surname></string-name></person-group>, <etal>et al.</etal>&#x201C;<article-title>Security issues in the Internet of Things (IoT): A comprehensive study</article-title>.&#x201D; International Journal of Advanced Computer Science and Applications 8.<volume>6</volume> (<year>2017</year>). <publisher-loc>Doi</publisher-loc>: <publisher-name>10.14569/ijacsa.2017.080650</publisher-name>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Nayak</given-names>, <surname>Janmenjoy</surname></string-name></person-group>, Pooja Puspita Priyadarshani, and Pandit Byomakesha Dash."Improved perturbation based hybrid firefly algorithm and long short-term memory based intelligent security model for IoT network intrusion detection." Computers and Electrical Engineering <volume>121</volume> (<year>2025</year>): 109926.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Subhan</given-names>, <surname>Fazli</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>AI-enabled wearable medical internet of things in healthcare system: A survey</article-title>.&#x201D; Applied Sciences 13.<volume>3</volume> (<year>2023</year>): 1394. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.3390/app13031394</publisher-name>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Aminizadeh</given-names>, <surname>Sarina</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>The applications of machine learning techniques in medical data processing based on distributed computing and the Internet of Things</article-title>.&#x201D; Computer Methods and Programs in Biomedicine (<year>2023</year>): 107745. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.1016/j.cmpb.2023.107745</publisher-name>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Luo</given-names>, <surname>Gang</surname></string-name></person-group>."Automatically explaining machine learning prediction results: a demonstration on type 2 diabetes risk prediction." Health information science and systems <volume>4</volume> (<year>2016</year>): <fpage>1</fpage>&#x2013;<lpage>9</lpage>. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.1186/s13755-016-0015-4</publisher-name>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Reddy</given-names>, <surname>Dukka</surname></string-name> Karun <string-name><given-names>Kumar</given-names>, <surname>Janmenjoy</surname></string-name> Nayak, <string-name><given-names>H. S.</given-names> <surname>Behera</given-names>, <surname>Vimal</surname></string-name> <string-name><given-names>Shanmuganathan</given-names>, <surname>Wattana Viriyasitavat</surname></string-name></person-group>, and Gaurav Dhiman."A Systematic Literature Review on Swarm Intelligence Based Intrusion Detection System: Past, Present and Future." Archives of Computational Methods in Engineering 31, no. <volume>5</volume> (<year>2024</year>).</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author">Newaz, AKM Iqtidar, <etal>et al.</etal>&#x201C;<article-title>Healthguard: A machine learning-based security framework for smart healthcare systems</article-title>.&#x201D; <conf-name>2019 sixth international conference on social networks analysis</conf-name>, <conf-loc>management and security (SNAMS). IEEE</conf-loc>, <conf-date>2019</conf-date>. Doi: <pub-id pub-id-type="doi">10.1109/SNAMS.2019.8931716</pub-id>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Liu</given-names>, <surname>Jinxin</surname></string-name></person-group>, Burak Kantarci, and Carlisle Adams."Machine learningdriven intrusion detection for Contiki-NG-based IoT networks exposed to NSL-KDD dataset." Proceedings of the 2nd ACM workshop on wireless security and machine learning. <conf-date>2020</conf-date>. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.1145/3395352.3402621</publisher-name>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Nayak</given-names>, <surname>Janmenjoy</surname></string-name>, Saroj <string-name><given-names>K.</given-names> <surname>Meher</given-names>, <surname>Alireza</surname></string-name> <string-name><given-names>Souri</given-names>, <surname>Bighnaraj</surname></string-name> Naik, and <string-name><given-names>S.</given-names> <surname>Vimal</surname></string-name></person-group>&#x201C;<article-title>Extreme learning machine and bayesian optimizationdriven intelligent framework for IoMT cyber-attack detection</article-title>.&#x201D; <source>The Journal of Supercomputing</source> <volume>78</volume>, no. <issue>13</issue> (<year>2022</year>): <fpage>14866</fpage>&#x2013;<lpage>14891</lpage>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Ahmad</given-names>, <surname>Muhammad</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>Intrusion detection in internet of things using supervised machine learning based on application and transport layer features using UNSW-NB15 data-set</article-title>.&#x201D; EURASIP Journal on Wireless Communications and Networking <year>2021</year>.<volume>1</volume> (<year>2021</year>): <fpage>1</fpage>&#x2013;<lpage>23</lpage>. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.1186/s13638-021-01893-8</publisher-name>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Iwendi</given-names>, <surname>Celestine</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>Security of things intrusion detection system for smart healthcare</article-title>.&#x201D; Electronics 10.<volume>12</volume> (<year>2021</year>): 1375. <publisher-loc>Doi</publisher-loc>: <publisher-name>10.3390/electronics 10121375</publisher-name>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Mishra</given-names>, <surname>Debasmita</surname></string-name>, Bighnaraj <string-name><given-names>Naik</given-names>, <surname>Janmenjoy</surname></string-name> <string-name><given-names>Nayak</given-names>, <surname>Alireza</surname></string-name> <string-name><given-names>Souri</given-names>, <surname>Pandit</surname></string-name> <string-name><given-names>Byomakesha</given-names> <surname>Dash</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Vimal</surname></string-name></person-group>&#x201C;<article-title>Light gradient boosting machine with optimized hyperparameters for identification of malicious access in IoT network</article-title>.&#x201D; <source>Digital Communications and Networks</source> <volume>9</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>125</fpage>&#x2013;<lpage>137</lpage>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Agarap</given-names>, <surname>Abien</surname></string-name></person-group> Fred."Deep learning using rectified linear units (relu)." <source>arXiv preprint</source> arXiv:1803.<volume>08375</volume> (<year>2018</year>). <publisher-loc>Doi</publisher-loc>: <publisher-name>10.48550/arXiv.1803.08375</publisher-name>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Nwankpa</given-names>, <surname>Chigozie</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>Activation functions: Comparison of trends in practice and research for deep learning</article-title>.&#x201D; <source>arXiv preprint</source> arXiv:1811.<volume>03378</volume> (<year>2018</year>). <publisher-loc>Doi</publisher-loc>: <publisher-name>10.48550/arXiv.1811.03378</publisher-name>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Mohammad</given-names> <surname>Almseidin</surname></string-name></person-group>, Jamil Al-Sawwa, Mouhammd Alkasassbeh, &#x201C;<article-title>Multi-Step Cyber-Attack Dataset (MSCAD for Intrusion Detection)</article-title>&#x201D;, IEEE Dataport, <month>June</month> 18, <year>2022</year>, doi:<pub-id pub-id-type="doi">10.21227/phr0-e264</pub-id></mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

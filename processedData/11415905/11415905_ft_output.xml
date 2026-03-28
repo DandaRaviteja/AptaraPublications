@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/27/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00172</article-id>
+<xplore-article-id>11415905</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>Evaluating Open-Source Vision-Language Models for Multimodal Sarcasm Detection</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Saroj</given-names> <surname>Basnet</surname></string-name>
+<string-name specific-use="index"><given-names>Saroj</given-names> <surname>Basnet</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shafkat</given-names> <surname>Farabi</surname></string-name>
+<string-name specific-use="index"><given-names>Shafkat</given-names> <surname>Farabi</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Tharindu</given-names> <surname>Ranasinghe</surname></string-name>
+<string-name specific-use="index"><given-names>Tharindu</given-names> <surname>Ranasinghe</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Diptesh</given-names> <surname>Kanojia</surname></string-name>
+<string-name specific-use="index"><given-names>Diptesh</given-names> <surname>Kanojia</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff4"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Marcos</given-names> <surname>Zampieri</surname></string-name>
+<string-name specific-use="index"><given-names>Marcos</given-names> <surname>Zampieri</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">George Mason University</institution>
+</institution-wrap>
+<city>Fairfax</city>
+<state>VA</state>
+<country>USA</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Virginia Tech</institution>
+</institution-wrap>
+<city>Alexandria</city>
+<state>VA</state>
+<country>USA</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Lancaster University</institution>
+</institution-wrap>
+<city>Lancaster</city>
+<country>UK</country>
+</aff>
+<aff id="aff4">
+<institution-wrap>
+<institution content-type="institution">University of Surrey</institution>
+</institution-wrap>
+<city>Guildford</city>
+<country>UK</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>1442</fpage>
+<lpage>1447</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415905_ft.xml</self-uri>
+<self-uri content-type="print">813200b442.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Recent advances in open-source vision-language models (VLMs) offer new opportunities for understanding complex and subjective multimodal phenomena such as sarcasm. In this work, we evaluate seven state-of-the-art VLMs - BLIP2, InstructBLIP, OpenFlamingo, LLaVA, PaliGemma, Gemma3, and Qwen-VL - on their ability to detect multimodal sarcasm using zero-, one-, and few-shot prompting. Furthermore, we evaluate the models&#x0027; capabilities in generating explanations to sarcastic instances. We evaluate the capabilities of VLMs on three benchmark sarcasm datasets (Muse, MMSD2.0, and SarcNet). Our primary objectives are twofold: (1) to quantify each model&#x0027;s performance in detecting sarcastic image-caption pairs, and (2) to assess their ability to generate human-quality explanations that highlight the visual-textual incongruities driving sarcasm. Our results indicate that, while current models achieve moderate success in binary sarcasm detection, they are still not able to generate high-quality explanations without task-specific fine-tuning.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>vision and language</kwd>
+<kwd>multimodal sarcasm</kwd>
+<kwd>LLMs</kwd>
+</kwd-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<equation-count count="1"/>
+<ref-count count="46"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Sarcasm is a nuanced form of communication where the intended meaning diverges from the literal expression conveying irony or mockery (see <xref ref-type="fig" rid="fig1">Figure 1</xref>). Automatic sarcasm detection has been widely studied in texts <xref ref-type="bibr" rid="ref1">[1]</xref>&#x2013;<xref ref-type="bibr" rid="ref2"/><xref ref-type="bibr" rid="ref3">[3]</xref> and it is an important part of subjective language understanding <xref ref-type="bibr" rid="ref4">[4]</xref> along with tasks such as sentiment analysis <xref ref-type="bibr" rid="ref5">[5]</xref> and offensive language identification <xref ref-type="bibr" rid="ref6">[6]</xref>, <xref ref-type="bibr" rid="ref7">[7]</xref>. Yet, on social media, sarcasm is often achieved by pairing text with images, and the ironic effect arises from the mismatch between the visual and textual objects. Multimodal sarcasm detection (MSD) has attracted increasing attention due to the proliferation of multimedia content on social platforms. A recent comprehensive survey on the topic <xref ref-type="bibr" rid="ref8">[8]</xref> highlights the complexity of MSD and the necessity for models capable of interpreting cross-modal incongruities.</p>
+<p>Vision-language models (VLMs) pre-trained on large im-age-text corpora exhibit powerful zero- and few-shot abilities across tasks <xref ref-type="bibr" rid="ref9">[9]</xref>. The state-of-the-art vision-language models (VLMs) have shown promise in handling multimodal data. Models like Flamingo <xref ref-type="bibr" rid="ref10">[10]</xref> and VILA <xref ref-type="bibr" rid="ref11">[11]</xref> have demonstrated capabilities in zero-shot and few-shot learning, adapting to new tasks with minimal examples through in-context learning. These models process interleaved sequences of visual and textual data, making them suitable candidates MSD. However, their performance on this task remains largely unexplored. Notably, studies like Lin <italic>et al</italic>. <xref ref-type="bibr" rid="ref12">[12]</xref> and Yang <italic>et al</italic>. <xref ref-type="bibr" rid="ref13">[13]</xref> - include MSD within 14 broader multimodal benchmark datasets used to evaluate VLMs. While these studies benchmark models like GPT-4, LLaMA, OpenFlamingo, BLIP2, and InstructBLIP, only minimal sarcasm data is present.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1:</label>
+<caption><p>Example of a sarcastic instance (image and text pair) from the dataset.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415905-fig-1-source.tif"/>
+</fig></p>
+<p>In contrast, <xref ref-type="bibr" rid="ref14">[14]</xref> have incorporated multimodal large language models (MLLMs) in their pipeline, utilizing CLIP and other visual encoders with training to achieve state-of-the-art performance on MSD. Given the nuanced nature of sarcasm and its reliance on context across modalities, it is imperative to assess whether these models can detect and explain sarcasm without extensive fine-tuning <xref ref-type="bibr" rid="ref8">[8]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref>. Recent work on Multimodal Sarcasm Explanation (MuSE) <xref ref-type="bibr" rid="ref16">[16]</xref> requires models to generate human-style explanations for sarcastic image-caption pairs, but relies on supervised fine-tuning and specialized architectures. We instead ask: <italic>Can off-the-shelf open-source VLMs detect and explain multimodal sarcasm purely through in-context prompts?</italic></p>
+<p>Building on this foundation, our study focuses on benchmarking widely used open-source VLMs for their ability to identify sarcasm without fine-tuning, utilizing several datasets curated specifically for MSD. Beyond classification, we also evaluate their capability of generating coherent textual explanations reasoning solely through prompting.</p>
+<p>The paper addresses the following research questions (RQs):
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>RQ1:</bold> How effectively do state-of-the-art open-source VLMs perform on MSD benchmarks using in-context learning?</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>RQ2:</bold> Can state-of-the-art open-source VLMs generate coherent and task-relevant textual explanations for multimodal sarcasm reasoning solely through prompting?</p></list-item>
+</list></p>
+<p>The main contributions of this paper are as follows:
+<list list-type="ordered">
+<list-item><label>1)</label><p>We provide a unified in-context framework with prompt templates that integrate images, few-shot examples, and explanation seeds across seven VLMs.</p></list-item>
+<list-item><label>2)</label><p>We carry out a classification benchmark with systematic zero-, one-, few-shot evaluation on three MSD benchmark datasets (MMSD, MMSD2.0, SarcNet).</p></list-item>
+<list-item><label>3)</label><p>We evaluate the explanation generation capabilities each model&#x0027;s free-form irony explanation generation.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>Automatic sarcasm detection has been extensively studied due to its challenging nature <xref ref-type="bibr" rid="ref17">[17]</xref>, <xref ref-type="bibr" rid="ref18">[18]</xref>. Furthermore, sarcasm has been studied as a linguistic phenomenon part of various related NLP tasks such as sentiment analysis <xref ref-type="bibr" rid="ref19">[19]</xref>&#x2013;<xref ref-type="bibr" rid="ref20"/><xref ref-type="bibr" rid="ref21">[21]</xref>, offensive speech identification <xref ref-type="bibr" rid="ref22">[22]</xref>, and humor identification <xref ref-type="bibr" rid="ref23">[23]</xref>. Most research on this task addresses the identification of sarcasm in texts <xref ref-type="bibr" rid="ref17">[17]</xref>, <xref ref-type="bibr" rid="ref24">[24]</xref>, <xref ref-type="bibr" rid="ref25">[25]</xref>.</p>
+<p>Schifanella <italic>et al</italic>. <xref ref-type="bibr" rid="ref26">[26]</xref> demonstrate that visual modalities often include cues that help models identifying sarcastic intent and since then multiple studies have addressed MSD. Multiple MSD datasets have been crated from social media data <xref ref-type="bibr" rid="ref26">[26]</xref>&#x2013;<xref ref-type="bibr" rid="ref27"/><xref ref-type="bibr" rid="ref28">[28]</xref>. Among these, MMSD <xref ref-type="bibr" rid="ref28">[28]</xref> and its improved version MMSD2.0 <xref ref-type="bibr" rid="ref29">[29]</xref> have become de-facto benchmarks for MSD. Yue <italic>et al</italic>. <xref ref-type="bibr" rid="ref30">[30]</xref> recently propose a multilingual multimodal dataset for MSD named SarcNet.</p>
+<p>Earlier work on MSD focused on extracting visual and textual features with separate encoders (BERT, ResNet, VIT etc.) and designing techniques to aggregate these features. Most feature aggregation techniques rely on the fact that sarcasm is marked by a characteristic semantic incongruity between the text and image. Various techniques such as inter-modal attention <xref ref-type="bibr" rid="ref31">[31]</xref>, graph neural nets <xref ref-type="bibr" rid="ref32">[32]</xref>, <xref ref-type="bibr" rid="ref33">[33]</xref>, and D&#x0026;R network <xref ref-type="bibr" rid="ref34">[34]</xref> have been employed to model this relationship at the feature aggregation stage. More recent works have shifted their focus to model the interaction between the modalities early on in the processing pipeline. For example, Wang <italic>et al</italic>. <xref ref-type="bibr" rid="ref35">[35]</xref> benchmark multimodal models like VisualBERT, LXMERT, ViLBERT etc. that jointly extract features from images and texts to identify sarcasm. Qin <italic>et al</italic>. <xref ref-type="bibr" rid="ref29">[29]</xref> also take this route by using OpenAI&#x0027;s CLIP architecture.</p>
+<p>In recent years, multimodal LLMs such as GPT-4, LLaVA, and others have demonstrated remarkable capabilities in extracting information and analyzing sentiment from multimodal data. These models have achieved state-of-the-art results across a variety of multimodal tasks. However, as noted by Farabi <italic>et al</italic>. <xref ref-type="bibr" rid="ref8">[8]</xref> in their survey of the field, there remains a significant gap in the literature: LLMs are still underexplored for MSD. This work helps filling this gap presenting a systematic evaluation of open-source LLMs on MSD using in-context learning.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methods</title>
+<sec id="sec3a">
+<label>a)</label>
+<title>Datasets:</title>
+<p>We utilize three publicly available datasets presented in <xref ref-type="table" rid="table1">Table I</xref> for multimodal sarcasm detection. For evaluation, we randomly sample 3,000 image-caption pairs from both MMSD2.0 and SarcNet, multilingual - English and Chinese; datasets for binary classification. In parallel, we draw explanations from the Muse dataset to assess the models&#x0027; ability not only to label but to qualitatively justify their predictions.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>MuSE</bold> <xref ref-type="bibr" rid="ref16">[16]</xref>: Contains image-text pairs labeled for sarcasm, notably including explanations for sarcastic instances. Primarily used for positive (sarcastic) examples in our fewshot prompts.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>MMSD2.0</bold> <xref ref-type="bibr" rid="ref29">[29]</xref>: A comparatively larger dataset for multimodal sarcasm detection featuring both sarcastic and non-sarcastic examples. Used for sourcing negative (nonsarcastic) examples for few-shot prompts.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>SarcNet</bold> <xref ref-type="bibr" rid="ref30">[30]</xref>: SarcNet is a multilingual (English and Chinese) dataset for multimodal sarcasm detection, comprising 3,335 image-text pair samples.</p></list-item>
+</list>
+<table-wrap id="table1">
+<label>Table I:</label>
+<caption><title>Overview of key characteristics of datasets used in multimodal sarcasm detection, highlighting the distribution of positive (+) and negative (-) examples, availability of explanations, and support for multilingual data.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415905-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>+ examples</th>
+<th>&#x2212; examples</th>
+<th>Explanation</th>
+<th>Multilingual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Muse</td>
+<td>3,510</td>
+<td>0</td>
+<td><inline-formula><tex-math notation="LaTeX">$\checkmark$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\times$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>MMSD2.0</td>
+<td>11,651</td>
+<td>12,980</td>
+<td><inline-formula><tex-math notation="LaTeX">$\times$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\times$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>SarcNet</td>
+<td>1,875</td>
+<td>1,460</td>
+<td><inline-formula><tex-math notation="LaTeX">$\times$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\checkmark$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+</sec>
+<sec id="secb">
+<label>b)</label>
+<title>Models:</title>
+<p>We benchmark seven open-source VLMs spanning diverse architectures and pretraining regimes:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>InstructBlip</bold> <xref ref-type="bibr" rid="ref36">[36]</xref> - FlanT5 large model further instruction-tuned on multi-task vision-language data.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Blip2</bold> <monospace>2.7B</monospace> <xref ref-type="bibr" rid="ref37">[37]</xref> - frozen image encoder with Q-former and a large language model backbone.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>OpenFlamingo</bold> <monospace>3B</monospace> <xref ref-type="bibr" rid="ref38">[38]</xref> - a lightweight adaptation of Flamingo for open-source environments.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>LLaVA</bold> <monospace>7B</monospace> <xref ref-type="bibr" rid="ref39">[39]</xref> - vision-language alignment via adversarial fine-tuning of LLaMA.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>PaliGemma</bold> <monospace>3B</monospace> <xref ref-type="bibr" rid="ref40">[40]</xref> - multimodal mixture-of-experts model combining visual and textual experts.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Qwen-VL</bold> <monospace>7B</monospace> <xref ref-type="bibr" rid="ref41">[41]</xref>-Q-aware encoder-decoder with unified multimodal attention.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Gemma3</bold> <monospace>27B</monospace> <xref ref-type="bibr" rid="ref42">[42]</xref>- instruction-tuned multimodal model that processes both images and text, and broad multilingual support.</p></list-item>
+</list>
+</p>
+</sec>
+<sec id="sec3c">
+<label>c)</label>
+<title>In-Context Prompting:</title>
+<p>We apply a unified global prompt instruction template across all-shots settings to ensure the consistency in how each model is queried:</p>
+<algorithm rule="both" id="alg1">
+<label>Listing 1:</label>
+<title>Sarcasm Detection Prompt Structure</title>
+<alg-item rule="none" left-indent="0"><p>*&#x003C;global_instruction&#x003E;*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>Example: (zero-, one-, few-shots)</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>*&#x003C;image&#x003E;*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>*Caption:&#x003C;caption&#x003E; Answer: Yes/No*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>*&#x003C;image&#x003E;*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>**Context:**: {caption}&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>Is this sarcastic?</p></alg-item>
+</algorithm>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><monospace>Zero-shot:</monospace> no examples or reference explanations included.</p></list-item>
+<list-item><label>&#x2022;</label><p><monospace>One-shot / Few-shot:</monospace> we prepend 1 - 3 exemplar triplets (caption, reference explanation, \ <monospace>Yes</monospace>.&#x201C; or \ <monospace>No</monospace>.&#x201D;) drawn from Muse (positive) and MMSD2.0 (negative).</p></list-item>
+</list>
+<p>Prompts are truncated/padded to each model&#x0027;s maximum token length; image inputs use each model&#x0027;s native preprocessing pipeline (PIL Image pixel-values or embedded file-paths). However, due to Gemma3&#x0027;s maximum context window, including more than one example in a few-shot prompt would exceed its capacity, so we omit few-shot evaluations for this model.</p>
+<algorithm rule="both" id="alg2">
+<label>Listing 2:</label>
+<title>Explanation Generation Prompt Structure</title>
+<alg-item rule="none" left-indent="0"><p>*&#x003C;Context&#x003E;:*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>*&#x003C;image&#x003E;*</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>**Original Caption**: {caption}&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>**Provided Explanation**: {explnation}</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>**Task Instruction**</p></alg-item>
+</algorithm>
+<p>This study utilized zero-, one-, and few-shot prompting strategies to evaluate Multimodal sarcasm detection. Zero-shot prompting provided only task instructions and the target query, relying on the model&#x0027;s pre-trained or tuned knowledge. One-shot and few-shot approaches provided one or multiple (<inline-formula><tex-math notation="LaTeX">$\mathrm{N}=1,3$</tex-math></inline-formula> pairs used for asset building) complete examples, respectively, within the prompt to enable in-context learning. All strategies aimed for a unified output (<monospace>Yes/No</monospace> classification). Furthermore, we prompted each model to generate a sarcasm explanation using the template in Listing 3. All explanation generation was performed in a strictly zero-shot setting.</p>
+</sec>
+<sec id="sec3d">
+<label>d)</label>
+<title>Reproducibility:</title>
+<p>All prompt-templates, random-seeds, and data splits are released publicly on Github. <sup><xref ref-type="fn" rid="fn1">1</xref></sup> <fn id="fn1"><label><sup>1</sup></label><p><uri>https://github.com/pvsnp9/sarcasm_bench</uri></p></fn> Model checkpoints and hyper-parameters are also logged for ease of reproducibility. For further details, see Appendix A.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results</title>
+<p>All models were evaluated <monospace>as is</monospace> with no finetuning or gradient updates. This ensures a fair, out-of-box comparison under strict inference settings. We employed the prompt strategy presented in the previous section. Any generation that failed to adhere precisely to the prescribed <monospace>Yes / No</monospace> format.
+<table-wrap id="table2">
+<label>Table II:</label>
+<caption><title>Classification accuracy results of models on the two datasets in one-shot, zero-shot, and few-shot settings. model and prompting combination sorted by performance.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415905-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Model</th>
+<th>Inference Type</th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="19">SarcNet</td>
+<td>Gemma3</td>
+<td>One-shot</td>
+<td>0.67</td>
+</tr>
+<tr>
+<td>InstructBlip</td>
+<td>Zero-shot</td>
+<td>0.67</td>
+</tr>
+<tr>
+<td>InstructBlip</td>
+<td>Few-shot</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>Gemma3</td>
+<td>Zero-shot</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>Few-shot</td>
+<td>0.59</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>One-shot</td>
+<td>0.58</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>Zero-shot</td>
+<td>0.57</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>One-shot</td>
+<td>0.57</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>Zero-shot</td>
+<td>0.57</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>One-shot</td>
+<td>0.56</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>Few-shot</td>
+<td>0.55</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>One-shot</td>
+<td>0.64</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>Few-shot</td>
+<td>0.56</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>Zero-shot</td>
+<td>0.43</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>Few-shot</td>
+<td>0.44</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>Zero-shot</td>
+<td>0.43</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>One-shot</td>
+<td>0.43</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>Zero-shot</td>
+<td>0.43</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>Few-shot</td>
+<td>0.43</td>
+</tr>
+<tr>
+<td rowspan="20">MMSD2</td>
+<td>Gemma3</td>
+<td>One-shot</td>
+<td>0.73</td>
+</tr>
+<tr>
+<td>InstructBlip</td>
+<td>Zero-shot</td>
+<td>0.64</td>
+</tr>
+<tr>
+<td>InstructBlip</td>
+<td>Few-shot</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td>InstructBlip</td>
+<td>One-shot</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>One-shot</td>
+<td>0.57</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>Zero-shot</td>
+<td>0.56</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>Few-shot</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>One-shot</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>Zero-shot</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>Few-shot</td>
+<td>0.50</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>Few-shot</td>
+<td>0.49</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>One-shot</td>
+<td>0.48</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>Few-shot</td>
+<td>0.48</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>One-shot</td>
+<td>0.47</td>
+</tr>
+<tr>
+<td>LlaVA</td>
+<td>Zero-shot</td>
+<td>0.46</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>Few-shot</td>
+<td>0.53</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>Zero-shot</td>
+<td>0.53</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>One-shot</td>
+<td>0.52</td>
+</tr>
+<tr>
+<td>Openflamingo</td>
+<td>Zero-shot</td>
+<td>0.52</td>
+</tr>
+<tr>
+<td>Gemma3</td>
+<td>Zero-shot</td>
+<td>0.60</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Classification Results</title>
+<p><xref ref-type="table" rid="table2">Table II</xref> presents the results of all models and prompting strategies on the two datasets (SarcNet and MMSD2.0) in terms of accuracy. The table reveals a clear performance spectrum across the seven multimodal models we evaluated on the two datasets under zero, one, and few-shot prompting. Overall, Gemma3 consistently achieved the strongest result with 0.67 accuracy with one-shot prompting on SarcNet and maintained robust performance across MMSD2.0 with 0.73. Instruction tuned models such as InstuctionBLIP also performed competitively, attaining 0.67, on SarcNet dataset and 0.64 on MMSD2.0 dataset.</p>
+<p>We observe that few-shot prompting does not bring performance improvements over one-shot and few-shot prompting strategies. As discussed a recent survey <xref ref-type="bibr" rid="ref8">[8]</xref>, sarcasm detection requires more than pattern matching from a small number of demonstrations. Even well-chosen, carefully-curated examples cannot fully convey the deep world knowledge and fine-grained image-text relationships that underlie ironic intent. Sometimes, adding a single or few demonstrations often introduces noise rather than informative context in the prompts. The models struggle to generalize the nuanced contradiction from just one or a few examples example, and strict context-window limits force truncation of prompt content. Consequently, simply appending additional shots fails to provide sufficient signal to improve performance on this inherently challenging task.</p>
+<p>Overall, while generic vision-language models struggle with the subtlety of sarcasm, instruction tuned architectures like Gemma3 and InstructionBLIP stand out for their robust zeroand one-shot performance. These results highlight the importance of model pretraining, instruction-tuning, and prompt design when tackling high-level reasoning tasks such as multimodal sarcasm detection.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Explainability: Generating Explanations</title>
+<p>We compute CLIPScore <xref ref-type="bibr" rid="ref43">[43]</xref>, <xref ref-type="bibr" rid="ref44">[44]</xref> to assess image-text alignment. We evaluate <inline-formula><tex-math notation="LaTeX">$\Delta$</tex-math></inline-formula>-CLIPScore to quantify the improvement in CLIP alignment from caption to explanation. We introduce the delta CLIP score (<inline-formula><tex-math notation="LaTeX">$\triangle$</tex-math></inline-formula> CLIP) defined as:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\Delta \text{CLIP}=\operatorname{CLIP}\left(I M G, G_{\text {exp }}\right)-\operatorname{CLIP}\left(I M G, B_{\text {exp }}\right)
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$G_{\text {exp }}$</tex-math></inline-formula> models explanation, and <inline-formula><tex-math notation="LaTeX">$B_{\text {exp }}$</tex-math></inline-formula> dataset explanation. Higher <inline-formula><tex-math notation="LaTeX">$\Delta$</tex-math></inline-formula> CLIP score indicates stronger improvements in grounding. This follows the general idea of &#x201C;delta&#x201D; comparative metrics used in other multimodal contexts <xref ref-type="bibr" rid="ref45">[45]</xref>.</p>
+<p>We computed the score over 3,000 samples and present the results in <xref ref-type="table" rid="table3">Table III</xref>. Both mean and variance are reported to reflect central tendency and stability across the evaluation set.</p>
+<p>When prompted to articulate the visual-textual incongruity on the Muse dataset, the seven VLMs exhibit widely varying explanation quality. Even on a dataset of exclusively sarcastic examples with explanations, most vision-language models struggle to reproduce those rationales. Among the seven models we evaluated, Salesforce&#x0027;s BLIP2 achieves the second best overlap with the reference text and a positive embedding-level similarity to the image, making it the clear leader. Instructiontuned variants like InstructBLIP and OpenFlamingo occupy a middle tier: they generate plausible, partially overlapping explanations but display mixed performance in grounding those explanations back to the image.
+<table-wrap id="table3">
+<label>Table III:</label>
+<caption><title>Mean and variance of <inline-formula><tex-math notation="LaTeX">$\delta$</tex-math></inline-formula>-clipscore across models for explanation generation</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415905-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Mean</th>
+<th>Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Llava</td>
+<td>1.966</td>
+<td>27.315</td>
+</tr>
+<tr>
+<td>Blip2</td>
+<td>0.831</td>
+<td>25.532</td>
+</tr>
+<tr>
+<td>Paligemma</td>
+<td>0.757</td>
+<td>16.234</td>
+</tr>
+<tr>
+<td>Instructblip</td>
+<td>0.583</td>
+<td>27.749</td>
+</tr>
+<tr>
+<td>Gemma3</td>
+<td>&#x2212;2.063</td>
+<td>46.481</td>
+</tr>
+<tr>
+<td>OpenFlamingo</td>
+<td>&#x2212;1.750</td>
+<td>11.526</td>
+</tr>
+<tr>
+<td>Qwen</td>
+<td>&#x2212;7.143</td>
+<td>25.515</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>LLaVA stands out for producing the most visually grounded explanations, as measured by CLIP alignment, even though its raw text-overlap scores remain modest. At the other extreme, both Qwen-VL and Paligemma barely exceed a random baseline in any metric, and Google&#x0027;s Gemma3 fails to generate any measurable overlap or alignment with the reference explanations. Finally, every model scores zero on our VQA-style metric, underscoring that none can consistently answer a direct &#x201C;why&#x201D; question about the image-caption contrast. These results highlight that only specialized architectures like BLIP2 and LLaVA can approximate human-style sarcasm explanations without further fine-tuning.</p>
+<p>While Gemma3 achieves the strongest zero- and one-shot classification accuracy, yet it fails entirely on our text-overlap and embedding-alignment metrics for explanations. Conversely, Llava, one of the weakest classifiers, failing to detect sarcasm, nevertheless generates the most faithful, human-like explanations. Qwen-VL, despite its strong in-context classification performance, produces essentially no overlap with reference explanations.</p>
+<p>Finally, we note that the models that excel at binary sarcasm classification are not the same ones that produce high-quality explanations. Models like Gemma3 and Qwen-VL are instructed and tuned primarily for discriminative &#x201C;Yes/No&#x201D; decisions, and chat-style generation, so they excel at binary classification. In contrast, high-quality explanations require a generative, VQAstyle architecture with deep image-text grounding. Thus, it is the training objective and model design, not only size, that drive this divergence: classification-focused models label effectively, whereas VQA-tuned models produce more faithful, image-grounded rationales. This divergence underscores that task-specific fine-tuning or architectural adaptations may be needed to bridge classification accuracy and explanatory quality in multimodal sarcasm.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion and Future Work</title>
+<p>This study provides an evaluation of seven open-source VLMs for MSD and multimodal sarcasm explanation generation using in-context learning. Our experiments addressed two core research questions: <bold>RQ1:</bold> How effectively do state-of-the-art open-source VLMs perform on MSD benchmarks using incontext learning? and <bold>RQ2:</bold> Can state-of-the-art open-source VLMs generate coherent and task-relevant textual explanations for multimodal sarcasm reasoning solely through prompting?</p>
+<p>Our findings reveal that, instruction-tuned models such as Gemma3 demonstrate strong performance in binary sarcasm classification; particularly in zero- and one-shot scenarios answering (<bold>RQ1</bold>). Our findings also indicate that none of the evaluated models achieves both high classification accuracy and high-quality explanation generation within the same architecture. Models like BLIP2 and LLaVA, despite their lower classification scores, consistently generate explanations that more closely align with human-written rationales. This divergence underscores a critical challenge in multimodal sarcasm: the ability to discriminate sarcasm does not necessarily translate to the capacity for nuanced, interpretable explanation - answering (<bold>RQ2</bold>).</p>
+<p>We observe that increasing the number of in-context examples (few-shot) does not yield gains in sarcasm detection performance. This suggests that current VLMs may require more than simple demonstration-based prompting to generalize the intricate patterns of multimodal irony. In explanation generation, models frequently struggle with both the surface form and semantic adequacy, highlighting the gap between discriminative and generative capabilities in existing architectures.</p>
+<p>In future work, we will focus on bridging the gap between classification and explanation. This includes developing hybrid training objectives that jointly optimize for both tasks (e.g., multi-task learning <xref ref-type="bibr" rid="ref46">[46]</xref>). We are experimenting with chain-ofthought (CoT) and multi-stage prompting to elicit richer model reasoning, and fine-tuning on datasets that combine sarcasm detection with human-written explanations. Extending model context windows and integrating RAG techniques or external knowledge could further enhance the models&#x0027; ability to capture the subtle contextual cues inherent in sarcasm. Finally, we would also like to expand benchmarks to include adversarial and multilingual examples, as well as incorporating human-in-the-loop evaluations.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.-C.</given-names> <surname>B&#x0103;roiu</surname></string-name> and <string-name><given-names>&#x015E;.</given-names> <surname>Tr&#x0103;u&#x015F;an-Matu</surname></string-name></person-group>, &#x201C;<article-title>Automatic sarcasm detection: Systematic literature review</article-title>,&#x201D; <source>Information</source>, vol. <volume>13</volume>, no. <issue>8</issue>, <year>2022</year>, issn: <issn>2078-2489</issn>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N. A.</given-names> <surname>Helal</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Hassan</surname></string-name>, <string-name><given-names>N. L.</given-names> <surname>Badr</surname></string-name>, and <string-name><given-names>Y. M.</given-names> <surname>Afify</surname></string-name></person-group>, &#x201C;<article-title>A contextualbased approach for sarcasm detection</article-title>,&#x201D; <source>Scientific Reports</source>, vol. <volume>14</volume>, no. <issue>1</issue>, p. <fpage>15415</fpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Yaghoobian</surname></string-name>, <string-name><given-names>H. R.</given-names> <surname>Arabnia</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Rasheed</surname></string-name></person-group>, <article-title>Sarcasm detection: A comparative study</article-title>, <year>2021</year>. <source>arXiv</source>: <pub-id pub-id-type="arxiv">2107.02276</pub-id>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Song</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Yao</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Large language models for subjective language understanding: A survey</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2508.07959</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Dmonte</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Ko</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Zampieri</surname></string-name></person-group>, &#x201C;<article-title>An evaluation of large language models in financial sentiment analysis</article-title>,&#x201D; in <source>Proceedings of BigData</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Ranasinghe</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Zampieri</surname></string-name></person-group>, &#x201C;<article-title>Multilingual offensive language identification with cross-lingual embeddings</article-title>,&#x201D; in <source>Proceedings of EMNLP</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Ranasinghe</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Zampieri</surname></string-name></person-group>, &#x201C;<article-title>Mudes: Multilingual detection of offensive spans</article-title>,&#x201D; in <source>Proceedings of NAACL</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Farabi</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Ranasinghe</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Kanojia</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Kong</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Zampieri</surname></string-name></person-group>, &#x201C;<article-title>A survey of multimodal sarcasm detection</article-title>,&#x201D; in <source>Proceedings of IJCAI</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Ping</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Liu</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Re-ViLM: Retrieval-augmented visual language model for zero and few-shot image captioning</article-title>,&#x201D; in <source>Findings of ACL: EMNLP 2023</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.-B.</given-names> <surname>Alayrac</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Donahue</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Luc</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<source>Flamingo: A visual language model for few-shot learning</source>,&#x201D; <year>2022</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Yin</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Ping</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Vila: On pre-training for visual language models</article-title>,&#x201D; in <source>Proceedings of ICCV</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Luo</surname></string-name>, <string-name><given-names>b.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Yang</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Ma</surname></string-name></person-group>, &#x201C;<article-title>Goat-bench: Safety insights to large multimodal models through meme-based social abuse</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2401.01523</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Feng</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Mm-bigbench: Evaluating multimodal models on multimodal content comprehension tasks</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2310.09036</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Tang</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Yan</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Li</surname></string-name></person-group>, &#x201C;<article-title>Leveraging generative large language models with visual instruction and demonstration retrieval for multimodal sarcasm detection</article-title>,&#x201D; in <source>Proceedings of NAACL</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>D.</given-names> <surname>He</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Jin</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ge</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Multi-modal sarcasm detection based on dual generative processes</article-title>,&#x201D; in <source>Proceedings of IJCAI</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Desai</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Chakraborty</surname></string-name>, and <string-name><given-names>M. S.</given-names> <surname>Akhtar</surname></string-name></person-group>, &#x201C;<article-title>Nice perfume. how long did you marinate in it? multimodal sarcasm explanation</article-title>,&#x201D; <year>2021</year>. <source>arXiv</source>: <pub-id pub-id-type="arxiv">2112.04873</pub-id>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Chaudhari</surname></string-name> and <string-name><given-names>C.</given-names> <surname>Chandankhede</surname></string-name></person-group>, &#x201C;<article-title>Literature survey of sarcasm detection</article-title>,&#x201D; in <source>Proceedings of WiSPNET</source>, <conf-date>2017</conf-date>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Srirag</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Joshi</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Painter</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Kanojia</surname></string-name></person-group>, &#x201C;<article-title>Besstie: A benchmark for sentiment and sarcasm classification for varieties of english</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2412.04726</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Joshi</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Bhattacharyya</surname></string-name>, and <string-name><given-names>M. J.</given-names> <surname>Carman</surname></string-name></person-group>, &#x201C;<article-title>Automatic sarcasm detection: A survey</article-title>,&#x201D; <source>ACM Computing Surveys (CSUR)</source>, vol. <volume>50</volume>, no. <issue>5</issue>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Badlani</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Asnani</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Rai</surname></string-name></person-group>, &#x201C;<article-title>An ensemble of humour, sarcasm, and hate speechfor sentiment classification in online reviews</article-title>,&#x201D; in <source>Proceedings of W-NUT</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. G.</given-names> <surname>Maynard</surname></string-name> and <string-name><given-names>M. A.</given-names> <surname>Greenwood</surname></string-name></person-group>, &#x201C;<article-title>Who cares about sarcastic tweets? investigating the impact of sarcasm on sentiment analysis</article-title>,&#x201D; in <source>Proceedings of LREC</source>, <conf-date>2014</conf-date>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Frenda</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>The role of sarcasm in hate speech. a multilingual perspective</article-title>,&#x201D; in <source>Proceedings of SEPLN</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Rothermich</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Ogunlana</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Jaworska</surname></string-name></person-group>, &#x201C;<article-title>Change in humor and sarcasm use based on anxiety and depression symptom severity during the covid-19 pandemic</article-title>,&#x201D; <source>Journal of psychiatric research</source>, vol. <volume>140</volume>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref24"><label>[24]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Verma</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Shukla</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Shukla</surname></string-name></person-group>, &#x201C;<article-title>Techniques of sarcasm detection: A review</article-title>,&#x201D; in <source>Proceedings of ICACITE</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref25"><label>[25]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Salini</surname></string-name> and <string-name><given-names>J.</given-names> <surname>HariKiran</surname></string-name></person-group>, &#x201C;<article-title>Sarcasm detection: A systematic review of methods and approaches</article-title>,&#x201D; in <source>Proceedings of ICSMDI</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref26"><label>[26]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Schifanella</surname></string-name>, <string-name><given-names>P.</given-names> <surname>De Juan</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Tetreault</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Cao</surname></string-name></person-group>, &#x201C;<article-title>Detecting sarcasm in multimodal social platforms</article-title>,&#x201D; in <source>Proceedings of ACM Multimedia</source>, <conf-date>2016</conf-date>.</mixed-citation></ref>
+<ref id="ref27"><label>[27]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Das</surname></string-name> and <string-name><given-names>A. J.</given-names> <surname>Clark</surname></string-name></person-group>, &#x201C;<article-title>Sarcasm detection on flickr using a cnn</article-title>,&#x201D; in <source>Proceedings of ICCBD</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref28"><label>[28]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Cai</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Cai</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>Wan</surname></string-name></person-group>, &#x201C;<article-title>Multi-modal sarcasm detection in twitter with hierarchical fusion model</article-title>,&#x201D; in <source>Proceedings of ACL</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref29"><label>[29]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Qin</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Chen</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>MMSD2.0: Towards a reliable multimodal sarcasm detection system</article-title>,&#x201D; in <source>Findings of the ACL: ACL 2023</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref30"><label>[30]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Yue</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Shi</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Mao</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Hu</surname></string-name>, and <string-name><given-names>E.</given-names> <surname>Cambria</surname></string-name></person-group>, &#x201C;<article-title>SarcNet: A multilingual multimodal sarcasm detection dataset</article-title>,&#x201D; in <source>Proceedings of LRECCOLING</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref31"><label>[31]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Pan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Fu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Qi</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Modeling intra and intermodality incongruity for multi-modal sarcasm detection</article-title>,&#x201D; in <source>Findings of the ACL: EMNLP 2020</source>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref32"><label>[32]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Liang</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Lou</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Li</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Multi-modal sarcasm detection via cross-modal graph convolutional network</article-title>,&#x201D; in <source>Proceedings of ACL</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref33"><label>[33]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Liang</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Lou</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Gui</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Yang</surname></string-name>, and <string-name><given-names>R.</given-names> <surname>Xu</surname></string-name></person-group>, &#x201C;<article-title>Multi-modal sarcasm detection with interactive in-modal and cross-modal graphs</article-title>,&#x201D; in <source>Proceedings of ACM Multimedia</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref34"><label>[34]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Zeng</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Mao</surname></string-name></person-group>, &#x201C;<article-title>Reasoning with multimodal sarcastic tweets via modeling cross-modality contrast and semantic association</article-title>,&#x201D; in <source>Proceedings of ACL</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref35"><label>[35]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Yang</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Building a bridge: A method for image-text sarcasm detection without pretraining on image-text data</article-title>,&#x201D; in <source>Proceedings of NLPBT</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref36"><label>[36]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Li</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>InstructBLIP: Towards general-purpose vision-language models with instruction tuning</article-title>,&#x201D; in <source>Proceedings of NeurIPS</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref37"><label>[37]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Savarese</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Hoi</surname></string-name></person-group>, &#x201C;<article-title>BLIP-2: bootstrapping languageimage pre-training with frozen image encoders and large language models</article-title>,&#x201D; in <source>Proceedings of ICML</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref38"><label>[38]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Awadalla</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Gardner</surname></string-name>, <etal>et al.</etal></person-group>, <article-title>Openflamingo: An open-source framework for training large autoregressive vision-language models</article-title>, <year>2023</year>. <source>arXiv</source>: <pub-id pub-id-type="arxiv">2308.01390</pub-id>.</mixed-citation></ref>
+<ref id="ref39"><label>[39]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Wu</surname></string-name>, and <string-name><given-names>Y. J.</given-names> <surname>Lee</surname></string-name></person-group>, &#x201C;<article-title>Visual instruction tuning</article-title>,&#x201D; <source>in NeurIPS</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref40"><label>[40]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Beyer</surname> <suffix>*</suffix></string-name>, <string-name><given-names>A.</given-names> <surname>Steiner</surname> <suffix>*</suffix></string-name>, <string-name><given-names>A. S.</given-names> <surname>Pinto</surname> <suffix>*</suffix></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>PaliGemma: A versatile 3B VLM for transfer</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2407.07726</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref41"><label>[41]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Bai</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Bai</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Yang</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Qwen-vl: A frontier large vision-language model with versatile abilities</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2308.12966</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref42"><label>[42]</label> <mixed-citation publication-type="webpage" publication-format="print"><person-group person-group-type="author"><collab>G. Team</collab></person-group>, &#x201C;<source>Gemma 3</source>,&#x201D; <year>2025</year>. [Online]. Available: <uri>https://goo.gle/Gemma3Report</uri>.</mixed-citation></ref>
+<ref id="ref43"><label>[43]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Radford</surname></string-name>, <string-name><given-names>J. W.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Hallacy</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Learning transferable visual models from natural language supervision</article-title>,&#x201D; in <source>Proceedings of ICML</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref44"><label>[44]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Hessel</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Holtzman</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Forbes</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Le Bras</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Choi</surname></string-name></person-group>, &#x201C;<article-title>Clipscore: A reference-free evaluation metric for image captioning</article-title>,&#x201D; in <source>Proceedings of EMNLP</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref45"><label>[45]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Hertz</surname></string-name>, <string-name><given-names>O.</given-names> <surname>Perel</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Giryes</surname></string-name>, and <string-name><given-names>A. H.</given-names> <surname>Bermano</surname></string-name></person-group>, &#x201C;<article-title>Delta denoising score</article-title>,&#x201D; in <source>Proceedings of ICCV</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref46"><label>[46]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Zampieri</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Ranasinghe</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Sarkar</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Ororbia</surname></string-name></person-group>, &#x201C;<article-title>Offensive language identification with multi-task learning</article-title>,&#x201D; <source>Journal of Intelligent Information Systems</source>, vol. <volume>60</volume>, no. <issue>3</issue>, <year>2023</year>.</mixed-citation></ref>
+</ref-list>
+<app-group>
+<app id="appa">
+<title>Appendix</title>
+</app>
+<app id="appb">
+<label>A.</label>
+<title>Experimental Details</title>
+<p>The models used in our experiments are open-source and sourced from the Hugging Face model repository. All models are used &#x201C;<monospace>out-of-the-box</monospace>&#x201D; (no gradient updates), loaded at their public checkpoints, and evaluated under identical hardware and preprocessing conditions. We utilized the transformers library to load both the models and their corresponding processors. Most models were loaded in 8-bit precision with FlashAttention enabled to optimize memory and computation efficiency. During inference, we used each model&#x0027;s default tokenizer and processing pipeline for input encoding, text generation, and output parsing.</p>
+<p>For the few-shot learning setting (<inline-formula><tex-math notation="LaTeX">$1-3$</tex-math></inline-formula> examples), we randomly sampled positive examples from the MUSE dataset-since it contains explanations-and negative examples from the MMSD2.0 dataset. We then constructed a unified prompt for few-shot learning, as illustrated in Listing 1. The generated outputs were parsed using regular expressions, typically matching responses that begin with &#x201C;Yes&#x201D; or &#x201C;No&#x201D;. Outputs that did not match the parsing pattern were logged but excluded from the reported scores in <xref ref-type="table" rid="table2">Table II</xref>.</p>
+<p><bold>Compute Resources</bold>: All experiments were conducted on the high-performance computing cluster. We utilized a single compute node equipped with two NVIDIA A100 GPUs (<inline-formula><tex-math notation="LaTeX">$40 ~\text{GB} / 80 ~\text{GB}$</tex-math></inline-formula> each), supported by 20 GB and 40 GB of system RAM. The approximate processing time for each model to handle a batch of 3000 examples (with a batch size of 1) ranged from 2 hours to 2 days, depending on the model and the task.</p>
+<p>Global Prompt: This can be found in in <monospace>params</monospace> file on the GitHub repository made available after acceptance of this paper.</p>
+<algorithm rule="both" id="alg3">
+<label>Listing 3:</label>
+<title>Unified Instruction for MSD</title>
+<alg-item rule="none" left-indent="0"><p>&#x201C;You are an image-caption sarcasm</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;detector.\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;Sarcasm can arise when the text means</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;something different than the image.\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;For each input, decide whether the</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;caption is used sarcastically given</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;the image.\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;- If sarcastic, output exactly:\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;1. Yes&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;\n2. On the next line, A single non-</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;sarcastic rephrase of the caption (no</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;extra text)\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;- If not sarcastic, output exactly:\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;1. NO&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;\n\nIMPORTANT:\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;- Use capital &#x201C;Y&#x201D; in Yes and capital &#x201C;N&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;in N o nothing else (no punctuation</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;, no bullets).\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;DO NOT repeat or echo any part of this</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;instruction or the caption.\n&#x201D;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x201C;Your entire response must be either:&#x0027;No&#x0027;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;or &#x0027;Yes&#x0027; \n &#x003C;rephrase&#x003E;&#x0027;\n&#x0027;&#x0027;</p></alg-item>
+</algorithm>
+<p>These paradigms were adapted for each model&#x0027;s specific input requirements:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>LLaVA</bold>: Employed a chat format <monospace>[INST] &#x003C;..&#x003E; [/INST] (USER/ASSISTANT)</monospace> with <monospace>&#x003C;image&#x003E;</monospace> place-holders; the processor handled multiple PIL images (examples + target) corresponding to tokens in a single prompt.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>OpenFlamingo</bold>: Required pre-processing images into tensors. A single text prompt interleaved <monospace>&#x003C;image&#x003E;</monospace> and text segments (separated by <monospace>&#x003C;&#x007C; endofchunk &#x007C; &#x003E;)</monospace>, while the corresponding image tensors were passed separately as the <monospace>vision_x</monospace> input.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>InstructBlip &#x0026; Blip2:</bold> Processed a single target image per inference. Few-shot examples were provided textually within the prompt string as Q&#x0026;A pairs preceding the final query.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>PaliGemma:</bold> <monospace>&#x003C;image&#x003E;</monospace> placeholders within a single, interleaved prompt string; the processor handled multiple PIL images corresponding to tokens.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Qwen-VL</bold> Embedded image file paths directly within the text prompt using <monospace>&#x003C;img&#x003E;path/to/image.jpg&#x003C;/img&#x003E;</monospace> tags; the tokenizer handled image reference and loading internally. Few-shot examples also used this path embedding format within the prompt prefix.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Gemma3:</bold> The inputs were structured in a chat-style format comprising an instruction, a user query, and an image represented as a PIL object. In the few-shot setting, demonstration examples were appended directly before the user&#x0027;s query to provide context for the model.</p></list-item>
+</list>
+</p>
+<p><bold>Inference and Parsing</bold> For each prompt, we generate a single output sequence with beam search (beam size <inline-formula><tex-math notation="LaTeX">$=3$</tex-math></inline-formula>) and a maximum of 100-256 generated tokens; for most models. We then parse the model&#x0027;s reply via a lightweight regex to extract.</p>
+<p><monospace>Classification: Yes</monospace> &#x2192; sarcastic <monospace>No</monospace> &#x2192; non-sarcastic <monospace>Explanation:</monospace> A VLM generated explanation for sarcastic image-caption pairs.</p>
+<p>Any unparsable or generic fallback (&#x201C;<italic>I&#x0027;m not trained</italic>&#x2026;&#x201D;) is logged as an abstention. The unexpected results do not contribute to the final result.</p>
+</app>
+<app id="appc">
+<label>B.</label>
+<title>Hyperparameters</title>
+<table-wrap id="table4">
+<label>Table IV:</label>
+<caption><title>Inference-time hyperparameters</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415905-table-4-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>Hyperparameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batch size</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Example size</td>
+<td><inline-formula><tex-math notation="LaTeX">$0-3$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Max tokens</td>
+<td><inline-formula><tex-math notation="LaTeX">$100-256$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Num beams</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Quantization</td>
+<td>FP8, FP16</td>
+</tr>
+<tr>
+<td>Flash attention</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Input padding</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Input truncation</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>0.7</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>The hyperparameters were selected to balance model compatibility and inference efficiency; for instance, Gemini, we limited our experiments to zero- and one-shot settings to avoid truncation of longer input sequences, thereby preserving the full contextual information necessary for reliable evaluation.</p>
+</app>
+</app-group>
+</back>
+</conf-article>

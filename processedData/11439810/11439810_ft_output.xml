@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/18/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ITEC-INDIA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-full-title>
+<conf-normalized-title>Transportation Electrification Conference (ITEC-India), 2025 IEEE International</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5400-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-name>
+<conf-start iso-8601-date="2025-09-16"><day>16</day><month>09</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-09-19"><day>19</day><month>09</month><year>2025</year></conf-end>
+<conf-loc><city>Pune</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ITEC-India67626.2025.11439810</article-id>
+<xplore-article-id>11439810</xplore-article-id>
+<xplore-issue>11439063</xplore-issue>
+<xplore-pub-id>11438249</xplore-pub-id>
+<title-group>
+<article-title>Sensorless Control of Switched Reluctance Motor for Electric Three-Wheeler Vehicles with Onboard PV Charging Capability</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Samyak</given-names> <surname>Jain</surname></string-name>
+<string-name specific-use="index"><given-names>Samyak</given-names> <surname>Jain</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Sushant</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Sushant</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<role>Student Member IEEE</role>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shailendra</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Shailendra</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<role>Senior Member IEEE</role>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shashank</given-names> <surname>Kurm</surname></string-name>
+<string-name specific-use="index"><given-names>Shashank</given-names> <surname>Kurm</surname></string-name>
+</name-alternatives>
+<role>Member, IEEE</role>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Electrical Engineering</institution>
+<institution content-type="institution">Indian Institute of Technology Bhilai</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-09-19"><day>19</day><month>Sept.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5400-2/25/$31.00 &#x00A9; 2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price>
+</license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11439810_ft.xml</self-uri>
+<self-uri content-type="print">CameraReady_189.pdf</self-uri>
+<abstract xml:lang="en">
+<p>In this paper, an estimation technique is used for estimation of rotor position by incorporating the observer based method for flux approximation. This estimated flux is then used for the rotor position estimation using the non-linear relation between the rotor position, current and resultant flux. The motor operates on the phenomenon of reluctance torque, which is developed due to the variation in the air gap flux. The converter used for the motor operation is a four-phase semi-controlled voltage source inverter (VSI). This VSI and motor assembly is supplied by a battery energy storage (BES) for driving the load at the shaft of the motor for electric vehicle application like payload and passenger transportation. The battery source is interfaced with a bidirectional chopper for power transfer from the battery to the motor and vice-versa. For improving the driving range of the vehicle the system is installed with a solar photo-voltaic (PV) panel for energy generation and battery charging for the vehicle when not in uses. This alternate source of battery charging other than the grid based charging reduces the range anxiety for the driver and improves the driving range of the electric-three wheeler vehicle. The PV panel is interfaced with a boost converter, the gate pulse of boost converter is regulated by a maximum power point tracking (MPPT) algorithm for maximum power extraction from the installed PV panel. The algorithm used for tracking the maximum power point from the PV panel is incremental conductance based technique. Various simulation results have been studied and are presented in this paper for changing speed and torque operation of the SRM drive. The results and findings confirms that the speed and position estimation is working satisfactorily for the system.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Switched Reluctance Motor (SRM)</kwd>
+<kwd>Maximum Power Point Tracking (MPPT)</kwd>
+<kwd>Bidirectional DC-DC converter (BDDC)</kwd>
+<kwd>Battery energy storage (BES)</kwd>
+<kwd>Electric three-Wheelers (E3Ws)</kwd>
+<kwd>Voltage Source Inverter (VSI)</kwd>
+<kwd>Flux estimation based Sliding Mode Observer (FSMO)</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>IIT Bhilai</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>Authors would like to thank IIT Bhilai by providing supports through RIG and IBITF.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="1"/>
+<equation-count count="7"/>
+<ref-count count="15"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label><title>Introduction</title>
+<p>The rapid urbanization and increasing demand for personal and commercial mobility have led to a significant rise in the number of internal combustion (IC) engine-powered vehicles, particularly in developing countries. Among these, three-wheelers widely used for public transport and goods movement are a common and essential mode of transportation due to their affordability and maneuverability in congested urban areas. However, these IC engine-based three-wheelers are a notable source of air pollution, greenhouse gas emissions and noise, contributing substantially to environmental degradation and public health concerns. Also, the increase in the demand of the IC engine based vehicles and the limited availability of fossil fuels increased the cost of fuel <xref ref-type="bibr" rid="ref1">[1]</xref>.</p>
+<p>In response to these challenges, electric three-wheelers (E3Ws) have emerged as a promising alternative. Powered by batteries and electric motors rather than IC engines, E3Ws not only offers a cleaner, quieter and more energy-efficient transportation solution but also at low cost. Governments and environmental agencies around the world are increasingly promoting the adoption of electric vehicles (EVs) with policy incentives, infrastructure development and regulatory frameworks aimed at curbing emissions and fostering sustainable urban mobility <xref ref-type="bibr" rid="ref2">[2]</xref>. Even though with use of battery for powering the vehicle the tailpipe emission becomes zero but the current dependency of coal-based power plants for energy generation is still a big issue for EV charging. Therefore, to overcome this, renewable energy source are necessary to integrate with the EV charging infrastructure to reduce the carbon emission <xref ref-type="bibr" rid="ref3">[3]</xref>.</p>
+<p>In <xref ref-type="bibr" rid="ref4">[4]</xref>, the switched reluctance motor is being studied with some basic and key issues related to the controlling and torque production. <xref ref-type="bibr" rid="ref5">[5]</xref> presents some closed loop control strategies for the SRM motor for electric vehicular applications. However, as the position sensor increases the cost of the overall control system, it is required to be replaced with some other rotor position estimation techniques. <xref ref-type="bibr" rid="ref6">[6]</xref>&#x2013;<xref ref-type="bibr" rid="ref7">[7]</xref> presents some techniques for the rotor position estimation for the SRM drive for EV application. <xref ref-type="bibr" rid="ref8">[8]</xref>&#x2013;<xref ref-type="bibr" rid="ref9">[9]</xref> gives the sensorless speed control operation to a wide speed range for SRM drives with all four quadrant operation. Various observer based rotor position estimation techniques are studied in <xref ref-type="bibr" rid="ref9">[9]</xref>&#x2013;<xref ref-type="bibr" rid="ref10"/><xref ref-type="bibr" rid="ref11">[11]</xref>, from sliding mode observer for rotor position estimation to higher order observer for load estimation of SRM drive for EV. <xref ref-type="bibr" rid="ref12">[12]</xref> presents a state observer based rotor position estimation technique for water pumping application using SRM drives. <xref ref-type="bibr" rid="ref13">[13]</xref> presents a SRM drive system based on sliding mode observer for submersible water pumping application supported with solar PV and battery. The above sliding mode observer based technique uses the current and voltage signal from the stator of the motor to estimate the air gap flux then that air gap flux is used to estimate the position of the rotor by using the relation between the rotor position, stator current and air gap flux.</p>
+<p>This paper aims to provide an electric three-wheeler with solar panel integrated on the top to charge the vehicle. The EV three-wheeler is powered with a Lithium-ion battery for energy storage and a Switched Reluctance Motor (SRM) for torque development to move the vehicle. The SRM is chosen due to its high power density and high torque delivering capabilities.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>System configuration</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec2">
+<label>II.</label><title>System Structure and Methodology</title>
+<p>System configuration is shown in the <xref ref-type="fig" rid="fig1">Fig. 1</xref>. The SRM drive is fed from the PV array and battery to supply the tractive power for driving the load. The solar energy generated from PV array is used to charge the battery of the vehicle. To extract maximum power form the PV array the incremental conductance (InC) based MPPT algorithm is used to generate the gate pulse for the boost converter switch. The whole system is integrated with a bidirectional chopper to transfer the energy between electric drive system and battery. It also maintains the voltage at DC bus constant. Power is transferred to SRM through power electronic switches. A modulated pulse width signal is used for firing the converter switches.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label><title>System Design and Modelling</title>
+<sec id="sec3a">
+<label>A.</label><title>Modelling of SRM</title>
+<p>The voltage equation of the SRM motor is given below,
+<disp-formula id="deqn1-deqn2"><tex-math notation="LaTeX">\begin{align*}
+&amp; V_{m}=R_{s} i_{s}+\frac{d \varphi}{d t} \tag{1}\\
+&amp; \varphi\left(\theta, i_{s}\right)=L\left(\theta, i_{s}\right) i_{s}(t) \tag{2}
+\end{align*}</tex-math></disp-formula></p>
+<p>Putting the value of <inline-formula><tex-math notation="LaTeX">$\varphi$</tex-math></inline-formula> we get,
+<disp-formula id="deqn3-deqn4"><tex-math notation="LaTeX">\begin{align*}
+&amp; V_{m}=R_{s} i_{s}+L\left(\theta, i_{s}\right) \frac{d i_{s}}{d t}+i_{s} \frac{d L\left(\theta, i_{s}\right)}{d t} \tag{3}\\
+&amp; \frac{d L\left(\theta, i_{s}\right)}{d t}=\frac{\partial L\left(\theta, i_{s}\right)}{\partial \theta} \frac{d \theta}{d t}+\frac{\partial L\left(\theta, i_{s}\right)}{\partial i_{s}} \frac{d i_{s}}{d t} \tag{4}
+\end{align*}</tex-math></disp-formula></p>
+<p>The voltage equation becomes,
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+\begin{array}{cl}
+&amp; V_{m}=R_{s} i_{s}+l\left(\theta, i_{s}\right) \frac{d i_{s}}{d t}+e_{b}
+\forall &amp; l\left(\theta, i_{s}\right)=L\left(\theta, i_{s}\right)+i_{s} \frac{d L\left(\theta, i_{s}\right)}{d t}
+&amp; e_{b}=i_{s} \frac{\partial L\left(\theta, i_{s}\right)}{\partial \theta}=\text { back EMF }
+\end{array} \tag{5}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The torque equation for the SRM drive is given by:
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+T_{e}=\frac{1}{2} i_{s}^{2} \frac{d L\left(\theta, i_{s}\right)}{d t} \tag{6}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The observer equations for the sliding surface and the estimation of flux and then rotor position are listed below:
+<disp-formula id="deqn7-deqn11"><tex-math notation="LaTeX">\begin{align*}
+\frac{d \hat{\lambda}}{d t}=-\left(R L^{-1}(\theta, i) \hat{\lambda}\right)+V+K_{\lambda} e_{i} \tag{7}\\
+\frac{d \hat{\omega}}{d t}=T_{L}-\frac{1}{J}\left[\frac{1}{2} \hat{\lambda}^{T} \frac{d\left(L^{-1}(\theta, i)\right)}{d \theta} \hat{\lambda}+D \omega\right]+K_{\omega} e_{i} \tag{8}\\
+\frac{d \hat{\theta}}{d t}=\hat{\omega}+K_{\theta} e_{i} \tag{9}\\
+i=L^{-1}(\theta, i) \lambda \tag{10}\\
+e_{i}=\hat{i}-i \tag{11}
+\end{align*}</tex-math></disp-formula></p>
+<p>The <xref ref-type="fig" rid="fig2">Fig. 2</xref> below shows the control design for the switches of SRM motor. The control shows that the voltage and current of the motor is sensed from the motor side connections. The sensed signal for voltage and current are used for estimating the flux in the air gap by using a flux observer and resultant flux is calculated. The resultant flux is then resolved into its angle and magnitude components, the angle component is then differentiated to give an estimated speed of the rotor. The estimated speed and reference speed are compared to generate an error speed signal, the error speed signal is fed to PI controller for generating a reference torque. Then the estimated flux and the reference torque is fed to the vector control so that the next phase switching sequence is initiated for the system and the motor generates a torque in a single direction. The switching state of the motor phase is decided by the rotor position or the sector in which the rotor is lying. The vector control give three outputs (Torque, flux magnitude and sector in which the rotor is present) for the two provided inputs. The information regarding the sector is crucial and helps in deciding the next phase to get the excitation and generate the necessary torque required for driving the motor shaft.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label><title>Vector Control of SRM</title>
+<p>The process starts with estimating the rotor position using the phase inductance profiles, which vary with rotor angle due to the doubly salient structure of the motor. Based on the rotor position, the instantaneous flux linkage for each phase is calculated using the nonlinear flux, current and position relationship.</p>
+<p>A virtual transformation is then performed to project the phase quantities into a rotating <inline-formula><tex-math notation="LaTeX">$\mathrm{d}-\mathrm{q}$</tex-math></inline-formula> reference frame. In this frame, the direct-axis (d-axis) component corresponds to flux generation, while the quadrature-axis (q -axis) component contributes to torque production. Using this separation, PI or model predictive controllers can regulate the d and q -axis currents independently to control the motor&#x0027;s torque and flux more precisely.</p>
+<p>The reference <inline-formula><tex-math notation="LaTeX">$\mathrm{d}-\mathrm{q}$</tex-math></inline-formula> currents are computed from the desired torque command, and inverse transformations are used to generate phase current signal. These are applied through a PWM-controlled converter to shape the phase currents accordingly. This method reduces torque ripple, improves dynamic performance, and enhances the efficiency of SRM operation under varying load and speed conditions.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Block diagram of control design of srm</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-2-source.tif"/>
+</fig></p>
+<p>The switching table in the above <xref ref-type="fig" rid="fig2">Fig. 2</xref> interprets the information coming from the vector control output of sector signal and provides the gate pulse sequence for the next phase switching such that the torque remains positive for a particular direction of motion.</p>
+<p>The <xref ref-type="fig" rid="fig3">Fig. 3</xref> below shows the sector division for the rotor position and the next phase in the excitation sequence for generating torque in the direction of motion.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Sector division for switching state of next phase</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-3-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label><title>PV modelling</title>
+<p>A PV array is mounted at the top of the electric threewheeler for charging the battery when the solar irradiance is available. The modelling for PV array is shown in the table 1 below. The array is interfaced with a boost converter for maximum power extraction using the MPPT algorithm. The switching pulse of boost converter is controlled by a MPPT controller.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Pv array parameters</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<tbody>
+<tr>
+<td>Current (I)</td>
+<td>1A</td>
+</tr>
+<tr>
+<td>Voltage (V)</td>
+<td>26.3 V</td>
+</tr>
+<tr>
+<td>Maximum Power (<inline-formula><tex-math notation="LaTeX">$\mathrm{P}_{\text {max,m }}$</tex-math></inline-formula>)</td>
+<td>650 W</td>
+</tr>
+<tr>
+<td>Short circuit current of PV (<inline-formula><tex-math notation="LaTeX">$\mathrm{I}_{\text{scn}}$</tex-math></inline-formula>)</td>
+<td>2.1A</td>
+</tr>
+<tr>
+<td>Open circuit Voltage of PV (Vocn)</td>
+<td>100 V</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\mathrm{I}_{0, \mathrm{n}}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$9.825 \times 10^{-8} ~\mathrm{A}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Temperature (T)</td>
+<td>298K</td>
+</tr>
+<tr>
+<td>No. of Series module (<inline-formula><tex-math notation="LaTeX">$\mathrm{N}_{\mathrm{s}}$</tex-math></inline-formula>)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>No. of Parallel module (<inline-formula><tex-math notation="LaTeX">$\mathrm{N}_{\mathrm{P}}$</tex-math></inline-formula>)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Switching frequency (<inline-formula><tex-math notation="LaTeX">$\mathrm{f}_{\text{sw}}$</tex-math></inline-formula>)</td>
+<td>20 KHz</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+</sec>
+<sec id="sec3d">
+<label>D.</label><title>Design of Boost Converter</title>
+<p>This is used for interfacing the PV with the DC link capacitor at the point of common coupling with the power electronic converter and battery interfaced through the bidirectional DC-DC converter. The output voltage or the voltage at the PCC is evaluated as,
+<disp-formula id="deqn12"><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{V}_{P C C}=\mathrm{V}_{D C}=\mathrm{G}_{\text {boost }} \times \mathrm{V}_{\text {in }} \tag(12)
+\end{equation*}</tex-math></disp-formula></p>
+<p><inline-formula><tex-math notation="LaTeX">$\mathrm{G}_{\text {boost }}$</tex-math></inline-formula> = Boost converter gain = voltage amplification
+<disp-formula id="deqn13"><tex-math notation="LaTeX">\begin{equation*}
+G_{\text {boost }}=\frac{1}{1-d} \tag(13)
+\end{equation*}</tex-math></disp-formula>
+Where d represents duty ratio.</p>
+<p>The output of boost is regulated by the use of MPPT controller. The controller ensure that the power flow is always positive and maximum for a given value of irradiation. The switch of boost converter is supplied with gate pulses delivered by a pulse width modulator. The duty ratio generated using MPPT controller is fed to the PWM generator.</p>
+<p>The boost converter make sure that the operation of the PV is such that maximum power is extracted from it at all time when the solar irradiance is available and vehicle is working in charging mode. The incremental conductance based MPPT control algorithm make sure the power output is maximum and operates in the dashed region of the waveform shown in the <xref ref-type="fig" rid="fig4">Fig. 4</xref> below.</p>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Maximum power point current and power output of pv</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-4-source.tif"/>
+</fig>
+</sec>
+<sec id="sec3e">
+<label>E.</label><title>MPPT Control</title>
+<p>For delivering maximum amount of power from the photovoltaic panel the algorithm used is incremental conductance based maximum power point tracking. In this, the solar PV is interfaced through a boost converter such that the output voltage is maintained so that the maximum power is extracted from the PV for a given amount of solar irradiation. The controller takes the input of the voltage and current from the solar PV and give output of gate pulses for the switch of boost converter. Function and operation of the boost converter is discussed in the previous section. The algorithm for MPPT is shown in the <xref ref-type="fig" rid="fig5">Fig. 5</xref> below
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Algorithm for maximum power point tracking for extracting maximum power from the pv array</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-5-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3f">
+<label>F.</label><title>BDDC Controller Design</title>
+<p>The bidirectional DC-DC converter connected in the apparatus for interfacing the battery with the point of common coupling and allowing the battery to supply the power to the motor using the two switches connected at the end of the converter. The BDDC is used for providing two purposes in the system one is to supply power to the motor through power electronic switches and other is to charge the battery using the solar power generated through the solar irradiance in the PV array.</p>
+<p>The controlling of the BDDC is done by setting a reference voltage for the DC link, the voltage sensor senses the voltage at the DC link, then it is compares with the reference voltage and generates an error signal, this error voltage signal is given to the PI controller of the BDDC and generates reference current for the battery. A signal from the current sensor is compared with the reference current to generate a current error to be fed to the PI controller which is given to the PWM generator to generate the gate pulses for the switches of the BDDC. The control system blocks for the BDDC are shown in <xref ref-type="fig" rid="fig6">Fig. 6</xref> below.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Control of bidirectional DC-DC converter</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-6-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results and discussion</title>
+<p><xref ref-type="fig" rid="fig7">Fig.7</xref>. shows the simulated results for the stator current of the SRM. The three modes of operations are shown with accelerating region and braking region, under different speed condition along with charging the battery through PV array. It shows the transition from starting to rated speed operation then from rated speed operation to zero. The value of current in <xref ref-type="fig" rid="fig7">Fig.7. (b)</xref> is increased during the braking operation as seen in the waveform. Also, in <xref ref-type="fig" rid="fig7">Fig.7. (c)</xref> the value of stator current can be seen to reduce to zero when the charging of the battery is done and no power is transferred to the motor.</p>
+<p>In the <xref ref-type="fig" rid="fig7">Fig.7. (a)</xref> shows the stator current waveform of the motor showing the four phase current from the time of starting when the speed is very low. At this time, the higher magnitude of stator current is observed for the motor to meet the high starting torque demand of the rotor, then the current magnitude reduces to a smaller value until the braking is done.</p>
+<p>In <xref ref-type="fig" rid="fig7">Fig.7. (b)</xref> the braking is done at the time of 0.5 second when motor runs at a constant speed of 1000 rpm. The small rise in the stator current is observed in the waveform, which shows the transition between the steady state and braking operation of the SRM drive. The motor speed comes from 1000 rpm to 0 rpm in this braking region.</p>
+<p>In <xref ref-type="fig" rid="fig7">Fig.7. (c)</xref> the vehicle goes into charging mode when the value of irradiance becomes non-zero and we switch on the charging mode. The stator current in the waveform becomes zero at <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0.7$</tex-math></inline-formula> second and the vehicle starts to charge. This can be seen in the subsequent section where the charging of battery is shown and the battery current become negative and SOC of battery starts to rise.
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>(a) stator current waveform of the srm, (b) switching between accelerating mode to braking mode, (c) switching between braking mode to charging mode.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-7-source.tif"/>
+</fig></p>
+<p>In the <xref ref-type="fig" rid="fig8">Fig. 8</xref> below, the two mode of operation of the BDDC is shown, one is the motoring mode and other is charging through PV is shown. In the motoring mode voltage of the battery is maintained at 108.1 V and the current is 4 A with SOC of the battery decreasing showing discharging of battery. The time when we turned &#x201C;ON&#x201D; the PV panel by providing the solar irradiance to the system the battery SOC starts to rise showing charging of battery after <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0.7 ~\mathrm{s}$</tex-math></inline-formula>. At this time, the battery starts to charge itself and power flow towards the motor is stopped. The current reversal can be seen in the battery current waveform at this instant, this changes the direction of current and the SOC of the battery is started to rise showing charging of the battery through solar PV.</p>
+<p>In <xref ref-type="fig" rid="fig9">Fig. 9</xref>, the waveform shows the torque and speed variation in the motor for two different operations. The accelerating mode is showing positive torque and is represented by the region with rising speed of the rotor from <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0.5 \text{sec}$</tex-math></inline-formula>, in this region the speed of rotor is going from standstill to 1000 rpm. As soon as the speed achieves the reference speed the torque reduces to a small positive value (approx. 1Nm). This is due to the drag and resistance that the motor has to overcome for maintaining the speed at 1000 rpm. Similarly, at the time <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0.5 \text{sec}$</tex-math></inline-formula> the reference speed is set to zero and deceleration is done, the torque value becomes negative as seen in the waveform at about 4 Nm, during this region the rotor speed reduces from 1000 rpm to 0 and remains equal to zero. As the speed reaches zero the motor torque also becomes zero so that the motor doesn&#x0027;t gain speed in opposite direction.</p>
+<p>The BDDC changes its operation from motoring mode to charging mode thus showing a zero torque and zero speed of the motor at the time of charging. And the battery SOC starts to rise with a negative battery current showing battery charging. The current reversal in the <xref ref-type="fig" rid="fig8">Fig. 8</xref> is seen at the same time <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=0.7 \text{sec}$</tex-math></inline-formula> when the PV is supplied with the solar irradiance.
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8.</label>
+<caption><p>Voltage, current and soc of the battery during the motoring (discharging) mode and charging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-8-source.tif"/>
+</fig>
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig. 9.</label>
+<caption><p>Torque and speed waveform for the accelerating and braking mode of operation.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-9-source.tif"/>
+</fig></p>
+<sec id="sec4a">
+<title>Analysis of Position tracking of the rotor</title>
+<p>From the above <xref ref-type="fig" rid="fig9">Fig. 9</xref>, the analysis shows that the speed tracking is done satisfactorily in the sliding mode observer based sensorless controller design described here. In the below figure, both the waveform of position tracking with actual position and estimated position by the algorithm is shown and the small error in the difference between the actual and estimated position can be seen in <xref ref-type="fig" rid="fig10">Fig. 10</xref>.
+<fig id="fig10" position="float" orientation="portrait">
+<label>Fig. 10.</label>
+<caption><p>Position tracking waveform showing tracking of estimated position with actual position when motor speeds up.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439810-fig-10-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This study presents a position sensorless control strategy for a Switched Reluctance Motor (SRM) drive, validated through simulation results. The combination of a photovoltaic (PV) array with a bidirectional chopper enhances overall system efficiency and extends the electric vehicle&#x0027;s driving range via solar charging. Simulations show that during braking, the battery current reverses direction, resulting in an increased state of charge (SOC), which confirms effective vehicle charging. Additionally, the proposed flux observer offers improved accuracy in speed and position estimation, thereby boosting the motor drive&#x0027;s performance in terms of torque and power output.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>Authors would like to thank IIT Bhilai by providing supports through RIG and IBITF.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Nanni</surname></string-name>, <string-name><given-names>O.</given-names> <surname>Alamdari</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Bonavita</surname></string-name> and <string-name><given-names>P.</given-names> <surname>Cintia</surname></string-name></person-group>, &#x201C;<article-title>From Fossil Fuel to Electricity: Studying the Impact of EVs on the Daily Mobility Life of Users</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Intelligent Transport. Systems</source>, vol. <volume>25</volume>, no. <issue>6</issue>, pp. <fpage>5780</fpage>&#x2013;<lpage>5790</lpage>, <month>June</month> <year>2024</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Saxena</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Gopal</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Phadke</surname></string-name></person-group>, &#x201C;<article-title>Electrical consumption of two-, three- and four-wheel light-duty electric vehicles in India</article-title>,&#x201D; <source>Applied Energy</source>, vol. <volume>115</volume>, pp. <fpage>582</fpage>&#x2013;<lpage>590</lpage>, <year>2014</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Yilmaz</surname></string-name> and <string-name><given-names>P. T.</given-names> <surname>Krein</surname></string-name></person-group>, &#x201C;<article-title>Review of the impact of renewable energy integration with electric vehicle technology</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. on Power Electronics</source>, vol. <volume>28</volume>, no. <issue>12</issue>, pp. <fpage>5673</fpage>&#x2013;<lpage>5689</lpage>, <month>Dec.</month> <year>2013</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.-M.</given-names> <surname>Liaw</surname></string-name>, <string-name><given-names>M.-Z.</given-names> <surname>Lu</surname></string-name>, <string-name><given-names>P.-H.</given-names> <surname>Jhou</surname></string-name>, and <string-name><given-names>K.-Y.</given-names> <surname>Chou</surname></string-name></person-group>, &#x201C;<article-title>Some Basic and Key Issues of Switched-Reluctance Machine Systems</article-title>&#x201D;, <source>Modelling and Control of Switched Reluctance Machines. IntechOpen</source>, <month>Sep.</month> <day>09</day>, <year>2020</year>. doi: <pub-id pub-id-type="doi">10.5772/intechopen.89169</pub-id>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Shankar</surname></string-name> and <string-name><given-names>M. J.</given-names> <surname>Akhtar</surname></string-name></person-group>, &#x201C;<article-title>Closed-Loop Control Strategies for Switched Reluctance Motor Drives for Electric Vehicle Application</article-title>,&#x201D; <source specific-use="IEEE">2024 IEEE Students Conference on Engineering and Systems (SCES)</source>, <conf-loc>Prayagraj, India</conf-loc>, <conf-date>2024</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>5</lpage>, doi: <pub-id pub-id-type="doi">10.1109/SCES61914.2024.10652526</pub-id>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Kumar</surname></string-name> and <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>Sensorless Commutation Angle Control based SRM Drive for Light Electric Vehicle with Regenerative Braking Capability</article-title>,&#x201D; <source specific-use="IEEE">2021 IEEE Transportation Electrification Conf. (ITEC-India)</source>, <conf-loc>New Delhi, India</conf-loc>, <year>2021</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, doi: <pub-id pub-id-type="doi">10.1109/ITECIndia53713.2021.9932510</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Du</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Niu</surname></string-name> and <string-name><given-names>Y.</given-names> <surname>Xue</surname></string-name></person-group>, &#x201C;<article-title>Estimating Rotor Position for SRM via Regional Sliding Mode Observer</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. on Industrial Electronics</source>, vol. <volume>72</volume>, no. <issue>1</issue>, pp. <fpage>230</fpage>&#x2013;<lpage>239</lpage>, <month>Jan.</month> <year>2025</year>, doi: <pub-id pub-id-type="doi">10.1109/TIE.2024.3417973</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Zhou</surname></string-name> and <string-name><given-names>H.</given-names> <surname>Chen</surname></string-name></person-group>, &#x201C;<article-title>Four-Quadrant Position Sensorless Operation of Switched Reluctance Machine for Electric Vehicles Over a Wide Speed Range</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. on Transportation Electrification</source>, vol. <volume>7</volume>, no. <issue>4</issue>, pp. <fpage>2835</fpage>&#x2013;<lpage>2847</lpage>, <month>Dec.</month> <year>2021</year>, doi: <pub-id pub-id-type="doi">10.1109/TTE.2021.3070640</pub-id>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Tan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kuai</surname></string-name> and <string-name><given-names>X.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Four-quadrant position sensorless control in Switched Reluctance Motor drives based on Sliding Mode Observer</article-title>,&#x201D; <source>2009 International Conf. on Electrical Machines and Systems</source>, <conf-loc>Tokyo, Japan</conf-loc>, <year>2009</year>, pp. <fpage>1</fpage>&#x2013;<lpage>5</lpage>, doi: <pub-id pub-id-type="doi">10.1109/ICEMS.2009.5382655</pub-id>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. S.</given-names> <surname>Islam</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Husain</surname></string-name>, <string-name><given-names>R. J.</given-names> <surname>Veillette</surname></string-name> and <string-name><given-names>C.</given-names> <surname>Batur</surname></string-name></person-group>, &#x201C;<article-title>Design and performance analysis of sliding-mode observers for sensorless operation of switched reluctance motors</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. on Control Systems Technology</source>, vol. <volume>11</volume>, no. <issue>3</issue>, pp. <fpage>383</fpage>&#x2013;<lpage>389</lpage>, <month>May</month> <year>2003</year>, doi: <pub-id pub-id-type="doi">10.1109/TCST.2003.810375</pub-id>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Siddique</surname></string-name> and <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>Higher Order Observer Based Sensorless Control for Position and Load Estimation of SRM Drive for EV</article-title>,&#x201D; <source specific-use="IEEE">2021 IEEE 6th International Conf. on Computing, Communication and Automation (ICCCA), Arad, Romania</source>, <year>2021</year>, pp. <fpage>896</fpage>&#x2013;<lpage>901</lpage>, doi: <pub-id pub-id-type="doi">10.1109/ICCCA52192.2021.9666358</pub-id>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Yalavarthi</surname></string-name> and <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>A State-Observer Based Position Estimation Scheme Employed for the Control of a SRM Drive for GridTied Solar Water Pumping System</article-title>,&#x201D; <source specific-use="IEEE">2021 IEEE 6th International Conf. on Computing, Communication and Automation (ICCCA)</source>, <conf-loc>Arad, Romania</conf-loc>, <year>2021</year>, pp. <fpage>940</fpage>&#x2013;<lpage>946</lpage>, doi: <pub-id pub-id-type="doi">10.1109/ICCCA52192.2021.9666350</pub-id>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Yalavarthi</surname></string-name> and <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>SMO-Based Position Sensorless SRM Drive for Battery-Supported PV Submersible Pumps</article-title>,&#x201D; <source specific-use="IEEE">IEEE Journal of Emerging and Selected Topics in Power Electronics</source>, vol. <volume>10</volume>, no. <issue>4</issue>, pp. <fpage>3917</fpage>&#x2013;<lpage>3926</lpage>, <month>Aug.</month> <year>2022</year>, doi: <pub-id pub-id-type="doi">10.1109/JESTPE.2021.3067955</pub-id>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kumar</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Kurm</surname></string-name></person-group>, &#x201C;<article-title>A Sigmoid Function Based Improved Observer for PV-Battery fed Sensorless PMaSyRM Driven Light Electric Vehicle</article-title>,&#x201D; <source specific-use="IEEE">2024 IEEE 11th Power India International Conf. (PIICON)</source>, <conf-loc>JAIPUR, India</conf-loc>, <year>2024</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, doi: <pub-id pub-id-type="doi">10.1109/PIICON63519.2024.10995130</pub-id>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I.</given-names> <surname>Boldea</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Tutelea</surname></string-name></person-group>, &#x201C;<source>Reluctance Electric Machines: Design and Control</source>&#x201D; (<edition>1st ed.</edition> ) <publisher-name>CRC Press</publisher-name>. <uri>https://doi.org/10.1201/9780429458</uri>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

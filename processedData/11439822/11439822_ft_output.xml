@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/18/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ITEC-INDIA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-full-title>
+<conf-normalized-title>Transportation Electrification Conference (ITEC-India), 2025 IEEE International</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5400-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-name>
+<conf-start iso-8601-date="2025-09-16"><day>16</day><month>09</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-09-19"><day>19</day><month>09</month><year>2025</year></conf-end>
+<conf-loc><city>Pune</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ITEC-India67626.2025.11439822</article-id>
+<xplore-article-id>11439822</xplore-article-id>
+<xplore-issue>11439063</xplore-issue>
+<xplore-pub-id>11438249</xplore-pub-id>
+<title-group>
+<article-title>Multilevel PFC Converters for Efficient EV Battery Chargers</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<contrib-id contrib-id-type="orcid">0000-0002-8032-1976</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Akhilesh Kumar</given-names> <surname>Tiwari</surname></string-name>
+<string-name specific-use="index"><given-names>Akhilesh Kumar</given-names> <surname>Tiwari</surname></string-name>
+</name-alternatives>
+<email>Akhileshk300691@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<contrib-id contrib-id-type="orcid">0000-0002-5626-6241</contrib-id>
+<name-alternatives>
+<string-name specific-use="display"><given-names>Prasanta Kumar</given-names> <surname>Jena</surname></string-name>
+<string-name specific-use="index"><given-names>Prasanta Kumar</given-names> <surname>Jena</surname></string-name>
+</name-alternatives>
+<email>pkj.ped@gmail.com</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Kulshresth</given-names> <surname>Singh</surname></string-name>
+<string-name specific-use="index"><given-names>Kulshresth</given-names> <surname>Singh</surname></string-name>
+</name-alternatives>
+<email>kulshresth.singh@opju.ac.in</email>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Padmini</given-names> <surname>Sharma</surname></string-name>
+<string-name specific-use="index"><given-names>Padmini</given-names> <surname>Sharma</surname></string-name>
+</name-alternatives>
+<email>padminisharma@gmail.com</email>
+<xref ref-type="aff" rid="aff4"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Prem</given-names> <surname>Kushwaha</surname></string-name>
+<string-name specific-use="index"><given-names>Prem</given-names> <surname>Kushwaha</surname></string-name>
+</name-alternatives>
+<email>Premkushwaha8@gmail.com</email>
+<xref ref-type="aff" rid="aff5"/>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shankarshan Prasad</given-names> <surname>Tiwari</surname></string-name>
+<string-name specific-use="index"><given-names>Shankarshan Prasad</given-names> <surname>Tiwari</surname></string-name>
+</name-alternatives>
+<email>shankarshan.tiwari20@gmail.com</email>
+<xref ref-type="aff" rid="aff6"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">Electrical and Electronics Engineering, VNIT Nagpur</institution>
+</institution-wrap>
+<city>Nagpur</city>
+<state>Maharashtra</state>
+<country>India</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Electrical and Electronics Engineering, BVRITH College of Engineering for Women</institution>
+</institution-wrap>
+<city>Hyderabad</city>
+<state>Telangana</state>
+<country>India</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Mining Engineering, O.P. Jindal University</institution>
+</institution-wrap>
+<city>Raigarh</city>
+<state>Chhattisgarh</state>
+<country>India</country>
+</aff>
+<aff id="aff4">
+<institution-wrap>
+<institution content-type="institution">Electrical and Electronics Engineering, Chhatrapati Shivaji Institute of Technology</institution>
+</institution-wrap>
+<city>Durg</city>
+<state>Chhattisgarh</state>
+<country>India</country>
+</aff>
+<aff id="aff5">
+<institution-wrap>
+<institution content-type="institution">Mechanical Engineering, Sardar Patel University</institution>
+</institution-wrap>
+<city>Balaghat</city>
+<state>Madhya Pradesh</state>
+<country>India</country>
+</aff>
+<aff id="aff6">
+<institution-wrap>
+<institution content-type="institution">Electrical Engineering, Ramdeobaba University</institution>
+</institution-wrap>
+<city>Nagpur</city>
+<state>Maharashtra</state>
+<country>India</country></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-09-19"><day>19</day><month>Sept.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5400-2 &#x00A9; 2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price>
+</license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11439822_ft.xml</self-uri>
+<self-uri content-type="print">CameraReady_147.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Two-stage electric vehicle (EV) charging architectures typically include a rectification stage followed by a DC-DC conversion stage. Multilevel rectifiers (MLRs) are emerging as superior options for the rectification stage in EV chargers due to their lower voltage stress on switches, improved harmonic performance on the grid side, reduced dv/dt stress, and higher voltage handling capability. In this paper, a five-level rectifier combined with a phase-shift full-bridge (PSFB) converter is implemented for EV charging applications. The rectifier inherently balances capacitor voltages and maintains unity power factor (UPF) at the source side under various operating conditions. To validate the system&#x0027;s suitability for real-time EV charging, a comprehensive performance analysis is conducted, covering loss and efficiency calculations. The EV battery charger has been mathematically modelled, simulated in MATLAB and evaluated using real time validation.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Electric Vehicles</kwd>
+<kwd>Electric Vehicle Charging</kwd>
+<kwd>Multilevel Converters</kwd>
+<kwd>Phase Shift Full Bridge Converter</kwd>
+</kwd-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="0"/>
+<equation-count count="14"/>
+<ref-count count="13"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label><title>Introduction</title>
+<p>EV sales are projected to grow significantly in the coming years, offering a cost-effective alternative to conventional internal combustion engine ICE vehicles. EVs are more economical in terms of operational costs, leading to substantial savings <xref ref-type="bibr" rid="ref1">[1]</xref>. However, the widespread integration of EVs into the power grid raises concerns regarding grid reliability and power quality due to increased peak demand <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>. On-board chargers (OBCs), commonly integrated with EVs, can serve as a potential solution to mitigate these issues and improve grid power quality <xref ref-type="bibr" rid="ref4">[4]</xref>. OBCs are well-suited to alleviate range anxiety for users, as they enable vehicles to recharge from any accessible charging outlet. The commonly adopted architecture for on-board charging systems consists of a two-stage power conversion process: an AC-DC front-end rectifier followed by an isolated DC-DC converter. The primary stage is responsible for maintaining a UPF at the input and supplying a stable DC link voltage to the secondary stage. To comply with utility grid standards regarding efficiency and power factor, PFC is essential at the AC-DC conversion stage. This is typically achieved using PFC rectifiers, which integrate a full-bridge diode rectifier and a DC-DC boost converter to improve power quality <xref ref-type="bibr" rid="ref5">[5]</xref>. These chargers convert the AC supply from the grid into a regulated DC output suitable for charging the EV battery. With advanced topologies and control strategies, onboard chargers can also perform additional functions such as voltage regulation, harmonic mitigation, and power factor correction <xref ref-type="bibr" rid="ref6">[6]</xref>&#x2013;<xref ref-type="bibr" rid="ref7"/><xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+<p>In recent years, multi-level rectifiers (MLRs) have seen widespread adoption for power factor correction (PFC) due to their numerous advantages, including a modular structure, higher operating voltage capability, reduced switching losses, and improved converter efficiency-surpassing traditional diode bridge and two-level rectifiers <xref ref-type="bibr" rid="ref9">[9]</xref>&#x2013;<xref ref-type="bibr" rid="ref10"/><xref ref-type="bibr" rid="ref11">[11]</xref>. Comparisons show that MLRs significantly reduce current distortion and terminal voltage fluctuations compared to conventional solutions. Despite ongoing improvements in MLR performance, semiconductor devices remain the most vulnerable components in the system, posing a higher risk of failure and thus limiting overall system reliability <xref ref-type="bibr" rid="ref12">[12]</xref>.</p>
+<p>In this work, a five-level rectifier with six active switches, along with a PSFB converter, has been implemented to develop a multilevel PFC-based EV battery charger. The key contributions include a detailed analysis of the operation and control of the five-level rectifier, incorporating a novel switching scheme. Additionally, a control strategy is designed for the PSFB DC-DC converter to support a wide output voltage range suitable for battery charging. The author&#x0027;s contributions in the proposed work encompass a comprehensive analysis of the operation and control of a PFC five-level rectifier incorporating a novel switching strategy. Additionally, a control scheme is developed for a PSFB DC-DC converter to enable a wide output voltage range suitable for battery charging. The key challenges addressed include achieving unity power factor at the input, ensuring capacitor voltage balancing in the five-level rectifier, maintaining a regulated DC output voltage, and efficiency of the battery charging system. The specific contributions of the proposed work are summarized as follows:
+<list list-type="ordered">
+<list-item><label>1.</label><p>Design and implementation of a PFC five-level rectifier that ensures unity power factor at the input and delivers a stable DC-link voltage.</p></list-item>
+<list-item><label>2.</label><p>Leveraging the advantages of the multilevel rectifier to minimize voltage stress on power switches, thereby enhancing system reliability.</p></list-item>
+<list-item><label>3.</label><p>Introduction of a switching technique that enables complementary switching, which reduces the requirement for gate driver circuitry.</p></list-item>
+<list-item><label>4.</label><p>Development of a decoupled control strategy for the power converters to effectively regulate various system parameters.</p></list-item>
+</list>
+</p>
+<p>The paper is structured as follows: <xref ref-type="sec" rid="sec2">Section 2</xref> outlines the proposed system&#x0027;s description. The closed-loop control for each sub-converter is described in <xref ref-type="sec" rid="sec3">Section 3</xref>. <xref ref-type="sec" rid="sec4">Section 4</xref> presents the loss calculation and efficiency for various components of the system. <xref ref-type="sec" rid="sec5">Section 5</xref> discusses real-time validation in various operating modes, and <xref ref-type="sec" rid="sec6">Section 6</xref> presents the conclusion.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label><title>Multilevel Converter Based Charger</title>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> illustrates the schematic of a two-stage EV battery charger. This charger integrates ten power switches and four diodes (labelled S1-S6, S7-S10, and D1-D4), along with a line inductor (L) and a high-frequency transformer (HFT). The system&#x0027;s converters function independently under a decoupled control strategy <xref ref-type="bibr" rid="ref13">[13]</xref>. A key component, the five-level rectifier, plays an essential role in battery charging and grid interfacing. The design enhances converter efficiency by minimizing voltage and current stresses on the switching devices. Gate signals for the PFC rectifier switches are generated using a PWM approach. The PSFB converter, equipped with a high-frequency transformer, provides galvanic isolation between the grid and the load. It transfers energy from the DC-link capacitor to the load via phase-shifting. A PI controller manages the output current, ensuring quick response, stable dynamics, and low steady-state error. The system uses a reference signal to regulate the DC output voltage and maintain consistent load current. <xref ref-type="fig" rid="fig2">Figure 2</xref> presents the applied switching strategy over a full 20 milliseconds cycle. Five distinct voltage levels are generated using appropriately timed PWM pulses sent to the switches. These pulses are derived by comparing a reference sine wave with four triangular carrier signals. The resulting switching signals are then assigned to the corresponding switches responsible for generating and combining the required voltage levels. As a result, a group of PWM pulses are combined to generate the switching signals for specific switches.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1:</label>
+<caption><p>Circuit diagram of ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-1-source.tif"/>
+</fig>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2:</label>
+<caption><p>Gate pulses for corresponding switches</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-2-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig3">Figure 3</xref> illustrates how power flows from the input to the output in the PSFB converter. The input voltage <inline-formula><tex-math notation="LaTeX">$V_{d c}$</tex-math></inline-formula> on the primary side is phase-shifted relative to the output voltage <inline-formula><tex-math notation="LaTeX">$V_{O}$</tex-math></inline-formula> on the secondary side by an angle <inline-formula><tex-math notation="LaTeX">$\phi$</tex-math></inline-formula>. The primary current lags behind both the output voltage by an angle <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> and the primary voltage by an angle <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula>, with the relationship between these angles defined as <inline-formula><tex-math notation="LaTeX">$\theta=\beta-\phi$</tex-math></inline-formula>. During the power transfer process, current flows through the path <inline-formula><tex-math notation="LaTeX">$S 7 \rightarrow$</tex-math></inline-formula> transformer primary winding &#x2192; <inline-formula><tex-math notation="LaTeX">$S_{10}$</tex-math></inline-formula>. This transfer phase concludes when switches <inline-formula><tex-math notation="LaTeX">$S_{7}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$S_{10}$</tex-math></inline-formula> are turned off, controlled by a specific PWM signal. The amount of power delivered from the primary to the secondary side depends on the phase shift between the two legs of the full-bridge circuit. Each active switch operates with a 50 &#x0025; duty cycle, and the maximum allowed phase shift between the legs is 180 degrees. When switches <inline-formula><tex-math notation="LaTeX">$S_{8}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$S_{9}$</tex-math></inline-formula> are activated, the current path changes to <inline-formula><tex-math notation="LaTeX">$S_{8} \rightarrow$</tex-math></inline-formula> transformer primary <inline-formula><tex-math notation="LaTeX">$\rightarrow S_{9}$</tex-math></inline-formula>, beginning the next power transfer cycle.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3:</label>
+<caption><p>Waveform for psfb converter</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4:</label>
+<caption><p>Control technique for five-level rectifier</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-4-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3">
+<label>III.</label><title>Control Design</title>
+<p><xref ref-type="fig" rid="fig4">Figure 4</xref> illustrates the control system designed for the five-level rectifier, which processes the input signals <inline-formula><tex-math notation="LaTeX">$V_{g}$</tex-math></inline-formula> (grid voltage), <inline-formula><tex-math notation="LaTeX">$I_{g}$</tex-math></inline-formula> (grid current), and <inline-formula><tex-math notation="LaTeX">$V_{D C}$</tex-math></inline-formula> (DC link voltage). A delay block is incorporated to extract the orthogonal component, known as the <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula>-axis. This <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula>-axis signal is then input into a PLL, which monitors the phase angle of the supply voltage and generates the reference current for the source. The control architecture consists of two loops: an outer loop that regulates the DC link voltage and an inner loop that controls the grid current. The PLL uses the delayed <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula>-axis signal to accurately synchronize with the grid, ensuring proper phase tracking and reference generation. This dual-loop control structure enables effective management of both voltage stability and current flow from the grid. The average grid current can be calculated as follows:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{align*}
+&amp; L \frac{d i_{g}}{d t}=V_{g}-r i_{g}-V_{a b} \\
+&amp; =V_{g}-r i_{g}-d V_{D C_{r e f}} \tag{1}
+\end{align*}</tex-math></disp-formula></p>
+<p>The above <xref ref-type="disp-formula" rid="deqn1">equation (1)</xref> can be transformed into Laplace by taking grid voltage (<inline-formula><tex-math notation="LaTeX">$V_{g}$</tex-math></inline-formula>) constant, and averaged value of duty cycle and current.
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+L s i_{g}=-r i_{g}-d V_{D C_{r e f}} \tag{2}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5:</label>
+<caption><p>Control technique for psfb converter</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-5-source.tif"/>
+</fig></p>
+<p>The transfer function obtained from reference value of DC voltage (<inline-formula><tex-math notation="LaTeX">$V_{D C_{\text {ref }}}$</tex-math></inline-formula>) shows that the grid current depends on output DC voltage, value of inductor and line impedance.
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\frac{i_{g}}{d}=\frac{-V_{D C_{r e f}}}{L_{s}+r} \tag{3}
+\end{equation*}</tex-math></disp-formula></p>
+<p>To regulate the DC link voltage outer loop is examined as
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{align*}
+i_{g} &amp; =i_{c e q}+i_{D C} \\
+C_{e q} \frac{d V}{d t} &amp; =i_{g}-i_{D C} \tag{4}
+\end{align*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$C_{e q}$</tex-math></inline-formula> is equivalent value of capacitor connected in parallel and <inline-formula><tex-math notation="LaTeX">$i_{D C}$</tex-math></inline-formula> is output DC current. <xref ref-type="fig" rid="fig5">Figure 5</xref> illustrates the control system used for the PSFB converter. This system employs two PI controllers to determine the appropriate duty cycle for the DC-DC converter&#x0027;s operation. To compute the reference charging current for the battery (<inline-formula><tex-math notation="LaTeX">$I_{o}^{*}$</tex-math></inline-formula>), the error between the desired battery voltage and the actual measured voltage is processed through a PI controller. The resulting value defines the reference charging current as:
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+I_{o}^{*}=K_{p}\left(V_{o r e f}-V_{o}\right)+\frac{K_{i}}{s}\left(V_{o r e f}-V_{o}\right) \tag{5}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here <inline-formula><tex-math notation="LaTeX">$K_{p}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$K_{i}$</tex-math></inline-formula> represent the proportional and integral gains of the controller, respectively. <inline-formula><tex-math notation="LaTeX">$V_{o_{r e f}}$</tex-math></inline-formula> denotes the reference voltage for the battery, while Vo indicates the actual output voltage. The computed reference charging current is then used to determine the duty cycle required for the PSFB converter to achieve constant current (CC) charging, as described in <xref ref-type="disp-formula" rid="deqn6">equation (6)</xref>.
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+d=K_{p}\left(I_{o}^{*}-I_{o}\right)+\frac{K_{i}}{s}\left(I_{o}^{*}-I_{o}\right) \tag{6}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here, d represents the duty cycle of the PSFB converter. To minimize variable error, the control strategy incorporates an anti-windup limiter. The PSFB converter&#x0027;s current controller is developed and validated in conjunction with a five-level rectifier. To ensure the system meets performance criteria, parameter tuning is carried out following the integration of both voltage and current control loops.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label><title>Loss Calculation</title>
+<p>Evaluating power loss is crucial for assessing a system&#x0027;s conversion efficiency. Since power losses manifest as heat within the circuit, minimizing them is vital for effective thermal management. Semiconductor power losses generally fall into three categories: blocking, switching, and conduction losses. Among these, blocking losses are typically negligible due to the minimal current flow in this mode. Consequently, switching and conduction losses are the primary sources of power dissipation in semiconductors. The following section outlines the loss calculations for each component individually:</p>
+<p>The conduction losses depend on switch current (RMS) <inline-formula><tex-math notation="LaTeX">$I_{r m s}$</tex-math></inline-formula> and the resistance (on state), <inline-formula><tex-math notation="LaTeX">$R_{D S(O N)}$</tex-math></inline-formula> as shown
+<disp-formula id="deqn7"><tex-math notation="LaTeX">\begin{equation*}
+P_{\text {conduction(mosfet) }}=R_{D S(O N)}\left(T_{J}\right) I_{r m s}^{2} \tag{7}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The variation in <inline-formula><tex-math notation="LaTeX">$R_{D S(O N)}$</tex-math></inline-formula> with respect to junction temperature <inline-formula><tex-math notation="LaTeX">$T_{J}$</tex-math></inline-formula> is taken into account. The estimation of switching losses follows Infineon&#x0027;s guidelines, as shown in <xref ref-type="disp-formula" rid="deqn8">equation (8)</xref>&#x2013;<xref ref-type="disp-formula" rid="deqn9">(9)</xref> [31]. When a MOSFET is turned on, its body diode continues conducting while the current increases. To turn off the MOSFET, the minority carriers stored in the body diode must be cleared, which involves absorbing reverse recovery energy-leading to additional power loss. This loss, quantified using the reverse recovery charge (<inline-formula><tex-math notation="LaTeX">$Q_{R R}$</tex-math></inline-formula>), can be obtained from the component datasheet and is used in the power dissipation calculations <xref ref-type="bibr" rid="ref12">[12]</xref>.
+<disp-formula id="deqn8"><tex-math notation="LaTeX">\begin{equation*}
+P_{S W(O N)}=\left(V_{D S} I_{O N} \frac{T_{r t}+T_{f t}}{2}+Q_{R R} V_{D S}\right) F_{S W} \tag{8}
+\end{equation*}</tex-math></disp-formula></p>
+<p>In the context of MOSFET turn-off behaviour, several key parameters are considered: VDS indicates the drain-to-source voltage, ION is the drain current at the moment switching begins, <inline-formula><tex-math notation="LaTeX">$T_{r t}$</tex-math></inline-formula> represents the current rise time, Tft corresponds to the voltage fall time, and <inline-formula><tex-math notation="LaTeX">$Q_{R R}$</tex-math></inline-formula> refers to the reverse recovery charge.
+<disp-formula id="deqn9"><tex-math notation="LaTeX">\begin{equation*}
+P_{S W(O F F)}=\left(V_{D S} I_{O F F} \frac{T_{f t}+T_{r u r}}{2}+Q_{R R} V_{D S}\right) F_{S W} \tag{9}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The junction temperature of a MOSFET can be estimated using the thermal impedance provided in the datasheet. This information can then be used to calculate the total power loss.
+<disp-formula id="deqn10"><tex-math notation="LaTeX">\begin{equation*}
+P_{L O S S}=P_{\text {conduction }(\text { mosfet })}+P_{S W(O N)}+P_{S W(O F F)} \tag{10}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The power loss in an inductor depends on its equivalent series resistance (ESR) RESR due to its significant effect.
+<disp-formula id="deqn11"><tex-math notation="LaTeX">\begin{equation*}
+P_{L O S S}=I_{L, R M S}^{2} R_{L, E S R} \tag{11}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Dielectric loss in capacitors is often neglected in favour of considering power loss caused by equivalent series resistance (ESR), which significantly affects performance at higher frequencies.
+<disp-formula id="deqn12"><tex-math notation="LaTeX">\begin{equation*}
+P_{L O S S}=I_{C, R M S}^{2} R_{C, E S R} \tag{12}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6:</label>
+<caption><p>Loss calculation of the charging system</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-6-source.tif"/>
+</fig></p>
+<p>The high frequency transformer system experiences two distinct forms of loss: loss due to conduction in both the primary and secondary windings, as well as core loss. The calculation of conduction loss is
+<disp-formula id="deqn13"><tex-math notation="LaTeX">\begin{equation*}
+P_{T, \text { cond }}=I_{R M S, \text { pri }}^{2} R_{\text {pri }}+I_{R M S, \text { sec }}^{2} R_{\text {sec }} \tag{13}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The flux density in the core varies in magnitude based on the voltage applied to the primary side. In this case, the voltage waveform is approximately square-shaped. Notably, the isolation transformer is constructed using an RM14 core made of 3C95 ferrite material and Litz wire.
+<disp-formula id="deqn14-deqn15"><tex-math notation="LaTeX">\begin{gather*}
+P_{T, \text { core }}=\frac{V K_{i} \Delta \beta^{\beta-\alpha}}{T_{S W}} \sum_{m}\left|\frac{B_{m+1}-B_{m}}{t_{m+1}-t_{m}}\right\vert\left(t_{m+1}-t_{m}\right) \tag{14}\\
+P_{\text {loss }}=P_{\text {cond }}+P_{\text {core }} \tag{15}
+\end{gather*}</tex-math></disp-formula></p>
+<p>Therefore, the above formulas for calculating component power losses enable a comprehensive analysis of system losses. <xref ref-type="fig" rid="fig6">Figure 6</xref> illustrates the loss distribution across each element. For the proposed <inline-formula><tex-math notation="LaTeX">$1 k W$</tex-math></inline-formula> system, the total power loss is <inline-formula><tex-math notation="LaTeX">$43.18 w a t t s$</tex-math></inline-formula>, resulting in a maximum efficiency of 95.86 &#x0025;.</p>
+</sec>
+<sec id="sec5">
+<label>V.</label><title>Results and Discussion</title>
+<p>The charging system has been tested at an operating power of up to <inline-formula><tex-math notation="LaTeX">$1 k W$</tex-math></inline-formula>. It operates with an input supply of 230 V AC at <inline-formula><tex-math notation="LaTeX">$50 H z$</tex-math></inline-formula>, and the corresponding waveforms are presented in this section. The performance of the charger is validated through results from the AC-DC conversion stage, DC-DC conversion stage, and the complete charging system. <xref ref-type="fig" rid="fig8">Figure 8</xref> presents the steady-state results for the rectifier. It converts a 325 V peak AC input into 400 V DC, maintaining a stable DC link voltage as shown in <xref ref-type="fig" rid="fig7">Figure 7(a)</xref>. The source current remains sinusoidal and in phase with the grid voltage, confirming a unity power factor at the input. A five-level voltage waveform at the rectifier side is also illustrated. <xref ref-type="fig" rid="fig7">Figure 7(b)</xref> displays the DC link output voltage and current, while <xref ref-type="fig" rid="fig7">Figure 7(c)</xref> highlights the voltage stress across each power device. <xref ref-type="fig" rid="fig7">Figure 7(d)</xref> shows the current flowing through the power switches. These observations confirm that both the voltage stress and current remain within safe operating limits, ensuring reliable operation of the battery charger.</p>
+<p><xref ref-type="fig" rid="fig8">Figure 8</xref> presents the steady-state results of the PSFB DC-DC converter, where the input is the 400 V DC link voltage, as shown in <xref ref-type="fig" rid="fig8">Figure 8(a)</xref>. The corresponding output voltage and current waveforms are displayed in <xref ref-type="fig" rid="fig8">Figure 8(b)</xref>. These waveforms indicate that the converter delivers regulated output values suitable for battery charging applications. The system has been primarily tested under full-load conditions.</p>
+</sec>
+<sec id="sec6">
+<label>VI.</label><title>Conclusion</title>
+<p>This paper presents the implementation of a two-stage EV battery charger comprising a five-level rectifier and a PSFB converter. The system maintains high power quality by achieving unity power factor. The five-level rectifier reduces the stress over the switches and synthesizes the input voltage waveform to maintain the power factor of overall charging system. The proposed switching scheme ensures balanced capacitor voltage and unity power factor, eliminating the need for additional control circuitry and sensors. Additionally, the implemented control strategy for the PSFB converter maintains a stable output voltage under steady-state conditions. Component-level power loss analysis has been performed to evaluate the overall system efficiency. Moreover, the presented EV battery charger performs well over the desired operating range in terms of improved power quality, reduced stress and enhanced efficiency.
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7:</label>
+<caption><p>Results depicting (a) rectifier input voltage and current with five-level voltage. (b) dc link voltage and current. (c) &#x0026; (d) voltage and current across the rectifier switches.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-7-source.tif"/>
+</fig>
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8:</label>
+<caption><p>Results depicting (a) input dc link voltage and current. (b) output voltage and current</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439822-fig-8-source.tif"/>
+</fig></p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. C.</given-names> <surname>Kisacikoglu</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Bedir</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Ozpineci</surname></string-name>, and <string-name><given-names>L. M.</given-names> <surname>Tolbert</surname></string-name></person-group>, &#x201C;<article-title>PHEV-EV charger technology assessment with an emphasis onV2G operation</article-title>,&#x201D; <source>Oak Ridge Nat. Lab., Oak Ridge, TN, USA, Tech. Rep. ORNL/TM-2010/221</source>, <month>Mar.</month> <year>2012</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Luo</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Song</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Xu</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Lu</surname></string-name></person-group>, &#x201C;<article-title>Optimal coordination of plugin electric vehicles in power grids with cost-benefit analysis part I: Enabling techniques</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Power Syst.</source>, vol. <volume>28</volume>, no. <issue>4</issue>, pp. <fpage>3546</fpage>&#x2013;<lpage>3555</lpage>, <month>Nov.</month> <year>2013</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Manz</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>The grid of the future: Ten trends that will shape the grid over the next decade</article-title>,&#x201D; <source specific-use="IEEE">IEEE Power Energy Mag.</source>, vol. <volume>12</volume>, no. <issue>3</issue>, pp. <fpage>26</fpage>&#x2013;<lpage>36</lpage>, <month>May</month> <year>2014</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Kempton</surname></string-name> and <string-name><given-names>S. E.</given-names> <surname>Letendre</surname></string-name></person-group>, &#x201C;<article-title>Electric vehicles as a new power source for electric utilities</article-title>,&#x201D; <source>Transp. Res.</source>, vol. <volume>2</volume>, no. <issue>3</issue>, pp. <fpage>157</fpage>&#x2013;<lpage>175</lpage>, <year>1997</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Luo</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Song</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Xu</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Lu</surname></string-name></person-group>, &#x201C;<article-title>Optimal coordination of plugin electric vehicles in power grids with cost-benefit analysis part II: A case study in China</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Power Syst.</source>, vol. <volume>28</volume>, no. <issue>4</issue>, pp. <fpage>3556</fpage>&#x2013;<lpage>3565</lpage>, <month>Nov.</month> <year>2013</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. C.</given-names> <surname>Kisacikoglu</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Ozpineci</surname></string-name>, and <string-name><given-names>L. M.</given-names> <surname>Tolbert</surname></string-name></person-group>, &#x201C;<article-title>EV/PHEV bidirectional charger assessment for V2G reactive power operation</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Power Electron.</source>, vol. <volume>28</volume>, no. <issue>12</issue>, pp. <fpage>5717</fpage>&#x2013;<lpage>5727</lpage>, <month>Dec.</month> <year>2013</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Falahi</surname></string-name>, <string-name><given-names>H.-M.</given-names> <surname>Chou</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ehsani</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Xie</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Butler-Purry</surname></string-name></person-group>, &#x201C;<article-title>Potential power quality benefits of electric vehicles</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Sustain. Energy</source>, vol. <volume>4</volume>, no. <issue>4</issue>, pp. <fpage>1016</fpage>&#x2013;<lpage>1023</lpage>, <month>Oct.</month> <year>2013</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. G.</given-names> <surname>Pinto</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Monteiro</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Goncalves</surname></string-name>, and <string-name><given-names>J. L.</given-names> <surname>Afonso</surname></string-name></person-group>, &#x201C;<article-title>On-board reconfigurable battery charger for electric vehicles with traction-to-auxiliary model</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Veh. Technol.</source>, vol. <volume>63</volume>, no. <issue>3</issue>, pp. <fpage>1104</fpage>&#x2013;<lpage>1116</lpage>, <month>Mar.</month> <year>2014</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T. A.</given-names> <surname>Meynard</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Fadel</surname></string-name> and <string-name><given-names>N.</given-names> <surname>Aouda</surname></string-name></person-group>, &#x201C;<article-title>Modeling of multilevel converters</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Transactions on Industrial Electronics</source>, vol. <volume>44</volume>, no. <issue>3</issue>, pp. <fpage>356</fpage>&#x2013;<lpage>364</lpage>, <month>June</month> <year>1997</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Rodriguez</surname></string-name>, <string-name><surname>Jih-Sheng</surname> <given-names>Lai</given-names></string-name> and <string-name><surname>Fang Zheng</surname> <given-names>Peng</given-names></string-name></person-group>, &#x201C;<article-title>Multilevel inverters: a survey of topologies, controls, and applications</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Transactions on Industrial Electronics</source>, vol. <volume>49</volume>, no. <issue>4</issue>, pp. <fpage>724</fpage>&#x2013;<lpage>738</lpage>, <month>Aug.</month> <year>2002</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Nami</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Zare</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Ghosh</surname></string-name> and <string-name><given-names>F.</given-names> <surname>Blaabjerg</surname></string-name></person-group>, &#x201C;<article-title>A Hybrid Cascade Converter Topology With Series-Connected Symmetrical and Asymmetrical Diode-Clamped H-Bridge Cells</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>, vol. <volume>26</volume>, no. <issue>1</issue>, pp. <fpage>51</fpage>&#x2013;<lpage>65</lpage>, <month>Jan.</month> <year>2011</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Kishor</surname></string-name>, <string-name><given-names>R. N.</given-names> <surname>Patel</surname></string-name>, <string-name><given-names>L. K.</given-names> <surname>Sahu</surname></string-name>, <string-name><given-names>V. H.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>P. K.</given-names> <surname>Jena</surname></string-name> and <string-name><given-names>A. K.</given-names> <surname>Tiwari</surname></string-name></person-group>, &#x201C;<article-title>A High Gain Z-Source Converter with Reduced Device Count for Distributed PV System</article-title>,&#x201D; <source specific-use="IEEE">2022 IEEE 10th Power India International Conference (PIICON)</source>, <conf-loc>New Delhi, India</conf-loc>, <conf-date>2022</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, doi: <pub-id pub-id-type="doi">10.1109/PIICON56320.2022.10045253</pub-id>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Graovac</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Purschel</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Kiep</surname></string-name></person-group>, &#x201C;<article-title>Mosfet power losses calculation using the data-sheet parameters</article-title>,&#x201D; <source>Infineon application note</source>, vol. <volume>1</volume>, pp. <fpage>1</fpage>&#x2013;<lpage>23</lpage>, <year>2006</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

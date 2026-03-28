@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455737</article-id>
+<xplore-article-id>11455737</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Smart Secure Event Management and Recommendation System Using Machine Learning Algorithm</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>*</given-names> <surname>I.Vasudevan</surname></string-name>
+<string-name specific-use="index"><given-names>*</given-names> <surname>I.Vasudevan</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">P.Saiteja<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>\(3{ }^{\text {rd }}\) K.Deepesh</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>\(3{ }^{\text {rd }}\) K.Deepesh</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Dept. Of CSE \\ Vel Tech Rangarajan Dr.Sagunthala R&#x0026;D \\ Institute of Science and Technology \\ Chennai</institution>, <country>India</country>. \\ <email>ivasudevan@veltech.edu.in</email></aff>
+<aff id="aff2"><institution content-type="department">Dept. Of CSE \\ Vel Tech Rangarajan Dr.Sagunthala R&#x0026;D \\ Institute of Science and Technology \\ Chennai</institution>, <country>India</country>. \\ <email>pulisettysaiteja@gmail.com</email></aff>
+<aff id="aff3"><institution content-type="department">Dept. Of CSE \\ Vel Tech Rangarajan Dr.Sagunthala \\ R&#x0026;D Institute of Science and Technology \\ Chennai</institution>, <country>India</country>. \\ <email>deepeshkumar6300@gmail.com</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455737_ft.xml</self-uri>
+<self-uri content-type="print">165.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The extensive application of machine learning is being employed to improve user experiences, applicable to event management systems in universities and clubs. The Existed methods are limited to simple event lists and it lacks personalized sorting and does not meet the requirement of individual user. This approach was made with the help of KMeans clustering and content-based filtering to explore user interests and history of previous events. It comprises secure <inline-formula><tex-math notation="LaTeX">$\log$</tex-math></inline-formula>-in, automatic registration, <inline-formula><tex-math notation="LaTeX">$\mathbf{E}$</tex-math></inline-formula> mail notification, and a dashboard. The real user activity was based on predefined filters, but the system gives more realistic content based on previous activity, and it reduces the manual effect. Tests indicate that it provides more relevant output and the event experience is seamless, achieving an accuracy of 96.8 &#x0025;.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Event Management</kwd>
+<kwd>Machine Learning</kwd>
+<kwd>Recommendation System</kwd>
+<kwd>Email Notifications</kwd>
+<kwd>User Personalization</kwd>
+<kwd>Web Application</kwd>
+<kwd>Intelligent Automation</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="3"/>
+<equation-count count="0"/>
+<ref-count count="13"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Organization of events in universities and other institutions is a mega business that involves large conferences, academic workshops, and even the small events organized by student clubs. Typically, all registration and announcements as well as communication are conducted manually, so people have to meet face-toface or complete the forms using paper. That old school approach is sluggish, can be very inaccurate, and completely hinders the easy exchange of information and growth in particular, additional events on the horizon.</p>
+<p>As web technology has emerged, it has introduced us to event-management systems as a result of the digital transformation, which means that users become bored and administrators have to work harder. The customers need to make a list of occasions, but nowadays you must personalize the discovery to each of them.</p>
+<p>Machine learning will resolve that issue. Through potent algorithms, we may examine the behaviour of students and the things that interest them, providing extraordinarily pertinent recommendations of events. In the attempt to fill the existing gaps, our proposed system is an addition of a machine-learning recommendation module to an existing, full-stack web app.</p>
+<p>The project is a Personalized Event Management and Recommendation System developed using MERN stack (MongoDB, Express.js, React.js, Node.js). It uses a combination of K-Means clustering and content-based filtering to analyse user profiles and their historic activity to generate spot-on and personalized event picks. On top of that, it has a secure login, auto registration, email alerts, and an administration dashboard which makes the operations easy.</p>
+<sec id="sec1a">
+<label>A.</label>
+<title>Motivations</title>
+<list list-type="ordered">
+<list-item><label></label><p>Personal Event Suggestions: The method checks the kind of events a student liked before. Then it shows events that match their interest instead of giving the same list to everyone.</p></list-item>
+<list-item><label></label><p>Efficient Interest-Event Matching Approach: The method uses a very basic and easy method to compare student interests with event details. It is made to work well for college events without adding any unnecessary complexity.\\
+<p>3.Support for Conventional Institutional Systems: The application is very easy to handle and doesn&#x0027;t require any special setup. It runs smoothly on the normal computers that colleges already have, so there is no trouble in using it.</p></list-item>
+</list></p>
+</sec>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Survey</title>
+<p>The improved web technology and artificial intelligence, event management has transformed and thus we require auto and customized systems. However, the vast majority of the apps available are simple lists, they do not provide alternatives and intelligent analytics.</p>
+<p>According to Singh et al. developed UniVerse, a mobile app that replaces old-fashioned paperwork with a digital process so students and organizers can create, track, and participate in events easily.But the system focuses only on managing events and doesn&#x0027;t help students find events that match their personal interests <xref ref-type="bibr" rid="ref1">[1]</xref>. Lavania et al. developed an Android-based system that allows schools to conduct their events online and provide admins with a power to update things at any location and keep the students in touch.However, it works only as an information tool and does not offer any personalized event suggestions <xref ref-type="bibr" rid="ref2">[2]</xref>.</p>
+<p>Saraswat et al. Developed an event planning in the university is not as stressful with an introduction of EventSync by him that unites scheduling, budgeting, and coordination tools.Yet, the system mainly improves operations and does not focus on recommending suitable events based on student interests<xref ref-type="bibr" rid="ref3">[3]</xref>. Khatri et al. developed a safe environment that allows student groups to handle profiles, update extensively, and communicate with members in a more efficient manner.However, their system mainly focuses on club operations and does not include personalized event recommendations <xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>Ramya et al. introduced NexusFlow is an eventcentric platform implemented by her that incorporates machine learning and simple NLP to categorize the events and increase attendance. Still, the recommendation part is basic and does not use stronger methods like clustering for better accuracy <xref ref-type="bibr" rid="ref5">[5]</xref>.Liang et al. created a model called CSCL-GNN that studies how users connect with events by using graph methods and K-means groups.It works well, but the method is heavy to run and not suitable for normal college systems that need simple and fast solutions <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+<p>Memeti et al. created a platform to suggest study material and quizzes by observing the usage of a learning platform by the students.However, the approach is mainly built for educational content and does not fit event recommendation needs <xref ref-type="bibr" rid="ref7">[7]</xref>.Musthafa and Raji developed a hybridized recommender combining K-Means clustering with content-based filtering. Movies are their business model, which does not work within an event recommendation system.But their model is mainly for movie recommendations, so it doesn&#x0027;t fit the needs of an event recommendation system <xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+<p>Hariprasad et al. suggested a club activity management system that is centralized so as to enable the colleges to organize meetings, events and feedbacks in a single platform. However, the system mostly focuses on management and lacks an intelligent mechanism to recommend events based on student preferences or previous behaviour<xref ref-type="bibr" rid="ref9">[9]</xref>.Bhulakshmi et al. created a webbased platform that helps students view ongoing college events and allows organizers to manage attendance and event activities more easily.However, the system only focuses on event listing and basic management, and it does not provide personalized event recommendations for students <xref ref-type="bibr" rid="ref10">[10]</xref>.</p>
+<p>Surendran et al. <xref ref-type="bibr" rid="ref11">[11]</xref> also described a new web and iOS service to organize arts and sporting events on campus and provided planning, registration, scheduling, and communication tools.However, the system focuses mainly on organizing events and does not provide any feature to recommend suitable events to students based on their preferences <xref ref-type="bibr" rid="ref11">[11]</xref>.Similar to Jin and Cui <xref ref-type="bibr" rid="ref12">[12]</xref>, they designed a smart recommendation system based on the knowledge graphs that helped better understand the users and provided meaningful recommendations.But their method is too advanced and heavy,so it is not suitable for simple college event recommendation systems <xref ref-type="bibr" rid="ref12">[12]</xref>.</p>
+<p>Agate et al. developed a context-based model that recommends campus services by checking user behavior and location patterns.However, it focuses on general campus features, not on recommending events for students <xref ref-type="bibr" rid="ref13">[13]</xref>.Memeti et al developedthe real-time system of study materials and quizzes was once again proposed by him.But this system is made for education content, not for suggesting events to students.</p>
+<p>Other more recent developments also emphasize the intake of superior recommendation methods like Graph Neural Networks (GNNs), neural collaborative filtering, and hybrid graph-based models. It has been demonstrated that systems such as LightGCN, NGCF and deep hybrid CF are strong as far as large-scale datasets are concerned as they capture more in-depth relationships between users and events. These techniques however are very intensive in computation, need to have a convenient access to graphics cards and amount of interaction data, which are unfeasible on a simple college ecosystem. Through those limitations, the given work dwells upon the lightweight hybrid protocol to use that is to merge the KMeans clustering technique with the content-based filtering paradigms, which provide realistic accuracy and is still not complicated to be deployed in institutional environments.</p>
+<p>The readings indicate a strong transition toward the oldfashioned systems of registration to dynamic and holistic systems which refer to the context and customized recommendations. Nevertheless, little research has been dedicated to the specific implementation of these custom suggestions to a college context. This is why the gap is filled with this project that includes a web application developed on the basis of the MERN-stack and with a personalized recommendation system to improve a user experience.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Limitations of Existing Methods</title>
+<list list-type="ordered">
+<list-item><label></label><p>The sole operational focus with none of the personalization:
+<p>All platforms are developed based on scheduling, budgeting, registration, or attendance. None of them gives a mechanism which would satisfy the interests of a student, previous attendance or interaction patterns with the offered events.</p></list-item></p>
+<list-item><label></label><p>Inappropriate recommendation engines; In cases where a recommendation capability can be found, it is either primitive (basic NLP tags in NexusFlow), mismatched with a domain (moviestyle <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula>-means in Musthafa-Raji), or prohibitively resource-intensive (CSCL-GNN).</p></list-item>
+</list></p>
+<p>None of them uses a strong invigoration of clustering, graph based linking or hybrid schemes tailored to event-interest anticipation.</p>
+<p>3. Inapplicability to normal college settings of deployment:</p>
+<p>The systems with advanced models (e.g., CSCLGNN) are resource-intensive to calculate, whereas others can only function on a single platform type (Android only) or be based on an infrastructure incompatible with the majority of campus IT configurations. This makes them unintegral into the daily operations of majority of the colleges.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Analyzing various methodologies</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>S. No</th>
+<th>Authors &#x0026; System</th>
+<th>Research Methodology</th>
+<th>Accuracy (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Singh et al. (UniVerse App)</td>
+<td>Mobile-based event handling, digital registration</td>
+<td>70.5&#x0025;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Lavania et al. (Android EMS)</td>
+<td>Online event creation, updates, and student notifications</td>
+<td>72.8&#x0025;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Saraswat et al. (EventSync)</td>
+<td>Event scheduling, budgeting, workflow coordination</td>
+<td>75.4&#x0025;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Khatri et al. (Club Management System)</td>
+<td>Club profiles, event updates, student interaction tools</td>
+<td>78.1&#x0025;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ramya et al. (NexusFlow)</td>
+<td>ML + NLP for event organization and engagement</td>
+<td>82.6&#x0025;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hariprasad et al. (Club Activity Portal)</td>
+<td>Centralized event and club activity management</td>
+<td>80.9&#x0025;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Bhulakshmi et al. (Web EMS)</td>
+<td>Web-based event viewing, attendance tracking</td>
+<td>77.3&#x0025;</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Surendran et al. (Arts &#x0026; Sports EMS)</td>
+<td>Web/iOS platform for scheduling and event coordination</td>
+<td>83.2&#x0025;</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Musthafa et al. (Hybrid Recommender)</td>
+<td>K-Means clustering + content filtering for recommendations</td>
+<td>88.7&#x0025;</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Liang et al. (CSCL-GNN)</td>
+<td>Graph Neural Networks + K-Means for event prediction</td>
+<td>92.4&#x0025;</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Memeti et al. (Content Recommender)</td>
+<td>Real-time learning content and quiz recommendation</td>
+<td>90.1&#x0025;</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Jin &#x0026; Cui (KGBased Recommender)</td>
+<td>Knowledge graph + causal inference for personalized suggestions</td>
+<td>91.8&#x0025;</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Agate et al. (Context-Aware Campus Model)</td>
+<td>User context, behavior, and locationbased recommendations</td>
+<td>89.5&#x0025;</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Proposed System (MERN + ML)</td>
+<td>K-Means + contentbased filtering + notifications +</td>
+<td>96.8&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th/>
+<th>analytics</th>
+<th/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td/>
+</tr></tbody>
+</table>
+<p>iii. Methodology and Algorithm</p>
+</sec>
+<sec id="sec2b">
+<label>A.</label>
+<title>Methodology</title>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1</label>
+<caption><p>System architecture of event management and recommendation system</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-fig-1-source.tif"/>
+</fig>
+<p>The traditional event management systems are not smartly automated and personalized, especially on the institutional level. The suggested solution offers separate modules of the event notification and tailored recommendations (<xref ref-type="fig" rid="fig1">Fig.1</xref>).</p>
+<p>The procedure of the methodology is as follows:
+<list list-type="ordered">
+<list-item><label></label><p>System Architecture (MERN Stack):This system has been developed with MERN stack (MongoDB, Express.js, React, and Node.js) in order to have an impressive, stable, and scalable base. The system has a tiered architecture.\\
+<p>a. Admin Module - Event Creation and Management:This is where the admins can use their secure log-in to create events (type, location, time, etc.) and also manage event data, which is stored in MongoDB.</p>
+<p>b. User Module - Registration and Participation:The user registers and logs in to see the events, which are divided by type (e.g., tech, fun, games). Their activity and registration records are stored to be used later.</p>
+<p>c. Data gets from the user information, past participations and relatable events categories are gather from database and they are evaluated for further analysis. Recommendation Model Development</p>
+<p>(K-Means and Content Filtering):The system involves clustering and filtering.</p></list-item></p>
+<list-item><label></label><p>K-Means Cluster Count Selection: The value of <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> in the K-Means algorithm was selected using the Elbow Method. Based on the distortion curve, <inline-formula><tex-math notation="LaTeX">$k =3$</tex-math></inline-formula> provided the most stable grouping of users. This number of clusters is fixed in service.</p></list-item>
+<list-item><label></label><p>Cluster Assignment for New Users: The number of clusters is not dynamically increased with the addition of new users. New users instead belong to a nearest existing cluster with Euclidean distance, so that there is uniform grouping without the need of re-calculating all clusters.</p></list-item>
+<list-item><label></label><p>K-Means Clustering:It is an activity that assigns users interest groups in terms of their past activities.</p></list-item>
+<list-item><label></label><p>Content-BasedFiltering:This givesrecommendations on the events based on how comparable they are to the interests and past attendance of the user.</p></list-item>
+<list-item><label></label><p>Ground Truth for Recommendation Evaluation: The system compares the history of the actual event attendance of every user and the categories of their interests to determine whether a recommendation is correct. The relevance of a recommendation refers to the fact that the category of the event matches the actual interest or history of use depicted by a user.</p></list-item>
+<list-item><label></label><p>Real-Time Suggestions Generation: This is a dynamic system that produces a list of suggestions to present to a particular user and immediately shows them on the front page of the user.</p></list-item>
+<list-item><label></label><p>Model Evaluation and Feedback:The performance is evaluated with the help of such metrics as Accuracy, Precision, Recall, and F1-Score. Feedback obtained by the customer is also evaluated to check effectiveness.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2c">
+<label>B.</label>
+<title>Algorithm</title>
+<p>The system has its main logic that has control over the administrative operations and the recommendations process to the user. To give individualized results, the algorithm uses K-Means clustering and content based filtering</p>
+</sec>
+<sec id="sec2d">
+<label>B.</label>
+<title>Pseudocode:</title>
+<fn><p>BEGIN\\
+<p>ADMIN login and event management</p>
+<p>(create/modify/delete).</p>
+<p>STORE MongoDB event data and email notifications.</p>
+<p>LOAD and PREPROCESS user and event datasets.</p>
+<p>ENCODE feature listing of ML.</p>
+<p>SELECT k using Elbow Method</p>
+<p>INITIALIZE K-Means with k</p></fn>
+<algorithm rule="both" id="alg">
+<alg-item rule="none" left-indent="0"><p>If max_iter = = 300 then</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>K-Means ++;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>TRAIN K-Means clustering model and train content-</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>based filtering model.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>USER login and view events.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>IF user registers then save details and send confirmation.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>FETCH user history and K-Means apply to find cluster.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>GENERATE recommendations using clustering +</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>content-based filtering.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>DISPLAY top recommended events.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>EVALUATE using accuracy, precision, recall and F1-</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>score.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>END</p></alg-item>
+</algorithm>
+<p>Pseudo code described that the suggested hybrid recommendations system handles events through Admin log in and safely stores the data in MongoDB with the use of email notifications. It creates recommendations of individualized events to users based on K-Means clustering and Content-Based Filtering of user history and measures performance on the basis of standard measures.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<title>Iv. Evaluvation and Execution</title>
+<table-wrap id="table2"><label>***</label>
+<caption><title>A. dataset description and analysis\\table ii displaying user-event dataset</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>ContentBased Filtering</th>
+<th>K-Means Clustering</th>
+<th>Hybrid Recommenda tion (Proposed)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accuracy</td>
+<td>88.5&#x0025;</td>
+<td>91.2&#x0025;</td>
+<td>96.8&#x0025;</td>
+</tr>
+<tr>
+<td>Precision</td>
+<td>86.3&#x0025;</td>
+<td>90.4&#x0025;</td>
+<td>95.7&#x0025;</td>
+</tr>
+<tr>
+<td>Recall</td>
+<td>85.9&#x0025;</td>
+<td>91.0&#x0025;</td>
+<td>96.2&#x0025;</td>
+</tr>
+<tr>
+<td>F1-Score</td>
+<td>86.1&#x0025;</td>
+<td>90.7&#x0025;</td>
+<td>95.9&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<list list-type="ordered">
+<list-item><label></label><p>Accuracy: The hybrid model is accurate at 96.8 &#x0025;, which is quite solid, and it therefore defeats the other two approaches at predicting the events that count.</p></list-item>
+<list-item><label></label><p>Precision: The hybrid model has a precision of 95.7 &#x0025;, therefore, most of the recommendations given by the model are accurate and exactly what the users are interested in.</p></list-item>
+<list-item><label></label><p>Recall: The recall of 96.2 means we are recording nearly all the relevant events to the user.</p></list-item>
+<list-item><label></label><p>F1-Score: The score of 95.9 indicates good precision and recall.</p></list-item>
+</list></p>
+<p>The <xref ref-type="table" rid="table2">Table2</xref> presents the comparison of three models regarding their Accuracy, Precision, Recall and F1-Score. The hybrid recommendation system is the best in all aspects, as it achieves about 96-97 percent. K-Means demonstrates superiority over the simple content-based solution, whereas the combination of the two options offers the largest increase in the overall performance.</p>
+<p>The data set is cleansed and coded to convert categorical data (such as event category and interests of the person) into the numbers. These structured features are then used to train the K-Means clustering model to generate personalized event recommendations. The system provides the ground truth that a suggested event is or is not relevant based on actual participation history of a user and his and her stored interest categories. When the proposed category of events applies to the actual interest of the user or has applied to other previously occurring events, then it is considered as a correct recommendation. All of the measures of evaluation, including accuracy, precision, recall, and F1 -score, are calculated with this relevance matching process.</p>
+</sec>
+<sec id="sec4">
+<label>B.</label>
+<title>Category-Wise Performance Metrics</title>
+<table-wrap id="table3">
+<label>Table III</label>
+<caption><title>Category-wise metrics of the proposed model</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Metrics</th>
+<th>Recall</th>
+<th>Precision</th>
+<th>Support</th>
+<th>F1Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technical Events</td>
+<td>0.96</td>
+<td>0.94</td>
+<td>520</td>
+<td>0.95</td>
+</tr>
+<tr>
+<td>Cultural Events</td>
+<td>0.97</td>
+<td>0.95</td>
+<td>410</td>
+<td>0.96</td>
+</tr>
+<tr>
+<td>Sports Events</td>
+<td>0.95</td>
+<td>0.93</td>
+<td>370</td>
+<td>0.94</td>
+</tr>
+<tr>
+<td>Workshops</td>
+<td>0.98</td>
+<td>0.97</td>
+<td>450</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>Macro Avg</td>
+<td>0.97</td>
+<td>0.95</td>
+<td>1750</td>
+<td>0.96</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="table" rid="table3">Table 3</xref> shows precision, recall, and F1-score of each category of event.</p>
+<p>These findings indicate that the system has a stable level of performance in every type of events. The macro-ave F1-score of 0.96 demonstrates the good performance in overall activities of recommending the sort of events the users should do.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Correlation matrix of training dataset.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-fig-2-source.tif"/>
+</fig></p>
+<p>An informal glance at the relations between features in the training set is provided in <xref ref-type="fig" rid="fig2">Fig. 2</xref> since, the age, gender, interests, event category, a number of participants in the event, and score of feedback are involved. The majority of the correlations are close to 0 implying the absence of glaring linear dependency that can skew the model. The training data were fairly balanced as also indicated by the matrix and therefore no feature is playing up domestically, which should assist in maintaining bias at a low level.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig.3.</label>
+<caption><p>Correlation matrix of testing dataset</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-fig-3-source.tif"/>
+</fig></p>
+<p>The correlation matrix of testing data is presented in <xref ref-type="fig" rid="fig3">Fig. 3</xref> which is a reflection of <xref ref-type="fig" rid="fig3">Fig. 3</xref>. The relationships remain largely stable with no large positive or negative spikes. This uniformity informs us that the set of test is acting in the manner of training set and then the model will be able to use new data with the same reliability and maintain consistency in the model as it goes to make predictions.</p>
+</sec>
+<sec id="sec5">
+<label>C.</label>
+<title>Cluster Visualization</title>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig 4.</label>
+<caption><p>User clusters based on participation count and feedback score</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455737-fig-4-source.tif"/>
+</fig>
+<p><xref ref-type="fig" rid="fig4">Fig. 4</xref> demonstrates three user clusters <inline-formula><tex-math notation="LaTeX">$(0,1,2)$</tex-math></inline-formula> that are determined by means of the K-Means. These clusters are groups of students who have similar participation behavior and feedback patterns. The clustering facilitates more suggestions of events with personalization.</p>
+</sec>
+<sec id="sec6">
+<title>V. Conclusion</title>
+<p>The proposed event management and recommendation system is a viable solution to enhance student engagement and streamline event-related operations in academic institutions. The system offers a personalized recommendations on the events through a combination of the MERN stack and a hybrid recommendation system that uses K-Means clustering and content-based filtering to provide recommendations depending on the events a student prefers, has participated in, and the pattern of behavior. The portability is such that it can be easily deployed on the normal college infrastructure without large processing capabilities. Comparison based on accuracy, precision, recall, and F1score, indicates that the hybrid model is reliable and strong when used in various types of events, compared to other standalone models and provides valid advice. The correlation analysis also proves the stability of the dataset, and the cluster visualization indicates particular groups of users who increase personalization. The system effectively overcomes the constraints of current applications which in most cases are preoccupied with listing events and general management-related functions overlooked in terms of smart recommendation functions. In the future, to increase the complexity of the system, the system can be augmented with advanced models including graph-based recommenders, neural collaborative filtering, or lightweight deep-learning architectures in order to flex the system with more detailed user-event associations. Also, such aspects as the social influence factors, the temporal patterns, and the user feedback loops could be incorporated to have an additional refining of the recommendation accuracy. To make the system more usable and accessible, one can expand it to include sharing events across campuses, support multiple languages, as well as issuing real-time notifications mobile phone users. Altogether, the offered system provides a viable and scalable basis that defines the purpose of smart event recommendation and has a great potential to develop into more adaptive and context-aware methods in the future.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Singh</surname></string-name>, <string-name><given-names>H. U.</given-names> <surname>Bukhari</surname></string-name></person-group>, and Shalu, &#x201C;<article-title>UniVerse: A Comprehensive Solution to College Events Management</article-title>,&#x201D; in <source>Proc. 4th Int. Conf. Advancement in Electronics &#x0026; Communication Engineering (AECE)</source>, Ghaziabad, India, <year>2024</year>, pp. <fpage>751</fpage>&#x2013;<lpage>756</lpage>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Lavania</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Arya</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Kumari</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Sharma</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>A Novel Mobile App Based College Event Management System</article-title>,&#x201D; in <source>Proc. 4th Int. Conf. Smart Electronics and Communication (ICOSEC)</source>, <year>2023</year>, pp. <fpage>1090</fpage>&#x2013;<lpage>1094</lpage>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Saraswat</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Mishra</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Kaur</surname></string-name></person-group>, &#x201C;<article-title>EventSync: Event Scheduler &#x0026; Coordination Planner</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE Int. Students&#x0027; Conf. Electrical</source>, Electronics and Computer Science (SCEECS), <year>2025</year>, pp. <fpage>1</fpage>&#x2013;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I. A.</given-names> <surname>Khatri</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ghonge</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Mirajkar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Shinde</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Hon</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Yenkikar</surname></string-name></person-group>, &#x201C;<article-title>Enhancing Campus Engagement with a Secure and Comprehensive Platform for Club Management and Student Participation</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE Int. Conf. Blockchain and Distributed Systems Security (ICBDS)</source>, <year>2024</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Ramya</surname></string-name>, <string-name><given-names>S. A. R.</given-names> <surname>Rajha</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Shyam</surname></string-name>, <string-name><given-names>M. G.</given-names> <surname>Mohanavarma</surname></string-name>, and <string-name><given-names>A. C.</given-names> <surname>Boobeshan</surname></string-name></person-group>, &#x201C;<article-title>NexusFlow: A Unified Platform for Streamlined Intercollegiate Event Coordinator</article-title>,&#x201D; in <source>Proc. 3rd Int. Conf. Advancements in Electrical</source>, Electronics, Communication, Computing and Automation (ICAECA), <year>2025</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Liang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Yan</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Guo</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Huang</surname></string-name></person-group>, &#x201C;<article-title>CSCLGNN: Cross-View Semantic Contrastive Learning and Graph Neural Networks for Event Recommendation in Event-Based Social Networks</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Consumer Electronics</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Memeti</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Neziri</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Ajruli</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Huseini</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Nuhi</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Iljazi</surname></string-name></person-group>, &#x201C;<article-title>Context-Aware AI for Real-Time Content and Quiz Recommendations in Student Learning Environments</article-title>,&#x201D; in <source>Proc. 3rd Cognitive Models and Artificial Intelligence Conf. (AICCONF)</source>, <year>2025</year>, pp. <fpage>1</fpage>&#x2013;<lpage>4</lpage>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N.</given-names> <surname>Musthafa</surname></string-name> and <string-name><given-names>C. G.</given-names> <surname>Raji</surname></string-name></person-group>, &#x201C;<article-title>Hybrid Recommender System Using K-Means Clustering</article-title>,&#x201D; in <source>Proc. 8th Int. Conf. Advanced Computing and Communication Systems (ICACCS)</source>, vol. <volume>1</volume>, <year>2022</year>, pp. <fpage>625</fpage>&#x2013;<lpage>630</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Hariprasad</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Neha</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Dey</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Pratiba</surname></string-name>, and <string-name><given-names>R.</given-names> <surname>Kumar</surname></string-name></person-group>, &#x201C;<article-title>College Club Activity Management System</article-title>,&#x201D; in <source>Proc. 7th Int. Conf. Computation System and Information Technology for Sustainable Solutions (CSITSS)</source>, <year>2023</year>, pp. <fpage>1</fpage>&#x2013;<lpage>5</lpage>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Bhulakshmi</surname></string-name>, <string-name><given-names>U.</given-names> <surname>Naveen</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Suresh</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Atmakuri</surname></string-name>, and <string-name><given-names>T. R.</given-names> <surname>Reddy</surname></string-name></person-group>, &#x201C;<article-title>Web Application of College Event Management</article-title>,&#x201D; in <source>AIP Conf. Proc.</source>, vol. <volume>2742</volume>, no. <issue>1</issue>, p. <fpage>020056</fpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Surendran</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Krishnan</surname></string-name></person-group>, &#x201C;<article-title>Enhancing User-Centric Excellence Through Quantitative Rating Analysis of Student Club Activities on Web and iOS Applications</article-title>,&#x201D; in <source specific-use="IEEE">Proc. IEEE 3rd Int. Conf. Augmented Intelligence and Sustainable Systems (ICAISS)</source>, <year>2025</year>, pp. <fpage>1333</fpage>&#x2013;<lpage>1338</lpage>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Jin</given-names>, <surname>Shuqi</surname></string-name></person-group>, and Lin Cui."A Context-Aware Intelligent Educational Recommender System Incorporating User Behavioural Knowledge Graph and Causal Inference." In <conf-date>2024</conf-date> 2nd International Conference on Computer, Vision and Intelligent Technology (ICCVIT), pp. <fpage>1</fpage>&#x2013;<lpage>8</lpage>. IEEE, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Boyinbode</given-names>, <surname>Olutayo</surname></string-name></person-group>, and Tunde Fatoke."Context-aware recommender system for adaptive ubiquitous learning." International Journal of Mobile Learning and Organisation 15, no. <volume>4</volume> (<year>2021</year>): <fpage>409</fpage>&#x2013;<lpage>426</lpage>.</mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

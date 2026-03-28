@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/28/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00289</article-id>
+<xplore-article-id>11415781</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>SemiSL-RDC: Semi-Supervised Rating Distribution Calibration via Pivot User for Debiasing Recommendation Systems</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Xiaxin</given-names> <surname>Yuan</surname></string-name>
+<string-name specific-use="index"><given-names>Xiaxin</given-names> <surname>Yuan</surname></string-name>
+</name-alternatives>
+<email>xiaxinyuan@mail.ustc.edu.cn</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">University of Science and Technology of China</institution>
+</institution-wrap>
+<city>Hefei</city>
+<country>China</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>2365</fpage>
+<lpage>2371</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415781_ft.xml</self-uri>
+<self-uri content-type="print">813200c365.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Recommender systems are seen as an effective tool to address information overload, but the ratings they learn from are typically missing-not-at-random (MNAR), which undermines predictive fidelity. Existing debiasing approaches face three major limitations: (i) highly sensitive to imputation and propensity model misspecification; (ii) ignoring heterogeneous degrees of user-level selection bias, missing the opportunity to leverage missing-at-random (MAR) like pivot users as additional references; (iii) distribution-calibration strategies in self-supervised frameworks implicitly assume sufficient unbiased and observed feedback per user. We propose SemiSL-RDC, a semi-supervised expansion of rating distribution calibration. First, we identify pivot users, whose rating is closer to missing-at-random via a multi-criteria score that fuses mean absolute error on labeled pairs, normalized rating-distribution entropy, and labeled coverage. Second, we calibrate non-pivots by matching their predicted distributions to similar pivots with a lightweight user-level loss added to the base objective, using predictions over all items to form differentiable distribution features. Empirical experiments on 2 real-world datasets show improved effectiveness under scarce unbiased supervision, suggesting that semi-supervised pivot discovery plus distribution calibration offers a practical path to mitigating selection bias.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Recommendation system</kwd>
+<kwd>semi-supervised learning</kwd>
+<kwd>pivot user</kwd>
+<kwd>debiasing</kwd>
+<kwd>distribution calibration</kwd>
+</kwd-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="1"/>
+<equation-count count="13"/>
+<ref-count count="65"/>
+<page-count count="7"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Recommendation systems have become ubiquitous tools to guide users through vast catalogs of content and products, yet the data they learn from are typically missing-not-at-random (MNAR) because users self-select what to rate <xref ref-type="bibr" rid="ref1">[1]</xref>&#x2013;<xref ref-type="bibr" rid="ref2"/><xref ref-type="bibr" rid="ref3"/><xref ref-type="bibr" rid="ref4"/><xref ref-type="bibr" rid="ref5"/><xref ref-type="bibr" rid="ref6">[6]</xref>. Recent work further reveals that MNAR bias can stem from correlated latent exogenous variables ignored by standard models <xref ref-type="bibr" rid="ref7">[7]</xref>, or from extraneous sampling bias under complex missingness mechanisms <xref ref-type="bibr" rid="ref8">[8]</xref>, highlighting the need for more expressive causal formulations. Such biases distort both learning and offline evaluation, leading to poor generalization on unobserved data, and reliable accuracy ideally requires missing-at-random (MAR) feedback <xref ref-type="bibr" rid="ref9">[9]</xref>&#x2013;<xref ref-type="bibr" rid="ref10"/><xref ref-type="bibr" rid="ref11"/><xref ref-type="bibr" rid="ref12"/><xref ref-type="bibr" rid="ref13">[13]</xref>. In practice, MAR supervision is scarce and unevenly distributed across users. For example, Yahoo! R3 <xref ref-type="bibr" rid="ref14">[14]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref> contains 15,400 users and 1,000 items with 311,704 MNAR ratings plus a small 54,000-rating unbiased slice (10 random items for only 5,400 users), yielding an overall observation density of <inline-formula><tex-math notation="LaTeX">$\approx 2.37 \%$</tex-math></inline-formula> and peruser MAR coverage ranging from 0 &#x0025; to 1 &#x0025; (<inline-formula><tex-math notation="LaTeX">$0 / 1000$</tex-math></inline-formula> for non-MAR users; 10/1000 for MAR users). These statistics highlight three challenges we target: (1) unbiased feedback is small-scale and costly <xref ref-type="bibr" rid="ref16">[16]</xref>, <xref ref-type="bibr" rid="ref17">[17]</xref>; (2) bias arises mainly from user self-selection rather than item logging; and (3) selection bias is heterogeneous across users <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>.</p>
+<p>Prior debiasing approaches can be grouped into four categories. (1) Imputation/pseudo-labeling estimates missing ratings and trains on the completed matrix, but severe sparsity and unobserved user/item factors make accurate imputation difficult <xref ref-type="bibr" rid="ref20">[20]</xref>, <xref ref-type="bibr" rid="ref21">[21]</xref>. (2) Propensity-based reweighting corrects exposure using estimated observation probabilities but is fragile to unobserved confounding and model misspecification <xref ref-type="bibr" rid="ref22">[22]</xref>, <xref ref-type="bibr" rid="ref23">[23]</xref>. (3) Doubly-robust (DR) combines imputation and IPS to temper variance, yet bias-variance still depends on model specification <xref ref-type="bibr" rid="ref24">[24]</xref>&#x2013;<xref ref-type="bibr" rid="ref25"/><xref ref-type="bibr" rid="ref26"/><xref ref-type="bibr" rid="ref27"/><xref ref-type="bibr" rid="ref28">[28]</xref>. Recent advances further refine DR into three complementary directions: <italic>(i) Bias-variance control</italic>, where CBPL unifies calibration and balancing losses to explicitly trade off bias and variance <xref ref-type="bibr" rid="ref29">[29]</xref>; <italic>(ii) Variance-robust boosting</italic>, where DR-Boost introduces a doubly-robust ensemble to stabilize learning under limited supervision <xref ref-type="bibr" rid="ref30">[30]</xref>; and <italic>(iii) Small-propensity stabilization</italic>, where Adaptive Structure Learning employs partial parameter sharing to prevent error amplification in low-coverage regions <xref ref-type="bibr" rid="ref31">[31]</xref>. Meanwhile, other method like generative models seek to jointly model data generation and missingness, but face specification/identifiability risks in the presence of unobserved variables <xref ref-type="bibr" rid="ref32">[32]</xref>&#x2013;<xref ref-type="bibr" rid="ref33"/><xref ref-type="bibr" rid="ref34">[34]</xref>. In parallel, reference-based balancing/calibration uses a cohort as &#x201C;ground truth&#x201D;: BalIPS/DR learns model-agnostic balancing weights from a small, fixed unbiased set (effective but limited by size/coverage); Rating Distribution Calibration (RDC) aligns each user&#x0027;s predicted rating distribution to that of MAR-like peers without explicit propensity models, but estimates &#x201C;pivotness&#x201D; via a peruser self-learning task implicitly presumes enough unbiased feedbacks per user brittle under real-world sparsity <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>, <xref ref-type="bibr" rid="ref35">[35]</xref>&#x2013;<xref ref-type="bibr" rid="ref36"/><xref ref-type="bibr" rid="ref37">[37]</xref>.</p>
+<p>Beyond these, causal inference is a commonly used techniques and has been proven useful in practice <xref ref-type="bibr" rid="ref38">[38]</xref>&#x2013;<xref ref-type="bibr" rid="ref39"/><xref ref-type="bibr" rid="ref40"/><xref ref-type="bibr" rid="ref41"/><xref ref-type="bibr" rid="ref42">[42]</xref>. Recent bias-aware counterfactual and balancing paradigms have advanced the field. Entire-space counterfactual learning (ESCL) extends DR to model the full exposure space, improving reliability on sparse content <xref ref-type="bibr" rid="ref43">[43]</xref>, Optimal-transport causal estimation links recommendation debiasing to distribution alignment <xref ref-type="bibr" rid="ref44">[44]</xref>, and User-Distribution Mapping bridges crossdomain exposure gaps via collaborative filtering-based mapping <xref ref-type="bibr" rid="ref45">[45]</xref>. From an industrial standpoint, Bayesian knowledge infusion shows promise for stabilizing inferential sensors and large-scale recommender pipelines <xref ref-type="bibr" rid="ref46">[46]</xref>. Meanwhile, fairnessoriented and temporal-causal perspectives have emerged: networked interference correction ensures equitable influence propagation <xref ref-type="bibr" rid="ref47">[47]</xref>, and state-space counterfactual prediction leverages time-varying latent dynamics for sequential bias mitigation <xref ref-type="bibr" rid="ref48">[48]</xref>. Complementary causal calibration strategies such as Rating Distribution Calibration (RDC) <xref ref-type="bibr" rid="ref19">[19]</xref>, BalIPS/DR, and CBPL <xref ref-type="bibr" rid="ref29">[29]</xref> collectively form the foundation for modern debiasing frameworks in MNAR scenarios.</p>
+<p>Motivated by these gaps, we propose Semi-Supervised Rating Distribution Calibration (SemiSL-RDC). We adopt the notion of pivot users-those whose feedback appears closer to MAR-and observe that users with weaker selection bias tend to admit more accurate predicted rating distributions, making them suitable references for calibrating others <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>, <xref ref-type="bibr" rid="ref49">[49]</xref>. Rather than relying solely on scarce per-user unbiased labels or on a tiny, fixed unbiased set, we identify pivots via semi-supervised signals that combine labeled prediction error with unlabeled distributional evidence, then calibrate non-pivots toward similar pivots by matching differentiable distribution features computed from predictions over all items. This design explicitly addresses small MAR supervision and user-level heterogeneity while remaining model-agnostic. Our contributions are threefold:
+<list list-type="ordered">
+<list-item><label>1)</label><p>Semi-supervised pivot discovery: we define a multicriteria pivot score that fuses per-user MAE only on labeled pairs, normalized rating-distribution entropy, and labeled coverage, followed by deterministic thresholding to obtain stable anchors under scarce unbiased supervision.</p></list-item>
+<list-item><label>2)</label><p>Pivot-aware calibration: we introduce a user-level calibration loss that aligns each non-pivot&#x0027;s predicted distribution to a soft neighborhood of similar pivots, augmenting the base objective without explicit propensity or DR modeling.</p></list-item>
+<list-item><label>3)</label><p>Empirical validation: on two real-world datasets, we observe consistent gains in ranking and distributional calibration under MNAR and label scarcity, compared with strong IPS/DR, residual/balancing, and prior RDC baselines.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Preliminaries</title>
+<p>In general, recommendation systems aim to predict the feedback (rating or preference) of a user to an item, and we adopt the user-item paired framework to formulate the MNAR issue formally. Let <inline-formula><tex-math notation="LaTeX">$\mathcal{U}=\left\{u_{1}, \ldots, u_{M}\right\}$</tex-math></inline-formula> denotes users, <inline-formula><tex-math notation="LaTeX">$\mathcal{I}=\left\{i_{1}, \ldots, i_{N}\right\}$</tex-math></inline-formula> denotes items, and <inline-formula><tex-math notation="LaTeX">$\mathcal{D}=\mathcal{U} \times \mathcal{I}$</tex-math></inline-formula> denotes the set of all user-item pairs. For <inline-formula><tex-math notation="LaTeX">$(u, i) \in \mathcal{D}$</tex-math></inline-formula>, let <inline-formula><tex-math notation="LaTeX">$x_{u, i}$</tex-math></inline-formula> denotes useritem features vector The binary rating for each user to an item is <inline-formula><tex-math notation="LaTeX">$y_{u, i}$</tex-math></inline-formula>, and we only able to observe those in an observed subset <inline-formula><tex-math notation="LaTeX">$\mathcal{O}=\left\{(u, i) \in \mathcal{D}: o_{u, i}=1\right\}$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$o_{u, i} \in\{0,1\}$</tex-math></inline-formula> indicates whether a label is observed.</p>
+<p>On the basis of matrix factorization (MF), a common rating model, our objective is to learn a rating prediction model <inline-formula><tex-math notation="LaTeX">$f_{\theta}\left(x_{u, i}\right)=\operatorname{Pr}\left(y_{u, i}=1 \mid x_{u, i}\right)=\hat{y}_{u, i} \in[0, 1]$</tex-math></inline-formula>. With full observability, the model would minimize the ideal risk,
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}_{\text {ideal }}(\theta)=\frac{1}{|\mathcal{D}\vert} \sum_{(u, i) \in \mathcal{D}} \ell\left(\hat{y}_{u, i}, y_{u, i}\right), \tag{1}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\ell(\cdot, \cdot)$</tex-math></inline-formula> is a standard pointwise loss, like cross entropy (CE), mean absolute error (MAE) or mean squared error (MSE).</p>
+<p>Ideal loss, however, is intractable because most entries are missing and selection is typically MNAR, turning the goal to minimizes prediction inaccuracy over labeled data, <inline-formula><tex-math notation="LaTeX">$\mathcal{O}$</tex-math></inline-formula>, via a naive estimator,
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}_{\text {naive }}=\frac{1}{|\mathcal{O}\vert} \sum_{(u, i) \in \mathcal{O}} \ell\left(\hat{y}_{u, i}, y_{u, i}\right). \tag{2}
+\end{equation*}</tex-math></disp-formula></p>
+<p>If the missingness is missing at random, the naive estimator is unbiased to the ideal loss, but MAR-style evaluation slices are small and unevenly distributed across users. Following common experimental protocols and prior analyses, we assume the observed set is a mixture <inline-formula><tex-math notation="LaTeX">$\mathcal{O}=\mathcal{O}_{\text {MNAR }} \cup \mathcal{O}_{\text {MAR }}$</tex-math></inline-formula> with <inline-formula><tex-math notation="LaTeX">$\left|\mathcal{O}_{\text {MNAR }}\right\vert \gg\left|\mathcal{O}_{\text {MAR }}\right\vert:$</tex-math></inline-formula> a large MNAR portion collected from natural use, plus a small MAR-like portion (e.g., randomized unbiased slices) that is costly and uneven across users. Our methodology leverages this reality by identifying users whose behavior appears MAR-like and calibrating other users&#x0027; predicted rating distributions toward those MAR-like references-details next.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>Training on observational ratings alone overfits to missing-not-at-random (MNAR) exposure and yields poor generalization under MAR-style evaluation. We mitigate this through Semi-Supervised Rating Distribution Calibration (SemiSL-RDC), designed around the same three real-world constraints articulated in the Introduction: (i) unbiased/MAR supervision is scarce and uneven across users; (ii) selection effects are largely driven by user self-selection (items are typically curated and registered by the platform); and (iii) users exhibit heterogeneous selection bias. Rather than relying on a tiny unbiased pool or fully specified propensity/imputation models, we leverage cross-user distributional guidance: a subset of users naturally behaves closer to MAR and therefore provides more reliable distributional targets for calibrating others. The challenge is to discover such users and use them without assuming abundant labels.</p>
+<p>SemiSL-RDC operationalizes this idea with three integrated components trained in a single loop. First, we identify pivot users, those whose feedback patterns appear MAR-like, via a semi-supervised score that fuses labeled prediction error with unlabeled distributional evidence (normalized entropy and labeled-coverage), producing a calibrated probability later used to select a stable pivot set. Second, we construct differentiable user-level distribution features from predictions over all items (labeled and unlabeled) and define a pivot-aware neighborhood similarity that measures how a non-pivot&#x0027;s predicted rating distribution differs from those of similar pivots. Third, we add a calibration constraint to the base objective by augmenting the standard cross-entropy loss with a userlevel distribution-matching penalty; the combined loss jointly updates the predictor while shrinking non-pivot distributions toward MAR-like references. The next subsection details the semi-supervised pivot discovery, followed by the construction of distribution features and the calibration constraint.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Pivot User Identification based on a Semi-SL Task</title>
+<p>A pivot user is one whose feedback pattern is closer to MAR; intuitively, such users exhibit less extreme rating tendencies and more activity than heavily MNAR users, so their predicted rating distributions serve as more trustworthy targets for calibration. Prior self-supervised RDC estimated a per-user &#x201C;unbiasedness&#x201D; primarily from labeled accuracy (e.g., per-user MAE) and then randomly sampled pivots from those probabilities to avoid hard thresholds <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>. However, with only a handful of unbiased labels per user, those label-only probabilities are high-variance and brittle. For example, a user who rates only positives while a misspecified predictor outputs positives for everything will display near-zero MAE on the few labeled pairs despite strong selection bias. This motivates a semi-supervised design that augments scarce labeled evidence with unlabeled distributional structure available at scale.</p>
+<p><bold>User-level criteria and pivot probability</bold>. For each user <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula>, we compute three interpretable criteria that combine labeled and unlabeled signals and then map them to a pivot probability used for deterministic selection.
+<list list-type="ordered">
+<list-item><label>1)</label><p><bold>Mean Absolute Error (MAE) for labeled ratings</bold>. On the user&#x0027;s observed set <inline-formula><tex-math notation="LaTeX">$\mathcal{O}_{u}$</tex-math></inline-formula>,
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{MAE}_{u}=\frac{1}{\left|\mathcal{O}_{u}\right\vert} \sum_{i \in \mathcal{O}_{u}}\left|y_{u, i}-f_{\theta}\left(x_{u, i}\right)\right\vert \in[0, 1].
+\end{equation*}</tex-math></disp-formula></p>
+<p>This is the same label-only indicator textbfasized in the prior self-supervised RDC formulations. A smaller value suggests MAR-like behavior on the (few) labeled pairs, but alone can be misleading under severe sparsity.</p></list-item>
+<list-item><label>2)</label><p><bold>Normalized rating distribution entropy</bold>. Let <inline-formula><tex-math notation="LaTeX">$n_{u, y}$</tex-math></inline-formula> be the count of observed labels <inline-formula><tex-math notation="LaTeX">$y \in\{0,1\}$</tex-math></inline-formula> for user <inline-formula><tex-math notation="LaTeX">$u_{r}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$q_{u}(y)=\frac{n_{u, y}}{n_{u, 0}+n_{u, 1}}$</tex-math></inline-formula>. Define
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\widetilde{H}_{u}=-\sum_{y=0}^{1} q_{u}(y) \log q_{u}(y), \quad H_{u}=\frac{\widetilde{H}_{u}}{\log 2} \in[0, 1].
+\end{equation*}</tex-math></disp-formula></p>
+<p>Higher <inline-formula><tex-math notation="LaTeX">$H_{u}$</tex-math></inline-formula> reflects a more balanced observed mix (not &#x201C;all likes&#x201D; or &#x201C;all dislikes&#x201D;), a proxy for weaker selection effects and a distribution closer to a MAR target <xref ref-type="bibr" rid="ref50">[50]</xref>, <xref ref-type="bibr" rid="ref51">[51]</xref>.</p></list-item>
+<list-item><label>3)</label><p><bold>Labeled rating coverage</bold>. To capture adequacy of supervision and mitigate the variance of label-only signals, we use
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+C_{u}=\frac{\left|\mathcal{O}_{u}\right\vert}{M} \in[0, 1],
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$M$</tex-math></inline-formula> is the number of items. Larger <inline-formula><tex-math notation="LaTeX">$C_{u}$</tex-math></inline-formula> indicates more labeled coverage for <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula>.</p></list-item>
+</list>
+</p>
+<p><bold>Aggregating to a probability and forming the pivot set</bold>. We form a convex score that decreases with &#x201C;pivot-likeness&#x201D;:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+s_{u}=-\alpha_{1} \cdot \operatorname{MAE}_{u}+\alpha_{2} \cdot H_{u}+\alpha_{3} \cdot C_{u}, \quad \alpha_{j} \geq 0, \sum_{j=1}^{3} \alpha_{j}=1,
+\end{equation*}</tex-math></disp-formula>
+so <inline-formula><tex-math notation="LaTeX">$s_{u} \in[-1,0]$</tex-math></inline-formula> and we map it to a probability by normalizing the sigmoid:
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\pi_{u}=\frac{\sigma\left(s_{u}\right)}{\sigma(0)-\sigma(-1)} \in[0, 1] \tag{3}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\sigma(t)=1 /(1+\exp (t))$</tex-math></inline-formula> stands for the Sigmoid function, and <inline-formula><tex-math notation="LaTeX">$\pi_{u}$</tex-math></inline-formula> is defined as the probability that user <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula> is a pivot user. We then select pivots deterministically by a fixed cutoff: users with <inline-formula><tex-math notation="LaTeX">$\pi_{u} \geq 0.5$</tex-math></inline-formula> form pivot user set, <inline-formula><tex-math notation="LaTeX">$\mathcal{P}_{+}=\left\{u: \pi_{u} \geq 0.5\right\}$</tex-math></inline-formula>, and the remainder, non-pivot user set, form <inline-formula><tex-math notation="LaTeX">$\mathcal{P}_{-}$</tex-math></inline-formula>. A fixed threshold yields a stable anchor cohort while the semi-supervised score <inline-formula><tex-math notation="LaTeX">$\pi_{u}$</tex-math></inline-formula> integrates both labeled accuracy and unlabeled distributional evidence, addressing the unreliability of MAE-only scoring under scarce MAR labels.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Semi-SL Rating Distribution Calibration</title>
+<p>After identifying pivots, we construct a semi-supervised discrepancy that nudges each non-pivot&#x0027;s predicted rating distribution toward similar pivots. The construction has two parts <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>: a differentiable representation of a user&#x0027;s predicted rating distribution and a pivot-aware, soft-neighborhood calibration penalty.</p>
+<p><bold>Rating Distribution Feature Extraction</bold>. For each user <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula>,collect predicted probabilities over all items (observed and unobserved): <inline-formula><tex-math notation="LaTeX">$\hat{\mathbf{y}}_{u}=\left\{\hat{y}_{u 1}, \ldots, \hat{y}_{u M}\right\}$</tex-math></inline-formula>. We map <inline-formula><tex-math notation="LaTeX">$\hat{\mathbf{y}}_{u}$</tex-math></inline-formula> to a <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> dimensional soft CDF feature <inline-formula><tex-math notation="LaTeX">$\mathbf{g}_{u} \in \mathbb{R}^{K}$</tex-math></inline-formula>:
+<disp-formula><tex-math notation="LaTeX">\begin{align*}
+t_{k}=\frac{k}{K}, \quad \mathbf{g}_{u} &amp; =\left[f^{(1)}\left(\hat{\mathbf{y}}_{u}\right), \ldots, f^{(K)}\left(\hat{\mathbf{y}}_{u}\right)\right], \\
+f^{(k)}\left(\hat{\mathbf{y}}_{u}\right) &amp; =\frac{1}{M} \sum_{i=1}^{M} \sigma\left(\tau\left(t_{k}-\hat{y}_{u, i}\right)\right), \quad k=1, \ldots, K.
+\end{align*}</tex-math></disp-formula></p>
+<p>Here <inline-formula><tex-math notation="LaTeX">$\sigma(\cdot)$</tex-math></inline-formula> is the sigmoid function and temperature parameter <inline-formula><tex-math notation="LaTeX">$\tau&gt;0$</tex-math></inline-formula> sets smoothness.</p>
+<p>Each coordinate <inline-formula><tex-math notation="LaTeX">$f^{(k)}$</tex-math></inline-formula> approximates the fraction of predictions below threshold <inline-formula><tex-math notation="LaTeX">$t_{k}$</tex-math></inline-formula>. Thus <inline-formula><tex-math notation="LaTeX">$\mathbf{g}_{u}$</tex-math></inline-formula> aggregates a series of smooth empirical cumulative distribution functions (CDFs) of predicted ratings. This representation not only captures more distribution information beyond simple and non-differentiable mean and variance, but also reduces noise given sparse labeled data, and, specifically, is end-to-end optimizable with respect to model parameter, <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula>, gradient backpropagation. The aggregated function <inline-formula><tex-math notation="LaTeX">$\mathbf{g}_{u}\left(\hat{\mathbf{y}}_{u}\right)$</tex-math></inline-formula> has a good theoretical property, as shown in Lemma 2 in <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>, that <inline-formula><tex-math notation="LaTeX">$\mathbf{g}_{u}\left(\hat{\mathbf{y}}_{u}\right) \rightarrow F_{u}(k)= \operatorname{Pr}\left[\hat{r}_{u, i} \leq \frac{k}{K} \cdot r_{\text {max }}+\frac{K-k}{K} \cdot r_{\text {min }}\right], k \in\{1, \ldots, K\}$</tex-math></inline-formula>, i.e. converges to the emperical cumulative distribution distribution of the predicted ratings when <inline-formula><tex-math notation="LaTeX">$\tau \rightarrow \infty$</tex-math></inline-formula>, serving as the basis for later rating distribution calibration to other users&#x0027;.</p>
+<p><bold>Semi-Supervised Calibration Loss</bold>. For a non-pivot user <inline-formula><tex-math notation="LaTeX">$u \in \mathcal{P}_{-}$</tex-math></inline-formula>, measure distributional similarity to each pivot <inline-formula><tex-math notation="LaTeX">$v \in \mathcal{P}_{+}$</tex-math></inline-formula> with a distance <inline-formula><tex-math notation="LaTeX">$\delta\left(\mathbf{g}_{u}, \mathbf{g}_{v}\right)$</tex-math></inline-formula> (where we use squared <inline-formula><tex-math notation="LaTeX">$\ell_{2}$</tex-math></inline-formula>-norm by default, though other metrics are possible). Define a soft neighborhood over pivots:
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{equation*}
+w_{u \rightarrow v}=\frac{\exp \left(1 / \delta\left(\mathbf{g}_{u}, \mathbf{g}_{v}\right)\right)}{\sum_{v^{\prime} \in \mathcal{P}_{+}} \exp \left(1 / \delta\left(\mathbf{g}_{u}, \mathbf{g}_{v^{\prime}}\right)\right)}, \tag{4}
+\end{equation*}</tex-math></disp-formula>
+and the semi-supervised RDC loss aggregates over non-pivots:
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}_{\text{semi}}^{u}=\frac{1}{\left|\mathcal{P}_{+}\right\vert} \sum_{v \in \mathcal{P}_{+}} w_{u \rightarrow v} \delta\left(\mathbf{g}_{u}, \mathbf{g}_{v}\right) \tag{5}
+\end{equation*}</tex-math></disp-formula>
+and the semi-supervised RDC loss aggregates over non-pivots:
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}_{\text {semi-cal }}(\theta)=\frac{1}{\left|\mathcal{P}_{-}\right\vert} \sum_{u \in \mathcal{P}_{-}} \mathcal{L}_{\text {semi }}^{u} \tag{6}
+\end{equation*}</tex-math></disp-formula></p>
+<p>This design (1) emphasizes closer pivots without committing to a single reference, (2) uses distribution features computed from predictions over all items (not only labeled ones), and (3) remains fully differentiable for joint training.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Overall Optimization Algorithm</title>
+<p>Overall, We optimize a calibration-augmented objective that combines the standard supervised loss on observed pairs with the semi-supervised calibration term. We consider cross entropy error on observed pairs as the base loss:
+<disp-formula><tex-math notation="LaTeX">\begin{align*}
+&amp; \mathcal{L}_{\text {base }}(\theta)= \\
+&amp; -\frac{1}{\left|\mathcal{O}_{u}\right\vert} \sum_{(u, i) \in \mathcal{O}_{u}}\left[y_{u, i} \log \hat{y}_{u, i}+\left(1-y_{u, i}\right) \log \left(1-\hat{y}_{u, i}\right)\right] \\
+&amp; +\lambda \cdot \operatorname{Reg}(\theta)
+\end{align*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\operatorname{Reg}(\theta)$</tex-math></inline-formula> refers to a regularization term, and <inline-formula><tex-math notation="LaTeX">$\lambda&gt;0$</tex-math></inline-formula> is a hyperparameter controlling regularization. Then the overall optimization loss is
+<disp-formula id="deqn7"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}_{\text {SemiSL-RDC }}=\mathcal{L}_{\text {base }}+\mu \mathcal{L}_{\text {semi-cal }}, \tag{7}
+\end{equation*}</tex-math></disp-formula>
+where <inline-formula><tex-math notation="LaTeX">$\mu&gt;0$</tex-math></inline-formula> is a hyperparameter that balances prediction and calibration.</p>
+<p>The whole training algorithm is shown in 1. The joint objective ensures that (1) supervision on <inline-formula><tex-math notation="LaTeX">$\mathcal{O}$</tex-math></inline-formula> fits observed labels, while (2) <inline-formula><tex-math notation="LaTeX">$\mathcal{L}_{\text {semi-cal }}$</tex-math></inline-formula> transfers distributional structure from pivots to non-pivots, reducing user-level selection bias without relying on a fully specified propensity or imputation model. Because <inline-formula><tex-math notation="LaTeX">$\mathbf{g}_{u}$</tex-math></inline-formula> pools predictions across all items, calibration is informed by the model&#x0027;s global belief about each user, not just the few labeled pairs-precisely the regime where unbiased labels are scarce and uneven.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Experiment</title>
+<p>We evaluate SemiSL-RDC on two widely used benchmarks (Yahoo! R3 and Coat) under the standard MNAR-with-few-unbiased-labels protocol for debiasing in recommendation. Our empirical study is designed to answer:
+<list list-type="ordered">
+<list-item><label>1)</label><p><bold>RQ1: Effectiveness</bold>. Does SemiSL-RDC improve accuracy when per-user unbiased labels are scarce and uneven?</p></list-item>
+<list-item><label>2)</label><p><bold>RQ2: Competitiveness</bold>. How does it compare with strong debiasing families (propensity reweighting, doubly-robust learning, multi-task variants, knowledge-distillation/meta-learning that use unbiased data, residual/balancing methods, and prior distributioncalibration)?</p></list-item>
+<list-item><label>3)</label><p><bold>RQ3: Robustness across regimes</bold>. Are gains consistent across datasets with markedly different unbiasedcoverage patterns (near-zero vs. small fixed per-user coverage)?</p></list-item>
+<list-item><label>4)</label><p><bold>RQ4: Semi-supervised pivoting</bold>. Does semi-supervised pivot identification provide additional benefits over prior self-supervised calibration?</p></list-item>
+</list>
+</p>
+<algorithm rule="both" id="alg1">
+<label>Algorithm 1</label>
+<title>SemiSL-RDC Optimization Algorithm</title>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;1:&#x00A0;&#x00A0;<bold>Input:</bold> Set of user-item features <inline-formula><tex-math notation="LaTeX">$X$</tex-math></inline-formula>; All user-item pairs matrix <inline-formula><tex-math notation="LaTeX">$\mathcal{D}$</tex-math></inline-formula>; Observed user-item pairs matrix <inline-formula><tex-math notation="LaTeX">$\mathcal{O}$</tex-math></inline-formula>; Hyperparameters <inline-formula><tex-math notation="LaTeX">$\alpha_{1}, \alpha_{2}, \alpha_{3}, \lambda, \mu$</tex-math></inline-formula>.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;2:&#x00A0;&#x00A0;<bold>Output:</bold> A rating prediction model <inline-formula><tex-math notation="LaTeX">$f_{\theta}$</tex-math></inline-formula>.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;3:&#x00A0;&#x00A0;Initialize the prediction model <inline-formula><tex-math notation="LaTeX">$f_{\theta}$</tex-math></inline-formula> by pre-training it on the observed set <inline-formula><tex-math notation="LaTeX">$\mathcal{O}$</tex-math></inline-formula>.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;4:&#x00A0;&#x00A0;<bold>while</bold> not converge <bold>do</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;5:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<bold>for</bold> number of training iterations <bold>do</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;6:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Sample a mini-batch <inline-formula><tex-math notation="LaTeX">$\left\{\left(u_{j}, i_{j}\right)\right\}_{j=1}^{J}$</tex-math></inline-formula> from <inline-formula><tex-math notation="LaTeX">$\mathcal{D}$</tex-math></inline-formula>;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;7:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Compute 3 per-user criteria, <inline-formula><tex-math notation="LaTeX">$\text{MAE}_{u}$</tex-math></inline-formula> from <inline-formula><tex-math notation="LaTeX">$\mathcal{O}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$H_{u}, C_{u}$</tex-math></inline-formula> from <inline-formula><tex-math notation="LaTeX">$\mathcal{D}$</tex-math></inline-formula>;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;8:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;For each user, calculate the pivot-user probability <inline-formula><tex-math notation="LaTeX">$\pi_{u}$</tex-math></inline-formula> and classify to set <inline-formula><tex-math notation="LaTeX">$\mathcal{P}_{+}$</tex-math></inline-formula> or <inline-formula><tex-math notation="LaTeX">$\mathcal{P}_{-}$</tex-math></inline-formula>;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;9:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;For each non-pivot user <inline-formula><tex-math notation="LaTeX">$u \in \mathcal{P}_{-}$</tex-math></inline-formula>, calculate its distribution difference between each pivot user <inline-formula><tex-math notation="LaTeX">$v \in \mathcal{P}_{+}$</tex-math></inline-formula>, <inline-formula><tex-math notation="LaTeX">$\delta\left(\mathbf{g}_{u}, \mathbf{g}_{v}\right);$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;10:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Calculate calibration loss <inline-formula><tex-math notation="LaTeX">$\mathcal{L}_{\text {semi-cal }}$</tex-math></inline-formula>, and overall loss <inline-formula><tex-math notation="LaTeX">$\mathcal{L}_{\text {SemiSL-RDC; }}$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;11:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Update <inline-formula><tex-math notation="LaTeX">$f_{\theta}$</tex-math></inline-formula> by minimizing <inline-formula><tex-math notation="LaTeX">$\mathcal{L}_{\text {SemisL-RDC }}$</tex-math></inline-formula>;</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;12:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<bold>end for</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;13:&#x00A0;&#x00A0;<bold>end while</bold></p></alg-item>
+</algorithm>
+<sec id="sec4a">
+<label>A.</label>
+<title>Datasets</title>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Yahoo! R3</bold> dataset contains 15,400 users <inline-formula><tex-math notation="LaTeX">$\times 1,000$</tex-math></inline-formula> items with 311,704 self-selected (MNAR) ratings and a small unbiased slice of 54,000 ratings collected by asking 5,400 users to rate 10 randomly chosen items. Overall observation density <inline-formula><tex-math notation="LaTeX">$\approx 2.37 \%$</tex-math></inline-formula> (97.63 &#x0025; unlabeled). Peruser unbiased (MAR) coverage ranges <inline-formula><tex-math notation="LaTeX">$0-1 \%$</tex-math></inline-formula> (<inline-formula><tex-math notation="LaTeX">$0 / 1000$</tex-math></inline-formula> for users not in the MAR cohort; 10/1000 for MAR users). These figures are standard in the literature and reflect how scarce and uneven unbiased supervision is on Yahoo! R3. <xref ref-type="bibr" rid="ref14">[14]</xref>, <xref ref-type="bibr" rid="ref22">[22]</xref>, <xref ref-type="bibr" rid="ref52">[52]</xref>&#x2013;<xref ref-type="bibr" rid="ref53"/><xref ref-type="bibr" rid="ref54">[54]</xref></p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Coat</bold> dataset contains 290 users <inline-formula><tex-math notation="LaTeX">$\times 300$</tex-math></inline-formula> items with 24 MNAR + <inline-formula><tex-math notation="LaTeX">$\mathbf{1 6}$</tex-math></inline-formula> MAR ratings per user (6,960 MNAR and 4,640 MAR total). Overall observation density <inline-formula><tex-math notation="LaTeX">$\approx 13.33 \%$</tex-math></inline-formula> (86.67 &#x0025; unlabeled). Per-user unbiased (MAR) coverage is fixed at <inline-formula><tex-math notation="LaTeX">$\mathbf{5. 3 3} \%(16 / 300)$</tex-math></inline-formula>. This design is commonly used to emulate controlled unbiased slices for evaluation. <xref ref-type="bibr" rid="ref14">[14]</xref>, <xref ref-type="bibr" rid="ref55">[55]</xref>, <xref ref-type="bibr" rid="ref56">[56]</xref></p></list-item>
+</list>
+<table-wrap id="table1">
+<label>Table I</label>
+<caption>
+<title>Performance in terms of auc, ndcg@5, and recall @ 5 on the unbiased dataset of coat and yahoo! r3. the best results are bolded, and the best baseline results are underlined.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415781-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="7"/>
+</colgroup>
+<thead>
+<tr>
+<th rowspan="2">Method</th>
+<th colspan="3">COAT</th>
+<th colspan="3">YAHOO! R3</th>
+</tr>
+<tr>
+<th>AUC</th>
+<th>NDCG@5</th>
+<th>Recall@5</th>
+<th>AUC</th>
+<th>NDCG@5</th>
+<th>Recall@5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MF (Bias)</td>
+<td>0.747</td>
+<td>0.500</td>
+<td>0.546</td>
+<td>0.721</td>
+<td>0.553</td>
+<td>0.716</td>
+</tr>
+<tr>
+<td>MF (Uniform)</td>
+<td>0.580</td>
+<td>0.363</td>
+<td>0.386</td>
+<td>0.574</td>
+<td>0.455</td>
+<td>0.611</td>
+</tr>
+<tr>
+<td>MF (Combine)</td>
+<td>0.751</td>
+<td>0.504</td>
+<td>0.546</td>
+<td>0.724</td>
+<td>0.558</td>
+<td>0.717</td>
+</tr>
+<tr>
+<td>CausE</td>
+<td>0.763</td>
+<td>0.512</td>
+<td>0.575</td>
+<td>0.730</td>
+<td>0.555</td>
+<td>0.736</td>
+</tr>
+<tr>
+<td>ESMM</td>
+<td>0.745</td>
+<td>0.506</td>
+<td>0.525</td>
+<td>0.708</td>
+<td>0.545</td>
+<td>0.693</td>
+</tr>
+<tr>
+<td>KD-Label</td>
+<td>0.760</td>
+<td>0.509</td>
+<td>0.562</td>
+<td>0.726</td>
+<td>0.583</td>
+<td>0.752</td>
+</tr>
+<tr>
+<td>AutoDebias</td>
+<td>0.762</td>
+<td>0.540</td>
+<td><inline-formula><tex-math notation="LaTeX">$\underline{0.580}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\underline{0.735}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\underline{0.632}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\underline{0.785}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>KD-Feature</td>
+<td>0.766</td>
+<td>0.522</td>
+<td>0.584</td>
+<td>0.717</td>
+<td>0.557</td>
+<td>0.736</td>
+</tr>
+<tr>
+<td>IPS</td>
+<td>0.761</td>
+<td>0.513</td>
+<td>0.566</td>
+<td>0.722</td>
+<td>0.555</td>
+<td>0.733</td>
+</tr>
+<tr>
+<td>Multi-IPS</td>
+<td>0.758</td>
+<td>0.514</td>
+<td>0.531</td>
+<td>0.719</td>
+<td>0.546</td>
+<td>0.710</td>
+</tr>
+<tr>
+<td>ESCM2-IPS</td>
+<td>0.757</td>
+<td>0.514</td>
+<td>0.558</td>
+<td>0.729</td>
+<td>0.559</td>
+<td>0.714</td>
+</tr>
+<tr>
+<td>RD-IPS</td>
+<td>0.764</td>
+<td>0.514</td>
+<td>0.566</td>
+<td>0.730</td>
+<td>0.571</td>
+<td>0.735</td>
+</tr>
+<tr>
+<td>BRD-IPS</td>
+<td>0.763</td>
+<td>0.511</td>
+<td>0.564</td>
+<td>0.735</td>
+<td>0.582</td>
+<td>0.743</td>
+</tr>
+<tr>
+<td>DR</td>
+<td>0.766</td>
+<td>0.525</td>
+<td>0.552</td>
+<td>0.725</td>
+<td>0.553</td>
+<td>0.727</td>
+</tr>
+<tr>
+<td>Multi-DR</td>
+<td>0.759</td>
+<td>0.527</td>
+<td>0.565</td>
+<td>0.719</td>
+<td>0.553</td>
+<td>0.712</td>
+</tr>
+<tr>
+<td>ESCM2-DR</td>
+<td>0.760</td>
+<td><inline-formula><tex-math notation="LaTeX">$\underline{0.553}$</tex-math></inline-formula></td>
+<td>0.568</td>
+<td>0.715</td>
+<td>0.566</td>
+<td>0.722</td>
+</tr>
+<tr>
+<td>RD-DR</td>
+<td>0.768</td>
+<td>0.539</td>
+<td>0.571</td>
+<td>0.732</td>
+<td>0.569</td>
+<td>0.738</td>
+</tr>
+<tr>
+<td>BRD-DR</td>
+<td>0.770</td>
+<td>0.546</td>
+<td>0.577</td>
+<td>0.735</td>
+<td>0.576</td>
+<td>0.737</td>
+</tr>
+<tr>
+<td>RDC</td>
+<td>0.761</td>
+<td>0.521</td>
+<td>0.549</td>
+<td>0.729</td>
+<td>0.559</td>
+<td>0.719</td>
+</tr>
+<tr>
+<td><bold>SemiSL-RDC</bold></td>
+<td><bold>0.771</bold></td>
+<td><bold>0.557</bold></td>
+<td><bold>0.589</bold></td>
+<td><bold>0.751</bold></td>
+<td><bold>0.640</bold></td>
+<td><bold>0.796</bold></td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>These statistics echo our problem setting: the unbiased pool is small and uneven (Yahoo!), or small but uniform (Coat), reinforcing the need to (i) leverage predictions over all items when forming distribution features and (ii) transfer guidance from MAR-like pivots to non-pivots.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Baselines</title>
+<p>We compare our methods to the following debiasing methods in recommendation system:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Base model: the Matrix Factorization (MF) model <xref ref-type="bibr" rid="ref57">[57]</xref> is trained on biased data, uniform data and both of them respectively, denoted as MF (biased), MF (uniform) and MF (combine).</p></list-item>
+<list-item><label>&#x2022;</label><p>Propensity-based estimators: IPS <xref ref-type="bibr" rid="ref22">[22]</xref>, <xref ref-type="bibr" rid="ref58">[58]</xref>, DR <xref ref-type="bibr" rid="ref24">[24]</xref>, <xref ref-type="bibr" rid="ref25">[25]</xref>, and their robust/residual variants (RD-IPS/DR, BRD-IPS/DR <xref ref-type="bibr" rid="ref59">[59]</xref>).</p></list-item>
+<list-item><label>&#x2022;</label><p>Multi-task learning approaches that leverage auxiliary tasks or counterfactual towers: ESMM <xref ref-type="bibr" rid="ref60">[60]</xref>, MultiIPS/DR <xref ref-type="bibr" rid="ref61">[61]</xref>, ESCM2-IPS/DR <xref ref-type="bibr" rid="ref62">[62]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p>Methods using both biased and unbiased data: CausE (knowledge distillation with uniform data), KD-Label, KD-Feature, AutoDebias, DR-LTD (bi-level learning-todebias).</p></list-item>
+<list-item><label>&#x2022;</label><p>Methods using both biased and unbiased data: CausE (a sample-based knowledge distillation approach) <xref ref-type="bibr" rid="ref63">[63]</xref>, KDLabel, KD-Feature <xref ref-type="bibr" rid="ref64">[64]</xref>, AutoDebias <xref ref-type="bibr" rid="ref65">[65]</xref>.</p></list-item>
+<list-item><label>&#x2022;</label><p>Calibration-based: RDC (distribution matching via pivot users) <xref ref-type="bibr" rid="ref18">[18]</xref>, <xref ref-type="bibr" rid="ref19">[19]</xref>.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Implementation Details</title>
+<p>All models are implemented in PyTorch and optimized with Adam. We tune learning rate in <inline-formula><tex-math notation="LaTeX">$\left\{10^{-4}, 5 \times 10^{-4}, 10^{-3}, 5 \times 10^{-3}, 10^{-2}\right\}$</tex-math></inline-formula> and weight decay in <inline-formula><tex-math notation="LaTeX">$\left\{0,10^{-6}, 10^{-5}, 10^{-4}, 10^{-3}, 10^{-2}, 10^{-1}\right\}$</tex-math></inline-formula>. For SemiSL-RDC we tune soft-CDF bins <inline-formula><tex-math notation="LaTeX">$K \in\{16,32,64\}$</tex-math></inline-formula>, temperature <inline-formula><tex-math notation="LaTeX">$\tau \in\{5,10,20\}$</tex-math></inline-formula>, neighborhood temperature <inline-formula><tex-math notation="LaTeX">$\gamma \in\left\{5 \times 10^{-3}, 10^{-2}, 5 \times 10^{-2}\right\}$</tex-math></inline-formula>, calibration weight <inline-formula><tex-math notation="LaTeX">$\lambda_{\text {cal }} \in\{0.1,0.5,1\}$</tex-math></inline-formula>, and pivot-score weights <inline-formula><tex-math notation="LaTeX">$\left(\alpha_{1}, \alpha_{2}, \alpha_{3}\right) \in \{(0.4,0.4,0.2),(0.5,0.3,0.2),(0.5,0.25,0.25)\}$</tex-math></inline-formula>. Evaluation uses AUC, NDCG@5, Recall@5.</p>
+</sec>
+<sec id="sec4d">
+<label>D.</label>
+<title>Performance analysis</title>
+<p><xref ref-type="table" rid="table1">Table I</xref> reports AUC, NDCG@5, and Recall@5 on two benchmarks, Yahoo! R3 and Coat. Across both datasets and all three metrics, most debiasing methods outperform the MF baseline, underscoring the necessity of addressing selection effects. Relative to IPS/DR and their variants, SemiSL-RDC attains comparable or better results without introducing additional propensity or imputation models. Methods that exploit both biased and unbiased data (e.g., distillation/meta-learning) are strong overall, but SemiSL-RDC remains competitive despite using a lightweight calibration loss. Improvements hold on both Yahoo! (highly uneven per-user unbiased coverage) and Coat (small but fixed per-user coverage), suggesting that distributional matching against MAR-like anchors is beneficial under heterogeneous coverage regimes. SemiSL-RDC targets the complementary regime where per-user unbiased coverage is extremely sparse and heterogeneous, since semi-supervised pivoting stabilizes anchor discovery by blending labeled MAE with unlabeled entropy and coverage. The resulting pivots yield more reliable calibration targets and consistent gains over self-supervised RDC.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This work introduced SemiSL-RDC, a semi-supervised rating-distribution calibration framework for mitigating selection bias in recommendation. We first identify pivot users-those whose feedback appears closer to MAR-via a multi-criteria score that integrates per-user MAE (on labeled pairs), normalized rating-distribution entropy, and labeled-coverage. We then align each non-pivot user&#x0027;s predicted rating distribution to similar pivots using a differentiable soft-CDF representation and a pivot-aware calibration loss that augments the base cross-entropy objective. By constructing distribution features from all predictions (labeled and unlabeled) and using a deterministic pivot set, SemiSL-RDC offers a stable, model-agnostic route to reduce bias when unbiased supervision is scarce and uneven. Empirical results on two realworld datasets indicate consistent improvements over a span of state-of-art debiasing families, including propensity-based, doubly-robust, knowledge distillation, and prior distributioncalibration baselines, highlighting the practical value of semisupervised pivot discovery plus distribution matching.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Lyu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Dong</surname></string-name>, <string-name><given-names>X.-H.</given-names> <surname>Zhou</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Multiple robust learning for recommendation</article-title>,&#x201D; in <source>AAAI Conference on Artificial Intelligence</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Dong</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>He</surname></string-name></person-group>, &#x201C;<article-title>Bias and debias in recommender system: A survey and future directions</article-title>,&#x201D; <source>arXiv</source>:<pub-id pub-id-type="arxiv">2010.03240</pub-id>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Cui</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xuan</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Belongie</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Estrin</surname></string-name></person-group>, &#x201C;<article-title>Unbiased offline recommender evaluation for missing-not-at-random implicit feedback</article-title>,&#x201D; in <source>ACM Conference on Recommender Systems</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>Pareto invariant representation learning for multimedia recommendation</article-title>,&#x201D; in <source>ACM International Conference on Multimedia</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>He</surname></string-name></person-group>, &#x201C;<article-title>Causal recommendation: Progresses and future directions</article-title>,&#x201D; in <source>Tutorial on International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Zhou</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Yao</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Gong</surname></string-name></person-group>, &#x201C;<article-title>Counterfactual implicit feedback modeling</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Sui</surname></string-name></person-group>, &#x201C;<article-title>Addressing correlated latent exogenous variables in debiased recommender systems</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>Unveiling extraneous sampling bias with data missing-not-at-random</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Saito</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Aihara</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Matsutani</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Narita</surname></string-name></person-group>, &#x201C;<article-title>Open bandit dataset and pipeline: Towards realistic and reproducible off-policy evaluation</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2008.07146</pub-id>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Deng</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Dong</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Zhang</surname></string-name>, and <string-name><given-names>X.-H.</given-names> <surname>Zhou</surname></string-name></person-group>, &#x201C;<article-title>On the opportunity of causal learning in recommendation systems: Foundation, estimation, prediction and challenges</article-title>,&#x201D; in <source>International Joint Conference on Artificial Intelligence</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Geng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Cui</surname></string-name></person-group>, &#x201C;<article-title>Debiased collaborative filtering with kernel-based causal balancing</article-title>,&#x201D; in <source>International Conference on Learning Representations</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ding</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>He</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Geng</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Be aware of the neighborhood effect: Modeling selection bias under interference for recommendation</article-title>,&#x201D; in <source>International Conference on Learning Representations</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, and <string-name><given-names>X.-H.</given-names> <surname>Zhou</surname></string-name></person-group>, &#x201C;<article-title>Debiased recommendation with noisy feedback</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B. M.</given-names> <surname>Marlin</surname></string-name> and <string-name><given-names>R. S.</given-names> <surname>Zemel</surname></string-name></person-group>, &#x201C;<article-title>Collaborative prediction and ranking with non-random missing data</article-title>,&#x201D; in <source>ACM Conference on Recommender Systems</source>, <conf-date>2009</conf-date>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Luo</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Uncovering the propensity identification problem in debiased recommendations</article-title>,&#x201D; in <source specific-use="IEEE">IEEE International Conference on Data Engineering</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Gilotte</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Calauz&#x00E8;nes</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Nedelec</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Abraham</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Doll&#x00E9;</surname></string-name></person-group>, &#x201C;<article-title>Offline a/b testing for recommender systems</article-title>,&#x201D; in <source>ACM International Conference on Web Search and Data Mining</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Gruson</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Chandar</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Charbuillet</surname></string-name>, <string-name><given-names>J.</given-names> <surname>McInerney</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Hansen</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Tardieu</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Carterette</surname></string-name></person-group>, &#x201C;<article-title>Offline evaluation to make decisions about playlistrecommendation algorithms</article-title>,&#x201D; in <source>ACM International Conference on Web Search and Data Mining</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Liu</surname></string-name> and <string-name><given-names>X.</given-names> <surname>Zhao</surname></string-name></person-group>, &#x201C;<article-title>Self-supervised learning for alleviating selection bias in recommendation systems</article-title>,&#x201D; <source>in International Workshop on Industrial Recommendation Systems</source>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Tang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Zhao</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Tang</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Cheng</surname></string-name></person-group>, &#x201C;<article-title>Rating distribution calibration for selection bias mitigation in recommendations</article-title>,&#x201D; in <source>The Web Conference</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Steck</surname></string-name></person-group>, &#x201C;<article-title>Training and testing of recommender systems on data missing not at random</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2010</conf-date>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. M.</given-names> <surname>Hern&#x00E1;ndez-Lobato</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Houlsby</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Ghahramani</surname></string-name></person-group>, &#x201C;<article-title>Probabilistic matrix factorization with non-random missing data</article-title>,&#x201D; in <source>International Conference on Machine Learning</source>, <conf-date>2014</conf-date>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Schnabel</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Swaminathan</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Singh</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Chandak</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Joachims</surname></string-name></person-group>, &#x201C;<article-title>Recommendations as treatments: Debiasing learning and evaluation</article-title>,&#x201D; in <source>International Conference on Machine Learning</source>, <conf-date>2016</conf-date>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Swaminathan</surname></string-name> and <string-name><given-names>T.</given-names> <surname>Joachims</surname></string-name></person-group>, &#x201C;<article-title>Counterfactual risk minimization: Learning from logged bandit feedback</article-title>,&#x201D; in <source>International Conference on Machine Learning. PMLR</source>, <conf-date>2015</conf-date>.</mixed-citation></ref>
+<ref id="ref24"><label>[24]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Sun</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Qi</surname></string-name></person-group>, &#x201C;<article-title>Doubly robust joint learning for recommendation on data missing not at random</article-title>,&#x201D; in <source>International Conference on Machine Learning</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref25"><label>[25]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Saito</surname></string-name></person-group>, &#x201C;<article-title>Doubly robust estimator for ranking metrics with post-click conversions</article-title>,&#x201D; in <source>ACM Conference on Recommender Systems</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref26"><label>[26]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Lyu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>TDR-CL: Targeted doubly robust collaborative learning for debiased recommendations</article-title>,&#x201D; in <source>International Conference on Learning Representations</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref27"><label>[27]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Stabledr: Stabilized doubly robust learning for recommendation on data missing not at random</article-title>,&#x201D; in <source>International Conference on Learning Representations</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref28"><label>[28]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Geng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>X.-H.</given-names> <surname>Zhou</surname></string-name></person-group>, &#x201C;<article-title>Relaxing the accurate imputation assumption in doubly robust learning for debiased collaborative filtering</article-title>,&#x201D; in <source>International Conference on Machine Learning</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref29"><label>[29]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Zhang</surname></string-name> and <string-name><given-names>T.</given-names> <surname>Xia</surname></string-name></person-group>, &#x201C;<article-title>CBPL: A unified calibration and balancing propensity learning framework in causal recommendation for debiasing</article-title>,&#x201D; in <source>International Joint Conference on Artificial Intelligence Workshop on Causal Learning for Recommendation Systems</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref30"><label>[30]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Improving neural network generalization on data-limited regression with doubly-robust boosting</article-title>,&#x201D; in <source>AAAI Conference on Artificial Intelligence</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref31"><label>[31]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Pan</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Li</surname></string-name></person-group>, &#x201C;<article-title>Adaptive structure learning with partial parameter sharing for post-click conversion rate prediction</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref32"><label>[32]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Marlin</surname></string-name>, <string-name><given-names>R. S.</given-names> <surname>Zemel</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Roweis</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Slaney</surname></string-name></person-group>, &#x201C;<article-title>Collaborative filtering and the missing at random assumption</article-title>,&#x201D; <source>Conference on Uncertainty in Artificial Intelligence</source>, <conf-date>2007</conf-date>.</mixed-citation></ref>
+<ref id="ref33"><label>[33]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>Deep generative imputation model for missing not at random data</article-title>,&#x201D; in <source>ACM International Conference on Information and Knowledge Management</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref34"><label>[34]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Ma</surname></string-name> and <string-name><given-names>C.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Identifiable generative models for missing not at random data imputation</article-title>,&#x201D; <source>Advances in Neural Information Processing Systems</source>, vol. <volume>34</volume>, pp. <fpage>27 645</fpage>&#x2013;<lpage>27658</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref35"><label>[35]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Balancing unobserved confounding with a few unbiased ratings in debiased recommendations</article-title>,&#x201D; in <source>The Web Conference</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref36"><label>[36]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Geng</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>He</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>Removing hidden confounding in recommendation: A unified multi-task learning approach</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref37"><label>[37]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Tang</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Addressing hidden confounding with heterogeneous observational datasets for recommendation</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref38"><label>[38]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Ge</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>Textdriven fashion image editing with compositional concept learning and counterfactual abduction</article-title>,&#x201D; in <source specific-use="IEEE">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref39"><label>[39]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Liao</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Gong</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Yang</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>Visual representation learning through causal intervention for controllable image editing</article-title>,&#x201D; in <source specific-use="IEEE">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref40"><label>[40]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Liao</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Liao</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Gong</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>Cap: Causal air quality index prediction under interference with unmeasured confounding</article-title>,&#x201D; in <source>The Web Conference</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref41"><label>[41]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Kuang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Cui</surname></string-name></person-group>, &#x201C;<article-title>Who should be given incentives? counterfactual optimal treatment regimes learning for recommendation</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref42"><label>[42]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>Zhou</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Gong</surname></string-name></person-group>, &#x201C;<article-title>A two-stage pretraining-finetuning framework for treatment effect estimation with unmeasured confounding</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref43"><label>[43]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Li</surname></string-name></person-group>, &#x201C;<article-title>Entire space counterfactual learning for reliable content recommendations</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Information Forensics and Security</source>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref44"><label>[44]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Fan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Dong</surname></string-name>, and <string-name><given-names>R.</given-names> <surname>Tang</surname></string-name></person-group>, &#x201C;<article-title>Optimal transport for treatment effect estimation</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref45"><label>[45]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Liao</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Su</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Tan</surname></string-name>, and <string-name><given-names>F.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>User distribution mapping modelling with collaborative filtering for cross domain recommendation</article-title>,&#x201D; in <source>The Web Conference</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref46"><label>[46]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Song</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Ge</surname></string-name></person-group>, &#x201C;<article-title>Improving data-driven inferential sensor modeling by industrial knowledge: A bayesian perspective</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Systems, Man, and Cybernetics: Systems</source>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref47"><label>[47]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zou</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Jin</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Kuang</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Cui</surname></string-name></person-group>, &#x201C;<article-title>Your neighbor matters: Towards fair decisions under networked interference</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref48"><label>[48]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zou</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Chi</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Lan</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Huang</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>Effective and efficient time-varying counterfactual prediction with statespace models</article-title>,&#x201D; in <source>International Conference on Learning Representations</source>, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref49"><label>[49]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Fan</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Ren</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Wen</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Zhao</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Lin</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>Self-supervised learning for fair recommender systems</article-title>,&#x201D; <source>Applied Soft Computing</source>, vol. <volume>125</volume>, p. <fpage>109126</fpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref50"><label>[50]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Paninski</surname></string-name></person-group>, &#x201C;<article-title>Estimation of entropy and mutual information</article-title>,&#x201D; <source>Neural Computation</source>, vol. <volume>15</volume>, no. <issue>6</issue>, pp. <fpage>1191</fpage>&#x2013;<lpage>1253</lpage>, <year>2003</year>.</mixed-citation></ref>
+<ref id="ref51"><label>[51]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Grassberger</surname></string-name></person-group>, &#x201C;<article-title>Entropy estimates from insufficient samplings</article-title>,&#x201D; <source>arXiv preprint physics/0307138</source>, <year>2003</year>.</mixed-citation></ref>
+<ref id="ref52"><label>[52]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Cui</surname></string-name></person-group>, &#x201C;<article-title>Propensity matters: Measuring and enhancing balancing for recommendation</article-title>,&#x201D; in <source>International Conference on Machine Learning</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref53"><label>[53]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Song</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Zhou</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Shi</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>C.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>CDR: Conservative doubly robust learning for debiased recommendation</article-title>,&#x201D; in <source>ACM International Conference on Information and Knowledge Management</source>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref54"><label>[54]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Liang</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Cai</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Jiang</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Deconfounding user preference in recommendation systems through implicit and explicit feedback</article-title>,&#x201D; <source>ACM Transactions on Knowledge Discovery from Data</source>, vol. <volume>18</volume>, no. <issue>8</issue>, pp. <fpage>1</fpage>&#x2013;<lpage>18</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref55"><label>[55]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Ha</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Tao</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Xu</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Chen</surname></string-name></person-group>, &#x201C;<article-title>Fine-grained dynamic framework for bias-variance joint optimization on data missing not at random</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems</source>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref56"><label>[56]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Oosterhuis</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Mansoury</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Van Hoof</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>de Rijke</surname></string-name></person-group>, &#x201C;<article-title>Going beyond popularity and positivity bias: Correcting for multifactorial bias in recommender systems</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref57"><label>[57]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Koren</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Bell</surname></string-name>, and <string-name><given-names>C.</given-names> <surname>Volinsky</surname></string-name></person-group>, &#x201C;<article-title>Matrix factorization techniques for recommender systems</article-title>,&#x201D; <source>Computer</source>, vol. <volume>42</volume>, no. <issue>8</issue>, pp. <fpage>30</fpage>&#x2013;<lpage>37</lpage>, <year>2009</year>.</mixed-citation></ref>
+<ref id="ref58"><label>[58]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Saito</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Yaginuma</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Nishino</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Sakata</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Nakata</surname></string-name></person-group>, &#x201C;<article-title>Unbiased recommender learning from missing-not-at-random implicit feedback</article-title>,&#x201D; in <source>ACM International Conference on Web Search and Data Mining</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref59"><label>[59]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Ding</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wu</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>He</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Liao</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Addressing unmeasured confounder for recommendation with sensitivity analysis</article-title>,&#x201D; in <source>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref60"><label>[60]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Zhao</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Zhu</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Gai</surname></string-name></person-group>, &#x201C;<article-title>Entire space multi-task model: An effective approach for estimating post-click conversion rate</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref61"><label>[61]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Bao</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Wen</surname></string-name>, and <string-name><given-names>R.</given-names> <surname>Ramezani</surname></string-name></person-group>, &#x201C;<article-title>Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning</article-title>,&#x201D; in <source>The Web Conference</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref62"><label>[62]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>T.-W.</given-names> <surname>Chang</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Yu</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Chu</surname></string-name></person-group>, &#x201C;<article-title>Escm2: Entire space counterfactual multi-task model for post-click conversion rate estimation</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref63"><label>[63]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Bonner</surname></string-name> and <string-name><given-names>F.</given-names> <surname>Vasile</surname></string-name></person-group>, &#x201C;<article-title>Causal embeddings for recommendation</article-title>,&#x201D; in <source>ACM Conference on Recommender Systems</source>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+<ref id="ref64"><label>[64]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Cheng</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Dong</surname></string-name>, <string-name><given-names>X.</given-names> <surname>He</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Pan</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Ming</surname></string-name></person-group>, &#x201C;<article-title>A general knowledge distillation framework for counterfactual recommendation via uniform data</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2020</conf-date>.</mixed-citation></ref>
+<ref id="ref65"><label>[65]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Dong</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Qiu</surname></string-name>, <string-name><given-names>X.</given-names> <surname>He</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Xin</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Lin</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>Autodebias: Learning to debias for recommendation</article-title>,&#x201D; in <source>International ACM SIGIR Conference on Research and Development in Information Retrieval</source>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

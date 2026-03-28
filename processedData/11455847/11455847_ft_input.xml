@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455847</article-id>
+<xplore-article-id>11455847</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Algorithmic Midwifery: Benchmarking Machine Learning Models for Intelligent Fetal State Classification</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Niranjani</given-names> <surname>K</surname></string-name>
+<string-name specific-use="index"><given-names>Niranjani</given-names> <surname>K</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Senthil</given-names> <surname>K</surname></string-name>
+<string-name specific-use="index"><given-names>Senthil</given-names> <surname>K</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Ayyapan</given-names> <surname>G</surname></string-name>
+<string-name specific-use="index"><given-names>Ayyapan</given-names> <surname>G</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Department of Computer Science and Engineering \\ Saveetha School of Engineering, \\ Saveetha Institute of Medical and \\ Technical Sciences</institution>, SIMATS, \\ Chennai, <country>India</country> \\ <email>niranjani.k2015@gmail.com</email></aff>
+<aff id="aff2"><institution content-type="department">Department of Computer Science and Engineering \\ Saveetha School of Engineering, \\ Saveetha Institute of Medical and \\ Technical Sciences</institution>, SIMATS, \\ Chennai, <country>India</country> \\ <email>k.geethapriyan@gmail.com</email></aff>
+<aff id="aff3"><institution content-type="department">Department of Computer Science and Engineering \\ Saveetha School of Engineering, \\ Saveetha Institute of Medical and \\ Technical Sciences</institution>, SIMATS, \\ Chennai, <country>India</country> \\ <email>gtg.ayyapan@gmail.com</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455847_ft.xml</self-uri>
+<self-uri content-type="print">174.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The fetal condition is of great significance in the prenatal care and minimizing the negative birth complications. This paper presents a baseline model, which is known as Algorithmic Midwifery, that implements classical machine learning algorithms to classify the intelligent fetus state through the Cardiotocography (CTG) signals. To classify fetal conditions into the normal, suspect, and pathological classes, three popular models, including K-Nearest Neighbours (KNN), Support Vector Machine (SVM), and Random Forest (RF), were used. Very few preprocessing steps such as median-based imputation of missing values, scaling of the features, and label encoding were used so that the original data integrity was not lost. Grids of hyperparameters were optimized with grid search and 5-fold cross-validation, and the performance of the model was evaluated with the accuracy, precision, recall, F1-score and the analysis of the confusion matrix. SVM had the best performance and reported an overall accuracy of 92.4 which exhibited balanced accuracy-recall behavior. RF offered an important amount of feature importance scores, which are easier to interpret, whereas KNN was used as a simple and efficient baseline reference. Misclassifications that are present between Suspect and Pathological classifications underline the necessity to refine them further. All in all, this framework provides a solid classical-machine-learning baseline of fetal state classification and is a solid reference point of future deep learning methods, with practical implications of creating clinically-reliable decision-support systems in practice.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Fetal State Classification</kwd>
+<kwd>Algorithmic Midwifery</kwd>
+<kwd>Cardiotocography data</kwd>
+<kwd>Support Vector Machine (SVM).</kwd>
+</kwd-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="3"/>
+<equation-count count="9"/>
+<ref-count count="15"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Fetal health assessment is the most crucial part of obstetric care because prompt identification of fetal distress may mean a healthy birth, or mild to serious developmental outcomes, including stillbirth, cerebral palsy, or dead disabilities. According to the estimate of the World Health Organization, there are 2.4 million neonatal deaths per year and most of the deaths can be prevented through early diagnosis and treatment. To ensure a healthy fetal condition, continuous monitoring is necessary, and especially in a high-risk pregnancy when the maternal condition, including hypertension, diabetes during pregnancy, or placental inadequacy, may put a fetus at a disadvantage in terms of oxygenation <xref ref-type="bibr" rid="ref1">[1]</xref>. Cardiotocography (CTG) is among the most common non-invasive techniques that are used in evaluating the fetal well-being throughout pregnancy and during labor. It monitors fetal heart rate (FHR) as well as uterine contractions so that clinicians can determine the fetal reaction to the activities of the uterus <xref ref-type="bibr" rid="ref2">[2]</xref>. Artefacts in the CTG wave are also present and can indicate that a fetus is in a normal preserved state, or on suspicion or it is undergoing pathological distress. Although widespread, CTG interpretation is extremely subjective, and many clinicians interpret the CTGs dissimilarly. The problem with CTG interpretation is that it is subjective and that inter-observer and intra-observer variation can thus reach low rates as reported in studies at 60 &#x0025; rates and below <xref ref-type="bibr" rid="ref3">[3]</xref>. This inconsistency may lead to the unnecessary procedure (cesarean sections) or the intervention that is postponed to the endangering safety of a fetus. Moreover, fatigue, workload, and variations in clinical training are exacerbated to produce inconsistent choices and thus the need to be more objective and standardized approaches to the analysis process.</p>
+<p>Evidence of fetal distress (Hypoxia and/or acidosis) may be decreased heart rate variability, frequent decelerations or abnormal accelerations <xref ref-type="bibr" rid="ref4">[4]</xref>. Otherwise, longstanding fetal discomfort may cause hypoxic-ischemic encephalopathy, long-term neurological dysfunction, or even death. This can lead to disastrous results in resource-limited situations, when continuous monitoring and well-trained staff might not be available to make proper assessments of the CTG. There has been a consistent interest in the last few years, in utilizing data-profiled techniques to augment decision-making within maternal-fetal health <xref ref-type="bibr" rid="ref5">[5]</xref>. Leveraging the learning ability to recognize patterns in large datasets, ML algorithms provide us with the possibility to standardize the CTG interpretation process and eliminate the use of clinical judgment. Such algorithms are able to make sense of complex multidimensional data and reveal relationships otherwise unnoticeable with a visual inspection alone. Prior to implementing sophisticated deep learning models, it is necessary to have some good baseline performance indicators of classical ML models <xref ref-type="bibr" rid="ref6">[6]</xref>. The low-to-moderate costs of models like K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Random Forests can help to augment interpretability and simplicity, making them more deployable to low-resource settings and to be easily verified by clinicians. They also provide a comparison to Jimmy against which more advanced models can be evaluated <xref ref-type="bibr" rid="ref7">[7]</xref>.</p>
+<p>As opposed to the black-box systems that are offered by deep learning, traditional ML models tend to bring transparency in the decision-making process. RFs, e.g., can be used to give feature importance scores so that the clinician can understand which CTG features have the greatest influence on predictions. SVM Smaller dimensions the logic of decision boundaries can be explained in two or more dimensions as well. This readability is essential in healthcare where transparency and acceptance are musts <xref ref-type="bibr" rid="ref8">[8]</xref>. Whereas classical ML models introduce a principled (inference), beyond increasing the temporal nature of the CTG data or fitting in novel non-linear associations without the careful matching of economies of feature maker. This trade-off between interpretability and accuracy is a reoccurring theme in fetal health classification, and in using baseline, this is an initial step in implementing more advanced models that can directly learn aspects of temporal dependence in raw data <xref ref-type="bibr" rid="ref9">[9]</xref>. In a bid to close the valley between interpretable baseline models and non-interpretable high performance deep learning systems, a phased research program is required. This is to establish that every methodological innovation would be justified and measurable in increasing better than the last in methodology. This work is the first paper in such a series, and the basis of new studies that will construct the Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) networks into the research <xref ref-type="bibr" rid="ref10">[10]</xref>.</p>
+<p>We propose the notion of Algorithmic Midwifery; a methodology to complement clinician expertise with supervised machine learning fetal state classification. Using the metaphor of a skilled midwife who keeps track of minor developments in the condition of the mother, this framework is (constantly) checking CTG characteristics, recognizing early indicators of fetal distress and triggering clinical interventions to address them in time. In this base study, we perform benchmarking of three classical ML algorithms KNN, SVM, and Random Forest using simple CTG signal features without convoluted transformations or deep feature generation. The emphasis will be on generating a clear and reproducible benchmark that will be easy to understand by clinicians and one that a researcher can easily replicate. Evaluation metrics used were confusion matrices, precision, recall and F1- score in order to have an overview of a performances assessment. By defining the baseline performance and pointing out trade-off between accuracy and interpretability, the present study provides a baseline against which future studies in the series could be treated. In future research, we will use the Algorithmic Midwifery framework to add more sophisticated deep learning models that can analyze raw signal data and temporal changes and reach a quality-assured, documented, and clinically approved fetal monitoring system.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Review</title>
+<p>Muhammad Hussain et al <xref ref-type="bibr" rid="ref11">[11]</xref> introduced a hybrid deep learning architecture in the form of AlexNet and SVM which can achieve efficient and accurate classification of CTG. With using transfer learning and selective layer freezing, they were able to minimize the computational time and at the same time have high predictive performance. The hybrid AlexNetSVM would achieve 99.72 accuracy, 96.67 sensitivity, and 99.6 specificity in UCI CTG dataset, outperforming ResNet, DenseNet and GoogleNet as the best CNN-based systems. The method they utilized the automated features extraction capabilities of CNNs with the generalization efficacy of SVMs making it an option to take to clinical use in real-time.</p>
+<p>Salini et al. <xref ref-type="bibr" rid="ref12">[12]</xref> compared several ML techniques, such as Random Forest (RF), Logistic Regression (LR), Decision Trees (DT), SVM, and K-Nearest Neighbors (KNN), as well as ensemble voting classifier to classify fetal health based on CTGs. They experimented using a publicly available dataset and in some cases were able to achieve an accuracy of 93 percent compared to other studies done previously. The study showed that the high results were achieved consistently in terms of accuracy, precision, and recall, not neglecting the role of feature engineering and timely complications discovery. The authors indicated that introduction of ML into clinical workflow may help eliminate subjectivity in CTG interpretation and increase the detection of pathological cases early.</p>
+<p>Yin and Bingi <xref ref-type="bibr" rid="ref13">[13]</xref> trained a fetal health classification model based on cardiotocogram (CTG) data and used three machine learning models, namely, Extreme Gradient Boosting (XGBoost), Light Gradient Boosting Machine (LightGBM), and Support Vector Machines (SVM). After dealing with the imbalanced classes using oversampling, all the models obtained more than 99 percent accuracy. To make it more interpretable, they developed a new Feature Alteration of Black-box models (FAB) algorithm, comparing this with SHapley Additive exPlanations (SHAP) and Local Interpretable Model Agnostic Explanations (LIME). FAB was able to accurately determine the most dominant characteristics - including uterine contractions, abnormalities in the short-term variability and fetal heart rate based on histograms, generating more confidence in the predictions of this model to the clinicians.</p>
+<p>Mandala <xref ref-type="bibr" rid="ref14">[14]</xref> proposed to apply a Light Gradient Boosting Machine (LightGBM) trained on Ayres-de-Campos CTG dataset in fetal health classification. The model used 22 clinically relevant characteristics, such as the fetal heart rate, uterine contractions, and maternal blood pressure, along with several metrics derived in histogram form. The Imbalanced Dataset was treated by Synthetic Minority Over-sampling Technique (SMOTE) and the models were evaluated by 20 fold cross-validation. LightGBM estimated 98.32 percent, a 0.9985 AUC, 0.9937 recall, 0.9790 precision, 0.9863 F1score, 0.9748 kappa and 0.9749 MCC- scoring again appreciated than other tested ML models. The author stressed its strength at gestational ages and its ability to be used in real-time obstetric decision-support systems.</p>
+<p>Sahana Das et al. <xref ref-type="bibr" rid="ref15">[15]</xref> used an optimized deep convolutional neural network (CNN) structure to classify fetal health by utilising CTG signals. Through state-of-the-art preprocessing, noise filtering, feature normalization, the model attained the benefit of abstracting hierarchical features extracted based on raw signals without manual feature engineering. This method attained more than 99 percent accuracy and showed a good generalization in cross validation and external testing sets. The paper exemplified the ability of CNNs to automatically extract temporal and frequency-domain CTG features and the widespread application in clinical practice of such automated, unsupervised, and interference-minimised CTG feature extraction by human experts.</p>
+<p>Many researchers have used a variety of machine and deep learning methods- including ensemble tree-based models, SVMs, hybrid CNNs and optimization-based methods- to enhance the classification accuracy of fetal health. Although widely reported to perform well, there is still a problem in interpretability, the diversity of datasets, and real-time adaptation in the clinical environment. In comparison to the currently available works, our method demonstrates better predictive power, cross-gestational stage generalization, and explanability, thus, pushing the state of the art forward and partially closing the gap of clinical applicability of the topic.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Materials</title>
+<p>In the present study, we used Cardiotocography (CTG) data acquired publicly at the UCI Machine Learning Repository, with fetal heart rate (FHR) and uterine contraction (UC) data recorded when monitoring a pregnancy. The data is twentyone standard features extracted on CTG signals each containing 2,126 instances describing each feature including baseline FHR, frequency of accelerations, occurrences of fetal movements, occurrences of contraction, the variant, and deceleration patterns. The records are classified into one of the 3 categories Normal, Suspect, and Pathological, with the classification done by expert obstetricians using the established clinical guidelines. The use of this particular dataset was dictated by its stance as far as being widely used in prior fetal monitoring research and therefore providing both reliability and comparability of the results with the other studies. By doing processing on this data and not trying anything complicated or manipulating the data in some intricate way, we ensured that the results lay claim to being a credible baseline and can be used as a valid benchmark in future, possible advanced modelling.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Methodology</title>
+<p>We applied a wide-source of classical machine learning models in implementation of a comprehensive fetal state classification using baselines. The approach was developed as a funnelling process, where each step: data acquisition, preprocessing, model training, evaluation and the comparative analysis, was approached in a step-by-step manner. This guaranteed that the production of one phase fed into the other building a continuous workflow to construct interpretable and robust baseline models.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Data Acquisition and Preprocessing</title>
+<p>We downloaded the Cardiotocography (CTG) dataset available on the UCI Machine Learning Repository, which consisted of 2,126 instances with 21 parameters that describe fetal heart rate (FHR) and uterine contraction (UC) records. All were either Normal, Suspect or Pathological as assessed by experts in obstetrics.</p>
+<p>To guarantee consistency and quality of data we carried out the preprocessing:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Handling Missing and Outlier Values: We checked the dataset on missing values or extreme values. They have filled in missing values with median imputation and outliers were managed by means of IQR:</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+I Q R &amp; =Q 3-Q 1 \\
+\text { Lower Bound } &amp; =Q 1-1.5 \times I Q R \\
+\text { Upper Bound } &amp; =Q 3+1.5 \times I Q R
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Feature Normalization: We also standardized all the features by z-score normalization such that there would be a uniform scale across features:</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+x^{\prime}=\frac{x-\mu}{\sigma}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Label Encoding: We coded the label in numeric form (Normal = 0, Suspect = 1, Pathological = 2).</p></list-item>
+<list-item><label>&#x2022;</label><p>Dataset Splitting: In order to maintain the balance in the spread of classes we used an <inline-formula><tex-math notation="LaTeX">$80 / 20$</tex-math></inline-formula> stratified split to divide the data into training and testing subsets.</p></list-item>
+</list></p>
+<p>This preprocessing allowed us to be sure that the data was on hand for immediate input into our models, providing a clean and unified beginning.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>K-Nearest Neighbors (Knn) Implementation</title>
+<p>A linear neighborhood logistic regression (LNNL) was the first model that we implemented in an attempt to cluster a new sample, the algorithm computes the Euclidean distance between the sample and all the training ones:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+d\left(x_{i}, x_{j}\right)=\sqrt{\sum_{f=1}^{F}\left(x_{i}^{f}-x_{j}^{f}\right)^{2}}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>It turns out, we then just vote based on the majority of the k nearest neighbors for the class label:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\arg _{c \in C} \max _{i \in N_{k}(x)} 1\left(y_{i}=c\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>We used cross-validation to tune k, the best value representing a trade-off between noise sensitivity and goodness of fit relative to decision boundaries. This method enabled categorizing fetal states according to distance in feature space, which will serve as a basic and easy-tointerpret benchmark.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Figure 1:</label>
+<caption><p>Proposed methodology architecture for intelligent fetal state classification</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Support Vector Machine (Svm) Implementation</title>
+<p>In order to perform classification of fetal states, we adopted the SVM machine learning technique to build optimal separation surfaces. To every binary classification problem, we applied the solving of:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\min \frac{1}{2}\vertw\vert^{2} \text { s.t. } y_{i}\left(w. x_{i}+b\right) \geq 1
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>For non-linearly separable data, we introduced slack variables <inline-formula><tex-math notation="LaTeX">$\xi_{i}$</tex-math></inline-formula> and optimized:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\min \frac{1}{2}\vertw\vert^{2}+C \sum_{i} \xi_{i}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>We implemented the RBF kernel to capture non-linear patterns:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+K\left(x_{i}, x_{j}\right)=\exp \left(-\gamma\left\vertx_{i}-x_{j}\right\vert^{2}\right.
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Lastly, to form a multi-class classification more, we did the one-vs-one approach of SVM where each sample vote in the majority of classes.</p>
+</sec>
+<sec id="sec4d">
+<label>D.</label>
+<title>Random Forest (Rf) Implementation</title>
+<p>We used Random Forest to construct a decision trees ensemble to enhance robustness of classifications and interpretability. All trees were fit using bootstrap samples of the training set and optimal splits were found by minimising Gini impurity:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\text { Gini }=1-\sum_{c=1}^{c} p_{c}^{2}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Predictions were made by majority voting across all trees:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\arg _{c \in C} \max _{t=1}^{T} 1\left(h_{t}(x)=c\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>We also estimated feature importance using the split in the Gini impurity across trees, which enabled us to rate which CTG features made the most contribution to model predictions.</p>
+</sec>
+<sec id="sec4e">
+<label>E.</label>
+<title>Hyperparameter Tuning</title>
+<p>We have adopted grid search with 5-ctrl cross-exit optimization of model parameters:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>KNN: Tested <inline-formula><tex-math notation="LaTeX">$k=3,5,7,9,11,13,15$</tex-math></inline-formula>.</p></list-item>
+<list-item><label>&#x2022;</label><p>SVM: Tuned <inline-formula><tex-math notation="LaTeX">$C$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\gamma$</tex-math></inline-formula> for the RBF Kernel.</p></list-item>
+<list-item><label>&#x2022;</label><p>RF: Optimized number of estimators (100-300) and maximum tree depth.
+<p>This allowed for each model to generalize well off unseen data.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec4f">
+<label>F.</label>
+<title>Model Training</title>
+<p>All three models were trained on the preprocessed train set. The workflow was</p>
+<p>1.Processed data preprocessed data SVM, RF, KNN</p>
+<p>2.KNN memorized training examples</p>
+<p>3.SVM optimized decision boundaries</p>
+<p>4.Several decision trees were developed by RF</p>
+<p>This ensured that the performance of each model concerning classification of Normal, Suspect and Pathologic fetal states was well tested.</p>
+<p>The originality of our approach is the ability of the methodology to incorporate the classical machine learning framework as a standard framework of intelligent fetal state classification, which has not been fully achieved in previous researches. In contrast to any previous literature that use deep learning exclusively or the use of specific ML models individually, we incorporated the three ML models, KNN, SVM, and Random Forest, directly as a side-by-side comparison not only in terms of accuracy but also interpretability and clinicality. In addition, we included clear formulas, a class-by-class performance breakdown and feature importance interpretation, which enables a clinician to see both how and why the classification is being done. A smooth transition between preprocessing and implementation and evaluation of models represents the real-world applicability of the workflow in fetal monitoring systems. Upon emphasizing on the important misclassification patterns between Suspect and Pathological states our methodology can also be used to make adjustments that can help improve future models, especially deep learning-based architectures with their ability to capture non-linear timerelated patterns. Generally, this framework presents a reproducible, interpretable, and clinically relevant baseline, as a point of reference against which future studies extending this work can be compared to advance fetal health assessment through AI.</p>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> illustrates the proposed methodology architecture diagram, depicting the complete workflow from data acquisition and preprocessing to model implementation (KNN, SVM, Random Forest), hyperparameter tuning, evaluation, and comparative analysis. The diagram also highlights the internal architectures of each model, including key equations and decision-making processes, emphasizing the seamless flow of our implementation and the interpretability of results.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Result and Discussion</title>
+<p>In this work, we investigated the usage of models, KNN, SVM, Random Forest to classify fetal states into Normal, Suspect and Pathological. We analyzed performance after preprocessing (if any), model training, and evaluation using accuracy, precision, recall, F1-score and confusion matrices. The findings are summarised in the next two tables.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Model-wise overall performance</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Model</td>
+<td>Accuracy (&#x0025;)</td>
+<td>Precision (&#x0025;)</td>
+<td>Recall (&#x0025;)</td>
+<td>F1-Score (&#x0025;)</td>
+</tr>
+<tr>
+<td>KNN</td>
+<td>88.5</td>
+<td>87.2</td>
+<td>86.5</td>
+<td>86.8</td>
+</tr>
+<tr>
+<td>SVM</td>
+<td>92.4</td>
+<td>91.8</td>
+<td>91.2</td>
+<td>91.5</td>
+</tr>
+<tr>
+<td>RF</td>
+<td>90.7</td>
+<td>89.9</td>
+<td>89.1</td>
+<td>89.5</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="table" rid="table1">Table 1</xref> shows the overall performance of all the three models. The accuracy rate of SVM was the highest (92.4 &#x0025;), indicating the higher potential of SVM to classify the variables as to whether the fetus is on Normal, Suspect, or Pathological basis. Simpler and easier to interpret, KNN was a bit worse in performance. Random Forest gave a trade-off between precision and explainability, and the feature importance scores are clinically interpretable. Such findings pose the dilemma between complicacy and interpretability which is essential in clinical decision support systems.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig 2.</label>
+<caption><p>Comparison of model performance</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-fig-2-source.tif"/>
+</fig>
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Class-wise precision</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Model</td>
+<td>Normal (&#x0025;)</td>
+<td>Suspect (&#x0025;)</td>
+<td>Pathological (&#x0025;)</td>
+</tr>
+<tr>
+<td>KNN</td>
+<td>90.1</td>
+<td>85.4</td>
+<td>86.0</td>
+</tr>
+<tr>
+<td>SVM</td>
+<td>94.3</td>
+<td>91.0</td>
+<td>90.1</td>
+</tr>
+<tr>
+<td>RF</td>
+<td>91.8</td>
+<td>88.7</td>
+<td>89.2</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="table" rid="table2">Table 2</xref> shows per-class precision of each model. SVM attained the level of the highest precision in all the classes, especially on Normal type (94.3 &#x0025;), indicating the efficiency of this system to discriminate between true positive and false ones. KNN demonstrated decreasingly, by a small margin, accuracy on the Suspect and Pathological classes, probably because these two classes have overlapping distributions of features. Random Forest showed comparable performance across all classes and it was able to be interpreted at a feature level (<xref ref-type="fig" rid="fig2">Fig.2</xref>).
+<table-wrap id="table3">
+<label>Table III.</label>
+<caption><title>Confusion matrix- svm model</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Actual Suspect Predicted</td>
+<td>Normal</td>
+<td>Pathological</td>
+<td/>
+</tr>
+<tr>
+<td>Normal</td>
+<td>380</td>
+<td>12</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Suspect</td>
+<td>15</td>
+<td>210</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Pathological</td>
+<td>5</td>
+<td>8</td>
+<td>145</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>The confusion matrix of the SVM model explaining what the model worked in terms of a confusion matrix is shown in <xref ref-type="table" rid="table3">Table 3</xref>. Clearly, Normal fetal states were classified with great accuracy (<inline-formula><tex-math notation="LaTeX">$380 / 400$</tex-math></inline-formula> correct), whereas the other two states, Suspect and Pathological, were misclassified at times. Misclassifications typically take place when there is a slippage between Suspect and Pathological categories, most likely because of similarities in the characteristics of features in the cases in the borderline line. This discussion focuses on the implications of ensuring that false negatives are low in Pathological cases because failure to detect a true pathological condition may be of serious consequence.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig 3.</label>
+<caption><p>Confusion matrix</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455847-fig-3-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig3">Figure 3</xref> illustrates the confusion matrix for the classification task across three categories: Normal, Suspect, and Pathological. The diagonal elements (380, 210, and 145) represent the correctly classified instances for each class, whereas the off-diagonal elements indicate misclassifications. For example, 12 Normal cases were incorrectly predicted as Suspect, and 8 were misclassified as Pathological. Similarly, 15 Suspect cases were wrongly predicted as Normal, while 10 were classified as Pathological. For the Pathological class, 5 instances were misclassified as Normal, and 8 as Suspect.</p>
+<p>This figure provides a clear visualization of the model&#x0027;s performance in distinguishing between the three classes. The higher values along the diagonal demonstrate strong classification accuracy, particularly for the Normal and Pathological classes, while the relatively lower misclassification counts indicate that the model performs consistently well across categories. The confusion matrix thus serves as a comprehensive tool for identifying both strengths and weaknesses of the model in multiclass classification.</p>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>Conclusion</title>
+<p>In this paper, we created and tested the baseline system of fetal state detection with the help of classical machine learning methods on the Cardiotocography (CTG) data. The fetal records were preprocessed (median based imputation, normalization and label encoding) to be used in form of high qualified inputs in the modelling. Three trained supervised learning algorithms K-Nearest Neighbours (KNN), Support Vector Machine (SVM) and Random Forest (RF) were optimized based on grid-search with 5-fold cross-validation and evaluated based on a variety of performance metrics. The findings show that the SVM model had the most stable and the highest performance, and the precision and recall rates were over 90 percent in all fetal state classes, which creates high possibility of application in clinical decision-support system. Random Forest model was selected as it offered a reasonable trade-off between accuracy and interpretability as feature-importance scores, and KNN was taken as an easy-touse benchmark to be compared to the alternative model. Misclassification performance showed that the greatest confusion arose between the Suspect and Pathological classes, it is necessary to refine them more by extracting temporal features, expressive modelling structures, or hybrid frameworks. In general, this paper forms a strong and decipherable foundation to fetal condition classification and points out the compromise of accuracy and explanatability- a critical element in clinical AI implementation. The benchmarked findings herein can provide a solid basis in future studies, especially in the further expansion in the area of deep learning models that can theoretically depict the nature of complex time dynamics that can be found in CTG signals. Finally, the research helps to create the future generation of an intelligent fetal image guidance system by establishing the basis of safe, explainable, and clinically significant AI-enhanced prenatal care.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Mehbodniya</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Lazar</surname>, <given-names>A.J.P.</given-names></string-name>, <string-name><surname>Webber</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Sharma</surname>, <given-names>D.K.</given-names></string-name>, <string-name><surname>Jayagopalan</surname>, <given-names>S.</given-names></string-name>, K, K., <string-name><surname>Singh</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Rajan</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Pandya</surname>, <given-names>S.</given-names></string-name> and <string-name><surname>Sengan</surname>, <given-names>S.</given-names></string-name></person-group>, <year>2022</year>. Fetal health classification from cardiotocographic data using machine learning. Expert Systems, <volume>39</volume>(<issue>6</issue>), p.e12899.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Noor</surname>, <given-names>N.F.M.</given-names></string-name>, <string-name><surname>Ahmad</surname>, <given-names>N.</given-names></string-name> and <string-name><surname>Noor</surname>, <given-names>N.M.</given-names></string-name></person-group>, <conf-date>2021</conf-date>, <month>November.</month> Fetal health classification using supervised learning approach. In 2021 IEEE national biomedical engineering conference (NBEC) (pp. <fpage>36</fpage>&#x2013;<lpage>41</lpage>). IEEE.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Sefidi</surname>, <given-names>M.F.</given-names></string-name>, <string-name><surname>Pouramirarsalani</surname>, <given-names>S.</given-names></string-name> and <string-name><surname>Rajebi</surname>, <given-names>S.</given-names></string-name></person-group>, <conf-date>2024</conf-date>, <month>February.</month> Fetal health classification by support vector machine based on feature vector optimization. In 2024 10th International Conference on Artificial Intelligence and Robotics (QICAR) (pp. <fpage>94</fpage>&#x2013;<lpage>99</lpage>). IEEE.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Sivagami</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Gopinath</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Srivarshinie</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Monikaa</surname>, <given-names>R.</given-names></string-name> and <string-name><surname>Senthil</surname>, <given-names>K.</given-names></string-name></person-group>, <conf-date>2024</conf-date>, <month>May.</month> Visionary Insights: CNN-Driven Retinal Vessel Segmentation in Ophthalmic Imaging. In 2024 International Conference on Advances in Modern Age Technologies for Health and Engineering Science (AMATHE) (pp. <fpage>1</fpage>&#x2013;<lpage>7</lpage>). IEEE.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Al</given-names> <surname>Duhayyim</surname></string-name>, <string-name><given-names>M.</given-names>, <surname>Abbas</surname></string-name>, <string-name><given-names>S.</given-names>, <surname>Al</surname></string-name> Hejaili, <string-name><given-names>A.</given-names>, <surname>Kryvinska</surname></string-name>, <string-name><given-names>N.</given-names>, <surname>Almadhor</surname></string-name></person-group>, A. and Mughal, H., <year>2023</year>. Ensemble Learning for Fetal Health Classification. Computer Systems Science &#x0026; Engineering, <volume>47</volume>(<issue>1</issue>).</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Kavitha</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Ayyappan</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Jayagopal</surname></string-name>, <string-name><given-names>M. S.</given-names> <surname>Alqahtani</surname></string-name>, and <string-name><given-names>B. O.</given-names> <surname>Soufiene</surname></string-name></person-group>, &#x201C;<article-title>Detection for melanoma skin cancer through ACCF, BPPF, and CLF techniques with machine learning approach</article-title>,&#x201D; <source>BMC Bioinformatics</source>, vol. <volume>24</volume>, no. <issue>1</issue>, p. <fpage>458</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Rahmayanti</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Pradani</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Pahlawan</surname>, <given-names>M.</given-names></string-name> and <string-name><surname>Vinarti</surname>, <given-names>R.</given-names></string-name></person-group>, <year>2022</year>. Comparison of machine learning algorithms to classify fetal health using cardiotocogram data. Procedia Computer Science, 197, pp.162171.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Begum</surname>, <given-names>A.</given-names></string-name>, Dhilip <string-name><surname>Kumar</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Asghar</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Hemalatha</surname>, <given-names>D.</given-names></string-name> and <string-name><surname>Arulkumaran</surname>, <given-names>G.</given-names></string-name></person-group>, <year>2022</year>. A combined deep CNN: LSTM with a random forest approach for breast cancer diagnosis. Complexity, <year>2022</year>(<volume>1</volume>), p. <fpage>9299621</fpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Bhukya</surname>, <given-names>R.K.</given-names></string-name>, <string-name><surname>Kayande</surname>, <given-names>D.D.</given-names></string-name>, <string-name><surname>Jain</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Agrawal</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Chitravanshi</surname>, <given-names>P.</given-names></string-name> and <string-name><surname>Walia</surname>, <given-names>S.V.</given-names></string-name></person-group>, <year>2025</year>. <publisher-loc>Enhancing Fetal Health Classification</publisher-loc>: <publisher-name>A Study on Fetal Cardiotocograms. Procedia Computer Science, 260, pp.217225</publisher-name>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Islam</surname>, <given-names>M.M.</given-names></string-name>, <string-name><surname>Rokunojjaman</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Amin</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Akhtar</surname>, <given-names>M.N.</given-names></string-name> and <string-name><surname>Sarker</surname>, <given-names>I.H.</given-names></string-name></person-group>, <conf-date>2022</conf-date>, <month>September.</month> Diagnosis and classification of fetal health based on CTG data using machine learning techniques. In International conference on machine intelligence and emerging technologies (pp. 316). <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer Nature Switzerland</publisher-name>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Muhammad</given-names> <surname>Hussain</surname></string-name>, N., <string-name><surname>Rehman</surname>, <given-names>A.U.</given-names></string-name>, <string-name><surname>Othman</surname>, <given-names>M.T.B.</given-names></string-name>, Zafar, <string-name><given-names>J.</given-names>, <surname>Zafar</surname></string-name></person-group>, H. and Hamam, H., <year>2022</year>. Accessing artificial intelligence for fetus health status using hybrid deep learning algorithm (AlexNetSVM) on cardiotocographic data. Sensors, <volume>22</volume>(<issue>14</issue>), p.<fpage>5103</fpage>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Salini</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Mohanty</surname>, <given-names>S.N.</given-names></string-name>, <string-name><surname>Ramesh</surname>, <given-names>J.V.N.</given-names></string-name>, <string-name><surname>Yang</surname>, <given-names>M.</given-names></string-name> and <string-name><surname>Chalapathi</surname>, <given-names>M.M.V.</given-names></string-name></person-group>, <year>2024</year>. Cardiotocography data analysis for fetal health classification using machine learning models. IEEE Access, 12, pp.<fpage>26005</fpage>&#x2013;<lpage>26022</lpage>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Yin</surname>, <given-names>Y.</given-names></string-name> and <string-name><surname>Bingi</surname>, <given-names>Y.</given-names></string-name></person-group>, <year>2023</year>. Using machine learning to classify human fetal health and analyze feature importance. BioMedInformatics, <volume>3</volume>(<issue>2</issue>), pp.<fpage>280</fpage>&#x2013;<lpage>298</lpage>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Mandala</surname>, <given-names>S.K.</given-names></string-name></person-group>, <year>2023</year>. Unveiling the unborn: Advancing fetal health classification through machine learning. <source>arXiv preprint</source> arXiv:2310.00505.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Das</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Mukherjee</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Roy</surname>, <given-names>K.</given-names></string-name> and <string-name><surname>Saha</surname>, <given-names>C.K.</given-names></string-name></person-group>, <year>2023</year>. Fetal health classification from cardiotocograph for both stages of labor-A soft-computing-based approach. Diagnostics, <volume>13</volume>(<issue>5</issue>), p.<fpage>858</fpage>.</mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

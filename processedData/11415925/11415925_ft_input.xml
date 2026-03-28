@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/05/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00419</article-id>
+<xplore-article-id>11415925</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>Graph Perspective on Multi-Modal Streams Analysis and Prediction</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Wenhao</given-names> <surname>\(\mathrm{Hu}^{a}\)</surname></string-name>
+<string-name specific-use="index"><given-names>Wenhao</given-names> <surname>\(\mathrm{Hu}^{a}\)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1*"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Junyi</given-names> <surname>Zhang</surname></string-name>
+<string-name specific-use="index"><given-names>Junyi</given-names> <surname>Zhang</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="affb">b</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Zhao</given-names> <surname>Jin</surname></string-name>
+<string-name specific-use="index"><given-names>Zhao</given-names> <surname>Jin</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="affa">a</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Zichen</given-names> <surname>\(\mathrm{Xu}^{a}\)</surname></string-name>
+<string-name specific-use="index"><given-names>Zichen</given-names> <surname>\(\mathrm{Xu}^{a}\)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1*"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Chengbin</given-names> <surname>\(\mathrm{Hu}^{a}\)</surname></string-name>
+<string-name specific-use="index"><given-names>Chengbin</given-names> <surname>\(\mathrm{Hu}^{a}\)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1*"/>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Pingye</given-names> <surname>Wang</surname></string-name>
+<string-name specific-use="index"><given-names>Pingye</given-names> <surname>Wang</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="affa">a</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>a</sup>
+<institution-wrap>
+<institution content-type="institution">School of Mathematics and Computer Science, Nanchang University</institution>
+</institution-wrap>
+, <country>China</country> \\ \{hu_wenhao, jzhao, <email>8008123366\}@email.ncu.edu.cn</email> \\ \{xuz, <email>huchengbin\}@ncu.edu.cn</email></aff>
+<aff id="aff2"><sup>b</sup>
+<institution-wrap>
+<institution content-type="institution">College of Arts and Science, University of North Carolina at Chapel Hill</institution>
+</institution-wrap>
+, USA \\ <email>zjunyi@unc.edu</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-8132-9 &#x00A9; 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11415925_ft.xml</self-uri>
+<self-uri content-type="print">813200d148.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The explosive growth of large-scale, multi-modal data presents an unprecedented opportunity to decode complex dependencies between multi-channel signals and their downstream labels. Despite the volume of data, efficiently and accurately mapping these relationships remains challenging due to heterogeneous scales, modalities, and intricate temporal dynamics. To address this, we developed a rigorous pipeline to process and integrate heterogeneous multi-modal data at different scales into a series of graphs. With this representation, we propose an improved Graph Neural Network (GNN) model that hierarchically aggregates local-to-global features for robust target prediction. We validate the efficacy of our model by conducting prediction experiments on our latest multi-modal dataset, achieving higher accuracy and efficiency than GNN baselines. This work presents a novel graph-based perspective on general multi-modal data mining, highlighting the effectiveness of graph-structured approaches in feature extractions within multimodal, heterogeneous data.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Data Mining</kwd>
+<kwd>Multi-modal Data</kwd>
+<kwd>Graph Neural Network</kwd>
+<kwd>AI for Science</kwd>
+</kwd-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="1"/>
+<equation-count count="9"/>
+<ref-count count="14"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label><title>Introduction</title>
+<sec id="sec1a">
+<label>A.</label><title>Background and Motivation</title>
+<p>Understanding the intricate relationship between multichannel signals and their downstream labels is a central challenge in data-driven science. Recent technological advances, such as high-frame-rate fluorescence imaging, now allow the capture of micro-region temporal dynamics at singleROI resolution within dynamic, in-situ sample environments <xref ref-type="bibr" rid="ref1">[1]</xref>, <xref ref-type="bibr" rid="ref2">[2]</xref>.These datasets offer unprecedented detail, but their immense spatiotemporal complexity and high dimensionality make it difficult for conventional methods to uncover reliable signal-to-label mappings.</p>
+<p>A further limitation of traditional pipelines is their tendency to process each modality in isolation. Approaches designed for imaging-based rarely exploit synchronized contextual labels <xref ref-type="bibr" rid="ref3">[3]</xref>. This approach prevents the integration of heterogeneous, yet highly correlated data sources (e.g., fluorescence traces, temporal waveforms). A comprehensive understanding of the neural underpinnings of behavior requires a holistic analysis that can effectively bridge and unify these diverse data streams.</p>
+<p>To address these limitations, we propose a novel graphstructured approach. By unifying multi-modal, multi-channel stream recordings into a series of graphs, we provide a powerful tool for exploring complex, multi-scale connections between multi-channel signals and corresponding labels. Our main contributions are:
+<list list-type="bullet">
+<list-item><label*>&#x2022;</label><p>Dataset Construction and Processing: We constructed a high-quality, synchronized multi-modal imaging dataset and designed a rigorous computational pipeline for data processing to address the challenges of integrating and standardizing such multi-modal heterogeneous signal sources.</p></list-item>
+<list-item><label*>&#x2022;</label><p>Graph-based Data Expressions: We encode multichannel fluorescence signals as dynamic graphs that capture cross-channel correlations within each time frame, yielding an expressive and interpretable representation.</p></list-item>
+<list-item><label*>&#x2022;</label><p>Improved Prediction Model: Our proposed GNN-based model achieved high accuracy, exceeding 91 &#x0025;, on the downstream prediction task while maintaining superior computational efficiency.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec1b">
+<label>B.</label><title>Paper Structure</title>
+<p>The remainder of this paper is organized as follows: <xref ref-type="sec" rid="sec2">Section II</xref> describes the multi-modal dataset and preprocessing pipeline. <xref ref-type="sec" rid="sec3">Section III</xref> details our research methodology, including signal-wave extraction, channel-label correlation analysis, and the improved GNN predictor. <xref ref-type="sec" rid="sec4">Section IV</xref> presents experimental results in the comparison of the baselines and provides a detailed analysis. <xref ref-type="sec" rid="sec5">Section V</xref> concludes and outlines future directions.</p>
+</sec>
+</sec>
+<sec id="sec2">
+<label>II.</label><title>Data and Preprocessing</title>
+<p>This study is based on a self-collected, synchronous multimodal, multi-channel dataset acquired from in-situ fluorescence recordings. It integrates three core data streams: (1)high-frame-rate fluorescence-image sequences (<inline-formula><tex-math notation="LaTeX">$D_{\text {img }}$</tex-math></inline-formula>) that capture temporal dynamics of micro-regions and their locations; (2)corresponding fluorescence-intensity time series (<inline-formula><tex-math notation="LaTeX">$D_{\text{ca}}$</tex-math></inline-formula>) that reflect discrete signal-value changes for each region of interest (ROI); and (3)synchronous context-label videos (<inline-formula><tex-math notation="LaTeX">$D_{\text {beh }}$</tex-math></inline-formula>) that provide frame-level target annotations.</p>
+<p>To extract clean, ready-to-model signals from the raw imaging data, we designed a rigorous computational pipeline. This process begins with motion artifact correction on the <inline-formula><tex-math notation="LaTeX">$D_{\text {img }}$</tex-math></inline-formula> data <xref ref-type="bibr" rid="ref4">[4]</xref>. From this, two main actions are performed. First, ROI segmentation is performed to delineate individual
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Extract and align signals, processing them into a graph structure</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-fig-1-source.tif"/>
+</fig></p>
+<p>micro-regions (Step (1) in the <xref ref-type="fig" rid="fig1">figure 1</xref>) <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref6">[6]</xref>. After neuropildecontamination for background suppression <xref ref-type="bibr" rid="ref7">[7]</xref>, <xref ref-type="bibr" rid="ref8">[8]</xref>, we calculate the relative fluorescence change for each ROI. This step converts the raw fluorescence intensity into standardized signal data, generating the structured time-series dataset <inline-formula><tex-math notation="LaTeX">$D_{\text{ca}}$</tex-math></inline-formula> (Step (2) in the <xref ref-type="fig" rid="fig1">figure 1</xref>) <xref ref-type="bibr" rid="ref9">[9]</xref>. Concurrently, the context-label video data <inline-formula><tex-math notation="LaTeX">$D_{\text {beh }}$</tex-math></inline-formula> is converted into temporally aligned, frame-wise target labels (Step (3) in the <xref ref-type="fig" rid="fig1">figure 1</xref>).</p>
+<p>To address the inherent differences in scale and granularity among the three data streams, we performed a strict temporal alignment at a certain frequency (Step (4) in the <xref ref-type="fig" rid="fig1">figure 1</xref>). This frequency was determined to be the optimal choice, balancing the imaging field of view against the photobleaching effect of fluorescent proteins, while also considering the intrinsic limitations of data-collecting system. Following data regularization, we employed an innovative method to uniformly represent these aligned, multi-modal data as a series of graphs, thereby laying a solid foundation for subsequent comprehensive analysis.</p>
+<p>After obtaining structured data and their corresponding labels, we built a weighted, undirected graph by calculating the Pearson correlation coefficient between node pairs (Step (5) in <xref ref-type="fig" rid="fig1">figure 1</xref>). In this graph structure, the edges represent the degree of correlation between them. The magnitude of the correlation, which reflects the closeness among nodes, defines the edge weights. This structure is stored in a correlation coefficient matrix. We designed this data structure to facilitate the training of the Graph Neural Network (GNN) models.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label><title>Methodology</title>
+<p>The methodology is designed to address the challenge of extracting effective information from complex, multi-modal,</p>
+<p>multi-channel signals to achieve precise prediction of target labels. This section details the three core steps that we adopted: (1)the extraction and morphological analysis of the signal-waves, (2)the correlation analysis between nodes, and (3)graph-based prediction with our improved GNN models(process shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>).</p>
+<sec id="sec3a">
+<label>A.</label><title>Signal-Wave Extraction and Shape Clustering</title>
+<p>a) Signal-Wave Extraction: The raw fluorescence time series (<inline-formula><tex-math notation="LaTeX">$D_{c a}$</tex-math></inline-formula>) contains both informative pulses and nuisance fluctuations <xref ref-type="bibr" rid="ref6">[6]</xref>. We first apply baseline subtraction, adaptive peak detection, and temporal-validity filters to isolate prominent upward-deflection waves. Each candidate wave is validated by its asymmetry ratio (fast rise vs. slow decay) and duration, ensuring that only physiologically plausible pulses are retained.</p>
+<p>b) Shape Clustering: Validated waves exhibit diverse morphologies. We encode each wave by five param-eters-amplitude, duration, full width at half-maximum (FWHM), rise time, and decay time-reduce the space to two dimensions with Principal Component Analysis (PCA), and apply K-Means algorithm to obtain a compact set of shape prototypes <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref11">[11]</xref>. These prototypes serve as refined features for subsequent correlation and graph construction.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label><title>Channel-Label Correlation Analysis</title>
+<p>To discover which micro-regions carry label-relevant information, we compute the Pearson correlation between the waveoccurrence count of each channel and the frame-wise target label. These coefficients are assembled into a channel-label correlation heatmap (<xref ref-type="fig" rid="fig3">Figure 3</xref>(a)). Regions exhibiting strong positive or negative correlations are deemed task-sensitive and
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Graph generation and model architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-fig-2-source.tif"/>
+</fig></p>
+<p>serve as candidate nodes for graph edges. This step reveals spatially distributed signal modules whose temporal dynamics co-vary with the downstream target, providing a data-driven basis for the subsequent graph construction.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Data preprocessing and correlation analysis</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-fig-3-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label><title>GNN-based Prediction Model</title>
+<p>Our approach is a novel, end-to-end framework for analyzing multi-modal, multi-channel data to predict corresponding labels. It is built upon a graph-structured representation of ROIs and an improved Graph Neural Network (GNN) model for hierarchical feature learning.</p>
+<p>Graph Construction: The foundation of our model is the representation of the aligned multi-modal data as a graph structure. We construct a graph <inline-formula><tex-math notation="LaTeX">$G=(V, E)$</tex-math></inline-formula> for each time frame,</p>
+<p>where each node corresponds to, and the edges represent the strength of correlation between the pairs of nodes. This method unifies disparate data modalities, signal traces, and concurrent labels into a single analytical framework.</p>
+<p>Node Representation: Each node <inline-formula><tex-math notation="LaTeX">$v_{i} \in V$</tex-math></inline-formula> represents an individual micro-region. The initial characteristic vector for each node, denoted as <inline-formula><tex-math notation="LaTeX">$\mathbf{x}_{i} \in \mathbb{R}^{T}$</tex-math></inline-formula>, is the time series of its feature, where <inline-formula><tex-math notation="LaTeX">$T$</tex-math></inline-formula> is the number of time frames in a given session. These feature vectors are normalized to ensure a consistent scale across all regions.</p>
+<p>Edge Definition: The edges of our graph are constructed to represent the functional connectivity between the pairs of nodes. We quantify this relationship using the Pearson correlation coefficient, a standard measure for assessing the linear relationship between two time series. For any pair of nodes, <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$j$</tex-math></inline-formula>, the weight of the edge <inline-formula><tex-math notation="LaTeX">$w_{i j}$</tex-math></inline-formula> is defined as the absolute value of the correlation coefficient between their feature time series, <inline-formula><tex-math notation="LaTeX">$\mathbf{x}_{i}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathbf{x}_{j}$</tex-math></inline-formula>. The absolute value ensures that both positive and negative correlations, which represent shared temporal dynamics, are equally considered based on their strength. The mathematical formulation is as follows:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+w_{i j}=\left|\operatorname{corr}\left(\mathbf{x}_{i}, \mathbf{x}_{j}\right)\right|=\frac{\left|\sum_{t=1}^{T}\left(x_{i t}-\bar{x}_{i}\right)\left(x_{j t}-\bar{x}_{j}\right)\right|}{\sqrt{\sum_{t=1}^{T}\left(x_{i t}-\bar{x}_{i}\right)^{2}} \sqrt{\sum_{t=1}^{T}\left(x_{j t}-\bar{x}_{j}\right)^{2}}}
+\end{equation*}</tex-math></disp-formula></p>
+<p>where <inline-formula><tex-math notation="LaTeX">$x_{i t}$</tex-math></inline-formula> is the calcium activity of neuron <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> at time <inline-formula><tex-math notation="LaTeX">$t$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\bar{x}_{i}$</tex-math></inline-formula> is the mean calcium activity of neuron <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> over the entire time series of length <inline-formula><tex-math notation="LaTeX">$T$</tex-math></inline-formula>.</p>
+<p>To create a sparse and interpretable graph, we employ a thresholding procedure. An edge is established between neuron <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> and neuron <inline-formula><tex-math notation="LaTeX">$j$</tex-math></inline-formula> only if their calculated correlation coefficient <inline-formula><tex-math notation="LaTeX">$w_{i j}$</tex-math></inline-formula> exceeds a predefined threshold <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula>. This process effectively filters out weak, potentially spurious correlations, thereby highlighting the most salient functional connections and reducing the computational complexity for subsequent GNN layers. The resulting weighted adjacency matrix <inline-formula><tex-math notation="LaTeX">$\mathbf{A} \in \mathbb{R}^{N \times N}$</tex-math></inline-formula> is defined as:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+A_{i j}= \begin{cases}w_{i j}, &amp; \text { if } w_{i j} \geq \theta \\ 0, &amp; \text { otherwise }\end{cases}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The threshold <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> is a crucial hyperparameter that balances network density with relevance. The optimal value of <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> is typically determined empirically through a sensitivity analysis or by validating the model&#x0027;s performance on a specific task.</p>
+<p>Graph Feature Aggregation Network: Our model architecture integrates three types of GNN layers to achieve hierarchical feature learning:</p>
+<p>The initial layer is a GCN <xref ref-type="bibr" rid="ref12">[12]</xref>, which aggregates features from a node&#x0027;s immediate neighborhood. This layer&#x0027;s operation is defined as:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathbf{H}^{(l+1)}=\sigma\left(\hat{\mathbf{D}}^{-\frac{1}{2}} \hat{\mathbf{A}} \hat{\mathbf{D}}^{-\frac{1}{2}} \mathbf{H}^{(l)} \mathbf{W}^{(l)}\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p>where <inline-formula><tex-math notation="LaTeX">$\hat{\mathbf{A}}=\mathbf{A}+\mathbf{I}$</tex-math></inline-formula> (the adjacency matrix with self-loops), <inline-formula><tex-math notation="LaTeX">$\hat{\mathbf{D}}$</tex-math></inline-formula> is the degree matrix of <inline-formula><tex-math notation="LaTeX">$\hat{\mathbf{A}}, \mathbf{W}^{(l)}$</tex-math></inline-formula> is a learnable weight matrix, and <inline-formula><tex-math notation="LaTeX">$\sigma(\cdot)$</tex-math></inline-formula> is a non-linear activation function, such as ReLU.</p>
+<p>This layer effectively captures local dependencies and learns an initial embedding of the neuronal population&#x0027;s topology.</p>
+<p>Following the GCN, we employ a GraphSAGE <xref ref-type="bibr" rid="ref13">[13]</xref> layer to broaden the receptive field and aggregate features from a wider, sampled neighborhood. This layer enhances the model&#x0027;s ability to learn robust feature representations. The aggregation rule for a node <inline-formula><tex-math notation="LaTeX">$v_{i}$</tex-math></inline-formula> is given by:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathbf{h}_{i}^{(l+1)}=\sigma\left(\mathbf{W}_{1}^{(l)} \cdot \mathbf{h}_{i}^{(l)}+\mathbf{W}_{2}^{(l)} \cdot \operatorname{AGG}\left(\left\{\mathbf{h}_{j}^{(l)}, \forall j \in \mathcal{N}(i)\right\}\right)\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here, <inline-formula><tex-math notation="LaTeX">$\mathcal{N}(i)$</tex-math></inline-formula> denotes the set of neighbors of node <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>, and AGG (i.e., Aggegate) can be a mean, sum, or max-pooling function. This allows the model to learn from a more diverse set of neighbors, enhancing the expressive power of the features.</p>
+<p>The final GNN layer is a GAT <xref ref-type="bibr" rid="ref14">[14]</xref>, which introduces an attention mechanism to assign different weights to neighboring nodes, highlighting their varying importance. The attention coefficients <inline-formula><tex-math notation="LaTeX">$e_{i j}$</tex-math></inline-formula> between node <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> and neighbor <inline-formula><tex-math notation="LaTeX">$j$</tex-math></inline-formula> are calculated as:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+e_{i j}=\operatorname{LeakyReLU}\left(\mathbf{a}^{T}\left[\mathbf{W} \mathbf{h}_{i} \vert \mathbf{W} \mathbf{h}_{j}\right]\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p>where <inline-formula><tex-math notation="LaTeX">$\mathbf{a}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathbf{W}$</tex-math></inline-formula> are learnable parameters. The attention weights <inline-formula><tex-math notation="LaTeX">$\alpha_{i j}$</tex-math></inline-formula> are then normalized using the softmax function:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\alpha_{i j}=\operatorname{softmax}\left(e_{i j}\right)=\frac{\exp \left(e_{i j}\right)}{\sum_{k \in \mathcal{N}(i)} \exp \left(e_{i k}\right)}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The new feature representation for node <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> is a weighted sum of its neighbors&#x0027; features:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathbf{h}_{i}^{\prime}=\sigma\left(\sum_{j \in \mathcal{N}(i)} \alpha_{i j} \mathbf{W} \mathbf{h}_{j}\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p>This dynamic weighting mechanism allows the model to focus on the most behaviorally relevant neurons, providing a degree of interpretability to the learned representations.</p>
+<p>Model Architecture and Prediction: Our model feeds the graph information, aggregated through the multi-layer GNN, into a Multi-Layer Perceptron (MLP) classifier. This classifier ultimately produces the predicted labels. This end-toend learning paradigm utilizes the most discriminative features from the multi-modal data to achieve high-precision prediction and deeper analysis.</p>
+<p>The complete model architecture (as shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>) feeds the graph information, aggregated through the multilayer GNN, into a Multi-Layer Perceptron (MLP) classifier. A readout function aggregates the final node features from the last GNN layer into a single graph-level representation, <inline-formula><tex-math notation="LaTeX">$\mathbf{h}_{\text {graph }}$</tex-math></inline-formula>, which is then input to the MLP:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathbf{h}_{\text {graph }}=\operatorname{READOUT}\left(\left\{\mathbf{h}_{i}^{(L)}, \forall i \in V\right\}\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p>The MLP classifier maps this representation to the final predicted behavioral states, leveraging the most discriminative features learned from the multi-modal data to achieve highprecision behavioral prediction.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathbf{y}_{\text {pred }}=\operatorname{softmax}\left(\operatorname{MLP}\left(\mathbf{h}_{\text {graph }}\right)\right)
+\end{equation*}</tex-math></disp-formula></p>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Training loss and Validation Accuracy</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-fig-4-source.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label><title>Experiments and Evaluation</title>
+<p>To comprehensively evaluate our proposed method, we conducted a series of rigorous experiments. This section presents the experimental results in detail and provides indepth analysis that demonstrates the effectiveness, superiority, and interpretability of our method.</p>
+<sec id="sec4a">
+<label>A.</label><title>Experimental Setup and Dataset Description</title>
+<p>Experiments were based on a self-collected, synchronous multi-modal dataset acquired from behaving mice. The dataset was synchronized with three types of behavioral labels of mice: Teetering, Rest, and Exploring. The teetering and exploring correspond to states of high anxiety and relative safety, respectively, with the rest representing an intermediate state. To ensure the robustness and generalizability of our findings, we employed a 5 -fold cross-validation methodology. For each fold, we trained the model on 80 &#x0025; of the data and evaluated its performance on the remaining 20 &#x0025;. The primary evaluation metrics included accuracy, F1-score, and confusion matrices for assessing predictive performance, and runtime for evaluating computational efficiency.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label><title>Behavioral Prediction and Performance Analysis</title>
+<p>Our proposed model, which sequentially integrates the GCN, GraphSAGE, and GAT layers, achieved significant performance improvements in the multi-class behavioral classification task compared to individual GNN baselines.</p>
+<table-wrap id="tbl1"><label>TABLE I</label>
+<caption><title>Performance Comparison of Our Model Against GNN Baselines</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Accuracy (&#x0025;)</th>
+<th>F1-score</th>
+<th>Training Time (s/epoch)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GCN</td>
+<td><inline-formula><tex-math notation="LaTeX">$61.3(25)$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$0.58(3)$</tex-math></inline-formula></td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>GraphSAGE</td>
+<td><inline-formula><tex-math notation="LaTeX">$78.5(31)$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$0.77(4)$</tex-math></inline-formula></td>
+<td>1.8</td>
+</tr>
+<tr>
+<td>GAT</td>
+<td><inline-formula><tex-math notation="LaTeX">$90.2(19)$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$0.84(2)$</tex-math></inline-formula></td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Our Model</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{9 1. 1} \pm 1.7$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 0} \pm 0.01$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{1. 5}$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>a) Model Performance Comparison: To demonstrate the superiority of our approach, we compared its performance against three key baselines: a standard GCN, a GraphSAGE, and a GAT model. Each baseline was implemented with a similar number of parameters to ensure a fair comparison.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Confusion matrix of proposed model</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415925-fig-5-source.tif"/>
+</fig></p>
+<p>The results, summarized in <xref ref-type="table" rid="table1">Table I</xref>, reveal a clear performance hierarchy.</p>
+<p>Our model achieved a mean accuracy of <inline-formula><tex-math notation="LaTeX">$\mathbf{9 1. 1 \%}$</tex-math></inline-formula>, demonstrating a substantial improvement over the baselines. Specifically, it outperformed the GCN and GraphSAGE models by more than 18 &#x0025; and 8 &#x0025;, respectively. While the GAT baseline reached a robust accuracy of <inline-formula><tex-math notation="LaTeX">$\mathbf{9 0. 8 \%}$</tex-math></inline-formula>, our model&#x0027;s performance was consistently superior, achieving a slightly higher mean accuracy and a tighter standard deviation, as confirmed by its F1-score of <inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 0}$</tex-math></inline-formula>.</p>
+<p>Furthermore, our model demonstrated a remarkable balance of accuracy and computational efficiency. Despite its sophisticated, multi-layered architecture, it achieved a significantly lower average test time of <inline-formula><tex-math notation="LaTeX">$\mathbf{3 4 7. 6}$</tex-math></inline-formula> seconds, outperforming the GAT model by over 28 &#x0025;. This efficiency gain, coupled with its superior predictive accuracy, underscores the effectiveness of our hierarchical feature aggregation network in capturing inner connections without the overhead associated with more computationally intensive models. The training and validation loss curves in <xref ref-type="fig" rid="fig4">Figure 4</xref> also confirm that our model consistently converges to a low loss, with accuracies stabilizing around 91 &#x0025;, indicating excellent generalization capability without significant overfitting.</p>
+<p>b) Confusion Matrix Analysis and Interpretation: The confusion matrix of our model (<xref ref-type="fig" rid="fig5">Figure 5</xref>) provides a detailed view of its predictive performance for each behavioral class. The matrix reveals very high prediction accuracy along the main diagonal, with recall rates of over 98 &#x0025; for teetering. This indicates that the model has successfully learned the distinct neural signatures corresponding to such state.</p>
+<p>However, the rest of the behavior shows a slightly lower accuracy. As depicted in the confusion matrix, some resting samples are misclassified as either teetering or exploring. This can be attributed to two main factors: (1) The resting mouse often represents a transitional state where the feature of those ROIs may not be as distinct or stable as those for the clearcut teetering behavior; and (2) The smaller number of data samples for this behavior may limit the model&#x0027;s ability to learn a robust representation. Despite this, our model&#x0027;s performance on the rest behavior prediction is still significantly better than the baselines, highlighting its ability to capture subtle and complex patterns.</p>
+<p>In contrast, the confusion matrices for the baseline models were far less favorable. The traditional GCN model, for example, exhibited a high degree of confusion across all three classes, with off-diagonal values being unacceptably high. This underscores the need for a complex feature aggregation network to effectively capture the complex spatiotemporal dynamics of neuronal populations. The ability of our model to hierarchically learn and integrate features from different network neighborhoods provides a powerful mechanism to dissect the intricate links between neural activity and specific behaviors.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label><title>Discussion</title>
+<sec id="sec5a">
+<label>A.</label><title>Conclusion</title>
+<p>In this study, we addressed the challenge of analyzing immense, multi-modal, multi-channel stream data. We introduced an innovative graph-based framework to bridge the gap between such data and their corresponding labels. By creating a synchronous multi-modal dataset from behaving mice and modeling heterogeneous data as a series of graphs, we successfully captured the possible connection between signals and labels.</p>
+<p>We introduce a hierarchical GNN framework that synergistically combines GCN, GraphSAGE, and GAT layers to capture multi-scale interactions from different regions, achieving robust and interpretable prediction tasks from multi modal data. The experimental results, as presented in the previous section, demonstrate the clear superiority of our model.</p>
+<p>Furthermore, we did in-depth analysis in out data, including correlation analysis, data alignment and feature extraction and aggregation. This may offer a novel direction for further researches.</p>
+</sec>
+<sec id="sec5b">
+<label>B.</label><title>Future Work</title>
+<p>Building upon the successes and insights from the study, we propose several potential directions for future research.</p>
+<p>Enhancing Prediction Accuracy for Minority Classes: We will employ data augmentation techniques, such as Generative Adversarial Networks (GANs) or the Adaptive Synthetic (ADASYN) sampling approach, to address data imbalance and improve prediction accuracy for minority-class labels.</p>
+<p>Mining Deeper Topological Encoding Patterns: We aim to apply graph matching algorithms to large-scale topological graphs to identify graph motifs-functional circuits representing specific functions. This will enhance the interpretability of the model and facilitate the exploration of more insightful mechanisms.</p>
+<p>To validate the generalizability and robustness of our methodology, we will apply our graph-based framework to other datasets. This includes datasets from different regions, across diverse species (e.g., primates, fish), and from varying paradigms. Additionally, we plan to move beyond correlational analysis by integrating causal inference methods to establish causal links between neuronal activity and behavior. This will facilitate a deeper elucidation of the operational mechanisms and pave the way for a new generation of interdisciplinary research at the intersection of data mining and others.</p>
+</sec>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>We thank the anonymous reviewers for their constructive feedback. We thank Wei Nie and Bingxing Pan from Nanchang University for providing the latest dataset used to validate the proposed model.</p>
+</ack>
+<ref-list>
+<title*>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Sheldon</surname></string-name>, <string-name><given-names>P. A.</given-names> <surname>Pautsch</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Shlizerman</surname></string-name>, and <string-name><given-names>A. K.</given-names> <surname>Churchland</surname></string-name></person-group>, &#x201C;<article-title>A deep learning framework for inference of single-trial neural population dynamics from calcium imaging with sub-frame temporal resolution</article-title>,&#x201D; <source>eLife</source>, vol. <volume>12</volume>, p. e82488, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Kambara</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Varma</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Noda</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Lee</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Ko</surname></string-name>, <string-name><given-names>H.-K.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>J.-H.</given-names> <surname>Han</surname></string-name>, and <string-name><given-names>J.-W.</given-names> <surname>Park</surname></string-name></person-group>, &#x201C;<article-title>Decoding multi-limb movements from two-photon calcium imaging of neuronal activity using deep learning</article-title>,&#x201D; <source>Journal of Neural Engineering</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Lee</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zhu</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Zong</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Chen</surname></string-name></person-group>, &#x201C;<article-title>Multimodal neuroimaging data integration and pathway analysis</article-title>,&#x201D; <conf-name>Proceedings of the National Academy of Sciences</conf-name>, vol. <volume>118</volume>, no. <issue>8</issue>, <conf-loc>p. e2017367118</conf-loc>, <conf-date>2021</conf-date>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E. A.</given-names> <surname>Pnevmatikakis</surname></string-name> and <string-name><given-names>A.</given-names> <surname>Giovannucci</surname></string-name></person-group>, &#x201C;<article-title>Normcorre: An online algorithm for piecewise rigid motion correction of calcium imaging data</article-title>,&#x201D; <source>Journal of neuroscience methods</source>, vol. <volume>291</volume>, pp. <fpage>83</fpage>&#x2013;<lpage>94</lpage>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Pachitariu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Stringer</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Schr&#x00F6;der</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Dipoppa</surname></string-name>, <string-name><given-names>L. F.</given-names> <surname>Rossi</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Carandini</surname></string-name>, and <string-name><given-names>K. D.</given-names> <surname>Harris</surname></string-name></person-group>, &#x201C;<article-title>Suite2p: beyond 10,000 neurons with standard two-photon microscopy</article-title>,&#x201D; <source>BioRxiv</source>, p. <fpage>061507</fpage>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E. A.</given-names> <surname>Pnevmatikakis</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Soudry</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>T. A.</given-names> <surname>Machado</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Merel</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Pfau</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Reardon</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Mu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Lacefield</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Yang</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Simultaneous denoising, deconvolution, and demixing of calcium imaging data</article-title>,&#x201D; <source>Neuron</source>, vol. <volume>89</volume>, no. <issue>2</issue>, pp. <fpage>285</fpage>&#x2013;<lpage>299</lpage>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.-W.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>T. J.</given-names> <surname>Wardill</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>S. R.</given-names> <surname>Pulver</surname></string-name>, <string-name><given-names>S. L.</given-names> <surname>Renninger</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Baohan</surname></string-name>, <string-name><given-names>E. R.</given-names> <surname>Schreiter</surname></string-name>, <string-name><given-names>R. A.</given-names> <surname>Kerr</surname></string-name>, <string-name><given-names>M. B.</given-names> <surname>Orger</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Jayaraman</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Ultrasensitive fluorescent proteins for imaging neuronal activity</article-title>,&#x201D; <source>Nature</source>, vol. <volume>499</volume>, no. <issue>7458</issue>, pp. <fpage>295</fpage>&#x2013;<lpage>300</lpage>, <year>2013</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Cody</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Kumar</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Tzounopoulos</surname></string-name></person-group>, &#x201C;<article-title>Cortical zinc signaling is necessary for changes in mouse pupil diameter that are evoked by background sounds with different contrasts</article-title>,&#x201D; <source>Journal of Neuroscience</source>, vol. <volume>44</volume>, no. <issue>11</issue>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. A.</given-names> <surname>Dombeck</surname></string-name>, <string-name><given-names>A. N.</given-names> <surname>Khabbaz</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Collman</surname></string-name>, <string-name><given-names>T. L.</given-names> <surname>Adelman</surname></string-name>, and <string-name><given-names>D. W.</given-names> <surname>Tank</surname></string-name></person-group>, &#x201C;<article-title>Imaging large-scale neural activity with cellular resolution in awake, mobile mice</article-title>,&#x201D; <source>Neuron</source>, vol. <volume>56</volume>, no. <issue>1</issue>, pp. <fpage>43</fpage>&#x2013;<lpage>57</lpage>, <year>2007</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Sun</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Zhang</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Liu</surname></string-name></person-group>, &#x201C;<article-title>A hierarchical clustering analysis reveals morphologically distinct subsets of somatostatin interneurons in the mouse cortex</article-title>,&#x201D; <source>Frontiers in Cellular Neuroscience</source>, vol. <volume>16</volume>, p. <fpage>915783</fpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. A.</given-names> <surname>Gallego</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Puthussery</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Geva</surname></string-name>, <string-name><given-names>C. E.</given-names> <surname>Priebe</surname></string-name>, and <string-name><given-names>V.</given-names> <surname>Dragoi</surname></string-name></person-group>, &#x201C;<article-title>Machine learning for neuroscience: principles and applications</article-title>,&#x201D; <source>Nature Reviews Neuroscience</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T. N.</given-names> <surname>Kipf</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Welling</surname></string-name></person-group>, &#x201C;<article-title>Semi-supervised classification with graph convolutional networks</article-title>,&#x201D; in <conf-name>International Conference on Learning Representations (ICLR)</conf-name>, <conf-date>2017</conf-date>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W. L.</given-names> <surname>Hamilton</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Ying</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Leskovec</surname></string-name></person-group>, &#x201C;<article-title>Inductive representation learning on large graphs</article-title>,&#x201D; <source>in Advances in Neural Information Processing Systems (NeurIPS)</source>, vol. <volume>30</volume>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Veli&#x010D;kovi&#x0107</surname>;</string-name>, <string-name><given-names>G.</given-names> <surname>Cucurull</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Casanova</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Romero</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Li&#x00F2</surname>;</string-name>, and <string-name><given-names>Y.</given-names> <surname>Bengio</surname></string-name></person-group>, &#x201C;<article-title>Graph attention networks</article-title>,</article-title>&#x201D; in <conf-name>International Conference on Learning Representations (ICLR)</conf-name>, <conf-date>2018</conf-date>.</mixed-citation></ref>
+</ref-list>
+\page{***}
+</sec>
+</back>
+</conf-article>

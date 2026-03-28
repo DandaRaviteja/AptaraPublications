@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/18/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ITEC-INDIA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-full-title>
+<conf-normalized-title>Transportation Electrification Conference (ITEC-India), 2025 IEEE International</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5400-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-name>
+<conf-start iso-8601-date="2025-09-16"><day>16</day><month>09</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-09-19"><day>19</day><month>09</month><year>2025</year></conf-end>
+<conf-loc><city>Pune</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ITEC-India67626.2025.11439811</article-id>
+<xplore-article-id>11439811</xplore-article-id>
+<xplore-issue>11439063</xplore-issue>
+<xplore-pub-id>11438249</xplore-pub-id>
+<title-group>
+<article-title>Single Stage Isolated on Board EV Charger With PFC</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Yogesh</given-names> <surname>Likhar</surname></string-name>
+<string-name specific-use="index"><given-names>Yogesh</given-names> <surname>Likhar</surname></string-name>
+</name-alternatives>
+<email>ymlikhar@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Suman</given-names> <surname>Saurav</surname></string-name>
+<string-name specific-use="index"><given-names>Suman</given-names> <surname>Saurav</surname></string-name>
+</name-alternatives>
+<email>sumansaurav7791@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Ritesh Kumar</given-names> <surname>Keshri</surname></string-name>
+<string-name specific-use="index"><given-names>Ritesh Kumar</given-names> <surname>Keshri</surname></string-name>
+</name-alternatives>
+<email>riteshkeshri@eee.vnit.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>M.R.</given-names> <surname>Ramteke</surname></string-name>
+</name-alternatives>
+<email>mrramteke@eee.vnit.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Depanment of Electrical Engineering</institution>
+<institution content-type="institution">Visvesvarya National Institute of Technology</institution>
+</institution-wrap>
+<city>Nagpur</city>
+<country>India</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-09-19"><day>19</day><month>Sept.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5400-2/25/$31.00 &#x00A9; 2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11439811_ft.xml</self-uri>
+<self-uri content-type="print">CameraReady_230.pdf</self-uri>
+<abstract xml:lang="en">
+<p>As EVs are gaining importance day by day, significant research and development is ongoing to make the charging process convenient. In onboard EV chargers, power factor correction, isolation, and efficiency are the main concerns. This article presents a single-stage isolated onboard charger to charge the battery in CC-CV mode. The front-end rectifier is removed, and an AC-to-high-frequency AC converter is used. The output of this converter is rectified and controlled for CC-CV charging while maintaining unity power factor. The 3 kW charger is designed and operates in CC-CV mode. The proposed system is validated using simulation results.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>EV Charger</kwd>
+<kwd>Power Factor Correction</kwd>
+<kwd>Electric Vehicle</kwd>
+<kwd>Isolated PFC</kwd>
+<kwd>CC-CV charging</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>Department of Science and Technology, Government of India</institution>
+</institution-wrap>
+</funding-source>
+<award-id>DST/TMD/INDIA/EU/ILES/2020/50</award-id>
+</award-group>
+<funding-statement>Authors would like to acknowledge Department of Science and Technology, Government of India for the financial support under EU-India RE-EMPOWERED Project (File No.: DST/TMD/INDIA/EU/ILES/2020/50).</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="14"/>
+<table-count count="2"/>
+<equation-count count="3"/>
+<ref-count count="15"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label><title>Introduction</title>
+<p>People are shifting from conventional IC engines to electric vehicles, as they provide a clean and cheaper option for transportation. The charger of EVs plays an important role in the process of developing and adapting the EV system. The charger not only is responsible for transferring power from the grid to the vehicle, but it also has to take care of the grid and battery health. The charger should provide galvanic isolation, be able to improve the power factor, and transfer power efficiently. <xref ref-type="bibr" rid="ref1">[1]</xref>.</p>
+<p>The power factor correction unit of a charger is responsible for maintaining unity power factor and keeping total harmonic distortion within the limits specified by IEC standards <xref ref-type="bibr" rid="ref2">[2]</xref>. In most popular EV charger configurations, a front-end diode bridge rectifier is used, followed by a boost converter. This combination is known as boost PFC, which is the simplest, most reliable, and most cost-effective option for lower power ratings <xref ref-type="bibr" rid="ref3">[3]</xref>&#x2013;<xref ref-type="bibr" rid="ref4">[4]</xref>. Several other topologies, such as interleaved, SEPIC, Cuk, and totem-pole PFCs, have been developed in recent years to further improve the power factor correction process efficient. <xref ref-type="bibr" rid="ref5">[5]</xref> <xref ref-type="bibr" rid="ref6">[6]</xref> <xref ref-type="bibr" rid="ref7">[7]</xref> <xref ref-type="bibr" rid="ref8">[8]</xref> <xref ref-type="bibr" rid="ref9">[9]</xref>. For onboard EV chargers, a two-stage conversion process is generally followed. The different topologies used in onboard EV chargers are discussed in <xref ref-type="bibr" rid="ref10">[10]</xref>. Most of these topologies involve a front-end rectifier and PFC, followed by a DC link and an isolated buck conversion stage. The most popular topology in this kind of system is the LLC resonant converter-based charger, as discussed in <xref ref-type="bibr" rid="ref11">[11]</xref>. In <xref ref-type="bibr" rid="ref12">[12]</xref>, the high-frequency transformer analysis of another popular topology, the phase-shift full-bridge converter, is presented. Too many conversion stages and the DC bus in between reduce the overall system&#x0027;s efficiency <xref ref-type="bibr" rid="ref13">[13]</xref>. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows a conventional DC link-based charging system with isolation. In this paper, a converter is used which converts AC to high-frequency AC for power factor correction, and it also provides a high-frequency output that can be isolated from the battery side using a high-frequency compact isolation transformer.In this PFC based isolated charger three back to back connected PI are used. Which together
+<list list-type="ordered">
+<list-item><label>1)</label><p>Convert the AC to DC require for battery <inline-formula><tex-math notation="LaTeX">$\text{CC}-\text{CV}$</tex-math></inline-formula> charging</p></list-item>
+<list-item><label>2)</label><p>Maintain the power factor and THD profile of the supply side.</p></list-item>
+<list-item><label>3)</label><p>provide isolation between grid and the supply side. The most efficient and safe CC-CV method is used to charge the battery <xref ref-type="bibr" rid="ref14">[14]</xref>. The PI controllers are designed using K factor method <xref ref-type="bibr" rid="ref15">[15]</xref>.</p>
+<p>Currently in indian market the available four wheeler segment uses battery bank having around 320 V nominal battery voltage, so charger is designed four that segment. The specifications for this charger is given in <xref ref-type="table" rid="table1">Table 1</xref>. The paper is organized as follows: <xref ref-type="sec" rid="sec2">Section II</xref> presents the basic understanding of the topology used and the control strategies in detail. <xref ref-type="sec" rid="sec3">Section III</xref> provides the simulation results to verify the proposed technique. Finally, Section VI concludes the paper.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>II.</label><title>Topology Used</title>
+<sec id="sec2a">
+<label>A.</label><title>Conventional DC link based Topology</title>
+<p><xref ref-type="fig" rid="fig2">Figure 2</xref> shows the circuit of DC link based two stage EV charger. In this charger, there are two different control systems: one for power factor correction and another for CC-CV charging. <xref ref-type="fig" rid="fig4">Figure 4</xref> shows the PFC control system for the circuit shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>. In this, the PFC unit is responsible for maintaining the DC bus voltage and shaping the supply current (PFC). The DC bus voltage reference is compared with the actual DC bus voltage to generate an error, and a current reference is then generated. A PLL (phase-locked loop) is used to generate a sinusoidal reference for the inductor current. The unit vector from the PLL is multiplied by the output of the PI controller to generate the current reference. This reference current is then compared with the actual inductor current and fed to a PI controller, which produces a gate pulse for the switch (Sw). The other part of this conventional charger, shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>, includes a high-frequency inverter, which converts DC to high-frequency AC. The high-frequency transformer then provides isolation between the grid side and the battery side, after which a rectifier converts it back into DC according to the battery charging requirements. This high-frequency inverter, isolation transformer, and rectifier, along with <inline-formula><tex-math notation="LaTeX">$L_{b}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$C_{o}$</tex-math></inline-formula> form an isolated DC-DC converter that controls the voltage and current during CC-CV charging. <xref ref-type="fig" rid="fig5">Figure 5</xref> shows the CC-CV charging control for the circuit shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>. In <xref ref-type="fig" rid="fig5">Figure 5</xref>, two PI controllers are used. The <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula> is the maximum allowable charging voltage for the battery. It is compared with the actual battery voltage, and if <inline-formula><tex-math notation="LaTeX">$V_{\text {bat }}$</tex-math></inline-formula> is less than <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula>, the PI controller sets the current to its maximum constant current value. After the battery reaches its charging voltage and becomes equal to <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula>, it starts reducing the battery current.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Structure of ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-1-source.tif"/>
+</fig>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Conventional dc link based charger topology</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Circuit of bidirectional charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Control of boost pfc</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-4-source.tif"/>
+</fig>
+<table-wrap id="table1">
+<label>Table I</label>
+<caption><title>Specifications of bidirectional charger</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ac Voltage(V)</td>
+<td>230 V</td>
+</tr>
+<tr>
+<td>Supply Frequency(Hz)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Grid Side Power Factor</td>
+<td>0.99</td>
+</tr>
+<tr>
+<td>Switching Frequency(KHz)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Power Rating</td>
+<td>3 kW</td>
+</tr>
+<tr>
+<td>Inductor <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{s}(m H)$</tex-math></inline-formula></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Battery Nominal Voltage (V)</td>
+<td>320</td>
+</tr>
+<tr>
+<td>Capacitor <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{o}(\mu F)$</tex-math></inline-formula></td>
+<td>5600</td>
+</tr>
+<tr>
+<td>Ripple in Inductor Current (A)</td>
+<td>20&#x0025;</td>
+</tr>
+<tr>
+<td>Ripple in Output Voltage (V)</td>
+<td>5&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Cc-cv control of dc link based charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Circuit of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-6-source.tif"/>
+</fig>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>Switching pattern of single stage charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-7-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec2b">
+<label>B.</label><title>Single Stage Topology</title>
+<p>The control used in the single-stage topology is derived by combining the two stages of the conventional DC link-based topology. <xref ref-type="fig" rid="fig6">Figure 6</xref> shows the circuit diagram of the proposed topology, in which eight switches are connected in both directions to convert AC to high-frequency AC. In this circuit, only a single control system is used in place of two different control systems for the entire circuit control, and three PI controllers are used in total. <xref ref-type="fig" rid="fig7">Figure 7</xref> shows the switching pattern of the single-stage charger during positive and negative 50 Hz AC supply. During the positive AC supply, only four switches - SF1, SF2, SF3, and SF4 are in active mode. The switching frequency of the PWM signal is double that of the high-frequency AC. As shown in <xref ref-type="fig" rid="fig7">Figure 7</xref>, during the first half-cycle of the high-frequency AC output (when Vac is positive), all four switches are turned on, and the inductor starts storing energy. Later, SF2 and SF3 are forced to turn off, and the voltage is connected to the transformer through SF1 and SF4 during this period. Similarly, for the negative high-frequency cycle, SF2 and SF3 remain on to supply power to the battery through the transformer while the inductor releases energy.Similarly, for the negative cycle of the supply voltage, the other four switches become active. <xref ref-type="fig" rid="fig8">Figure 8</xref> shows the control diagram of the single-stage topology for CC-CV charging. In this single-stage charger, the boost mode of operation is used. Similar to a boost converter, during the on-time, the inductor stores energy, and during the offtime, it supplies energy to the battery. The inductor handles both energy storage and input current shaping, so it can be concluded that the inductor current is not a direct source of energy to the battery.In this control system, there are three back-to-back connected controllers. Thus, the supply current must be maintained to keep the battery voltage and current as per the requirements, while ensuring its waveform is sinusoidal. <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula> is compared with <inline-formula><tex-math notation="LaTeX">$V_{\text {bat }}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$I_{\text {batref }}$</tex-math></inline-formula> is generated. This process is similar to the CC-CV charging used for DC link-based chargers. <inline-formula><tex-math notation="LaTeX">$V_{b a t}$</tex-math></inline-formula> denotes the maxi-mum allowable battery voltage, and <inline-formula><tex-math notation="LaTeX">$i_{\text {bat }}$</tex-math></inline-formula> is saturated at its constant current (CC) value. When the battery is discharged, <inline-formula><tex-math notation="LaTeX">$V_{\text {bat }}$</tex-math></inline-formula> is always less than <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula>, causing the controller to start charging in CC mode. When <inline-formula><tex-math notation="LaTeX">$V_{\text {bat }}$</tex-math></inline-formula> reaches <inline-formula><tex-math notation="LaTeX">$V_{\text {batref }}$</tex-math></inline-formula>, the controller starts reducing the battery current. A PI controller is designed between <inline-formula><tex-math notation="LaTeX">$I_{\text {bat }}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$I_{L}$</tex-math></inline-formula> to generate <inline-formula><tex-math notation="LaTeX">$I_{\text {Lref }}$</tex-math></inline-formula>. As shown in <xref ref-type="fig" rid="fig8">Figure 8</xref>, the output of this PI controller is multiplied by the output of the PLL to make its shape sinusoidal. This current reference is then compared with the actual current, and the last PI controller generates the PWM signals. <xref ref-type="table" rid="table2">Table 2</xref> explain the details of all three control loos used in this system.
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8.</label>
+<caption><p>Control system of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-8-source.tif"/>
+</fig>
+<table-wrap id="table2">
+<label>Table II</label>
+<caption><title>Specifications of bidirectional charger</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Loop</th>
+<th>Purpose</th>
+<th>Band Width</th>
+<th>inputs</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outer Voltage Control Loop (CV Loop)</td>
+<td>Controls Output Voltage in CV mode</td>
+<td>20 Hz</td>
+<td>Battery CV threshold Voltage <inline-formula><tex-math notation="LaTeX">$V_{\text {Batref }}$</tex-math></inline-formula> and Battery Measured Voltage <inline-formula><tex-math notation="LaTeX">$V_{\text {Bat }}$</tex-math></inline-formula></td>
+<td>Battery Current Reference <inline-formula><tex-math notation="LaTeX">$I_{\text {Batref }}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Middle Battery Current Control Loop (CC Loop)</td>
+<td>Controls Battery Charging current in CC mode</td>
+<td>500 Hz</td>
+<td>Battery Current Reference <inline-formula><tex-math notation="LaTeX">$I_{\text {Batref }}$</tex-math></inline-formula> and Measured Battery Current <inline-formula><tex-math notation="LaTeX">$I_{\text {Bat }}$</tex-math></inline-formula></td>
+<td>Inductor Current Reference <inline-formula><tex-math notation="LaTeX">$I_{\text {Lref }}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>Inner Inductor Current Control Loop (Inner PFC Loop)</td>
+<td>Regulates inductor current for PFC</td>
+<td>5 KHz</td>
+<td>Inductor Current Reference <inline-formula><tex-math notation="LaTeX">$I_{\text {Lref }}$</tex-math></inline-formula> and Measured Inductor Current <inline-formula><tex-math notation="LaTeX">$I_{L}$</tex-math></inline-formula></td>
+<td>PWM Signal</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig. 9.</label>
+<caption><p>Control system of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-9-source.tif"/>
+</fig>
+<fig id="fig10" position="float" orientation="portrait">
+<label>Fig. 10.</label>
+<caption><p>Control system of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-10-source.tif"/>
+</fig>
+<fig id="fig11" position="float" orientation="portrait">
+<label>Fig. 11.</label>
+<caption><p>Control system of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-11-source.tif"/>
+</fig></p>
+<p>The transfer function of the first stage (voltage loop gain) for this system is described by <xref ref-type="disp-formula" rid="deqn1">Equation (1)</xref> and the step response of the voltage loop is given by <xref ref-type="fig" rid="fig9">Figure 9</xref>.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\frac{V_{o}(s)}{d(s)}=\frac{31850 s+318733}{s^{2}+1785.7 s} \tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The transfer function of the second stage (Battery Current Control Loop) for this system is described by <xref ref-type="disp-formula" rid="deqn2">Equation (2)</xref> and the step response of the battery current control loop) is given by <xref ref-type="fig" rid="fig10">Figure 10</xref>.
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\frac{V_{o}(s)}{d(s)}=\frac{1.566}{s+1.755} \tag{2}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The transfer function of the third stage (Inductor Current Control Loop) for this system is described by <xref ref-type="disp-formula" rid="deqn3">Equation (3)</xref> and the step response of the inductor current control loop) is given by <xref ref-type="fig" rid="fig11">Figure 11</xref>.
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\frac{V_{o}(s)}{d(s)}=\frac{325000}{s^{2}+102400 s} \tag{3}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label><title>Simulation Study</title>
+<p>The simulation of a single-stage isolated EV charger is done in MATLAB Simulink software. <xref ref-type="fig" rid="fig12">Figure 12</xref> shows the AC supply current and voltage, which are in phase with each other. <xref ref-type="fig" rid="fig13">Figure 13</xref> shows the THD analysis of the supply current. In <xref ref-type="fig" rid="fig14">Figure 14</xref>, the CC-CV charging of the battery is shown, in which the charging voltage is set to 338 volts and the constant current is set to 8.5 amps. To reduce the simulation time, a variable resistance is used in place of the battery, and its value is varied continuously to observe the transition from CC to CV charging.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label><title>Conclusion</title>
+<p>In this article, the working and control of a single-stage onboard charger is discussed, along with PFC. The power factor is maintained close to unity, and the THD is approximately 2.1 &#x0025;, which is within acceptable limits as per IEC standards. The <inline-formula><tex-math notation="LaTeX">$\text{CC}-\text{CV}$</tex-math></inline-formula> operation of the charger is also verified.
+<fig id="fig12" position="float" orientation="portrait">
+<label>Fig. 12.</label>
+<caption><p>Input side voltage and current of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-12-source.tif"/>
+</fig>
+<fig id="fig13" position="float" orientation="portrait">
+<label>Fig. 13.</label>
+<caption><p>Thd analysis of input side current</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-13-source.tif"/>
+</fig>
+<fig id="fig14" position="float" orientation="portrait">
+<label>Fig. 14.</label>
+<caption><p>Cc-cv charging of single stage ev charger</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439811-fig-14-source.tif"/>
+</fig>
+</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>Authors would like to acknowledge Department of Science and Technology, Government of India for the financial support under EU-India RE-EMPOWERED Project (File No.: DST/TMD/INDIA/EU/ILES/2020/50).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. S. G.</given-names> <surname>Acharige</surname></string-name>, <string-name><given-names>M. E.</given-names> <surname>Haque</surname></string-name>, <string-name><given-names>M. T.</given-names> <surname>Arif</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Hosseinzadeh</surname></string-name>, <string-name><given-names>K. N.</given-names> <surname>Hasan</surname></string-name> and <string-name><given-names>A. M. T.</given-names> <surname>Oo</surname></string-name></person-group>, &#x201C;<article-title>Review of Electric Vehicle Charging Technologies, Standards, Architectures, and Converter Configurations</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Access</source>, vol. <volume>11</volume>, pp. <fpage>41218</fpage>&#x2013;<lpage>41255</lpage>, <year>2023</year>, doi: <pub-id pub-id-type="doi">10.1109/ACCESS.2023.3267164</pub-id>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Prudenzi</surname></string-name></person-group>, &#x201C;<article-title>IEC Std. 61000-3-2 Harmonic Current Emission Limits in Practical Systems: Need of Considering loading Level and Attenuation Effects</article-title>&#x201D;, in <source>2001 Power Engineering Society Summer Meeting. Conference Proceedings</source>, <conf-date>15-19 July 2001</conf-date>, doi: <pub-id pub-id-type="doi">10.1109/PESS.2001.970026</pub-id>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="webpage" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. A.</given-names> <surname>Rahman</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Stuckler</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Siu</surname></string-name></person-group>, <article-title>PFC boost converter design guide</article-title>, <source>1200 W design example,ser. Application Note. Infineon</source>,<month>Feb.</month> <year>2016</year>. [Online]. Available:<uri>https://www.infineon.com</uri>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Likhar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Saurav</surname></string-name>, <string-name><given-names>M. R.</given-names> <surname>Ramteke</surname></string-name> and <string-name><given-names>R. K.</given-names> <surname>Keshri</surname></string-name></person-group>, &#x201C;<article-title>Comparison of Current Control Techniques in Boost PFC Converter for EV Battery Charging Applications</article-title>,&#x201D; <source specific-use="IEEE">2024 IEEE 4th International Conference on Sustainable Energy and Future Electric Transportation (SEFET)</source>, <conf-loc>Hyderabad, India</conf-loc>, <conf-date>2024</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>5</lpage>, doi: <pub-id pub-id-type="doi">10.1109/SEFET61574.2024.10717942</pub-id>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. B.</given-names> <surname>Sree Chand</surname></string-name>, <string-name><given-names>T. N.</given-names> <surname>Shanavas</surname></string-name> and <string-name><given-names>N.</given-names> <surname>Naufal</surname></string-name></person-group>, &#x201C;<article-title>Power Quality Enhanced EV Charger Using Cuk Converter</article-title>,&#x201D; <source>2021 Fourth International Conference on Microelectronics, Signals Systems (ICMSS)</source>, <conf-loc>Kollam, India</conf-loc>, <conf-date>2021</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>5</lpage>, doi:<pub-id pub-id-type="doi">10.1109/ICMSS53060.2021.9673604</pub-id>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Wanfeng</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Guang</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>Yan-Fei</given-names> <surname>Liu</surname></string-name> and <string-name><given-names>Bin</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>A digital power factor correction (PFC) control strategy optimized for DSP</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>, vol. <volume>19</volume>, no. <issue>6</issue>, pp. <fpage>1474</fpage>&#x2013;<lpage>1485</lpage>, <month>Nov.</month> <year>2004</year>, doi: <pub-id pub-id-type="doi">10.1109/TPEL.2004.836675</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Kushwaha</surname></string-name> and <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name></person-group>, &#x201C;<article-title>An Improved SEPIC PFC Converter for Electric Vehicle Battery Charger</article-title>,&#x201D; <source specific-use="IEEE">2019 IEEE Industry Applications Society Annual Meeting</source>, <conf-loc>Baltimore, MD, USA</conf-loc>, <year>2019</year>, pp. <fpage>1</fpage>&#x2013;<lpage>8</lpage>, doi: <pub-id pub-id-type="doi">10.1109/IAS.2019.8912344</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Vetrivelan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Persson</surname></string-name> and <string-name><given-names>A. Q.</given-names> <surname>Huang</surname></string-name></person-group>, &#x201C;<article-title>Design and Implementation of A <inline-formula><tex-math notation="LaTeX">$5 ~\text{kW} 99.2 \%$</tex-math></inline-formula> Efficient HighDensity GaN-based Totem Pole Interleaved Bridgeless Bidirectional PFC</article-title>,&#x201D; <source specific-use="IEEE">2021 IEEE Applied Power Electronics Conference and Exposition (APEC)</source>, <conf-loc>Phoenix, AZ, USA</conf-loc>, <conf-date>2021</conf-date>, pp. <fpage>1843</fpage>&#x2013;<lpage>1847</lpage>, doi: <pub-id pub-id-type="doi">10.1109/APEC42165.2021.9487295</pub-id>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="webpage" publication-format="online"><person-group person-group-type="author"><collab>TI Designs: TIDA-01604</collab></person-group>, &#x201C;<article-title>98.6 &#x0025; Efficiency, <inline-formula><tex-math notation="LaTeX">$6.6-\text{kW}$</tex-math></inline-formula> TotemPole PFC Reference Design for HEV/EV Onboard Charger</article-title>&#x201D; <source>System Description.Texas Instruments Incorporated</source>,<year>2020</year> [online]. Available:<uri>https://www.ti.com/tool/TIDA-01604</uri>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Safayatullah</surname></string-name>, <string-name><given-names>M. T.</given-names> <surname>Elrais</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ghosh</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Rezaii</surname></string-name> and <string-name><given-names>I.</given-names> <surname>Batarseh</surname></string-name></person-group>, &#x201C;<article-title>A Comprehensive Review of Power Converter Topologies and Control Methods for Electric Vehicle Fast Charging Applications</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Access</source>, vol. <volume>10</volume>, pp. <fpage>40753</fpage>&#x2013;<lpage>40793</lpage>, <year>2022</year>, doi: <pub-id pub-id-type="doi">10.1109/ACCESS.2022.3166935</pub-id>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Musavi</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Craciun</surname></string-name>, <string-name><given-names>D. S.</given-names> <surname>Gautam</surname></string-name> and <string-name><given-names>W.</given-names> <surname>Eberle</surname></string-name></person-group>, &#x201C;<article-title>Control Strategies for Wide Output Voltage Range LLC Resonant DC-DC Converters in Battery Chargers</article-title>,&#x201D; in <source specific-use="IEEE">IEEE Transactions on Vehicular Technology</source>, vol. <volume>63</volume>, no. <issue>3</issue>, pp. <fpage>1117</fpage>&#x2013;<lpage>1125</lpage>, <month>March</month> <year>2014</year>, doi: <pub-id pub-id-type="doi">10.1109/TVT.2013.2283158</pub-id>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Roja</surname></string-name>, <string-name><given-names>M. S.</given-names> <surname>Ansari</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Venkatramanan</surname></string-name> and <string-name><given-names>V.</given-names> <surname>John</surname></string-name></person-group>, &#x201C;<article-title>Design Comparison and Investigations into Thermal Failure of HF Transformers in Isolated DC-DC Converters</article-title>,&#x201D; <source specific-use="IEEE">2024 IEEE International Communications Energy Conference (INTELEC)</source>, <conf-loc>Bengaluru, India</conf-loc>, <conf-date>2024</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, doi: <pub-id pub-id-type="doi">10.1109/INTELEC60315.2024.10679044.keywords:</pub-id>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Park</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>R. M.</given-names> <surname>Hakim</surname></string-name>, <string-name><given-names>H. P.</given-names> <surname>Kieu</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Choi</surname></string-name></person-group>, &#x201C;<article-title>Single-Stage EV On-Board Charger with Single- and Three-Phase Grid Compatibility</article-title>,&#x201D; <source specific-use="IEEE">2021 IEEE Applied Power Electronics Conference and Exposition (APEC)</source>, <conf-loc>Phoenix, AZ, USA</conf-loc>, <conf-date>2021</conf-date>, pp. <fpage>583</fpage>&#x2013;<lpage>589</lpage>, doi: <pub-id pub-id-type="doi">10.1109/APEC42165.2021.9487195</pub-id>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Duan</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Wan</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Song</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Zhu</surname></string-name></person-group>, &#x201C;<article-title>Decoupled Average Current Balancing Method for Interleaved Buck Converters with Dual Closed-Loop Control</article-title>&#x201D; <source specific-use="IEEE">2020 IEEE 9th International Power Electronics and Motion Control Conference (IPEMC2020-ECCE Asia)</source>, <conf-loc>Nanjing, China</conf-loc>, <conf-date>2020</conf-date>, pp. <fpage>578</fpage>&#x2013;<lpage>583</lpage>, doi: <pub-id pub-id-type="doi">10.1109/IPEMCECCEAsia48364.2020.9367656</pub-id>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.-G.</given-names> <surname>Kim</surname></string-name></person-group>, <article-title>Proportional-integral (pi) compensator design of dutycyclecontrolled buck led driver</article-title>, <source specific-use="IEEE">IEEE Transactions on Power Electronics30 (7) (2015)</source> <fpage>3852</fpage>&#x2013;<lpage>3859</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TPEL.2014.2341253</pub-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

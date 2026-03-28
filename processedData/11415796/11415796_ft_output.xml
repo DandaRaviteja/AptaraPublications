@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/27/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00150</article-id>
+<xplore-article-id>11415796</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>LLM-HyPZ: Hardware Vulnerability Discovery Using an LLM-Assisted Hybrid Platform for Zero-Shot Knowledge Extraction and Refinement</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Yu-Zheng</given-names> <surname>Lin</surname></string-name>
+<string-name specific-use="index"><given-names>Yu-Zheng</given-names> <surname>Lin</surname></string-name>
+</name-alternatives>
+<email>yuzhenglin@arizona.edu</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Sujan</given-names> <surname>Ghimire</surname></string-name>
+<string-name specific-use="index"><given-names>Sujan</given-names> <surname>Ghimire</surname></string-name>
+</name-alternatives>
+<email>sghimire@arizona.edu</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Abhiram</given-names> <surname>Nandimandalam</surname></string-name>
+<string-name specific-use="index"><given-names>Abhiram</given-names> <surname>Nandimandalam</surname></string-name>
+</name-alternatives>
+<email>abhiramn@arizona.edu</email>
+<xref ref-type="aff" rid="aff3"><sup>&#x2021;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Jonah Michael</given-names> <surname>Camacho</surname></string-name>
+<string-name specific-use="index"><given-names>Jonah Michael</given-names> <surname>Camacho</surname></string-name>
+</name-alternatives>
+<email>jonahcamacho@arizona.edu</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Unnati</given-names> <surname>Tripathi</surname></string-name>
+<string-name specific-use="index"><given-names>Unnati</given-names> <surname>Tripathi</surname></string-name>
+</name-alternatives>
+<email>utripathi@arizona.edu</email>
+<xref ref-type="aff" rid="aff2"><sup>&#x2020;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Rony</given-names> <surname>Macwan</surname></string-name>
+<string-name specific-use="index"><given-names>Rony</given-names> <surname>Macwan</surname></string-name>
+</name-alternatives>
+<email>ronymacwan@arizona.edu</email>
+<xref ref-type="aff" rid="aff3"><sup>&#x2021;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib7">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Sicong</given-names> <surname>Shao</surname></string-name>
+<string-name specific-use="index"><given-names>Sicong</given-names> <surname>Shao</surname></string-name>
+</name-alternatives>
+<email>sicong.shao@und.edu</email>
+<xref ref-type="aff" rid="aff4"><sup>&#x00B6;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib8">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Setareh</given-names> <surname>Rafatirad</surname></string-name>
+<string-name specific-use="index"><given-names>Setareh</given-names> <surname>Rafatirad</surname></string-name>
+</name-alternatives>
+<email>Srafatirad@ucdavis.edu</email>
+<xref ref-type="aff" rid="aff5"><sup>&#x2016;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib9">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Rozhin</given-names> <surname>Yasaei</surname></string-name>
+<string-name specific-use="index"><given-names>Rozhin</given-names> <surname>Yasaei</surname></string-name>
+</name-alternatives>
+<email>yasaei@arizona.edu</email>
+<xref ref-type="aff" rid="aff3"><sup>&#x2021;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib10">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Pratik</given-names> <surname>Satam</surname></string-name>
+<string-name specific-use="index"><given-names>Pratik</given-names> <surname>Satam</surname></string-name>
+</name-alternatives>
+<email>pratiksatam@arizona.edu</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+<xref ref-type="aff" rid="aff2"><sup>&#x2020;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib11">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Soheil</given-names> <surname>Salehi</surname></string-name>
+<string-name specific-use="index"><given-names>Soheil</given-names> <surname>Salehi</surname></string-name>
+</name-alternatives>
+<email>ssalehi@arizona.edu</email>
+<xref ref-type="aff" rid="aff1">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1">*
+<institution-wrap>
+<institution content-type="department">Department of Electrical and Computer Engineering</institution>
+<institution content-type="institution">University of Arizona</institution>
+</institution-wrap>
+<city>Tucson</city>
+<state>AZ</state>
+<country>USA</country>
+</aff>
+<aff id="aff2"><sup>&#x2020;</sup>
+<institution-wrap>
+<institution content-type="department">Department of Systems and Industrial Engineering</institution>
+<institution content-type="institution">University of Arizona</institution>
+</institution-wrap>
+<city>Tucson</city>
+<state>AZ</state>
+<country>USA</country>
+</aff>
+<aff id="aff3"><sup>&#x2021;</sup>
+<institution-wrap>
+<institution content-type="institution">College of Information Science, University of Arizona</institution>
+</institution-wrap>
+<city>Tucson</city>
+<state>AZ</state>
+<country>USA</country>
+</aff>
+<aff id="aff4"><sup>&#x00B6;</sup>
+<institution-wrap>
+<institution content-type="institution">School of Electrical Engineering and Computer Science, University of North Dakota</institution>
+</institution-wrap>
+<city>Grand Forks</city>
+<state>ND</state>
+<country>USA</country>
+</aff>
+<aff id="aff5"><sup>&#x2016;</sup>
+<institution-wrap>
+<institution content-type="department">Department of Computer Science</institution>
+<institution content-type="institution">University of California Davis</institution>
+</institution-wrap>
+<state>CA</state>
+<country>USA</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>1268</fpage>
+<lpage>1273</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415796_ft.xml</self-uri>
+<self-uri content-type="print">813200b268.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The rapid growth of hardware vulnerabilities has created an urgent need for systematic and scalable analysis methods. Unlike software flaws, which are often patchable post-deployment, hardware weaknesses remain embedded across product lifecycles, posing persistent risks to processors, embedded devices, and IoT platforms. Existing efforts such as the MITRE CWE Hardware List (2021) rely on expert-driven Delphi surveys, which lack statistical rigor and introduce subjective bias, while large-scale data-driven foundations for hardware weaknesses are largely absent. In this work, we propose LLM-HyPZ, an LLM-assisted hybrid framework for zero-shot knowledge extraction and refinement from vulnerability corpora. Our approach integrates zero-shot LLM classification, contextualized embeddings, unsupervised clustering, and prompt-driven summarization to mine hardware-related CVEs at scale. Applying LLM-HyPZ to the 2021-2024 CVE corpus (114,836 entries), we identified 1,742 hardware-related vulnerabilities. We distilled them into five recurring themes, including privilege escalation via firmware and BIOS, memory corruption in mobile and IoT systems, and physical access exploits. Benchmarking across seven LLMs shows that LLaMA 3.370 B achieves near-perfect classification accuracy (99.5 &#x0025;) on a curated validation set. Beyond methodological contributions, our framework directly supported the MITRE CWE Most Important Hardware Weaknesses (MIHW) 2025 update by narrowing the candidate search space. Specifically, our pipeline surfaced 411 of the 1,026 CVEs used for downstream MIHW 2025 analysis, thereby reducing expert workload and accelerating evidence gathering. These results establish LLM-HyPZ as the first data-driven, scalable approach for systematically discovering hardware vulnerabilities, thereby bridging the gap between expert knowledge and real-world vulnerability evidence.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Large Language Models</kwd>
+<kwd>Hardware Security</kwd>
+<kwd>Data Mining</kwd>
+<kwd>Contextualized Embedding</kwd>
+<kwd>Topic Modeling</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>University of Arizona</institution>
+</institution-wrap>
+</funding-source>
+<award-id>0000011862</award-id>
+</award-group>
+<funding-statement>This work was partially supported by the National Science Foundation (NSF) under research project 2335046, the AI-HDL competition hosted by the University of Arizona, and the OpenAI Researcher Access Program 0000011862. We would like to thank Intel researchers Jason Fung, Arun Kanuparthi, and Hareesh Khattri for their valuable expert insights, which greatly informed the development of this work. The authors also acknowledge the MITRE CWE MIHW 2025 working group for their support and collaboration. Finally, we gratefully recognize the AI Verde team at the University of Arizona Data Science Institute for their support and resources.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="30"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The increasing complexity and integration of modern computing platforms have amplified concerns surrounding hardware vulnerabilities, encompassing physical components, micro-architectural features <xref ref-type="bibr" rid="ref1">[1]</xref>, and system-level integrations such as firmware interfaces and heterogeneous computing platforms <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>. Unlike software flaws, which can often be mitigated through post-deployment patches, hardware weaknesses are typically embedded in various stages of chip design, persisting throughout the lifecycle of deployed systems. These latent flaws expose processors, embedded devices, and Internet-of-Things (IoT) platforms to long-term risks, with potential consequences ranging from privilege escalation to denial-of-service attacks. Because remediation after deployment is often infeasible, these vulnerabilities remain entrenched across product lifecycles, posing systemic risks to both consumer and industrial domains. As the ecosystem of connected and heterogeneous devices expands, the number of reported hardware-related vulnerabilities has markedly increased in recent years, underscoring the urgent need for systematic approaches to their identification, classification, and mitigation.</p>
+<p>Recognizing the importance of systematic classification, MITRE released the Common Weakness Enumeration (CWE) Hardware List in 2021 to highlight critical hardware weaknesses <xref ref-type="bibr" rid="ref4">[4]</xref>. However, its construction relied on a modified Delphi process, where experts subjectively ranked weaknesses according to survey questions on prevalence, exploitability, and mitigation difficulty. While expert judgment offers valuable insights, this approach is inherently constrained: it lacks statistical rigor, introduces potential biases, and does not directly reflect the empirical distribution of vulnerabilities reported in the field. In contrast, the well-established CWE Top 25 for software is data-driven, leveraging frequency and severity statistics from the Common Vulnerabilities and Exposures (CVE) and the National Vulnerability Database (NVD). A comparable quantitative foundation has been absent for hardware vulnerabilities, largely due to the limited mapping between CVEs and CWEs in the hardware domain.</p>
+<p>Meanwhile, the CVE corpus has expanded exponentially, now exceeding 100,000 entries with an increasing share involving hardware-level issues. As illustrated in <xref ref-type="fig" rid="fig1">Figure 1</xref>, CVE reports have accelerated sharply over the past decade, particularly from 2017 to 2024, offering a rich source of real-world evidence for uncovering systemic design flaws. Yet this corpus simultaneously poses significant analytical challenges: large scale, semantic ambiguity, and inconsistent terminology hinder robust classification. Descriptions often conflate hardware, firmware, and software, omit technical specifics, or use vague descriptors, complicating automated identification of hardware-related vulnerabilities. Prior studies confirm these limitations, showing that CVE-based analyses frequently struggle with categorization due to sparse labeling, inconsistent metadata, and context-dependent terminology <xref ref-type="bibr" rid="ref3">[3]</xref>, <xref ref-type="bibr" rid="ref5">[5]</xref>&#x2013;<xref ref-type="bibr" rid="ref8">[8]</xref>. As a result, extracting hardware-relevant vulnerabilities and identifying recurring patterns within CVEs remains an unresolved challenge for establishing scalable, systematic security analysis.</p>
+<p>The rapid advancement of Large Language Models (LLMs) has transformed data mining by enabling scalable and interpretable knowledge extraction in domains where labeled data is scarce or contextually ambiguous. Traditional approaches often rely on handcrafted features or supervised pipelines <xref ref-type="bibr" rid="ref9">[9]</xref>, which are constrained by annotation bottlenecks and domain-specific expertise. In contrast, LLMs demonstrate deep contextual understanding of natural language and exhibit strong generalization across tasks without requiring task-specific fine-tuning. Their zero-shot reasoning abilities allow them to perform classification, clustering, and summarization with minimal supervision, thereby lowering the barrier for high-quality data mining in complex textual domains <xref ref-type="bibr" rid="ref10">[10]</xref>&#x2013;<xref ref-type="bibr" rid="ref11"/><xref ref-type="bibr" rid="ref12">[12]</xref>. In cybersecurity, where the scale and diversity of vulnerability reports such as CVE continue to grow rapidly <xref ref-type="bibr" rid="ref13">[13]</xref>, these capabilities of LLMs provide a promising foundation to extract patterns, reveal latent themes, and support scalable security analysis <xref ref-type="bibr" rid="ref14">[14]</xref>. To address the specific challenges of large-scale hardware vulnerability discovery under limited supervision, we propose LLM-HyPZ (LLM-Assisted Hybrid Platform for Zero-Shot Knowledge Extraction and Refinement). This three-stage framework integrates zero-shot classification, contextualized embeddings, and unsupervised clustering. The LLM-HyPZ pipeline begins with prompt-engineered LLMs that perform zero-shot classification of CVE entries, filtering hardware-related vulnerabilities from a corpus of over 100,000 entries reported between 2021 and 2024. The selected hardware CVEs are then represented as high-dimensional semantic vectors using the OpenAI text-embedding-3-large model (3072 dimensions), capturing contextual meaning across diverse vulnerability descriptions. These embeddings are clustered using K-means, with the number of clusters selected via the Elbow method to balance model complexity and cohesion. To ensure interpretability, each cluster undergoes frequency-based n-gram extraction <xref ref-type="bibr" rid="ref15">[15]</xref>&#x2013;<xref ref-type="bibr" rid="ref16"/><xref ref-type="bibr" rid="ref17">[17]</xref>, followed by prompt-driven summarization with GPT5, which generates concise topic labels rooted in hardware security terminology.</p>
+<p>After applying this systematic pipeline to the 2021-2024 CVE corpus, we identified 1,742 potential hardware-related vulnerabilities, which were distilled into five topics. The experimental results demonstrate that LLM-HyPZ can uncover coherent vulnerability clusters and generate interpretable topic labels without requiring labeled training data. This work thus provides the first data-driven perspective on systemic hardware risks derived from real-world vulnerability reports, addressing the limitations of expert-driven methodologies such as the modified Delphi approach in MITRE MIHW 2021 and establishing a scalable foundation for systematic hardware weakness classification.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1:</label>
+<caption><p>Annual growth of reported cves: a rising trend in vulnerability disclosures</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>Recent advances in data-driven cybersecurity have led to a growing interest in automated methods for extracting and organizing insights from large-scale vulnerability datasets. Prior research has explored diverse strategies to address the challenges posed by unstructured CVE descriptions, ranging from traditional rule-based systems to modern machine learning and language modeling approaches. In this section, we review related efforts across two key areas: large-scale vulnerability mining and the use of large language models (LLMs) for data mining tasks.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Large-Scale Vulnerability Knowledge Discovery in CVE Database</title>
+<p>With the rapid growth of CVE entries, prior research has explored rule-based extraction of structured identifiers (e.g., CPEs), topic modeling over vulnerability texts, and sequence labeling for component recognition. Bhurtel and Rawat <xref ref-type="bibr" rid="ref18">[18]</xref> curated OS-specific datasets enriched with CPE, CVSS, and CWE attributes to analyze severity trends across platforms such as Windows and Android. Neuhaus and Zimmermann <xref ref-type="bibr" rid="ref19">[19]</xref> applied latent Dirichlet Allocation (LDA) to uncover temporal vulnerability themes without relying on fixed CWE taxonomies. W&#x00E5;reus et al. <xref ref-type="bibr" rid="ref7">[7]</xref> leveraged Bi-LSTM+CRF models to predict CPE components from unstructured CVE summaries. While effective, these approaches suffer from brittle heuristics, limited semantic granularity, or heavy reliance on labeled data. Moreover, most efforts focus on software vulnerabilities, leaving hardware largely underexplored. In contrast, large language models (LLMs) with contextualized embeddings enable zero/few-shot generalization and semantic-level analysis, providing a more adaptive framework for scalable vulnerability mining.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>LLM-Based Data Mining</title>
+<p>Recent advances in large language models (LLMs) enable scalable, minimally supervised knowledge extraction from unstructured text, contrasting with rule-based or heavily supervised methods that require expert knowledge and labels. Prior work demonstrates their utility across domains: Mallen et al. <xref ref-type="bibr" rid="ref20">[20]</xref> integrate LLMs with dense retrieval for scientific knowledge graphs; Fink et al. <xref ref-type="bibr" rid="ref11">[11]</xref> apply prompt-based pipelines to mine oncologic features from CT reports; and Wan et al. <xref ref-type="bibr" rid="ref21">[21]</xref> introduce TnT-LLM, combining taxonomy induction with zero-shot classification. These frameworks highlight the potential of LLMs for flexible and interpretable text mining at scale. However, in cybersecurity reports and databases, their adoption remains nascent. For this study, the CVE database serves as the primary target. However, CVE descriptions often conflate software, firmware, and hardware elements, making precise categorization difficult. To address this challenge, our work combines zero-shot LLM classification with contextual embeddings and unsupervised clustering to scalably extract hardware-related vulnerabilities from large unlabeled corpora.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Framework</title>
+<p>To address the growing scale and semantic ambiguity of vulnerability databases, we propose LLM-HyPZ, a three-stage data mining framework that leverages LLMs and contextualized embedding techniques to facilitate a structured understanding of hardware-related CVEs. As illustrated in <xref ref-type="fig" rid="fig2">Figure 2</xref>, LLM-HyPZ integrates zero-shot classification, contextualized embedding, unsupervised clustering, and an LLM-based summarizer to allow scalable exploration and interpretation of large vulnerability corpora.</p>
+<p>In Stage 1, a task specific prompt guides a large language model (LLM) to act as a zero-shot classifier, separating candidate vulnerability descriptions into hardware- and software-related lists. In Stage 2, the hardware-related descriptions are embedded using a contextualized word embedding model, followed by K-Means clustering to extract latent semantic patterns. Stage 3 employs word frequency analysis and LLM-based summarization to interpret each cluster, producing both structured reports and visual representations of key knowledge patterns. LLM-HyPZ enables domain experts to identify thematic trends and common characteristics across hardware vulnerabilities without the need for large labeled datasets, offering a scalable, language-driven solution for early-stage vulnerability mining. <xref ref-type="algorithm" rid="alg1">Algorithm 1</xref> presents the end-to-end procedure of the proposed LLM-HyPZ framework.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2:</label>
+<caption><p>Llm-hypz: llm-assisted hybrid platform for zero-shot knowledge extraction and refinement</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-fig-2-source.tif"/>
+</fig></p>
+<algorithm rule="both" id="alg1">
+<label>Algorithm 1</label>
+<title>LLM-HyPZ: Zero-Shot Mining of Hardware Vulnerabilities from CVEs</title>
+<alg-item rule="none" left-indent="0"><p><bold>Require:</bold> CVE corpus <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{\text{CVE}}=\left\{d_{i}\right\}_{i=1}^{n}$</tex-math></inline-formula>; classifier LLM <inline-formula><tex-math notation="LaTeX">$\mathcal{M}_{\text {cls }}$</tex-math></inline-formula>; summarizer LLM <inline-formula><tex-math notation="LaTeX">$\mathcal{M}_{\text {sum }}$</tex-math></inline-formula>; HW/SW classification prompt <inline-formula><tex-math notation="LaTeX">$\rho_{\text{HW} / \text{SW}}$</tex-math></inline-formula>; summary prompt <inline-formula><tex-math notation="LaTeX">$\rho_{\text {sum }}$</tex-math></inline-formula>; embedding model <inline-formula><tex-math notation="LaTeX">$\phi: \mathcal{X} \rightarrow \mathbb{R}^{d_{\phi}}; K$</tex-math></inline-formula> or a selection rule (e.g., Elbow); top- <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula> n-grams.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p><bold>Ensure:</bold> Hardware set <inline-formula><tex-math notation="LaTeX">$\mathcal{X}_{\text{HW}}$</tex-math></inline-formula>; embeddings <inline-formula><tex-math notation="LaTeX">$\mathcal{V}_{\text{HW}}$</tex-math></inline-formula>; clusters <inline-formula><tex-math notation="LaTeX">$\left\{C_{k}\right\}_{k=1}^{K}$</tex-math></inline-formula>; topic labels <inline-formula><tex-math notation="LaTeX">$\left\{T_{k}\right\}_{k=1}^{K}$</tex-math></inline-formula>.</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;1:&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$\mathcal{X}_{\text{HW}} \leftarrow \emptyset$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;2:&#x00A0;&#x00A0;<bold>for</bold> <inline-formula><tex-math notation="LaTeX">$i=1$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$N$</tex-math></inline-formula> <bold>do</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;3:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$z_{i} \leftarrow \mathcal{M}_{\text {cls }}\left(\left[\rho_{\text{HW} / \text{SW}}; d_{i}\right]\right) \quad \triangleright z_{i} \in\{0,1\}$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;4:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<bold>if</bold> <inline-formula><tex-math notation="LaTeX">$z_{i}=1$</tex-math></inline-formula> <bold>then</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;5:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$\mathcal{X}_{\text{HW}} \leftarrow \mathcal{X}_{\text{HW}} \cup\left\{d_{i}\right\}$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;6:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<bold>end if</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;7:&#x00A0;&#x00A0;<bold>end for</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;8:&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$\mathcal{V}_{\text{HW}} \leftarrow\left\{\phi(x) \mid x \in \mathcal{X}_{\text{HW}}\right\} \quad \triangleright$</tex-math></inline-formula> Contextual embeddings</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;9:&#x00A0;&#x00A0;<bold>if</bold> <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> not provided <bold>then</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;10:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$K \leftarrow$</tex-math></inline-formula> SelectKByElbow <inline-formula><tex-math notation="LaTeX">$\left(\mathcal{V}_{\text{HW}}\right)$</tex-math></inline-formula></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;11:&#x00A0;&#x00A0;<bold>end if</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;12:&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$\left\{C_{k}\right\}_{k=1}^{K},\left\{\mu_{k}\right\}_{k=1}^{K} \leftarrow K M e a n s\left(\mathcal{V}_{\text{HW}}, K\right) \triangleright$</tex-math></inline-formula> initialized with K-Means++ for stable centroids</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;13:&#x00A0;&#x00A0;<bold>for</bold> <inline-formula><tex-math notation="LaTeX">$k=1$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> <bold>do</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;14:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$\mathcal{W}_{k} \leftarrow \operatorname{TopNGrams}\left(\left\{x \mid \phi(x) \in C_{k}\right\}, r\right) \quad \triangleright$</tex-math></inline-formula> uni/bi/tri-grams</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;15:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; <inline-formula><tex-math notation="LaTeX">$T_{k} \leftarrow \mathcal{M}_{\text {sum }}\left(\left[\rho_{\text {sum }}; \mathcal{W}_{k}\right]\right) \quad \triangleright$</tex-math></inline-formula> Topic summarize</p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;16:&#x00A0;&#x00A0;<bold>end for</bold></p></alg-item>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;17:&#x00A0;&#x00A0;<bold>return</bold> <inline-formula><tex-math notation="LaTeX">$\mathcal{X}_{\text{HW}}, \mathcal{V}_{\text{HW}},\left\{C_{k}\right\}_{k=1}^{K},\left\{T_{k}\right\}_{k=1}^{K}$</tex-math></inline-formula></p></alg-item>
+</algorithm>
+<sec id="sec3a">
+<label>A.</label>
+<title>Candidate List Selection</title>
+<p>This <xref ref-type="fig" rid="fig3">Figure 3</xref> illustrates a comparative view of the traditional and proposed pipelines to identify hardware-relevant CVEs. In the traditional workflow, candidate CVEs are filtered through predefined rules and subsequently subjected to human review, resulting in limited scalability and difficulty handling semantic ambiguity. In contrast, our proposed method introduces a human-in-the-loop paradigm augmented by a Large Language Model (LLM) conditioned with expert-guided prompts <xref ref-type="bibr" rid="ref22">[22]</xref>. The LLM performs semantic filtering and data discovery to surface candidate vulnerabilities likely related to hardware. In this process, humans will analyze, provide feedback, and validate the model&#x0027;s insights to improve the guidance prompt for LLM. The inclusion of human feedback contributes to a more adaptive and interpretable vulnerability classification system.</p>
+<p>To select candidates for further analysis, we employ a binary classification approach using an LLM with prompt engineering. Specifically, we aim to classify entries in the vulnerability dataset <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{\text {CVE }}=\left\{d_{1}, d_{2}, \ldots, d_{n}\right\}$</tex-math></inline-formula>, where each <inline-formula><tex-math notation="LaTeX">$d_{i}$</tex-math></inline-formula> represents a CVE record. The objective is to identify whether a given CVE pertains to hardware (1) or software (0). For each CVE entry <inline-formula><tex-math notation="LaTeX">$d$</tex-math></inline-formula>, we construct a specialized prompt <inline-formula><tex-math notation="LaTeX">$\rho_{\text{HW} / \text{SW}}$</tex-math></inline-formula> that describes the classification task and provides label context. The input to the LLM is the concatenation of the prompt and the CVE description, denoted as <inline-formula><tex-math notation="LaTeX">$\left[\rho_{\text{HW} / \text{SW}}; d\right]$</tex-math></inline-formula>. The model <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> then outputs a predicted label <inline-formula><tex-math notation="LaTeX">$\hat{y}_{i}=\mathcal{M}\left(\left[\rho_{\text{HW} / \text{SW}}; d_{i}\right], p_{\text {top }}, \tau\right) \in \{0,1\}$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$p_{\text {top }}$</tex-math></inline-formula> denotes the top <inline-formula><tex-math notation="LaTeX">$p$</tex-math></inline-formula> nucleus sampling threshold, and <inline-formula><tex-math notation="LaTeX">$\tau$</tex-math></inline-formula> is the temperature parameter controlling the randomness of generation. This zero-shot inference efficiently filters out non-hardware CVEs without supervised training, enabling scalable pre-screening for hardware-focused security analysis.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3:</label>
+<caption><p>Llm-assisted vs. rule-based pipelines: a comparative view for classifying task in large-scale vulnerability databases</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-fig-3-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Contextualized Word Embedding</title>
+<p>Following the binary classification stage, we isolate CVE entries predicted as hardware-related (<inline-formula><tex-math notation="LaTeX">$\hat{y}=1$</tex-math></inline-formula>) for further representation learning. Let the set of hardware-related CVE texts be denoted as <inline-formula><tex-math notation="LaTeX">$\mathcal{X}_{\text{HW}}=\left\{x_{i} \in \mathcal{X} \mid \hat{y}_{i}=1\right\}$</tex-math></inline-formula>. For each <inline-formula><tex-math notation="LaTeX">$x_{i} \in \mathcal{X}_{\text{HW}}$</tex-math></inline-formula>, we compute a high-dimensional contextual embedding using the embedding model <inline-formula><tex-math notation="LaTeX">$\phi: x \rightarrow \mathbb{R}^{d_{\phi}}$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$d_{\phi}$</tex-math></inline-formula> is the embedding dimensionality. Formally, the contextualized embedding for each hardware CVE is defined as <inline-formula><tex-math notation="LaTeX">$\mathbf{v}_{i}=\phi\left(x_{i}\right)$</tex-math></inline-formula> with <inline-formula><tex-math notation="LaTeX">$\mathbf{v}_{i} \in \mathbb{R}^{d_{\phi}}$</tex-math></inline-formula>. This representation captures semantic information about the vulnerability in a vector space. The resulting set of embeddings <inline-formula><tex-math notation="LaTeX">$\mathcal{V}_{\text{HW}}=\left\{\mathbf{v}_{i}\right\}_{i=1}^{\left|\mathcal{X}_{\text{HW}}\right\vert}$</tex-math></inline-formula> serves as the foundation for downstream analysis.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Clustering Hardware Vulnerabilities with K-Means</title>
+<p>To uncover latent structures within hardware-related vulnerabilities, we apply K-means clustering <xref ref-type="bibr" rid="ref23">[23]</xref> on the set of contextualized embeddings <inline-formula><tex-math notation="LaTeX">$\mathcal{V}_{\text{HW}}=\left\{\mathbf{v}_{i}\right\}_{i=1}^{N}$</tex-math></inline-formula>, where each <inline-formula><tex-math notation="LaTeX">$\mathbf{v}_{i} \in \mathbb{R}^{d_{\phi}}$</tex-math></inline-formula>. K-means partitions the embedding space into <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> disjoint clusters <inline-formula><tex-math notation="LaTeX">$\left\{C_{1}, \ldots, C_{K}\right\}$</tex-math></inline-formula> by minimizing the objective function <inline-formula><tex-math notation="LaTeX">$\sum_{k=1}^{K} \sum_{\mathbf{v}_{i} \in C_{k}}\left\vert\mathbf{v}_{i}-\mu_{k}\right\vert^{2}$</tex-math></inline-formula>, where the centroid of cluster <inline-formula><tex-math notation="LaTeX">$C_{k}$</tex-math></inline-formula> is defined as <inline-formula><tex-math notation="LaTeX">$\mu_{k}=\frac{1}{\left|C_{k}\right\vert} \sum_{\mathbf{v}_{i} \in C_{k}} \mathbf{v}_{i}$</tex-math></inline-formula>. The Elbow Method is used to estimate an optimal <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula>, balancing model complexity and cluster cohesion. The resulting clusters reveal semantically coherent groupings of hardware CVEs, each potentially capturing a distinct vulnerability theme (e.g., firmware bugs, physical interface flaws, or microarchitectural exploits), and serve as interpretable units for downstream analysis in the hardware security domain.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Cluster Summarization Via LLM with Prompt-Based Concept Extraction</title>
+<p>After clustering, we aim to generate concise semantic summaries for each cluster by leveraging an LLM <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> through prompt-based reasoning. For each cluster <inline-formula><tex-math notation="LaTeX">$C_{k}$</tex-math></inline-formula>, we extract the top- <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula> most frequent n -grams (including bigrams and trigrams) from the CVE descriptions within the cluster, forming a representative words set <inline-formula><tex-math notation="LaTeX">$\mathcal{W}_{k}=\left\{w_{1}, w_{2}, \ldots, w_{r}\right\}$</tex-math></inline-formula>. We then define a fixed summarization prompt <inline-formula><tex-math notation="LaTeX">$\rho_{\text {sum }}$</tex-math></inline-formula>, whose role is to guide the LLM toward producing concise, domain-specific topic descriptors. The input to the LLM is the concatenation <inline-formula><tex-math notation="LaTeX">$\left[\rho_{\text {sum }}; \mathcal{W}_{k}\right]$</tex-math></inline-formula>. The output is a cluster-level topic summary <inline-formula><tex-math notation="LaTeX">$T_{k}$</tex-math></inline-formula>, formally defined as <inline-formula><tex-math notation="LaTeX">$T_{k}=\mathcal{M}\left(\left[\rho_{\text {sum }}; \mathcal{W}_{k}\right]\right)$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> generates a natural language summary grounded in the statistical distribution of terms within the cluster. Unlike the classification setting described in our testing task <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{\text {CVE }}$</tex-math></inline-formula>, where the input was <inline-formula><tex-math notation="LaTeX">$[\rho; d]$</tex-math></inline-formula>, here the input omits full CVE descriptions and instead focuses on high-signal lexical patterns aggregated over multiple instances. This summarization procedure enables interpretable, high-level characterizations of clusters in the absence of explicit labels. It also supports downstream applications such as threat taxonomization, expert annotation, or search-based retrieval based on inferred vulnerability.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Experiments</title>
+<sec id="sec4a">
+<label>A.</label>
+<title>LLM Performance Comparison on Validation Dataset</title>
+<p>We consider a validation task specified by a dataset <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{\text{CVE}\_\text{Validation }}=\left\{\left(d_{i}, y_{i}\right)\right\}_{i=1}^{N}$</tex-math></inline-formula>, where each example consists of a CVE description <inline-formula><tex-math notation="LaTeX">$d_{i}$</tex-math></inline-formula> and a binary label <inline-formula><tex-math notation="LaTeX">$y_{i} \in\{0,1\}$</tex-math></inline-formula> indicating whether the vulnerability is hardware-related (<inline-formula><tex-math notation="LaTeX">$y_{i}$</tex-math></inline-formula> = 1) or software-related (<inline-formula><tex-math notation="LaTeX">$y_{i}=0$</tex-math></inline-formula>). In our setting, the dataset contains <inline-formula><tex-math notation="LaTeX">$N=200$</tex-math></inline-formula> manually labeled samples, with 100 hardware-related and 100 software-related CVEs selected from the public CVE database. Details of <inline-formula><tex-math notation="LaTeX">$\mathcal{D}_{\text{CVE}\_\text{Validation }}$</tex-math></inline-formula> are provided in Appendix A of our pre-print <xref ref-type="bibr" rid="ref24">[24]</xref>. Our objective is to benchmark the performance of different large language models <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> on this binary classification task. Given a fixed instruction <inline-formula><tex-math notation="LaTeX">$\rho$</tex-math></inline-formula>, we evaluate how well <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> predicts the correct label <inline-formula><tex-math notation="LaTeX">$\hat{y}_{i} \in \{0,1\}$</tex-math></inline-formula> when prompted with the concatenation <inline-formula><tex-math notation="LaTeX">$\left[\rho_{\text{HW} / \text{SW}}; d_{i}\right]$</tex-math></inline-formula>, for each <inline-formula><tex-math notation="LaTeX">$\left(d_{i}, y_{i}\right) \in \mathcal{D}_{\text{CVE}\_\text{Validation }}=\left\{\left(d_{i}, y_{i}\right)\right\}_{i=1}^{N}$</tex-math></inline-formula>. We define the model&#x0027;s performance using <bold>Accuracy</bold>, computed as Accuracy <inline-formula><tex-math notation="LaTeX">$=\frac{T P+T N}{T P+T N+F P+F N}$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$T P, T N, F P$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$F N$</tex-math></inline-formula> denote true positives, true negatives, false positives, and false negatives, respectively.</p>
+<p>The HW/SW classification prompt (<inline-formula><tex-math notation="LaTeX">$\rho_{\text{HW} / \text{SW}}$</tex-math></inline-formula>) defined with persona, reflection and template pattern <xref ref-type="bibr" rid="ref25">[25]</xref>, which follows the <inline-formula><tex-math notation="LaTeX">$\rho_{\text{HW} / \text{SW}}$</tex-math></inline-formula> defined in our pre-print <xref ref-type="bibr" rid="ref24">[24]</xref>. The temperature parameter to <inline-formula><tex-math notation="LaTeX">$\tau=0.6$</tex-math></inline-formula> and the nucleus sampling threshold to <inline-formula><tex-math notation="LaTeX">$p_{\text {top }}=0.2$</tex-math></inline-formula>. <xref ref-type="fig" rid="fig4">Figure 4</xref> reports the accuracy of large language models <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> on the zero-shot HW/SW classification task defined in <inline-formula><tex-math notation="LaTeX">$D_{\text{CVE}\_\text{Validation. All models were evaluated under identical }}$</tex-math></inline-formula> prompt conditions using the fixed instruction <inline-formula><tex-math notation="LaTeX">$\rho_{\text{HW} / \text{SW}}$</tex-math></inline-formula> and default parameters. The OpenAI models were accessed via the official API <xref ref-type="bibr" rid="ref26">[26]</xref>, while the LLaMA series was obtained through the AI Verde platform <xref ref-type="bibr" rid="ref27">[27]</xref>. Results indicate that comparatively newer models, including <monospace>LLaMA3.3 70B, GPT-4-Turbo</monospace>, and <monospace>GPT-4o</monospace>, achieve near-perfect accuracy, whereas smaller or earlier models, such as <monospace>GPT-3.5-Turbo</monospace> and <monospace>LLaMA3.2 3B</monospace>, achieve lower accuracies of 0.72 and 0.61. This underscores the impact of model scale and architectural progression on performance.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4:</label>
+<caption><p>From model benchmarking to clustering analysis of hardware-related vulnerabilities. (a) benchmarking llms on zero-shot hw/sw classification. (b) k-means clustering with t-sne visualization of hardware-related cves identified by the top model (llama3.3 70b).</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-fig-4-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Discovering Hardware Vulnerability Topics in the 2021-2024 Cve Corpus Using LLM-HyPZ</title>
+<p>Building upon the benchmark results, we applied the best-performing model, <monospace>LLaMA 3.370 B</monospace>, to perform large-scale inference on the complete CVE corpus from 2021 to 2024. This dataset contains 114,836 publicly disclosed CVE entries, from which we identified 1,742 entries predicted as hardware-related by the classifier under the zero-shot prompt.</p>
+<p>After obtaining the hardware-related CVEs from 2021 to 2024, we began by embedding the 1,742 candidate CVE descriptions using the OpenAI model <monospace>text-embedding-large</monospace>, resulting in contextualized semantic vectors suitable for downstream clustering. K-means clustering was then applied, with the number of clusters set to <inline-formula><tex-math notation="LaTeX">$k=5$</tex-math></inline-formula>, as determined by the Elbow Method <xref ref-type="bibr" rid="ref28">[28]</xref>. To uncover the semantics within each cluster, we performed an n -gram frequency analysis over the CVE descriptions, extracting the top 15 most frequent uni-, bi-, and tri-grams. These keywords revealed prominent lexical patterns associated with distinct categories of hardware vulnerabilities, and the keyword distributions exhibited clear distinctions between clusters.
+<table-wrap id="table1">
+<label>Table I:</label>
+<caption><title>Top 15 n -gram keywords and llm-generated topic summaries with gpt5 of five clusters.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Top 15 Keywords</th>
+<th>LLM-based Topic Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$T_{0}$</tex-math></inline-formula></td>
+<td>access, local, user, privileged, privileged user, firmware, privilege, escalation, escalation privilege, bios, service, denial service, denial, local access, user enable</td>
+<td>Physical Access Exploitation of Firmware and Hardware Control</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$T_{1}$</tex-math></inline-formula></td>
+<td>iot, modem, mobile, memory, connectivity, auto, consumer, industrial, industrial iot, memory corruption, corruption, compute, security, data, attack</td>
+<td>Memory Corruption in IoT and Mobile Connectivity Systems</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$T_{2}$</tex-math></inline-formula></td>
+<td>access, device, information, physical, service, firmware, data, control, denial, user, authentication, hardware, security, confidentiality, attack</td>
+<td>Insecure Physical and Firmware Access Leading to Confidentiality and Availability Compromise</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$T_{3}$</tex-math></inline-formula></td>
+<td>memory, access, execution, information, user, service, corruption, local, denial, read, data, disclosure, code, information disclosure, arbitrary</td>
+<td>Memory Access and Corruption Leading to Arbitrary Code Execution and Information Disclosure</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$T_{4}$</tex-math></inline-formula></td>
+<td>access, exploit, arbitrary, disclosure, privileges, firmware, vulnerabilities, escalation, bios, code, execution, service, denial, denial service, information</td>
+<td>Firmware Privilege Escalation and Denial-of-Service via BIOS Exploitation</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table II:</label>
+<caption><title>Representative cves closest to cluster centroids based on semantic similarity</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415796-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Topic 0</th>
+<th>Topic 1</th>
+<th>Topic 2</th>
+<th>Topic 3</th>
+<th>Topic 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CVE-2021-0091</td>
+<td>CVE-2021-1892</td>
+<td>CVE-2021-33478</td>
+<td>CVE-2021-26372</td>
+<td>CVE-2022-23924</td>
+</tr>
+<tr>
+<td>CVE-2021-0154</td>
+<td>CVE-2021-1948</td>
+<td>CVE-2022-0183</td>
+<td>CVE-2021-26402</td>
+<td>CVE-2022-23925</td>
+</tr>
+<tr>
+<td>CVE-2021-0158</td>
+<td>CVE-2021-30341</td>
+<td>CVE-2022-25831</td>
+<td>CVE-2021-33626</td>
+<td>CVE-2022-23926</td>
+</tr>
+<tr>
+<td>CVE-2021-0187</td>
+<td>CVE-2022-25682</td>
+<td>CVE-2023-20589</td>
+<td>CVE-2021-46764</td>
+<td>CVE-2022-23927</td>
+</tr>
+<tr>
+<td>CVE-2022-26006</td>
+<td>CVE-2022-25695</td>
+<td>CVE-2023-21513</td>
+<td>CVE-2022-23820</td>
+<td>CVE-2022-23928</td>
+</tr>
+<tr>
+<td>CVE-2022-26837</td>
+<td>CVE-2022-25724</td>
+<td>CVE-2023-47616</td>
+<td>CVE-2022-23821</td>
+<td>CVE-2022-23930</td>
+</tr>
+<tr>
+<td>CVE-2022-32766</td>
+<td>CVE-2022-25727</td>
+<td>CVE-2023-52101</td>
+<td>CVE-2023-31342</td>
+<td>CVE-2022-23931</td>
+</tr>
+<tr>
+<td>CVE-2022-33894</td>
+<td>CVE-2023-26497</td>
+<td>CVE-2024-21483</td>
+<td>CVE-2023-31343</td>
+<td>CVE-2022-23932</td>
+</tr>
+<tr>
+<td>CVE-2023-22449</td>
+<td>CVE-2023-41111</td>
+<td>CVE-2024-53651</td>
+<td>CVE-2023-31345</td>
+<td>CVE-2022-23933</td>
+</tr>
+<tr>
+<td>CVE-2023-43758</td>
+<td>CVE-2023-41112</td>
+<td>CVE-2024-53832</td>
+<td>CVE-2022-39854</td>
+<td>CVE-2022-23934</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</p>
+<p>Building on these statistical patterns, we remove noise such as brand and product names, and use the summarization procedure described in <xref ref-type="sec" rid="sec3d">Section III-D</xref> to generate concise, interpretable topic labels.For each cluster <inline-formula><tex-math notation="LaTeX">$C_{k}$</tex-math></inline-formula>, the corresponding n -gram set <inline-formula><tex-math notation="LaTeX">$\mathcal{W}_{k}$</tex-math></inline-formula> was appended to the fixed prompt <inline-formula><tex-math notation="LaTeX">$\rho_{\text {sum }}$</tex-math></inline-formula>, which follows <inline-formula><tex-math notation="LaTeX">$\rho_{\text {sum }}$</tex-math></inline-formula> defined in our pre-print <xref ref-type="bibr" rid="ref24">[24]</xref>, and then input to the large language model <inline-formula><tex-math notation="LaTeX">$\mathcal{M}$</tex-math></inline-formula> (GPT-5). The model produced topic summaries <inline-formula><tex-math notation="LaTeX">$T_{k}$</tex-math></inline-formula> that abstracted root causes using accurate domain-relevant terminology. The five resulting topics are shown in <xref ref-type="table" rid="table1">Table I</xref>. We further visualized the clustering structure using t -distributed stochastic neighbor embedding (t-SNE) <xref ref-type="bibr" rid="ref29">[29]</xref>, which projected the high-dimensional vectors into two dimensions. As shown in <xref ref-type="fig" rid="fig4">Figure 4b</xref>, each point corresponds to a CVE and is color-coded by its cluster assignment.</p>
+<p>Lastly, to provide concrete examples of each cluster, we identified ten representative CVE entries closest to the cluster centroids based on cosine similarity in the embedding space. These entries are listed in <xref ref-type="table" rid="table2">Table II</xref>, which provides insight into the dominant patterns underlying each topic.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>In this work, we presented LLM-HyPZ, a hybrid framework that leverages large language models and contextualized embeddings for zero-shot classification and clustering, enabling large-scale mining of cybersecurity corpora. Our experimental results demonstrate that the framework can effectively identify and organize hardware vulnerabilities into semantically coherent clusters without requiring labeled data, offering a scalable alternative to expert-driven methodologies.</p>
+<p>Importantly, this framework directly supported the CWE Most Important Hardware Weaknesses (MIHW) 2025 update <xref ref-type="bibr" rid="ref30">[30]</xref>. By applying LLM-HyPZ to the CVE corpus from 2021-2024, we systematically narrowed down the search space for human experts. Our method filtered and candidate CVEs, enabling reviewers to focus on a tractable subset.After human validation, 1,026 CVE records were selected as the basis for downstream analysis in the MIHW process, and our contribution accounts for 411 of these. In other words, our pipeline directly surfaced 411 of the 1,026 CVEs incorporated into the MIHW 2025 workflow, thus reducing expert effort and accelerating evidence gathering. This demonstrates the value of AI-assisted data collection and analysis in establishing a more rigorous and scalable foundation for the MIHW selection process, complementing expert knowledge with data-driven evidence. A detailed list of the identified HW CVE records can be found in Appendix B of our pre-print <xref ref-type="bibr" rid="ref24">[24]</xref>.</p>
+<p>Despite these strengths, several limitations remain. First, CVE entries often blur hardware, firmware, and software boundaries, creating nontrivial ambiguity that still requires human validation in borderline cases. Second, reliance on large models such as <monospace>LLaMA-3.3-70B</monospace> and <monospace>GPT-4O</monospace> incurs high computational and financial costs, hindering large-scale deployment. Third, the fixed-cluster assumption in our method may not reflect the evolving taxonomy of hardware weaknesses. Future work will address these issues by exploring ensemble classification (e.g., majority voting across LLMs), multi-label and hierarchical schemes for hybrid vulnerabilities, and document-level zero-shot classification for finer granularity. We also plan to develop lightweight inference pipelines to balance accuracy with efficiency, supporting scalable integration of LLM-assisted mining with community standards such as CWE for sustainable, interpretable hardware security analysis.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>This work was partially supported by the National Science Foundation (NSF) under research project 2335046, the AI-HDL competition hosted by the University of Arizona, and the OpenAI Researcher Access Program 0000011862. We would like to thank Intel researchers Jason Fung, Arun Kanuparthi, and Hareesh Khattri for their valuable expert insights, which greatly informed the development of this work. The authors also acknowledge the MITRE CWE MIHW 2025 working group for their support and collaboration. Finally, we gratefully recognize the AI Verde team at the University of Arizona Data Science Institute for their support and resources.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N.</given-names> <surname>Potlapally</surname></string-name></person-group>, &#x201C;<article-title>Hardware security in practice: Challenges and opportunities</article-title>,&#x201D; in <source specific-use="IEEE">2011 IEEE International Symposium on Hardware-Oriented Security and Trust</source>. <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2011</conf-date>, pp. <fpage>93</fpage>&#x2013;<lpage>98</lpage>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Rosenfeld</surname></string-name> and <string-name><given-names>R.</given-names> <surname>Karri</surname></string-name></person-group>, &#x201C;<article-title>Attacks and defenses for jtag</article-title>,&#x201D; <source specific-use="IEEE">IEEE Design &#x0026; Test of Computers</source>, vol. <volume>27</volume>, no. <issue>1</issue>, pp. <fpage>36</fpage>&#x2013;<lpage>47</lpage>, <year>2010</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I.</given-names> <surname>Bojanova</surname></string-name></person-group>, &#x201C;<article-title>Comprehensively labeled weakness and vulnerability datasets via unambiguous formal bugs framework specifications</article-title>,&#x201D; <source>IT Professional</source>, vol. <volume>26</volume>, no. <issue>1</issue>, pp. <fpage>60</fpage>&#x2013;<lpage>68</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><collab>MITRE</collab></person-group>, &#x201C;<source>2021 cwe most important hardware weaknesses</source>,&#x201D; <month>Aug</month> <year>2021</year>. [Online]. Available: <uri>https://cwe.mitre.org/topHW/archive/2021/2021_CWE_MIHW.html</uri></mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Dessouky</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Gens</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Haney</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Persyn</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Kanuparthi</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Khattri</surname></string-name>, <string-name><given-names>J. M.</given-names> <surname>Fung</surname></string-name>, <string-name><given-names>A.-R.</given-names> <surname>Sadeghi</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Rajendran</surname></string-name></person-group>, &#x201C;<article-title>{HardFails}: insights into {software-exploitable} hardware bugs</article-title>,&#x201D; in <source>28th USENIX Security Symposium (USENIX Security 19)</source>, <conf-date>2019</conf-date>, pp. <fpage>213</fpage>&#x2013;<lpage>230</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Bao</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Xia</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Cai</surname></string-name></person-group>, &#x201C;<article-title>Categorizing and predicting invalid vulnerabilities on common vulnerabilities and exposures</article-title>,&#x201D; in <source>2018 25th Asia-Pacific Software Engineering Conference (APSEC)</source>. <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2018</conf-date>, pp. <fpage>345</fpage>&#x2013;<lpage>354</lpage>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E.</given-names> <surname>W&#x00E5;reus</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Hell</surname></string-name></person-group>, &#x201C;<article-title>Automated cpe labeling of cve summaries with machine learning</article-title>,&#x201D; in <source>Detection of Intrusions and Malware, and Vulnerability Assessment: 17th International Conference, DIMVA 2020, Lisbon, Portugal, June 24-26, 2020, Proceedings 17</source>. <conf-sponsor>Springer</conf-sponsor>, <conf-date>2020</conf-date>, pp. <fpage>3</fpage>&#x2013;<lpage>22</lpage>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Yitagesu</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Xing</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Feng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Han</surname></string-name></person-group>, &#x201C;<article-title>Unsupervised labeling and extraction of phrase-based concepts in vulnerability descriptions</article-title>,&#x201D; in <source specific-use="IEEE">2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)</source>. <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2021</conf-date>, pp. <fpage>943</fpage>&#x2013;<lpage>954</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.-S.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Han</surname></string-name>, and <string-name><given-names>P. S.</given-names> <surname>Yu</surname></string-name></person-group>, &#x201C;<article-title>Data mining: an overview from a database perspective</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Knowledge and data Engineering</source>, vol. <volume>8</volume>, no. <issue>6</issue>, pp. <fpage>866</fpage>&#x2013;<lpage>883</lpage>, <year>2002</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Kojima</surname></string-name>, <string-name><given-names>S. S.</given-names> <surname>Gu</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Reid</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Matsuo</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Iwasawa</surname></string-name></person-group>, &#x201C;<article-title>Large language models are zero-shot reasoners</article-title>,&#x201D; <source>Advances in neural information processing systems</source>, vol. <volume>35</volume>, pp. <fpage>22 199</fpage>&#x2013;<lpage>22 213</lpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. A.</given-names> <surname>Fink</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Bischoff</surname></string-name>, <string-name><given-names>C. A.</given-names> <surname>Fink</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Moll</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Kroschke</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Dulz</surname></string-name>, <string-name><given-names>C. P.</given-names> <surname>Heu&#x00DF;el</surname></string-name>, <string-name><given-names>H.-U.</given-names> <surname>Kauczor</surname></string-name>, and <string-name><given-names>T. F.</given-names> <surname>Weber</surname></string-name></person-group>, &#x201C;<article-title>Potential of chatgpt and gpt-4 for data mining of free-text ct reports on lung cancer</article-title>,&#x201D; <source>Radiology</source>, vol. <volume>308</volume>, no. <issue>3</issue>, p. <fpage>e231362</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Tang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Han</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Jiang</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>Hu</surname></string-name></person-group>, &#x201C;<article-title>Does synthetic data generation of 11 ms help clinical text mining?</article-title>&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2303.04360</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="confpaper" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Khoury</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Vignau</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Hall&#x00E9;</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Hamou-Lhadj</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Razgallah</surname></string-name></person-group>, &#x201C;<article-title>An analysis of the use of cves by iot malware</article-title>,&#x201D; in <source>Foundations and Practice of Security: 13th International Symposium, FPS 2020, Montreal, QC, Canada, December 1-3, 2020, Revised Selected Papers 13</source>. <conf-sponsor>Springer</conf-sponsor>, <conf-date>2021</conf-date>, pp. <fpage>47</fpage>&#x2013;<lpage>62</lpage>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Ghimire</surname></string-name>, <string-name><given-names>Y.-Z.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Mamun</surname></string-name>, <string-name><given-names>M. A.</given-names> <surname>Chowdhury</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Alemi</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Cai</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Zhu</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Saber Latibari</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Hwrex: Ai-enabled hardware weakness and risk exploration and storytelling framework with 11 m -assisted mitigation suggestion</article-title>,&#x201D; <source>ACM Transactions on Design Automation of Electronic Systems</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Satam</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Hariri</surname></string-name></person-group>, &#x201C;<article-title>Wids: An anomaly based intrusion detection system for wi-fi (ieee 802.11) protocol</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Network and Service Management</source>, vol. <volume>18</volume>, no. <issue>1</issue>, pp. <fpage>1077</fpage>&#x2013;<lpage>1091</lpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Satam</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Satam</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Hariri</surname></string-name></person-group>, &#x201C;<article-title>Bluetooth intrusion detection system (bids)</article-title>,&#x201D; in <source specific-use="IEEE">2018 IEEE/ACS 15th International Conference on Computer Systems and Applications (AICCSA)</source>. <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2018</conf-date>, pp. <fpage>1</fpage>&#x2013;<lpage>7</lpage>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Satam</surname></string-name>, <string-name><given-names>H. R.</given-names> <surname>Alipour</surname></string-name>, <string-name><given-names>Y. B.</given-names> <surname>Al-Nashif</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Hariri</surname></string-name></person-group>, &#x201C;<article-title>Anomaly behavior analysis of dns protocol</article-title>.&#x201D; <source>J. Internet Serv. Inf. Secur.</source>, vol. <volume>5</volume>, no. <issue>4</issue>, pp. <fpage>85</fpage>&#x2013;<lpage>97</lpage>, <year>2015</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Bhurtel</surname></string-name> and <string-name><given-names>D. B.</given-names> <surname>Rawat</surname></string-name></person-group>, &#x201C;<article-title>Unveiling the landscape of operating system vulnerabilities</article-title>,&#x201D; <source>Future Internet</source>, vol. <volume>15</volume>, no. <issue>7</issue>, p. <fpage>248</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Neuhaus</surname></string-name> and <string-name><given-names>T.</given-names> <surname>Zimmermann</surname></string-name></person-group>, &#x201C;<article-title>Security trend analysis with cve topic models</article-title>,&#x201D; in <source specific-use="IEEE">2010 IEEE 21st International Symposium on Software Reliability Engineering</source>. <conf-sponsor>IEEE</conf-sponsor>, <conf-date>2010</conf-date>, pp. <fpage>111</fpage>&#x2013;<lpage>120</lpage>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Shen</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Han</surname></string-name></person-group>, &#x201C;<article-title>Teleclass: Taxonomy enrichment and 11 m -enhanced hierarchical text classification with minimal supervision</article-title>,&#x201D; in <source>Proceedings of the ACM on Web Conference 2025</source>, <conf-date>2025</conf-date>, pp. <fpage>2032</fpage>&#x2013;<lpage>2042</lpage>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Wan</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Safavi</surname></string-name>, <string-name><given-names>S. K.</given-names> <surname>Jauhar</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Counts</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Neville</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Suri</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Shah</surname></string-name>, <string-name><given-names>R. W.</given-names> <surname>White</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Yang</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Tnt-llm: Text mining at scale with large language models</article-title>,&#x201D; in <source>Proceedings of the 30th ACM SIGKDD conference on knowledge discovery and data mining</source>, <conf-date>2024</conf-date>, pp. <fpage>5836</fpage>&#x2013;<lpage>5847</lpage>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Peng</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Shen</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Koedinger</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Wu</surname></string-name></person-group>, &#x201C;<article-title>What should we engineer in prompts? training humans in requirement-driven 11 m use</article-title>,&#x201D; <source>ACM Transactions on Computer-Human Interaction</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Cai</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Nie</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Huang</surname></string-name></person-group>, &#x201C;<article-title>Multi-view k-means clustering on big data</article-title>.&#x201D; in <source>IJCAI</source>, vol. <volume>13</volume>, <year>2013</year>, pp. <fpage>2598</fpage>&#x2013;<lpage>2604</lpage>.</mixed-citation></ref>
+<ref id="ref24"><label>[24]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.-Z.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ghimire</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Nandimandalam</surname></string-name>, <string-name><given-names>J. M.</given-names> <surname>Camacho</surname></string-name>, <string-name><given-names>U.</given-names> <surname>Tripathi</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Macwan</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Shao</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Rafatirad</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Yasaei</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Satam</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Llm-hypz: Hardware vulnerability discovery using an 11 m -assisted hybrid platform for zero-shot knowledge extraction and refinement</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2509.00647</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref25"><label>[25]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>White</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Fu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Hays</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Sandborn</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Olea</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Gilbert</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Elnashar</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Spencer-Smith</surname></string-name>, and <string-name><given-names>D. C.</given-names> <surname>Schmidt</surname></string-name></person-group>, &#x201C;<article-title>A prompt pattern catalog to enhance prompt engineering with chatgpt</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2302.11382</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref26"><label>[26]</label> <mixed-citation publication-type="online" publication-format="online"><person-group person-group-type="author"><collab>OpenAI</collab></person-group>, &#x201C;<source>Openai python sdk</source>.&#x201D; [Online]. Available: <uri>https://platform.openai.com/docs/api-reference/introduction?lang=python</uri></mixed-citation></ref>
+<ref id="ref27"><label>[27]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Mithun</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Noriega-Atala</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Merchant</surname></string-name>, and <string-name><given-names>E.</given-names> <surname>Skidmore</surname></string-name></person-group>, &#x201C;<article-title>Ai-verde: A gateway for egalitarian access to large language model-based resources for educational institutions</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2502.09651</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref28"><label>[28]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. A.</given-names> <surname>Syakur</surname></string-name>, <string-name><given-names>B. K.</given-names> <surname>Khotimah</surname></string-name>, <string-name><given-names>E. M.</given-names> <surname>Rochman</surname></string-name>, and <string-name><given-names>B. D.</given-names> <surname>Satoto</surname></string-name></person-group>, &#x201C;<article-title>Integration k-means clustering method and elbow method for identification of the best customer profile cluster</article-title>,&#x201D; in <source>IOP conference series: materials science and engineering</source>, vol. <volume>336</volume>. <conf-sponsor>IOP Publishing</conf-sponsor>, <conf-date>2018</conf-date>, p. <fpage>012017</fpage>.</mixed-citation></ref>
+<ref id="ref29"><label>[29]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Van der Maaten</surname></string-name> and <string-name><given-names>G.</given-names> <surname>Hinton</surname></string-name></person-group>, &#x201C;<article-title>Visualizing data using t-sne</article-title>.&#x201D; <source>Journal of machine learning research</source>, vol. <volume>9</volume>, no. <issue>11</issue>, <year>2008</year>.</mixed-citation></ref>
+<ref id="ref30"><label>[30]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><collab>MITRE</collab></person-group>, &#x201C;<source>2025 cwe most important hardware weaknesses</source>,&#x201D; <month>Aug</month> <year>2025</year>. [Online]. Available: <uri>https://cwe.mitre.org/topHW/archive/2025/2025_CWE_MIHW.html</uri></mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

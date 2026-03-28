@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455700</article-id>
+<xplore-article-id>11455700</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>An Ultra-Low Power Built-in-Self-Test Architecture for CMOS Image Sensors Using Adaptive Thresholding and Clock Gating</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Krishna Neeraja</given-names> <surname>Periyala</surname></string-name>
+<string-name specific-use="index"><given-names>Krishna Neeraja</given-names> <surname>Periyala</surname></string-name>
+</name-alternatives>
+<email>neerajaperiyala.2206@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Bungatavala Mithun</given-names> <surname>Chakravarthi</surname></string-name>
+<string-name specific-use="index"><given-names>Bungatavala Mithun</given-names> <surname>Chakravarthi</surname></string-name>
+</name-alternatives>
+<email>mithun.chakravarthi2022@vitstudent.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Sri Adibhatla</given-names> <surname>Sridevi</surname></string-name>
+<string-name specific-use="index"><given-names>Sri Adibhatla</given-names> <surname>Sridevi</surname></string-name>
+</name-alternatives>
+<email>sridevi@vit.ac.in</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">School of Electronics Engineering, Vellore Institute of Technology</institution>
+</institution-wrap>
+<city>Vellore</city>
+<country>India</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>678</fpage>
+<lpage>683</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5/26/$31.00 &#x00A9;2026 IEEE</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11455700_ft.xml</self-uri>
+<self-uri content-type="print">104.pdf</self-uri>
+<abstract xml:lang="en">
+<p>This paper presents an ultra-low power Built-In-Self-Test (BIST) architecture for CMOS Image Sensors (CIS), incorporating adaptive thresholding and clock gating to improve defect detection efficiency while minimizing power consumption. The proposed architecture identifies pixel defects, including hot and stuck-at faults, by comparing each pixel against a dynamically derived neighborhood-based threshold. The design features a finite state machine (FSM) that governs module activity and enables logic blocks during relevant test phases. Power aware techniques like clock gating and minimal switching are applied to pixel sequencer and defect detection logic to reduce dynamic power by preventing unnecessary switching when modules are idle. Adaptive thresholding enhances robustness by adjusting detection boundaries based in logic pixel statistics. Simulation results confirm <inline-formula><tex-math notation="LaTeX">$\mathbf{1 0 0 \%}$</tex-math></inline-formula> test coverage for known defects. Compared to always-on implementation, the gate design achieves an estimated 31.3&#x0025; reduction in dynamic power. This architecture is fully synthesizable and suitable for FPGA or ASIC deployment, making it ideal for low power imaging systems.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Built-In-Self-Test (BIST)</kwd>
+<kwd>CMOS Image sensor (CIS)</kwd>
+<kwd>Adaptive Thresholding</kwd>
+<kwd>Low Power Design</kwd>
+</kwd-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="3"/>
+<equation-count count="1"/>
+<ref-count count="15"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>CMOS Image Sensors (CIS) are widely used in today&#x0027;s technology and play an important role in many applications. They are commonly found in smartphones, medical tools, automotive cameras, security systems, and even space-related devices. In recent years, CIS have also become an important part of IoT systems, where cameras are used to monitor surroundings and collect visual data. These sensors work by converting light into electrical signals using a large array of small pixels. Compared to older CCD (Charge Coupled Device) sensors, CMOS image sensors are preferred because they are smaller in size, cost less to produce, and consume less power.</p>
+<p>As CMOS Image Sensors (CIS) become more advanced, the number of pixels on a single chip continues to increase, while the size of each pixel keeps reducing. Due to this scaling, the possibility of pixel-level defects during manufacturing also increases. Common issues include hot pixels, dead pixels, stuck-at faults, and noise-related variations. These defects can reduce image quality and affect system performance. To detect such faults, manufacturers traditionally rely on Automatic Test Equipment (ATE). ATE is an external system that applies test signals to the sensor, reads the output, and compares it with expected results. Although effective, ATE-based testing is expensive, consumes high power, and requires long testing time, especially when sensors contain millions of pixels.</p>
+<p>Testing of CMOS image sensors <xref ref-type="bibr" rid="ref2">[2]</xref> is usually performed in two main stages. The first stage is electrical testing, where internal connections and signal behavior of the sensor chip are verified. The second stage is optical testing, where the sensor is exposed to different light patterns to evaluate how accurately it captures images. Optical testing is more complex because it involves capturing images, storing them, and analyzing them using image-processing techniques. As this process becomes slow and resource-intensive, <xref ref-type="bibr" rid="ref3">[3]</xref> has emerged as an effective alternative. In BIST, the test logic is embedded directly inside the sensor, allowing the chip to test itself without the need for large external machines. A common BIST approach is to detect pixels that behave differently from their neighboring pixels <xref ref-type="bibr" rid="ref1">[1]</xref>.</p>
+<p>Built-In Self-Test is especially useful when the sensor is part of a larger embedded system, such as a camera module integrated into a device <xref ref-type="bibr" rid="ref4">[4]</xref>. In these cases, removing the sensor for external testing is not practical. With BIST, testing can be performed during manufacturing, system startup, or even while the device is operating in the field. This improves long-term reliability and reduces dependence on costly external test setups. The defect detection logic in BIST often relies on adaptive thresholding, where pixel behavior is evaluated relative to nearby pixels instead of using a fixed reference value. This makes the detection process more flexible and robust under different lighting and operating conditions.</p>
+<p>However, many existing BIST systems keep all their functional blocks active throughout the test process, even when some blocks are not required. This results in unnecessary power consumption, which is not suitable for battery-powered devices or systems with strict power limits <xref ref-type="bibr" rid="ref5">[5]</xref>. To address this issue, this work proposes a low-power BIST architecture for CMOS image sensors. The proposed approach combines adaptive thresholding with clock gating techniques <xref ref-type="bibr" rid="ref6">[6]</xref>, <xref ref-type="bibr" rid="ref8">[8]</xref> to reduce switching activity by turning off inactive circuit blocks. As a result, the design is well suited for small IoT camera systems where both battery life and data transfer resources are limited <xref ref-type="bibr" rid="ref7">[7]</xref>, <xref ref-type="bibr" rid="ref9">[9]</xref>. The logic is intentionally kept simple so that it can be implemented with minimal hardware overhead.</p>
+<p>The rest of the paper is organized as follows. <xref ref-type="sec" rid="sec2">Section II</xref> is about image sensor testing methods. <xref ref-type="sec" rid="sec3">Section III</xref> presents the proposed low power BIST. Simulation results are in <xref ref-type="sec" rid="sec4">section IV</xref> and <xref ref-type="sec" rid="sec5">section V</xref> concludes the paper.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Image Sensors Testing Methods</title>
+<p>Testing image sensors is necessary to ensure that each pixel inside the sensor functions correctly and produces reliable output. Since a CMOS image sensor contains a very large number of pixels, even a small defect can affect the final image quality. Proper testing helps identify faulty pixels early and ensures that the sensor meets quality requirements before it is used in real applications <xref ref-type="bibr" rid="ref12">[12]</xref>.</p>
+<p>There are mainly two common approaches used to test CMOS image sensors. One approach uses external testing systems (ATE), where the sensor is checked using dedicated hardware. The other approach places the testing logic directly inside the sensor itself (BIST), allowing it to test its own operation. Each method has its own advantages, but built-in testing is becoming more important as sensors are used in compact and low-power systems.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Automatic Test Equipment (ATE)</title>
+<p>In the traditional testing approach, CMOS image sensors are tested using large external testing machines. The first step is electrical testing, where the basic working of the chip is checked. This includes verifying internal connections, control signals, and readout paths. This step ensures that the sensor hardware is functioning correctly before moving to more detailed checks.</p>
+<p>After electrical testing, the sensor undergoes optical testing. In this stage, the sensor is exposed to different lighting conditions such as bright light, darkness, and controlled exposure times. The sensor captures full images, which are stored and later analyzed. Image processing techniques are then used to scan the entire image and detect faulty pixels like hot pixels or stuck pixels. Although this method gives accurate results, it takes a long time, consumes high power, and becomes costly when dealing with sensors that contain millions of pixels.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Built-in-Self-Test (BIST)</title>
+<p>In the BIST-based testing approach, part of the optical testing is shifted inside the CMOS image sensor itself. After the basic electrical checks are completed, the sensor runs a small internal self-test without using large external equipment. Instead of capturing full images, the sensor reads pixel values one after another in a continuous stream. Each pixel is checked using simple comparison logic, where its value is compared with nearby pixels. This logic, called the Defect Pixel Location Detector (DPLD), helps identify pixels that behave very differently from their neighbors, which usually indicates a defect.</p>
+<p>Unlike traditional methods that store and process entire image frames, this BIST method only records the locations of faulty pixels. This greatly reduces memory usage and avoids heavy image processing. The control logic required for this test is simple, and the circuit activity is limited only to the parts that are actively working. Because of this, the test consumes less power and finishes faster. Based on the number of detected faulty pixels, the sensor is finally marked as acceptable or defective. This makes the BIST approach more practical for small, battery-powered systems such as mobile cameras and IoT imaging devices.</p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>Why Built-in-Self-Test Is Preferred for Image Sensor Testing</title>
+<p>As CMOS image sensors continue to grow in size and resolution, testing them using only external equipment becomes difficult. Automatic Test Equipment works well for small designs, but it struggles when millions of pixels must be checked one by one. Optical testing using ATE takes a long time because it needs to capture full images, store them, and run complex image processing steps. This increases testing cost and also slows down mass production. For devices that are made in large numbers, such as camera modules for phones and IoT systems, this testing approach becomes less practical as it is consuming more power which needs to be reduced <xref ref-type="bibr" rid="ref14">[14]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref>.</p>
+<p>The study offers a better solution by moving part of the testing work inside the sensor chip. Since the test logic is already available on-chip, there is no need for heavy external setups during optical testing. The sensor can test itself using simple pixel comparisons while the data is being read. This reduces test time <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref11">[11]</xref>, lowers power usage, and avoids storing full image frames. It can also save the testing cost <xref ref-type="bibr" rid="ref13">[13]</xref>. Because BIST works with lightweight logic and limited data movement, it fits well in power-limited and cost-sensitive systems. For these reasons, BIST is increasingly preferred over ATE for modern image sensor testing, especially in portable and embedded applications.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Proposed Low Power Bist</title>
+<p>The overall test flow is controlled by a finite state machine (FSM). This FSM sends enable signals to turn on the sequencer and detection blocks only during testing. It also signals the logger to store results. The logger receives information about which pixel was marked as defective and stores a &#x0027; 1 &#x0027; in the corresponding location of a 64 -bit defect vector. If the pixel is normal, a &#x0027; 0 &#x0027; is stored. This final defect vector is displayed in both the waveform and console output, showing exactly which pixels are faulty. Using this approach, the system avoids full image processing and uses fewer resources.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Architecture of low power bist</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-fig-1-source.tif"/>
+</fig></p>
+<p>The pixel sequencer is the first block in the system. It reads pixel values sequentially and sends them one by one to the defect detection block. The defect detection is performed by the Defect Pixel Location Detector (DPLD). This block calculates a threshold range using the average value of neighboring pixels and checks whether the current pixel falls outside this range. Pixels that are much brighter or darker than expected are marked as defective. A finite state machine (FSM) controls the overall operation by enabling the sequencer, DPLD, and logger only when needed. This helps reduce unnecessary switching and saves power. The logger records the results by storing a &#x0027; 1 &#x0027; for defective pixels and a &#x0027; 0 &#x0027; for normal pixels in a 64 -bit defect vector. This vector clearly shows the location of faulty pixels and can be observed in the simulation output. Through this block-level coordination, the proposed BIST system achieves accurate defect detection while keeping power and hardware overhead low shown in <xref ref-type="fig" rid="fig1">fig.1</xref>.</p>
+<sec id="sec3a">
+<title>Low Power Bist Implementation</title>
+<p>The goal of this work is to create a BIST (Built-In Self-Test) design that uses less power while testing CMOS image sensors. To do this, we used Verilog to build five main blocks: a sequencer, a defect detector (DPLD), a control unit (FSM), a logger, and clock gating units. Each part has a specific job and is connected in a way that helps the system test all the pixels automatically without needing help from outside hardware.</p>
+<p>The sequencer block reads pixel values from memory one by one. These pixels come from a grayscale image file and are stored as 8 -bit values. The defect detector compares each pixel with the average value of its neighboring pixels. For each pixel under test, the values of its immediate neighboring pixels are first collected. A simple average of these neighbor values is then calculated and used as a reference to decide whether the current pixel value falls within a normal range or should be marked as defective. This is based on a simple thresholding equation. If the pixel is either much smaller or much bigger than the allowed range, it is marked as defective.</p>
+<p>The main equation used to decide if a pixel is bad is:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{align*}
+\text{ thr}\_\text{min } &amp; =a 1 \times A V G+b 1 \\
+\text{ thr}\_\text{max } &amp; =a 2 \times A V G+b 2 \tag{1}
+\end{align*}</tex-math></disp-formula></p>
+<p>Here, AVG is the average of the pixel&#x0027;s four neighbors (left, right, top, bottom). The constants a1, a2, b1, and b2 control the size of the accepted range. If a pixel&#x0027;s value is outside this range, it is flagged as faulty. The proposed thresholding is adapted from neighborhood-based detectors used in CIS calibration flows, but simplified and re-structured for single-pixel streaming in hardware and the threshold range used in this work is chosen to ensure reliable defect activation. The test sensitivity can be adjusted according to application needs without modifying the BIST hardware. To reduce power, we used clock gating logic. This turns off the clock signal to blocks that are not in use. The FSM decides which blocks should be active at each moment. This way, we avoid running the full system all the time, which helps save power. All blocks work together to scan the pixels, check them, and store the results in a simple output format that shows which pixels are good and which are bad.</p>
+<p><bold>Novelty of this work:</bold> Unlike many earlier BIST designs for image sensors that keep all blocks running from the start of the test until the end, our approach turns each part of the circuit on only when it is needed. First, we use a clock-gated sequencer so the memory that stores pixel values does not switch unnecessarily. Next, we use a control logic that looks at the activity in each step and disables any block that is not currently doing work. Finally, our pixel check uses an adaptive threshold that works on one pixel stream at a time instead of requiring a full 2D image. Together, these changes make the BIST work with much lower power while still finding all faulty pixels.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Simulation Results</title>
+<p>To check how well our low-power BIST design works, we tested it using both Python and ModelSim. First, we selected a real image and converted it into an <inline-formula><tex-math notation="LaTeX">$8 \times 8$</tex-math></inline-formula> grayscale format using Python. We then injected a known faulty pixel by changing one pixel&#x0027;s value to the maximum (255), which is called a <italic>hot pixel</italic>. This image was saved as a. mem file to use in the Verilog simulation.</p>
+<p>Next, the BIST modules which we built in verilog were simulated in ModelSim. The sequencer read each pixel one by one from memory, and the defect detection unit (DPLD) logic compares the pixel value with neighbouring pixel and checks the range of it. The control unit (FSM) made sure that each block was activated only when needed. Clock gating was applied to avoid wasting power when certain blocks were not doing any work.</p>
+<p>During simulation, the waveform in ModelSim also showed a clear defect_vector signal as in <xref ref-type="fig" rid="fig2">figure 2</xref>.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Simulation waveform of bist</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-fig-2-source.tif"/>
+</fig>
+</p>
+<p>Each bit in this vector represents one pixel. If the bit is &#x0027; 1 &#x0027;, it means the pixel is faulty. The console window also printed messages showing the addresses of all detected defective pixels as shown in <xref ref-type="fig" rid="fig3">figure 3</xref>.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Console window output of bist</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-fig-3-source.tif"/>
+</fig></p>
+<p>In our test, the output showed all the faulty pixels correctly, even though we injected only one defect. This happened because our detection logic is sensitive and flags all out-of-range values. In the end, we confirmed that our system could detect faulty pixels effectively while using less power. The design worked correctly in simulation, and all signals behaved as expected.</p>
+<p>Also, that the low-power version of the BIST design uses much less energy than a regular BIST system. We added clock gating, which stops the clock signal from reaching parts of the circuit when they are not doing any work. This prevents unnecessary switching of signals, which is one of the main reasons for dynamic power consumption in digital circuits. By doing this, we were able to reduce the power usage from 0.766 W to 0.526 W which is around 31.3 &#x0025; compared to a design without any low-power features. These results are tabulated in <xref ref-type="table" rid="table1">table 1</xref>.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Synthesis results of regulae bist and low power bist</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Regular BIST</th>
+<th>Low power BIST</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total On-chip power</td>
+<td>0.766 W</td>
+<td>0.526 W</td>
+</tr>
+<tr>
+<td>Percentage of dynamic power consumed</td>
+<td>83&#x0025;</td>
+<td>77&#x0025;</td>
+</tr>
+<tr>
+<td>Percentage of static power consumed</td>
+<td>17&#x0025;</td>
+<td>16&#x0025;</td>
+</tr>
+<tr>
+<td>Junction temperature</td>
+<td>26.4&#x00B0; C</td>
+<td>26.0&#x00B0; C</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<sec id="sec4a">
+<title>Test Coverage Metrics</title>
+<p>To understand how well our BIST system works, we used some basic test metrics. These metrics help us know if the system is finding the right defective pixels, and whether it is missing any or marking good pixels as bad. They are important because a BIST system should be both accurate and efficient. If it detects too many false pixels or misses real defects, it cannot be trusted for real use.</p>
+<p>We tested our design using an <inline-formula><tex-math notation="LaTeX">$8 \times 8$</tex-math></inline-formula> image with one known hot pixel injected using Python. We used this data to calculate the test metrics like test coverage, precision and recall, which are shown in the <xref ref-type="table" rid="table2">table 2</xref> below.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Test coverage metrics</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>Metric</th>
+<th>value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total Pixels</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Actual Defects</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Detected Defects</td>
+<td>45</td>
+</tr>
+<tr>
+<td>True Positives</td>
+<td>1</td>
+</tr>
+<tr>
+<td>False Negatives</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Test Coverage</td>
+<td>100 &#x0025;</td>
+</tr>
+<tr>
+<td>Recall</td>
+<td>100 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>Total Pixels: This value represents the total number of pixels that were tested during the BIST operation. In our experiment, the image size was chosen as <inline-formula><tex-math notation="LaTeX">$8 \times 8$</tex-math></inline-formula>, which results in 64 pixels. Each pixel is treated as an individual test element and is checked one by one by the BIST logic. Using a fixed and known number of pixels helps in clearly understanding how the test logic behaves. It also makes it easier to calculate coverage and analyze detection results. This number forms the base for all other test metrics.</p>
+<p>Actual defects refer to the number of pixels that were intentionally made faulty before testing. In this work, only one pixel was manually injected as defective to act as a known fault. This controlled setup helps verify whether the BIST logic is able to find the defect correctly. By keeping the number of actual defects low, it becomes easier to track correctness. This also allows clear validation of detection capability without confusion. The injected defect acts as the ground truth for comparison.</p>
+<p>Detected defects indicate the total number of pixels flagged as faulty by the BIST system. In this case, the system reported 45 pixels as defective. This happens because the adaptive thresholding method is sensitive to pixel variations. Some pixels that differ strongly from their neighbors may be marked as faulty even if they are not intentionally defective. While this increases the number of detected faults, it ensures that no real defect is missed. This behavior is acceptable in safety-focused testing.</p>
+<p>True positives represent the number of pixels that were actually defective and were also correctly detected by the BIST system. In this experiment, the single injected defective pixel was successfully identified. This confirms that the defect detection logic is working as expected. Detecting all real defects is a key requirement in manufacturing test. Even if extra pixels are flagged, missing a real defect is not acceptable. Therefore, achieving true positive detection is very important.</p>
+<p>False negatives refer to defective pixels that were not detected by the BIST system. In this work, there were no such cases. The injected defective pixel was always detected during testing. This shows that the test method does not overlook real faults. Having zero false negatives is critical because undetected defects can cause failures in real-world applications. This result indicates strong reliability of the proposed BIST logic. It also supports the claim of full defect coverage.</p>
+<p>Test coverage shows how many actual defects were successfully detected by the test system. Since the single injected defect was detected, the test coverage is 100 &#x0025;. This means the BIST logic was able to identify all known faults present in the sensor. High test coverage is a key goal in image sensor testing. It ensures that defective sensors are not passed as good ones.</p>
+<p>Recall measures how well the system detects real defects without missing them. A recall value of 100 &#x0025; means that every actual defective pixel was detected. This is especially important in quality testing, where missing a fault is more harmful than flagging extra pixels. The high recall value shows that the adaptive thresholding method is effective. It confirms that the BIST system is reliable in finding real defects. This makes the approach suitable for manufacturing test environments.</p>
+</sec>
+<sec id="sec4b">
+<title>Comparision with Earlier Bist Techniques:</title>
+<p>To place the proposed design in context, we prepared a small comparison with a few well-known BIST methods used in image sensors. Each existing approach solves the testing problem in its own way, and our goal is simply to show how our method complements them. While earlier techniques mainly focused on detecting pixel defects, our design also looks at reducing switching activity and avoiding unnecessary clock usage. By comparing the main features side by side, we can clearly see how the proposed BIST keeps the detection process simple while lowering power, especially during streaming-based tests in table.3.
+<table-wrap id="table3">
+<label>Table III.</label>
+<caption><title>Comparision table</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455700-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Prior BIST</th>
+<th>This work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clock gating</td>
+<td>Not used</td>
+<td>Fully activity-driven gating</td>
+</tr>
+<tr>
+<td>Testing style</td>
+<td>2D based frame</td>
+<td>1D stream based</td>
+</tr>
+<tr>
+<td>Power reduction</td>
+<td>Not reported</td>
+<td>31.3 &#x0025;</td>
+</tr>
+<tr>
+<td>FSM role</td>
+<td>Basic sequencing</td>
+<td>Fine-grained block level control</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This work presented a power-efficient approach for checking CMOS image sensors during testing. The proposed system uses adaptive threshold logic to identify faulty pixels by comparing each pixel with its neighbors, which allows defect detection without processing full images. To reduce power usage, clock gating was applied so that different blocks of the circuit operate only when required. This avoids unnecessary signal switching inside the design and lowers overall energy consumption. The complete BIST architecture was designed using Verilog and verified through simulation in ModelSim, while Python was used to generate realistic image data for testing. The simulation results confirmed that the system was able to detect all intentionally injected pixel defects, showing that the test logic is reliable. Although some normal pixels were also marked as faulty, the system did not miss any real defects, resulting in a recall of 100 &#x0025;. Power analysis showed that the low-power modifications achieved a reduction of 31.3 &#x0025; compared to a basic BIST implementation without gating. These outcomes indicate that the proposed method balances defect detection accuracy and energy efficiency. The proposed BIST is effective in identifying major pixel-level defects using a simple and low-power detection approach. However, since the method is based on basic neighbor comparisons, a small number of normal pixels may be flagged under noisy or non-uniform conditions, which can be further refined without changing the core architecture. Overall, this BIST design is well suited for early-stage testing of CMOS image sensors in power-limited applications such as mobile devices, embedded cameras, and edge AI systems.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Lefevre</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Debaud</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Girard</surname>, <given-names>P.</given-names></string-name>, &#x0026; <string-name><surname>Virazel</surname>, <given-names>A.</given-names></string-name></person-group> (<year>2022</year>). <source>POS1-A Generic Fast and Low Cost BIST Solution for CMOS Image Sensors</source>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Lefevre</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Debaud</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Girard</surname>, <given-names>P.</given-names></string-name>, &#x0026; <string-name><surname>Virazel</surname>, <given-names>A.</given-names></string-name></person-group> (<conf-date>2021, October</conf-date>). <article-title>A Fast and Low Cost Embedded Test Solution for CMOS Image Sensors</article-title>. In <source specific-use="IEEE">2021 IEEE International Test Conference (ITC)</source> (pp. <fpage>1</fpage>&#x2013;<lpage>9</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>McCluskey</surname>, <given-names>E. J.</given-names></string-name></person-group> (<year>2007</year>). <article-title>Built-in self-test techniques</article-title>. <source specific-use="IEEE">IEEE Design &#x0026; Test of Computers</source>, <volume>2</volume>(<issue>2</issue>), <fpage>21</fpage>&#x2013;<lpage>28</lpage>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Lizarraga</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Mir</surname>, <given-names>S.</given-names></string-name>, &#x0026; <string-name><surname>Sicard</surname>, <given-names>G.</given-names></string-name></person-group> (<conf-date>2007, October</conf-date>). <article-title>Evaluation of a BIST Technique for CMOS Imagers</article-title>. In <source>16th Asian Test Symposium (ATS 2007)</source> (pp. <fpage>378</fpage>&#x2013;<lpage>383</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><surname>Panda</surname>, <given-names>P. R.</given-names></string-name>, <string-name><surname>Shrivastava</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Silpa</surname>, <given-names>B. V. N.</given-names></string-name>, &#x0026; <string-name><surname>Gummidipudi</surname>, <given-names>K.</given-names></string-name></person-group> (<year>2010</year>). <chapter-title>Basic low power digital design</chapter-title>. In <source>Power-efficient System Design</source> (pp. <fpage>11</fpage>&#x2013;<lpage>39</lpage>). <publisher-loc>Boston, MA</publisher-loc>: <publisher-name>Springer US.</publisher-name>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Shinde</surname>, <given-names>J.</given-names></string-name>, &#x0026; <string-name><surname>Salankar</surname>, <given-names>S. S.</given-names></string-name></person-group> (<conf-date>2011, December</conf-date>). <article-title>Clock gating-A power optimizing technique for VLSI circuits</article-title>. In <source specific-use="IEEE">2011 annual IEEE India conference</source> (pp. <fpage>1</fpage>&#x2013;<lpage>4</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Varadharajan</surname>, <given-names>S. K.</given-names></string-name>, &#x0026; <string-name><surname>Nallasamy</surname>, <given-names>V.</given-names></string-name></person-group> (<conf-date>2017, March</conf-date>). <article-title>Low power VLSI circuits design strategies and methodologies: A literature review</article-title>. In <source>2017 Conference on Emerging Devices and Smart Systems (ICEDSS)</source> (pp. <fpage>245</fpage>&#x2013;<lpage>251</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Srinivasan</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Prakash</surname>, <given-names>N. S.</given-names></string-name>, &#x0026; <string-name><surname>Sundari</surname>, <given-names>B. B. T.</given-names></string-name></person-group> (<year>2015</year>). <article-title>Power reduction by clock gating technique</article-title>. <source>Procedia Technology</source>, <volume>21</volume>, <fpage>631</fpage>&#x2013;<lpage>635</lpage>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Gonzalez</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Gordon</surname>, <given-names>B. M.</given-names></string-name>, &#x0026; <string-name><surname>Horowitz</surname>, <given-names>M. A.</given-names></string-name></person-group> (<year>1997</year>). <article-title>Supply and threshold voltage scaling for low power CMOS</article-title>. <source specific-use="IEEE">IEEE Journal of Solid-State Circuits</source>, <volume>32</volume>(<issue>8</issue>), <fpage>1210</fpage>&#x2013;<lpage>1216</lpage>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Sivanantham</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Manuel</surname>, <given-names>J. P.</given-names></string-name>, <string-name><surname>Sarathkumar</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Mallick</surname>, <given-names>P. S.</given-names></string-name>, &#x0026; <string-name><surname>Perinbam</surname>, <given-names>J. R. P.</given-names></string-name></person-group> (<conf-date>2012, August</conf-date>). <article-title>Reduction of test power and test data volume by power aware compression scheme</article-title>. In <source>2012 International Conference on Advances in Computing and Communications</source> (pp. <fpage>158</fpage>&#x2013;<lpage>161</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>John</surname>, <given-names>R. T.</given-names></string-name>, <string-name><surname>Sreekanth</surname>, <given-names>K. D.</given-names></string-name>, &#x0026; <string-name><surname>Sivanantham</surname>, <given-names>S.</given-names></string-name></person-group> (<conf-date>2013, February</conf-date>). <article-title>Adaptive Low Power RTPG for BIST based test applications</article-title>. In <source>2013 International Conference on Information Communication and Embedded Systems (ICICES)</source> (pp. <fpage>933</fpage>&#x2013;<lpage>936</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Gouveia</surname>, <given-names>L. C. P.</given-names></string-name>, &#x0026; <string-name><surname>Choubey</surname>, <given-names>B.</given-names></string-name></person-group> (<year>2016</year>). <article-title>Advances on CMOS image sensors</article-title>. <source>Sensor review</source>, <volume>36</volume>(<issue>3</issue>), <fpage>231</fpage>&#x2013;<lpage>239</lpage>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="thesis" publication-format="print"><person-group person-group-type="author"><string-name><surname>Al-Obaidi</surname>, <given-names>A. O.</given-names></string-name></person-group> (<year>2020</year>). <source>Reducing integrated circuit test cost through improvements in multisite testing and built-in self-test</source> (<publisher-name>Master&#x0027;s thesis, Iowa State University</publisher-name>).</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Gonzalez</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Gordon</surname>, <given-names>B. M.</given-names></string-name>, &#x0026; <string-name><surname>Horowitz</surname>, <given-names>M. A.</given-names></string-name></person-group> (<year>1997</year>). <article-title>Supply and threshold voltage scaling for low power CMOS</article-title>. <source specific-use="IEEE">IEEE Journal of Solid-State Circuits</source>, <volume>32</volume>(<issue>8</issue>), <fpage>1210</fpage>&#x2013;<lpage>1216</lpage>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Girard</surname>, <given-names>P.</given-names></string-name></person-group> (<conf-date>2000, March</conf-date>). <article-title>Low power testing of VLSI circuits: Problems and solutions</article-title>. In <source specific-use="IEEE">Proceedings IEEE 2000 First International Symposium on Quality Electronic Design (Cat. No. PR00525)</source> (pp. <fpage>173</fpage>&#x2013;<lpage>179</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

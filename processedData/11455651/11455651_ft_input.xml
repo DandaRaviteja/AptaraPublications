@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455651</article-id>
+<xplore-article-id>11455651</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>A Fair and Efficient Pricing Framework for Ev Battery Swapping Based on Real-Time Life Cycle Prediction</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>B. Venkatesu</given-names> <surname>Goud</surname></string-name>
+<string-name specific-use="index"><given-names>B. Venkatesu</given-names> <surname>Goud</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>E. Venkata</given-names> <surname>Krishna</surname></string-name>
+<string-name specific-use="index"><given-names>E. Venkata</given-names> <surname>Krishna</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>C. Venkata</given-names> <surname>Bharani</surname></string-name>
+<string-name specific-use="index"><given-names>C. Venkata</given-names> <surname>Bharani</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>A. Naga Pranitheswar</given-names> <surname>Reddy</surname></string-name>
+<string-name specific-use="index"><given-names>A. Naga Pranitheswar</given-names> <surname>Reddy</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff5">5</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib5">
+<name-alternatives>
+<string-name specific-use="display"><given-names>S.</given-names> <surname>Soban</surname></string-name>
+<string-name specific-use="index"><given-names>S.</given-names> <surname>Soban</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib6">
+<name-alternatives>
+<string-name specific-use="display"><given-names>C. Narendra</given-names> <surname>Reddy</surname></string-name>
+<string-name specific-use="index"><given-names>C. Narendra</given-names> <surname>Reddy</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff6">6</xref>
+ Department of AI&#x0026;DS</contrib>
+<contrib contrib-type="author" id="contrib7">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Annamacharya Institute of</given-names> <surname>Technology</surname></string-name>
+<string-name specific-use="index"><given-names>Annamacharya Institute of</given-names> <surname>Technology</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib8">Sciences<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib9">Rajampet<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib10">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Andhra</given-names> <surname>Pradesh</surname></string-name>
+<string-name specific-use="index"><given-names>Andhra</given-names> <surname>Pradesh</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Department of AI&#x0026;DS, Annamacharya University</institution>, Rajampet, Andhra Pradesh \\ <email>venkatesugoud@gmail.com</email></aff>
+<aff id="aff2"><institution content-type="department">Department of AI&#x0026;DS, Annamacharya Institute of Technology and Sciences</institution>, Rajampet, Andhra Pradesh <email>krishnaeggonu@gmail.com</email></aff>
+<aff id="aff3"><institution content-type="department">Department of AI&#x0026;DS, Annamacharya Institute of Technology and Sciences</institution>, Rajampet, Andhra Pradesh \\ <email>bharanichappidi@gmail.com</email></aff>
+<aff id="aff4"><institution content-type="department">Department of AI&#x0026;DS, Annamacharya \\ Institute of Technology and Sciences</institution>, Rajampet, Andhra Pradesh \\ <email>annemnagapranitheswarreddy45@gmail.co</email> \\ m</aff>
+<aff id="aff5"><institution content-type="department">Department of AI&#x0026;DS, Annamacharya Institute of Technology and Sciences</institution>, Rajampet, Andhra Pradesh \\ <email>sobanshaik19@gmail.com</email></aff>
+<aff id="aff6"><email>nr3563770@gmail.com</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455651_ft.xml</self-uri>
+<self-uri content-type="print">36.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The study presents an integrated machine-learning framework for accurately predicting the Remaining Useful Life (RUL) of electric vehicle (EV) batteries and applying these predictions to dynamic fair pricing in battery-swapping stations. The framework employs XGBoost Regression alongside Random Forest, K-Nearest Neighbors (KNN), and ensemble techniques such as Stacking and Voting Regressors to enhance predictive accuracy and robustness. Real-world battery operational parameters, including discharge time, cycle index, voltage thresholds, and charging duration, are used for model training and evaluation. Ensemble models, particularly stacking, demonstrate superior performance with high <inline-formula><tex-math notation="LaTeX">$\mathbf{R}^{\mathbf{2}}$</tex-math></inline-formula> values and low prediction error, confirming their effectiveness in capturing nonlinear degradation behavior. The predicted RUL is further integrated into a pricing mechanism that supports transparency, cost efficiency, and improved battery lifecycle management for EV users. The proposed system contributes to sustainable EV infrastructure by enabling real-time predictive maintenance and data-driven operational decisions.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Remaining Useful Life (RUL)</kwd>
+<kwd>Electric Vehicles (EV)</kwd>
+<kwd>Battery Swapping Stations</kwd>
+<kwd>XGBoost</kwd>
+<kwd>Random Forest</kwd>
+<kwd>KNN</kwd>
+<kwd>Stacking</kwd>
+<kwd>Voting Regressor</kwd>
+<kwd>Fair Pricing</kwd>
+<kwd>Predictive Maintenance</kwd>
+<kwd>Real-Time Estimation</kwd>
+<kwd>Ensemble Learning</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="1"/>
+<equation-count count="5"/>
+<ref-count count="0"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front><pt><front>
+\DeclareUnicodeCharacter{0131}{\ifmmode\imath\else{$\imath$}\fi}
+</front></pt>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>In the global paradigm shift toward electric mobility, the operational efficiency and sustainability of ECM infrastructure require matching advancements. Similar to convenient refueling for petrol and diesel vehicles, battery swapping is meant to fulfill the requirement of recharging EVs quickly, but the impact of the system disappears due to incompatible estimation of battery health and lifespan. Normally, RUL predictions are modeled using simplistic heuristics or very limited ML approaches. In this project, an efficient model is proposed combining several regression models like XGBoost, Random Forest, KNN, and ensemble-based methods of Stacking and Voting for maximizing the accuracy of RUL prediction. With the final output of lifespan predictions, another goal is to establish a swapping price mechanism that works in tandem with the longevity of the batteries-interchangeably: greater price correlated with shorter battery longevity under the assumption that the swapped batteries could be the second life of EV batteries. A Web application developed using Flask renders real-time RUL and cost estimation by accepting various inputs related to battery parameters. The system&#x0027;s overall goal is to increase the efficiency of the battery swapping infrastructure providers, reduce waste, and implement data-driven battery management.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Survey</title>
+<p>The study delineates machine learning methodologies that are capable of accurately estimating the Remaining Useful Life (RUL) of an Electric Vehicle (EV) battery through the application of regression algorithms including <xref ref-type="bibr" rid="ref1">[1]</xref> XGBoost, Random Forest, KNN, Stacking, and Voting Regressors. These models use real-world battery data to help swap stations for <xref ref-type="bibr" rid="ref2">[2]</xref> EV batteries and manage battery life in terms of reliability and efficiency. <xref ref-type="bibr" rid="ref3">[3]</xref> The system is online so it collects information in real-time. This lets <xref ref-type="bibr" rid="ref4">[4]</xref>it better figure out the state of the battery and change its behavior according to sensor data. <xref ref-type="bibr" rid="ref5">[5]</xref> This can be seen as a different way to do things. <xref ref-type="bibr" rid="ref6">[6]</xref> Dynamic fair pricing gives the end user cost-effective and clear pricing with RUL being one of the most important factors. <xref ref-type="bibr" rid="ref7">[7]</xref> Using Stacking and Voting methods, it is known that Ensembling can improve prediction results;<xref ref-type="bibr" rid="ref8">[8]</xref> so this would be good for any system that does predictive maintenance. <xref ref-type="bibr" rid="ref9">[9]</xref> Theoretically, the framework will encourage assistive operation and longterm viability in the EV ecosystem. <xref ref-type="bibr" rid="ref10">[10]</xref> There is more focus on expanding datasets and using them on real-world infrastructure <xref ref-type="bibr" rid="ref11">[11]</xref> that is optimized for large-scale EV infrastructures to speed up mass adoption and scalability.</p>
+<p><xref ref-type="bibr" rid="ref12">[12]</xref> Supplying and integrating real-time battery health monitoring, including RUL estimation and fair pricing at the <xref ref-type="bibr" rid="ref13">[13]</xref> EV-swapping outlets, have been a focus of Smith and Thompson in order to reduce operation costs and uplift customer experiences. <xref ref-type="bibr" rid="ref14">[14]</xref> talk of battery-swapping costs, along with dynamic pricing schemes based on RUL predictions-machine learning- based tools, with XGBoost cited as the most prominent. <xref ref-type="bibr" rid="ref15">[15]</xref> These studies broadly trace machine learning and ensemble frameworks behind the management of batteries, predictive maintenance, and pricing issues of EVs infrastructural side.</p>
+<p>Despite notable progress, existing EV battery RUL models still face limitations, especially those relying on single regressors that struggle with varying battery conditions, noisy data, and nonlinear degradation. Many prior works also lack real-time integration for operational decisionmaking, such as pricing in swapping stations. These gaps highlight the need for a more robust ensemble-based framework that can capture complex degradation patterns while supporting practical, real-time deployment.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Data Collection &#x0026; Preprocessing</title>
+<p>At the very starting, have the data collection module, where battery datasets may be received from real-time logs of an EV or through simulation environments. Note that the data set needs to contain relevant and important features such as discharge time, cycle index, voltage threshold, and charging times: this step ensures heterogeneous and reliable data for training. During the data preprocessing and splitting phase, the data collected were cleaned and normalized with the counterpart actions of noting missing data and outliers.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1</label>
+<caption><p>Work flow</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455651-fig-1-source.tif"/>
+</fig></p>
+<p>The workflow of the proposed system is illustrated in <xref ref-type="fig" rid="fig1">Figure 1</xref>, which outlines the sequence of data preprocessing, model training, evaluation, and deployment for real-time RUL estimation. As shown in <xref ref-type="fig" rid="fig1">Figure 1</xref>, the data undergo cleaning, normalization, and feature extraction before being fed into multiple regression and ensemble models for training and prediction.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Principles and Methods</title>
+<p>The framework accounts for secondary capacity loss by modeling degradation patterns through features such as cycle index, discharge duration, and voltage thresholds, enabling accurate RUL estimation. This predicted RUL feeds into the dynamic pricing system, ensuring batteries with greater capacity loss are priced lower while healthier ones are valued appropriately. In this way, the system compensates for secondary caps and maintains fair, transparent battery management.</p>
+<p>Machine-learning techniques play a key role in predictive maintenance and EV battery health management. Highlight the effectiveness of regression models such as Random Forest and XGBoost for RUL prediction, emphasizing that accurate estimation is essential for efficient battery operation and reduced maintenance costs. Very much in the same way, followed life prediction using machine-learning models like Support Vector Machine and Gradient Boosting, considering how such degradation predictions can help in battery life management for EVs. It was set as the aim of this study to obtain a different kind of learning from the traditional approach of health diagnoses and predictions for EVs. They stated that the ensemble forecast method could give better forecasts in replacement cycles than any individual method with XGBoost forests and Random Forest viewed as individual methods. Similarly, proposed an online battery health monitor that combines RUL predictions with fair pricing at EV battery swapping stations. This is an illustrative example of how predictive models can reduce operational costs and improve customer satisfaction by suggesting pricing based on battery health prediction. Extend this by applying dynamic pricing in battery swapping stations for EVs, depending on the forecasted RUL of batteries. Using XGBoost and other machine- learning techniques, they have proposed a framework wherein the prices are set depending upon the health status of a battery, thus ensuring fair pricing while promoting long-term sustainability for EV infrastructure. The above papers, therefore, emphasize the potential growing use of machine learning methods in EV maintenance, battery life prediction, and enabling infrastructures to operate efficiently.</p>
+<p><xref ref-type="bibr" rid="ref1">[1]</xref> XGBoost Regressor: The XGBoost algorithm favors having a solid and efficient artificial intelligence environment and is among the most popularly chosen machine learning algorithms in supervised learning, generally regression, and classification. XGBoost here would be used to try to predict the RUL (remaining useful life) of an EV battery. The RUL is learned given the working parameters such as charge cycles, voltage thresholds, and discharge time of the battery. One particular advantage that might give an edge at times is the fact that it can accept datasets with missing data, which makes it a suitable candidate for some real-world battery data, where some feature recordings might be incomplete. XGBoost creates an ensemble of decision trees such that each new tree is fit to minimize the residual errors of those that preceded it so that the accuracy of the ensemble can be improved. This ensemble&#x0027;s accuracy is further improved on an iterative basis by gradient boosting. Hyperparameter optimization is crucial to XGBoost achieving the best results; parameters are tuned such as learning rate, max depth of trees, and number estimator to achieve the best value for accuracy. With the capability of XGBoost to perform well on big data, it can describe the complexities and variant nature of EV battery data.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\sum_{k=1}^{K} f_{k}(x)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the predicted Remaining Useful Life (RUL).</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> is the number of trees in the ensemble.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\quad f_{k}(x)$</tex-math></inline-formula> is the prediction of the <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>-th tree, where <inline-formula><tex-math notation="LaTeX">$x$</tex-math></inline-formula> is the input features (like charge cycles, voltage, etc.).\\
+<p><xref ref-type="bibr" rid="ref2">[2]</xref> Random Forest Regressor: ERandom Forest, the concept of an algorithm running several decision trees in parallel and averaging their result in prediction, views it. The trees in the forest are trained on a random subset of the input data, while the output is the aggregation of all predictions made by constituent trees. This avoids variance and overfitting that a single decision tree is usually prone to, and that is the strength of Random Forest. The Random Forest Regressor algorithm will learn about the battery&#x0027;s characteristics from different features, such as cycle count, charge duration, temperature and so on. This will help to predict the battery&#x0027;s RUL. Giving the committee of trees a lot of features to think about helps Random Forest find complicated relationships and interactions between these features and make accurate and reliable predictions. One of the other benefits is that any noise in the evaluation data is at least partially averaged out. It also ranks the importance of features for you, which is an interesting thing to think about when figuring out which parameters have the biggest effect on battery life prediction. This model does a good job of generalizing on data it hasn&#x0027;t seen before, so it could be a strong candidate for real.</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+y=\frac{1}{T} \sum_{t=1}^{T} f_{t}(x)
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>Where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the predicted RUL.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$T$</tex-math></inline-formula> is the total number of trees in the forest.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$f_{t}(x)$</tex-math></inline-formula> is the prediction of the <inline-formula><tex-math notation="LaTeX">$t$</tex-math></inline-formula>-th tree.\\
+<p><xref ref-type="bibr" rid="ref3">[3]</xref> K-Nearest Neighbors (KNN): KNN is a classification and regression technique that doesn&#x0027;t assume anything about the data. KNN estimates EV battery life by matching its feature set (say, voltage, cycle count) against existing historical data. KNN calculates distance between data points and considers the K closest neighbors for its prediction based on the average RUL values of those neighbors. KNN deals with non-linear relationships and interestingly readjusts itself if the data changes. However, KNN may seem exorbitant at times, as it is known to retain all training data and calculate distances for each prediction. On the positive side, it gives fast and accurate RUL predictions based on past similarities, which helps with the timely replacement of batteries.</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+y=\frac{1}{K} \sum_{i=1}^{K} y_{i}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>Where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the predicted RUL.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> is the number of nearest neighbors.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\quad y_{i}$</tex-math></inline-formula> is the RUL value of the <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>-th nearest neighbor (based on feature similarity).</p></list-item>
+</list></p>
+</sec>
+<sec id="sec5">
+<title><Xref Ref-Type="Bibr" Rid="Ref4">[4]</Xref>Stacking Regressor</title>
+<p>Stacking is a classical ensemble learning approach with an intent to boost prediction accuracy by averaging or combining different regression methods. In the project, the Stacking Regressor aggregates the predictions from the XGBoost, Random Forest, and KNN models with the premise that base models are trained and predicted on an input set, and their predictions are used as new features of the meta-model, usually linear regression, to predict the final output. It unveils diverse patterns in data, hence mitigating bias and variance against each other. Since stacking tends to fuse two models that predict RUL in complementary fashions, at the end of the day, this PM is meant to end up better battery management and proper replacement planning for EV batteries.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\sum_{k=1}^{K} f_{k}(x)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the final predicted RUL.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$M$</tex-math></inline-formula> is the number of base models (in your case, <inline-formula><tex-math notation="LaTeX">$M=3$</tex-math></inline-formula> for XGBoost, Random Forest, and KNN).</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\quad \hat{y}_{i}$</tex-math></inline-formula> is the prediction from the <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>-th base model.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\beta_{0}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\beta_{i}$</tex-math></inline-formula> are the weights learned by the metamodel (e.g., linear regression).</p></list-item>
+</list></p>
+</sec>
+<sec id="sec6">
+<label>5.</label>
+<title>Voting Regressor</title>
+<p>Being an ensemble method, the Voting Regressor makes a bag of predictions from as many regression models as possible. Through this project, it combines RUL predictions generated by the XGBoost, Random Forest, and KNN models. By taking the mean of the constituent models" outputs, the Voting Regressor maintains a set of balanced predictions so as not to rely on one single model. This will grant a much better ability to generalize and limit each individual model from its drawbacks. A Voting Regressor will be able to provide real-time RUL predictions in the battery swapping outlets so that the prices are set fairly and the batteries are better managed.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+y=\frac{1}{N} \sum_{i=1}^{N} y_{i}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Where:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\hat{y}$</tex-math></inline-formula> is the final predicted RUL.</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$N$</tex-math></inline-formula> is the total number of models in the ensemble (here <inline-formula><tex-math notation="LaTeX">$N=3$</tex-math></inline-formula>).</p></list-item>
+<list-item><label>&#x2022;</label><p><inline-formula><tex-math notation="LaTeX">$\quad \hat{y}_{i}$</tex-math></inline-formula> is the prediction from the <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>-th model (XGBoost, Random Forest, KNN).</p></list-item>
+</list></p>
+<p>Accuracy is enhanced through careful preprocessing, key feature selection, and ensemble methods such as Stacking and Voting. Hyperparameter tuning reduces bias and variance, while the stacking meta-model refines predictions by combining base estimators, ensuring stable and reliable RUL estimates for real-time EV battery-swapping applications.</p>
+</sec>
+<sec id="sec7">
+<label>V.</label>
+<title>Results</title>
+<p>The proposed RUL estimation and fair-pricing system demonstrates strong accuracy and robustness across diverse battery datasets. By leveraging ensemble models such as XGBoost, Random Forest, KNN, Stacking, and Voting Regressors, the system achieves reliable real-time predictions. Performance evaluation using MSE, MAE, and <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> shows that ensemble methods, particularly the Stacking Regressor, outperform individual models with <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> values exceeding 0.92.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Figure. 2</label>
+<caption><p>Homepage</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455651-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Figure 3</label>
+<caption><p>Prediction page</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455651-fig-3-source.tif"/>
+</fig></p>
+<p>The GUI based on Flask has a real-time response system. When the user enters the battery parameters, they get RUL predictions and a fair price output right away. This dynamic pricing method makes prices clear and saves money for the EV user, which encourages better use of batteries and management of their lifecycles. Real-world test data confirmed that the system can handle all kinds of battery problems, so it is ready for use in the real world.
+<table-wrap id="table"><label>***</label>
+<caption><title></title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455651-table--source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>RMSE</th>
+<th>R <inline-formula><tex-math notation="LaTeX">$^{\mathbf{2}}$</tex-math></inline-formula> Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XGBoost</td>
+<td>2.98</td>
+<td>0.9999</td>
+</tr>
+<tr>
+<td>Random Forest</td>
+<td>3.27</td>
+<td>0.9999</td>
+</tr>
+<tr>
+<td>KNN</td>
+<td>10.41</td>
+<td>0.9989</td>
+</tr>
+<tr>
+<td>Stacking</td>
+<td>3.26</td>
+<td>0.9999</td>
+</tr>
+<tr>
+<td>Voting</td>
+<td>4.10</td>
+<td>0.9998</td>
+</tr></tbody>
+</table>
+<p>\caption[Table 1]{Model Comparison}\label{tbl1}</p>
+</table-wrap>
+<p>From the above <xref ref-type="table" rid="table1">table. 1</xref> The evaluation of system-ML models of prediction incarnation clearly communicates that the implementation is efficient and accurate. Among all models applied, XGBoost presented the lowest RMSEs at 2.98 and nearly perfect <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> at 0.9999, being the most precise individual models in the system. Random Forest and Stacking regressors also have great performances with an <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> of 0.9999 each and RMSE of 3.27 and 3.26, respectively. This tells us that ensemble models are a brilliant choice for fitting into the non-linear degradation behavior of EV batteries.</p>
+<p>One of the systems, an ensemble regression model by voting, got its slight disadvantage with an RMSE of 4.10 and an <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> score of 0.9998, both rendering it an excellent predictive model. KNN had the highest RMSE ever recorded, 10.41, which made it look like KNN was not good enough to solve this regression problem on its own. In general, these results support the use of ensemble methods like stacking and voting, which greatly increase the reliability and accuracy of predictions. The consistent <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula> scores across all models indicate robust inference regarding the system&#x0027;s capability for real-time estimation of battery Remaining Useful Life (RUL).
+<fig id="fig4" position="float" orientation="portrait">
+<label>Figure 4</label>
+<caption><p>Graph showing the comparison of models</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455651-fig-4-source.tif"/>
+</fig></p>
+<p>The comparative performance of the machine-learning models is presented in <xref ref-type="fig" rid="fig4">Figure 4</xref>, where the RMSE values clearly highlight the superior accuracy of XGBoost and the ensemble methods. As shown in <xref ref-type="fig" rid="fig4">Figure 4</xref>, the stacking approach particularly reduces prediction error due to its combined learning structure.</p>
+<p>Figures <inline-formula><tex-math notation="LaTeX">$2-4$</tex-math></inline-formula> show the system&#x0027;s workflow and model performance. <xref ref-type="fig" rid="fig2">Figure 2</xref> presents the user-friendly homepage, while <xref ref-type="fig" rid="fig3">Figure 3</xref> displays real-time RUL and pricing outputs. <xref ref-type="fig" rid="fig4">Figure 4</xref> compares RMSE values, with XGBoost performing best, followed by Random Forest and Stacking, while KNN shows higher error. Together, the figures highlight the system&#x0027;s practical usability and the strong accuracy of ensemble models.</p>
+<p>The Voting Regressor shows slightly higher RMSE than XGBoost and Stacking but remains a stable, balanced model due to its aggregated predictions. KNN, however, records considerably higher RMSE, indicating difficulty in capturing complex degradation patterns and making it less suitable for this regression task. The performance visualization clearly highlights these differences and reinforces the advantage of ensemble methods for accurate real-time RUL prediction and pricing. Since RUL estimation is a regression task, a confusion matrix is not applicable. Instead, regression visualizations such as predicted-vs-actual plots and error-distribution graphs are provided to illustrate model accuracy and error behavior. These plots offer insights comparable to a confusion matrix by revealing bias, error spread, and prediction reliability, complementing metrics like RMSE, MAE, and <inline-formula><tex-math notation="LaTeX">$\mathrm{R}^{2}$</tex-math></inline-formula>.</p>
+</sec>
+<sec id="sec8">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This work presents a machine-learning framework for accurate EV battery RUL prediction and dynamic fair pricing at swapping stations. Using XGBoost, Random Forest, KNN, and ensemble methods, the system achieves high accuracy and robust real-time performance via a Flaskbased interface. Ensemble learning enhances prediction reliability, supporting sustainable battery management and cost-efficient EV infrastructure, with scope for future largescale deployment and automation. The results can be deployed in EV battery-swapping stations by integrating ensemble models into real-time monitoring systems for automatic RUL prediction and fair pricing. This enables transparent pricing, optimized battery allocation, and predictive maintenance, supporting a scalable, data-driven EV ecosystem and future autonomous battery-management solutions.</p>
+</sec>
+<sec id="sec9">
+<label>VI.</label>
+<title>References</title>
+<p><xref ref-type="bibr" rid="ref1">[1]</xref> Gurupadagol, P. S., Patil, U. K., Patil, L. S., &#x0026; Gadgune, S. (2025). Battery Swapping Anywhere using IoT with Cloud. Proceedings of the International Conference on Intelligent Computing and Control Systems, ICICCS 2025, 166-172. https://doi.org/10.1109/ICICCS65191.2025.10985551</p>
+<p><xref ref-type="bibr" rid="ref2">[2]</xref> Kavitha, N., Bdair, M., Chandrasekar, P., Veerakumar, S., Kumar, M. H., &#x0026; Kumar, V. (2025). Adaptive Electric Vehicle Charge Controllers Using Deep Reinforcement Learning for Real-Time Optimization. 1st International Conference on Advances in Computer Science, Electrical, Electronics, and Communication Technologies, CE2CT 2025, 236-</p>
+<p>241.</p>
+<p>https://doi.org/10.1109/CE2CT64011.2025.10939224</p>
+<p><xref ref-type="bibr" rid="ref3">[3]</xref> Kowsalya, M., R, Saran., M, Karthik., &#x0026; D, Mahiizharasu. (2025). Fault Detection in Electric Vehicles Using Machine Learning Techniques. 2025 6th International Conference on Data Intelligence and Cognitive Informatics (ICDICI), 826-831. https://doi.org/10.1109/ICDICI66477.2025.11134906</p>
+<p><xref ref-type="bibr" rid="ref4">[4]</xref> Kumar, N., Batra, S., Vashistha, S., Rajesh, T., Nikitha, B., &#x0026; Sai, A. G. (2025). eCharge: Deep Reinforcement Learning Framework for Multi- Objective Electric Vehicle Charging Route Planning. Proceedings - 2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing Workshops, CCGridW 2025, 34-41. https://doi.org/10.1109/CCGRIDW65158.2025.00015</p>
+<p><xref ref-type="bibr" rid="ref5">[5]</xref> Li, H., Xu, J., Zhou, Y., Feng, D., Fang, C., &#x0026; Wang, H. (2025). The Optimization Strategy for Battery Swapping Stations Charging Scheduling Considering Time-of-Use Electricity Pricing. 7th Asia Energy and Electrical Engineering Symposium, AEEES 2025, 310-316. https://doi.org/10.1109/AEEES64634.2025.11020342</p>
+<p><xref ref-type="bibr" rid="ref6">[6]</xref> Luan, Z., Ding, F., Zhao, W., &#x0026; Wang, C. (2025). Research on a Global Energy Management Strategy for Range-Extended Electric Vehicles Considering the Dynamic Coupling between Battery and Range- Extender Power. https://doi.org/10.2139/SSRN.5287711</p>
+<p><xref ref-type="bibr" rid="ref7">[7]</xref> Qi, J., Lei, L., Jonsson, T., &#x0026; Niyato, D. (2025). Optimizing Electric Bus Charging Scheduling with Uncertainties Using Hierarchical Deep Reinforcement Learning. IEEE Internet of Things Journal, 12(12), 22427-22442. https://doi.org/10.1109/JIOT.2025.3552532</p>
+<p><xref ref-type="bibr" rid="ref8">[8]</xref> Rajesh Kumar, B., Seenivasan, D., Mohammed Akram, A., Vijay Harish, G. S., Imran Farhath, A., &#x0026; Thanush, S. (2025). Enhancing Electric Vehicle Charging Efficiency and Ensuring Reliable System Performance Through Machine Learning. Proceedings of 8th International Conference on Trends in Electronics and Informatics, ICOEI 2025, 25-32. https://doi.org/10.1109/ICOEI65986.2025.11013441</p>
+<p><xref ref-type="bibr" rid="ref9">[9]</xref> S, K., Swain, S., Mishra, I., &#x0026; Jain, A. (2025). Predicting Battery Life for Electric Vehicles Using Machine Learning. 2025 4th International Conference on Advances in</p>
+<p>Computing, Communication, Embedded and Secure Systems (ACCESS), 855-861. https://doi.org/10.1109/ACCESS65134.2025.111355 96</p>
+<p><xref ref-type="bibr" rid="ref10">[10]</xref> Saba, I., Alobaidi, A. H., Alghamdi, S., &#x0026; Tariq, M. (2025). Digital Twin and TD3-Enabled Optimization of xEV Energy Management in Vehicle-to-Grid Networks.IEEEAccess. https://doi.org/10.1109/ACCESS.2025.3572345</p>
+<p><xref ref-type="bibr" rid="ref11">[11]</xref> Wen, K., Lv, Y., Li, Y., &#x0026; Lu, N. (2025). Optimal Operation Strategy of Electric Vehicle Battery Charging and Swapping Stations for Frequency Response Service. 2025 2nd International Conference on Smart Grid and Artificial Intelligence, SGAI 2025, 111-117. https://doi.org/10.1109/SGAI64825.2025.11009806</p>
+<p><xref ref-type="bibr" rid="ref12">[12]</xref> Xu, H., Liu, Z., Jiang, D., Qu, R., &#x0026; Tian, J. (2025). Deep Transfer Learning Technology-Based Condition Monitoring and Fault Diagnosis of Electric Vehicle Electric Powertrain Systems: A Review. IEEE Transactions on Power Electronics, 1-27. https://doi.org/10.1109/TPEL.2025.3595437</p>
+<p><xref ref-type="bibr" rid="ref13">[13]</xref> Xu, Z., Liu, Y., Wang, C., &#x0026; Yang, Y. (2025). Load Forecasting for Electric Vehicle Charging Stations Using Sequence Decomposition and Deep Learning Techniques. IEEE Transactions on Instrumentation and Measurement. https://doi.org/10.1109/TIM.2025.3593552</p>
+<p><xref ref-type="bibr" rid="ref14">[14]</xref> Yap&#x0131;c&#x0131;, A. T., Abut, N., &#x0026; Erfidan, T. (2025). Comparing the Effectiveness of Deep Learning Approaches for Charging Time Prediction in Electric Vehicles: Kocaeli Example. Energies 2025, Vol. 18, Page 1961, 18(8), 1961. https://doi.org/10.3390/EN18081961</p>
+<p><xref ref-type="bibr" rid="ref15">[15]</xref> Yi, H., Zhang, H., Li, J., &#x0026; Zhao, Y. (2025). Hybrid intelligent optimization strategy of battery swapping station for electric vehicles based on reinforcement learning. Computational Urban Science, 5(1), 1-13. https://doi.org/10.1007/S43762-025-001660/TABLES/2</p>
+<p>\page{***}</p>
+</sec>
+</body>

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455778</article-id>
+<xplore-article-id>11455778</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Early Breast Cancer Detection Using an Advanced Deep Learning Neural Network Framework</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>1. M. Shoukath</given-names> <surname>Ali</surname></string-name>
+<string-name specific-use="index"><given-names>1. M. Shoukath</given-names> <surname>Ali</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of</given-names> <surname>Electronics</surname></string-name>
+<string-name specific-use="index"><given-names>Department of</given-names> <surname>Electronics</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Communication</given-names> <surname>Engineering</surname></string-name>
+<string-name specific-use="index"><given-names>Communication</given-names> <surname>Engineering</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Geethanjali College of</given-names> <surname>Engineering</surname></string-name>
+<string-name specific-use="index"><given-names>Geethanjali College of</given-names> <surname>Engineering</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib5">Technology<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib6">Hyderabad<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib7">Medchal<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib8">Telangana<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib9">India<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib10">drshoukathali.ece@gcet.edu.in<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib11">
+<name-alternatives>
+<string-name specific-use="display"><given-names>2. Jalagam</given-names> <surname>Priyanka</surname></string-name>
+<string-name specific-use="index"><given-names>2. Jalagam</given-names> <surname>Priyanka</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib12">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+<string-name specific-use="index"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib13">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Engineering (Data</given-names> <surname>Science)</surname></string-name>
+<string-name specific-use="index"><given-names>Engineering (Data</given-names> <surname>Science)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib14">Siddhartha Institute of Technology &#x0026; Sciences<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib15">Hyderabad<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib16">Telangana<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib17">India<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib18">jalagapriyanka.cse@siddhartha.co.in<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib19">
+<name-alternatives>
+<string-name specific-use="display"><given-names>3. Dr. A.</given-names> <surname>Gopinath</surname></string-name>
+<string-name specific-use="index"><given-names>3. Dr. A.</given-names> <surname>Gopinath</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib20">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Assistant</given-names> <surname>Professor</surname></string-name>
+<string-name specific-use="index"><given-names>Assistant</given-names> <surname>Professor</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib21">Head<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib22">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of Electronics with Artificial</given-names> <surname>Intelligence</surname></string-name>
+<string-name specific-use="index"><given-names>Department of Electronics with Artificial</given-names> <surname>Intelligence</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib23">
+<name-alternatives>
+<string-name specific-use="display"><given-names>DRBCCC Hindu</given-names> <surname>College</surname></string-name>
+<string-name specific-use="index"><given-names>DRBCCC Hindu</given-names> <surname>College</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib24">Chennai<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib25">Thiruvallur<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib26">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Tamil</given-names> <surname>Nadu</surname></string-name>
+<string-name specific-use="index"><given-names>Tamil</given-names> <surname>Nadu</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib27">India<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib28">gopinath@drbccchinducollege.edu.in<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib29">
+<name-alternatives>
+<string-name specific-use="display"><given-names>4. Shalini Vaibhav</given-names> <surname>Wankhade</surname></string-name>
+<string-name specific-use="index"><given-names>4. Shalini Vaibhav</given-names> <surname>Wankhade</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib30">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of</given-names> <surname>IT</surname></string-name>
+<string-name specific-use="index"><given-names>Department of</given-names> <surname>IT</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib31">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Vishwakarma Institute of</given-names> <surname>Technology</surname></string-name>
+<string-name specific-use="index"><given-names>Vishwakarma Institute of</given-names> <surname>Technology</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib32">Pune<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib33">Maharashtra<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib34">India<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib35">shalini.wankhade@vit.edu<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib36">
+<name-alternatives>
+<string-name specific-use="display"><given-names>5. Mohammad Shabbir</given-names> <surname>Alam</surname></string-name>
+<string-name specific-use="index"><given-names>5. Mohammad Shabbir</given-names> <surname>Alam</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib37">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+<string-name specific-use="index"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib38">
+<name-alternatives>
+<string-name specific-use="display"><given-names>College of</given-names> <surname>Engineering</surname></string-name>
+<string-name specific-use="index"><given-names>College of</given-names> <surname>Engineering</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib39">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Computer</given-names> <surname>Science</surname></string-name>
+<string-name specific-use="index"><given-names>Computer</given-names> <surname>Science</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib40">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Jazan</given-names> <surname>University</surname></string-name>
+<string-name specific-use="index"><given-names>Jazan</given-names> <surname>University</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib41">Jizan<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib42">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Kingdom of Saudi</given-names> <surname>Arabia</surname></string-name>
+<string-name specific-use="index"><given-names>Kingdom of Saudi</given-names> <surname>Arabia</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib43">amushabbir@gmail.com<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib44">
+<name-alternatives>
+<string-name specific-use="display"><given-names>6. Pooja</given-names> <surname>Kallappagol</surname></string-name>
+<string-name specific-use="index"><given-names>6. Pooja</given-names> <surname>Kallappagol</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib45">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+<string-name specific-use="index"><given-names>Department of Computer</given-names> <surname>Science</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib46">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Karnataka State Akkamahadevi Women</given-names> <surname>University</surname></string-name>
+<string-name specific-use="index"><given-names>Karnataka State Akkamahadevi Women</given-names> <surname>University</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib47">Vijayapura<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib48">Karnataka<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib49">India<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib50">poojakallappagol30@gmail.com<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"></aff>
+<aff id="aff2"></aff>
+<aff id="aff3"></aff>
+<aff id="aff4"></aff>
+<aff id="aff5"></aff>
+<aff id="aff6"></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455778_ft.xml</self-uri>
+<self-uri content-type="print">233.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Breast cancer is the most prevalent malignancy afflicting American women; fortunately, mortality rates can be drastically reduced with early detection and prompt treatment. The high expense and radiation exposure of digital mammography with CE prevent its widespread usage, despite the fact that it outperforms ultrasound and conventional mammography in thick breast tissue in terms of accuracy. Early Breast Cancer Detection uses data pretreatment with Weiner Filtering and a region growth picture segmentation technique based on GSO. GSO ideally creates initial seed spots and threshold values. A hybrid strategy is used to increase feature extraction and forecast performance by combining traditional and deep learning methods. Introducing HitNet, a Hybrid Ternary RNN that uses ternary weights and activations, with a slope component in the activation functions to further improve accuracy and close the accuracy gap between full precision and quantised models. The suggested model is effective, as it obtains a precision of 94.06 &#x0025; when tested using a conventional RNN architecture. By merging state-of-the-art imaging analysis with hybrid neural network modelling, this method supplies a powerful instrument for early diagnosis of breast cancer, which has the ability to decrease breast cancer death rates and enhance diagnostic accuracy.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Multi-Way Imaging (MWI)</kwd>
+<kwd>low- and middle-income countries (LMIC)</kwd>
+<kwd>Glowworm Swarm Optimisation (GSO)</kwd>
+<kwd>Recurrent Neural Network (RNN).</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="1"/>
+<equation-count count="7"/>
+<ref-count count="20"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front><pt><front>
+\DeclareUnicodeCharacter{0131}{\ifmmode\imath\else{$\imath$}\fi}
+</front></pt>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The majority of adult females are affected by Breast cancer, one of the more prevalent cancer kinds. The cells in the breast that develop into cancer determine the type of breast cancer. The three main components of a breast are the connective tissue, the lobules, and the ducts. There are several structures that work together to form the physical breast. The lobules are the glands that produce milk, the ducts are the tubes that carry the milk to the nipple, and the connective tissue holds everything in place. It is common for Breast cancer cells to initially grow in the lobules and ducts<xref ref-type="bibr" rid="ref1">[1]</xref>. Major warning signs of breast cancer include lumps in the breast or underarm, thickening or swelling of the breast, abnormal changes in the nipple area, reddening of the breast skin tissue, or pain in the breast. However, the exact symptoms of breast cancer can vary from person to person. Breast cancer symptoms might range from a dull ache to a severe hard mass that has grown inside the breast. When cells undergo a change in their genetic makeup that triggers uncontrolled cell proliferation, breast cancer can occur. It takes time for lumps and nodules to develop. A great deal of interrelated information is required to explain both the timing of those changes and the process that happens as the cells mature. A woman&#x0027;s hormone levels, age, and family history of breast cancer are the most important variables. Worldwide, cancer is becoming an increasingly pressing issue, as it is a major killer and a significant determinant of life expectancy. Medical practitioners may be blind to earlier unseen trends in large datasets unless data mining reveals them. Predicting whether breast cancer patients will survive or experience a recurrence has been an area of intensive study for some time, with some methods providing evidence to back up doctors&#x0027; recommendations<xref ref-type="bibr" rid="ref2">[2]</xref>. By employing precise and repeated patterns, these methods can assist specialists and investigators in delicate situations, but they should not be considered a replacement for their judgements. Data mining tends to center on using different categorization methods to forecast the likelihood of breast cancer, whether it&#x0027;s malignant or benign.</p>
+<p>Early identification and diagnosis are of the utmost importance in breast cancer management, frequently acting as the deciding factor in patient outcomes. An important aspect of breast cancer early detection efforts is the use of imaging tools, especially ultrasound. The noninvasiveness and real-time visibility into the breast tissue that ultrasound imaging offers makes it a popular choice for diagnosing benign and malignant tumors<xref ref-type="bibr" rid="ref3">[3]</xref>. Despite these benefits, there are still significant obstacles to overcome when interpreting ultrasound pictures, mostly because different types of tumors are so different. Because of these difficulties, there has been a surge in studies looking into computational ways to improve diagnosis. The diagnosis of breast cancer has significant social and economic significance. As a result, the issue has recently drawn the attention of numerous data mining studies. Their work produced a number of automated diagnoses techniques. Histopathology continues to play a crucial role in cancer diagnosis and treatment despite the advent of molecular and genomic approaches, offering supplementary data that advances a thorough comprehension of the illness. Histopathological data, genetic profiles, and imaging modalities can be integrated to provide a comprehensive approach to cancer prognosis, allowing for individualized treatment plans based on patient characteristics.</p>
+<p>Here is the outline of the document: The first section serves as an overview of the subject. The literature review is detailed in <xref ref-type="sec" rid="sec2">Section 2</xref>. Detailed in <xref ref-type="sec" rid="sec3">Section 3</xref> is the technique. The findings and assessment of these findings are presented in <xref ref-type="sec" rid="sec4">Section 4</xref>. The study&#x0027;s result is detailed in <xref ref-type="sec" rid="sec5">Section 5</p></xref>.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Survey</title>
+<p>This study presents a strong framework for cancer prediction tasks by integrating LLMs and GNNs. The framework makes use of embeddings that extract the semantic meaning from histopathological report words and phrases. The use of GNNs in disease prediction has several benefits, including the fact that words with comparable meanings or contexts will typically have similar embeddings regardless of when in the report they appear<xref ref-type="bibr" rid="ref4">[4]</xref>. Combining GNNs and LLMs is a supplementary strategy for detecting metastatic breast cancer; this method uses structural and textual information to improve prognostic accuracy. Additional validation and modification are necessary to establish the effectiveness and reliability of this suggested method, while it does provide a starting step towards better metastatic breast cancer prediction<xref ref-type="bibr" rid="ref5">[5]</xref>. They compared different features selection methods to study the problem, and then they used a combination of the K-means algorithm and a SVM to diagnose breast cancer. The concepts of clustering and classification have been the subject of multiple publications<xref ref-type="bibr" rid="ref6">[6]</xref>. Another method that they presented used a rotation forest classifier in conjunction with a GA to extract features. Supervised learning encompasses tasks such as prediction, classification, and estimate. Clustering can group data according to illness properties or symptoms, making it an essential tool for data grouping in these methods<xref ref-type="bibr" rid="ref7">[7]</xref>. The two most popular clustering algorithms are fuzzy c-means and K-means, often known as hard cmeans. The key advantage of the k -means algorithm is that it achieves great computational performance even for large variables if the number of clusters is minimal<xref ref-type="bibr" rid="ref8">[8]</xref>. Medical researchers are increasingly turning to the k-means algorithm for its superior clustering capabilities.</p>
+<p>Pathological image classification of breast cancer initially relied on analytical approaches such as mass spectrometry to distinguish between malignant and noncancerous pictures<xref ref-type="bibr" rid="ref9">[9]</xref>. The CNNs have found widespread use in pathology image classification. Using the dataset, they conducted an analysis of deep feature extraction and transfer learning classification algorithms for breast cancer detection in their current study<xref ref-type="bibr" rid="ref10">[10]</xref>. To create fuzzy rules for a fuzzy inference system, their suggested model utilized a DT technique. The dataset was used to test the model. The FDT model outperformed the separate models in terms of robustness<xref ref-type="bibr" rid="ref11">[11]</xref>. They suggested an automated method for detecting breast cancer by combining NN models with association rules. To simplify their model, they employed association rules to narrow the feature space and NN for classification. Using the WBC dataset, the study found that the hybrid diagnosis approach was more successful and efficient than the single NN model<xref ref-type="bibr" rid="ref12">[12]</xref>. They approached the detection of breast cancer as a challenge involving pattern classification. As a nonparametric classifier, they forecasted cancerous samples using the KNN algorithm<xref ref-type="bibr" rid="ref13">[13]</xref>. The fuzzy KNN was one of the enhancements they incorporated in their analysis. They suggested a technique for rule extraction that uses artificial neural networks. The network was used to extract the rules<xref ref-type="bibr" rid="ref14">[14]</xref>. After the input pattern&#x0027;s activation values were discretized by a clustering phase, the pruning technique was employed to eliminate redundant connections. They also offered a rule extraction model that was comparable. Among its contents were three ANNbased rule extraction techniques.</p>
+<p>Here are the key points of our contributions:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Our research is the first of its kind to provide a thorough evaluation of how various quantisation techniques affect RNN accuracy, as far as they are aware.\\
+<p>&#x00B1; In light of the findings presented above, this paper presents HitNet, a hybrid ternary quantisation approach that uses multiple quantisation techniques to quantify activations and weights based on their various statistical properties.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Proposed System</title>
+<p>The uniqueness of the name breast cancer lies in the fact that it unites a multi symbolic organ of the female anatomy with a potentially lethal disease whose treatment typically involves a procedure that mutilates the body, a mastectomy. Unfortunately, many women wait until their symptoms have progressed before seeking out breastscreening services. Health care practitioners and lawmakers should make an effort to comprehend women&#x0027;s situations and the elements impacting their decisions in order to assist them in early detection and treatment of breast cancer.</p>
+<p>The DDSM is a database of 2,620 scanned film mammography studies. It contains normal, benign, and malignant cases with verified pathology information. The scale of the database along with ground truth validation makes the DDSM a useful tool in the development and testing of decision support systems Our data set, the CBISDDSM (Curated Breast Imaging Subset of DDSM), includes decompressed images, data selection and curation by trained mammographers, updated mass segmentation and bounding boxes, and pathologic diagnosis for training data, formatted similarly to modern computer vision data sets. The data set contains 753 calcification cases and 891 mass cases, providing a data-set size capable of analyzing decision support systems in mammography.<xref ref-type="bibr" rid="ref15">[15]</xref>.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Block diagram of proposed method</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-1-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> illustrates a machine learning methodology for categorising items into groups. Raw data undergoes preprocessing before being partitioned into 70 &#x0025; for training and 30 &#x0025; for testing <xref ref-type="bibr" rid="ref16">[16]</xref>. The classifier forecasts the probabilities of benign or malignant results, with its efficacy assessed through precision, recall, and F1-score.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Data Preprocessing:</title>
+<p>The MSE is minimised during inverse filtering and noise removal by using Wiener filtering. Estimating the unknown signal from the corresponding signal is the goal of Wiener filtering. Wiener filtering does double duty by both removing blurring and additive noise. In order to enhance the image&#x0027;s visual quality, Wiener filtering is a specific method for decreasing the noisy regions. Wiener filtering is an all-purpose technique for finding the optimal signal recovery from noise<xref ref-type="bibr" rid="ref17">[17]</xref>. By providing a direct estimate of the noise signal, it allows for the direct anticipation of the initial picture. Wiener filtering improves clarity without affecting the structural characteristics of the mammography image, according to professional radiologists&#x0027; opinions. In order to gauge a desired or target an arbitrary process through LTI filtering of a monitored loud process, researchers employ Wiener filters. This noise filter uses the Fourier transform. The quick computational time required to get the desired solution is the primary reason for its preference.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Segmentation:</title>
+<p>Digital mammograms are segmented after image preprocessing utilising the GSO-based region growth technique to identify problematic regions<xref ref-type="bibr" rid="ref18">[18]</xref>. A pixelbased segmentation method, region growth considers similarity criteria merging pixels into regions. By following the steps outlined in <xref ref-type="algorithm" rid="alg1">Algorithm 1</xref>, one may implement the improved region expanding technique.</p>
+<algorithm rule="both" id="alg1">
+<label>Algorithm 1</label>
+<title>Algorithm for Gso</title>
+<alg-item rule="none" left-indent="0"><p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;Submit the aberrant image.</p></alg-item>
+</algorithm>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="2"/>
+</colgroup>
+<thead>
+<tr>
+<th>2.</th>
+<th>Let <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula> be the enhanced threshold established by the GSO methodology.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.</td>
+<td>Designate <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula> as the initial point in the region growth technique.</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Incorporate four adjacent pixels.</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Calculate the distance <inline-formula><tex-math notation="LaTeX">$b$</tex-math></inline-formula> between the mean intensity of the novel neighbouring pixel and the mean intensity of the region.</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Perform region expanding when <inline-formula><tex-math notation="LaTeX">$b \leq r$</tex-math></inline-formula> on four adjacent pixels, incorporating them individually if they have not already been included in the region, and record the coordinates of the new pixel.</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>Calculate the mean of the novel region, return to step two, and perform region growing until all pixels are categorised.</td>
+</tr></tbody>
+</table>
+<p>Applying the GSO <xref ref-type="algorithm" rid="alg1">algorithm 1</xref> yields effective segmentation results by selecting the seed points and threshold values properly. To summarise, GSO approaches consist of five basic steps: neighbourhood select, luciferin update, computer, decision radius update movement, and moving probability. To a large extent, the fitness value and the early luciferin value dictate the luciferin upgrading phase, as shown in equation~(\ref{eqn1}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+j_{k}(r+1)=(1-\mu) j_{k}(r)+\beta \text { Fitness }\left(v_{l}(r+1)\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>the value of luciferin of glowworm <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> at time <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula>, the luciferin decay constant, the luciferin improvement constant, the position of glowworm <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> at time (<inline-formula><tex-math notation="LaTeX">$r+1$</tex-math></inline-formula>), and the fitness value of glowworm <inline-formula><tex-math notation="LaTeX">$k^{\prime}$</tex-math></inline-formula> s location at time (<inline-formula><tex-math notation="LaTeX">$r+1$</tex-math></inline-formula>) are all represented by <inline-formula><tex-math notation="LaTeX">$v_{l}(r+1)$</tex-math></inline-formula>. During the neighbour choose phase, equation~(\ref{eqn2}) determines which neighbours of glowworm i at time t contain brighter individuals.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+P_{k}(r)=\left\{l: b_{k l}(r)&lt;t_{b}^{k}(r); j_{k}(r)&lt;j_{l}(r)\right\}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>During time <inline-formula><tex-math notation="LaTeX">$r$</tex-math></inline-formula>, the decision radius of glowworm <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> is denoted by <inline-formula><tex-math notation="LaTeX">$b_{k l}(r)$</tex-math></inline-formula>, while the Euclidean distance between glowworms <inline-formula><tex-math notation="LaTeX">$k &amp; l$</tex-math></inline-formula> is determined by <inline-formula><tex-math notation="LaTeX">$t_{b}^{k}(r)$</tex-math></inline-formula>. During the movement probability computer phase, the glowworm pursues other glowworms that have the highest luciferin level by using likelihood rules.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Feature Selection:</title>
+<p>Independently, HOG, ResNet-50, and Mobile Net were each given a principal component analysis transformation, allowing them to go from high-dimensional vectors to lower-dimensional representations while preserving the most important patterns and avoiding redundancy<xref ref-type="bibr" rid="ref19">[19]</xref>. A standard way to build the principal components is to use linear combinations of the original feature vectors. These variables are orthogonal to each other. Those who can adequately characterise the majority of data changes are the ones whose insights are most valued.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Model Training:</title>
+<p>Various state-of-the-art quantisation methods cause quantised RNNs to lose accuracy, to be thoroughly examine in this section. To further grasp the inner workings of these quantisation algorithms, utilise LSTM as an example. The LSTM cell, defined by equations (3) - (5), is the fundamental building block.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+k_{r}, h_{r}, e_{r}, m_{r}=\sigma\left(Z_{v} v_{r}+d_{v}+Z_{f} f_{r-1}+d_{f}\right) \\
+a_{r}=h_{r} * a_{r-1}+k_{r} * e_{r} \\
+f_{r}=m_{r} * \sigma\left(a_{r}\right)
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The activation function is represented by <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula> were. There are a number of components to the calculation, including the following gates: input <inline-formula><tex-math notation="LaTeX">$k_{r}$</tex-math></inline-formula>, forget <inline-formula><tex-math notation="LaTeX">$h_{r}$</tex-math></inline-formula> candidate <inline-formula><tex-math notation="LaTeX">$e_{r}$</tex-math></inline-formula> output <inline-formula><tex-math notation="LaTeX">$m_{r}$</tex-math></inline-formula> cell <inline-formula><tex-math notation="LaTeX">$a_{r}$</tex-math></inline-formula> and hidden <inline-formula><tex-math notation="LaTeX">$f_{r}$</tex-math></inline-formula>.
+<list list-type="ordered">
+<list-item><label></label><p>UniformQuantization:</p></list-item>
+</list></p>
+<p>Equation~(\ref{eqn6}) represents the fundamental and direct approach of UQ for transforming a full precision value <inline-formula><tex-math notation="LaTeX">$v$</tex-math></inline-formula> into a <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> bit fixed-point representation.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+s_{i}(v)=\frac{\operatorname{round}\left[\left(2^{i}-1\right) v\right]}{\left(2^{i}-1\right)}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Therefore, <inline-formula><tex-math notation="LaTeX">$v$</tex-math></inline-formula> must be transformed to <xref ref-type="bibr" rid="ref0">[0]</xref>, <xref ref-type="bibr" rid="ref1">[1]</xref> before to quantisation and then returned to its original range because this quantisation mainly reduces representation precision instead of changing the dynamic range. The practical UQ is then usually modified according to equation~(\ref{eqn7}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+U Q(V)=2 \max (|V|)\left[s_{i}\left(\frac{V}{2 \max (|V|)}+\frac{1}{2}\right)-\frac{1}{2}\right]
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>In order to determine the impact of UQ on RNN accuracy, they conduct a 2 -bit quantised LSTM test on PTB. By utilising the UQ method, they find that 2-bit representation works well for quantising activations or weights. Nevertheless, the precision significantly diminishes when applied to both activations and weights using this quantisation technique.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>2)</label>
+<title>Hitnet:</title>
+<p>This section presents HitNet, which was chosen based on the extensive comparisons made earlier. Activations are directed towards two poles by introducing a constant slope factor into activation, and a hybrid ternary quantisation approach is subsequently applied. In particular, they maximise the benefits of both methods by quantifying weights with TTQ and activations with BTQ. For the hybrid quantisation, equations (8) - (10)are key.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; k_{r}, h_{r}, e_{r}, m_{r}= \sigma\left(T T Q\left(Z_{v}\right) v_{r}+T T Q\left(d_{v}\right)\right. \\
+&amp;\left.+T T Q\left(Z_{f}\right) f_{r-1}\right)+T T Q\left(d_{f}\right) \\
+&amp; a_{r}=h_{r} * a_{r-1}+k_{r} * e_{r} \\
+&amp; f_{r}=B T Q\left(m_{r} * \sigma\left(a_{r}\right)\right)
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Due to the bipolar distribution and plenty of middle data in the activations, none of the prior methods were able to avoid significant accuracy loss in extreme low-bits quantisation. A large amount of the model&#x0027;s precision is dependent on the data in the centre, between the two extremes. Reducing the quantisation error may be possible if they can control the bipolarity of the activation distribution. Luckily, earlier studies revealed that deep belief networks might manage the activation distribution with a temperature factor for the sigmoid() function, leading to improved accuracy. The similarity in the construction of activation functions makes it applicable to RNNs as well. In order to keep the activation distribution as near to the two poles as possible, they slope-factor the activation functions at a constant intensity. Our previous findings also lead us to propose a hybrid ternary quantisation method, which combines TTQ with BTQ to quantify weight and activation, respectively.</p>
+</sec>
+<sec id="sec5">
+<label>3)</label>
+<title>Hybrid Ternary Quantization:</title>
+<p>In order to control the activation distribution, they feed RNN cells a constant slope factor, as shown in equation~(\ref{eqn11}) - (12).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+\operatorname{sig} \widehat{m} \operatorname{oid}(v) &amp; =\frac{1}{1+g^{-\frac{v}{\lambda}}} \\
+\operatorname{ta} \widehat{n}(f) &amp; =\frac{g^{\frac{v}{\lambda}}-g^{-\frac{v}{\lambda}}}{g^{\frac{v}{\lambda}}+g^{-\frac{v}{\lambda}}}
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The activation function&#x0027;s varying tendency under different settings &#x0026; Previous research suggested that a small enough value <inline-formula><tex-math notation="LaTeX">$(&lt;1)$</tex-math></inline-formula> can scale the propagated gradients, improving accuracy and partially solving the vanishing gradient problem. However, a very small $ value leads to an extreme bipolar activation distribution, which undermines the expressive capacity of the model. Additionally, RNNs exhibit a wider distribution of bipolar activation with a narrower canal<xref ref-type="bibr" rid="ref20">[20]</xref>. As a result, the BTQ ternarization error will be reduced and the amount of intermediate data will be improved. Careful configuration of an appropriately tiny size can thus improve the accuracy of quantised models. They support this prediction with experimental data, and they use updated activation functions during training and inference. In order to compare the existing quantisation strategies, they employ the identical LSTM model presented. The table clearly shows the accuracy under different &#x0024; conditions for the full-precision model, the quantised model, and the gap between the two. The following observations were made.
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>The accuracy of the full-precision model can be modestly improved with an appropriately small (0.3-0.6) and clearly degraded with a too small (<inline-formula><tex-math notation="LaTeX">$&lt;0.2$</tex-math></inline-formula>) value.</p></list-item>
+<list-item><label>&#x2022;</label><p>The ternarization error is reduced by producing a smaller $, which in turn produces a more bipolar distribution of activation. Except for smaller models with significantly worse baseline models in full precision, it typically brings improved accuracy on the quantised model. They put up <inline-formula><tex-math notation="LaTeX">$$ 0.3-0.4$</tex-math></inline-formula> in this network by jointly considering these two considerations.</p></list-item>
+<list-item><label>&#x2022;</label><p>The quantised model&#x0027;s accuracy can be improved without adding the slope factor (i.e. <inline-formula><tex-math notation="LaTeX">$=1$</tex-math></inline-formula>) using our hybrid ternary quantisation technique, which uses TTQ for weights and BTQ for activations, in comparison to earlier schemes.</p></list-item>
+</list></p>
+<p>Finally, our HitNet utilises the hybrid quantisation paradigm to determine the optimal quantisation techniques for various components in RNN models. In addition, the bipolar activation distribution can be guided by the added slope factor, which bridges the accuracy gap between the quantised and full-precision models and actually improves the accuracy of the full-precision model slightly. For the remaining experiments, they use the most accurate slope factor, which is 0.4.</p>
+</sec>
+<sec id="sec6">
+<label>IV.</label>
+<title>Results and Discussion</title>
+<p>In terms of female cancer mortality rates, breast cancer ranks first globally and is the most often diagnosed of the cancer types. The most effective methods for managing and treating this condition at the moment include screening for breast cancer and detecting it early. MWI is one of several imaging modalities used to diagnose breast cancer; nonetheless, it is attracting a lot of interest as a potential diagnostic tool for early identification of breast cancer. The MWI screening procedure is painless, quick, easy, cheap, and safe.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Training loss and precision</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-2-source.tif"/>
+</fig></p>
+<p>Training and testing loss and accuracy evolve throughout 50 epochs, as shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>. Learning is doing well since testing and training losses both decrease rapidly at first and then level out. Training and testing accuracy both gradually improve over time, indicating that the model is improving and convergent.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Different model training loss curve</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-3-source.tif"/>
+</fig></p>
+<p>The training loss curves for four separate models Hybrid Ternary RNN, RNN, BiRNN, and GRU over 30 epochs are visible in <xref ref-type="fig" rid="fig3">Figure 3</xref>. The training loss decreases consistently across all models as the period count increases. This is a sign of how effectively the models are learning. The Hybrid Ternary RNN outperforms the others in terms of loss, indicating superior training performance.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Performance comparison</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Models</td>
+<td>Accuracy</td>
+<td>Precision</td>
+<td>Recall</td>
+<td>F1- Score</td>
+</tr>
+<tr>
+<td>Hybrid Ternary RNN</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{9 4. 0 6}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{9 2. 8 4}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{9 0. 8 1}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{9 4. 8 2}$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>RNN</td>
+<td>87.32</td>
+<td>85.69</td>
+<td>83.43</td>
+<td>87.89</td>
+</tr>
+<tr>
+<td>BiRNN</td>
+<td>85.19</td>
+<td>83.78</td>
+<td>81.82</td>
+<td>85.74</td>
+</tr>
+<tr>
+<td>GRU</td>
+<td>91.42</td>
+<td>89.36</td>
+<td>87.69</td>
+<td>91.98</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>The results and findings, which include precision, recall, f 1 score, and accuracy, are specified in <xref ref-type="table" rid="table1">Table 1</xref>. The accuracy that RNN attained was 87.32 &#x0025;. Achieved an accuracy rate of 85.19 &#x0025; using BiRNN. A 91.42 &#x0025; success rate was achieved by the GRU classifier. The best performer was the hybrid ternary RNN, which had an accuracy of 94.06&#x0025;.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>True positive and false positive analysis</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-4-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig4">Figure 4</xref> compares two models, one with and one without segmentation, showing the relationship between the FPR and the TPR. A greater TPR indicates that the segmented model discovers things better in every case. By increasing the proportion of true positives and decreasing the proportion of false positives, segmentation generally improves accuracy.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Roc analysis</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-5-source.tif"/>
+</fig></p>
+<p>ROC analysis shows the link between sensitivity and 1 -specificity in <xref ref-type="fig" rid="fig5">Figure 5</xref>. As sensitivity and 1specificity increase, object detection improves. Rising threshold values allow the model to identify positive and negative events.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Confusion matrix</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455778-fig-6-source.tif"/>
+</fig></p>
+<p>The expected values of TP, FP, FN, and TN are displayed in <xref ref-type="fig" rid="fig6">Figure 6</xref>. The number of instances when the expected and actual classes have the same labels is represented by each entry in this confusion matrix.</p>
+</sec>
+<sec id="sec7">
+<label>V.</label>
+<title>Conclusion</title>
+<p>A major public health issue worldwide, breast cancer is expected to disproportionately affect low-income communities in the next decades. LMIC face this problem head-on since their healthcare systems are weak and they don&#x0027;t have the money to detect and treat diseases early. Optimal generation of initial seed points and threshold values is achieved through the use of a region growth picture segmentation technique based on GSO, which is applied to Early Breast Cancer Detection in this work. Data is preprocessed using Weiner Filtering. By integrating traditional and deep learning techniques, a hybrid methodology is developed to improve feature extraction. Our new Hybrid Ternary RNN, HitNet, uses ternary weights and activations to address the shortcomings of earlier ultra-low-bit quantisation methods and close the accuracy gap between quantised and full-precision models. With a robust performance of 94.06 &#x0025; when tested using a typical RNN framework, the suggested model is clearly a strong contender. Especially in areas with low resources, this approach has the ability to decrease mortality rates due to enhanced diagnostic accuracy and the availability of a resource-conscious tool for early diagnosis of breast cancer.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"> &#x00DC;. <string-name><surname>Budak</surname>, <given-names>Z</given-names></string-name>. C&#x00F6;<string-name><surname>mert</surname>, <given-names>Z</given-names></string-name>. N. <string-name><surname>Rashid</surname>, <given-names>A</given-names></string-name>. &#x015E;eng&#x00FC;<string-name><surname>r</surname>, <given-names>and</given-names></string-name> M. &#x00C7;&#x0131;buk</person-group>, &#x201C;<article-title>Computer-aided diagnosis system combining FCN and BiLSTM model for efficient breast cancer detection from histopathological images</article-title>,&#x201D; <source>Appl. Soft Comput. J.</source>, vol. <volume>85</volume>, <year>2019</year>, doi: <pub-id pub-id-type="doi">10.1016/j.asoc.2019.105765</pub-id>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Xu</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Ali Asgharzadeholiaee</surname></string-name></person-group>, &#x201C;<article-title>A Homogeneous Ensemble Classifier for Breast Cancer Detection Using Parameters Tuning of MLP Neural Network</article-title>,&#x201D; <source>Appl. Artif. Intell.</source>, vol. <volume>36</volume>, no. <issue>1</issue>, <year>2022</year>, doi: <pub-id pub-id-type="doi">10.1080/08839514.2022.2031820</pub-id>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Alruily</surname></string-name>, <string-name><given-names>A. A.</given-names> <surname>Mahmoud</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Allahem</surname></string-name>, <string-name><given-names>A. M.</given-names> <surname>Mostafa</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Shabana</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Ezz</surname></string-name></person-group>, &#x201C;<article-title>Enhancing Breast Cancer Detection in Ultrasound Images: An Innovative Approach Using Progressive Fine-Tuning of Vision Transformer Models</article-title>,&#x201D; <source>Int. J. Intell. Syst.</source>,\\ vol. <volume>2024</volume>, no. <issue>1</issue>, <year>2024</year>, doi: <pub-id pub-id-type="doi"><tex-math notation=&#x201D;LaTeX">$10.1155 / \mathrm{int} / 6528752$</pub-id>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Basaad</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Basurra</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Vakaj</surname></string-name>, <string-name><given-names>A. K.</given-names> <surname>Eldaly</surname></string-name>, and <string-name><given-names>M. M.</given-names> <surname>Abdelsamea</surname></string-name></person-group>, &#x201C;<article-title>A BERT-GNN Approach for Metastatic Breast Cancer Prediction Using Histopathology Reports</article-title>,&#x201D; <source>Diagnostics</source>, vol. <volume>14</volume>, no. <issue>13</issue>, pp. <fpage>1</fpage>&#x2013;<lpage>20</lpage>, <year>2024</year>, doi: <pub-id pub-id-type="doi">10.3390/diagnostics 14131365</pub-id>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. G.</given-names> <surname>Zadeh</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Fayazi</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Binazir</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Yargholi</surname></string-name></person-group>, &#x201C;<article-title>Breast cancer diagnosis based on feature extraction using dynamic models of thermal imaging and deep autoencoder neural networks</article-title>,&#x201D; <source>J. Test. Eval.</source>, vol. <volume>49</volume>, no. <issue>3</issue>, <year>2020</year>, doi: <pub-id pub-id-type="doi">10.1520/JTE20200044</pub-id>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Dhahri</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Al</surname></string-name> Maghayreh, <string-name><given-names>A.</given-names> <surname>Mahmood</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Elkilani</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Faisal Nagi</surname></string-name></person-group>, &#x201C;<article-title>Automated Breast Cancer Diagnosis Based on Machine Learning Algorithms</article-title>,&#x201D; <source>J. Healthc. Eng.</source>, vol. <volume>2019</volume>, <year>2019</year>, doi: <pub-id pub-id-type="doi">10.1155/2019/4253641</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. K.</given-names> <surname>Dubey</surname></string-name>, <string-name><given-names>U.</given-names> <surname>Gupta</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Jain</surname></string-name></person-group>, &#x201C;<article-title>Comparative study of Kmeans and fuzzy C-means algorithms on the breast cancer data</article-title>,&#x201D; <source>Int. J. Adv. Sci. Eng. Inf. Technol.</source>, vol. <volume>8</volume>, no. <issue>1</issue>, pp. <fpage>18</fpage>&#x2013;<lpage>29</lpage>, <year>2018</year>, doi: <pub-id pub-id-type="doi">10.18517/ijaseit.8.1.3490</pub-id>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Gao</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>SD-CNN: A shallow-deep CNN for improved breast cancer diagnosis</article-title>,&#x201D; <source>Comput. Med. Imaging Graph.</source>, vol. <volume>70</volume>, no. Desember, pp. <fpage>53</fpage>&#x2013;<lpage>62</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>V.</given-names> <surname>Kate</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Ushasree</surname></string-name>, <string-name><given-names>R. M.</given-names> <surname>Tharsanee</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Kukreja</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Saraf</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Varadharajan</surname></string-name></person-group>, &#x201C;<article-title>GAN, CNN and ELM Based Breast Cancer Detection</article-title>,&#x201D; <year>2023</year> 2nd Int. Conf. Innov. Technol. INOCON <year>2023</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, <year>2023</year>, doi: <pub-id pub-id-type="doi">10.1109/INOCON57975.2023.10101250</pub-id>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Pandey</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Ramesh</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Mohan</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kaliappan</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Swetha</surname></string-name> Reddy, and <string-name><given-names>K.</given-names> <surname>Gurunathan</surname></string-name></person-group>, &#x201C;<article-title>Image Processing Based Early Breast Cancer Detection in Mammography Images Using GRU and XGBoost Approach</article-title>,&#x201D; 1st Int. Conf. Electron. Comput. Commun. Control Technol. ICECCC <year>2024</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, <year>2024</year>, doi: <pub-id pub-id-type="doi">10.1109/ICECCC61767.2024.10593949</pub-id>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>S. W.</given-names> <surname>Yoon</surname></string-name>, and <string-name><given-names>H. S.</given-names> <surname>Ko</surname></string-name></person-group>, &#x201C;<article-title>A support vector machine-based ensemble algorithm for breast cancer diagnosis</article-title>,&#x201D; <source>Eur. J. Oper. Res.</source>, vol. <volume>267</volume>, no. <issue>2</issue>, pp. <fpage>687</fpage>&#x2013;<lpage>699</lpage>, <year>2018</year>, doi: <pub-id pub-id-type="doi">10.1016/j.ejor.2017.12.001</pub-id>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Sultana</surname></string-name>, <string-name><given-names>M. A.</given-names> <surname>Rahman</surname></string-name> Khan, and <string-name><given-names>N.</given-names> <surname>Jahan</surname></string-name></person-group>, &#x201C;<article-title>Early Breast Cancer Detection Utilizing Artificial Neural Network</article-title>,&#x201D; <source>Wseas Trans. Biol. Biomed.</source>, vol. <volume>18</volume>, pp. <fpage>32</fpage>&#x2013;<lpage>42</lpage>, <year>2021</year>, doi: <pub-id pub-id-type="doi">10.37394/23208.2021.18.4</pub-id>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Cherif</surname></string-name></person-group>, &#x201C;<article-title>Optimization of K-NN algorithm by clustering and reliability coefficients: Application to breast-cancer diagnosis</article-title>,&#x201D; <source>Procedia Comput. Sci.</source>, vol. <volume>127</volume>, pp. <fpage>293</fpage>&#x2013;<lpage>299</lpage>, <year>2018</year>, doi: <pub-id pub-id-type="doi">10.1016/j.procs.2018.01.125</pub-id>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kumar</surname></string-name> Behera, <string-name><given-names>K.</given-names> <surname>Kalpana</surname></string-name>, <string-name><given-names>A. V.</given-names> <surname>Kadam</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Ashok</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Suganthi</surname></string-name></person-group>, &#x201C;<article-title>An Innovative Method to Predict Breast Cancer at Earlier Stage based on RAUNET Approach</article-title>,&#x201D; Int. Conf. Sustain. Commun. Networks Appl. ICSCNA <year>2023</year> Proc., no. Icscna, pp. <fpage>1335</fpage>&#x2013;<lpage>1340</lpage>, <year>2023</year>, doi: <pub-id pub-id-type="doi">10.1109/ICSCNA58489.2023.10370705</pub-id>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="online" publication-format="print">&#x201C;<article-title>Breast Cancer Prediction</article-title>.&#x201D; Accessed: <date-in-citation><month>Oct.</month> 07, <year>2025</year>. [Online]. Available:\\ <uri>https://www.kaggle.com/datasets/fatemehmehrparvar/breast-cancer-prediction</uri></mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Fatima</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Analyzing Breast Cancer Detection Using Machine Learning &#x0026; Deep Learning Techniques</article-title>,&#x201D; <source>J. Comput. Biomed. Informatics</source>, vol. <volume>7</volume>, no. <issue>2</issue>, <year>2024</year>, [Online]. Available: <uri>https://doi.org/10.56979/702/2024</uri></mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N. N.</given-names> <surname>Ganvir</surname></string-name> and <string-name><given-names>D. M.</given-names> <surname>Yadav</surname></string-name></person-group>, &#x201C;<article-title>Filtering method for preprocessing mammogram images for breast cancer detection</article-title>,&#x201D; <source>Int. J. Eng. Adv. Technol.</source>, vol. <volume>9</volume>, no. <issue>1</issue>, pp. <fpage>4222</fpage>&#x2013;<lpage>4229</lpage>, <year>2019</year>, doi: <pub-id pub-id-type="doi">10.35940/ijeat.A1623.109119</pub-id>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Dafni</surname></string-name> Rose, <string-name><given-names>K.</given-names> <surname>VijayaKumar</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Singh</surname></string-name>, and <string-name><given-names>S. K.</given-names> <surname>Sharma</surname></string-name></person-group>, &#x201C;<article-title>Computer-aided diagnosis for breast cancer detection and classification using optimal region growing segmentation with MobileNet model</article-title>,&#x201D; <source>Concurr. Eng. Res. Appl.</source>, vol. <volume>30</volume>, no. <issue>2</issue>, pp. <fpage>181</fpage>&#x2013;<lpage>189</lpage>, <year>2022</year>, doi: <pub-id pub-id-type="doi">10.1177/1063293X221080518</pub-id>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Youssef</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Atef</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Gamal</surname></string-name>, <string-name><given-names>J.</given-names> <surname>El-Azab</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Ismail</surname></string-name></person-group>, &#x201C;<article-title>Early Breast Cancer Prediction Using Thermal Images and Hybrid Feature Extraction-Based System</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>13</volume>, no. February, pp. <fpage>29327</fpage>&#x2013;<lpage>29339</lpage>, <year>2025</year>, doi: <pub-id pub-id-type="doi">10.1109/ACCESS.2025.3541051</pub-id>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Xie</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Deng</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Wang</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Xie</surname></string-name></person-group>, &#x201C;<article-title>HitNet: Hybrid ternary recurrent neural network</article-title>,&#x201D; <source>Adv. Neural Inf. Process. Syst.</source>, vol. <volume>2018</volume>-<month>December</month>, no. NeurIPS, pp. <fpage>604</fpage>&#x2013;<lpage>614</lpage>, <year>2018</year>.</mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

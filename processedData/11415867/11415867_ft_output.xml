@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/27/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00406</article-id>
+<xplore-article-id>11415867</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>Can Reasoning LLMs Eliminate Conformity in Multi-Agent Systems?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Alina</given-names> <surname>Liu</surname></string-name>
+<string-name specific-use="index"><given-names>Alina</given-names> <surname>Liu</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref>
+<xref ref-type="aff" rid="aff2"><sup>o</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Christopher</given-names> <surname>Hill</surname></string-name>
+<string-name specific-use="index"><given-names>Christopher</given-names> <surname>Hill</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2"><sup>&#x2020;</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Jiachen</given-names> <surname>Jiang</surname></string-name>
+<string-name specific-use="index"><given-names>Jiachen</given-names> <surname>Jiang</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2"><sup>o</sup></xref>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Zhihui</given-names> <surname>Zhu</surname></string-name>
+<string-name specific-use="index"><given-names>Zhihui</given-names> <surname>Zhu</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff2">o</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>&#x2020;</sup>
+<institution-wrap>
+<institution content-type="institution">Columbus Academy</institution>
+</institution-wrap>
+</aff>
+<aff id="aff2"><sup>o</sup>
+<institution-wrap>
+<institution content-type="department">Department of Computer Science and Engineering</institution>
+<institution content-type="institution">The Ohio State University</institution>
+</institution-wrap>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>3081</fpage>
+<lpage>3086</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415867_ft.xml</self-uri>
+<self-uri content-type="print">813200d081.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Multi-agent systems powered by large language models (LLMs) hold great promise for collaboratively solving complex tasks. However, recent studies have revealed that these systems often suffer from conformity, where agents prioritize consensus over correctness. To address this challenge, we explore reasoning-oriented LLMs-so-called reasoning LLMs or large reasoning models (LRMs), which demonstrate enhanced reasoning abilities and emergent behaviors such as self-reflection-as a potential solution, and present the first systematic study of conformity in LRMs within multi-agent systems. Through controlled experiments, we compare LRMs (DeepSeek-R1, GPT-o3-mini) with instruction-tuned counterparts (DeepSeek-V3, GPT-4o-mini) across diverse tasks. Our results yield three key findings: (i) LRMs conform significantly less than non-reasoning LLMs on average; (ii) LRMs exhibit greater independence on logical tasks, but show comparable or even lower independence on contextual tasks; and (iii) stronger reasoning ability further enhances independence on logical tasks, while reducing it on contextual tasks. Overall, these findings highlight the promise of reasoning-augmented LLMs for enhancing autonomy in multi-agent systems, but also reveal their limitations on contextual tasks, pointing to the need for future work on mitigating conformity in such settings.</p>
+</abstract>
+<funding-group>
+<award-group>
+<funding-source>
+<institution-wrap>
+<institution>NSF</institution>
+<institution-id institution-id-type="fundref">10.13039/100000001</institution-id>
+</institution-wrap>
+</funding-source>
+<award-id>IIS2312840, IIS-2402952, and ECCS-2409701</award-id>
+</award-group>
+<funding-statement>We thank anonymous reviewers for their helpful comments. This work was supported in part by NSF grants IIS2312840, IIS-2402952, and ECCS-2409701.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="1"/>
+<equation-count count="2"/>
+<ref-count count="22"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>1.</label>
+<title>Introduction</title>
+<p>Large Language Models (LLMs) have recently demonstrated remarkable capabilities in in-context learning, enabling their deployment in multi-agent systems for collaborative problem solving <xref ref-type="bibr" rid="ref1">[1]</xref>. In such systems, multiple LLM-based agents exchange information, coordinate strategies, and collectively generate solutions, often outperforming single agents across a variety of tasks and fields, such as building robots, creating public policies, and software engineering <xref ref-type="bibr" rid="ref2">[2]</xref>&#x2013;<xref ref-type="bibr" rid="ref3"/><xref ref-type="bibr" rid="ref4"/><xref ref-type="bibr" rid="ref5"/><xref ref-type="bibr" rid="ref6">[6]</xref>. These advances suggest a possible path toward organizational AI-the final stage of AI development envisioned by OpenAI.</p>
+<p>Despite this promise, multi-agent LLMs also inherit a well-known pitfall from human group decision-making: conformity-the tendency for individual agents to align their responses with group consensus, even at the expense of correctness. Conformity can suppress diversity of thought, propagate errors, and ultimately undermine the benefits of collaboration. For instance, recent work <xref ref-type="bibr" rid="ref7">[7]</xref>&#x2013;<xref ref-type="bibr" rid="ref8"/><xref ref-type="bibr" rid="ref9"/><xref ref-type="bibr" rid="ref10">[10]</xref> demonstrated that standard LLMs frequently imitate peer responses at the cost of correctness, raising concerns about the reliability of collaborative systems.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Figure 1:</label>
+<caption><p>Independence rate comparison of deepseek-r1 (reasoning) vs. deepseek-v3 (non-reasoning) and gpt-o3mini (reasoning) vs. gpt-4o-mini (non-reasoning) across different number of agents.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-1-source.tif"/>
+</fig></p>
+<p>Meanwhile, a new generation of reasoning-optimized LLMs, referred to here as <italic>large reasoning models (LRMs)</italic> or simply <italic>reasoning LLMs</italic>, has emerged <xref ref-type="bibr" rid="ref11">[11]</xref>, <xref ref-type="bibr" rid="ref12">[12]</xref>. Models such as DeepSeek-R1 <xref ref-type="bibr" rid="ref13">[13]</xref>, trained with reinforcement learning <xref ref-type="bibr" rid="ref14">[14]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref>, exhibit significantly improved reasoning abilities, including emergent behaviors such as self-reflection-the capacity to revisit, evaluate, and revise prior outputs <xref ref-type="bibr" rid="ref16">[16]</xref>. These reasoning-augmented models further pave the way for the development of autonomous LLM agents capable of deliberation, coordination, and adaptive decision-making in multi-agent environments <xref ref-type="bibr" rid="ref17">[17]</xref>.</p>
+<p>These advanced reasoning abilities make LRMs particularly well-suited for data mining, where extracting subtle patterns and insights from complex or unstructured data is essential <xref ref-type="bibr" rid="ref18">[18]</xref>. LRMs can parse, interpret, and reason over unstructured text, images, and other modalities to surface latent insights. For example, recent systems have used LLMs to build universal query engines over unstructured datasets, effectively enabling analytics without requiring rigid schema design <xref ref-type="bibr" rid="ref19">[19]</xref>. By employing lower-conformity LRMs, individual agents can uncover novel insights, potentially transforming a wide range of sectors, including marketing, finance, healthcare, and scientific research.</p>
+<p>These advances motivate this work to study the following research questions:
+<list list-type="simple">
+<list-item><p><italic>Can Lrms (I.E., Reasoning Llms) Reduce or Even Eliminate Conformity in Multi-Agent Systems?</italic></p></list-item>
+</list>
+</p>
+<p><bold>Contribution</bold>. In this work, we present the first systematic study of conformity in reasoning LLMs within collaborative multi-agent settings. We compare LRMs across diverse tasks. As shown in <xref ref-type="fig" rid="fig1">Figure 1</xref>, our findings reveal a nuanced picture: (i) on logical tasks, reasoning LLMs demonstrate greater independence, resisting peer influence and achieving higher accuracy; (ii) however, on contextual tasks, conformity persists, with reasoning LLMs performing similarly or slightly worse than standard models. Moreover, the comparison between DeepSeek-R1 and GPT-o3-mini indicates that stronger reasoning ability further enhances independence on logical tasks, while reducing it on contextual tasks. These results underscore both the promise and the limitations of reasoning LLMs: while they mitigate conformity in domains where logical inference dominates, they remain vulnerable to social influence in open-ended tasks. Understanding these dynamics is critical for designing multi-agent systems that can leverage collective intelligence without succumbing to groupthink.</p>
+<p>Our contributions are as follows:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>We provide the first systematic analysis of conformity and independence in reasoning LLMs within multiagent systems and introduce controlled experimental protocols to quantify independence, conformity, and performance across logical and contextual tasks.</p></list-item>
+<list-item><label>&#x2022;</label><p>We demonstrate that reasoning LLMs reduce but do not eliminate conformity, highlighting both their advantages and vulnerabilities for collaborative intelligence.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>2.</label>
+<title>Related Works</title>
+<sec id="sec2a">
+<label>2.1.</label>
+<title>Conformity in LLM Agents</title>
+<p>Conformity is not only a well-studied phenomenon in human social psychology but also emerges in AI systems <xref ref-type="bibr" rid="ref7">[7]</xref>&#x2013;<xref ref-type="bibr" rid="ref8"/><xref ref-type="bibr" rid="ref9"/><xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref20">[20]</xref>. Just as humans may abandon their correct judgments under group pressure, large language models (LLMs) in multi-agent collaboration can also change their answers when most peers disagree <xref ref-type="bibr" rid="ref21">[21]</xref>. This similarity suggests that conformity is a general challenge for both human and AI group decision-making. In the context of LLMs, such behavior can undermine the reliability of multiagent systems.</p>
+<p>In our study, we aim to investigate the extent to which reasoning-oriented models, such as Deepseek-R1 and and GPT-o3, are capable of reducing conformity among agents and fostering greater independence in their decision-making processes. By examining these dynamics, we seek to better understand whether reasoning models can ultimately enhance the overall reliability, robustness, and effectiveness of multi-agent collaboration.</p>
+</sec>
+<sec id="sec2b">
+<label>2.2.</label>
+<title>Reasoning Models</title>
+<p>Reasoning models such as DeepSeek-R1 and GPT-o3 are trained on specific datasets with reasoning chains, creating models designed to generate explicit step-by-step reasoning traces before producing a final answer <xref ref-type="bibr" rid="ref11">[11]</xref>, <xref ref-type="bibr" rid="ref12">[12]</xref>, <xref ref-type="bibr" rid="ref22">[22]</xref>. This reasoning-first paradigm encourages deliberation and self-reflection, which may help such models resist conformity by relying more on internal reasoning than on simply imitating others&#x0027; responses. These properties suggest that LRMs may foster greater autonomy in collaborative settings, where agents must balance agreement with correctness. However, the implications of these advances for multi-agent dynamics remain underexplored. In particular, it is unclear whether the enhanced reasoning ability of LRMs translates into reduced susceptibility to conformity pressures, especially when faced with tasks requiring contextual understanding or domain knowledge beyond logical reasoning.</p>
+<p>Our work bridges this gap by conducting the first systematic study of conformity in reasoning models within multi-agent systems. By comparing LRMs with instructiontuned counterparts across logical, analytical, and contextual tasks, we shed light on when and how reasoning capabilities influence independence, and we identify limitations that point toward future improvements.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>3.</label>
+<title>Methods for Measuring Conformity and Independence</title>
+<p>To systematically assess the conformity of LLMs in multi-agent systems, we adopt the Benchform framework <xref ref-type="bibr" rid="ref7">[7]</xref>, which studies how contextual information from other agents influences the performance of a subject agent. Concretely, given a fixed QA set <inline-formula><tex-math notation="LaTeX">$\mathcal{Q}$</tex-math></inline-formula>, we examine the subject agent&#x0027;s responses under single-round interaction protocols:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><italic>Raw</italic> <inline-formula><tex-math notation="LaTeX">$(R)$</tex-math></inline-formula>. The subject agent answers each question independently, without exposure to other agents. This serves as the control condition.</p></list-item>
+<list-item><label>&#x2022;</label><p><italic>Correct Guidance (C)</italic>. Several additional agents answer first and always provide the correct solution. The subject agent responds afterward, allowing us to assess whether it conforms to accurate peer information.</p></list-item>
+<list-item><label>&#x2022;</label><p><italic>Wrong Guidance</italic> (<inline-formula><tex-math notation="LaTeX">$W$</tex-math></inline-formula>). This mirrors Correct Guidance, except the additional agents give incorrect answers. This setup evaluates whether the subject agent conforms to an inaccurate group consensus, even when it conflicts with its own reasoning.</p></list-item>
+</list>
+</p>
+<p>For each protocol <inline-formula><tex-math notation="LaTeX">$P \in\{R, C, W\}$</tex-math></inline-formula>, let <inline-formula><tex-math notation="LaTeX">$\mathcal{Q}_{P}^{\vee}$</tex-math></inline-formula> denote the sets of correctly answered questions. We define two metrics:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Acc}_{P}=\frac{\left|\mathcal{Q}_{P}^{\vee}\right\vert}{|\mathcal{Q}\vert}, \quad \text{CR}_{P}=\frac{\left|\mathcal{Q}_{P}^{\vee} \cup \mathcal{Q}_{R}^{\vee}\right\vert-\left|\mathcal{Q}_{P}^{\vee} \cap \mathcal{Q}_{R}^{\vee}\right\vert}{\left|\mathcal{Q}_{P}^{\vee} \cup \mathcal{Q}_{R}^{\vee}\right\vert}.
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here, Acc <inline-formula><tex-math notation="LaTeX">$_{P}$</tex-math></inline-formula> measures task accuracy under protocol <inline-formula><tex-math notation="LaTeX">$P$</tex-math></inline-formula>, while <inline-formula><tex-math notation="LaTeX">$\text{CR}_{P}$</tex-math></inline-formula> quantifies the fraction of questions whose outcomes change between protocol <inline-formula><tex-math notation="LaTeX">$P$</tex-math></inline-formula> and the Raw protocal <inline-formula><tex-math notation="LaTeX">$C$</tex-math></inline-formula>; that is, questions where the agnet&#x0027;s answer flips from correct to incorrect or vice versa. This definition refines the conformity metric used in <xref ref-type="bibr" rid="ref7">[7]</xref>. <sup><xref ref-type="fn" rid="fn1">1</xref></sup> <fn id="fn1"><label><sup>1.</sup></label><p>For example, denoted by <inline-formula><tex-math notation="LaTeX">$\mathcal{Q}_{P}$</tex-math></inline-formula> the set of incorrectly answered questions, the conformity for the correct guidance in <xref ref-type="bibr" rid="ref7">[7]</xref> is defined as <inline-formula><tex-math notation="LaTeX">$\text{CR}_{C}= \frac{\left|\mathcal{Q}_{R}^{\times} \cap \mathcal{Q}_{C} \times\right\vert}{\left|\mathcal{Q}_{R}^{\times}\right\vert}$</tex-math></inline-formula>, which measures the proportion of questions the subject agent initially answered incorrectly but corrected after exposure to accurate group input. However, this definition could be unstable, in particular when the base performs very well, i.e., <inline-formula><tex-math notation="LaTeX">$\left|\mathcal{Q}_{R}^{\times}\right\vert$</tex-math></inline-formula> becomes small, causing large variations in the computed value.</p></fn> In general, conformity under Wrong Guidance reflects vulnerability to peer influence, whereas conformity under Correct Guidance highlights potential benefits from social learning. Overall, a higher CR indicates stronger influence of contextual information from other agents.</p>
+<p><bold>Multi-round Interaction Protocols</bold> In addition, to evaluate the subject agent&#x0027;s ability to make independent decisions, we introduce two further interaction protocols that involve multi-round interactions:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><italic>Trust Protocol (T)</italic>. The subject agent participates in multiple rounds. In the early rounds, additional agents consistently provide correct answers, potentially building the subject agent&#x0027;s trust. In the final round, however, these peers give an incorrect answer. This protocol tests whether prior exposure to accurate peers causes the subject agent to follow them even when they are wrong.</p></list-item>
+<list-item><label>&#x2022;</label><p><italic>Doubt Protocol (D)</italic>. This is the inverse of the Trust Protocol. In the initial rounds, additional agents provide incorrect answers, but in the final round they switch to the correct answer. The goal is to evaluate whether the subject agent develops doubt toward peers based on past inaccuracy and disregards their correct answer in the end.</p></list-item>
+</list>
+</p>
+<p>One can also measure the accuracy and conformity for the Trust and Doubt protocols using <xref ref-type="disp-formula" rid="deqn1">(1)</xref>. To further quantify independence among different protocols, we define the independence rate (IR) as
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\text{IR}=\frac{\left|\mathcal{Q}_{T}^{\vee} \cap \mathcal{Q}_{D}^{\vee} \cap \mathcal{Q}_{R}^{\vee}\right\vert}{\left|\mathcal{Q}_{T}^{\vee} \cup \mathcal{Q}_{D}^{\vee} \cup \mathcal{Q}_{R}^{\vee}\right\vert}.
+\tag{2}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The IR extends the conformity measure in <xref ref-type="disp-formula" rid="deqn1">(1)</xref> to three protocols, but serves as the conceptual opposite: a higher IR indicates greater independence, whereas a higher CR reflects stronger conformity (i.e., lower independence), consistent with the definition in <xref ref-type="bibr" rid="ref7">[7]</xref>. This formulation revises the definition used in <xref ref-type="bibr" rid="ref7">[7]</xref> to capture the proportion of questions that are consistently answered correctly across protocols. <sup><xref ref-type="fn" rid="fn2">2</xref></sup> <fn id="fn2"><label><sup>2.</sup></label><p>The definition in <xref ref-type="bibr" rid="ref7">[7]</xref> is <inline-formula><tex-math notation="LaTeX">$\frac{\left|\mathcal{Q}_{T} \sim \mathcal{Q}_{D} \sim \mathcal{Q}_{R}{ }^{r}\right\vert}{\left|\mathcal{Q}_{R} \sim\right\vert}$</tex-math></inline-formula>, where the denominator only includes cases in which the agent answers correctly under the Raw protocol <inline-formula><tex-math notation="LaTeX">$(R)$</tex-math></inline-formula>. This formulation omits scenarios such as when the agent answers incorrectly in <inline-formula><tex-math notation="LaTeX">$R$</tex-math></inline-formula> but correctly in the Trust or Doubt protocols, which still reflect independence despite failure under <inline-formula><tex-math notation="LaTeX">$R$</tex-math></inline-formula>.</p></fn> If an agent can reason independently and reliably identify correct versus incorrect information provided by peers, then <inline-formula><tex-math notation="LaTeX">$\mathcal{Q}_{P}^{\vee}$</tex-math></inline-formula> will coincide across the three protocols, yielding an IR of 100 &#x0025;. Conversely, if the agent heavily relies on peer input, the joint set <inline-formula><tex-math notation="LaTeX">$\mathcal{Q}_{T}^{\checkmark} \cap \mathcal{Q}_{D}^{\checkmark} \cap \mathcal{Q}_{R}^{\checkmark}$</tex-math></inline-formula> will be small, resulting in a low IR.</p>
+</sec>
+<sec id="sec4">
+<label>4.</label>
+<title>Results: Reasoning LLMs Reduce but Do Not Eliminate Conformity</title>
+<p>Experiment Settings. To ensure a fair comparison between reasoning LLMs and their general-purpose instructiontuned, non-reasoning counterparts, we conduct experiments with DeepSeek-R1 against DeepSeek-V3 and GPT-o3mini against GPT-4o-mini. We use both DeepSeek-R1 and DeepSeek-V3 since both originate from the same base architecture-DeepSeek-V3-Base, and DeepSeek-R1 is effectively a specialized reasoning extension of V3, fine-tuned to excel at logical chains of thought and reasoning tasks. We use GPT because both o3-mini and 4 o -mini belong to the same GPT-4o architecture family, with o3-mini serving as a reasoning-optimized variant and 4 o -mini as its general-purpose counterpart. This allows us to fairly isolate the effect of reasoning fine-tuning within a consistent model lineage.</p>
+<p>We evaluate each model on a total of 400 questions adapted from <xref ref-type="bibr" rid="ref7">[7]</xref> drawn from four benchmark tasks: logical deduction, web of lies, movie recommendations, and sports understanding. The first two tasks focus on logical reasoning, while the latter two emphasize language understanding and contextual knowledge. <xref ref-type="table" rid="table1">Table 1</xref> summarizes the selected tasks, their descriptions, and sample sizes.</p>
+<p>For each task, every model is tested under all five protocols: Raw, Correct Guidance, Wrong Guidance, Trust, and Doubt, illustrated in the previous section. Thus, each model answers all 400 questions in every protocol. Based on these responses, we compute the conformity rates (CR) and independence rate (IR). To further examine conformity dynamics, we vary the majority number of agents (MN) from 3 to 6, thereby studying how the models respond when facing increasingly strong group consensus. In addition, within the Trust and Doubt protocols, we vary the number of prior interaction rounds known as previous discussions (PD) from 3 to 6, analyzing how longer histories of peer responses affect the subject agent&#x0027;s willingness to conform or remain independent. To assess the stability and consistency of our experimental results, we conduct experiment with independently three times and observe relatively low standard deviations across runs; therefore, we report only the mean values in the following sections.</p>
+<p><bold>Results on Conformity</bold>. We first evaluate the conformity rate of the models under the protocols described in <xref ref-type="sec" rid="sec3">Section 3</xref>. The results are presented in <xref ref-type="fig" rid="fig2">Figure 2</xref> and <xref ref-type="fig" rid="fig5">Figure 5</xref>, from which we draw the following key observations.</p>
+<p><bold>Finding 1: Reasoning Llms Exhibit Lower Conformity</bold>.</p>
+<p>As shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>, <italic>DeepSeek-R1</italic> demonstrates stronger resistance to conformity than <italic>DeepSeek-V3</italic>, with average CRs approximately 180 &#x0025; lower in the Previous Discussion Rounds and 130&#x0025; lower in the Majority Number experiments. Models such as <italic>DeepSeek-R1</italic> mitigate conformity risks by weighing peer input more critically and relying more heavily on internal reasoning processes. Consequently, reasoning LLMs appear better suited for domains where agents must balance collaboration with autonomy-such as group decision-making, distributed problem solving, or contexts in which correctness is more important than consensus. This trend is further supported by our comparisons between GPT models, where the reasoning-oriented variants consistently exhibit greater independence in multi-agent settings. For brevity, we omit the corresponding figures.
+<table-wrap id="table1">
+<label>Table 1:</label>
+<caption><title>Benchmark tasks grouped by category.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Group</th>
+<th>Task</th>
+<th>Description</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">i) Logical &#x0026; Analytical Reasoning</td>
+<td>Logical Deduction</td>
+<td>Deduce the order of a sequence of objects based on the clues and information about their spatial relationships and placements.</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Web of Lies</td>
+<td>Evaluate the truth value of a random Boolean function expressed as a natural-language word problem.</td>
+<td>100</td>
+</tr>
+<tr>
+<td rowspan="2">ii) Language &#x0026; Contextual Understanding</td>
+<td>Movie Recommendation</td>
+<td>Given a list of movies a user might have watched and liked, recommend a new, relevant movie to the user out of the four potential choices.</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Sports Understanding</td>
+<td>Determine whether a factitious sentence related to sports is plausible.</td>
+<td>100</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Figure 2:</label>
+<caption><p>Conformity rate of deepseek-r1 (reasoning) vs. deepseek-v3 (non-reasoning) across different numbers of agents.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-2-source.tif"/>
+</fig>
+</p>
+<p>Recall the definition of independence rate in <xref ref-type="disp-formula" rid="deqn2">(2)</xref>. <xref ref-type="fig" rid="fig1">Figure 1</xref> and <xref ref-type="fig" rid="fig6">Figure 6</xref> present the independence rates of DeepSeek-R1 (reasoning) vs. DeepSeek-V3 (non-reasoning) and GPT-o3-mini (reasoning) vs. GPT-4o-mini (nonreasoning) across different discussion rounds and varying numbers of agents, respectively. These figures reveal several noteworthy findings.</p>
+<p><bold>Finding 2: LRMs exhibit greater independence on logical tasks, but show comparable or even lower independence on contextual task</bold>.</p>
+<p>Both figures show that reasoning models attain nearperfect independence on logical and analytical reasoning tasks (Logical Deduction and Web of Lies), substantially outperforming their non-reasoning counterparts. Moreover, for these tasks, reasoning models sustain their independence as the number of agents or rounds of discussion increase, whereas non-reasoning models steadily decline. Notably, GPT-o3 achieves a nearly 100 &#x0025; independence rate across all scenarios.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Figure 3:</label>
+<caption><p>Conformity rate of deepseek-r1 (reasoning) vs. deepseek-v3 (non-reasoning) across different rounds of previous discussions.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-3-source.tif"/>
+</fig></p>
+<p>On the other hand, performance changes markedly on language and contextual understanding tasks (Movie Recommendation and Sports Understanding). Reasoning models exhibit lower independence on these tasks, especially in the case of movie recommendation. Unlike in logical tasks, GPT-o3 shows the lowest independence rate among all models, with independence declining sharply as the number of agents or rounds of discussion increases. This contrast highlights the limitations of current reasoning models in handling contextual tasks in multi-agent systems, underscoring the need for future work to enhance their robustness in such settings.</p>
+<p><bold>Results on Accuracy</bold>. Previous results show that DeepSeekR1 and GPT-o3 demonstrate lower conformity and greater independence than DeepSeek-V3 and GPT-4o in logical reasoning tasks, ultimately yielding a clear and consistent accuracy advantage.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Figure 4:</label>
+<caption><p>Conformity rate of gpt-o3-mini (reasoning) vs. gpt-4o-mini (non-reasoning) across different numbers of agents.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-4-source.tif"/>
+</fig>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Figure 5:</label>
+<caption><p>Conformity rate of gpt-o3-mini (reasoning) vs. gpt-4o-mini (non-reasoning) across different rounds of previous discussions.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-5-source.tif"/>
+</fig></p>
+<p><bold>Finding 3: Reasoning LLMs excel on logical, not contextual tasks</bold>. In <xref ref-type="fig" rid="fig7">Figure 7</xref> and <xref ref-type="fig" rid="fig8">Figure 8</xref>, DeepSeek-R1 gains over <inline-formula><tex-math notation="LaTeX">$\mathbf{2 0} \%$</tex-math></inline-formula> on reasoning-focused tasks. For language and context-driven tasks, conformity is less distinct, and performance gaps narrow, with DeepSeek-R1 performing comparably or slightly worse than DeepSeek-V3. These results highlight a limitation: reasoning-augmented models excel at structured logical reasoning but have reduced advantage on context-dependent tasks. We observe the same trend in GPT models, though the corresponding figures are omitted due to space constraints.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Figure 6:</label>
+<caption><p>Independence rate of deepseek-r1 (reasoning) vs. deepseek-v3 (non-reasoning) and gpt-o3-mini (reasoning) vs. gpt-4o-mini (non-reasoning) across different rounds of previous discussion.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-6-source.tif"/>
+</fig>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Figure 7:</label>
+<caption><p>Average accuracy of deepseek-r1 (reasoning) vs. deepseek-v3 (non-reasoning) across different number of agents (top row) and rounds (bottom row).</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-7-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec5">
+<label>5.</label>
+<title>Conclusion</title>
+<p>This work examined how reasoning-augmented models, such as DeepSeek-R1, influence conformity and independence in multi-agent collaboration. Our findings show that models equipped with explicit reasoning capabilities are more resistant to conformity pressures on logical and analytical tasks, fostering more independent contributions and improving collective decision-making. However, they still conform on language and context-driven tasks, underscoring that additional advances are needed to fully realize their potential. Reasoning models therefore offer both a promise and a challenge: they enhance robustness in multi-agent systems, but leave room for improvement in more nuanced domains.
+<fig id="fig8" position="float" orientation="portrait">
+<label>Figure 8:</label>
+<caption><p>Average accuracy of gpt-o3-mini (reasoning) vs. gpt-4o-mini (non-reasoning) across different number of agents (top row) and rounds (bottom row).</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415867-fig-8-source.tif"/>
+</fig></p>
+<p>Looking forward, a key opportunity lies in developing new reinforcement learning techniques tailored to LLMs, aimed not only at reducing harmful conformity but also at enabling agents to acquire more effective strategies for collaboration in multi-agent environments. In addition, future research could broaden evaluations to additional domains, investigate how independence interacts with other collaborative factors such as coordination, trust, and efficiency, and explore applications in real-world multi-agent systems where reliability is critical-from scientific discovery to democratic deliberation. By advancing both the reasoning capabilities of LLMs and their collaborative dynamics, we move closer to AI systems that can interact with humans and other agents in ways that are more robust, trustworthy, and impactful.</p>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgments</title>
+<p>We thank anonymous reviewers for their helpful comments. This work was supported in part by NSF grants IIS2312840, IIS-2402952, and ECCS-2409701.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Chang</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Pei</surname></string-name>, <string-name><given-names>N. V.</given-names> <surname>Chawla</surname></string-name>, <string-name><given-names>O.</given-names> <surname>Wiest</surname></string-name>, and <string-name><given-names>X.</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Large language model based multi-agents: A survey of progress and challenges</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2402.01680</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y. L. S. C. J. H. Y. T.</given-names> <surname>Jiulin Li</surname></string-name>, <string-name><given-names>Ping</given-names> <surname>Huang</surname></string-name></person-group>, &#x201C;<article-title>A unified multi-agent framework for universal multimodal understanding and generation</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2508.10494</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>K</surname></string-name>. <etal>et al.</etal></person-group>, &#x201C;<article-title>Mdagents: An adaptive collaboration of 11 ms for medical decision-making</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2404.15155</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Jin</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Cai</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Yan</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Li</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Chen</surname></string-name></person-group>, &#x201C;<article-title>From llms to 11 m -based agents for software engineering: A survey of current, challenges and future</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2408.02479</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Mandi</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Jain</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Song</surname></string-name></person-group>, &#x201C;<article-title>Roco: Dialectic multi-robot collaboration with large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2307.04738</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Xiao</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Yin</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Shan</surname></string-name></person-group>, &#x201C;<article-title>Simulating public administration crisis: A novel generative agent-based simulation system to lower technology barriers in social science research</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2311.06957</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Weng</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Chen</surname></string-name>, and <string-name><given-names>W.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Do as we do, not as you think: the conformity of large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2501.13381</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Xiong</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Ding</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Cao</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Qin</surname></string-name></person-group>, &#x201C;<article-title>Examining interconsistency of large language models collaboration: An in-depth analysis via debate</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2305.11595</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="confpaper" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Hooi</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Deng</surname></string-name></person-group>, &#x201C;<article-title>Exploring collaboration mechanisms for llm agents: A social psychology view</article-title>,&#x201D; in <source>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics</source> (Volume <volume>1</volume>: Long Papers), pp. <fpage>14544</fpage>&#x2013;<lpage>14607</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Baltaji</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Hemmatian</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Varshney</surname></string-name></person-group>, &#x201C;<article-title>Conformity, confabulation, and impersonation: Persona inconstancy in multi-agent llm collaboration</article-title>,&#x201D; in <source>Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP</source>, pp. <fpage>17</fpage>&#x2013;<lpage>31</lpage>, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Hao</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Zong</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Lan</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Gong</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Ouyang</surname></string-name>, <string-name><given-names>F.</given-names> <surname>Meng</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Towards large reasoning models: A survey of reinforced reasoning with large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2501.09686</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.-Z.</given-names> <surname>Li</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>M.-L.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Yao</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Zheng</surname></string-name>, <string-name><given-names>P.-J.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Chen</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>From system 1 to system 2: A survey of reasoning large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2502.17419</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Song</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Xu</surname></string-name>, <string-name><given-names>Q.</given-names> <surname>Zhu</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Ma</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Bi</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2501.12948</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>C.</given-names> <surname>G</surname></string-name>. <etal>et al.</etal></person-group>, &#x201C;<article-title>Reinforced self-training (rest) for language modeling</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2308.08998</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>A</surname></string-name>. <etal>et al.</etal></person-group>, &#x201C;<article-title>Rest meets react: Self-improvement for multi-step reasoning llm agent</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2312.10003</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Zhu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Jiang</surname></string-name>, <string-name><given-names>M. M.</given-names> <surname>Khalili</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Zhu</surname></string-name></person-group>, &#x201C;<article-title>From emergence to control: Probing and modulating self-reflection in language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2506.12217</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Liu</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Advances and challenges in foundation agents: From brain-inspired intelligence to evolutionary, collaborative, and safe systems</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2504.01990</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Guo</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Deng</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Wen</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Chang</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Dsagent: Automated data science by empowering large language models with case-based reasoning</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2402.17453</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Wan</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Dai</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Nova</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Yin</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Phothilimthana</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Sutton</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Schuurmans</surname></string-name></person-group>, &#x201C;<article-title>Uqe: A query engine for unstructured databases</article-title>,&#x201D; <source>Advances in Neural Information Processing Systems</source>, vol. <volume>37</volume>, pp. <fpage>29807</fpage>&#x2013;<lpage>29838</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Zhu</surname></string-name>, <string-name><given-names>C.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Stafford</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Collier</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Vlachos</surname></string-name></person-group>, &#x201C;<article-title>Conformity in large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2410.12428</pub-id>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>T. S. N. C. A. V.</given-names> <surname>Xiaochen Zhu</surname></string-name>, <string-name><given-names>Caiqi</given-names> <surname>Zhang</surname></string-name></person-group>, &#x201C;<article-title>Conformity in large language models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2410.12428</pub-id>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E.</given-names> <surname>G</surname></string-name>. <etal>et al.</etal></person-group>, &#x201C;<article-title>Open thoughts: Data recipes for reasoning models</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2506.04178</pub-id>, <year>2025</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

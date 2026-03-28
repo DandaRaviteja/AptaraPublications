@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455787</article-id>
+<xplore-article-id>11455787</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Pain-Sense: a Real-Time Pain Detection and Alert System for Non-Verbal Individuals</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>RATHIESWARAN K</given-names> <surname>S</surname></string-name>
+<string-name specific-use="index"><given-names>RATHIESWARAN K</given-names> <surname>S</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>S</given-names> <surname>JALAJA</surname></string-name>
+<string-name specific-use="index"><given-names>S</given-names> <surname>JALAJA</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>RITHIK T</given-names> <surname>S</surname></string-name>
+<string-name specific-use="index"><given-names>RITHIK T</given-names> <surname>S</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib4">
+<name-alternatives>
+<string-name specific-use="display"><given-names>STEEWOUGH</given-names> <surname>SEBASTIAN</surname></string-name>
+<string-name specific-use="index"><given-names>STEEWOUGH</given-names> <surname>SEBASTIAN</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Department of Electronics and Communication Engineering Vel tech High tech Dr. Rangarajan \\ Dr. Sakunthala Engineering College Chennai</institution>, <country>India</country> \\ <email>rathieswaranks@gmail.com</email></aff>
+<aff id="aff2"><institution content-type="department">Assistant Professor \\ Department of Electronics and Communication Engineering \\ Vel tech High tech Dr. Rangarajan \\ Dr. Sakunthala Engineering College \\ Chennai</institution>, <country>India</country> \\ <email>jalaja@velhightech.com</email></aff>
+<aff id="aff3"><institution content-type="department">Department of Electronics and Communication Engineering \\ Vel tech High tech Dr. Rangarajan \\ Dr. Sakunthala Engineering \\ College Chennai</institution>, <country>India</country> \\ <email>rithiktsr@gmail.com</email></aff>
+<aff id="aff4"><institution content-type="department">Department of Electronics and Communication Engineering \\ Vel tech High tech Dr. Rangarajan \\ Dr. Sakunthala Engineering College \\ Chennai</institution>, <country>India</country> \\ <email>steewoughsebastian@gmail.com</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455787_ft.xml</self-uri>
+<self-uri content-type="print">258.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The evaluation of pain non-verbally is still one of the most important issues in the healthcare facilities, including intensive care units, geriatric wards, and postoperative recovery units. Conventional methods of observation usually depend on the subjective basis of the aberrant behavior or changes in the vital signs that lead to the delayed recognition of the abnormality and lack of consistency in the assessment. The restrictions may cause uncontrolled pain, poor recovery and more medical complications. PainSense is filling the void by deploying an intelligent and real-time real-time pain platform that works with those people who cannot communicate the presence of discomfort. The system combines the multi-sensor inputs, such as the electromyography of muscular activity, galvanic skin response of detecting stress, optical heart-rate monitoring of cardiovascular changes, temperature monitoring, and inertial sensing of agitation and tremor. Captured physiological measurements are given to a continuous preprocessing, feature extraction and classification by a supervised machine-learning model, optimized to run on an embedded platform. The system further sends real-time notifications by a web-based dashboard and offers visual representation of full physiological trends as clinical review. PainSense reduces subjective evaluation and improves clinical decisionmaking, utilizing portability, low cost and automated analysis. This method enhances timeliness of interventions, decreases the work of caregivers, and enhances patient safety.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Multi-modal sensor fusion</kwd>
+<kwd>Nociceptive analytics</kwd>
+<kwd>Physiological intelligence</kwd>
+<kwd>Caregiver alerting system</kwd>
+<kwd>Biomedical signal acquisition</kwd>
+</kwd-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="0"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>One of the best indicators of ill health is pain and it becomes hyper messy when patients are unable to communicate. In the ICU, following a significant operation, or in geriatric patients who are unable to communicate their pain levels, care providers have to rely on body language and wake up with unexpected surprises. All of those observations are everywhere and widely different among staff, and thus a strong chance of missing the pain entirely or delaying too long to remedy it. Such procrastination regularly coincides with misery and avoidable problems.</p>
+<p>The global pain toll is huge. Recent health surveys indicate an approximation of a fifth of adults are present with chronic pain and a good number of hospital patients are not able to provide coherent information. It can also be seen that a fraction of the elderly nursing homes, about 30 to 50 percent, experience pain that does not undergo any examination, simply because they are unable to articulate it. Not identifying pain in a critical care room is associated with a longer stay in hospital, increased use of sedatives as well as increased mortality. These figures help understand that we need a system based on data and statistics that will be able to identify the presence of pain even without the help of the patient. The gap that the paper I am writing fills is the assembly of a number of physiological sensors, EMG, skin conductance, heart-rate swings, skin temperature and body motion, all of which are known to appear when people experience pain. Doing so with those sensors being fed into machine-learning models, the platform will automatically identify abnormal changes and send a live alert to a web dashboard that directly can be viewed by the nurses. This one stop shop system differs with the old school singles and plain monitors that a hospital could be using based on the sensor fusion which provides us with greater accuracy yet small and easy to deploy.</p>
+<p>The optimism is magnificent in two aspects. Firstly, it allows physicians to intervene earlier, reducing the risk of any unaddressed pain and its side effects. Second, it takes the mental burden off the help staff since they can always see the body, thus being able to work on the treatment rather than guessing. The low cost and small size would provide an opportunity to use it at home, rehab clinics, or nursing homes outside a hospital. Early control of bad pain will help to enhance safety, increase efficiency in care, and create a foundation of smart, patient-first monitoring technology.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Review</title>
+<p>The research in <xref ref-type="bibr" rid="ref1">[1]</xref> examines the behavior of physiological responses to predetermined heat-based pain stimuli and demonstrates that feature extraction techniques, in particular, time-frequency analysis, have a significant impact on classifier accuracy. Continuing on this, <xref ref-type="bibr" rid="ref2">[2]</xref> compares EMG, ECG and GSR signals simultaneously and finds that multimodal feature sets provide more robust performance in terms of paindiscrimination compared to single-sensor input. In <xref ref-type="bibr" rid="ref3">[3]</xref>, the applicability of electrodermal activity in real environments after the operation is proven, and it is identified that non-invasive GSR is effective in monitoring the changes in pain levels of the recovering patients. The authors of <xref ref-type="bibr" rid="ref4">[4]</xref> come up with a neural framework that is transformer-based and is able to model temporal pain patterns, which are superior compared to the traditional signal-processing methods. Next, <xref ref-type="bibr" rid="ref5">[5]</xref> describes a multimodal deep-learning model that combines video indicators with physiological characteristics to enhance the accuracy of acute pain classification. The studies in <xref ref-type="bibr" rid="ref6">[6]</xref>, cheap EMG modules and IMU sensors have been shown to be incorporated into miniaturized hardware platforms of continuous physiological monitoring. This is extended in the work in <xref ref-type="bibr" rid="ref7">[7]</xref> which demonstrates similar sensor stacks to be valid in real-world conditions, and their resiliency when not in a laboratory setting. The sensitivity analysis of <xref ref-type="bibr" rid="ref8">[8]</xref> indicates that pain-detection models can be highly patient-specifically calibrated in order to have the best performance. The guideline of standardization in <xref ref-type="bibr" rid="ref9">[9]</xref> presents end-to-end requirements of embedded, AI-assisted medical monitoring systems, with a focus on the low-latency inference and real-time alerting. The results in <xref ref-type="bibr" rid="ref10">[10]</xref> pose a real-life problem in wearable physiological monitoring and address methods on how reliability can be enhanced when used over a long period. The additional examination in <xref ref-type="bibr" rid="ref11">[11]</xref> establishes the fact that not all people react identically to pain so machine-learning thresholds ought to be adaptive. This is supported by the explanation provided in study <xref ref-type="bibr" rid="ref12">[12]</xref>, which demonstrates that populationlevel models can fail to function well in specific categories of the population unless some individual adjustments are made. Hardware validation of sensor fusion through temperature probe, EMG and motion units shows that minimal cost systems can be obtained in sensor fusion with low system cost as in <xref ref-type="bibr" rid="ref13">[13]</xref>. Multimodal fusion experiments in <xref ref-type="bibr" rid="ref14">[14]</xref> confirm that multimodal combination of facial cues with physiological data is much more effective in predicting reliability in sedated or non-verbal patients. Lastly, dataset work in <xref ref-type="bibr" rid="ref15">[15]</xref>, such as the EMOPAIN</p>
+<p>challenge, the standardized benchmarks of the pain recognition algorithms between behavioral and biosignal modalities. All these articles support the design of PainSense, which is a multisensor fusion of machine-learning pipeline and a web-based alert, as one of the next steps to objective pain monitoring, particularly in patients incapable of describing their pain. The literature in general indicates a continuous development of a single straight forward, simple, single-modality monitoring to multimodal fusion and deep-learning technologies. Though past research has identified EMG as a useful indicator of pain along with GSR, ECG and facial cues, they tend to be associated with either a controlled lab situation or costly equipment. PainSense is simply the logical extension of that work: it combines a set of dependable sensing modules into a hand held and low-cost system. In so doing, it will transform the theory into a caregiver-focused and real-time tool which can be implemented in any healthcare facility.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>The system is called PainSense; it is a real-time, multi-sensor pain detection system designed to be used with non-verbal patients. It combines physiological and motion sensors and a smart machine-learning framework to monitor and analyse patient responses at all times. I have the data of muscle activity, skin conductance, cardiovascular, peripheral temperature, and body motion, all of it is collected. Signals are pre-processed, filtered and subsequently analysed in such a manner that there is some pain flagging in the form of anomalies or patterns that we can identify. Once an event has been identified, an immediate notification is always displayed on a web based dashboard in front of the caregivers and all sensor readings are recorded to be analyzed as trends and reviewed with the clinicians.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Emg Module</title>
+<p>The EMG module picks up muscle activity signals on the MyoWare 2.0 sensor. The principle of it is that it amplifies the voltage swings using an internal amplifier after which it stabilises it using a band-pass filter such that the baseline wander and other irritating external noise is eliminated. Once it has been digitised, it smooths and does some adaptive baseline correction to maintain the level constant even when the muscles become fatigued or you are moving about. The feature extraction draws out RMS, MAV, waveform length and zerocrossing rate - all of this determines how hard the muscle which is working is, how many spikes per second and which fibres on the muscle are actually firing. This allows the module to distinguish voluntary movement, bursts of movement caused by pain by identifying sudden amplitude changes and frequency alterations. Combine everything, GSR, HR and IMU, and the pain detection will be significantly enhanced even in case the contractions are brief or tremulous.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Gsr Module</title>
+<p>The GSR module employs two Grove electrodes to record skin conductivity, which is nothing more than an indicator of the level of activity of the sympathetic nervous system. Raw conductance trace is refined to eliminate high-frequency glitches and motion spikes and you are left with a clean baseline. Out of that, one can draw Skin Conductance Level (SCL), Skin Conductance Response (SCR) peaks, and the risetime values, which will give you a clear image of the level of arousal and the rate of particular arousal. A minor temporal averaging and straightening the ground makes certain that you get those small SCR bumps that actually correlate with pain or distress. Due to these processed features, GSR is super sensitive, and assists in maintaining the system at stable when the EMG or IMU data is indistinct.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Heart Rate Monitoring Module</title>
+<p>The MAX30102 PPG sensor includes blood-volume oscillations and includes band-pass filtering and an adaptive threshold to isolate the actual heart beats among the motion artefacts, light changes and drift. The peak-detection routine gives out the heart-rate and HRV indices such as SDNN, RMSSD, LF and HF components which usually indicate a change in the sympathetic-parasympathetic ratio which tends to vary during pain. The inter beat intervals are also normalised by the system to allow it to deal with bizarre rhythm anomalies. These time and frequency measures are refining the classifier to notice abrupt HR jumps or HRV reductions that coincide with what the EMG and GSR are observing, thus the entire cross-modal decision-making process will be more accurate.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Temperature Sensor Module</title>
+<p>The DS18B20 sensor provides digital temperature data on a one-wire bus with high resolutions. Raw values are averaged and any short-lived spikes are cut off by a moving-average to ensure the trend is not distorted by any other sudden environmental blips. Mean temperature, short-term variance and rate of change are the resultant values, but they prove handy in identifying any local inflammation or heat changes associated with pain. When you overlay these with GSR spikes or EMG bursts the thermal pattern provides an additional dimension to the signature of pain, and the system becomes more difficult when the pain signal cannot be well captured by muscle or heart data independently.</p>
+</sec>
+<sec id="sec3e">
+<label>E.</label>
+<title>Inertial Measurement Unit (Imu) Module</title>
+<p>The MPU-6050 has three axis captures of motion, combining gyro and accelerator measurements followed by drifting and high-frequency noise removal. On that you can calculate magnitude vectors, angular velocities, posture angles and activity indices - all the words telling how vigorous is the motion, whether it is restless or not. Having each section individually gives you an idea as to whether you are performing a smooth transition, or the sudden trembling motion that tends to appear in times of discomfort. These motion signals work together with what GSR and EMG are communicating to you, increasing classification in instances of pain that is accompanied by minor, involuntary movements.</p>
+</sec>
+<sec id="sec3f">
+<label>F.</label>
+<title>Module of Data Processing and Machine Learning</title>
+<p>The module collects together all the physiologically streams to be preprocessed in a coordinated way: scaling, filtering and noise-rejection processes bring everything into line such that the inputs are up-to-date in all the modes. The extraction of features draws time-domain and frequency-domain features contraction measures of EMG, sympathetic spikes of GSR, HRV of PPG, thermal shifts of DS18B20, and movement vectors of IMU. It subsequently cross-tabulates cross-modal correlations to indicate concomitant deviations, such as an EMG burst and SCR spike, or an HRV dip. Such multi-modes signals are turned into a pain-signature vector. An observed ML classifier applies this vector to assign pain events, adjusts thresholds of sensitivity and specificity to balance, and continually adapts to ensure this is consistent, even as one or more sensors become noisy. What is desired is a stable, precise classifier which remains firm in real-time application.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Physiological parameter thresholds and outlier rejection rules used during preprocessing</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Min</th>
+<th>Max</th>
+<th>Alert If</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heart Rate (bpm)</td>
+<td>30</td>
+<td>220</td>
+<td><35 or >200</td>
+</tr>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\text{SpO}_{2}$</tex-math></inline-formula> (&#x0025;)</td>
+<td>70</td>
+<td>100</td>
+<td><90</td>
+</tr>
+<tr>
+<td>GSR (<inline-formula><tex-math notation="LaTeX">$\Omega$</tex-math></inline-formula>)</td>
+<td>500</td>
+<td>5000</td>
+<td><1000</td>
+</tr>
+<tr>
+<td>Temperature (&#x00B0;C)</td>
+<td>35</td>
+<td>40</td>
+<td><36 or >39</td>
+</tr>
+<tr>
+<td>EMG (mV)</td>
+<td>0</td>
+<td>5000</td>
+<td>>4500</td>
+</tr>
+<tr>
+<td>Reject statistical outliers using Zscore</td>
+<td>Z</td>
+<td>>3 (While Preserve legitimate extreme values)</td>
+<td>&#x2013;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="table" rid="table1">Table I</xref> defines the predefined physiological thresholds and anomaly-detection rules that are used in the preprocessing stage. Such limits provide stable signal quality, allow aberrant patterns to be detected early, and provide reliable downstream feature extraction, which is critical in pain classification.</p>
+</sec>
+<sec id="sec3g">
+<label>G.</label>
+<title>System Integration</title>
+<p>As an implementation system, PainSense is envisioned as a multi sensor pipeline system that is integrated to enhance performance, ensure accurate detection of pain and enhance overall stability irrespective of the conditions of operation. Every hardware block, including EMG, GSR, heart-rate, temperature, and IMU, feeds permanent physiological data into a time-shared processing block, where a carefully designed preprocessing algorithm removes motion artefacts, scales amplitude variations, eliminates high-frequency noise, and stabilizes wandering baselines. This provides a clean and consistent data base which has a direct effect of improving the accuracy of the system. After preprocessing, PainSense runs a transparent and orderly feature-extraction procedure which calculates RMS, MAV, SCR peaks, HRV indices, temperature gradients and motion-vector magnitudes, which guarantees that parameters extracted are a faithful reflection of muscle activity, autonomic arousal, cardiovascular variation, thermal behaviour and involuntary motion patterns. Such characteristics are time synchronized to shed light on cross-modal relationships, therefore, enhancing the pain-detection mechanism with the multidimensional nature of the discomfort-related physiological variations.</p>
+<p>In order to respond to the requirement of increased classification accuracy, the system is based on a supervised machine-learning model that is trained on labelled pain and non-pain datasets, with class boundaries being optimised by threshold tuning and performance assessment. The reliability of the models is enhanced by sensor redundancy: in case one of the modalities falls prey to noise, other signals complement each other to keep the classifier steady. The ongoing test of continuous integration and module-specific calibration assures the refinement of incremental testing, allowing every sensor block to retain accuracy in a wide variety of patient settings. The final classification decision is made at the dashboard caregiver and the trend curves and event markers are displayed, thus enabling quick clinical interpretation. PainSense, with this architecture, has a cohesive, high performance and interpretable end to end implementation that can deliver real time clinical monitoring in vulnerable and non-verbal patient cohorts.
+<fig id="fig1" position="float" orientation="portrait">
+<label>***</label>
+<caption><p>H. block diagram</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-fig-1-source.tif"/>
+</fig>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1</label>
+<caption><p>Block diagram of painsense</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-fig-1-source.tif"/>
+</fig></p>
+<p>In <xref ref-type="fig" rid="fig1">Fig. 1</xref>, we are using technical techniques of recording a variety of physiological signals and real-time processing with machine-learning classification. Sensors that we use to monitor muscle activity, nervous system reactions, changes in the heart, temperature fluctuations and movement include EMG, GSR, heart-rate, temperature and an IMU. The sensor cores clean their raw data by filtering and normalizing data, and pass the data on to a central processor. These are the features we draw out: frequencies, time patterns. All those features are combined by us to obtain one snapshot of the body state of the patient. A</p>
+<p>trained neural network then assigns the data to pain or no pain. When it is in pain, we expunged web notifications and recorded all that to be reviewed later. This layered approach fuses physiology, behavior, and crunch-power into a smooth flow stream, therefore making the system strong and fast.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Result and Discussion</title>
+<p>As shown in <xref ref-type="fig" rid="fig2">Fig. 2</xref>, PainSense is a sensor hub that in essence is a combination of a load-of various physiological and motion sensors EMG, GSR, heart rate, temperature and an IMU all overcrowded into a very small case. We hooked it to a central microcontroller to make all things capture data simultaneously and we added proper filtering circuits to ensure the electrical noise is kept to a minimum and the sensor readings do not go bad.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Painsense hardware to combine and integrate multi-sensor modules with a central processing unit in real-time pain monitoring.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-fig-2-source.tif"/>
+</fig></p>
+<p>The modular architecture enables it to pass the data to the processing unit with ease whereby we extract the valuable data and pass the data to the classification logic. Practically this implies that the entire process can continue to operate in realtime providing good monitoring without any apparent lag or hiccups. The small size of the build also indicates it is ready to use in the clinic and at home where portability is a major consideration. The parts are not merely assembled but smart sensor fusion and channel coordination can be observed in the design. Initial experiments indicate that changes in muscle tension, heart rate and skin conductance can be recorded with high accuracy and sent over without significant lag, meaning you can detect pain events as quickly as possible and send alerts without loss of time. The architecture has also been tested in terms of scalability, i.e. whether you will need additional sensors or other communication facilities in future, you can simply slot them in without having to do the entire lot again. Overall, the hardware provides a strong base on which to build an independent and reliable pain monitoring, particularly in the case of patients who are unable to discuss their pain.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Web application interface of painsense displaying real-time health metrics, abnormal parameter detection, and caregiver support functions.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-fig-3-source.tif"/>
+</fig></p>
+<p>The primary interface of caregivers is shown in <xref ref-type="fig" rid="fig3">Fig. 3</xref>, which is the web app that is designed to provide a clear and interactive display of the patient&#x0027;s vitals in real time. It allows you to check existing heart rate, warm up a GSR or temperature pattern, mark anything that appears to be suspicious, issue medical suggestions, and tear apart equilibrium growth-rate information. With all the sensor data combined into a single user-friendly dashboard, caregivers will be able to watch the patient anywhere and obtain actionable insights without looking at raw waveforms. Each of the dashboard panels collects the most recent information when it becomes available and therefore the graphs and numbers remain up to date. This kind of digital layer provides all the complex signal information and simplifies it to be understood by non-technical users and provides the solution to the tech crunch-to-clinical decisionmaking gap. One more nice feature we introduced is the option to have a history of alerts and recommendations, and even the history of email notifications in order to look back, notice patterns, and take care of long-term care. The Show Abnormal Parameters and Medical recommendations functions will transform raw data and convert it into the context-based recommendation, transforming PainSense into more than a monitoring instrument. The entire arrangement is scaled well with the IoT analytics to the web platform in case of use by the hospital or monitoring long-distance patients.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Dashboard visualization of painsense showing real-time heart rate, <inline-formula><tex-math notation="LaTeX">$\text{spo}_{2}$</tex-math></inline-formula>, gsr, muscle activity, and temperature with critical alerts.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-fig-4-source.tif"/>
+</fig></p>
+<p>The real-time dashboard in <xref ref-type="fig" rid="fig4">Fig. 4</xref>, can bring together all the sensor streams and display them on the same screen, which provides a complete view of the status of the patient. The heart rate spikes, a gigantic spike to 166 BPM, which is clearly a red flag, or an oxygen saturation level of 65 &#x0025;, which is actually frightening. GSR remains elevated, demonstrating the activity of the nervous system, and the EMG data indicates uncontrolled muscle contractions, which coincide with the occurrence of pain. The changes in temperature may indicate fever or inflammation. All this is brought together in one of the categories of the critical status marker that immediately alerts the caregivers of a crisis. We also reveal the time trend with smooth graphs, which assist physicians to associate rapid increases or decreases with potential pain causes. Lastly, the historical data allows you to take a closer look and observe the changes in the responses of the patient with time, which come in handy to make informed decisions. PainSense can fit directly into an ICU, or become a part of a cozy home-care regimen because it is so easy to see, and scale.</p>
+<p>As the comparison in <xref ref-type="table" rid="table2">Table II</xref> reveals, the typical systems, which can be considered basic wearables and vision-based recognition systems, are generally either limited in either broad sensor coverage or real-time application, which restricts their applicability in complex healthcare situations. The multi-sensor integration does provide physiological classifiers and IoTbased monitoring platforms with better outcomes, but costs and the requirement of controlled environments prevents them in both scalability and adaptability. The pain assessment tools based on the cloud enhance the analytical capabilities, but they become unresponsive with latency and reliance on network connectivity, which may slow down important interventions. Compare that with PainSense, which would follow an intermediate path, incorporating a variety of physiological data into a relatively complex, but wearable device: heart rate, SpO 2, temperature, GSR, and muscle activity. The combination of that allows it to accurately sense pain in real-time, remaining efficient and affordable. Thus, PainSense turns out to be a viable device that balances the aspects of accuracy, speed, and usability, and is suitable in the context of an ICU, elder care, and home monitoring.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Comparative analysis of painsense with existing pain detection approaches</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455787-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>System / Protocols</th>
+<th>Performance Accuracy</th>
+<th>RealTime Detection</th>
+<th>Sensor Channel Used</th>
+<th>Complexit -y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conventio nal Wearables</td>
+<td>LowModerate</td>
+<td>Moderate</td>
+<td>HR, Temp</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>VisionBased Pain Recognitio n</td>
+<td>Moderate</td>
+<td>Low</td>
+<td>Camera Input Only</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Physiologi cal Signal Classifier</td>
+<td>Moderate</td>
+<td>Moderate</td>
+<td>HR, <inline-formula><tex-math notation="LaTeX">$\text{SpO}_{2}$</tex-math></inline-formula></td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>IoT Health Monitorin g Systems</td>
+<td>High</td>
+<td>High</td>
+<td>Multisensor</td>
+<td>High</td>
+</tr>
+<tr>
+<td>CloudBased Pain Assessmen t</td>
+<td>High</td>
+<td>Moderate</td>
+<td>Multisensor + Cloud</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Proposed PainSense</td>
+<td>Higher</td>
+<td>High</td>
+<td>HR, <inline-formula><tex-math notation="LaTeX">$\text{SpO}_{2}$</tex-math></inline-formula>, Temp, GSR, Muscle</td>
+<td>Moderate</td>
+</tr></tbody>
+</table>
+</table-wrap>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion and Future Scope</title>
+<p>The design and implementation of PainSense indicates that we have created an extensive system of real-time pain monitoring based on various physiological measurements. The system has been tested with hardware and dashboards and can record and process the necessary metrics, which are heart rate, SpO 2, GSR, temperature and muscle activity. Experimental results indicate that PainSense is capable of identifying abnormal physiological variations and providing real-time pain measurement, which is what we had set out to achieve initially, which was precise, accessible pain detection. The combination of IoT-based sensing and ML classification provides a solid performance, whereas real-time alerts and logging make it applicable in the clinical setting and at home. PainSense can be extended with a more sophisticated deep-learning-based accuracy, to combine EEG or facial recognition data, and connect it to cloud-based systems to deploy it on large-scale. Further, to increase the application in telemedicine, rehabilitation, and personalized care, the wearable can be made smaller and equipped with long-term analytics. Overall, PainSense is technically complete at this point and provides a platform to build upon in the future and deploy at scale.</p>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>References</title>
+<p><xref ref-type="bibr" rid="ref1">[1]</xref> P. Gouverneur, F. Li, W. M. Adamczyk, T. M. Szikszay, K. Luedtke, and M. Grzegorzek, "Comparison of Feature Extraction Methods for Physiological Signals for Heat-Based Pain Recognition," Sensors, vol. 21, no. 14, art. 4838, Jul. 2021.</p>
+<p><xref ref-type="bibr" rid="ref2">[2]</xref> E. Campbell and A. E. P. McCulloch, "Feature Extraction and Selection for Pain Recognition from EMG, ECG and GSR," Frontiers in Neuroscience, vol. 13, p. 437, Jun. 2019.</p>
+<p><xref ref-type="bibr" rid="ref3">[3]</xref> S. Aqajari and X. Cao, "Pain Assessment Tool With Electrodermal Activity for Postoperative Adults," Journal of Clinical Monitoring and Computing / PMC, 2021.</p>
+<p><xref ref-type="bibr" rid="ref4">[4]</xref> S. Gkikas et al., "Multimodal automatic assessment of acute pain through video and heart rate signals," Sensors (or equivalent peerreviewed venue), 2024.</p>
+<p><xref ref-type="bibr" rid="ref5">[5]</xref> Z. Lu, B. Ozek, and S. Kamarthi, "Transformer Encoder with Multiscale Deep Learning for Pain Classification Using Physiological Signals," arXiv:2303.06845, Mar. 2023.</p>
+<p><xref ref-type="bibr" rid="ref6">[6]</xref> R. Saha, A. M. Yousuf, and colleagues, "A Working Prototype Using DS18B20 Temperature Sensor for Health Monitoring," IEEE/MDPI/PMC (prototype paper), 2021.</p>
+<p><xref ref-type="bibr" rid="ref7">[7]</xref> M. Garouche et al., "Development of a Low-Cost Portable EMG for Measuring Muscle Activity," Sensors / PMC, 2023.</p>
+<p><xref ref-type="bibr" rid="ref8">[8]</xref> W. Zhu et al., "Physiological Sensor Modality Sensitivity Test for Pain Classification," Scientific Reports / PMC, 2025.</p>
+<p><xref ref-type="bibr" rid="ref9">[9]</xref> A. Kargarandehkordi et al., "Fusing Wearable Biosensors with Artificial Intelligence for Mental-Health and Pain-Related Symptoms," npj Digital Medicine / PMC, 2025.</p>
+<p><xref ref-type="bibr" rid="ref10">[10]</xref> P. Gouverneur et al., "Comparison of Feature Extraction Methods for Physiological Signals for Heat-Based Pain Recognition," Sensors, 2021. (duplicate topic reference included for emphasis on feature engineering)</p>
+<p><xref ref-type="bibr" rid="ref11">[11]</xref> R. Fang et al., "Survey on Pain Detection Using Machine Learning Models," Sensors / PMC, 2025.</p>
+<p><xref ref-type="bibr" rid="ref12">[12]</xref> M. Jiang et al., "Personalized and Adaptive Neural Networks for Pain Assessment Using GSR and ECG," Computers in Biology and Medicine, 2024.</p>
+<p><xref ref-type="bibr" rid="ref13">[13]</xref> J. Figueiredo et al., "Wearable Inertial Sensor System towards Daily Human Activity Recognition using MPU-6050," Sensors, 2020.</p>
+<p><xref ref-type="bibr" rid="ref14">[14]</xref> C. L. Wu et al., "Deep Learning-Based Pain Classifier Based on the Facial Action Coding System and Physiological Signals," Frontiers in Medicine, 2022.</p>
+<p><xref ref-type="bibr" rid="ref15">[15]</xref> EmoPain / EMOPAIN Challenge Organizers, "EMOPAIN Challenge 2020: Multimodal Pain Evaluation from Facial and Bodily Expressions," challenge report / proceedings, 2020.</p>
+<p>\page{***}</p>
+</sec>
+</body>

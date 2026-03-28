@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/22/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">MACS</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 15th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</conf-full-title>
+<conf-normalized-title>Mathematics, Actuarial Science, Computer Science and Statistics (MACS), 2025 15th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8922-6</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 15th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</conf-name>
+<conf-start iso-8601-date="2025-12-20"><day>20</day><month>12</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-12-21"><day>21</day><month>12</month><year>2025</year></conf-end>
+<conf-loc><city>Karachi</city>, <country>Pakistan</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/MACS68476.2025.11453484</article-id>
+<xplore-article-id>11453484</xplore-article-id>
+<xplore-issue>11453321</xplore-issue>
+<xplore-pub-id>11452211</xplore-pub-id>
+<title-group>
+<article-title>An Intelligent Energy Management Model Integrating Renewable Energy and Smart Grids for Optimal Power Distribution</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>B R</given-names> <surname>Yogeetha</surname></string-name>
+<string-name specific-use="index"><given-names>B R</given-names> <surname>Yogeetha</surname></string-name>
+</name-alternatives>
+<email>yogeetha734@outlook.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shailesh</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Shailesh</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<email>dr.shailesh@arkajainuniversity.ac.in</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Khushbu</given-names> <surname>Pandey</surname></string-name>
+<string-name specific-use="index"><given-names>Khushbu</given-names> <surname>Pandey</surname></string-name>
+</name-alternatives>
+<email>khushbu.soet@muit.in</email>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Computer Science and Engineering</institution>
+<institution content-type="institution">Presidency University</institution>
+</institution-wrap>
+<city>Bengaluru</city>
+<state>Karnataka</state>
+<country>India</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="department">Department of Electrical &#x0026; Electronics</institution>
+<institution content-type="institution">ARKA JAIN University</institution>
+</institution-wrap>
+<city>Jamshedpur</city>
+<state>Jharkhand</state>
+<country>India</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Maharishi School of Engineering &#x0026; Technology, Maharishi University of Information Technology</institution>
+</institution-wrap>
+<state>Uttar Pradesh</state>
+<country>India</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-12-21"><day>21</day><month>Dec.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-8922-6/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11453484_ft.xml</self-uri>
+<self-uri content-type="print">68_2026007708.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The inadequacy of traditional power networks and domestic energy management systems to efficiently optimize energy use results in excessive costs and increasing carbon emissions. Real-time dynamic power distribution management is impossible with these systems, particularly when dealing with several renewable energy sources (RES). This research suggests an intelligent energy management (IEM) model that optimizes power distribution by combining smart grids, battery storage systems (BSS), and RES. The research aim is to reduce Power prices, peak-to-average ratio (PAR), and carbon (<inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula>) emissions while ensuring user comfort and system stability. The IEM model employs energy scheduling and management strategies that include heuristic optimization methods, like Dynamic Walrus-Gazelle Optimization (DWGO), a hybrid optimization algorithm combining the Enhanced Walrus Optimization (EWOA) and Gazelle Optimization (GOA). The model optimizes energy consumption and storage based on real-time electricity costs, renewable energy availability, and load demand. The experiment uses Python 3.7.0 for implementation. According to numerical evaluations, power prices, PAR, and CO2 emissions have been significantly reduced respectively, in contrast to unscheduled. The suggested DWGO improves energy distribution while lowering costs and emissions and increasing system efficiency, making it a viable solution for reliable IEM models in smart buildings.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Smart grids</kwd>
+<kwd>renewable energy sources (RES)</kwd>
+<kwd>intelligent energy management (IEM)</kwd>
+<kwd>energy distribution</kwd>
+</kwd-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="9"/>
+<equation-count count="18"/>
+<ref-count count="10"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Increasing world demand for power and the requirement to be sustainable have led to the integration of renewable energy resources (RES) into contemporary grid systems. However, the intrinsic intermittency of RES like solar and wind power is a reason for the problems of stable grids and the maximum delivery of power <xref ref-type="bibr" rid="ref1">[1]</xref>. To combat the problems, smart grids developed to be more sophisticated with real-time sensing, predictive capability, and remote energy management <xref ref-type="bibr" rid="ref2">[2]</xref>. A reliable energy management system utilizing renewable energy and smart grids guarantees optimum power supply, efficiency, and continuity <xref ref-type="bibr" rid="ref3">[3]</xref>. The use of modern technologies like the Internet of Things (IoT), artificial intelligence (AI), and demand-side management makes the use of smart grids efficient in terms of dynamic load balancing and adaptive energy distribution. Energy storage facilities also facilitate the achievement of this integration by guaranteeing lower supply and grid vulnerability fluctuations <xref ref-type="bibr" rid="ref4">[4]</xref>. It is predicated on the gathering of real-time data, forecasting energy supply and demand, and using optimization algorithms to achieve the most efficient energy flow balance. It also includes demand response strategies where customers consumption is adjusted based on the grid condition and dynamic price policies. The smart grid thereby enables more renewable energy to be used effectively while mitigating energy waste, lowering operational costs, and enhancing sustainability <xref ref-type="bibr" rid="ref5">[5]</xref>. The constraints include high installation costs, cybersecurity threats, intermittent renewable energy feed, intricate infrastructure demand, data privacy issues, and the requirement for sophisticated forecasting and real-time control to enable optimal grid balance.</p>
+<p>The objective of the DWGO is to provide optimal power supply by harnessing smart grids, energy storage units, and renewable energy systems, decreasing power price, PAR, and <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emission, while ensuring system stability and user convenience.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Works</title>
+<p>Through the integration of renewable energy sources and the implementation of a real-time price-based demand response program, the research <xref ref-type="bibr" rid="ref6">[6]</xref> seeks to increase the efficiency of the smart grid. It suggests an intelligent framework for demand-side management that uses HGAC optimization algorithms and artificial neural networks. To improve smart grid sustainability, the experiment <xref ref-type="bibr" rid="ref7">[7]</xref> aims to create an AI-based energy management system for SPV microgrids. Utilized a modified Grey Wolf Optimizer for optimal energy dispatch in grid-connected systems, which has been proven under various weather situations. Cost reductions of 23.34 &#x0025; and 45.55 &#x0025; were achieved on clear and overcast days, respectively. By combining battery storage and renewable energy sources, the evaluation <xref ref-type="bibr" rid="ref8">[8]</xref> seeks to enhance energy management by lowering expenses, carbon emissions, and peak-to-average ratios. It suggests a controller for energy storage and load scheduling that makes use of heuristic algorithms. The objective of the evaluation <xref ref-type="bibr" rid="ref9">[9]</xref> was to use Lyapunov optimization (LOT) to optimize energy in real-time in a smart house with an emphasis on thermal comfort and energy cost. The findings demonstrate a 20.15 &#x0025; decrease in energy expenses while satisfying user needs. For smart grid energy management optimization, the research <xref ref-type="bibr" rid="ref10">[10]</xref> created a hybrid genetic algorithm (GA) and enhanced differential evolution (EDE) called EDGE. Use EDGE in an Energy Management Controller (EMC) to react to demand response (DR) signals and plan residential loads. EDGE was superior to other methods in terms of reducing carbon emissions, energy expenses, the PAR, and user comfort.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>The approach is to design an IEM model based on Dynamic Walrus-Gazelle Optimization (DWGO) that optimizes power allocation, energy scheduling, and storage concerning real-time cost, renewable supply, and load demand. <xref ref-type="fig" rid="fig1">Fig. 1</xref> depicts the proposed system flow.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Flow model of proposed system</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-1-source.tif"/>
+</fig>
+</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Dynamic Walrus-Gazelle Optimization (DWGO)</title>
+<p>DWGO is a hybrid heuristic method that combines the DWOA and GOA to efficiently balance energy. DWGO utilizes walrus searching modes for global exploration and gazelle-evading mechanisms for exploitation. DWGO dynamically regulates energy scheduling in smart grids through the maximum use of renewable energy, battery, and grid dependency. This guarantees lower power prices, lower PAR, and lower <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions, making it perfect for smart energy management systems.</p>
+<sec id="sec3a1">
+<label>a.</label>
+<title>Dynamic Walrus Optimization Algorithm (DWOA)</title>
+<p>The DWOA enhances the conventional optimization based on L&#x00E9;vy flight, which is a stochastic movement strategy with an abrupt change in direction and extended travel distances. The approach enhances global search, avoids premature convergence, and enhances solution precision in energy optimization problems. For managing the energy of the smart grid, DWO performs position updates using L&#x00E9;vy flight to better manage energy resources, optimize renewable energy dispatch, and improve system stability. Dynamic adjustment of energy scheduling lowers electricity bills, PAR, and <inline-formula><tex-math notation="LaTeX">$C O_{2}$</tex-math></inline-formula> emissions. L&#x00E9;vy flight in DWO is expressed in <xref ref-type="disp-formula" rid="deqn1">(1)</xref> as follows:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+L F=0.01 \times \frac{v \times \sigma}{|u\vert^{\frac{1}{2}}}, \sigma=\left(\frac{\Gamma(1+\Upsilon) \times \sin \left(\frac{\pi \gamma}{2}\right)}{\Gamma\left(\frac{1+\gamma}{2}\right) \times \gamma \times 2\left(\frac{\gamma-1}{2}\right)}\right)^{\frac{1}{\gamma}}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$v$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula> are random variables in (0,1), integrating randomness into the search process. Using L&#x00E9;vy flights, the EWO algorithm improves the energy management model to offer maximum power distribution, efficient use of the grid, and renewable utilization of energy.</p>
+</sec>
+<sec id="sec3a2">
+<label>b.</label>
+<title>Gazelle Optimization Algorithm (GOA)</title>
+<p>GOA is also utilized in the IEM model for power supply scheduling within smart grids that consist of a combination of RES and BSS. GOA relies on natural gazelle foraging and evasive behavior to perform energy scheduling, lower electricity costs, and ensure grid stability. This model simulates the movement of the gazelles in the solution space in different energy distribution situations. The most powerful gazelles (Elite solutions) control the power optimization distribution for maximizing the energy content of RES, BSS, and grid supply. The following <xref ref-type="disp-formula" rid="deqn2">(2)</xref> is the elite matrix for the optimal energy allocation.
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\text { Elite }=\left[\begin{array}{cccc}
+w_{1,1}^{\prime} &amp; w_{1,2}^{\prime} &amp; \cdots &amp; w_{1, c}^{\prime} \\
+w_{2,1}^{\prime} &amp; w_{2,2}^{\prime} &amp; \cdots &amp; w_{2, c}^{\prime} \\
+\vdots &amp; \vdots &amp; &amp; \vdots \\
+w_{m, 1}^{\prime} &amp; w_{m, 2}^{\prime} &amp; \cdots &amp; w_{m, c}^{\prime}
+\end{array}\right]
+\tag{2}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The modified energy distribution is represented by the following <xref ref-type="disp-formula" rid="deqn3">(3)</xref> as follows.
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{align*}
+&amp; \textit { gazeller }+1=\textit { gazellet }+t \cdot Q \cdot Q A \cdot(\textit { elitet }-Q A \cdot \\
+&amp; \textit { gazellet }) \tag{3}
+\end{align*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$Q A$</tex-math></inline-formula> stands for Brownian motion in adaptive energy allocation, <inline-formula><tex-math notation="LaTeX">$Q$</tex-math></inline-formula> is a random variable, and <inline-formula><tex-math notation="LaTeX">$t$</tex-math></inline-formula> is the adjustment factor. Even though the grid experiences fluctuations (such as when there are predators), the algorithm automatically adjusts energy scheduling with L&#x00E9;vy flight motion in <xref ref-type="disp-formula" rid="deqn4">(4)</xref>.
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{align*}
+&amp; \textit { gazeller }+1=\textit { gazellet }+T \cdot \mu \cdot Q K \cdot(\textit { Elitet }-Q K \cdot \\
+&amp; \textit { gazellet }) \tag{4}
+\end{align*}</tex-math></disp-formula>
+Where the grid response rate is <inline-formula><tex-math notation="LaTeX">$T$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$Q K$</tex-math></inline-formula> depends on real-time load changes. The adaptive demand response control starts with cumulative grid supply and demand variations, and these are presented as follows in <xref ref-type="disp-formula" rid="deqn5">(5)</xref>.
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+D E=\left(1-\frac{s}{S}\right)^{\frac{2 s}{S}}
+\tag{5}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Providing grid stability with reduced peak demand and carbon emissions. With the incorporation of GOA in the IEM model, there is real-time energy optimization, demand response, and load balancing. The algorithm significantly reduces electricity bills, peak demand, and <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions, and hence it is a strong solution for smart grid energy management.</p>
+</sec>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Power Bills</title>
+<p>The real energy cost per time interval was determined on a Real-Time Pricing rate. Energy cost per hour is determined by the following <xref ref-type="disp-formula" rid="deqn6">(6)</xref>.
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+\zeta(s)=\left(\Gamma_{u}(s)+\Gamma_{E}(s)\right) \times F O(s)
+\tag{6}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\Gamma_{u}^{s}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\Gamma_{t g}^{s}$</tex-math></inline-formula> stand for the energy usage of stationary and movable appliances, respectively. The cost of power per day may be determined as follows in <xref ref-type="disp-formula" rid="deqn7">(7)</xref>. Equations (8-9) represent the supplied power from BSS and RES. <xref ref-type="disp-formula" rid="deqn10">Equation (10)</xref> provides the entire quantity of power consumed.
+<disp-formula id="deqn7"><tex-math notation="LaTeX">\begin{equation*}
+\zeta(S)=\sum_{s=1}^{S}\left(\Gamma_{u}^{S}(S)+\Gamma_{E}^{S}(S)\right) \times F O(s)
+\tag{7}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn8"><tex-math notation="LaTeX">\begin{equation*}
+\emptyset(s)=\left(\Gamma_{m t}+\Gamma_{t g}(s)\right)-\left(F(s)+\right. \text{BSS}. \left.\alpha_{b s s}(s)\right). \tag{8}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn9"><tex-math notation="LaTeX">\begin{equation*}
+\emptyset(s)=\begin{cases}\emptyset(s), \quad \text { if } \emptyset(s) \geq 0 \\ 0, \quad \text { moreover }\end{cases}
+\tag{9}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn10"><tex-math notation="LaTeX">\begin{equation*}
+\delta(S)=\sum_{s=1}^{S}(\emptyset(s) \times F O(s)) \tag{10}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p>PAR: To reduce PAR, the IEM Model tries to optimize the use of energy. This is by RES, BSS, and EG. PAR for <inline-formula><tex-math notation="LaTeX">$M$</tex-math></inline-formula> consumers can be calculated using <xref ref-type="disp-formula" rid="deqn11">(11)</xref> as follows:
+<disp-formula id="deqn11"><tex-math notation="LaTeX">\begin{equation*}
+\delta(S)=\frac{\max \left(F_{\text {total }}(s)\right)}{\frac{1}{S} \sum_{m=1}^{M}\left(\sum_{s=1}^{M} F_{\text {total }}(s, m)\right.} \tag{11}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p>By lowering PAR, the technology gives a constant power supply, decreased peak demand, and improved energy efficiency.</p>
+<p><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> Emission: The carbon produced by using power is displayed in <xref ref-type="disp-formula" rid="deqn12">(12)</xref>. Where <inline-formula><tex-math notation="LaTeX">$F O_{\text {avg }}, \eta, \gamma$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula> stand for the average monthly energy bill, price per <inline-formula><tex-math notation="LaTeX">$k W h$</tex-math></inline-formula> of &#x0024;0.20, electricity emission factor equivalent of 1.37, and calendar month, respectively.
+<disp-formula id="deqn12"><tex-math notation="LaTeX">\begin{equation*}
+\theta(s)=\frac{F O_{\text {avg }}}{\eta \times \gamma \times n} \tag{12}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p>The approach facilitates better energy usage in smart networks, improves sustainability, and reduces <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions through energy schedule optimization.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>System Model</title>
+<p>The proposed system of the IEM model combines BSS, RES, and EG to maximize power distribution. It utilizes <italic>DWGO</italic> for real-time scheduling of energy.</p>
+<p><inline-formula><tex-math notation="LaTeX">$E G$</tex-math></inline-formula>: The smart building purchases energy from the EG at an established bill, as detailed in the subsequent sentence. The structure receives its energy from its external electricity system. Let <inline-formula><tex-math notation="LaTeX">$F_{f w}(s)$</tex-math></inline-formula> show how much electricity was taken from the power grid at a certain time <inline-formula><tex-math notation="LaTeX">$s$</tex-math></inline-formula>, <xref ref-type="disp-formula" rid="deqn13">(13)</xref>.
+<disp-formula id="deqn13"><tex-math notation="LaTeX">\begin{equation*}
+0 \leq F_{f w}(s) \leq F_{f w, \max } \tag{13}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p><italic>RES:</italic> RES with wind power refers to collect wind energy using turbines to create electricity. Wind turbines generate electricity based on wind speed, which is influenced by environmental factors and path of the wind. The quantity of energy produced by a wind turbine is estimated using the following <xref ref-type="disp-formula" rid="deqn14">(14)</xref>.
+<disp-formula id="deqn14"><tex-math notation="LaTeX">\begin{equation*}
+O_{x c}(s)=\frac{1}{2} * \rho * B_{s c} * U_{t}(s)^{3}
+\tag{14}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The characters <inline-formula><tex-math notation="LaTeX">$\rho$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$B_{s c}$</tex-math></inline-formula> represent the turbine blade&#x0027;s surface and <italic>wind</italic> volume, correspondingly, while <inline-formula><tex-math notation="LaTeX">$U_{t}(s)$</tex-math></inline-formula> represents the speed of the air in <inline-formula><tex-math notation="LaTeX">$m / s$</tex-math></inline-formula>.</p>
+<p><italic>BSS:</italic> BSS accommodates excess RE to be used as a recovery in high-demand times such that the charging and discharging processes are optimized. Stored energy at time <inline-formula><tex-math notation="LaTeX">$s$</tex-math></inline-formula> is expressed as the following <xref ref-type="disp-formula" rid="deqn15">(15)</xref>.
+<disp-formula id="deqn15"><tex-math notation="LaTeX">\begin{equation*}
+B S(s)=B S(s-1)+l \cdot \delta^{B S} \cdot F O^{d g}(s)-\frac{l \cdot F O^{c d g}(s)}{\delta^{B S}}
+\tag{15}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$B S(s)$</tex-math></inline-formula> is stored energy, <inline-formula><tex-math notation="LaTeX">$l$</tex-math></inline-formula> is the duration of a time slot, <inline-formula><tex-math notation="LaTeX">$\delta^{B S}$</tex-math></inline-formula> is the BSS efficiency, <inline-formula><tex-math notation="LaTeX">$F O^{d g}(s)$</tex-math></inline-formula> is charging power, and <inline-formula><tex-math notation="LaTeX">$F O^{c d g}(s)$</tex-math></inline-formula> is discharging power. To keep the battery healthy and avoid overcharging or deep discharge, the system using (16-18) as follows:
+<disp-formula id="deqn16"><tex-math notation="LaTeX">\begin{equation*}
+F O^{d g}(s) \leq F O_{V A}^{d g}
+\tag{16}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn17"><tex-math notation="LaTeX">\begin{equation*}
+F O^{c d g}(s) \leq F O_{K A}^{c d g} \tag{17}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn18"><tex-math notation="LaTeX">\begin{equation*}
+B S S(s) \leq F T_{V A}^{d g} \tag{18}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p>This provides an uninterrupted power supply, improved energy utilization, and longer battery life in intelligent grids.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>II.</label>
+<title>Experimental Results and Discussion</title>
+<p>The experiment and effects of the DWGO were demonstrated. Windows 10 64-bit with a 2.80 GHz Intel Core i7-6700T CPU and 16 GB of RAM was used for the experiment. Three instances were examined: case 1 (EG): Depends entirely on the external grid for power. Case 2 (EG + RES) distributes electricity using both renewable energy sources and external grid power. Case 3 (EG + RES + BSS): Combines external grid, renewable energy, and battery storage for effective energy management. To assess whether the suggested scheduled algorithm and existing scheduled algorithms perform. The performance is compared based on a 24-hour evaluation.</p>
+<p>Case1(EG only): IEM employs EG Electricity for scheduled and unscheduled (Unsc) loads. It addresses reducing the power price, PAR, and <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula>. BFO, and HGPDO significantly lower power bill prices (52.54 &#x0025;, and 58.69 &#x0025;, respectively). However, the proposed scheduling technique achieves optimal price reduction. <xref ref-type="table" rid="table1">Table I</xref> displays the average 24-hour price of traditional methods compared to the proposed model. <xref ref-type="fig" rid="fig2">Fig. 2</xref> illustrates the case 1 power price (<inline-formula><tex-math notation="LaTeX">$W h$</tex-math></inline-formula>) contrast. Unsc Power price ranges from an extreme of 1091 cents in hour 9 to a lowest of 165.81 cents in 16 hours. In case 1, DWGO decreases the power price to 75.6 in 16 to 22 hours.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Case 1 comparison of power price (wh)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-2-source.tif"/>
+</fig>
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Case 1 contrast of power price</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Normal price (cents)</th>
+<th>Variance (normal cents)</th>
+<th>Decrease (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>337.34</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>160.07</td>
+<td>177.2</td>
+<td>52.54 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>138.82</td>
+<td>198.52</td>
+<td>58.54 &#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>125.02</td>
+<td>212.32</td>
+<td>62.93 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p><xref ref-type="table" rid="table2">Table II</xref> and <xref ref-type="fig" rid="fig3">Fig. 3</xref> show Case 1 PAR comparison, the unsc method has the highest PAR (3.302), which implies inefficient load balancing. BFO, HGPDO, and the proposed DWGO significantly decrease PAR with the lowest value (0.753) for DWGO a 77.19 &#x0025; decrease, which reflects its potential for reducing energy distribution waste and peak load. <xref ref-type="table" rid="table3">Table III</xref> and <xref ref-type="fig" rid="fig3">Fig. 3</xref> show <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emission comparison, the desired <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> content (D) is 760 ppm. The unsc method increases <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions (1014 ppm). Emissions are minimized by optimization algorithms, DWGO minimizes the minimum (64.5 ppm) by 91.44 &#x0025;. This identifies DWGO&#x0027;s better result in reducing environmental load via effective energy management.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Case 1 comparison of par.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Overall PAR</th>
+<th>Variance (PAR)</th>
+<th>Decrease (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>3.302</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>2.654</td>
+<td>0.648</td>
+<td>19.62 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>1.559</td>
+<td>1.743</td>
+<td>52.78 &#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>0.753</td>
+<td>2.549</td>
+<td>77.19 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table3">
+<label>Table III.</label>
+<caption><title>Case 1 contrast of <inline-formula><tex-math notation="LaTeX">$\text{co}_{2}$</tex-math></inline-formula> emission</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-3-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th><inline-formula><tex-math notation="LaTeX">$\mathbf{C O}_{\mathbf{2}}$</tex-math></inline-formula> emission(ppm)</th>
+<th>Variance(ppm)</th>
+<th>Decrease(&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> desired</td>
+<td>760</td>
+<td>&#x2212;-</td>
+<td>(Increased)</td>
+</tr>
+<tr>
+<td>Unsc</td>
+<td>1014.0</td>
+<td>&#x2212;254</td>
+<td>&#x2212;33.42&#x0025;</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>534.8</td>
+<td>225.2</td>
+<td>29.63&#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>72.4</td>
+<td>687.6</td>
+<td>72.40&#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>64.5</td>
+<td>695.5</td>
+<td>91.44&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>case 1 (a) par and (b) <inline-formula><tex-math notation="LaTeX">$\text{co}_{2}$</tex-math></inline-formula> emission</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-3-source.tif"/>
+</fig>
+</p>
+<p><italic>Case 2 (EG and RES combination):</italic> The IEM uses both external grid power and RES for scheduled and unsc tasks. BFO, HGPDO, and DWGO significantly lower power prices by <inline-formula><tex-math notation="LaTeX">$25.27 \%, 47.55 \%$</tex-math></inline-formula>, and 51.20 &#x0025;, respectively. In case 2, the suggested DWGO scheduling method achieves the best cost-reduction results. <xref ref-type="table" rid="table4">Table IV</xref> compares the average cost of all methods over 24 hours, including the suggested approach in example 2. The electricity price (Wh) contrast in case 1 is shown in <xref ref-type="fig" rid="fig4">Fig. 4</xref>. The Unsc price of Power ranges from a peak of 722.35 cents in hour 9 to a minimum of 109.10 cents in 16 hours. In casa 2, the power price was decreased by DWGO by 50.3 during 22 hours.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Case 2 comparison of power price (<inline-formula><tex-math notation="LaTeX">$w h$</tex-math></inline-formula>)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-4-source.tif"/>
+</fig>
+<table-wrap id="table4">
+<label>Table IV.</label>
+<caption><title>Case 2 power price comparison.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-4-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Normal price (cents)</th>
+<th>Variance (normal cents)</th>
+<th>Decrease (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>225.91</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>168.82</td>
+<td>57.09</td>
+<td>25.27&#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>118.48</td>
+<td>107.43</td>
+<td>47.55&#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>110.24</td>
+<td>115.67</td>
+<td>51.20&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p><xref ref-type="table" rid="table5">Table V</xref> and <xref ref-type="fig" rid="fig5">Fig. 5 (a)</xref> show case 2 PAR comparison, the unsc strategy possesses the largest PAR (2.985), which represents the worst load balancing. The algorithms perform better with BFO (26.80 &#x0025;), HGPDO (45.02 &#x0025;), and DWGO possesses the lowest PAR (0.851), a decrease of 71.49 &#x0025;. This suggests DWGO&#x0027;s higher efficiency in optimizing energy distribution and minimizing peak load demand. <xref ref-type="table" rid="table6">Table VI</xref> and <xref ref-type="fig" rid="fig5">Fig. 5</xref> (b) depict the <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions for case 2. The desired carbon content (D) is 760 ppm. The unsc approach is connected to a higher emission of <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}(1003 \text{ppm}, 31.97 \%$</tex-math></inline-formula> increase). Optimization techniques significantly minimize emissions, DWGO having the lowest (44.2 ppm) a 94.18 &#x0025; decrease, reflecting DWGO better capability to promote sustainability through effective energy management.
+<table-wrap id="table5">
+<label>Table V.</label>
+<caption><title>Case 2 par comparison.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-5-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Overall <inline-formula><tex-math notation="LaTeX">$\boldsymbol{P} \boldsymbol{A} \boldsymbol{R}$</tex-math></inline-formula></th>
+<th>Variance (PAR)</th>
+<th>Reduction (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>2.985</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>2.185</td>
+<td>0.800</td>
+<td>26.80 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>1.651</td>
+<td>1.344</td>
+<td>45.02 &#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>0.851</td>
+<td>2.134</td>
+<td>71.49 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table6">
+<label>Table VI.</label>
+<caption><title>Case 2 contrast of co2 emission</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-6-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emission (ppm)</th>
+<th>Variance (ppm)</th>
+<th>Decrease (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> desired</td>
+<td>760</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>Unsc</td>
+<td>1003</td>
+<td>&#x2212;243</td>
+<td>&#x2212;31.97&#x0025; (Increased)</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>594</td>
+<td>166</td>
+<td>21.84&#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>53.4</td>
+<td>706.6</td>
+<td>92.90&#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>44.2</td>
+<td>715.8</td>
+<td>94.18&#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Case 2 (a) par and (b) <inline-formula><tex-math notation="LaTeX">$c o_{2}$</tex-math></inline-formula> emission</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-5-source.tif"/>
+</fig>
+</p>
+<p><italic>Case 3 (EG combined with BSS and RES):</italic> The IEM in this case uses EG power for both scheduled and unsc tasks, in addition to RES and BSS. The total price of the power bill shows that BFO, HGPDO, and DWGO respectively, lower the cost by <inline-formula><tex-math notation="LaTeX">$29.72 \%, 33.66 \%$</tex-math></inline-formula>, and 43.72 &#x0025;. However, in Case 3, the suggested scheduling approach, which evenly distributes demand between low and high peak hours, achieves the optimum price reduction. <xref ref-type="table" rid="table7">Table VII</xref> and <xref ref-type="fig" rid="fig6">Fig. 6</xref>. shows the average cost per twenty-four hours for all techniques and the proposed solution in Case 3. The unsc of power price rises during time hour 9, with the biggest electricity cost being 711.82 cents. Lowe&#x0027;s price was 102.88 cents in slotted hour sixteen. In case 3, DWGO power prices decreased by 45.2 in 23 hours.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Case 3 comparison of power price (wh)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-6-source.tif"/>
+</fig>
+<table-wrap id="table7">
+<label>Table VII.</label>
+<caption><title>Case 3 comparison of power price</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-7-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Normal price (cents)</th>
+<th>Variance (normal cents)</th>
+<th>Decrease (&#x0025;)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>222.51</td>
+<td>&#x2212;-</td>
+<td/>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>156.38</td>
+<td>66.13</td>
+<td>29.72 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>147.61</td>
+<td>74.9</td>
+<td>33.66 &#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>125.21</td>
+<td>97.3</td>
+<td>43.72 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p><xref ref-type="table" rid="table8">Table VIII</xref> and <xref ref-type="fig" rid="fig7">Fig. 7(a)</xref> show case 3 PAR comparison, the unsc method yields the maximum PAR (2.537), a measure of worst load balancing. The performance is enhanced with the assistance of optimization algorithms, wherein BFO (31.92 &#x0025;), HGPDO (54.35 &#x0025;), and DWGO yield the minimum PAR (0.821) an enhancement of 67.63 &#x0025;. This shows DWGO&#x0027;s better capacity to optimize energy supply and peak loads effectively. <xref ref-type="table" rid="table9">Table IX</xref> and <xref ref-type="fig" rid="fig7">Fig. 7</xref> (b) depict the <inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emissions for case 3. The Unsc method raises CO2 emissions (<inline-formula><tex-math notation="LaTeX">$968.3 \text{ppm}, 27.40 \%$</tex-math></inline-formula> increase). Optimization methods reduce emissions considerably, DWGO reducing the lowest amount (52.3 ppm) by 93.11 &#x0025;, showing DWGO&#x0027;s efficiency in reducing environmental load through optimized use of renewable energy.
+<table-wrap id="table8">
+<label>Table VIII.</label>
+<caption><title>Case 3 contrast of par.</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-8-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th>Overall PAR</th>
+<th>Variance (PAR)</th>
+<th>Reduction <inline-formula><tex-math notation="LaTeX">$(\%)$</tex-math></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsc</td>
+<td>2.537</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>1.727</td>
+<td>0.81</td>
+<td>31.92 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>1.158</td>
+<td>1.379</td>
+<td>54.35 &#x0025;</td>
+</tr>
+<tr>
+<td>DWGO [proposed]</td>
+<td>0.821</td>
+<td>1.716</td>
+<td>67.63 &#x0025;</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table9">
+<label>Table IX.</label>
+<caption><title>Case 3 contrast of <inline-formula><tex-math notation="LaTeX">$\text{co}_{2}$</tex-math></inline-formula> emission</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-table-9-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithms</th>
+<th><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> emission (<italic>ppm</italic>)</th>
+<th>Variance (ppm)</th>
+<th>Decrease <inline-formula><tex-math notation="LaTeX">$(\%)$</tex-math></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><inline-formula><tex-math notation="LaTeX">$\text{CO}_{2}$</tex-math></inline-formula> desired</td>
+<td>760</td>
+<td>&#x2212;-</td>
+<td>&#x2212;-</td>
+</tr>
+<tr>
+<td>Unsc</td>
+<td>968.3</td>
+<td>&#x2013;208.30</td>
+<td>&#x2013;27.40 &#x0025; (Increased)</td>
+</tr>
+<tr>
+<td>BFO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>567.5</td>
+<td>193.00</td>
+<td>25.39 &#x0025;</td>
+</tr>
+<tr>
+<td>HGPDO <xref ref-type="bibr" rid="ref8">[8]</xref></td>
+<td>63.5</td>
+<td>696.5</td>
+<td>91.64 &#x0025;</td>
+</tr>
+<tr>
+<th>DWGO [proposed]</th>
+<th>52.3</th>
+<th>707.7</th>
+<th>93.11&#x0025;</th>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7</label>
+<caption><p>Case 3 (a) par and (b) <inline-formula><tex-math notation="LaTeX">$c o_{2}$</tex-math></inline-formula> emission</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453484-fig-7-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec5">
+<label>IV.</label>
+<title>Conclusion</title>
+<p>The evaluation was intended to overcome the challenges of traditional home energy management systems and power grids, unable to optimize energy utilization, resulting in high carbon emissions and prices. It assessed an IEM system comprising smart grids, BSS, and RES for minimizing power distribution. The model utilized heuristic optimization methods such as DWGO. Numerical results revealed significant IEM decreases in power prices, PAR, and CO2 emissions in case 1, by <inline-formula><tex-math notation="LaTeX">$62.93 \%, 77.19 \%$</tex-math></inline-formula>, and 91.44 &#x0025;, in case <inline-formula><tex-math notation="LaTeX">$2,51.20 \%, 71.49 \%$</tex-math></inline-formula>, and 94.18 &#x0025;, in case <inline-formula><tex-math notation="LaTeX">$3,43.72 \%, 67.63 \%$</tex-math></inline-formula>, and 93.11 &#x0025;, respectively, as compared to the unsc method. The DWGO-based IEM model proved to be capable of increasing the distribution of energy, minimizing expenses, lowering emissions, and increasing overall system efficiency, and thus it has effective potential for use in smart building energy management. This approach has limitations, including high startup costs, integration complexity, and reliance on weather-dependent renewable sources. Future plans include developing AI-driven predictive analytics, implementing blockchain to improve grid resilience and integrating energy storage technologies to provide sustainable and reliable power distribution in changing energy landscapes.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Kumar</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Alaraj</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Rizwan</surname></string-name>, and <string-name><given-names>U.</given-names> <surname>Nangia</surname></string-name></person-group>, &#x201C;<article-title>Novel AI based energy management system for smart grid with RES integration</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>9</volume>, pp. <fpage>162530</fpage>&#x2013;<lpage>162542</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. M.</given-names> <surname>Abomazid</surname></string-name>, <string-name><given-names>N. A.</given-names> <surname>El-Taweel</surname></string-name>, and <string-name><given-names>H. E.</given-names> <surname>Farag</surname></string-name></person-group>, &#x201C;<article-title>Optimal energy management of hydrogen energy facility using integrated battery energy storage and solar photovoltaic systems</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Sustainable Energy</source>, vol. <volume>13</volume>, no. <issue>3</issue>, pp. <fpage>1457</fpage>&#x2013;<lpage>1468</lpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K. M.</given-names> <surname>Tan</surname></string-name>, <string-name><given-names>T. S.</given-names> <surname>Babu</surname></string-name>, <string-name><given-names>V. K.</given-names> <surname>Ramachandaramurthy</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Kasinathan</surname></string-name>, <string-name><given-names>S. G.</given-names> <surname>Solanki</surname></string-name>, and <string-name><given-names>S. K.</given-names> <surname>Raveendran</surname></string-name></person-group>, &#x201C;<article-title>Empowering smart grid: A comprehensive review of energy storage technology and application with renewable energy integration</article-title>,&#x201D; <source>Journal of Energy Storage</source>, vol. <volume>39</volume>, p. <fpage>102591</fpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E.</given-names> <surname>Sarker</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Halder</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Seyedmahmoudian</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Jamei</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Horan</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Mekhilef</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Stojcevski</surname></string-name></person-group>, &#x201C;<article-title>Progress on the demand side management in smart grid and optimization approaches</article-title>,&#x201D; <source>International Journal of Energy Research</source>, vol. <volume>45</volume>, no. <issue>1</issue>, pp. <fpage>36</fpage>&#x2013;<lpage>64</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F. R.</given-names> <surname>Albogamy</surname></string-name>, <string-name><given-names>M. Y. I.</given-names> <surname>Paracha</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Hafeez</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Murawwat</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Rukh</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Khan</surname></string-name>, and <string-name><given-names>M. U. A.</given-names> <surname>Khan</surname></string-name></person-group>, &#x201C;<article-title>Real-time scheduling for optimal energy optimization in smart grid integrated with renewable energy sources</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>10</volume>, pp. <fpage>35498</fpage>&#x2013;<lpage>35520</lpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F. R.</given-names> <surname>Albogamy</surname></string-name>, <string-name><given-names>S. A.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Hafeez</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Murawwat</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>S. I.</given-names> <surname>Haider</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Basit</surname></string-name>, and <string-name><given-names>K. D.</given-names> <surname>Thoben</surname></string-name></person-group>, &#x201C;<article-title>Real-time energy management and load scheduling with renewable energy integration in smart grid</article-title>,&#x201D; <source>Sustainability</source>, vol. <volume>14</volume>, no. <issue>3</issue>, p. <fpage>1792</fpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H. W.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Usman</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Hafeez</surname></string-name>, <string-name><given-names>F. R.</given-names> <surname>Albogamy</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Shafiq</surname></string-name>, <string-name><given-names>M. U. A.</given-names> <surname>Khan</surname></string-name>, and <string-name><given-names>H. I.</given-names> <surname>Alkhammash</surname></string-name></person-group>, &#x201C;<article-title>Intelligent optimization framework for efficient demand-side management in renewable energy integrated smart grid</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>9</volume>, pp. <fpage>124235</fpage>&#x2013;<lpage>124252</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. U.</given-names> <surname>Rehman</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Wadud</surname></string-name>, <string-name><given-names>R. M.</given-names> <surname>Elavarasan</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Hafeez</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Khan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Shafiq</surname></string-name>, and <string-name><given-names>H. H.</given-names> <surname>Alhelou</surname></string-name></person-group>, &#x201C;<article-title>An optimal power usage scheduling in smart grid integrated with renewable energy sources for energy management</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>9</volume>, pp. <fpage>84619</fpage>&#x2013;<lpage>84638</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Harsh</surname></string-name> and <string-name><given-names>D.</given-names> <surname>Das</surname></string-name></person-group>, &#x201C;<article-title>Energy management in microgrid using incentive-based demand response and reconfigured network considering uncertainties in renewable energy sources</article-title>,&#x201D; <source>Sustainable Energy Technologies and Assessments</source>, vol. <volume>46</volume>, p. <fpage>101225</fpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Hassan</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Viktor</surname></string-name>, <string-name><given-names>T. J.</given-names> <surname>Al-Musawi</surname></string-name>, <string-name><given-names>B. M.</given-names> <surname>Ali</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Algburi</surname></string-name>, <string-name><given-names>H. M.</given-names> <surname>Alzoubi</surname></string-name>, <string-name><given-names>A. K.</given-names> <surname>Al-Jiboory</surname></string-name>, <string-name><given-names>A. Z.</given-names> <surname>Sameen</surname></string-name>, <string-name><given-names>H. M.</given-names> <surname>Salman</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Jaszczur</surname></string-name></person-group>, &#x201C;<article-title>The renewable energy role in the global energy transformations</article-title>,&#x201D; <source>Renewable Energy Focus</source>, vol. <volume>48</volume>, p. <fpage>100545</fpage>, <year>2024</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

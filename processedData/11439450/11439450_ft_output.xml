@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/18/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ITEC-INDIA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-full-title>
+<conf-normalized-title>Transportation Electrification Conference (ITEC-India), 2025 IEEE International</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5400-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-name>
+<conf-start iso-8601-date="2025-09-16"><day>16</day><month>09</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-09-19"><day>19</day><month>09</month><year>2025</year></conf-end>
+<conf-loc><city>Pune</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ITEC-India67626.2025.11439450</article-id>
+<xplore-article-id>11439450</xplore-article-id>
+<xplore-issue>11439063</xplore-issue>
+<xplore-pub-id>11438249</xplore-pub-id>
+<title-group>
+<article-title>Investigation and Execution of a Multi-Input-Port and Single Output Bidirectional DC-DC Converter for Electric Vehicles Hybrid Energy System</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shantanu Kumar</given-names> <surname>Singh</surname></string-name>
+<string-name specific-use="index"><given-names>Shantanu Kumar</given-names> <surname>Singh</surname></string-name>
+</name-alternatives>
+<email>shantanu16e13@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Electrical Engineering</institution>
+<institution content-type="institution">National Institute of Technology Calicut</institution>
+</institution-wrap>
+<city>Gopalganj</city>
+<state>Bihar</state>
+<country>India</country>
+<post-code>841405</post-code>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-09-19"><day>19</day><month>Sept.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5400-2/25/$31.00 &#x00A9; 2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11439450_ft.xml</self-uri>
+<self-uri content-type="print">CameraReady_251.pdf</self-uri>
+<abstract xml:lang="en">
+<p>This research proposes a revolutionary multi-input-port bidirectional DC-DC converter for electric vehicle (EV) energy storage. The suggested converter can be utilized in both step-up (boost) and step-down (buck) modes. The suggested arrangement contains three ports 2 (2 input port and 1 output port) so that energy may move between them. Its main characteristics are minimal losses in the suggested converter, low component count, and low peak voltage of the primary switch. Additionaly, by using only two power switches, the proposed converter enables simple power switching between the sources. The suggested converter is suitable for energy storage systems (ESS) since it can operate on both step-up and step-down principles. Therefore, it is possible to load and unload the ESS using a high voltage conversion ratio. Additionally, the recommended converter&#x0027;s small component count allows it to function in both directions, which lowers the system&#x0027;s overall cost.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Electric cars</kwd>
+<kwd>Boost mode</kwd>
+<kwd>bidirectional converter</kwd>
+<kwd>Buck mode</kwd>
+</kwd-group>
+<counts>
+<fig-count count="24"/>
+<table-count count="1"/>
+<equation-count count="25"/>
+<ref-count count="12"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<p>Nomenclature
+<def-list>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{H}}$</tex-math></inline-formula></term><def><p>High side capacitor</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{L}}$</tex-math></inline-formula></term><def><p>Low side capacitor</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{H}}$</tex-math></inline-formula></term><def><p>Voltage of high voltage port</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{L}}$</tex-math></inline-formula></term><def><p>Voltage of low voltage port</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{2}$</tex-math></inline-formula></term><def><p>The second source Voltage</p></def></def-item>
+<def-item><term>L</term><def><p>Inductor</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{2}$</tex-math></inline-formula></term><def><p>Inductor 2</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{2}$</tex-math></inline-formula></term><def><p>Switch 2</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{1}$</tex-math></inline-formula></term><def><p>Switch 1</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula></term><def><p>Inductor 1</p></def></def-item>
+<def-item><term><inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{2}$</tex-math></inline-formula></term><def><p>Inductor 2</p></def></def-item>
+<def-item><term>C</term><def><p>Capacitor</p></def></def-item>
+</def-list>
+</p>
+<sec id="sec1">
+<label>1.</label>
+<title>Introduction</title>
+<p>A type of power electronics converter known as a bidirectional DC-DC converter with several ports enables the integration of many energy sources and loads into a hybrid energy system. Energy can be transferred between these types of converters <xref ref-type="bibr" rid="ref1">[1]</xref>&#x2013;<xref ref-type="bibr" rid="ref2"/><xref ref-type="bibr" rid="ref3"/><xref ref-type="bibr" rid="ref4">[4]</xref>. It has a wide range of applications since it may be applied to different sources of DC voltage and loads. Hybrid energy systems use multi-port converters to integrate several sources with varying voltage and power ranges <xref ref-type="bibr" rid="ref5">[5]</xref>&#x2013;<xref ref-type="bibr" rid="ref6">[6]</xref>. For example, these converters split energy among sources under various operating conditions and give the necessary load power at the proper voltage level in electric vehicles and energy storage systems electric automobiles. The bidirectional DC-DC converter is one type of converter that may transfer energy flow between the sources of energy and the load <xref ref-type="bibr" rid="ref7">[7]</xref>. In order to achieve the criteria for load changes in HES, batteries and other ESS are required. In an ESS, power may be transferred from the power source to the DC link using bidirectional DC-DC converters. The ESS&#x0027;s capacity to recover energy depends on these converters <xref ref-type="bibr" rid="ref8">[8]</xref>. Traditional bidirectional buck-boost converters are one type of bidirectional DC-DC converter. These converters should not be used with HES due to their poor voltage conversion ratio. These converters&#x0027; semiconductors are also under a lot of voltage stress, which increases the converter&#x0027;s losses <xref ref-type="bibr" rid="ref9">[9]</xref>&#x2013;<xref ref-type="bibr" rid="ref10">[10]</xref>. Isolated and non-isolated multiport converters fall into two different types when it comes to bidirectional capability. High voltage conversion ratios may be obtained by isolated structures by altering the transformer conversion ratio <xref ref-type="bibr" rid="ref11">[11]</xref>. These converters are more expensive and have higher conduction losses due to their large component count. Moreover, the regulation of different types of converters is complex. Compared to isolated converters, non-isolated converters have a number of benefits, including low cost, simple building, good efficiency at low semiconductor voltage, high voltage conversion ratio, and low electromagnetic interference (EMI) [12-14]</p>
+<sec id="sec1a">
+<label>1.1.</label><title>Objectives</title>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>The objective of this project is to build an open loop hardware prototype that boosts voltage From 24 V and 12 V to 69 V using the charging mode and bucking the voltage from 69 V and 12 V to 33 V using the discharging mode. The planned power outputs for this prototype are 149 W in boost mode and 49 W in buck mode.</p></list-item>
+</list>
+</sec>
+<sec id="sec1b">
+<label>1.2.</label><title>Problem Statement</title>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>To achieve a high voltage conversion ratio in both the buck and boost modes.</p></list-item>
+<list-item><label>&#x2022;</label><p>Power transferred to the load in the bidirectional feature</p></list-item>
+<list-item><label>&#x2022;</label><p>To reduce costs</p></list-item>
+</list>
+</sec>
+<sec id="sec1c">
+<label>1.3.</label><title>Operation Mode Analysis</title>
+<p>This construction is advised with two switches (Sw1 and <inline-formula><tex-math notation="LaTeX">$\text{Sw}_{\mathrm{w}}$</tex-math></inline-formula>), three capacitors (<inline-formula><tex-math notation="LaTeX">$\mathrm{C}, \mathrm{C}_{\mathrm{L}}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{H}}$</tex-math></inline-formula>), and two inductors <inline-formula><tex-math notation="LaTeX">$\left(\mathrm{L}_{1}\right.$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\left.\mathrm{L}_{2}\right)$</tex-math></inline-formula>. <xref ref-type="fig" rid="fig1">Fig. 1</xref> illustrates this
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.1</label>
+<caption><p>Suggested arrangement for the converter circuit</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-1-source.tif"/>
+</fig>
+</p>
+<sec id="sec1c1">
+<label>1.3.1.</label><title>Step-Up (Boost) Operation</title>
+<p>Referenced to <xref ref-type="fig" rid="fig1">fig 1.1</xref></p>
+<p>Mode 1:</p>
+<p>involves turning both Sw1 and Sw2 ON and OFF. Inductor <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula> is magnetized by <inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{L}}$</tex-math></inline-formula>, and current across it increases linearly.</p>
+<p>Mode 2:</p>
+<p>Switches for electricity During mode 2, <inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{2}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{1}$</tex-math></inline-formula> are turned ON and OFF, respectively. Currents in <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{2}$</tex-math></inline-formula> are lowered linearly. In addition to receiving the energy of <inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{L}}$</tex-math></inline-formula>, capacitors <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{H}}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{R}_{\mathrm{H}}$</tex-math></inline-formula> also store energy from <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula>.</p>
+</sec>
+<sec id="sec1c2">
+<label>1.3.2.</label><title>Step-Down (Buck) Operation</title>
+<p>Referenced to <xref ref-type="fig" rid="fig1">fig 1.1</xref></p>
+<p>Mode 1:</p>
+<p>Sw1 must be turned OFF and Sw2 must be turned ON for Mode 1. <inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{H}}$</tex-math></inline-formula> supplies the energy to <inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{2}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{\mathrm{L}}$</tex-math></inline-formula>. Magnetizing inductors <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{2}$</tex-math></inline-formula> are seeing an increase in current flow.</p>
+<p>Mode 2:</p>
+<p>This mode starts when power switches <inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{w} 1$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{S}_{w} 2$</tex-math></inline-formula> are turned ON and OFF, respectively. This mode results in the discharge of capacitors C and <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{L}}$</tex-math></inline-formula>.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec2">
+<label>2.</label><title>State Space Modelling</title>
+<sec id="sec2a">
+<label>2.1.</label><title>Boost Mode</title>
+<sec id="sec2a1">
+<label>2.1.A</label>
+<title>Mode 1 of Step-Up Operation</title>
+<p><disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+V_{L_{1}}=V_{L} \Rightarrow \frac{d_{L_{1}}}{d t}=\frac{V_{L}}{L_{1}} \tag{1}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+V_{L_{2}}=V_{C}-V_{2}=&gt;\frac{d_{L_{2}}}{d t}=\frac{V_{2}}{L_{2}}-\frac{V_{c}}{L_{2}} \tag{2}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{i}_{\mathrm{C}}=\mathrm{i}_{2} \Rightarrow \frac{\text{dV}_{\mathrm{C}}}{\text{dt}}=\frac{\mathrm{I}_{2}}{\mathrm{C}} \tag{3}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig:2.1</label>
+<caption><p>Mode 1 of step-up operation</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-2-source.tif"/>
+</fig>
+</p>
+<p><disp-formula id="deqn4-deqn5"><tex-math notation="LaTeX">\begin{align*}
+&amp; \mathrm{i}_{\mathrm{C}_{\mathrm{H}}}=\mathrm{i}_{\mathrm{R}_{\mathrm{H}}}=&gt;\frac{\text{dV}_{\mathrm{C}_{\mathrm{H}}}}{\text{dt}}=-\frac{\mathrm{V}_{\mathrm{C}_{\mathrm{H}}}}{R * \mathrm{C}_{\mathrm{H}}} \tag{4}\\
+&amp; \text{Vo}=\mathrm{V}_{\mathrm{C}_{\mathrm{H}}} \tag{5}
+\end{align*}</tex-math></disp-formula></p>
+<p><bold>Assume</bold>
+<disp-formula><tex-math notation="LaTeX">\begin{align*}
+&amp; \quad x_{1}^{\prime}=\frac{\text{di}_{\mathrm{L}_{1}}}{\text{dt}}, \quad x_{2}^{\prime}=\frac{\text{di}_{2}}{\text{dt}}, \quad x_{3}^{\prime}=\frac{\text{dV}_{\mathrm{C}}}{\text{dt}}, \quad x_{4}^{\prime}=\frac{\text{dV}_{\mathrm{C}_{\mathrm{H}}}}{\text{dt}} \\
+&amp; y=\text{Vo} \\
+&amp; {\begin{bmatrix}
+x_{1}^{\prime} \\
+x_{2}^{\prime} \\
+x_{4}^{\prime} \\
+x_{3}^{\prime}
+\end{bmatrix}=\left[\begin{array}{cccc}
+0 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; -1 / \mathrm{L}_{2} \\
+0 &amp; 0 &amp; (-1) /\left(R * \mathrm{C}_{\mathrm{H}}\right) &amp; 0 \\
+0 &amp; 1 / \mathrm{C} &amp; 0 &amp; 0
+\end{array}\right]\begin{bmatrix}
+\mathrm{i}_{\mathrm{L}_{1}} \\
+\mathrm{i}_{2} \\
+~\mathrm{V}_{\mathrm{C}_{\mathrm{H}}} \\
+~\mathrm{V}_{\mathrm{C}}
+\end{bmatrix}+} \\
+&amp; {\begin{bmatrix}
+1 / \mathrm{L}_{1} \\
+0 \\
+0 \\
+0
+\end{bmatrix} \mathrm{V}_{\mathrm{L}}+\begin{bmatrix}
+0 \\
+1 / \mathrm{L}_{2} \\
+0 \\
+0
+\end{bmatrix} \mathrm{V}_{2}}
+\end{align*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+[y] =
+\begin{bmatrix}
+0 &amp; 0 &amp; 1 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+i_{L_1} \\
+i_2 \\
+V_{C_H} \\
+V_C
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+0 \\
+0 \\
+0
+\end{bmatrix} V_L
++
+\begin{bmatrix}
+0 \\
+0 \\
+0 \\
+0
+\end{bmatrix} V_2
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{align*}
+\mathbf{x\prime} &amp; = \mathbf{Ax} + \mathbf{Bu} \\
+\mathbf{y} &amp;= \mathbf{Cx} + \mathbf{Du}
+\end{align*}</tex-math></disp-formula>
+</p>
+<p>Fundamental representation of state space model</p>
+</sec>
+<sec id="sec2a2">
+<label>2.1.B</label>
+<title>Mode II of Step-Up Operation</title>
+<p><disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+V_{L_{1}}=-V_{L}-V_{C}+V_{C_{H}}=&gt;\frac{\text{di}_{L_{1}}}{\text{dt}}=\frac{\mathrm{V}_{L}}{~\mathrm{L}_{1}}+\frac{\mathrm{V}_{C}}{~\mathrm{L}_{1}}-\frac{\mathrm{V}_{C_{H}}}{~\mathrm{L}_{1}} \tag{6}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig:2.2</label>
+<caption><p>Mode 2 of step-up operation</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-3-source.tif"/>
+</fig></p>
+<p><disp-formula id="deqn7-deqn10"><tex-math notation="LaTeX">\begin{align*}
+&amp; \mathrm{V}_{\mathrm{L}_{2}}=\mathrm{V}_{\mathrm{C}}-\mathrm{V}_{2}=&gt;\frac{\text{di}_{\mathrm{i}_{2}}}{\text{dt}}=\frac{\mathrm{V}_{2}}{~\mathrm{L}_{2}}-\frac{\mathrm{V}_{\mathrm{C}}}{~\mathrm{L}_{2}} \quad\left(\mathrm{i}_{\mathrm{L}_{2}}=\mathrm{i}_{2}\right) \tag{7}\\
+&amp; \mathrm{i}_{\mathrm{C}}=\mathrm{i}_{\mathrm{L}_{1}}-\mathrm{i}_{\mathrm{L}_{2}} \Rightarrow \frac{\text{dV}_{\mathrm{C}}}{\text{dt}}=\frac{\mathrm{i}_{\mathrm{L}_{2}}}{\mathrm{C}}-\frac{\mathrm{I}_{\mathrm{L}_{1}}}{\mathrm{C}} \tag{8}\\
+&amp; \mathrm{i}_{\mathrm{C}_{\mathrm{H}}}=\mathrm{i}_{\mathrm{L}_{1}}-\mathrm{i}_{\mathrm{R}_{\mathrm{H}}} \Rightarrow \frac{\text{dV}_{\mathrm{C}_{\mathrm{H}}}}{\text{dt}}=\frac{\mathrm{I}_{\mathrm{L}_{1}}}{\mathrm{C}_{\mathrm{H}}}-\frac{\mathrm{v}_{\mathrm{C}_{\mathrm{H}}}}{\mathrm{R}_{\mathrm{H}} * \mathrm{C}_{\mathrm{H}}} \tag{9}\\
+&amp; y=\text { Vo } \tag{10}
+\end{align*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\begin{bmatrix}
+x\prime_1 \\
+x\prime_2 \\
+x\prime_4 \\
+x\prime_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; 0 &amp; -1/L_1 &amp; 1/L_1 \\
+0 &amp; 0 &amp; 0 &amp; -1/L_2 \\
+1/C_H &amp; 0 &amp; (-1)/(R_H \ast C_H) &amp; 0 \\
+-1/C &amp; 1/C &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+i_{L_1} \\
+i_{L_2} \\
+V_{C_H} \\
+V_C
+\end{bmatrix}
++
+\begin{bmatrix}
+1/L_1 \\
+0 \\
+0 \\
+0
+\end{bmatrix} V_L
++
+\begin{bmatrix}
+0 \\
+1/L_2 \\
+0 \\
+0
+\end{bmatrix} V_2
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+[y] =
+\begin{bmatrix}
+0 &amp; 0 &amp; 1 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+i_{L_1} \\
+i_{L_1} \\
+V_{C_H} \\
+V_C
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+0 \\
+0 \\
+0
+\end{bmatrix} V_L
++
+\begin{bmatrix}
+0 \\
+0 \\
+0 \\
+0
+\end{bmatrix} V_2
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{A}=\mathrm{A}_{1}{ }^{*} ~\mathrm{d}+\mathrm{A}_{2}{ }^{*}(1-\mathrm{d})
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{B}=\mathrm{B}_{1}{ }^{*} ~\mathrm{d}+\mathrm{B}_{2}{ }^{*}(1-\mathrm{d})
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{C}=\mathrm{C}_{1}{ }^{*} ~\mathrm{d}+\mathrm{C}_{2}{ }^{*}(1-\mathrm{d})
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{D}=\mathrm{D}_{1}{ }^{*} ~\mathrm{d}+\mathrm{D}_{2}{ }^{*}(1-\mathrm{d})
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p>From above equations the <inline-formula><tex-math notation="LaTeX">$\mathrm{A}, \mathrm{B}, \mathrm{C}, \mathrm{D}$</tex-math></inline-formula> matrices for transfer function are as follows
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+A =
+\begin{bmatrix}
+0 &amp; 0 &amp; -(1 - d)/L_1 &amp; (1 - d)/L_1 \\
+0 &amp; 0 &amp; 0 &amp; -1/L_2 \\
+(1 - d)/C_H &amp; 0 &amp; (-1)/(R_H \ast C_H) &amp; 0 \\
+-(1 - d)/C &amp; (1)/C &amp; 0 &amp; 0
+\end{bmatrix}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+B =
+\begin{bmatrix}
+1/L_1 \\
+0 \\
+0 \\
+0
+\end{bmatrix}, \quad
+C =
+\begin{bmatrix}
+0 &amp; 0 &amp; 1 &amp; 0
+\end{bmatrix}, \quad
+D =
+\begin{bmatrix}
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+\end{equation*}</tex-math></disp-formula>
+</p>
+</sec>
+</sec>
+<sec id="sec2b">
+<label>2.1.</label>
+<title>Buck Mode</title>
+<p>Similarly for <bold>buck mode</bold> A, B, C, D matrices for transfer function are as follows.
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+A =
+\begin{bmatrix}
+0 &amp; 0 &amp; 1/L_1 &amp; (1 - D)/L_1 \\
+0 &amp; 0 &amp; 0 &amp; 1/L_2 \\
+(2d - 1)/C_2 &amp; 0 &amp; (1 - 2d)/C_2R &amp; 0 \\
+(1 - d)/C &amp; -1/C &amp; 0 &amp; 0
+\end{bmatrix}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{B}=\begin{bmatrix}-(1-\mathrm{d}) / \mathrm{L} 1 \\ -(1-\mathrm{d}) / \mathrm{L} 2 \\ 0 \\ 0\end{bmatrix}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{C}=\left[\begin{array}{llll}0 &amp; 0 &amp; 1 &amp; 0\end{array}\right]
+\end{equation*}</tex-math></disp-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{D}=\left[\begin{array}{llll}0 &amp; 0 &amp; 0 &amp; 0\end{array}\right]
+\end{equation*}</tex-math></disp-formula>
+</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>3.</label>
+<title>Simulation</title>
+<sec id="sec3a">
+<label>3.1.</label><title>Open Loop Simulation Results of Bidirectional Converter in Boost Mode</title>
+<p>The open-loop simulation means performance without any feedback control. Key aspects
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Voltage Boosting Capability</bold>: The ability of the converter to increase the input voltage to a higher output voltage is demonstrated by the simulation. For applications that need energy transfer from a lower voltage source to a higher voltage demand.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Analysis of Waveform</bold>: To comprehend the converter&#x0027;s dynamic behaviour, including ripple, the waveforms of voltage and current are examined.</p></list-item>
+<list-item><label>&#x2022;</label><p>I<bold>nput and Output Voltage</bold>: The input voltage of 24 V is stepped up to 69 v. The low voltage side (12 V) indicates the converter&#x0027;s potential application in systems like battery charging/discharging or DC microgrids.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Switching Frequency</bold>: A popular option for balancing efficiency and reducing the size of passive components is a switching frequency of 50 kHz. Smoother waveforms and less electromagnetic interference are two benefits of this frequency. Smaller components might be used with a greater switching frequency, but switching losses could rise.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Power Output</bold>: The converter handles a power level of 149 W, indicative application such as in renewable energy systems, electric vehicles, or backup power supplies.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Inductor and Capacitors</bold>: During the boost phase, the <inline-formula><tex-math notation="LaTeX">$350 \mu \mathrm{H}$</tex-math></inline-formula> inductor serves as an energy storage component. It is essential for controlling current ripples and guaranteeing steady functioning. A steady DC output, dynamic responsiveness, and voltage ripple filtering are the functions of the <inline-formula><tex-math notation="LaTeX">$350 \mu ~\mathrm{F}, 350 \mu ~\mathrm{F}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$100 \mu ~\mathrm{F}$</tex-math></inline-formula> capacitors. An intermediate capacitor (<inline-formula><tex-math notation="LaTeX">$\mathrm{C}=100 \mu \mathrm{F}$</tex-math></inline-formula>) lowers voltage ripple across the converter and stabilizes switching transients..</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Load Resistance</bold>: The load resistance of 32.6&#x2126; represents the load on the high voltage side, ensuring that the current and voltage are within the operating limits of the circuit.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Ripple Factors</bold>: The voltage and current ripples of 20 &#x0025; and 10 &#x0025; respectively are reasonable for an open-loop design.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Applications</bold>: simulation are applied to various fields, including renewable energy systems, electric vehicles, and energy storage systems.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Component Stress Evaluation</bold>: The simulation results reveal the stress on components such as MOSFETs, diodes, inductors, and capacitors.</p></list-item>
+</list>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig:3.1</label>
+<caption><p>Output current in discharging mode.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-4-source.tif"/>
+</fig>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig:3.2</label>
+<caption><p><inline-formula><tex-math notation="LaTeX">$\mathrm{v}_{\text {gate-source }}$</tex-math></inline-formula> waveforms</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig:3.3</label>
+<caption><p>Output voltage vo with load change in boost mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-6-source.tif"/>
+</fig>
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig:3.4</label>
+<caption><p>Current waveforms through the inductors <inline-formula><tex-math notation="LaTeX">$\mathrm{l}_{1}$</tex-math></inline-formula> in boost mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-7-source.tif"/>
+</fig>
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig:3.5</label>
+<caption><p>Voltage waveforms across switches and capacitor in boost mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-8-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3b">
+<label>3.2.</label><title>Open Loop Simulation Results of Bidirectional Converter in Buck Mode</title>
+<p><inline-formula><tex-math notation="LaTeX">$V_{H}=69 ~\mathrm{V}, \quad V_{2}=12 ~\mathrm{V}, \quad f_{s}=50 \text{kHz}, D_{1}=0.4, D_{2}=0.6, R =23 \Omega L_{1}=L_{2}=0.350 \text{mH}, C_{L}=C_{H}=350 \mu F, \quad C=100 \mu F$</tex-math></inline-formula>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>Load Resistance (R)</bold>: 23&#x2126;. represents the equivalent resistance of the load connected on the low-voltage side. This resistance determines output current power.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Efficiency Considerations</bold>: Efficiency is generally affected by switching losses, conduction losses in MOSFETs or IGBTs, and resistive losses in the passive components. In an open-loop system, achieving optimal efficiency might require iterative adjustments to the duty cycles and the components.</p></list-item>
+</list>
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig:3.6</label>
+<caption><p>The dynamic result of suggested converter for load change in buck mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-9-source.tif"/>
+</fig>
+<fig id="fig10" position="float" orientation="portrait">
+<label>Fig 3.7</label>
+<caption><p>Load current in charging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-10-source.tif"/>
+</fig>
+<fig id="fig11" position="float" orientation="portrait">
+<label>Fig:3.8</label>
+<caption><p>Current through the inductors <inline-formula><tex-math notation="LaTeX">$\mathrm{l}_{2}$</tex-math></inline-formula> in buck mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-11-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>3.3</label>
+<title>Closed loop MATLAB Simulation Results in Boost Mode</title>
+<fig id="fig12" position="float" orientation="portrait">
+<label>Fig: 3.9</label>
+<caption><p>Output voltage vo (with input voltage change)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-12-source.tif"/>
+</fig>
+<fig id="fig13" position="float" orientation="portrait">
+<label>Fig: 3.10</label>
+<caption><p>Output voltage vo in discharging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-13-source.tif"/>
+</fig>
+<fig id="fig14" position="float" orientation="portrait">
+<label>Fig: 3.11</label>
+<caption><p>Output current io</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-14-source.tif"/>
+</fig>
+</sec>
+<sec id="sec3d">
+<label>3.4</label>
+<title>Closed Loop Simulation Results of Buck Mode</title>
+<fig id="fig15" position="float" orientation="portrait">
+<label>Fig 3.12</label>
+<caption><p>Output voltage vo (with load change)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-15-source.tif"/>
+</fig>
+<fig id="fig16" position="float" orientation="portrait">
+<label>Fig: 3.13</label>
+<caption><p>Output current waveform</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-16-source.tif"/>
+</fig>
+<table-wrap id="table1">
+<label>Table 1.1</label>
+<caption><title>Design specification</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-table-1-source.tif"/>
+<graphic position="float" orientation="portrait" xlink:href="11439450-table-1a-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Boostmode</th>
+<th>Buck mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input voltage <inline-formula><tex-math notation="LaTeX">$\left(\mathrm{V}_{\mathrm{L}}\right)$</tex-math></inline-formula></td>
+<td>24 V</td>
+<td>69 V</td>
+</tr>
+<tr>
+<td>DC Supply (<inline-formula><tex-math notation="LaTeX">$\mathrm{V}_{2}$</tex-math></inline-formula>)</td>
+<td>12 V</td>
+<td>12 V</td>
+</tr>
+<tr>
+<td>Output voltage</td>
+<td>69 V</td>
+<td>33 V</td>
+</tr>
+<tr>
+<td>Switching frequency <inline-formula><tex-math notation="LaTeX">$\mathrm{f}_{\mathrm{s}}$</tex-math></inline-formula></td>
+<td>50 KHz</td>
+<td>50 KHz</td>
+</tr>
+<tr>
+<td>Rated output power</td>
+<td>149 W</td>
+<td>49 W</td>
+</tr>
+<tr>
+<td>Inductor <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{1}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\mathrm{L}_{2}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$350 \mu \mathrm{H}$</tex-math></inline-formula></td>
+<td/>
+</tr>
+<tr>
+<td>Capacitor <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{L}}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$350 \mu ~\mathrm{F}$</tex-math></inline-formula></td>
+<td/>
+</tr>
+<tr>
+<td>Capacitor <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{H}}$</tex-math></inline-formula></td>
+<td><inline-formula><tex-math notation="LaTeX">$350 \mu ~\mathrm{F}$</tex-math></inline-formula></td>
+<td/>
+</tr>
+<tr>
+<td>Capacitor C</td>
+<td><inline-formula><tex-math notation="LaTeX">$100 \mu ~\mathrm{F}$</tex-math></inline-formula></td>
+<td/>
+</tr>
+<tr>
+<td>Load resistance</td>
+<td>32.6&#x2126;</td>
+<td/>
+</tr>
+<tr>
+<td>Inductor current ripple</td>
+<td>20&#x0025;</td>
+<td/>
+</tr>
+<tr>
+<td>Output Voltage ripple</td>
+<td>10&#x0025;</td>
+<td/>
+</tr></tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec4">
+<label>4.</label>
+<title>Inductor Core Design</title>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>24 volt to 69 volt at 50 KHz and Delivering 2.15 A load Current.N27ferrite core is assumed.</p>
+<p><bold>Specification</bold></p>
+<p><inline-formula><tex-math notation="LaTeX">$\mathrm{J}=2.5 ~\mathrm{A} / \text{mm}^{2}, \quad ~\mathrm{B}_{\text {max }}=0.25 ~\text{Wb} / \text{mm}^{2}$</tex-math></inline-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{K}_{\mathrm{i}}=6 / 5.3=1.13, \quad ~\mathrm{K}_{\mathrm{s}}=0.4
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>For Design</bold> <inline-formula><tex-math notation="LaTeX">$\mathrm{I}_{\mathrm{L} 1}=5.3 ~\mathrm{A}, \mathrm{I}_{\mathrm{L} 1 \max }=6 ~\mathrm{A}, \mathrm{I}_{\mathrm{L} 1 \min }=4.6 ~\mathrm{A}$</tex-math></inline-formula></p>
+<p>Inductor Value Required 350 micro-H.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold><italic>Design Equation</italic></bold></p>
+<p><inline-formula><tex-math notation="LaTeX">$\mathrm{L}^{*} \mathrm{I}_{\text{LMAX}}&lt;=\mathrm{N}_{\mathrm{P}}{ }^{*} ~\mathrm{A}_{\mathrm{C}}{ }^{*} ~\mathrm{B}, \text{AP}=\mathrm{L}^{*} \mathrm{I}_{\mathrm{L} 1}{ }^{2} * ~\mathrm{K}_{\mathrm{I}} /\left(\mathrm{K}_{\mathrm{S}} * ~\mathrm{J} * ~\mathrm{B}_{\text {MAX }}\right)$</tex-math></inline-formula>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\text{Ap}=44520 \text{MM}^{4}, \text{Ap}=\mathrm{A}_{\mathrm{w}} * ~\mathrm{A}_{\mathrm{C}}
+\end{equation*}</tex-math></disp-formula></p>
+<p>For <inline-formula><tex-math notation="LaTeX">$\text{EE} / 42 / 21 / 15 \text{AP}=45575 \text{MM} 4$</tex-math></inline-formula></p>
+<p>So, EE/42/21/15 of Core is selected.</p>
+<p>For Winding copper wire size <inline-formula><tex-math notation="LaTeX">$=\mathrm{I}_{\text {RMS }} / \mathrm{J}=2.12 \text{MM}^{2}$</tex-math></inline-formula></p>
+<p>So SWG15 Copper wire selected.</p>
+<p>Total no of turn N=LImax/AcB=36</p></list-item>
+<list-item><label>&#x2022;</label><p><italic>24 volt to 69 volt at 50 KHz and Delivering 2.15 A load Current</italic>. <bold>Specification</bold>
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{J}=2.5 ~\mathrm{A} / \text{mm}^{2}, ~\mathrm{B}_{\text {max }}=0.25 ~\text{Wb} / \text{mm}^{2}, ~\mathrm{K}_{\mathrm{i}}=2.5 / 2.15=1.16 \mathrm{K}_{\mathrm{s}}=0.4
+\end{equation*}</tex-math></disp-formula></p>
+<p><bold>For Design</bold> <inline-formula><tex-math notation="LaTeX">$\mathrm{I}_{\mathrm{L} 2}=2.15 ~\mathrm{A}, \mathrm{I}_{\mathrm{L} 2 \max }=2.5 ~\mathrm{A}, \mathrm{I}_{\mathrm{L} 2 \min }=1.8 ~\mathrm{A}$</tex-math></inline-formula></p>
+<p>Inductor Value Required 350 micro-H</p>
+<p>To Design Equation
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{L}^{*} \mathrm{I}_{\mathrm{I} \text { max }}&lt;=\mathrm{n}_{\mathrm{p}} * ~\mathrm{A}_{\mathrm{c}} * ~\mathrm{B}, \text{Ap}=\mathrm{L}^{*} \mathrm{I}_{\mathrm{L} 2}{ }^{2 *} ~\mathrm{K}_{\mathrm{i}} /\left(\mathrm{K}_{\mathrm{s}} * ~\mathrm{J} * ~\mathrm{B}_{\text {max }}\right)
+\end{equation*}</tex-math></disp-formula></p>
+<p><inline-formula><tex-math notation="LaTeX">$\text{Ap}=7520 ~\text{mm}^{4}, \text{Ap}=\mathrm{A}_{\mathrm{w}}{ }^{*} ~\mathrm{A}_{\mathrm{c}}$</tex-math></inline-formula></p>
+<p>For <inline-formula><tex-math notation="LaTeX">$\text{EE} / 32 / 16 / 11 \text{Ap}=14340 ~\text{mm} 4$</tex-math></inline-formula></p>
+<p>So, EE/32/16/11 Core is selected.</p>
+<p>For Winding copper wire gauge <inline-formula><tex-math notation="LaTeX">$=\mathrm{I}_{\mathrm{L} 2} / \mathrm{J}=0.86 ~\text{mm}^{2}$</tex-math></inline-formula></p>
+<p>So SWG18 Copper wire selected.</p>
+<p>Total no of turn N=LImax/AeB=30</p></list-item>
+</list>
+<fig id="fig17" position="float" orientation="portrait">
+<label>Fig:4.1</label>
+<caption><p>Inductors hardware</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-17-source.tif"/>
+</fig>
+<sec id="sec4a">
+<label>4.1</label>
+<title>Selection of Components</title>
+<p>Component Specification:</p>
+<p><bold>Switch used</bold>: based on the maximum voltage and current levels obtained, the switches are selected: - <inline-formula><tex-math notation="LaTeX">$\text{Sw}_{1}$</tex-math></inline-formula>: IRFP260N (<inline-formula><tex-math notation="LaTeX">$250 ~\mathrm{V} / 43 ~\mathrm{A}$</tex-math></inline-formula>), <inline-formula><tex-math notation="LaTeX">$\text{Sw}_{2}$</tex-math></inline-formula>: IRFP260N (<inline-formula><tex-math notation="LaTeX">$250 ~\mathrm{V} / 43 ~\mathrm{A}$</tex-math></inline-formula>)</p>
+<p><bold>Capacitor used</bold>: based on the maximum voltage and current levels obtained, the capacitors are selected: - <inline-formula><tex-math notation="LaTeX">$\mathrm{C}_{\mathrm{H}}$</tex-math></inline-formula>: Electrolytic Capacitor <inline-formula><tex-math notation="LaTeX">$(200 ~\mathrm{V} / 10 ~\mathrm{A})$</tex-math></inline-formula></p>
+<p>C: Electrolytic Capacitor <inline-formula><tex-math notation="LaTeX">$(100 ~\mathrm{V} / 5 ~\mathrm{A})$</tex-math></inline-formula></p>
+</sec>
+<sec id="sec4b">
+<label>3.2</label>
+<title>Open Loop Hardware Result</title>
+<fig id="fig18" position="float" orientation="portrait">
+<label>Fig:4.2</label>
+<caption><p>Hardware implementation of purposed converter</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-18-source.tif"/>
+</fig>
+<p><italic>BOOST MODE</italic>:
+<fig id="fig19" position="float" orientation="portrait">
+<label>Fig:4.3</label>
+<caption><p>Gate driver output (gate pulse)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-19-source.tif"/>
+</fig>
+<fig id="fig20" position="float" orientation="portrait">
+<label>Fig 4.4</label>
+<caption><p>Output voltage for discharging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-20-source.tif"/>
+</fig>
+<fig id="fig21" position="float" orientation="portrait">
+<label>Fig 4.5</label>
+<caption><p>Load current for discharging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-21-source.tif"/>
+</fig>
+<fig id="fig22" position="float" orientation="portrait">
+<label>Fig:4.6</label>
+<caption><p>Inductor current (<inline-formula><tex-math notation="LaTeX">$\mathrm{i}_{\mathrm{l} 1}$</tex-math></inline-formula>) in discharging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-22-source.tif"/>
+</fig>
+<fig id="fig23" position="float" orientation="portrait">
+<label>Fig:4.7</label>
+<caption><p>Load current for charging mode</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-23-source.tif"/>
+</fig>
+<fig id="fig24" position="float" orientation="portrait">
+<label>Fig:4.8</label>
+<caption><p>Inductor current <inline-formula><tex-math notation="LaTeX">$\mathrm{i}_{\mathrm{l} 1}$</tex-math></inline-formula> in charging mode.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439450-fig-24-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>5.</label><title>Conclusion</title>
+<p>The objective of the research was to evaluate and implement a bidirectional converter with many ports that is suggested for HES applications that need energy storage. Using the Simulink model, a bidirectional DC/DC converter with several inputs and one output has been simulated in both charging and discharging modes. When the charging mode is engaged, both the 12 V and 69 V high voltage sides is buck-ed to 24 V, and when the discharging mode is engaged, the low voltage inputs of 24 V and 12 V are boosted to 69 V. Controller design and control methods are explained in detail. The simulation results clearly show that a mode that charges and discharges in both directions may be implemented.</p>
+<p>Benefits of the created bidirectional converter
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>It can operate in both step-up and step-down modes in a bidirectional manner.</p></list-item>
+<list-item><label>&#x2022;</label><p>It has a simple structure and few components.</p></list-item>
+<list-item><label>&#x2022;</label><p>Less voltage stress is present between the switches.</p></list-item>
+<list-item><label>&#x2022;</label><p>The simulation demonstrates a functional design, capable of boosting voltage efficiently with acceptable ripple levels.</p></list-item>
+<list-item><label>&#x2022;</label><p>The choice of components appears well-matched for the given power and frequency parameters.</p></list-item>
+<list-item><label>&#x2022;</label><p>In an open-loop system, variations in input voltage or load could cause fluctuations in output. Implementing feedback control in a closed-loop system would enhance stability and accuracy.</p></list-item>
+</list></p>
+</sec>
+</body>
+<back>
+<ref-list>
+<label>5.</label>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Akar</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Tavlasoglu</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Ugur</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Vural</surname></string-name>, <string-name><given-names>I.</given-names> <surname>Aksoy</surname></string-name></person-group>, &#x201C;<article-title>A Bidirectional Non-isolated Multi-Input DC-DC Converter for Hybrid Energy Storage Systems in Electric Vehicles</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Vehicular Technology</source>,<year>2016</year>, vol. <volume>65</volume>, no. <issue>10</issue>, pp. <fpage>7944</fpage>&#x2013;<lpage>7955</lpage>,<pub-id pub-id-type="doi">10.1109/TVT.2015.2500683</pub-id>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.R.</given-names> <surname>Ahrabi</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Ardi</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Elmi</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Ajami</surname></string-name></person-group>, &#x201C;<article-title>A Novel Step-Up Multi-input DC-DC Converter for Hybrid Electric Vehicles Application</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>,<year>2017</year>, vol. <volume>32</volume>, no. <issue>5</issue>, pp. <fpage>3549</fpage>&#x2013;<lpage>3561</lpage>, <pub-id pub-id-type="doi">10.1109/TPEL.2016.2585044</pub-id>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Varesi</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Hosseini Hosseini</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Sabahi</surname></string-name>, <string-name><given-names>E.</given-names> <surname>Babaei</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Saeidabadi</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Vosoughi</surname></string-name></person-group>, &#x201C;<article-title>Design and Analysis of a Developed Multiport High Step-Up DC-DC Converter</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>,<year>2019</year>, vol. <volume>34</volume>, no. <issue>6</issue>, pp. <fpage>5464</fpage>&#x2013;<lpage>5475</lpage>,<pub-id pub-id-type="doi">10.1109/TPEL.2018.2866492</pub-id>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Kardan</surname> <given-names>F.</given-names></string-name>, <string-name><given-names>R.</given-names> <surname>Alizadeh</surname></string-name>, <string-name><given-names>M.R.</given-names> <surname>Banaei</surname></string-name></person-group>, &#x201C;<article-title>A New Three Input DC/DC Converter for Hybrid PV/FC/Battery Applications</article-title>,&#x201D; <source specific-use="IEEE">IEEE Journal of Emerging and Selected Topics in Power Electronics</source>,<year>2017</year>, vol. <volume>5</volume>, no. <issue>4</issue>, pp. <fpage>1771</fpage>&#x2013;<lpage>1778</lpage>,<pub-id pub-id-type="doi">10.1109/JESTPE.2017.2731816</pub-id>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Nejabatkhah</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Danyali</surname></string-name>, <string-name><given-names>S. H.</given-names> <surname>Hosseini</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Sabahi</surname></string-name>, <string-name><given-names>S.M.</given-names> <surname>Niapour</surname></string-name></person-group>, &#x201C;<article-title>Modelling and Control of a New Three-Input DC-DC Boost Converter</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>,<year>2012</year>, vol. <volume>27</volume>, no. <issue>5</issue>, pp. <fpage>2309</fpage>&#x2013;<lpage>2324</lpage>,<pub-id pub-id-type="doi">10.1109/TPEL.2011.2172465</pub-id>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Zeng</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Du</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Yang</surname></string-name></person-group>, &#x201C;<article-title>A Multiport Bidirectional DC-DC Converter for Hybrid Renewable Energy System Integration</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>,<year>2021</year>,vol. <volume>36</volume>, no. <issue>11</issue>, pp. <fpage>12281</fpage>&#x2013;<lpage>12291</lpage>,<pub-id pub-id-type="doi">10.1109/TPEL.2021.3082427</pub-id>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Wei</given-names> <surname>Yi a</surname></string-name>, <string-name><given-names>Hengrui</given-names> <surname>Ma b</surname></string-name>, <string-name><given-names>Sicheng</given-names> <surname>Peng c</surname></string-name>, <string-name><given-names>Dichen</given-names> <surname>Liu c</surname></string-name>, <string-name><surname>Ziad</surname> <given-names>M. Ali d</given-names></string-name>, <string-name><given-names>e Udaya</given-names> <surname>Dampage f</surname></string-name>, <string-name><given-names>Ali</given-names> <surname>Hajjiah g</surname></string-name></person-group>, &#x201C;<source>Analysis and Implementation of Multi-Port Bidirectional Converter for Hybrid Energy Systems</source>&#x201D;.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Deihimi</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Mahmoodieh</surname>, <given-names>M.E.S.</given-names></string-name>, <string-name><surname>Iravani</surname>, <given-names>R.</given-names></string-name></person-group>,<article-title>A New Multi-Input Step-Up DC-DC Converter for Hybrid Energy Systems</article-title>,<source>Electrical Power Systems Research</source>,<year>2017</year>, vol. <volume>149</volume>, pp. <fpage>111</fpage>&#x2013;<lpage>124</lpage> (<year>2017</year>) .</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Aruna</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Srinivas Rao</surname></string-name></person-group>, &#x201C;<article-title>A New Multilevel Inverter Topology for High Step-Up DC-DC Converter</article-title>,&#x201D; <source>Int. J. Sci. Eng. Adv. Technol.</source> , <month>Jun</month>. <year>2017</year>. [Online]. Available: <uri>https://ojs.www.ijseat.com/article/900</uri></mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Wei</given-names> <surname>Yi</surname></string-name> <string-name><surname>Hengrui</surname> <given-names>Ma</given-names></string-name>, <string-name><surname>Sicheng</surname> <given-names>Peng</given-names></string-name>, <string-name><surname>Dichen</surname> <given-names>Liu</given-names></string-name>,</person-group>,<article-title>Analysis and Implementation of Multi-Port Bidirectional Converter</article-title>,<source>Energy Reports</source>,<year>2022</year>, vol. <volume>8</volume>, pp. <fpage>1538</fpage>&#x2013;<lpage>1549</lpage>,<pub-id pub-id-type="doi">10.1016/j.egyr.2021.12.068</pub-id>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.B.</given-names> <surname>Santra</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Chatterjee</surname></string-name>, <string-name><given-names>T. -J.</given-names> <surname>Liang</surname></string-name></person-group>, &#x201C;<article-title>High Gain and High-Efficiency Bidirectional DC-DC Converter</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Power Electronics</source>,vol. <volume>36</volume>, no. <issue>11</issue>, pp. <fpage>12819</fpage>&#x2013;<lpage>12833</lpage>, <month>Nov</month>. <year>2021</year>, doi: <pub-id pub-id-type="doi">10.1109/TPEL.2021.3077584</pub-id>. <collab>keywords: {Inductors; Switches; Topology; Capacitors; Stress; Windings; Soft switching;Bidirectional dc-dc converter; coupled inductor}</collab>,.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Xiao</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Duraij</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Zhang</surname>, <given-names>Z.</given-names></string-name>, <string-name><surname>Zsurzsan</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Andersen</surname>, <given-names>M.A.E.</given-names></string-name></person-group>,<article-title>ZVS Design in Full-SiC Three-Level Converter</article-title>,<source specific-use="IEEE">IEEE Transactions on Industrial Electronics</source>, <volume>70</volume>(<issue>9</issue>), <fpage>8970</fpage>&#x2013;<lpage>8978</lpage>,<pub-id pub-id-type="doi">10.1109/TIE.2022.3206704</pub-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

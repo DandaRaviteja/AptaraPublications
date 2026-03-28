@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455878</article-id>
+<xplore-article-id>11455878</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Eeg Spectral Analysis of Mindfulness Based on Eemd and Gnns</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Siddharth S.</given-names> <surname>Pedanekar</surname></string-name>
+<string-name specific-use="index"><given-names>Siddharth S.</given-names> <surname>Pedanekar</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Dattaprasad</given-names> <surname>Torse</surname></string-name>
+<string-name specific-use="index"><given-names>Dattaprasad</given-names> <surname>Torse</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Electronics and Communication Department \\ KLE Technological University Dr. M. S. Sheshgiri Campus \\ Belagavi</institution>, <country>India</country> \\ <email>siddharthpednekar2003@gmail.com</email></aff>
+<aff id="aff2"><institution content-type="department">Electronics and Communication Department \\ KLE Technological University Dr. M. S. Sheshgiri Campus \\ Belagavi</institution>, <country>India</country> \\ <email>dattaprasadtorse.mss@kletech.ac.in</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455878_ft.xml</self-uri>
+<self-uri content-type="print">65.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The paper presents a hybrid EEMD-GNN system to study the EEG patterns that are happening in the process of mindfulness and non-mindfulness meditation.The EEMD technique breaks down EEG signals into intrinsic mode functions (IMFs) to adaptively extract theta and beta band information in a noise-resilient manner, and the GNNs to learn the spatialtemporal connectivity of EEG channels based on phase-locking value and coherence. Tests on both public data sets indicate that the suggested model is highly accurate, with 94 &#x0025; accuracy, which is better than the traditional spectral techniques and performs well in tracking beta and theta variation in frontal and parietal regions. Signal decomposition/graph-based learning can be an effective method to understand the reader in neural dynamics during meditation.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>EEG</kwd>
+<kwd>Mindfulness</kwd>
+<kwd>Ensemble Empirical Mode Decomposition</kwd>
+<kwd>Graph Neural Network</kwd>
+</kwd-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="2"/>
+<equation-count count="16"/>
+<ref-count count="16"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>EEG is a noninvasive technique of recording brain activity, which is commonly applied to investigate the mechanisms of cognition and emotion. Its nonlinear and non stationary signals however, are hard to analyze by using traditional methods.</p>
+<p>They have conducted a literature review on the EEG signal processing as used in medical and healthcare environments, and have mentioned that EEG can be used to diagnose epilepsy, Alzheimer and stress disorders. The paper focused on the higher level of preprocessing, artifact elimination, feature extraction, and the increased use of machine learning to enhance the diagnostic accuracy <xref ref-type="bibr" rid="ref1">[1]</xref>.</p>
+<p>In place of the mean functions, they suggested a modified EEMD approach to emotion recognition of EEG signals using median functions, to eliminate noise and mode mixing. The method was better at identifying emotions using power spectral features and entropy features, which was demonstrated using the DEAP dataset <xref ref-type="bibr" rid="ref2">[2]</xref>.</p>
+<p>The tutorial introduced EMD as a data-driven and adaptive technique of nonlinear and non-stationary signal analysis. It described the EEMD method of breaking down signals into IMFs to extract local frequency variations and tendencies and pointed out its usefulness in biomedical signal processing and time frequency analysis <xref ref-type="bibr" rid="ref3">[3]</xref>.</p>
+<p>They suggested CD-eMD, an EMD-based causal decomposition technique of real-time EEG emotions. The adaptive nonlinear model demonstrated that positive emotions are correlated with the enhancement of alpha-band activity, whereas negative emotions are connoted with the enhancement of betaband activity, enhancing interpretability and effectiveness of emotion recognition <xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>They suggested GERECG model to identify emotion based on wearable ECG data combining graph neural networks with convolutional and LSTM model to extract temporal-spatial data. The method was better than conventional approaches and proved the usefulness of graph-based learning in wearable low-resource real-time situations <xref ref-type="bibr" rid="ref5">[5]</xref>.</p>
+<p>They used machine learning and network analysis to analyse functional connectivity by studying peaceful brain states with EEG and fMRI. Due to the extent of connectivity in the DMN and between the prefrontal and anterior cingulate areas, the calm states were associated with the increased connectivity, which underlines the importance of neural synchronization as the foundation of emotional well-being and mindfulness treatments <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+<p>They studied the meditative conditions basing on Horizontal Visibility Graphs (HVGs) on EEG signal, which convert time series into complex networks. The graph measure based on HVG showed better performance in separating meditative and non-meditative states compared to traditional spectral and entropy measures, which is proven to be a strong and realtime analysis structure of EEG <xref ref-type="bibr" rid="ref7">[7]</xref>.</p>
+<p>In the paper, <xref ref-type="sec" rid="sec2">section II</xref> presents literature survey, methodology is explained in <xref ref-type="sec" rid="sec3">section III</xref>. Results are discussed in <xref ref-type="sec" rid="sec4">section IV</xref> and the conclusion is presented in the <xref ref-type="sec" rid="sec5">section V</xref>.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Survey</title>
+<p>EEG-based studies have received great interest in the recent years due to the capacity of non invasively recording neural activity associated with mental and emotional conditions. Many studies have suggested new methods of processing, classifying, and interpreting EEG signals so as to allow its use in detecting stress, monitoring relaxation, and recognizing a cognitive state.</p>
+<p>Developed an EEG-based emotion recognition system that employed machine learning in virtual reality environments. Classification of EEG features from theta, alpha, beta, and gamma bands with Gradient Boosted Decision Trees showed a strong alignment between EEG data and self-reported emotions <xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+<p>Presented a wearable sensor stress detection framework that combines EEG with physiologic signal like heart rate variability electro dermal activity. The study demonstrates how EEG completes the bio signal monitoring for accurate, multi modal assessment of stress <xref ref-type="bibr" rid="ref9">[9]</xref>.</p>
+<p>The EEMD-Wavelet Thresholding method for denoising a non-stationary signal. It decomposes EEG into IMFs and thereby allows wavelet filtering of the signal to reduce noise and mode mixing, hence improving feature extraction accuracy <xref ref-type="bibr" rid="ref10">[10]</xref>.</p>
+<p>The recent development related to GNNs for EEG signal processing, and emphasized that such neural networks are able to model complex brain connectivity using graph structures. This paper proposed a standard pipeline including EEG preprocessing, graph construction, and feature learning using variants of GNNs like GCNs and GATs. The proposed approach captures the spatial-temporal relations among EEG electrodes, turning it highly effective for emotion detection, neurological disorder diagnosis, and attention-based analysis <xref ref-type="bibr" rid="ref11">[11]</xref>.</p>
+<p>An EEG-based detection framework for relaxation using the Multivariate Empirical Mode Decomposition with Dynamic Phase-Synchronized Hilbert-Huang Transform (MEMD-DPSHHT) in 2025. The EEG signals were thus decomposed into IMFs so as to represent time-frequency energies. The approach thus analyzed phase coherence and relaxation indices across channels, effectively capturing dynamic EEG patterns associated with relaxation and stress reduction <xref ref-type="bibr" rid="ref12">[12]</xref>.</p>
+<p>A stress detection system based on EEG signals. They utilized EEMD methods combined with Support Vector Machine and Twin-SVM classifiers. The EEG signals were divided and decomposed into a set of IMFs that were used as input features in this study. The model performed best using the Twin-SVM model, with an accuracy of 93.75 &#x0025;. They concluded that EEMD-enhanced features improve the reliability of the stress classification in real-time EEG applications <xref ref-type="bibr" rid="ref13">[13]</xref>.</p>
+<p>Functionality Connections and power spectral density during meditation. EEG signal were recorded for participants before and after practicing Kapalbhati Pranayama and Mindful Breathing. The preprocessing of signals included Butterworth band-pass filtering. Further, the signals were decomposed into Theta, Alpha, and Beta bands, with corresponding frequency bands of <inline-formula><tex-math notation="LaTeX">$4-8 ~\text{Hz}, 8-12 ~\text{Hz}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$12-30 ~\text{Hz}$</tex-math></inline-formula>, respectively. PSD, estimated using Fourier Transform and Welch&#x0027;s method, indicated enhanced Alpha and Theta power related to relaxation, while it reflected decreased Beta activity, which accounted for reduced cognitive load. Functional connectivity, as measured through the use of Weighted Phase Lag Index, showed an increase in synchronize different region of the brain during meditation, thus confirming its neuro physiological basis for the state of relaxation and focused attention <xref ref-type="bibr" rid="ref14">[14]</xref>.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> illustrated the workflow of the suggested EEGbased mindfulness detection model, including the real-time EEG data collection and EEMD-based preprocessing and the GNN-based mindfulness and non-mindfulness state classification. The following sections discuss the steps one after another.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Eeg data analysis workflow</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4">
+<label>1)</label>
+<title>Initiating Eeg Analysis</title>
+<p>EEG signals are collected to determine whether an individual is genuinely mindful or distracted. The objective is to analyze brainwave data to identify patterns associated with focus, meditation, stress, or distraction.</p>
+<p>2) Data Source</p>
+<p>The publicly available EEG data that was used in the current study consists of 62 healthy data recorded during BCI training session when using 62-channel EEG, whereas the public data consists of EEG data recorded under controlled experimental conditions Dataset Name <xref ref-type="bibr" rid="ref15">[15]</xref>.</p>
+<p>3) Preprocessing</p>
+<p>EEG data are often contaminated with background noises like eye blinks, muscle movements, and cardiac signals. The process of bandpass filtering, Independent Component Analysis ICA, and artifact rejection algorithms is employed to remove the noise and keep pure neural data.</p>
+<p>4) 4) EEMD -Time-Frequency Decomposition</p>
+<p>The EEG signal undergoes Ensemble Empirical Mode Decomposition (EEMD) after preprocessing it into Intrinsic Mode Functions (IMFs). These IMFs are useful in capturing the nonlinearity and non stationarity nature of EEG data and can be used to isolate important frequency bands which include alpha, theta, beta and gamma.the non-linear and non-stationary characteristics eeg data and assistance in separating major frequency bands such as alpha, theta,beta and gamma.</p>
+<p>5) Feature Extraction -Entropy Features</p>
+<p>Out of the obtained IMFs, Permutation Entropy, Wavelet Entropy, Spectral Entropy, band power, and instantaneous frequency are obtained. These measures represent the complexity and dynamic variability of brain activity as they are effective unique signatures of various mental states.</p>
+<p>6) Modeling with Graph Neural Networks (GNN)</p>
+<p>The EEG electrode is modeled as a node and the edges are defined through connectivity metrics,. coherence or correlation of nodes. The resulting connectivity graphs of the brain are then fed into a Graph Neural Network (GNN) which is trained to learn the spatial and temporal relationships that are highly important in differentiating states of mindfulness and cognitive load.</p>
+<p>7) Classification - Mindfulness and Non-Mindfulness Detection</p>
+<p>The features extracted are then used to categorize EEG samples into two groups, namely, Mindfulness (relaxed, meditative and focused) and Non-Mindfulness (stressed or distracted). The mentioned classification enables realtime observation of mental states and may be used efficiently in cognitive assessment and neuro feedback systems.</p>
+<p>8) Output - State Reporting</p>
+<p>According to the results of the classification, the system identifies the mental state of the user as mindful (focused and calm) and non-mindful (distracted or fatigued). This can be used to give customized feedback or assist mindfulness change programs.</p>
+<p>9) Complete Analysis</p>
+<p>All results are recorded in the system, which visualizes changing EEG patterns with time, and allows continuous monitoring. The analysis process can be restarted dynamically to the workflow to allow continuation of the analysis and to supply adaptive neuro feedback to the user on the basis of real-time brain activity.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Eeg Signal Analysis</title>
+<list list-type="ordered">
+<list-item><label></label><p>Graph Neural Network (GNN):- A GNN is a deep learning model designed to be applied directly on graph-structured data. It learns the representations of nodes by aggregating information from a node&#x0027;s neighbors, hence capturing both local structure and feature dependencies effectively. Mathematically, the standard GNN layer is often implemented as a GCN and is represented as.</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+H^{(l+1)}=\sigma \tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l)} W^{(l)}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>where:-
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+A^{\sim}=A+I_{N}, \text { adjacency matrix with self-loops; } \\
+\tilde{D_{i i}}=\sum_{j} \tilde{A_{\text{ij}}}, \text { degree matrix corresponding to } A^{\sim}; \\
+H^{(l)}, \text { node feature matrix at layer } l; \\
+W^{(l)}, \text { learnable weight matrix for layer } l; \\
+\sigma(\cdot), \text { nonlinear activation function (e.g., ReLU). }
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<list list-type="ordered">
+<p> \setcounter{enumi}{1}<list-item><label></label><p>Ensemble Empirical Mode Decomposition:- The ensemble empirical mode decomposition enhances the traditional EMD by adding white noise to the signals and averaging multiple decompositions. This approach of noise-assisted elimination of mode mixing produces more stable Intrinsic Mode Functions and is highly effective for analyzing nonlinear and non-stationary signals such as EEG data <xref ref-type="bibr" rid="ref16">[16]</xref>.</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+x(t)=\sum_{k=1}^{K} c_{k}(t)+r_{K}(t) \\
+x_{i}(t)=x(t)+\epsilon_{i}(t)
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>where <inline-formula><tex-math notation="LaTeX">$\epsilon_{i}(t)$</tex-math></inline-formula> is the added white noise.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+x_{i}(t)=\sum_{k=1}^{K} c_{i k}(t)+r_{i K}(t)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The final IMF is the ensemble mean:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+c_{k}(t)=\frac{1}{N} \sum_{i=1}^{N} c_{i k}(t)
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+where:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+N=\text { number of ensemble trials, } \\
+c_{k}(t)=k^{\text {th }} \text { Intrinsic Mode Function (IMF), } \\
+r_{K}(t)=\text { final residue. }
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<list list-type="ordered">
+<p> \setcounter{enumi}{2}<list-item><label></label><p>Entropy-Based Features: Entropy is a measure of the complexity and irregularity of the EEG signals as a measure of neural adaptability and information processing efficiency. Well-known ones are Permutation Entropy, Spectral Entropy, and Wavelet Entropy, which assess the unpredictability of the signal, the frequency distribution and the energy dispersion, respectively. Higher entropy indicates better cognitive flexibility and awareness in mindfulness analysis and lower entropy is indicative of stress, distracting or less attentional stability. The entropy characteristics offer a strong foundation on which one can tell the difference between mindful and non-mindful brain states.</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+S E=-\sum_{i=1}^{N} P_{i} \ln P_{i}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>where:-
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+P_{i}=\frac{S\left(f_{i}\right)}{\sum_{j=1}^{N} S\left(f_{j}\right)} \\
+S\left(f_{i}\right)=\text { power spectral density at frequency } f_{i} \\
+N=\text { number of frequency bins. }
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+W E=-\sum_{j=1}^{J} p_{j} \ln p_{j}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+where:-
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+p_{j}=\frac{E_{j}}{\sum_{k=1}^{J} E_{k}}, \\
+E_{j}=\text { energy of wavelet coefficients at level } j, \\
+J=\text { total number of decomposition levels. }
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+P E(m, \tau)=-\sum_{i=1}^{m!} p\left(\pi_{i}\right) \ln p\left(\pi_{i}\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Where:-
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{gathered}
+m=\text { embedding dimension, } \\
+\tau=\text { time delay, } \\
+p\left(\pi_{i}\right)=\text { probability of each ordinal pattern } \pi_{i}
+\end{gathered}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<list list-type="ordered">
+<p> \setcounter{enumi}{3}<list-item><label></label><p>EEG Spectral Power of IMFs: After EEMD has been applied, spectral power of each Intrinsic Mode Function (IMF) is a reflection of the distribution of neural energy in different frequency bands. Normally, theta power is elevated on occasions of relaxation and concentrated attention whereas, the beta power is elevated when one is alert and stressed. The comparison of the spectral power in mindfulness and nonmindfulness conditions indicates that particular brain rhythms are predominant, with mindfulness being the state of the balanced and coherent neural activities in the theta and beta frequencies. The spectral power of the <inline-formula><tex-math notation="LaTeX">$k^{\text {th }}$</tex-math></inline-formula> IMF is given as:</p></list-item>
+</list></p>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+P_{k}=\int_{f_{1}}^{f_{2}}\left|C_{k}(f)\right|^{2} d f
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<p>or in discrete form:
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+P_{k}=\sum_{i=1}^{N}\left|C_{k}\left(f_{i}\right)\right|^{2}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+where
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+C_{k}(f)=\text { Fourier transform of IMF } c_{k}(t),
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; P_{k}=\text { total power of the } k^{\text {th }} \text { IMF, and } \\
+&amp; f_{1}, f_{2}=\text { frequency range of interest. }
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>IV.</label>
+<title>Results and Discussions</title>
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Mindfulness eeg signal</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-2-source.tif"/>
+</fig>
+<p>IMFs applied to theta and beta bands were picked on the basis of their frequency behavior in the EEMD decomposition. The faster oscillations of higher-order IMFs (IMF1-IMF2) were indicative of the beta activity, whereas slower, regular oscillations of mid-order IMFs (IMF3-IMF4) were indicative of theta activity, but were stronger in non-mindfulness state. The IMFs of lower order and the residual removed slow trends and were abandoned and an adaptive, data-driven representation of EEG frequency bands was achieved without specified filters. <xref ref-type="fig" rid="fig2">Figure 2</xref> shows the EEG signal during the mindfulness state. The signal appears smooth and stable, with well-defined rhythmic oscillations across multiple frequency bands. In the EEMD theta and is captured by higher IMFs (IMF11 IMF3). beta band activity-associated with calm attention and focused awareness-and IMFs (IMF4 IMF6) are associated with slower theta and beta rhythms. The residual component shows minimal drift, reflect neural stability and sustained mental calmness.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Non-mindfulness eeg signal</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-3-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig3">Figure 3</xref> shows the EEG signal in non mindfulness. (distracted)conditions. The signal has incoherent amplitude varying and noisyness. Such instability reflects loss of attention and growth of mental pressure. EEMD decomposition of such signals has poorly separated IMFs that have overlapping frequency content, which is an indicator of neural disorganization and poor cognitive control.</p>
+<p><xref ref-type="fig" rid="fig4">Figure 4</xref> represents mindfulness measures based on entropy EEG. Spectral Entropy (SE) is decreasing gradually 5 - to 1, demonstrating orderly neural activities. Permutation Entropy
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Entropy features of mindfulness state</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-4-source.tif"/>
+</fig></p>
+<p>(PE) is still low (<inline-formula><tex-math notation="LaTeX">$2.2 \rightarrow 1.0$</tex-math></inline-formula>) indicating stable neural. transitions. Wavelet Entropy (WE) is intermediate (<inline-formula><tex-math notation="LaTeX">$5 \rightarrow 3.4$</tex-math></inline-formula>), which means dispersed and consistent energy. Together, these findings show a composed and in sync state of mind with weak emphasis on chance and high concentration.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Entropy features of non-mindfulness state</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-5-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig5">Figure 5</xref> demonstrates the entropy values of nonmindfulness. EEG. In this case, there are larger Spectral Entropy values (SE).Unstructured spectral organization is (6.5-1.5) = -.55.Permission Entropy (PE) is extremely wavy stable temporal patterns. Wavelet Entropy (WE) is greater than <inline-formula><tex-math notation="LaTeX">$6, \text{im}$</tex-math></inline-formula> - plicating intermittent and sporadic energy distribution. These characteristics are associated with distraction of thought and diminished attentional control.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Comparison between mindfulness and non-mindfulness states</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-6-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig6">Figure 6</xref> provides a comparative visualization between mindfulness and non-mindfulness EEG features. Mindfulness exhibits higher spectral power (<inline-formula><tex-math notation="LaTeX">$0.9-1.1$</tex-math></inline-formula>) and lower entropy, indicating enhanced neural synchronization and focused attention. Non-mindfulness, by contrast, shows lower spectral power (<inline-formula><tex-math notation="LaTeX">$0.1-0.8$</tex-math></inline-formula>) and higher entropy, pointing to uncoordinated brain activity and mental distraction. These distinctions confirm that entropy and spectral power serve as reliable biomarkers for differentiating cognitive states.
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>Roc curve comparison between gnn models</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-fig-7-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig7">Figure 7</xref> is a comparison between the Receiver operating characteristic. ROC curves of two Graph Neural Network (GNN)models performed EEG-based training of mindfulness classification. On the basis of Intrinsic Mode Function(IMF) features, Model A obtained a sensitivity of 93.62 &#x0025; and an AUC of 0.935 &#x0025;,performing well in classification. Model B, that is based on spectral domain characteristics, attain a specificity of 90.57 &#x0025; and an AUC of 0.900. Both models out perform the random baseline, assuring the efficiency of the extracted features. On the whole, the GNN featuring IMF- based features offers greater strength and precision of real time mindfulness detection. The MATLAB randomized data division strategy was used to split the dataset into training 70 &#x0025;, validation 15 &#x0025; and testing 15 &#x0025;, each being statistically independent and the performance of the model in terms of generalization was not biased The present research made it possible to analyze EEG signals in detail by spectral power and a variety of entropy measures Spectral. The After entropy, Permutation Entropy and Wavelet Entropy. EEMD decomposition. Mindfulness EEG curves had steady IMFs, reduced entropy, and increased spectral power, intimating coherent brain activity and attentional thinking. EEG nonmindfulness signals were irregular in nature distraction and cognitive fatigue. Total mindfulness EEG was shown to have increased energy, smaller entropy and smoother signal transitions- indicating a calm and concentrated state. The combination of EEMD and entropy- based analysis effectively distinguished mindfulness from non- mindfulness states, and the GNN classifier validated this distinction with strong ROC performance.</p>
+<p><xref ref-type="table" rid="table1">Table I</xref> show that Entropy analysis of EEG data clearly shows a decline in signal complexity across epochs. Permutation Entropy declines from 2.2531 to 1.0436, showing that the temporal irregularity decreases and the state is
+<table-wrap id="table1">
+<label>Table I</label>
+<caption><title>Entropy measures across epochs for eeg sample data</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Epoch / Statistic</th>
+<th>Permutation Entropy</th>
+<th>Spectral Entropy</th>
+<th>Wavelet Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2.2531</td>
+<td>5.0014</td>
+<td>5.0036</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1.6838</td>
+<td>4.2523</td>
+<td>4.6034</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1.2892</td>
+<td>2.8138</td>
+<td>4.4862</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1.1032</td>
+<td>1.7192</td>
+<td>3.2871</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1.0436</td>
+<td>1.1774</td>
+<td>3.4660</td>
+</tr>
+<tr>
+<td>Mean</td>
+<td>1.4746</td>
+<td>2.9928</td>
+<td>4.1693</td>
+</tr>
+<tr>
+<td>Standard Deviation</td>
+<td>0.5020</td>
+<td>1.6256</td>
+<td>0.7513</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>turned from an active state to a more synchronized state. Spectral Entropy drops from 5.0014 to 1.1774, indicating that EEG power becomes concentrated in fewer frequency bands while neural synchronization increases. Wavelet Entropy decreases from 5.0036 to 3.4660, reflecting a reduced degree of disorder across time-frequency scales while keeping the average relatively higher complexity, 4.1693. according to the brain activity stabilizes progressively, likely due to relaxation, adaptation, or reduced cognitive engagement over time.
+<table-wrap id="table2">
+<label>Table II</label>
+<caption><title>Comparision of reported work</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455878-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>Paper Title</th>
+<th>Authors / Year</th>
+<th>Dataset</th>
+<th>Method / Key Approach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. EEG-Based Stress Detection: EEMDEnhanced Features with SVM and TwinSVM Models</td>
+<td>Anusha Kudachi &#x0026; D. Torse (2025)</td>
+<td>EEG (EDF format), 10-sec chunks</td>
+<td>EEMD for IMF extraction; SVM and Twin-SVM classifiers applied. TwinSVM achieved 93.75&#x0025; accuracy.</td>
+</tr>
+<tr>
+<td>2. Ensemble Empirical Mode Decomposition: A Noise-Assisted Data Analysis Method</td>
+<td>Z. Wu &#x0026; N.E. Huang (2005)</td>
+<td>Theoretical (no dataset)</td>
+<td>Introduced EEMD - adds white noise and averages multiple EMD runs to reduce mode mixing in non-linear signals.</td>
+</tr>
+<tr>
+<td>3. Functional Connectivity and Power Spectral Density Analysis of EEG Signals in Meditation</td>
+<td>S. Attri &#x0026; R. Khanai (2025)</td>
+<td>EEG before/after meditation</td>
+<td>Used Functional Connectivity (wPLI) and Power Spectral Density (PSD) to analyze Alpha, Theta, and Beta band changes during meditation.</td>
+</tr>
+<tr>
+<td>4. EEG Spectral Analysis of Mindfulness Based on EEMD and GNNs</td>
+<td>This work</td>
+<td>Public + internal EEG datasets</td>
+<td>EEMD for IMF-based feature extraction; Graph Neural Networks (GNN) for mindfulness detection. Achieved 94&#x0025; accuracy.</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="table" rid="table2">Table 2</xref> indicates a comparison of studies involving EEMD and SVM, PSD, and GNN, feature extraction and classification accuracy</p>
+</sec>
+<sec id="sec6">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This work proposes a hybrid framework combining EEMD with GNN in order to classify mindful versus non-mindful brain states using EEG signals. The EEMD-GNN model proposed here, by identifying frequency-specific patterns and especially capturing spatial-temporal connectivity in the beta and theta bands across the frontal and parietal regions, achieved a 94 &#x0025; classification accuracy. According to the entropy analysis, there was a clear decrease in the complexity of the EEG signal across the epochs: Permutation Entropy decreased from 2.2531 to 1.0436, Spectral Entropy from 5.0014 to 1.1774, and Wavelet Entropy from 5.0036 to 3.4660, reflecting enhanced synchronization and stability in a state of mindfulness. In summary, this hybrid EEMD-GNN model offers a powerful and interpretable tool for mapping neural markers of mindfulness and advancing EEG-based mental state classification and neurofeedback systems. EEG segment processing in real time deployment: 5100 ms based on length, preprocessing, features, and classifier; measured in MATLAB tic/toc: loading 16015 ms, preprocessing 4.45 ms, EMD 13.15 ms, feature extraction 201.81 ms; most of these steps are real-time.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Nisreen</given-names> <surname>Said</surname></string-name></person-group> Amer and Samir Brahim Belhaouari. Eeg signal processing for medical diagnosis, healthcare, and monitoring: A comprehensive review. IEEE Access, <volume>11</volume>:<fpage>143116</fpage>&#x2013;<lpage>143142</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Priyadarsini</given-names> <surname>Samal</surname></string-name></person-group> and Mohammad Farukh Hashmi. Ensemble median empirical mode decomposition for emotion recognition using eeg signal. IEEE Sensors Letters, <volume>7</volume>(<issue>5</issue>):<fpage>1</fpage>&#x2013;<lpage>4</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Cole</given-names> <surname>Van Jaarsveldt</surname></string-name></person-group>, Gareth W Peters, Matthew Ames, and Mike Chantler. Tutorial on empirical mode decomposition: Basis decomposition and frequency adaptive graduation in non-stationary time series. IEEE Access, <volume>11</volume>:<fpage>94442</fpage>&#x2013;<lpage>94478</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Weifeng</given-names> <surname>Li</surname></string-name>, <string-name><given-names>Wenbin</given-names> <surname>Shi</surname></string-name>, and <string-name><given-names>Chien-Hung</given-names> <surname>Yeh</surname></string-name></person-group>. Adaptive nonlinear causal quantification for real-time emotion analysis using emd-based causal decomposition. In <conf-date>2024</conf-date> IEEE International Conference on Signal, Information and Data Processing (ICSIDP), pages <fpage>1</fpage>&#x2013;<lpage>6</lpage>. IEEE, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Jian</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>Yuzhu</given-names> <surname>Hu</surname></string-name>, <string-name><given-names>Lalit</given-names> <surname>Garg</surname></string-name></person-group>, Thippa Reddy Gadekallu, Gautam Srivastava, and Wei Wang. Graph enhanced low-resource ecg representation learning for emotion recognition based on wearable internet of things. <source specific-use="IEEE">IEEE Internet of Things Journal</source>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Wai</given-names> <surname>Yie Leong</surname></string-name></person-group>, Wai San Leong, and Yuan Zhi Leong. Investigating the peacefulness of brain connectivity. In <conf-date>2024</conf-date> 22nd International Conference on ICT and Knowledge Engineering (ICT&#x0026;KE), pages <fpage>1</fpage>&#x2013;<lpage>6</lpage>. IEEE, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"> Tamas Madl. Network analysis of meditative states in highly skilled meditators using eeg and horizontal visibility graphs. In <conf-date>2024</conf-date> 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pages <fpage>1</fpage>&#x2013;<lpage>3</lpage>. IEEE, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Ivonne</given-names> <surname>Angelica</surname></string-name> <string-name><given-names>Castiblanco</given-names> <surname>Jimenez</surname></string-name></person-group>, Elena Carlotta Olivetti, Enrico Vezzetti, Sandro Moos, Alessia Celeghin, and Federica Marcolin. Effective affective eeg-based indicators in emotion-evoking vr environments: An evidence from machine learning. Neural Computing and Applications, <volume>36</volume>(<issue>35</issue>):<fpage>22245</fpage>&#x2013;<lpage>22263</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Georgios</given-names> <surname>Taskasaplidis</surname></string-name>, <string-name><surname>Dimitris</surname> <given-names>A</given-names></string-name> Fotiadis, and <string-name><surname>Panagiotis</surname> <given-names>D</given-names></string-name></person-group> Bamidis. Review of stress detection methods using wearable sensors. IEEe Access, <volume>12</volume>:<fpage>38219</fpage>&#x2013;<lpage>38246</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Yanhui</given-names> <surname>Shi</surname></string-name>, <string-name><given-names>Yang</given-names> <surname>Yang</surname></string-name>, <string-name><given-names>Yanjun</given-names> <surname>Ruan</surname></string-name>, <string-name><given-names>Tao</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>Mingliang</given-names> <surname>Lin</surname></string-name>, and <string-name><given-names>Zhao</given-names> <surname>Luo</surname></string-name></person-group>. The denoising method of oltc vibration signals based on ensemble empirical mode decomposition and wavelet thresholding. In <conf-date>2024</conf-date> IEEE 2nd International Conference on Power Science and Technology (ICPST), pages <fpage>660</fpage>&#x2013;<lpage>664</lpage>. IEEE, <conf-date>2024</conf-date>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>SM</given-names> <surname>Atoar Rahman</surname></string-name></person-group>, Md Ibrahim Khalil, Hui Zhou, Yu Guo, Ziyun Ding, Xin Gao, and Dingguo Zhang. Advancement in graph neural networks for eeg signal analysis and application: A review. IEEE Access, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Bunyarat</given-names> <surname>Umsura</surname></string-name>, <string-name><given-names>Wanus</given-names> <surname>Srimaharaj</surname></string-name>, <string-name><given-names>Phakkharawat</given-names> <surname>Sittiprapaporn</surname></string-name>, <string-name><given-names>Nina</given-names> <surname>Bencheva</surname></string-name>, <string-name><given-names>Roungsan</given-names> <surname>Chaisricharoen</surname></string-name>, and <string-name><given-names>Ratchuporn</given-names> <surname>Suksathan</surname></string-name></person-group>. Eeg-based detection of induced relaxation. IEEE Access, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Anusha</given-names> <surname>Kudachi</surname></string-name></person-group> and Dattaprasad A Torse. Eeg-based stress detection: Eemd-enhanced features with svm and twin-svm models. In <conf-date>2025</conf-date> IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI), volume <volume>3</volume>, pages <fpage>1</fpage>&#x2013;<lpage>6</lpage>. IEEE, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Sahil</given-names> <surname>Attri</surname></string-name> and <string-name><given-names>Rajashri</given-names> <surname>Khanai</surname></string-name></person-group>. Functional connectivity and power spectral density analysis of eeg signals in meditation. In <conf-date>2025</conf-date> 10th International Conference on Signal Processing and Communication (ICSC), pages <fpage>671</fpage>&#x2013;<lpage>679</lpage>. IEEE, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>James</surname> <given-names>R</given-names></string-name> Stieger, <string-name><surname>Stephen</surname> <given-names>Engel</given-names></string-name>, <string-name><surname>Haiteng</surname> <given-names>Jiang</given-names></string-name>, <string-name><surname>Christopher</surname> <given-names>C</given-names></string-name></person-group> Cline, Mary Jo Kreitzer, and Bin He. Mindfulness improves brain-computer interface performance by increasing control over neural activity in the alpha band. Cerebral Cortex, <volume>31</volume>(<issue>1</issue>):<fpage>426</fpage>&#x2013;<lpage>438</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Zhaohua</given-names> <surname>Wu</surname></string-name></person-group> and Norden E Huang. Ensemble empirical mode decomposition: a noise-assisted data analysis method. Advances in adaptive data analysis, <volume>1</volume>(<issue>01</issue>):<fpage>1</fpage>&#x2013;<lpage>41</lpage>, <year>2009</year>.</mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

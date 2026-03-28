@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455828</article-id>
+<xplore-article-id>11455828</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Quantum-Inspired Intrusion Detection System Using Dual Metaheuristic Optimization and Deep Neural Analysis</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Dinsha \(\mathrm{P}</given-names> <surname>\mathrm{K}^{1}\)</surname></string-name>
+<string-name specific-use="index"><given-names>Dinsha \(\mathrm{P}</given-names> <surname>\mathrm{K}^{1}\)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Dr. Santhosh</given-names> <surname>\(\mathrm{R}^{2}\)</surname></string-name>
+<string-name specific-use="index"><given-names>Dr. Santhosh</given-names> <surname>\(\mathrm{R}^{2}\)</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><institution content-type="department">Research Scholar \\ Department of Computer Science and Engineering \\ Karpagam Academy of Higher Education \\ Coimbatore 641021 - Tamil Nadu line \\ <email>dinshapk5@gmail.com</email></institution></aff>
+<aff id="aff2"><institution content-type="department">Professor \\ Department of Computer Science and Engineering \\ Karpagam Academy of Higher Education \\ Coimbatore 641021- Tamil Nadu \\ <email>santhoshrd@gmail.com</email></institution></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455828_ft.xml</self-uri>
+<self-uri content-type="print">225.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The high rate of cyber threat development poses serious threats to the traditional Intrusion Detection System (IDS) that in most cases fail to detect effectively and falsely alarms when handling high volumes of high dimensional network traffic. In order to overcome these weaknesses, this study suggests a Quantum-inspired Hybrid IDS and it combines dual metaheuristic optimization and quantum-classical Deep Learning (DL) models. The framework initially preprocesses the raw network traffic data and then, the proposed Self-Adaptive Grasshopper-Whale Optimization Algorithm (SAGWOA) is employed to select features efficiently, i.e., to reduce the number of data dimensions and maintain important data. To enhance the nonlinear learning ability, Variational Quantum Classifier (VQC) is utilized which exploits quantum superposition and entanglement concepts. Besides, the proposed Quantum aided Deep Convolutional Support Vector Machine (QDC-SVM) is used for learning spatial and hierarchical patterns and performing quantum-enhanced classification. Here, the Convolutional Neural Networks (CNN) is used to enable the deep feature learning and Quantum Support Vector Machine (QSVM) is employed to increase the margin separation between normal and attack traffic. Experimental analysis on benchmark datasets, such as NSL-KDD and CICIDS2017 shows the proposed hybrid IDS performs superior, in terms of detection accuracy (98.64 and 98.66&#x0025; respectively) and lower false alarm rates <inline-formula><tex-math notation="LaTeX">$(0.049 \%$</tex-math></inline-formula> and 0.016 &#x0025; respectively), in comparison with traditional solutions.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Quantum Computing</kwd>
+<kwd>Intrusion Detection System</kwd>
+<kwd>Grasshopper Optimization Algorithm</kwd>
+<kwd>Whale Optimization Algorithm</kwd>
+<kwd>Variational Quantum Classifier</kwd>
+<kwd>Quantum Support Vector Machine</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="2"/>
+<equation-count count="24"/>
+<ref-count count="20"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The interconnected systems and cloud-based services have grown exponentially, and as a result, the modern network environment has become extremely susceptible to advanced cyberattacks <xref ref-type="bibr" rid="ref1">[1]</xref>. The conventional IDS is based on signaturebased techniques or shallow Machine Learning (ML) models is usually not able to accommodate changing attack patterns and high-dimensionality of network traffic due to large-scale networks <xref ref-type="bibr" rid="ref2">[2]</xref>. This weakness leads to low accuracy of detection, high rates of false alarms and lack of generalization to novel threats, and it is vital to note that more intelligent and adaptive IDS frameworks should be adopted. Latest developments in the field of Artificial Intelligence (AI) and optimization methods have brought about the new promising tools in intrusion detection in the form of metaheuristic algorithms and DL models <xref ref-type="bibr" rid="ref3">[3]</xref>. Generally, metaheuristic optimization algorithms are used to perform feature selection, which involves reducing dimensionality without losing important data <xref ref-type="bibr" rid="ref4">[4]</xref>. Nevertheless, single-strategy methods cause the premature convergence or suboptimal features sets. Global exploration and local exploitation which are hybrid metaheuristic strategies used to better optimize features of complex cybersecurity datasets <xref ref-type="bibr" rid="ref5">[5]</xref>. Simultaneously, Quantum-inspired ML (QML) models have a better learning efficiency and improved decision boundaries. By combining these models with DL models, it is possible to have a hybrid quantum-classical model that identify sophisticated attacks <xref ref-type="bibr" rid="ref6">[6]</xref>. Thus, this study proposed a QDC-SVM which integrates dual metaheuristic optimization SAGWOA and quantumclassical DL in order to obtain high detection rates, low false alarms, and enhanced flexibility. The effectiveness of the proposed approach is proven by experimental validation on benchmark datasets, such as NSL-KDD and CICIDS2017. The main contributions are given below;
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>QDC-SVM is proposed, which is based on dual metaheuristic optimization coupled with quantumclassical DL to enhance cyberattack identification.</p></list-item>
+<list-item><label>&#x2022;</label><p>SAGWOA, a feature selection algorithm based on Grasshopper Optimization Algorithm (GOA) and Whale Optimization Algorithm (WOA) is efficient in terms of dimensionality reduction of the data and also in terms of identifying the most significant features.</p></list-item>
+<list-item><label>&#x2022;</label><p>The framework takes advantage of quantum-inspired nonlinear learning and deep feature learning which is tested on both NSL-KDD and CICIDS2017 datasets with a superior detection rate and a reduced false alarm rate compared to the current methods.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Literature Review</title>
+<p>In 2025, Vinotha &#x0026; Eswaran <xref ref-type="bibr" rid="ref7">[7]</xref> investigated effectiveness and accuracy of hyperparameter optimization using quantum search-enhanced bat algorithm (QS-BAT). This model combined adaptive swarm intelligence with quantum-inspired search dynamics. The WSN-DS dataset was used to optimize and assess DL architectures under various attack scenarios and the suggested model achieved 95 &#x0025; accuracy and 95 &#x0025; F1score. In 2025, Mohamed <xref ref-type="bibr" rid="ref8">[8]</xref> introduced the transformational role of AI and ML in current cybersecurity, where it effectively detects and mitigates advanced cyber threats. It was a thorough study of AI-based intrusion detection, malware detection, adversarial protection, federated learning, and new technologies like quantum computing and IoT security. In 2025, Turaka and Panigrahy <xref ref-type="bibr" rid="ref9">[9]</xref> explored a hybrid intelligent model that integrated DL, chaos theory, and quantum computing. These modules all used a graph-based classifier that has been improved with quantum attention methods. Compared to the top-performing models, this architecture achieved 4 &#x0025; better classification accuracy. In 2025, Hassan et al. <xref ref-type="bibr" rid="ref10">[10]</xref> addressed the concept of intrusion detection in vehicle networks, which was concerned with the security concerns posed by IoT-based autonomous transportation systems. They suggested a hybrid strategy of using correlation-based feature selection and PCA to reduce the size and use dense neural network classification. In 2025, Turaka and Panigrahy <xref ref-type="bibr" rid="ref11">[11]</xref> incorporated chaotic maps, Chaotic Adaptive Particle Swarm Optimization (CAPSO) for preventing premature convergence in IDS. Compared to normal PSO, it achieved 40 &#x0025; feature reduction, and 98 &#x0025; accuracy. Besides, quantum aided Genetic Algorithm (GA) achieved 50&#x0025; feature reduction, 2&#x0025; higher accuracy.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>Problem Statement</title>
+<p>In spite of serious development of AI-, ML-, and quantumbased security systems, there are still several important issues to consider in the real-world context of intrusion detection and analysis of network traffic. Current QML methods are not thoroughly tested on large-scale, real-world settings and are usually limited in terms of interpretability and sensitivity to architectural and noise related conditions. Though powerful, AI-based cybersecurity systems are susceptible to adversarial attacks, have problems with scalability, and decentralized systems have privacy concerns. Moreover, the latest intrusion detection frameworks in vehicular and IoT networks cannot balance the accuracy of detection and low computation and model size. Such gaps reveal the necessity of an effective, explainable, and scalable hybrid IDS that integrates effective feature optimization with recent quantum-inspired and deep learning solutions to be used in the real world.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Proposed Methodology</title>
+<p>The proposed quantum-inspired IDS initially processes and normalizes the data on the network and then uses the GOA to select the initial features. They then use a hybrid SAGWOA strategy to trade-off between global exploration and local exploitation and determine the best feature subset. Quantuminspired models, such as VQC and QSVM along with CNN which are used to develop the proposed QDC-SVM to encode and analyze selected features and provide greater performance on IDS. On benchmark datasets, the framework is tested and it is found to have better detection accuracy and lower false alarms. <xref ref-type="fig" rid="fig1">Fig. 1</xref> depicts the overall architecture of proposed model.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Overall architecture of proposed model</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-fig-1-source.tif"/>
+</fig></p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Data Preprocessing and Normalization</title>
+<p>The dataset has missing values and it is addressed by use of Mean Imputation (MI) <xref ref-type="bibr" rid="ref12">[12]</xref> whereby the missing feature value is substituted by the mean of the attribute that is calculated on the available data is given in Eq.~(\ref{eqn1}), where <inline-formula><tex-math notation="LaTeX">$x_{i}$</tex-math></inline-formula> is the missing value, replaced by the mean of the available feature values
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+x_{i}=\frac{\sum_{j=1}^{n} x_{j}}{n}, x_{i} \in \text { missing entries }
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Normalization of data is carried out through Z-score normalization <xref ref-type="bibr" rid="ref13">[13]</xref>, that normalizes each feature by the mean and standard deviation. This is done to make the values of the features be in a common scale that enhances numerical stability and makes the model training efficient is given in Eq.</p>
+<p>(2), where <inline-formula><tex-math notation="LaTeX">$\mu$</tex-math></inline-formula> is the mean and <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula> is the standard deviation of the feature, ensuring all features are on a similar scale for learning.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+x_{i}^{\prime}=\frac{x_{i}-\mu}{\sigma}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Feature Selection Using Proposed Sagwoa</title>
+<p>The GOA <xref ref-type="bibr" rid="ref14">[14]</xref> is based on the swarm behaviour of grasshoppers and it is popular in global optimization problems, such as feature selection in high-dimensional data. The swarm of grasshoppers represents each of the candidate solutions, i.e. a potential subset of features. The position of the <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>-th grasshopper at iteration <inline-formula><tex-math notation="LaTeX">$t, X_{i}(t)$</tex-math></inline-formula>, is updated based on three main components: social interaction, gravitational force, and wind advection is expressed in Eq.~(\ref{eqn3}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+X_{i}(t+1)=S_{i}(t)+G_{i}(t)+A_{i}(t)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The social interaction <inline-formula><tex-math notation="LaTeX">$\left(S_{i}\right)$</tex-math></inline-formula> component is used to model the attraction or repulsion of the grasshopper. It is computed as in Eq.~(\ref{eqn4}), in which, <inline-formula><tex-math notation="LaTeX">$d_{i j}=\left|X_{j}-X_{i}\right|$</tex-math></inline-formula> is the distance between grasshoppers <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$j, \hat{d}_{i j}=\frac{X_{j}-X_{i}}{d_{i j}}$</tex-math></inline-formula> is the unit vector pointing from <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$j, s(d)$</tex-math></inline-formula> is the social force function is expressed in Eq.~(\ref{eqn5}), where, <inline-formula><tex-math notation="LaTeX">$f$</tex-math></inline-formula> controls the intensity of attraction, and <inline-formula><tex-math notation="LaTeX">$l$</tex-math></inline-formula> determines the attractive length scale.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; S_{i}=\sum_{j=1, j \neq i}^{N} s\left(d_{i j}\right) \hat{d}_{i j} \\
+&amp; s(d)=f e^{-d / l}-e^{-d}
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Gravitational force (<inline-formula><tex-math notation="LaTeX">$G_{i}$</tex-math></inline-formula>) is also provided with gravity that pulls downwards towards the centre of the search space is given in Eq.~(\ref{eqn6}), where, <inline-formula><tex-math notation="LaTeX">$g$</tex-math></inline-formula> is the gravitational constant and <inline-formula><tex-math notation="LaTeX">$\hat{e}_{g}$</tex-math></inline-formula> is a unit vector pointing toward the center of gravity.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+G_{i}=g \hat{e}_{g}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Wind advection <inline-formula><tex-math notation="LaTeX">$\left(A_{i}\right)$</tex-math></inline-formula> is estimated as an external bias in a particular direction to diversify the search search is given in Eq.~(\ref{eqn7}), where <inline-formula><tex-math notation="LaTeX">$u$</tex-math></inline-formula> is the wind speed and <inline-formula><tex-math notation="LaTeX">$\hat{e}_{w}$</tex-math></inline-formula> is the wind direction vector
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+A_{i}=u \hat{e}_{w}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The proposed SAGWOA aims at maximizing the classification performance and minimizing the number of features. The fitness function is defined as in Eq.~(\ref{eqn8}), where; <inline-formula><tex-math notation="LaTeX">$\operatorname{Accuracy}\left(X_{i}\right)$</tex-math></inline-formula> is the classification accuracy achieved using the selected features <inline-formula><tex-math notation="LaTeX">$F_{i},\left|F_{i}\right|$</tex-math></inline-formula> is the number of selected features, <inline-formula><tex-math notation="LaTeX">$\left|F_{\text {total }}\right|$</tex-math></inline-formula> is the total number of features, <inline-formula><tex-math notation="LaTeX">$\alpha$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula> are weighting factors controlling the trade-off between accuracy and feature reduction.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Fitness}\left(X_{i}\right)=\alpha \cdot \operatorname{Accuracy}\left(X_{i}\right)-\beta \cdot \frac{\left|F_{i}\right|}{\left|F_{\text {total }}\right|}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>To further encourage sparsity, an additional penalty term included is given in Eq.~(\ref{eqn9}), where, <inline-formula><tex-math notation="LaTeX">$x_{i k} \in\{0,1\}$</tex-math></inline-formula> indicates whether feature <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> is selected in solution <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$\gamma \in<xref ref-type="bibr" rid="ref0"&gt;[0]</xref>, <xref ref-type="bibr" rid="ref1"&gt;[1]</xref>$</tex-math></inline-formula> penalizes larger subsets.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Fitness}\left(X_{i}\right)=\alpha \cdot \operatorname{Accuracy}\left(X_{i}\right)-\beta \cdot \frac{\left|F_{i}\right|}{\left|F_{\text {total }}\right|}-\gamma \cdot
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<inline-formula><tex-math notation="LaTeX">$\sum_{k=1}^{\left|F_{\text {total }}\right|} x_{i k}$</tex-math></inline-formula>
+<p>During iterations, each grasshopper updates its feature subset probabilistically is given in Eq.~(\ref{eqn10}), in which, <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula> is the sigmoid function used to map continuous positions to binary selections for feature subsets is given in Eq.~(\ref{eqn11}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; x_{i k}(t+1)=\left\{\begin{array}{lc}
+1, &amp; \text { if } \operatorname{rand}()&lt;\sigma\left(X_{i}(t+1)\right) \\
+0, &amp; \text { otherwise }
+\end{array}\right. \\
+&amp; \sigma(X)=\frac{1}{1+e^{-X}}
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The proposed SAGWOA combines the GOA to explore the entire world and the WOA <xref ref-type="bibr" rid="ref15">[15]</xref> to exploit the small features to finesse the feature subset selection process. This mixed method uses the capability of GOA to search the space in a broad manner and the exploitation power of WOA to narrow in on the best solution.</p>
+<p>In proposed SAGWOA, the position of a candidate solution (feature subset) is updated according to the Eq.~(\ref{eqn12}), where; <inline-formula><tex-math notation="LaTeX">$\vec{X}^{*}(t)$</tex-math></inline-formula> is the best solution found so far, <inline-formula><tex-math notation="LaTeX">$\vec{X}(t)$</tex-math></inline-formula> is the current candidate solution, in which, and <inline-formula><tex-math notation="LaTeX">$\vec{C}$</tex-math></inline-formula> are coefficient vectors controlling the search behavior, defined as in Eq.~(\ref{eqn13}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; \vec{X}(t+1)=\vec{X}^{*}(t)-\vec{A} \cdot\left|\vec{C} \cdot \vec{X}^{*}(t)-\vec{X}(t)\right| \\
+&amp; \vec{A}=2 a \cdot \vec{r}-a, \vec{C}=2 \cdot \vec{r}
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>A linearly decreases from 2 to 0 over iterations to reduce exploration and increase exploitation is given in Eq.~(\ref{eqn14}), where, <inline-formula><tex-math notation="LaTeX">$\vec{r}$</tex-math></inline-formula> is a random vector with components uniformly distributed in <xref ref-type="bibr" rid="ref0">[0]</xref>, <xref ref-type="bibr" rid="ref1">[1]</xref>, and <inline-formula><tex-math notation="LaTeX">$T_{\text {max }}$</tex-math></inline-formula> is the maximum number of iterations.</p>
+<inline-formula><tex-math notation="LaTeX">$a(t)=2-\frac{2 t}{T_{\text {max }}}$</tex-math></inline-formula>
+<p>In order to make goal-oriented and weight-oriented contributions adaptively balanced, SAGWOA presents a weight factor <inline-formula><tex-math notation="LaTeX">$w(t)$</tex-math></inline-formula> as varying the contribution of global and local search according to iteration number is given in Eq.~(\ref{eqn5}), where; <inline-formula><tex-math notation="LaTeX">$\vec{X}_{G O A}(t+1)$</tex-math></inline-formula> is the position updated by GOA (global exploration), <inline-formula><tex-math notation="LaTeX">$\vec{X}_{\text {WOA }}(t+1)$</tex-math></inline-formula> is the position updated by WOA (local exploitation), in which, <inline-formula><tex-math notation="LaTeX">$w(t)$</tex-math></inline-formula> decreases linearly is given in Eq.~(\ref{eqn16}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp; \vec{X}_{i}(t+1)=w(t) \cdot \vec{X}_{G O A}(t+1)+(1-w(t)) \\
+&amp; \vec{X}_{W O A}(t+1) \\
+&amp; \quad w(t)=1-\frac{t}{T_{\max }}
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The feature selection is a binary optimization problem, and hence the continuous positions are coded to binary values through a sigmoid function given in Eq.~(\ref{eqn17}), where, <inline-formula><tex-math notation="LaTeX">$x_{i k}$</tex-math></inline-formula> indicates whether feature <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula> is selected in solution <inline-formula><tex-math notation="LaTeX">$i$</tex-math></inline-formula>.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\quad x_{i k}(t+1)=\left\{\begin{array}{lc}
+1, &amp; \text { if } \operatorname{rand}()&lt;\sigma\left(X_{i}(t+1)\right) \\
+0, &amp; \text { otherwise }
+\end{array}, \sigma(X)=\right.
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The subsets of the hybrid-selected features are tested with the help of the fitness function of the classification accuracy and the feature reduction is given in Eq.~(\ref{eqn18}), where; <inline-formula><tex-math notation="LaTeX">$\left|F_{i}\right|$</tex-math></inline-formula> is the number of selected features, <inline-formula><tex-math notation="LaTeX">$\left|F_{\text {total }}\right|$</tex-math></inline-formula> is the total feature count, and <inline-formula><tex-math notation="LaTeX">$\alpha, \beta \in<xref ref-type="bibr" rid="ref0"&gt;[0]</xref>, <xref ref-type="bibr" rid="ref1"&gt;[1]</xref>$</tex-math></inline-formula> balance accuracy and subset size.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Fitness}\left(X_{i}\right)=\alpha \cdot \operatorname{Accuracy}\left(X_{i}\right)-\beta \cdot \frac{\left|F_{i}\right|}{\left|F_{\text {total }}\right|}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Quantum Feature Encoding Using Vqc</title>
+<p>After optimal feature selection using proposed SAGWOA, the reduced feature vector <inline-formula><tex-math notation="LaTeX">$X=\left\{x_{1}, x_{2}, \ldots, x_{n}\right\}$</tex-math></inline-formula> is encoded into quantum states to enable quantum-inspired learning through VQC <xref ref-type="bibr" rid="ref16">[16]</xref>. Two commonly used encoding schemes are adopted: amplitude encoding and angle (rotation) encoding. In amplitude encoding, the classical features are represented in the amplitudes of a quantum state is given in Eq.~(\ref{eqn19}), which subjected to the normalization constraint is given in Eq.~(\ref{eqn20}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+&amp;| \psi\rangle=\sum_{i=1}^{n} x_{i}|i\rangle \\
+&amp; \sum_{i=1}^{n}\left|x_{i}\right|^{2}=1
+\end{aligned}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>This encoding allows an <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula>-dimensional feature vector to be represented using <inline-formula><tex-math notation="LaTeX">$\log _{2}(n)$</tex-math></inline-formula> qubits, enabling compact representation of high-dimensional data. In angle encoding, every classical feature is encoded to an angle of rotation of a quantum gate is expressed in Eq.~(\ref{eqn21}), where <inline-formula><tex-math notation="LaTeX">$f(\cdot)$</tex-math></inline-formula> is a scaling function (e.g., linear or min-max scaling).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\theta_{i}=f\left(x_{i}\right)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The encoded state is generated using rotation gates is given in Eq.~(\ref{eqn22}),
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+|\psi\rangle=\prod_{i=1}^{n} R_{y}\left(\theta_{i}\right)|0\rangle
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>notably, VQC uses a parametrized quantum circuit (PQC) to carry out classification. The encoded quantum state is processed using a variational unitary operation <inline-formula><tex-math notation="LaTeX">$U(\theta)$</tex-math></inline-formula> is given in Eq.~(\ref{eqn23}), where, <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> represents trainable parameters optimized during learning.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+|\phi\rangle=U(\theta)|\psi\rangle
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The output is obtained by measuring quantum observables is given in Eq.~(\ref{eqn24}),
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+y=\langle\phi| M|\phi\rangle=\text { measure }(U(\theta)|\psi\rangle)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The parameters <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> are updated by minimizing a loss function, typically defined as in Eq.~(\ref{eqn25}),
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\mathcal{L}=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\widehat{y}_{i}\right)^{2}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Ids Modeling Using Proposed Qdc-Cnn</title>
+<p>The QSVM <xref ref-type="bibr" rid="ref17">[17]</xref> is a machine that works in Hilbert space computing a quantum kernel, to estimate the similarity between encoded feature vectors is given in Eq.~(\ref{eqn27}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+K\left(x_{i}, x_{j}\right)=\left|\left\langle\psi\left(x_{i}\right) \mid \psi\left(x_{j}\right)\right\rangle\right|^{2}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The kernel matrix <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> is then used in the SVM optimization problem is expressed in Eq.~(\ref{eqn28}),
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\min _{\alpha} \frac{1}{2} \sum_{i, j} \alpha_{i} \alpha_{j} y_{i} y_{j} K\left(x_{i}, x_{j}\right)-\sum_{i} \alpha_{i}
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Which subjected to the expression given in Eq.~(\ref{eqn29}),
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\sum_{i} \alpha_{i} y_{i}=0,0 \leq \alpha_{i} \leq C
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Besides, a CNN <xref ref-type="bibr" rid="ref18">[18]</xref>) is used to improve the learning of representations and then classification using QSVM. The CNN derives hierarchical and spatial features is given in Eq.~(\ref{eqn30}), where <inline-formula><tex-math notation="LaTeX">$H$</tex-math></inline-formula> denotes deep feature maps.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+H=C N N(X)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The extracted features are then fed into the QSVM for final classification is computed by Eq.~(\ref{eqn31}).
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\hat{y}=\operatorname{QSVM}(H)
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p><xref ref-type="fig" rid="fig2">Fig. 2</xref> delivers the architecture of proposed QDC-SVM.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2</label>
+<caption><p>Architecture of proposed qdc-svm</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-fig-2-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Results and Discussion</title>
+<p>The experimental analysis of the suggested QDC-SVM was performed to evaluate its usefulness in the comparison with classical and existing models of quantum-aided intrusion detection. Standard benchmark datasets, i.e. NSL-KDD <xref ref-type="bibr" rid="ref19">[19]</xref> and CICIDS2017 <xref ref-type="bibr" rid="ref20">[20]</xref>, were subjected to experiments in terms of various performance measures, such as accuracy, precision, recall, F1-score, detection rate, and false-positive rate (FPR). The proposed model was contrasted with the classical approaches like SVM, CNN <xref ref-type="bibr" rid="ref18">[18]</xref>, and standalone quantum classifiers like VQC <xref ref-type="bibr" rid="ref16">[16]</xref> and QSVM <xref ref-type="bibr" rid="ref17">[17]</xref>. Findings show that QDC-SVM is a better detection method than these methods, in regards to detection accuracy and the convergence speed. In addition, the hybridization of dual metaheuristic optimization with deep and quantum learning allows better flexibility to known and zero-day cyberattacks.</p>
+</sec>
+<sec id="sec5">
+<label>1)</label>
+<title>Performance of Proposed Qdc-Svm over Traditional Models</title>
+<p><xref ref-type="table" rid="table1">Table I</xref> shows the results of performance comparison of various intrusion detection models on the NSL-KDD data.</p>
+<p>Classical SVM and CNN models are reasonable in terms of detection; though their accuracy and recall are limited in detecting complicated attack patterns. VQC and QSVM are quantum-based models that demonstrate a significant improvement, which proves the efficiency of quantum learning to improve decision boundaries. Compared to all the baseline methods, the proposed QDC-SVM is significantly more accurate, precise, and recall and F1-score, and it has the lowest false-positive rate, which proves its higher detection ability and strength. <xref ref-type="table" rid="table2">Table II</xref> shows the relative performance of different models of intrusion detection on the CICIDS2017 dataset. Conventional SVM and CNN methods are less precise in detection and more false-positive because of the complex and varied nature of traffic patterns in the dataset. Quantuminspired learning has the benefit of quantum-based classifiers, such as VQC and QSVM, which are more accurate and with lower FPR. The proposed QDC-SVM is the most effective in general performance, demonstrating the most accurate, most precise, most recalling, and the most F1-score, and the lowest false-positive rate, validating the effectiveness and scalability of the proposed model to the real-world intrusion detection situation.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Performance comparison of ids models on nslkdd dataset</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Accuracy (&#x0025;)</th>
+<th>Precision (&#x0025;)</th>
+<th>Recall (&#x0025;)</th>
+<th>F1Score (&#x0025;)</th>
+<th>FPR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SVM</td>
+<td>91.82</td>
+<td>90.35</td>
+<td>89.64</td>
+<td>89.98</td>
+<td>0.071</td>
+</tr>
+<tr>
+<td>CNN</td>
+<td>94.56</td>
+<td>93.92</td>
+<td>93.17</td>
+<td>93.54</td>
+<td>0.054</td>
+</tr>
+<tr>
+<td>VQC</td>
+<td>95.12</td>
+<td>94.38</td>
+<td>93.96</td>
+<td>94.17</td>
+<td>0.049</td>
+</tr>
+<tr>
+<td>QSVM</td>
+<td>95.73</td>
+<td>94.95</td>
+<td>94.32</td>
+<td>94.63</td>
+<td>0.043</td>
+</tr>
+<tr>
+<td>Proposed QDCSVM</td>
+<td>98.64</td>
+<td>98.32</td>
+<td>98.18</td>
+<td>98.25</td>
+<td>0.017</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Performance comparison of ids models on cicids2017 dataset</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Accuracy (&#x0025;)</th>
+<th>Precision (&#x0025;)</th>
+<th>Recall (&#x0025;)</th>
+<th>F1Score (&#x0025;)</th>
+<th>FPR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SVM</td>
+<td>90.47</td>
+<td>89.83</td>
+<td>88.92</td>
+<td>89.37</td>
+<td>0.085</td>
+</tr>
+<tr>
+<td>CNN</td>
+<td>93.95</td>
+<td>93.41</td>
+<td>92.98</td>
+<td>93.19</td>
+<td>0.058</td>
+</tr>
+<tr>
+<td>VQC</td>
+<td>95.23</td>
+<td>94.88</td>
+<td>94.32</td>
+<td>94.6</td>
+<td>0.045</td>
+</tr>
+<tr>
+<td>QSVM</td>
+<td>95.84</td>
+<td>95.32</td>
+<td>94.97</td>
+<td>95.14</td>
+<td>0.039</td>
+</tr>
+<tr>
+<td>Proposed QDCSVM</td>
+<td>98.66</td>
+<td>98.41</td>
+<td>98.19</td>
+<td>98.3</td>
+<td>0.016</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p><xref ref-type="fig" rid="fig3">Fig. 3</xref> and <xref ref-type="fig" rid="fig4">4</xref> states the performance of proposed model on both NSL-KDD and CICIDS2017 datasets, where the propsoed QDC-SVM attained enhanced performance all other traditional models which highlights the efficacy of the developed model in IDS.
+<figstart>
+<p><inline-graphic xlink:href="11455828-5_433_855_2206_153.tif"/>
+<figend>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig 3.</label>
+<caption><p>Proposed model performance on nsl-kdd dataset</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig 4.</label>
+<caption><p>Proposed model performance on cicids2017 dataset</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455828-fig-4-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec6">
+<label>V.</label>
+<title>Conclusion</title>
+<p>This study brought forth a Quantum-Inspired Hybrid IDS, which is a Quantum-aided Deep Convolutional Support Vector Machine (QDC-SVM) with a combination of two metaheuristic feature optimization and quantum-classical deep learning. The hybrid SAGWOA feature selection was effective to decrease the dimensionality, as well as maintain the discriminative information, leading to higher detection accuracy and lower false alarms. Experimental experiments with NSL-KDD and CICIDS2017 datasets have proven that the proposed framework is superior to classical and existing quantum-based IDS models. CNN, QSVM, and quantum feature encoding combination increased the learning ability and adaptation to complicated attack patterns. The next generation of work may be concerned with applying the framework to a real quantum device, scaling it to online and distributed IDS deployments, and further develop transformer-based quantum-deep architecture as an approach to real-time detection of cyber threats.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Abdullayeva</surname></string-name></person-group>, &#x201C;<article-title>Cyber resilience and cyber security issues of intelligent cloud computing systems</article-title>,&#x201D; <source>Results in Control and Optimization</source>, vol. <volume>12</volume>, Art. no. <issue>100268</issue>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Flenman</given-names>, <surname>Machine</surname></string-name></person-group> Learning for Intrusion Detection in Network Traffic.<year>2025</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Ghanbarzadeh</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Hosseinalipour</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Ghaffari</surname></string-name></person-group>, &#x201C;<article-title>A novel network intrusion detection method based on metaheuristic optimisation algorithms</article-title>,&#x201D; <source>Journal of Ambient Intelligence and Humanized Computing</source>, vol. <volume>14</volume>, no. <issue>6</issue>, pp. <fpage>7575</fpage>&#x2013;<lpage>7592</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A. M.</given-names> <surname>Nassef</surname></string-name>, <string-name><given-names>M. A.</given-names> <surname>Abdelkareem</surname></string-name>, <string-name><given-names>H. M.</given-names> <surname>Maghrabie</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Baroutaji</surname></string-name></person-group>, &#x201C;<article-title>Review of metaheuristic optimization algorithms for power systems problems</article-title>,&#x201D; <source>Sustainability</source>, vol. <volume>15</volume>, no. <issue>12</issue>, Art. no. 9434, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>O. O.</given-names> <surname>Akinola</surname></string-name>, <string-name><given-names>A. E.</given-names> <surname>Ezugwu</surname></string-name>, <string-name><given-names>J. O.</given-names> <surname>Agushaka</surname></string-name>, <string-name><given-names>R. A.</given-names> <surname>Zitar</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Abualigah</surname></string-name></person-group>, &#x201C;<article-title>Multiclass feature selection with metaheuristic optimization algorithms: A review</article-title>,&#x201D; <source>Neural Computing and Applications</source>, vol. <volume>34</volume>, no. <issue>22</issue>, pp. <fpage>19751</fpage>&#x2013;<lpage>19790</lpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Iovane</surname></string-name></person-group>, &#x201C;<article-title>Quantum-inspired algorithms and perspectives for optimization</article-title>,&#x201D; <source>Electronics</source>, vol. <volume>14</volume>, no. <issue>14</issue>, Art. no. 2839, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K.</given-names> <surname>Vinotha</surname></string-name> and <string-name><given-names>P.</given-names> <surname>Eswaran</surname></string-name></person-group>, &#x201C;<article-title>Quantum inspired hyperparameter optimization for enhanced deep learning based intrusion detection in wireless sensor networks</article-title>,&#x201D; <source>Systems and Soft Computing</source>, Art. no. <issue>200431</issue>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>N.</given-names> <surname>Mohamed</surname></string-name></person-group>, &#x201C;<article-title>Artificial intelligence and machine learning in cybersecurity: A deep dive into state-of-the-art techniques and future paradigms</article-title>,&#x201D; <source>Knowledge and Information Systems</source>, pp. <fpage>1</fpage>&#x2013;<lpage>87</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Turaka</surname></string-name> and <string-name><given-names>S. K.</given-names> <surname>Panigrahy</surname></string-name></person-group>, &#x201C;<article-title>Quantum-driven chaos-informed deep learning framework for efficient feature selection and intrusion detection in IoT networks</article-title>,&#x201D; <source>Technologies</source>, vol. <volume>13</volume>, no. <issue>10</issue>, Art. no. 470, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Hassan</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>A hybrid approach for intrusion detection in vehicular networks using feature selection and dimensionality reduction with optimized deep learning</article-title>,&#x201D; <source>PLOS ONE</source>, vol. <volume>20</volume>, no. <issue>2</issue>, Art. no. e0312752, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Turaka</surname></string-name> and <string-name><given-names>S. K.</given-names> <surname>Panigrahy</surname></string-name></person-group>, &#x201C;<article-title>Chaotic adaptive particle swarm optimization and quantum-inspired genetic algorithm for robust feature selection in IoT intrusion detection</article-title>,&#x201D; in Proc. <year>2025</year> Int. Conf. Sustainable Energy Technologies and Computational Intelligence (SETCOM), <month>Feb.</month> <year>2025</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Shi</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names> <surname>Yang</surname></string-name>, and <string-name><given-names>H.</given-names> <surname>Yu</surname></string-name></person-group>, &#x201C;<article-title>An improved mean imputation clustering algorithm for incomplete data</article-title>,&#x201D; <source>Neural Processing Letters</source>, vol. <volume>54</volume>, no. <issue>5</issue>, pp. <fpage>3537</fpage>&#x2013;<lpage>3550</lpage>, <year>2022</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Pranolo</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Enhanced multivariate time series analysis using LSTM: A comparative study of min-max and Z-score normalization techniques</article-title>,&#x201D; <source>ILKOM Jurnal Ilmiah</source>, vol. <volume>16</volume>, no. <issue>2</issue>, pp. <fpage>210</fpage>&#x2013;<lpage>220</lpage>, <year>2024</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. Z.</given-names> <surname>Mirjalili</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Mirjalili</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Saremi</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Faris</surname></string-name>, and <string-name><given-names>I.</given-names> <surname>Aljarah</surname></string-name></person-group>, &#x201C;<article-title>Grasshopper optimization algorithm for multi-objective optimization problems</article-title>,&#x201D; <source>Applied Intelligence</source>, vol. <volume>48</volume>, no. <issue>4</issue>, pp. <fpage>805</fpage>&#x2013;<lpage>820</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Mirjalili</surname></string-name> and <string-name><given-names>A.</given-names> <surname>Lewis</surname></string-name></person-group>, &#x201C;<article-title>The whale optimization algorithm</article-title>,&#x201D; <source>Advances in Engineering Software</source>, vol. <volume>95</volume>, pp. <fpage>51</fpage>&#x2013;<lpage>67</lpage>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Dilek</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Cakin</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Oracevic</surname></string-name></person-group>, &#x201C;<article-title>Towards quantum-enhanced intrusion detection in industrial control systems: A proof-of-concept using variational quantum classifiers</article-title>,&#x201D; in Proc. <year>2025</year> Int. Symp. Networks, Computers and Communications (ISNCC), <month>Oct.</month> <year>2025</year>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"> [S. J. <string-name><surname>Nhlapo</surname>, <given-names>E</given-names></string-name>. N. <string-name><surname>Mutombo</surname>, <given-names>and</given-names></string-name> M. N. W. Nkongolo</person-group>, &#x201C;<article-title>Parameterised quantum SVM with data-driven entanglement for zeroday exploit detection</article-title>,&#x201D; <source>Computers</source>, vol. <volume>14</volume>, no. <issue>8</issue>, Art. no. 331, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Torre</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Chennamaneni</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Jo</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Vyas</surname></string-name>, and <string-name><given-names>B.</given-names> <surname>Sabrsula</surname></string-name></person-group>, &#x201C;<article-title>Toward enhancing privacy preservation of a federated learning CNN intrusion detection system in IoT: Method and empirical study</article-title>,&#x201D; <source>ACM Transactions on Software Engineering and Methodology</source>, vol. <volume>34</volume>, no. <issue>2</issue>, pp. <fpage>1</fpage>&#x2013;<lpage>48</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="online" publication-format="online"> <uri>https://www.kaggle.com/datasets/hassan06/nslkdd</uri></mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="online" publication-format="online"> <uri>https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset</uri></mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

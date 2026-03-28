@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455683</article-id>
+<xplore-article-id>11455683</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Hybrid Iot-Ml Framework for Metro Safety: Crowd Density Forecasting With Onboard Health Surveillance</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>R.</given-names> <surname>Surendar</surname></string-name>
+<string-name specific-use="index"><given-names>R.</given-names> <surname>Surendar</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>T.</given-names> <surname>Hariprasath</surname></string-name>
+<string-name specific-use="index"><given-names>T.</given-names> <surname>Hariprasath</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>S.</given-names> <surname>Karthick</surname></string-name>
+<string-name specific-use="index"><given-names>S.</given-names> <surname>Karthick</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">Dept. of Electrical and Electronics Engineering \\ St. Joseph &#x0027;s Institute of Technology Chennai</institution>
+</institution-wrap>
+, <country>India</country> \\ <email>surendarmathavan@gmail.com</email></aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Dept. of Electrical and Electronics Engineering \\ St. Joseph&#x0027;s Institute of Technology Chennai</institution>
+</institution-wrap>
+, <country>India</country> \\ <email>prasathdhanu834@gmail.com</email></aff>
+<aff id="aff3"><institution content-type="department">Assistant Professor \\ Dept. of Electrical and Electronics \\ Engineering \\ St. Joseph&#x0027;s Institute of Technology \\ Chennai</institution>, <country>India</country> \\ <email>Karthick.suruliraj@gmail.com</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455683_ft.xml</self-uri>
+<self-uri content-type="print">45.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The way people commute by metro in towns poses a desperate situation with regards to safety of passengers during rush hours and emergency cases. In this paper, the authors introduce an IoT-based smart metro safety system, which integrates the real-time monitoring of the crowd density with passenger health by applying machine learning algorithms. The suggested system utilizes an embedded platform of Arduino Uno which is connected to various sensors such as heart rate monitors, blood pressure sensors, and temperature sensors to individual health tracking and the computer vision techniques to estimate the crowd density. Random Forest classifier was found to be 94 percent accurate <inline-formula><tex-math notation="LaTeX">$(\mathbf{R 2}=\mathbf{0. 9 4}$</tex-math></inline-formula>, MAE <inline-formula><tex-math notation="LaTeX">$=\mathbf{2. 8 3})$</tex-math></inline-formula> in forecasting patterns of crowd density in varying intervals of time. The comparative analysis of three ML algorithms, including Those that are Random Forest, Support Vector Machine (SVM) and Neural Networks, has shown that the former produces the best results, namely 79 percent accuracy, precision, recall, and F1-score of the crowd classification tasks. A Neural Network model was able to achieve 66.7 percent accuracy in classifying alerts by classifying them into overcrowding, equipment failure, suspicious behavior and temperature deviations. The system has real-time data display by LCD displays, GSM-based alerts and UART communication protocols. Experimental outcomes prove the ability of the system to ensure the safety of passengers due to the provision of early warnings in case the crowd density is over the safe or critical parameters (90 people/unit area). It is a holistic solution because it provides metro operators with practical solution to proactive safety management and coordination of emergency response.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Safety system of the Metro</kwd>
+<kwd>Crowd density prediction</kwd>
+<kwd>Machine learning</kwd>
+<kwd>IoT sensors</kwd>
+<kwd>Arduino embedded system</kwd>
+<kwd>Random Forest classifier</kwd>
+<kwd>Health monitoring</kwd>
+<kwd>Realtime surveillance</kwd>
+<kwd>Smart transportation</kwd>
+<kwd>Alert classification</kwd>
+<kwd>Computer vision</kwd>
+<kwd>public transit safety</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="0"/>
+<equation-count count="0"/>
+<ref-count count="10"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The booming population in cities has put excessive strain on the public transport structure especially the Metro rail system that serves vast populations of commuters every day <xref ref-type="bibr" rid="ref1">[1]</xref>. There is a high-risk problem of overcrowding in Metro stations and train cars most often during peak-hours with the result of safety risks such as stampede, medical incidents and evacuation capability <xref ref-type="bibr" rid="ref2">[2]</xref>. Recent statistics show that a major percentage of accidents in the metro system across the world occur due to overcrowding, which is the reason why intelligent monitoring solutions are high in demand. Conventional crowd management methods are based on manual monitoring and fixed capacity constraints that cannot effectively be applicable in real time situations <xref ref-type="bibr" rid="ref3">[3]</xref>. A potentially successful solution to proactive safety management is the combination of Internet of Things (IoT) technologies and machine learning algorithms. The current embedded systems have the capability to handle multi-sensors data streams to yield continuous monitoring, predictive analytics, and automatic alerting <xref ref-type="bibr" rid="ref4">[4]</xref>. The proposed study solves the twofold problem of the crowd density tracking and the health tracking of individual passengers in the metro setting <xref ref-type="bibr" rid="ref5">[5]</xref>. As the system acknowledges, passenger safety is not only crowd management in the case of medical issues like cardiac events, hypertension attacks, heat-related illnesses and other conditions that could be experienced in the congested environment <xref ref-type="bibr" rid="ref6">[6]</xref>. The proposed platform will provide a complete situational awareness of the metro operators by integrating computer visionestimation of crowds with wearable health sensors <xref ref-type="bibr" rid="ref7">[7]</xref>. The main contributions of the work are: The construction of an integrated Arduino-based embedded system with the inclusion of multiple types of sensors to monitor the holistic safety, the implementation and comparative analysis of three machine learning algorithms to earn the capability of classifying crowded and density prediction, the development of the real-time alert classification system, which has the capacity to identify the different types of emergencies, and the demonstration of the practicality of the implementation through hardware prototyping and experimental verification <xref ref-type="bibr" rid="ref8">[8]</xref>. Its system architecture uses the Arduino Uno microcontroller as the central processing unit in communication with ML input modules, physiological sensors (heart rate, blood pressure, temperature), Node MCU as a wireless device, and output devices such as displays controlled using the GPIO, UART-based GSM modules, and audio buzzers <xref ref-type="bibr" rid="ref9">[9]</xref>. The design is made modular, which allows it to scale and can be modified to suit different metro infrastructure arrangements <xref ref-type="bibr" rid="ref10">[10]</xref>.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Methods and Methodology</title>
+<sec id="sec2a">
+<label>2.1.</label>
+<title>System Architecture</title>
+<p>The proposed metro safety system is based on a three-tier system that consists of sensor layer, processing layer, and communication layer. The sensor layer combines heterogeneous source of data such as computer vision cameras to estimate the crowd density and biomedical sensors to monitor a health parameter. The edge computing device, which is the Arduino Uno microcontroller, will be used to acquire, preprocess, and analyze data in real time. The communication layer makes use of the UART protocols to achieve the GSM connectivity and the GPIO protocols to provide the local display and alert functionality.</p>
+</sec>
+<sec id="sec2b">
+<label>2.2.</label>
+<title>Hardware Components</title>
+<p>Central Processing Unit: Arduino Uno (ATmega328P) has the 32 KB flash and 16 MHz clock frequency to operate realtime.</p>
+<p>Physiological Sensors: The Heart rate sensor (pulse oximetry based), blood pressure sensor (oscillometric method) and the DS18B20 temperature sensor used in continuous monitoring of vital signs.</p>
+<p>Communication Modules: Node MCU (ESP8266) is a module that can use the Wi-Fi interface to transmit data to the cloud. GSM module supports the use of SMS to provide emergency notification. Real time metrics are displayed on LCD (<inline-formula><tex-math notation="LaTeX">$16 \times 2$</tex-math></inline-formula>) displays.</p>
+<p>Power Management: Stabilized power supply, where the voltage is converted with transformers, makes the whole of the components stable.</p>
+</sec>
+<sec id="sec2c">
+<label>2.3.</label>
+<title>Machine Learning Implementation</title>
+<sec id="sec2c1">
+<label>2.3.1.</label>
+<title>Crowd Density Prediction Model</title>
+<p>Random Forest regression model was trained to forecast crowd density, depending on time characteristics and past trends. The dataset consisted of the crowd density data (people/unit area) taken every 5 minutes and representative periods. They had such attributes as the time of the day, day of the week, historical averages, and rate-of-change.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec3">
+<title>Model Configuration:</title>
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p>Number of estimators: 100 trees</p></list-item>
+<list-item><label>&#x2022;</label><p>Maximum depth: 15 levels</p></list-item>
+<list-item><label>&#x2022;</label><p>Minimum samples split: 5</p></list-item>
+<list-item><label>&#x2022;</label><p>Training-testing split: 80-20</p></list-item>
+</list></p>
+<sc2>
+<sc3 style="none" id="Filename_sc8"><label>2.3.2.</label>
+<title>Crowd Classification Models</title>
+<p>Three classification algorithms were adopted and compared:</p>
+<p>Random Forest Classifier: 100-tree ensemble learning model which employs the bootstrap aggregation as a strong predictive of the density of the crowd (low, moderate, high, critical) into crowd density categories.</p>
+<p>Support Vector machine (SVM): Radial basis function kernel grid search optimization. Hyperplane separation gives maximum margin between the density classes.</p>
+<p>Neural Network Multi-layer perceptron, architecture [input layer: 10 neurons, hidden layer 1: 64 neurons (ReLU), hidden layer 2: 32 neurons (ReLU), output layer: 4 neurons (Softmax)]. Adam optimizer was used with a learning rate of 0.001 and 100 epochs.</p>
+</sec>
+<sc3 style="none" id="Filename_sc9"><label>2.3.3.</label>
+<title>Alert Classification System</title>
+<p>An emergency alerts neural network classifier is a specialized neural network that classifies emergency alerts into four types:</p>
+<p>Overcrowding: There is an overcrowding beyond operational safe limits. Problem of the equipment:</p>
+<p>Equipment malfunction or system failures. Suspicious Behavior: ML detected abnormalities. Anomaly Temperature Environmental or personal health-related temperature abnormalities.</p>
+<p>The model works with such alert features as the severity scores, sensor values, time-based patterns, and metadata.</p>
+</sec>
+</sec>
+<sec id="sec3a">
+<label>2.4.</label>
+<title>Data Collection and Processing</title>
+<p>Data regarding the crowd density were obtained using people counting cameras installed at the entrance points as well as at the platform of metro stations. Background subtraction, morphological and blob detection were carried out in image preprocessing. Sampling of health monitoring information was at 1 Hz and moving average filters were used to reduce noise. The classification levels were determined according to the safety standards of the metro: Safe zone (Less than 70 people/unit area), Warning zone (70-90 people/unit area), Critical zone (More than 90 people/unit area).</p>
+</sec>
+<sec id="sec3b">
+<label>2.5.</label>
+<title>Real-Time Monitoring Protocol</title>
+<p>The system is set to work in a continual monitoring mode that has the following workflow [Fig 1]:
+<list list-type="ordered">
+<list-item><label></label><p>A sensor data is obtained at a rate of one second.</p></list-item>
+<list-item><label></label><p>Normal/ Abnormal classification of health parameters.</p></list-item>
+<list-item><label></label><p>Estimation of crowd density after every 5 minutes.</p></list-item>
+<list-item><label></label><p>Prediction and classification ML model inference.</p></list-item>
+<list-item><label></label><p>Giving warnings when thresholds were crossed.</p></list-item>
+<list-item><label></label><p>Multi-channel notification (LCD display, GSM SMS, activation of a buzzer).</p></list-item>
+</list></p>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig 1:</label>
+<caption><p>Block diagram of the proposed metro safe system.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-1-source.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec4">
+<label>III.</label>
+<title>Statistical Analysis</title>
+<p>The ML models were statistically validated by using various performance measures in order to be fully evaluated. The three procedures (training set validation, test set evaluation, and cross-validation procedures) formed the analysis framework.</p>
+</sec>
+<sec id="sec5">
+<title>Performance of the Random Forest Regression Model:</title>
+<p>R2 Score: 0.94 which denotes that the model has excellent predictive power and 94 percent of the variation in the crowd density is accounted by the model. Mean Absolute error (MAE): 2.83 people/unit area, which indicates great accuracy in the density estimation. Root mean Square Error (RMSE): 3.67 individuals/unit area. The model showed that there was a consistent performance over the 60 minutes of monitoring with a low deviation between the actual and predicted outcomes.</p>
+</sec>
+<sec id="sec6">
+<title>The Comparison of The Classification Models Is as Follows:</title>
+<p>Random Forest Classifier: The system got a consistent result of 79.0 &#x0025; on all measures (Accuracy, Precision, Recall, F1Score) showing that the system treats all classes equally and is not biased against a certain one. SVM Classifier: The accuracy (75.0&#x0025;) and precision (71.3&#x0025;), recall (70.9&#x0025;), and F1-score (72.0&#x0025;) are similar with slightly different scores depending on the metric. Neural Network: Worse overall performance with 43.0 &#x0025; accuracy, 71.8 &#x0025; precision, 43.0 &#x0025; recall and 45.1 &#x0025; F1-score, indicating that it was overfitting or it did not have sufficient training data. Classification Analysis: This is an alert created by the FDA when it judges that a drug poses a danger to consumers. Classification Analysis: This is an alert by the FDA when it deems a drug as dangerous to the consumer.</p>
+</sec>
+<sec id="sec7">
+<title>Number of Alerts Done in Total: 90 Incidents.</title>
+<p>Accuracy of the Neural Network: 66.7 percent in the case of multi-class alert categorization. Distribution of alerts Equipment Failure (47 alerts, 52.2 &#x0025;), Overcrowding (31 alerts, 34.4&#x0025;), Suspicious Behavior (8 alerts, 8.9&#x0025;), Temperature Anomaly (4 alerts, 4.4&#x0025;) Response time category: Fast (less than 3 s): 31 additional <inline-formula><tex-math notation="LaTeX">$8=39$</tex-math></inline-formula> alerts, Moderate (between 3 and 4s): 4 additional, Slow (greater than 4 s): 47 additional.</p>
+</sec>
+<sec id="sec8">
+<label>IV.</label>
+<title>Results</title>
+<sec id="sec8a">
+<label>4.1.</label>
+<title>Crowd Density Prediction Performance</title>
+<p>Random Forest regression model showed excellent capability to forecast the patterns of the crowd density with time (Image 4). The model had an R2 score of 0.94 and Mean Absolute error of 2.83 people/unit area which revealed that the model was very accurate in predicting the level of the crowd. The forecast curve is very close to the real density readings during the 60 -minute experimental process.</p>
+</sec>
+</sec>
+<sec id="sec9">
+<title>The Major Results of The Density Prediction Analysis:</title>
+<p>The highest density was at the 25 minutes mark of about 105 people/unit. The model was able to describe the progressive trend of 45 per unit area at the baseline up to the peak. There was a critical threshold (90 people/unit area, red dashed line) that was reached in between the minutes 15-45, which sent corresponding alerts. The violation of safe threshold (70 people/unit area, green dashed line) was correctly predicted and thus the crowds could be managed preemptively. The symmetrical form represents the normal rush hour and the entry and exit flows are predictable [Fig 6-Fig 6].
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig.2</label>
+<caption><p>Simulation of metro safe system</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3</label>
+<caption><p>Simulation output of metro safe system</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-3-source.tif"/>
+</fig>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4</label>
+<caption><p>Ml-based crowd density prediction</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-4-source.tif"/>
+</fig>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5</label>
+<caption><p>Ml algorithm performance</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6</label>
+<caption><p>Ml-enhanced alert classification</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455683-fig-6-source.tif"/>
+</fig></p>
+<sec id="sec9a">
+<label>4.2.</label>
+<title>Algorithm Performance Comparison</title>
+<p>Three machine learning algorithms were comparatively assessed on crowd classification and showed a substantial difference in their performance (Image 5). Random Forest classifier turned out to be the best with the stable performance of 79.0 &#x0025; in all evaluation measures such as accuracy, precision, recall, and F1-score. This consistency of performance implies that it is balanced in its classification without a discriminative attitude towards individual density category. The SVM classifier demonstrated the competitive results with the accuracy of 75.0, the precision of 71.3, the recall of 70.9, and the F1score of 72.0. Although a bit lower than the Random Forest, SVM exhibited decent classification power with decent computational power. The performance of Neural Networks was incomparable to those of other methods since the accuracy and recall were at 43.0 and 71.8 respectively. This difference indicates that this model is potentially over fitting to some classes or it needs more training data and architecture adjustments. The low recall shows that there were missed classifications and this may compromise safety in critical situations.</p>
+</sec>
+<sec id="sec9b">
+<label>4.3.</label>
+<title>Real-Time Health Monitoring Results</title>
+<p>The embedded system was able to capture and show realtime physiological parameters using the virtual terminal interface (Image 3). The system was demonstrated to be able to:</p>
+</sec>
+</sec>
+<sec id="sec10">
+<title>Heart Rate Monitoring:</title>
+<p>Continuous measurements were shown (bpm 110, bpm 96 readings were shown). Accuracy of classification of normal heart rates. Confirmation of successful threshold-based assessment is possible through extra confirmation (IFI Heart rate normal).</p>
+</sec>
+<sec id="sec11">
+<title>Blood Pressure Tracking:</title>
+<p>Accurate measurements: 101.57 kPa (or about 761 mmHg or 1.002 atm) The conversion to different units proves the flexibility of the system. Proper functioning is indicated with the help of YES Pressure Normal outputs.</p>
+</sec>
+<sec id="sec12">
+<title>Temperature Surveillance:</title>
+<p>Recorded and identified readings of 39.2 degC were recorded. Status messages of YES Temperature Normal status messages generated. Fever or heat stress can be detected early as a result of real-time monitoring.</p>
+<p>Serial terminal output is continuously monitored and the data refresh rate is constant and loops continuously, which allows the detection of abnormal vital signs that may be medical emergencies.</p>
+<sec id="sec12a">
+<label>4.4.</label>
+<title>Alert Classification Performance</title>
+<p>The alert classification system based on Neural Network processed 90 total alerts with 66.7 percent accuracy (Image 6). The analysis of the alert distribution showed:</p>
+<p>Equipment Failure: 47 notifications (52.2) the most frequent notification signifying that the system is that the system is running. The main characteristics of these alerts were the slow response times (>4s), which indicated complicated processing of diagnostics. Overcrowding: 31 alerts (34.4) is the second most common category and has the shortest response times (less than 3 s), and it proves that the system can quickly detect and respond to the dangerous crowd concentration. Suspicious Behavior: 8 alerts (8.9 &#x0025;) - rather uncommon occurrences with fast response classification, which means that the ML model is able to identify abnormal trends in the crowd movement or individual behavior. Temperature Anomaly: 4 alerts (4.4) - the rarest type, and includes both environmental temperature problems and detection of individual fever.</p>
+<p>Response time analysis indicated that, <inline-formula><tex-math notation="LaTeX">$43.3 \%(39 / 90)$</tex-math></inline-formula> of alerts were classified and processed in less than 3 seconds, so a response can be easily performed. Nonetheless, 52.2 &#x0025; took over 4 seconds, which was mainly due to equipment failure diagnostics, which needs more complicated analysis.</p>
+</sec>
+<sec id="sec12b">
+<label>4.5.</label>
+<title>System Integration Performance</title>
+<p>The overall hardware integration (Images 1 and 2) was able to prove:</p>
+<p>Multi-Sensor Data Fusion: Multiple inputs (ML) are processed, and the heart rate, blood pressure, temperature, and the communication streams of the Node MCU at the same time without performance.</p>
+<p>Output Device Coordination: Co-ordination of LCD display, GSM messaging, and buzzer alerts, depending on the predictions on ML model and violation of thresholds.</p>
+<p>Power Presentation: 2nd stable functioning with transformer-based power supply with constant sensor precision during a long period of monitoring.</p>
+<p>Communication Reliability: UART-based GSM connectivity recorded 98&#x0025; success rate of relaying message that had critical alerts.</p>
+</sec>
+</sec>
+<sec id="sec13">
+<label>V.</label>
+<title>Discussion</title>
+<p>The experimental findings prove that the prototype developed based on integrating a metro safety system can be a feasible approach to real-time crowd monitoring and health surveillance. The R2 value of the Random Forest regression model is 0.94, which is state-of-the-art in terms of crowd density prediction, and is much more effective than the traditional statistical tools, giving the metro operators practical forecasts of proactive crowd management.</p>
+<sec id="sec13a">
+<label>5.1.</label>
+<title>Machine Learning Model Selection</title>
+<p>A clear decision with regards to the comparative analysis is that Random Forest is the best algorithm to be used in the classification of crowds at the metro settings. Its better results (79 &#x0025; on all measures) can be explained by the following factors: ensemble learning eliminates overfitting, the algorithm is able to work with non-linear relations between temporal features and crowd density, and it is resistant to noise in sensor data that is common with real-life deployments. The 43 &#x0025; accuracy of the Neural Network in crowd classification is low as compared to the 66.7 &#x0025; accuracy in alert classification, and this high accuracy indicates that the architecture and training context might fit better with the categorical density classification of alert data than the continuous density classification. Its practical usage is that hybrid algorithms with various algorithms on various subtasks can be optimally used in the system design.</p>
+</sec>
+<sec id="sec13b">
+<label>5.2.</label>
+<title>Alert Classification Insights</title>
+<p>Key operation factors are indicated by the high frequency of equipment failure alerts (52.2 &#x0025;). Although this might be seen at first as alarming, it in fact reflects a total selfmonitoring capabilities of the system. False negatives in crowd monitoring are a vital safety aspect that can be prevented by early detection of sensor failures or communication failures. The lack of rapid response to equipment diagnostics (>4s) is acceptable because it has no direct safety risks (unlike the overcrowding events). There is a high response time (less than 3s) to overcrowding alerts, as they are direct safety threats. Such a quick classification allows taking action immediately: blocking access to the platforms, recreating more personnel, or notifying the passengers via station announcements. The need of the system is justified by the 34.4 percent prevalence of overcrowding alerts of the dataset in high-traffic metro settings.</p>
+</sec>
+<sec id="sec13c">
+<label>5.3.</label>
+<title>Health Monitoring Integration</title>
+<p>Crowd density tracking combined with individual health monitoring has become a new input to the metro safety systems. The findings prove that physiological surveillance can be performed in a continuous mode without disrupting crowd analytics. The system was able to classify normal and abnormal vital signs in real-time and its possible applications include: Medical Emergency Detection: Also known as identifying passengers with heart-attack incidences, hypertension emergencies, and heat exhaustion before those are serious. Pandemic Response: Capabilities of fever screening that would be useful in infectious disease surveillance. Athlete/Elderly Survey: Dedicated treatment of high-risk groups of passengers. Nonetheless, in reality, it would be necessary to cover the issue of privacy, guarantee voluntary involvement by using opt-in wearables or screening stations, and develop guidelines on how to respond to emergencies in case of detected abnormal readings.</p>
+</sec>
+<sec id="sec13d">
+<label>5.4.</label>
+<title>Threshold Optimization</title>
+<p>The predetermined thresholds (safe: <70, critical: >90 people/unit area) were also effective in the experimental setting, yet there was an opportunity of dynamically adjusting the threshold to operational use. The machine learning models may be trained to learn the best thresholds in each type of station, time of the day, and context (weather, special events). The crowd structure present above is symmetric implying that there is predictable rush hour behavior, but there are unforeseen incidents (train delays, emergencies) that would necessitate adaptive threshold management.</p>
+</sec>
+<sec id="sec13e">
+<label>5.5.</label>
+<title>Scalability and Deployment Considerations</title>
+<p>The embedded system architecture using Arduino provides the available sphere of costs-effective implementation- it is viable to estimate a cost of &#x0024; 200-300 cost per station when deploying this for use in surveillance, as opposed to current surveillance infrastructure. Nevertheless, it would entail the deployment system-wide in metro networks: Aggregation of Data centrally: Network-Wide monitoring and coordinated response in the cloud. Optimization of the Edge computing: The improved local processing resulting in a decrease in the latency and bandwidth. Redundancy Protocols: Backups in order to continue running in case of breakdown or maintenance. Interoperability Standards: Relationship with the current metro control systems and emergency response measures.</p>
+</sec>
+<sec id="sec13f">
+<label>5.6.</label>
+<title>Limitations and Future Work</title>
+<p>The experimental validation has been performed under controlled or simulated conditions- real-world metro conditions are more complex incorporating several changes in lighting, occlusions and environmental factors that influence the sensor accuracy. The 66.7 &#x0025; accuracy of the alert classification model, though sufficient to make proof-of-concept, needs improvement to be used as an operational system where false alarms may cause unnecessary evacuation and real emergencies may be identified.</p>
+<p>Future research directions will be:</p>
+<p>An enhanced temporal pattern recognition of crowd dynamics using deep learning structures (LSTM, Transformers). Improvements in computer vision based on the state-of-the-art object detection (YOLO, Faster R-CNN) that will be used to count people more accurately. Multimodal fusion with the additions of audio analytics (levels of crowd noise) and environmental detectors (air quality, humidity). Predictive maintenance models which predict failure in equipment before it takes place. Passenger flow optimization algorithms providing operational changes (train frequency, platforms assignments) on the basis of predictions. Privacy-sensitive federated learning methods to allow model training on multiple metro systems without necessitating any central database of sensitive surveillance information.</p>
+</sec>
+</sec>
+<sec id="sec14">
+<label>VI.</label>
+<title>Conclusion</title>
+<p>The study will introduce a multifunctional IoT-based smart metro safety system that effectively incorporates the features of crowd density prediction, health monitor, and multi-type alert classification using machine learning algorithms. Random Forest regression model demonstrated outstanding results in predicting the trends in the crowd density (<inline-formula><tex-math notation="LaTeX">$\mathrm{R} 2=0.94$</tex-math></inline-formula>, MAE <inline-formula><tex-math notation="LaTeX">$=2.83$</tex-math></inline-formula>), which allows managing the situation in advance before the critical levels are exceeded. Comparative analysis determined Random Forest classification as the best algorithm that achieved 79 &#x0025; balanced results on each of the metrics, which is far more effective than SVM and Neural Network alternatives on crowd categorization activities. The vis-a-vis of an embedded system architecture, based upon the Arduino Uno platform with inbuilt physiological sensor and communication packages, a practical possibility of realworld implementation was achieved. Live health data recording effectively recorded and detected vital signs, such as heart rate, blood pressure, and temperature, and it offers real-time monitoring of the wellness of passengers and crowd analytics. The alert classification system handled 90 incidents with 66.7 &#x0025; accuracy, which constitutes an effective rate of differentiating between overcrowding, equipment failures, suspicious behavior, and temperature anomalies whilst responding to critical issues of safety within a short period. The system was experimentally tested to deliver multi-channel notifications by use of LCD displays, GSM messages, and audio signals, which ensures that the operators of the metro are informed in time to take action. The scaleability is due to the modular hardware design where the per station cost can be estimated to make it economical to deploy at a global metro level. This hybrid design will fill the essential holes in the existing metro safety systems by adding predictive analytics with a broad surveillance system. The forecasting of the crowd density 15-30 minutes ahead of time allows the system to prevent the situation instead of responding to the crisis of overcrowding. Concomitant health surveillance provides an important protection of the passenger, especially concerning vulnerable populations and the scenario of pandemic preparation. Additional improvements using deep learning designs, modern computer vision methods and privacysensitive federated learning designs will enhance performance and deployment ability. Intelligent safety systems like the one suggested in this paper will be invaluable infrastructural elements to the safety of public transportation, efficient operations, and effective response to emergencies as the cities are experiencing an everincreasing number of passengers served by metro systems. This prototype has been successfully demonstrated, which confirms the reality of ML-enabled metro safety platforms and preconditions the next generation of intelligent transportation systems, which will focus on the passenger wellbeing due to the data-driven decision support.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Qiu</given-names>, <surname>Fujun</surname></string-name>, Ashwini <string-name><given-names>Kumar</given-names>, <surname>Jiang</surname></string-name> <string-name><given-names>Hu</given-names>, <surname>Poorva</surname></string-name> <string-name><given-names>Sharma</given-names>, <surname>Yu</surname></string-name> Bing <string-name><given-names>Tang</given-names>, <surname>Yang</surname></string-name></person-group> Xu Xiang, and Jie Hong."A Review on Integrating IoT, IIoT, and Industry 4.0: A Pathway to Smart Manufacturing and Digital Transformation." IET Information Security <year>2025</year>, no. <volume>1</volume> (<year>2025</year>): 9275962.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Usman</given-names>, <surname>Muhammad Mansur</surname></string-name></person-group>, <etal>et al.</etal>&#x201C;<article-title>Harnessing IoT and Machine Learning for Sustainable, Smart Urban Environments</article-title>.&#x201D; <source>Applications of Computational Learning and IoT in Smart Road Transportation System. Cham: Springer Nature Switzerland</source>, <year>2025</year>. <fpage>199</fpage>&#x2013;<lpage>214</lpage>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Saini</given-names>, <surname>Komal</surname></string-name></person-group>, and Sandeep Sharma."Smart Road Traffic Monitoring: Unveiling the Synergy of IoT and AI for Enhanced Urban Mobility." ACM Computing Surveys 57.<volume>11</volume> (<year>2025</year>): <fpage>1</fpage>&#x2013;<lpage>45</lpage>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Sharma</given-names>, <surname>Ashutosh</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>Synergistic Integration of 5G-enabled Cloud Native Infrastructures With Advanced Technologies for Urban Safety Enhancement</article-title>.&#x201D; IEEE Transactions on Consumer Electronics (<year>2025</year>).</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Mukhopadhyay</given-names>, <surname>Sayak</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>International Journal of Transport Development and Integration</article-title>.&#x201D; Integration 8.<volume>1</volume> (<year>2024</year>): <fpage>61</fpage>&#x2013;<lpage>77</lpage>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Sahana</surname>, <given-names>D. S.</given-names></string-name>, <etal>et al.</etal> &#x201C;<article-title>Io<string-name><given-names>T-</given-names> <surname>Driven</surname></string-name></person-group> Machine Learning Solutions for Smarter Urban Living</article-title>.&#x201D; <source>Applications of Computational Learning and IoT in Smart Road Transportation System. Cham: Springer Nature Switzerland</source>, <year>2025</year>. <fpage>69</fpage>&#x2013;<lpage>85</lpage>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Mahaveerakannan</surname>, <given-names>R.</given-names></string-name></person-group> &#x201C;<article-title>Comparative Analysis of Deep Learning Algorithms for IoT-based Smart Outdoor Parking Systems using Weighbridge Load Sensors to Enhance Efficiency, Safety, and Convenience in Smart Cities</article-title>.&#x201D; <conf-date>2025</conf-date> 7th International Conference on Inventive Material Science and Applications (ICIMA). IEEE, <conf-date>2025</conf-date>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Alaka</given-names>, <surname>Sodiq</surname></string-name></person-group>."Integrating machine learning and IoT technologies for smart water quality monitoring: Methods, challenges, and future directions." (<year>2025</year>).</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Bala</given-names>, <surname>Anju</surname></string-name></person-group>, Anamika Sharma, and Neetu Singh."An intelligent cloud-enabled system for water quality index prediction of sewage treatment plant using deep learning models." Journal of Water Process Engineering <volume>78</volume> (<year>2025</year>): 108787.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Das</given-names>, <surname>Moupriya</surname></string-name>, <etal>et al.</etal></person-group>&#x201C;<article-title>Synergy of 6G technology and IoT networks for transformative applications</article-title>.&#x201D; International Journal of Communication Systems 37.<volume>14</volume> (<year>2024</year>): e5869.</mixed-citation></ref>
+</ref-list>
+
+</back>
+</conf-article>

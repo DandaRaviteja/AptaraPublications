@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/20/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ITEC-INDIA</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-full-title>
+<conf-normalized-title>Transportation Electrification Conference (ITEC-India), 2025 IEEE International</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-5400-2</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Transportation Electrification Conference (ITEC-India)</conf-name>
+<conf-start iso-8601-date="2025-09-16"><day>16</day><month>09</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-09-19"><day>19</day><month>09</month><year>2025</year></conf-end>
+<conf-loc><city>Pune</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ITEC-India67626.2025.11439823</article-id>
+<xplore-article-id>11439823</xplore-article-id>
+<xplore-issue>11439063</xplore-issue>
+<xplore-pub-id>11438249</xplore-pub-id>
+<title-group>
+<article-title>Adaptive Control of Grid-Integrated Multi-Source DFIG-Based Microgrids Using Variable Step-Size Quasi-Newton Adaptive Filtering</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Suryansh Kumar</given-names> <surname>Pandey</surname></string-name>
+<string-name specific-use="index"><given-names>Suryansh Kumar</given-names> <surname>Pandey</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Shailendra</given-names> <surname>Kumar</surname></string-name>
+<string-name specific-use="index"><given-names>Shailendra</given-names> <surname>Kumar</surname></string-name>
+</name-alternatives>
+<role>Senior Member, IEEE</role>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Harendra Kumar</given-names> <surname>Kamat</surname></string-name>
+<string-name specific-use="index"><given-names>Harendra Kumar</given-names> <surname>Kamat</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Electrical Engineering</institution>
+<institution content-type="institution">Indian Institute of Technology Bhilai</institution>
+</institution-wrap>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-09-19"><day>19</day><month>Sept.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-5400-2/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11439823_ft.xml</self-uri>
+<self-uri content-type="print">CameraReady_174.pdf</self-uri>
+<abstract xml:lang="en">
+<p>A multisource microgrid that comprises two doubly fed induction generators, two solar photovoltaic arrays, and battery energy storage is linked to the grid using an advanced variable step size quasi-Newton (VSS Q-Newton) adaptive filter-based grid side control. At the point of common coupling, the controller systematically manages harmonics, regulates power exchange, and maintains power quality (PQ). The VSS Q-Newton method demonstrates robust convergence, improved resilience to PQ disturbances, and efficient harmonic suppression in comparison to existing adaptive filtering techniques such as conventional Q-Newton, Logarithmic Hyperbolic Cosine Adaptive Filter, Least Mean Square, Least Mean Mixed Norm, and d-q-based control. The proposed controller demonstrates a total harmonic distortion of 1.87 &#x0025;, significantly surpassing traditional control methods. The findings indicate that the VSS Q-Newton method presents a robust solution for real-time management in grid-integrated microgrids incorporating diverse renewable energy sources.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Adaptive filter</kwd>
+<kwd>Doubly Fed Induction Generator (DFIG)</kwd>
+<kwd>Microgrid (MG)</kwd>
+<kwd>Power Quality (PQ)</kwd>
+<kwd>Solar Photovoltaic (SPV) Array</kwd>
+<kwd>Variable Step Size Quasi-Newton (VSS Q-Newton)</kwd>
+<kwd>Wind Energy Conversion System (WECS)</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="1"/>
+<equation-count count="13"/>
+<ref-count count="14"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The growing need for sustainable energy initiatives has drastically accelerated the integration of solar and wind energy in the grid to an unprecedented level. Microgrids (MGs) that combine multiple solar photovoltaic (SPV) arrays, doubly fed induction generator (DFIG)-based wind energy conversion systems (WECS), and battery energy storage (BES) are instrumental in generating sustainable power to the grid <xref ref-type="bibr" rid="ref1">[1]</xref>. However, integrating these diverse distributed resources into the utility grid introduces challenges, particularly concerning control under varying conditions, overall system stability, and power quality (PQ) <xref ref-type="bibr" rid="ref2">[2]</xref>.</p>
+<p>Effective control primarily involves monitoring system performance, anticipating load demands, regulating voltage and frequency, and precisely managing both active and reactive power flow <xref ref-type="bibr" rid="ref3">[3]</xref>. Innovative control strategies that tackle the inherent variability of renewable energy sources and the harmonic distortions caused by nonlinear loads are essential for ensuring seamless grid integration and superior PQ <xref ref-type="bibr" rid="ref4">[4]</xref>. Contemporary adaptive filtering in MG control presents a compelling approach to address these challenges <xref ref-type="bibr" rid="ref5">[5]</xref>. Selfadjusting adaptive filters are particularly advantageous for dynamic MGs because they can automatically adjust their coefficients in response to changing operational environments.</p>
+<p>It is important to note that different adaptive algorithms present distinct trade-offs in terms of convergence speed, computational complexity, and steady-state accuracy <xref ref-type="bibr" rid="ref6">[6]</xref>. Recent developments in adaptive filtering for renewable integration have led to significant enhancements in control performance and PQ. In a grid-connected SPV system, Markala et al. have used a special type of adaptive filter, which is known as the variable step-size logarithmic hyperbolic cosine adaptive filter (VSS-LHCAF), to improve PQ by reducing harmonics, compensating for reactive power, balancing loads, and keeping the grid currents smooth and at a unity power factor. In comparison to traditional least mean square (LMS) and least mean fourth (LMF) algorithms, the proposed method has demonstrated superior convergence characteristics and resulted in reduced total harmonic distortion (THD) in the grid currents <xref ref-type="bibr" rid="ref7">[7]</xref>. Anbulakshmi et al. implemented a method utilising an artificial neural network (ANN) for maximum power point tracking (MPPT) in conjunction with a least mean mixed norm (LMMN) adaptive controller within a grid-tied wind-PV hybrid system, which has attained low mean squared error and variability <xref ref-type="bibr" rid="ref8">[8]</xref>. To improve overall efficiency, it has been claimed that connecting DFIG-based wind turbines with PV arrays using a shared DC bus can help lower the number of parts needed and reduce losses. The advantages of Newton-based optimisation for adaptive filters are evident. This method is well-regarded in control systems due to its enhanced convergence speed compared to gradient descent. Yue et al. developed a Newtonian adaptive filtering method utilising a minimal correntropy criterion (MCC), demonstrating quicker convergence and good resilience to impulsive shocks as compared to conventional MCC-based filters <xref ref-type="bibr" rid="ref9">[9]</xref>. Their investigation confirmed that second-order (Newtonian) methods could significantly enhance the performance of adaptive filters. Furthermore, they conducted an exploration of quasi-Newton methods to overcome the limitations of conventional adaptive algorithms in microgrid applications. Bayat et al. have successfully kept the grid&#x0027;s current THD under 5&#x0025; when the system is subjected to nonlinear loads by implementing a quasi-Newton control strategy that integrates dynamic step size adjustments and concepts from second-order optimisation. This approach led to a decrease in steady-state error and enhanced convergence <xref ref-type="bibr" rid="ref10">[10]</xref>. This study uses a variable step size quasi-Newton (VSS Q-Newton) adaptive filtering system to manage the grid side of a multi-source microgrid, which includes two DFGIs, two SPV arrays, a BES with two-way charging, and non-linear loads. The proposed control enhances convergence rate, stability, and PQ through improved real-time energy management and grid synchronisation across various operational contexts.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>System Configuration and Control Algorithms</title>
+<p><xref ref-type="fig" rid="fig1">Fig. 1</xref> depicts the arrangement of the microgrid. Two DFIGs are linked to a rotor side converter (RSC), which subsequently interfaces with the microgrid on the DC bus located between the bi-directional converters. The RSC serves two primary functions: it converts the variable-frequency power from the rotor side into DC and oversees the transfer of active and reactive power from the DFIG using the field-orientated control (FOC). Within that DC link, there are two SPV arrays along with a BES that features bidirectional charging capabilities. The grid-side converter (GSC) integrates MG into the grid by using the VSS Q-Newton adaptive filter. A non-linear load is connected at the PCC. The GSC regulates the injection of power into the grid and mitigates issues related to PQ.</p>
+<sec id="sec2a">
+<label>A.</label>
+<title>System Overview</title>
+<p>The grid integrated microgrid setup, designed for lowvoltage applications, incorporates typical household loads alongside its distributed generation capabilities. Each DFIG unit, representative of standard small-scale wind turbines, is rated at 7.5 kW and features 2 pole pairs, operating at a synchronous speed of <inline-formula><tex-math notation="LaTeX">$157.07 \text{rad} / \mathrm{s}$</tex-math></inline-formula> (1500 RPM). The BES provides a nominal voltage of 240 V and a capacity of 20 Ah, enabling peak current reduction and bidirectional energy transfer. The SPV array delivers approximately 14.4 kW under standard test conditions <inline-formula><tex-math notation="LaTeX">$\left(25 C, 1000 W / m^{2}\right)$</tex-math></inline-formula>. A comprehensive compilation of all relevant system specifications, including microgrid features and converter components, is provided in the Appendix. These precise design parameters ensure the DC link voltage is maintained at approximately 400 V, facilitating effective grid integration through the GSC.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Rotor Side Control of DFIG</title>
+<p>DFIG employs vector (<inline-formula><tex-math notation="LaTeX">$d q$</tex-math></inline-formula>) control for effective power management. Vector control entails the precise configuration of the stator flux and electromagnetic torque within a spatial framework, alongside the regulation of the <inline-formula><tex-math notation="LaTeX">$d q$</tex-math></inline-formula> axis rotor currents. The coordinate system is aligned with the stator flow vector&#x0027;s rotation. The control method employs sine-PWM integrated with third harmonic injection <xref ref-type="bibr" rid="ref11">[11]</xref>. The Park transformation serves as an important mathematical formulation for analysing DFIG, initiating the control modelling methodology. To calculate the rotor current in the <inline-formula><tex-math notation="LaTeX">$d$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$q$</tex-math></inline-formula> axes, it is essential to ascertain the rotor location <inline-formula><tex-math notation="LaTeX">$\theta_{r}$</tex-math></inline-formula>. The position of rotor angle <inline-formula><tex-math notation="LaTeX">$\theta_{r}$</tex-math></inline-formula> is given as,
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\theta_{r}=\theta_{1}^{*}-\frac{\pi}{2}-\theta_{m} \tag{1}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\theta_{1}^{*}$</tex-math></inline-formula> represents the grid position determined from phase-locked loop (PLL) and <inline-formula><tex-math notation="LaTeX">$\theta_{m}$</tex-math></inline-formula> denotes the position of the DFIG. The calculation of rotor current components can be performed using <inline-formula><tex-math notation="LaTeX">$i_{r}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\theta_{r}$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$i_{d r}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$i_{q r}$</tex-math></inline-formula>, as illustrated in <xref ref-type="fig" rid="fig2">Fig. 2</xref>. The rotor speed reference is established through an optimal tip speed ratio (OTSR) algorithm, enabling the maximum power extraction from the incoming wind speed. The electromagnetic torque (<inline-formula><tex-math notation="LaTeX">$T_{e m}$</tex-math></inline-formula>) and stator reactive power (<inline-formula><tex-math notation="LaTeX">$Q_{s}$</tex-math></inline-formula>) are influenced by the <inline-formula><tex-math notation="LaTeX">$d q$</tex-math></inline-formula> axis rotor currents (<inline-formula><tex-math notation="LaTeX">$i_{d r}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$i_{q r}$</tex-math></inline-formula>) <xref ref-type="bibr" rid="ref12">[12]</xref>. The generation of <inline-formula><tex-math notation="LaTeX">$T_{e m}$</tex-math></inline-formula> is articulated as follows
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+T_{e m}=-\frac{3}{2} * p * \frac{l_{m}}{l_{s}} *\left|\psi_{s}\right\vert * i_{q r} \tag{2}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Configuration of multi-mode ac/dc microgrid.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-1-source.tif"/>
+</fig>
+</p>
+<p>The <inline-formula><tex-math notation="LaTeX">$Q_{s}$</tex-math></inline-formula> consumed by the stator of the DFIG and synchronous speed are as follows:
+<disp-formula id="deqn3-deqn4"><tex-math notation="LaTeX">\begin{gather*}
+Q_{s}=-\frac{3}{2} * \omega_{s} * \frac{l_{m}}{l_{s}} *\left|\psi_{s}\right\vert *\left(i_{d r}-\frac{\left|\vec{\psi}_{s}\right\vert}{l_{m}}\right) \tag{3}\\
+\omega_{s}=\frac{2 * \pi * f}{p} \tag{4}
+\end{gather*}</tex-math></disp-formula></p>
+<p>The <inline-formula><tex-math notation="LaTeX">$\omega_{r}$</tex-math></inline-formula> represents the speed of the DFIG, while <inline-formula><tex-math notation="LaTeX">$\omega_{s}$</tex-math></inline-formula> denotes the synchronous speed. The <inline-formula><tex-math notation="LaTeX">$p$</tex-math></inline-formula> indicates the number of pole pairs, while frequency is represented by <inline-formula><tex-math notation="LaTeX">$f$</tex-math></inline-formula>. The <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula> represents the DFIG leakage reactance and is indicated by <inline-formula><tex-math notation="LaTeX">$\sigma=1-\frac{l_{m}^{2}}{l_{s} l_{r}}$</tex-math></inline-formula></p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>MPPT of SPV array and Bidirectional charging of BES</title>
+<p>The BES and SPV array are interfaced at the DC bus, which lies between the grid-side and rotor-side converters in the proposed microgrid. <xref ref-type="fig" rid="fig3">Fig. 3</xref> illustrates the block diagram governing DC bus voltage (<inline-formula><tex-math notation="LaTeX">$V_{D C}$</tex-math></inline-formula>) regulation. A single-stage maximum power point tracking (MPPT) approach is employed for the SPV array using the incremental conductance (InC) method <xref ref-type="bibr" rid="ref13">[13]</xref>. The battery operates bidirectionally, enabling both charging and discharging, while also stabilizing the DC link voltage. While the battery management system (BMS) monitors DC link voltage levels, power flow coordination among the SPV array, BES, and the grid is managed by the grid-side converter, which is discussed in the next section. The battery management system monitors the voltage levels of the DC link. However, the management of power transmission between the SPV array, BES, and grid is handled by the gridside converter, which will be elaborated on in the following section.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Block representation of control of rsc</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-2-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec2d">
+<label>D.</label>
+<title>Control of Grid Side Converter using VSS Q-Newton</title>
+<p>The grid-side control of the MG includes renewable energy sources, battery systems, and non linear loads. The presence of unbalanced or balanced non-linear demands in three-phase grid, coupled with the variability of solar and wind energy generation, may adversely affect the power quality of the grid. Achieving optimal PQ requires addressing unexpected disturbances effectively. Adaptive filters are employed to achieve this objective. The process of stochastic gradient descent exemplifies how numerous adaptive filters modify their weights which is illustrated as:
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+w(n+1)=w(n)+\varepsilon \nabla_{w(n)} J(n) \tag{5}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\mathrm{w}(\mathrm{n})$</tex-math></inline-formula> is the equivalent weight, <inline-formula><tex-math notation="LaTeX">$J(n)$</tex-math></inline-formula> is the cost function at nth iteration respectively. The steady-state error and tracking speed depend on the two variables <inline-formula><tex-math notation="LaTeX">$\varepsilon$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$\nabla_{w(n)} J(n)$</tex-math></inline-formula> respectively. The suggested VSS Q-Newton adaptive filter&#x0027;s weight update mechanism is comparable to the adaptive quasi-LMS/Newton approach, which makes use of the inverse correlation matrix <xref ref-type="bibr" rid="ref14">[14]</xref>. In contrast to other methods, this methodology uses a regularised version of the matrix inverse estimate that is updated continuously throughout time. This change lowers the steady-state error by enhancing the initial convergence process and lessening the impact of the matrix inverse during the convergence phase. <xref ref-type="fig" rid="fig4">Fig. 4</xref> shows the block diagram representation of VSS-Q-Newton based GSC control.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Block diagram of bes and spv array</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-3-source.tif"/>
+</fig>
+</p>
+</sec>
+<sec id="sec2e">
+<label>E.</label>
+<title>Control of Grid Side Converter (GSC) using VSS Q-Newton</title>
+<p>The formula for adjusting the weight vector in the proposed VSS-Q-Newton algorithm is expressed as:
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+w_{n l a a b c}(n+1)=w_{n l a a b c}(n)+\mu(n) u_{a b c}(n) e_{a b c}(n) \Phi_{a b c}(n) \tag{6}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\mu(n)$</tex-math></inline-formula> denotes the Variable Step Size (VSS) and is adapted using the following rule:
+<disp-formula id="deqn7"><tex-math notation="LaTeX">\begin{equation*}
+\mu(n)=\beta \mu(n-1)+\varsigma \exp [-\mu(n-1)] \mu(n-1) \tag{7}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$0&lt;\beta&lt;1$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$0&lt;\varsigma&lt;1$</tex-math></inline-formula> are the forgetting factors to adjust the step size <inline-formula><tex-math notation="LaTeX">$\mu(n)$</tex-math></inline-formula>. In this adaptation rule, <inline-formula><tex-math notation="LaTeX">$\beta$</tex-math></inline-formula> (set to 0.98) acts as a decaying factor for the previous step-size, ensuring smooth adaptation. &#x2713; (set to 0.005) controls the influence of the exponential term, which is vital for balancing rapid convergence during transient phases with a low steady-state error. The initial step-size, <inline-formula><tex-math notation="LaTeX">$\mu(0)$</tex-math></inline-formula>, was empirically determined and set to 0.1, providing an appropriate starting point for effective adaptation across various operational conditions. The <inline-formula><tex-math notation="LaTeX">$u_{a b c}(n)$</tex-math></inline-formula> denotes the three-phase unit-templates respectively and is derived using the phase voltages (<inline-formula><tex-math notation="LaTeX">$v_{g a}, v_{g b}$</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX">$v_{g c}$</tex-math></inline-formula>) and voltage peak value (<inline-formula><tex-math notation="LaTeX">$V_{g t}^{*}$</tex-math></inline-formula>) at the PCC which is given as,
+<disp-formula id="deqn8"><tex-math notation="LaTeX">\begin{equation*}
+V_{g t}^{*}=\sqrt{\frac{2}{3}\left(v_{g a}^{2}+v_{g b}^{2}+v_{g c}^{2}\right)} \tag{8}
+\end{equation*}</tex-math></disp-formula>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Representation of grid side control using vss q-newton algorithm</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-4-source.tif"/>
+</fig>
+</p>
+<p>The unit template <inline-formula><tex-math notation="LaTeX">$u_{a b c}(n)$</tex-math></inline-formula> is calculated as,
+<disp-formula id="deqn9"><tex-math notation="LaTeX">\begin{equation*}
+u(n)_{a b c}=\frac{V_{g, a b c}}{V_{g t}^{*}} \tag{9}
+\end{equation*}</tex-math></disp-formula>
+Where, <inline-formula><tex-math notation="LaTeX">$e_{a b c}(n)$</tex-math></inline-formula> denotes the error between the current drawn by the non-linear load (<inline-formula><tex-math notation="LaTeX">$i_{\text {nlabc }}$</tex-math></inline-formula>) and the computed weight equivalent of the current drawn by the nonlinear load, it is given as,
+<disp-formula id="deqn10"><tex-math notation="LaTeX">\begin{equation*}
+e_{a b c}(n)=i_{n l a b c}(n)-w_{n l a b c}(n) * u_{a b c}(n) \tag{10}
+\end{equation*}</tex-math></disp-formula></p>
+<p><inline-formula><tex-math notation="LaTeX">$\phi_{a b c}(n)$</tex-math></inline-formula> represents a time-varying regularized matrix inverse. It is a regularisation factor aimed at enhancing noise robustness and improving convergence performance. It is denoted as:
+<disp-formula id="deqn11"><tex-math notation="LaTeX">\begin{equation*}
+\begin{array}{r}
+\Phi_{a b c}(n)=\frac{1}{1-\lambda}\left\{\phi_{a b c}(n-1)\right. \\
+\left.-\frac{\phi_{a b c}(n-1) u_{a b c}(n)^{*} u_{a b c}^{t}(n) \phi_{a b c}(n-1)}{u_{a b c}^{t}(n) \phi_{a b c}(n-1)^{*} u_{a b c}(n)^{*} \frac{1-\lambda}{\lambda}}\right\}
+\end{array} \tag{11}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\lambda$</tex-math></inline-formula> helps control the rate at which the inverse matrix estimate adapts. The three-phase equivalent weight of the current drawn by the nonlinear load is stated as <inline-formula><tex-math notation="LaTeX">$w_{\text {nlabc }}(n)$</tex-math></inline-formula>. The net weight equivalent (<inline-formula><tex-math notation="LaTeX">$w_{\text {pnet }}$</tex-math></inline-formula>) of the reference grid current (<inline-formula><tex-math notation="LaTeX">$i_{g a b c}$</tex-math></inline-formula>) is as follows:
+<disp-formula id="deqn12"><tex-math notation="LaTeX">\begin{equation*}
+w_{p n e t}=w_{n l a b c}-w_{w i n d F F}+w_{p v F F}+w_{p B M S} \tag{12}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$w_{\text {windFF }}, w_{P V F F}$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$w_{F F B M S}$</tex-math></inline-formula> are feed-forward terms (FF) of wind, SPV and battery. Consequently, the power fluctuations in the SPV array, DFIG-based WECS, and battery during charging and discharging contribute to variations in the power quality of the microgrid, which in turn causes variations in the <inline-formula><tex-math notation="LaTeX">$i_{g a b c}$</tex-math></inline-formula>. To address this situation and improve robustness and efficiency, FF terms incorporating battery, photovoltaic, and wind power is utilised, as expressed as,
+<disp-formula id="deqn13-deqn14"><tex-math notation="LaTeX">\begin{align*}
+W_{D F I G, F F} &amp; =\frac{2 *\left(P_{D F I G a}+P_{D F I G b}\right)}{3 V_{g t}^{*}} \tag{13}\\
+W_{D F I G, F F} &amp; =\frac{2 *\left(P_{D F I G a}+P_{D F I G b}\right)}{3 V_{g t}^{*}} \tag{14}
+\end{align*}</tex-math></disp-formula></p>
+<p>The FF term of the battery regulates its charging and discharging processes. The FF term is upheld at full discharge by subtracting the battery&#x0027;s rated ampere-hour (A-h) capacity once the state of charge (SoC) exceeds 80 &#x0025;. Incorporating the battery&#x0027;s rated ampere-hour (A-h) capacity maintains the final discharge duration when the state of charge (SoC) falls below 30 &#x0025;. It removes half of the <inline-formula><tex-math notation="LaTeX">$\mathrm{A}-\mathrm{h}$</tex-math></inline-formula> capacity from the FF term. These are the conditions under which the battery is neither forcefully charged nor discharged. To induce charging, conditions of state of charge below 30 &#x0025; are applied to the battery, while for discharging, conditions above 80 &#x0025; are utilised. The reference grid current (<inline-formula><tex-math notation="LaTeX">$i_{\text {gabc }}^{*}$</tex-math></inline-formula>) is as follows:
+<disp-formula id="deqn15"><tex-math notation="LaTeX">\begin{equation*}
+i_{g a}^{*}=w_{\text {pnet }} * u_{p a}; i_{g b}^{*}=w_{\text {pnet }} * u_{p b}; i_{g c}^{*}=w_{\text {pnet }} * u_{p c} \tag{15}
+\end{equation*}</tex-math></disp-formula></p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Simulated Results</title>
+<p>A model of a multisource grid interactive <inline-formula><tex-math notation="LaTeX">$\text{AC} / \text{DC} \text{mi}$</tex-math></inline-formula>-crogrid has been created and simulated utilising the MATLAB/Simulink R2020a environment. This section outlines the results from the simulation, highlighting the dynamic performance of a microgrid under different conditions. In <xref ref-type="fig" rid="fig5">Fig. 5</xref> The initial result presents the VDC, succeeded by the parameters of the grid, non-linear load, battery, SPV array, and DFIG based WECS respectively. At time <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=1.4 ~\mathrm{s}$</tex-math></inline-formula>, the irradiation is increased from <inline-formula><tex-math notation="LaTeX">$800 ~\mathrm{W} / \mathrm{m}^{2}$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$1000 ~\mathrm{W} / \mathrm{m}^{2}$</tex-math></inline-formula>, leading to an increase in the grid side converter current (ivgsc) and the igabc. At <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=1.6 ~\mathrm{s}$</tex-math></inline-formula>, the wind speed increases from <inline-formula><tex-math notation="LaTeX">$9 ~\mathrm{m} / \mathrm{s}$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$10 ~\mathrm{m} / \mathrm{s}$</tex-math></inline-formula>, leading to a change in DFIG speed from 141.3rad/s to 162.4rad/s. With a synchronous speed of 1500 RPM (157.07) rad/s, the DFIG shifts its operating region from below synchronous speed operation to above synchronous speed operation. It is also observed from the reversal of rotor current of DFIGa and DFIGb. At time <inline-formula><tex-math notation="LaTeX">$\mathrm{t}=2.1 ~\mathrm{s}$</tex-math></inline-formula>, the battery transitions from charging to discharging. The increase of current ivgsc and igabc is also evident. Between 2.4 and 2.6 seconds, an unbalancing of the load takes place, leading to a decrease in the equivalent weight of the adaptive filter wnla and wnlabc. <xref ref-type="fig" rid="fig6">Fig. 6</xref> shows the power flow and comparative analysis of VSS Q-Newton with different grid-side control algorithms. In power flow it is observed that with the change in irradiance, wind speed and change in operation of battery (charging-discharging mode), the grid power also changes. The comparison of various control algorithms with VSS Q-Newton shows that VSS Q-Newton consistently reaches a solution faster during the changes caused by an unbalanced load. The FFT analysis shows the total harmonic distortion (THD) of inlabc, and then it shows the THD of the grid current using VSS Q-Newton, traditional Q-Newton, LHCAF, LMMN, LMS, and d-q control methods, in that order. The VSS Q-Newton algorithm demonstrates superior performance relative to traditional Q-Newton, LHCAF, LMMN, LMS, and d-q-based control methods. The d-q based control shows 3.15 &#x0025; THD of grid current. With a THD of 2.94 &#x0025;, LMS shows some improvement compared to dq-based control. Attaining a total harmonic distortion of 2.56 &#x0025;, LMMN shows improved performance relative to LMS. With a THD of 2.38 &#x0025;, LHCAF shows improved performance compared to LMMN. Performance of the conventional Q-Newton-based control exceeds that of LHCAF, reaching the THD of 2.27 &#x0025;. The VSS Q-Newton performs better than Q-Newton, LHCAF, LMMN, LMS, and <inline-formula><tex-math notation="LaTeX">$d q$</tex-math></inline-formula> based control by achieving a THD of 1.87 &#x0025;. To further validate the proposed VSS Q-Newton algorithm, its performance was quantitatively compared against conventional Q-Newton, LHCAF, LMMN, LMS, and d-q based control methods. The comparison focused on the THD in the grid current and the estimated convergence time following load disturbances.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Simulated result of microgrid with subjected to various transitions</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-5-source.tif"/>
+</fig>
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Power flow and comparative analysis of vss q-newton based gsc</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-fig-6-source.tif"/>
+</fig></p>
+<p>The THD values were obtained from FFT analysis of the grid current under non-linear loading conditions. For convergence time, the recovery period after the unbalancing of load <inline-formula><tex-math notation="LaTeX">$t=2.6 ~\mathrm{s}$</tex-math></inline-formula>, as shown in <xref ref-type="fig" rid="fig6">Fig. 6</xref> is analysed in <xref ref-type="table" rid="table1">Table 1</xref>.</p>
+<p><xref ref-type="table" rid="table1">Table I</xref> summarizes the comparative results for THD and convergence time respectively.
+<table-wrap id="table1">
+<label>Table I</label>
+<caption>
+<title>Comparative analysis of algorithms: grid current thd and convergence time</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11439823-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="3"/>
+</colgroup>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Grid Current THD (&#x0025;)</th>
+<th>Convergence Time (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VSS Q-Newton</td>
+<td>1.87</td>
+<td>0.21</td>
+</tr>
+<tr>
+<td>Traditional Q-Newton</td>
+<td>2.27</td>
+<td>0.27</td>
+</tr>
+<tr>
+<td>LHCAF</td>
+<td>2.38</td>
+<td>0.30</td>
+</tr>
+<tr>
+<td>LMMN</td>
+<td>2.56</td>
+<td>0.33</td>
+</tr>
+<tr>
+<td>LMS</td>
+<td>2.94</td>
+<td><inline-formula><tex-math notation="LaTeX">$&gt;0.40$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>d-q control</td>
+<td>3.15</td>
+<td>Not Converged</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>As presented in <xref ref-type="table" rid="table1">Table I</xref>, the VSS Q-Newton algorithm consistently demonstrates the lowest THD and significantly faster convergence compared to the other tested methods. This quantitative and qualitative comparison highlights the superior performance of the proposed approach in maintaining power quality and ensuring dynamic stability in grid-integrated microgrids.</p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Conclusion</title>
+<p>Integration of multiple renewable sources has been shown into grid with advanced control techniques to address problems with PQ, stability, and adaptive synchronisation. This work shows that in the management of grid-integrated systems including numerous DFIGs, SPV arrays, and BES, the VSS Q-Newton adaptive filtering method has outperformed conventional Q-Newton, LHCAF, LMS, LMMN, and dq-based grid side control. All while maintaining grid current THD at 1.87 &#x0025; under non-linear loading, the suggested method dynamically adjusts step sizes and low steady-state error. A comparative analysis with alternative grid control techniques has demonstrated the superiority of the VSS Q-Newton based algorithm. The algorithm effectively integrates multiple DFIGs and SPV arrays, ensuring UPF operation and modular scalability, thereby addressing significant gaps in the control of multi-source MGs. Future investigations should delve into its implementation in more extensive hybrid systems and its integration with AI-driven predictive maintenance frameworks to further bolster resilience in smart grid infrastructures.</p>
+</sec>
+</body>
+<back>
+<app-group>
+<app id="appa">
+<title>Appendix</title>
+<p>The simulation parameters for the microgrid system are detailed below:
+<list list-type="bullet">
+<list-item><label>&#x2022;</label><p><bold>PV Array:</bold> Series strings: 15; Parallel strings: 6; MPPT Boost Converter Inductance: 3 mH; PV Source Capacitance: <inline-formula><tex-math notation="LaTeX">$40 \mu ~\mathrm{F}$</tex-math></inline-formula>; Short Circuit Current (per cell): 8.23 A; Open Circuit Voltage (per cell): 32.9 V; Power at MPPT: 14.44 kW.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Battery Energy Storage (BES):</bold> Nominal Voltage: 240 V; Battery Capacity: 20 Ah.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Doubly Fed Induction Gsenerator (DFIG):</bold> Rated Power: 7.5 kW; Number of Poles: 4; Pitch Angle <inline-formula><tex-math notation="LaTeX">$(\beta): 0^{\circ}$</tex-math></inline-formula>; Synchronous Speed: <inline-formula><tex-math notation="LaTeX">$157.07 \text{rad} / \mathrm{s}$</tex-math></inline-formula>; Leakage Inductance <inline-formula><tex-math notation="LaTeX">$\left(l_{s}\right): 0.09 \text{mH}$</tex-math></inline-formula>; Magnetizing Inductance <inline-formula><tex-math notation="LaTeX">$\left(l_{m}\right): 2.5 \text{mH}$</tex-math></inline-formula>; Stator Resistance <inline-formula><tex-math notation="LaTeX">$\left(R_{s}\right): 0.282 ~\mathrm{m} \Omega$</tex-math></inline-formula>.</p></list-item>
+<list-item><label>&#x2022;</label><p><bold>Grid and DC Bus:</bold> Grid Voltage (RMS): 415 V; Grid Frequency: 50 Hz; DC Bus Capacitance <inline-formula><tex-math notation="LaTeX">$\left(C_{d c}\right): 5400 \mu ~\mathrm{F}$</tex-math></inline-formula>.</p></list-item>
+</list></p>
+</app>
+</app-group>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Das</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Singh</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Chakraborty</surname></string-name></person-group>, &#x201C;<article-title>Seamless multimode control and operation of a dfig-spva-bes-dg based hybrid power conversion system with multiple transition states</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Industrial Informatics</source>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. K.</given-names> <surname>Pandey</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Kumar</surname></string-name></person-group>, &#x201C;<article-title>Grid-integrated doubly fed wind energy conversion system with photovoltaic array using logarithmic hyperbolic adaptive control</article-title>,&#x201D; <source>Computers and Electrical Engineering</source>, vol. <volume>123</volume>, no. <issue>D</issue>, p. <fpage>110269</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. W.</given-names> <surname>Gao</surname></string-name></person-group>, ed., <chapter-title>Basic Concepts and Control Architecture of Microgrids</chapter-title>. <source>Energy Storage for Sustainable Microgrid</source>, <publisher-name>Academic Press</publisher-name>,<year>2015</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>V.</given-names> <surname>Gali</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Gupta</surname></string-name>, <string-name><given-names>M. J.</given-names> <surname>Ahmadi</surname></string-name>, <string-name><given-names>M. S.</given-names> <surname>Morey</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Kural</surname></string-name>, and <string-name><given-names>P. K.</given-names> <surname>Jamwal</surname></string-name></person-group>, &#x201C;<article-title>Experimental investigation of adaptive multi-generalized integrator-based controller for electronically interfaced hybrid microgrid system</article-title>,&#x201D; <source>Renewable and Sustainable Energy Reviews</source>, vol. <volume>207</volume>, p. <fpage>114965</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>L.</given-names> <surname>Tan</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Jiang</surname></string-name></person-group>, <chapter-title>Adaptive Filters and Applications</chapter-title>. <source>Digital Signal Processing</source> (<edition>Third</edition> Edition), <publisher-name>Academic Press</publisher-name>,<year>2019</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.-L.</given-names> <surname>Lee</surname></string-name>, <string-name><given-names>C.-H.</given-names> <surname>Lin</surname></string-name>, <string-name><given-names>C.-H.</given-names> <surname>Chang</surname></string-name>, <string-name><given-names>H.-D.</given-names> <surname>Liu</surname></string-name>, and <string-name><given-names>C.-C.</given-names> <surname>Chen</surname></string-name></person-group>, &#x201C;<article-title>A novel hybrid energy storage system with an adaptive digital filter-based energy management strategy for electric vehicles</article-title>,&#x201D; <source specific-use="IEEE">IEEE Transactions on Transportation Electrification</source>, vol. <volume>10</volume>, pp. <fpage>5131</fpage>&#x2013;<lpage>5142</lpage>, <month>Sept.</month> <year>2024</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Karthik</surname></string-name>, <string-name><given-names>V. R. N.</given-names> <surname>N</surname></string-name>, and <string-name><given-names>A. K.</given-names> <surname>Panda</surname></string-name></person-group>, &#x201C;<article-title>A variable step size logarithmic hyperbolic cosine adaptive filtering-based control scheme for grid-tied pv-dstatcom to enhance power quality</article-title>,&#x201D; in <source specific-use="IEEE">2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES), (Jaipur, India)</source>, pp. <fpage>1</fpage>&#x2013;<lpage>6</lpage>, <conf-date>2022</conf-date>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>V.</given-names> <surname>Anbulakshmi</surname></string-name>, <string-name><given-names>G. S.</given-names> <surname>Priya</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Punitha</surname></string-name></person-group>, &#x201C;<article-title>Lmmn based adaptive control method and ann based mppt method for grid tied wind-pv system</article-title>,&#x201D; <source>International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering</source>, vol. <volume>8</volume>, pp. <fpage>2401</fpage>&#x2013;<lpage>2413</lpage>, <month>Nov.</month> <year>2019</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Yue</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Qu</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Zhao</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Wang</surname></string-name></person-group>, &#x201C;<article-title>Newtonian-type adaptive filtering based on the maximum correntropy criterion</article-title>,&#x201D; <source>Entropy</source>, vol. <volume>22</volume>, p. <fpage>922</fpage>, <month>Aug.</month> <year>2020</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Bayat</surname></string-name>, <string-name><given-names>M. M.</given-names> <surname>Koushki</surname></string-name>, <string-name><given-names>A. A.</given-names> <surname>Ghadimi</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Tostado-V&#x00E9;liz</surname></string-name>, and <string-name><given-names>F.</given-names> <surname>Jurado</surname></string-name></person-group>, &#x201C;<article-title>Comprehensive enhanced newton raphson approach for power flow analysis in droop-controlled islanded ac microgrids</article-title>,&#x201D; <source>Int. J. Electr. Power Energy Syst.</source>, vol. <volume>143</volume>, p. <fpage>108493</fpage>, <month>Aug.</month> <year>2022</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S. K.</given-names> <surname>Pandey</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Verma</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kumar</surname></string-name>, and <string-name><given-names>P.</given-names> <surname>Agnihotri</surname></string-name></person-group>, &#x201C;<article-title>Comparative analysis of anfis and pi based control of dfig for wind power generation with grid-integration</article-title>,&#x201D; in <source specific-use="IEEE">2023 9th IEEE India International Conference on Power Electronics (IICPE)</source>, pp. <fpage>1</fpage>&#x2013;<lpage>7</lpage>, <conf-date>2023</conf-date>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="book" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Abad</surname></string-name>, <string-name><given-names>J.</given-names> <surname>L&#x00F3;pez</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Rodr&#x00ED;guez</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Marroyo</surname></string-name>, and <string-name><given-names>G.</given-names> <surname>Iwanski</surname></string-name></person-group>, <source>Doubly fed induction machine: modelling and control for wind energy generation</source>. <publisher-name>John Wiley &#x0026; Sons</publisher-name>, <year>2011</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. A.</given-names> <surname>Shamshuddin</surname></string-name>, <string-name><given-names>T. S.</given-names> <surname>Babu</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Dragicevic</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Miyatake</surname></string-name>, and <string-name><given-names>N.</given-names> <surname>Rajasekar</surname></string-name></person-group>, &#x201C;<article-title>Priority-based energy management technique for integration of solar pv, battery, and fuel cell systems in an autonomous dc microgrid</article-title>,&#x201D; <source>Electric Power Components and Systems</source>, vol. <volume>45</volume>, pp. <fpage>1881</fpage>&#x2013;<lpage>1891</lpage>, <month>Jan.</month> <year>2018</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Bekrani</surname></string-name> and <string-name><given-names>H.</given-names> <surname>Zayyani</surname></string-name></person-group>, &#x201C;<article-title>A variable step-size regularization-based quasi-newton adaptive filter for system identification</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>12</volume>, pp. <fpage>10059</fpage>&#x2013;<lpage>10066</lpage>, <year>2024</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

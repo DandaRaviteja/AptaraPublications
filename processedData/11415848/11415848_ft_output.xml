@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/27/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00247</article-id>
+<xplore-article-id>11415848</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>Agentic AI for Disease-Aware Adaptive Multi-Omics Embedding</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1" corresp="yes">
+<name-alternatives>
+<string-name specific-use="display"><given-names>James</given-names> <surname>Li</surname></string-name>
+<string-name specific-use="index"><given-names>James</given-names> <surname>Li</surname></string-name>
+</name-alternatives>
+<email>x135@georgetown.edu</email>
+<xref ref-type="aff" rid="aff1"/>
+<xref ref-type="corresp" rid="corresp1">*</xref>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Andrew</given-names> <surname>Woods</surname></string-name>
+<string-name specific-use="index"><given-names>Andrew</given-names> <surname>Woods</surname></string-name>
+</name-alternatives>
+<email>andrew.woods.jason@gmail.com</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Ao</given-names> <surname>Yuan</surname></string-name>
+<string-name specific-use="index"><given-names>Ao</given-names> <surname>Yuan</surname></string-name>
+</name-alternatives>
+<email>ay312@georgetown.edu</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<author-comment id="corresp1"><p>* Corresponding to</p></author-comment>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Biostatistics, Bioinforamtics and Biomathematics</institution>
+<institution content-type="institution">Georgetown University</institution>
+</institution-wrap>
+<city>Washington</city>
+<state>DC</state>
+<country>USA</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">11<sup>th</sup> Grade, Winston Churchill High School</institution>
+</institution-wrap>
+<city>Potomac</city>
+<state>MD</state>
+<country>USA</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>2033</fpage>
+<lpage>2039</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415848_ft.xml</self-uri>
+<self-uri content-type="print">813200c033.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Biomarker discovery is a key enabler of precision medicine, yet omics analyses, here exemplified by bulk RNA-seq, which remain hampered by ultra-high dimensional data and manual, ad hoc preprocessing. We address the embedding bottleneck by introducing an agentic AI framework that dynamically guides embeddings with pathway knowledge. The agent plans, acts, and verifies in a self-refining loop: profiling data; selecting normalization; choosing an embedding family (a fast linear baseline for rapid iteration and transformer-based encoders as the target representation); and applying quantitative checks (e.g., stability and pathway concordance). Critically, the agent prioritizes pathway sets relevant to the current research focus, adjusting embedding weights or encoder conditioning so the representation emphasizes the most pertinent biology; in this study we demonstrate the mechanism using general pathway resources, while the same orchestration supports focused, disease- or mechanism-specific pathways. The framework is embedding-agnostic and generalizes to multi-omics, aiming to couple statistical representation with biological prior knowledge to improve reproducibility, robustness, and downstream biomarker discovery. We standardize evaluation (splits, seeds, metrics, artifact logging) and show that agent-driven, pathway-guided embeddings provide a stronger substrate for consistent analysis than manual baselines.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>agentic AI</kwd>
+<kwd>biomarker discovery</kwd>
+<kwd>precision medicine</kwd>
+<kwd>omics embedding</kwd>
+<kwd>pathway enrichment</kwd>
+</kwd-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="2"/>
+<equation-count count="9"/>
+<ref-count count="23"/>
+<page-count count="7"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>Biomarker discovery underpins precision medicine, enabling robust diagnostic, prognostic, and predictive signatures that guide individualized care and ultimately improve healthcare outcomes <xref ref-type="bibr" rid="ref1">[1]</xref>, <xref ref-type="bibr" rid="ref2">[2]</xref>. Omics technologies, i.e., genomics, transcriptomics, proteomics, metabolomics and etc., provide the molecular breadth necessary to discover such biomarkers at scale; in this work we use bulk RNA-seq as a representative modality while emphasizing methods that generalize to multi-omics settings <xref ref-type="bibr" rid="ref3">[3]</xref>, <xref ref-type="bibr" rid="ref4">[4]</xref>.</p>
+<p>Bulk RNA-seq data are ultra-high dimensional, noisy, and typically sample-limited; practical workflows must address normalization, variance stabilization, and batch effects to ensure reliable modeling <xref ref-type="bibr" rid="ref5">[5]</xref>&#x2013;<xref ref-type="bibr" rid="ref6"/><xref ref-type="bibr" rid="ref7">[7]</xref>. A pivotal step is embedding: mapping expression profiles into compact representations that preserve biological structure while suppressing noise. Classical linear methods such as principal component analysis (PCA) remain common in bulk RNA-seq pipelines because they are fast, transparent, and standardizable for exploratory analysis and quality control <xref ref-type="bibr" rid="ref5">[5]</xref>; recent disease-focused bulk studies continue to use PCA as a practical baseline <xref ref-type="bibr" rid="ref8">[8]</xref>. However, linear embeddings are limited in capturing nonlinear gene-gene dependencies and context-specific regulation. This motivates learned embeddings based on transformers, which provide contextual representations capable of modeling complex feature interactions, a natural fit for high-dimensional expression matrices (e.g., TabTransformer) <xref ref-type="bibr" rid="ref9">[9]</xref>. In our experiments, PCA is used only as a fast illustrative example; the target direction is transformer-based embedding.</p>
+<p>A core limitation of purely data-driven embeddings is that they treat genes as independent features, ignoring known biological structure. In reality, genes act within pathways and regulatory programs; embedding should reflect this structure. Incorporating gene-set enrichment and curated resources (e.g., GSEA, KEGG) can adjust embeddings toward biologically meaningful axes, improving interpretability and robustness for downstream discovery <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref11">[11]</xref>. Lightweight instantiations include weighted PCA (wPCA) that emphasizes pathway-linked gene sets, while more advanced designs fuse pathway activity profiles with learned encoders. The unifying goal is to couple statistical representation with biological prior knowledge to support reliable biomarker discovery.</p>
+<p>Despite progress, embedding is often manual and ad hoc: practitioners hand-select normalization schemes (e.g., DESeq2&#x0027;s VST), choose an embedding family and dimensionality, optionally integrate pathway scores, and iterate until diagnostics look satisfactory: decisions that are dataset-specific and hard to reproduce <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref6">[6]</xref>. The bottleneck is therefore not only which embedding to use, but how to orchestrate and adapt embedding to the biological question at hand.</p>
+<p>We advocate agentic AI for pathway-guided embedding orchestration. Our agent plans, acts (invokes tools), and verifies in a self-refining loop aligned with modern reason-and-act paradigms <xref ref-type="bibr" rid="ref12">[12]</xref>: (i) profile data (library sizes, sparsity, confounders); (ii) select preprocessing (normalization, transformation, filtering); (iii) choose an embedding family (a fast linear baseline for rapid iteration or transformer-based encoders for richer structure); (iv) run quality checks (variance explained, resampling stability, neighborhood/cluster coherence, and pathway concordance); and critically, (v) dynamically prioritize pathway sets relevant to the current research focus, adjusting embedding weights or encoder conditioning so the representation emphasizes biologically pertinent programs. While we demonstrate with general pathway resources at present, the same orchestration naturally supports focus-specific pathway targeting (e.g., disease area, mechanism, or hypothesis), allowing embeddings to adapt as scientific questions evolve.</p>
+<p>The primary contribution of this work is a dynamic, pathway-guided agentic orchestration of omics embeddings, wherein the agent selects and re-weights pathway knowledge to steer embeddings toward the most relevant biology for the current research focus. Second, we present an embedding-agnostic framework that uses PCA only as a fast demonstrator while targeting transformer-based embeddings as the main representation going forward. Third, we standardize evaluation (splits, seeds, metrics, artifact logging) to improve consistency, robustness, and reproducibility relative to manual baselines in bulk RNA-seq settings, ultimately enabling more reliable biomarker discovery for precision medicine.</p>
+<p>The organization of the rest of this paper is: <xref ref-type="sec" rid="sec2">Section II</xref> surveys related work on RNA-seq workflows, transformer-based tabular models, enrichment-aware representations, agentic orchestration, and biomarkers. <xref ref-type="sec" rid="sec3">Section III</xref> details the agentic framework and verification gates, including dynamic pathway selection. <xref ref-type="sec" rid="sec4">Section IV</xref> describes datasets and evaluation protocol. <xref ref-type="sec" rid="sec5">Section V</xref> presents experiments and ablations. <xref ref-type="sec" rid="sec6">Section VI</xref> concludes.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>The analysis of bulk RNA-seq and related omics data has benefited from a decade of refinement in best practices for normalization, batch correction, and statistical modeling <xref ref-type="bibr" rid="ref5">[5]</xref>&#x2013;<xref ref-type="bibr" rid="ref6"/><xref ref-type="bibr" rid="ref7">[7]</xref>, but these workflows remain largely manual. While workflow systems such as <italic>Nextflow</italic> and <italic>Snakemake</italic> have streamlined reproducibility, they provide static rule-based execution rather than adaptive orchestration informed by the biological question at hand <xref ref-type="bibr" rid="ref13">[13]</xref>.</p>
+<p>A parallel stream of research focuses on learned embeddings for transcriptomics. Beyond PCA, deep autoencoders and variational autoencoders have been applied to cancer transcriptomes to capture nonlinear structure <xref ref-type="bibr" rid="ref14">[14]</xref>. More recently, pretrained models such as scBERT <xref ref-type="bibr" rid="ref15">[15]</xref> and Geneformer <xref ref-type="bibr" rid="ref16">[16]</xref> extend transformer architectures to single-cell and bulk expression data, highlighting the potential of foundation models for contextual embeddings. These approaches, however, remain data-driven and do not dynamically incorporate pathway priors.</p>
+<p>Efforts to build pathway-aware embeddings attempt to bridge this gap. Pathway2Vec <xref ref-type="bibr" rid="ref17">[17]</xref> and DeepPath <xref ref-type="bibr" rid="ref18">[18]</xref> embed gene-pathway graphs directly, while other designs introduce gene-set regularization into deep autoencoders <xref ref-type="bibr" rid="ref19">[19]</xref>. These methods improve interpretability but are fixed and preconfigured; they lack the ability to adaptively prioritize pathways relevant to the dataset or phenotype under study.</p>
+<p>In parallel, the rise of agentic AI and LLM-driven orchestration has enabled computational agents that plan, act, and verify in iterative loops <xref ref-type="bibr" rid="ref12">[12]</xref>. Plan-and-Solve prompting <xref ref-type="bibr" rid="ref20">[20]</xref> and frameworks such as LangChain and LangGraph <xref ref-type="bibr" rid="ref21">[21]</xref> make such orchestration practical, while biomedical LLMs such as BioGPT <xref ref-type="bibr" rid="ref22">[22]</xref> and Galactica <xref ref-type="bibr" rid="ref23">[23]</xref> demonstrate the feasibility of pretrained models specialized for scientific text. Yet these agentic systems have not been applied to omics workflows, nor to dynamically guide embedding strategies using pathway knowledge.</p>
+<p>Our work is distinct in combining these directions: an agentic AI orchestration layer that structures and adapts the workflow, and an AI-powered dynamic pathway-weighted embedding that tunes representations to the most relevant biology. This positions our framework as a bridge between static omics pipelines, enrichment-aware embeddings, and the emerging ecosystem of agentic AI systems..</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<sec id="sec3a">
+<label>A.</label>
+<title>Agentic Ai Framework and RNA-Seq Instantiation</title>
+<p>We frame omics embedding as a reason-and-act process executed by cooperating agents rather than a fixed script. As shown in the <xref ref-type="fig" rid="fig1">Fig. 1</xref>, a lightweight graph controller (conceptually akin to LangChain/LangGraph) routes artifacts between agents and is powered by an LLM backbone that plans, invokes tools, and verifies outputs. Four agents realize the core method.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>Llm-driven langgraph/langchain orchestration for adaptive pathway-aware embedding</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-fig-1-source.tif"/>
+</fig>
+<list list-type="ordered">
+<list-item><label>1)</label><p>Data Agent.</p>
+<p>The Data Agent ingests raw bulk RNA-seq counts and metadata, selects normalization, and performs differential expression. In our RNA-seq instantiation, it applies variancestabilizing normalization and identifies an interpretable, compact set of LCD-responsive genes (the &#x201C;working set&#x201D;). This delivers a small, transparent feature canvas that supports both a supervised baseline and downstream knowledge injection.</p></list-item>
+<list-item><label>2)</label><p>Pathway Miner Agent.</p>
+<p>The Pathway Miner Agent queries standard resources (e.g., KEGG, Reactome, GO:BP, WikiPathways) for enrichment of the working set and materializes a gene-pathway incidence object. From co-membership, it derives a gene-gene graph that captures modular structure (e.g., lipid/fatty-acid programs). Crucially, these structures are not turned into features; they serve to inform how strongly each gene should influence the embedding.</p></list-item>
+<list-item><label>3)</label><p>Weighting Agent.</p>
+<p>The Weighting Agent integrates statistical signal with pathway context by composing a gene-wise score from differential-expression strength and graph centrality. It then outputs per-gene weights that up-weight genes at the crossroads of relevant biology and down-weight genes with weak or isolated evidence. This is the key step that makes the embedding disease-aware without expanding dimensionality.</p></list-item>
+<list-item><label>4)</label><p>Embedding Agent.</p>
+<p>The Embedding Agent rescales the expression matrix by the square-root of the weights and computes a compact representation. In this paper we use a linear embedding as a demonstrator because it is fast and auditable; the same agent interface can call autoencoders, VAEs, or transformer-based tabular encoders with the identical weighting signal. The LLM orchestrator governs these choices (sources, thresholds, dimensionality), making the overall process adaptive rather than static.</p></list-item>
+</list>
+</p>
+<p>In the LCD RNA-seq case, this agentic loop takes a small, interpretable set of DE genes, injects pathway knowledge to compute weights, and returns a compact embedding that preserves the treatment-associated structure. As our experiments show, weighting improves both representation efficiency (variance per component) and predictive utility (AUC), demonstrating how agentic orchestration plus dynamic pathway emphasis translate biological priors into concrete representational gains.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Dynamic Disease-Aware Pathway-Weighted Embedding (PCA Demonstrator)</title>
+<p>Let <inline-formula><tex-math notation="LaTeX">$X \in R^{n \times p}$</tex-math></inline-formula> be the normalized expression matrix (samples &#x00D7; genes). For gene iii, the Data Agent provides a DE summary
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+\Delta_{i}=\left|\log _{2} F C_{i}\right\vert, \quad F D R_{i} \in(0,1].
+\tag{1}
+\end{equation*}</tex-math></disp-formula></p>
+<p>The Pathway Miner Agent returns enriched pathways <inline-formula><tex-math notation="LaTeX">$\mathcal{P}= \left\{P_{1}, \ldots, P_{m}\right\}$</tex-math></inline-formula> with <inline-formula><tex-math notation="LaTeX">$P_{k} \subseteq\{1, \ldots, p\}$</tex-math></inline-formula> summarized by the incidence
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+H_{i k}=\mathbf{1}\left\{i \in P_{k}\right\} \in\{0,1\}^{p \times m},
+\tag{2}
+\end{equation*}</tex-math></disp-formula>
+and the induced co-membership adjacency
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+A=H H^{\top}, \quad A_{i j}=\sum_{k=1}^{m} 1\left\{i, j \in P_{k}\right\}.
+\tag{3}
+\end{equation*}</tex-math></disp-formula>
+(Optionally, one can use a Jaccard normalization <inline-formula><tex-math notation="LaTeX">$A_{i j}^{\text {(jac) }}$</tex-math></inline-formula>.) Let <inline-formula><tex-math notation="LaTeX">$D=\operatorname{diag}(A \mathbf{1})$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$L=D-A$</tex-math></inline-formula> be Laplacian.</p>
+<p>The Weighting Agent composes statistical and network evidence. Define a DE-strength score and a centrality score:
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{equation*}
+s_{i}^{D E}=\Delta_{i} \cdot\left(-\log _{10} F D R_{i}\right), \quad s_{i}^{c e n t}=\sum_{j=1}^{p} A_{i j}.
+\tag{4}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Let <inline-formula><tex-math notation="LaTeX">$r(\cdot)$</tex-math></inline-formula> be a rank-normalization to [0, 1]. The final gene weight is:
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{equation*}
+w_{i}=\alpha r!\left(s_{i}^{\text{DE}}\right)+\beta r!\left(s_{i}^{\text {cent }}\right), \quad \alpha, \beta \geq 0,
+\tag{5}
+\end{equation*}</tex-math></disp-formula>
+followed by a tiny floor <inline-formula><tex-math notation="LaTeX">$w_{i} \leftarrow \max \left(w_{i}, \varepsilon\right)$</tex-math></inline-formula> to avoid zeros. Stack <inline-formula><tex-math notation="LaTeX">$w$</tex-math></inline-formula> as <inline-formula><tex-math notation="LaTeX">$W=\operatorname{diag}\left(w_{1}, \ldots, w_{p}\right)$</tex-math></inline-formula>.</p>
+<p>The Embedding Agent forms the weighted data <inline-formula><tex-math notation="LaTeX">$\tilde{X}=X W^{1 / 2}$</tex-math></inline-formula> and computes a <inline-formula><tex-math notation="LaTeX">$d$</tex-math></inline-formula>-dimensional linear embedding by solving
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{equation*}
+\tilde{X}=X W^{1 / 2}, \quad S_{w}=\frac{1}{n} \widetilde{X^{\top} \tilde{X}},
+\tag{6}
+\end{equation*}</tex-math></disp-formula>
+i.e., take the top <inline-formula><tex-math notation="LaTeX">$d$</tex-math></inline-formula> eigenvectors of the weighted covariance <inline-formula><tex-math notation="LaTeX">$S_{w}$</tex-math></inline-formula>. Scores are <inline-formula><tex-math notation="LaTeX">$Z=X W^{1 / 2} U$</tex-math></inline-formula> The fraction of variance explained is
+<disp-formula id="deqn7"><tex-math notation="LaTeX">\begin{equation*}
+V E(d)=\frac{\sum_{k=1}^{d} \lambda_{k}\left(S_{w}\right)}{\sum_{k=1}^{p} \lambda_{k}\left(S_{w}\right)}.
+\tag{7}
+\end{equation*}</tex-math></disp-formula></p>
+<p>This closed-form pathway-weighted PCA (wPCA) reorients principal directions toward pathway-coherent axes while preserving interpretability. A graph-regularized variant that encourages smoothness across the pathway graph is obtained by
+<disp-formula id="deqn8"><tex-math notation="LaTeX">\begin{equation*}
+\max _{U^{\top} U=I} \operatorname{tr}\left(U^{\top} S_{w} U\right)-\lambda \operatorname{tr}\left(U^{\top} X^{\top} L X U\right), \quad \lambda \geq 0,
+\tag{8}
+\end{equation*}</tex-math></disp-formula>
+which aligns loadings with pathway modules; <inline-formula><tex-math notation="LaTeX">$\lambda=0$</tex-math></inline-formula> recovers (6).</p>
+<p>Finally, the design is embedding-agnostic. If is an encoder (autoencoder/VAE/transformer) with latent <inline-formula><tex-math notation="LaTeX">$Z=f_{\theta}(X)$</tex-math></inline-formula>, one can train with a base loss (reconstruction or contrastive) plus a pathway regularizer such as
+<disp-formula id="deqn9"><tex-math notation="LaTeX">\begin{equation*}
+\begin{aligned}
+\min _{\theta} \mathcal{L}_{\text{bs}}(X; \theta) &amp; +\mu \operatorname{tr}\left(Z^{\top} L Z\right) \\
+&amp; -\eta \operatorname{tr}\left(Z^{\top} S_{w} Z\right), \quad \mu, \eta \geq 0
+\end{aligned}
+\tag{9}
+\end{equation*}</tex-math></disp-formula>
+so the same weights and graph guide non-linear embeddings. In practice, the LLM orchestrator chooses (<inline-formula><tex-math notation="LaTeX">$\alpha, \beta, d, \lambda$</tex-math></inline-formula>) and pathway sources <inline-formula><tex-math notation="LaTeX">$P$</tex-math></inline-formula> under simple verification gates (e.g., variance explained, separation stability), making the process adaptive to the dataset and research focus.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Experiments</title>
+<p>We evaluate whether omics analyses can be driven by Agentic AI rather than hand-scripted pipelines. Our method is realized as four cooperating agents-Data, Pathway Miner, Weighting, and Embedding-that plan-act-verify to produce disease-aware embeddings. A separate, standardized experimental harness (modeling and evaluation) sits outside the method and is used only to compare embeddings under identical splits, seeds, and metrics.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Agentic Infrastructure</title>
+<p>We implement the agents on a lightweight, graph-based orchestration layer (internally, OmicsAgentKit), conceptually similar to LangGraph/LangChain-LCEL. The orchestration layer is powered by a large language model (LLM) backbone (GPT-style), which provides the reasoning capabilities required for planning, tool invocation, and verification. In our MVP, the LLM is used to interpret experiment state, select pathway sources, and trigger the appropriate agents via LangChain/LangGraph integration. This ensures that the orchestration is not a fixed pipeline but an adaptive agentic process informed by the data and research context. Nodes are agents, edges pass typed artifacts (e.g., DE tables, gene&#x00D7;pathway incidence, weights), and a shared run store persists every intermediate (CSV/JSON) and figure. The orchestrator provides: (i) deterministic execution with fixed seeds; (ii) tool adapters for DESeq2 (R), g:Profiler (HTTP API), and linear embedding; (iii) caching/retry for external calls; and (iv) a manifest-driven configuration (config.yaml) that records parameters (sources, thresholds, #PCs). This MVP realizes single-turn agent actions with verification gates; a multi-agent co-planning (MCP) extension-where agents negotiate sources, <inline-formula><tex-math notation="LaTeX">$\alpha / \beta$</tex-math></inline-formula> weighting, and dimensionality-is left for future work.</p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>Agentic AI Orchestration</title>
+<p>The Data Agent ingests counts and metadata, performs normalization with DESeq2 (variance-stabilizing transformation), and runs differential expression to yield an interpretable LCD-responsive gene set (FDR <inline-formula><tex-math notation="LaTeX">$\leqslant 0.05$</tex-math></inline-formula>, &#x007C; <inline-formula><tex-math notation="LaTeX">$\log 2 \text{FC}$</tex-math></inline-formula> &#x007C; <inline-formula><tex-math notation="LaTeX">$&gt;1; \sim 80$</tex-math></inline-formula> genes). The Pathway Miner Agent queries <inline-formula><tex-math notation="LaTeX">$\mathrm{g}:$</tex-math></inline-formula> Profiler across KEGG, Reactome, GO:BP, and WikiPathways, constructs a gene-pathway incidence matrix, and derives a gene-gene adjacency by pathway co-membership (Jaccard). The Weighting Agent integrates statistical signal and biological structure by combining each gene&#x0027;s DE strength (<inline-formula><tex-math notation="LaTeX">$|\log 2 \text{FC}\vert \cdot -\log _{10} \text{FDR}$</tex-math></inline-formula>).</p>
+<p>with its graph centrality (degree), rank-normalizing both and forming the final per-gene weight <inline-formula><tex-math notation="LaTeX">$w_{i}=\alpha d_{i}^{*}+\beta c_{i}^{*}$</tex-math></inline-formula> (MVP uses <inline-formula><tex-math notation="LaTeX">$\alpha=\beta=1$</tex-math></inline-formula>). The Embedding Agent then produces a compact, pathway-guided representation by scaling expression columns by <inline-formula><tex-math notation="LaTeX">$\sqrt{\mathrm{w}_{\mathrm{i}}}$</tex-math></inline-formula> and applying a linear embedding (PCA-based demonstrator); the agent is embedding-agnostic and can later swap in autoencoders/VAEs or transformer-based encoders without changing orchestration.</p>
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Data and Task</title>
+<p>Bulk RNA-seq is used as a representative omics modality. We study adipose tissue from the LCD intervention GSE95640 (baseline vs eight-week LCD). Because subject pairing is not universally available in public metadata, we treat the core task as unpaired baseline vs LCD, which suffices to exercise the agents and to test whether pathway-guided embeddings capture treatment-associated biology. The same orchestration transfers to disease cohorts (e.g., cancer) and to other modalities (e.g., scRNA-seq) by swapping normalization and embedding backbones within the agents.</p>
+</sec>
+<sec id="sec4d">
+<label>D.</label>
+<title>Experimental Conditions within the Agentic Framework</title>
+<p>To isolate the contribution of Agentic AI (i.e., pathway-guided weighting), we compare four conditions that differ only in what the Embedding Agent consumes and how it is configured.
+<list list-type="ordered">
+<list-item><label>1)</label><p>All-gene linear embedding. The agent applies the PCA demonstrator directly to the full normalized matrix, retaining 100 components; pathway knowledge is intentionally ignored to form a na&#x00EF;ve baseline.</p></list-item>
+<list-item><label>2)</label><p>Raw DE (80 genes) direct. Classifiers operate on the 80 DE features produced by the Data Agent without any embedding; this represents a strong supervised baseline.</p></list-item>
+<list-item><label>3)</label><p><inline-formula><tex-math notation="LaTeX">$\text{DE}+$</tex-math></inline-formula> plain linear embedding. The agent applies the PCA demonstrator to the same DE gene matrix, retaining 20 components; no pathway guidance is used, isolating the effect of dimensionality alone.</p></list-item>
+<list-item><label>4)</label><p><inline-formula><tex-math notation="LaTeX">$\text{DE}+$</tex-math></inline-formula> Agentic AI embedding. The agent consumes the Pathway Miner and Weighting outputs and performs pathway-weighted linear embedding by <inline-formula><tex-math notation="LaTeX">$\backslash \operatorname{sqrt}\{\mathrm{w}\}$</tex-math></inline-formula> scaling followed by PCA, retaining 10 components.</p></list-item>
+</list></p>
+<p>These cardinalities reflect the actual runs and are kept modest to emphasize function over hyperparameter search; our goal is to test whether agent-driven pathway guidance changes the embedding in a way that improves downstream performance and efficiency.</p>
+</sec>
+<sec id="sec4e">
+<label>E.</label>
+<title>Modeling and Evaluation</title>
+<p>Modeling and evaluation are intentionally outside the method. A Modeling Runner applies Random Forest, Logistic Regression, LASSO, k-Nearest Neighbors, XGBoost, and a shallow feed-forward neural network to each embedding with consistent preprocessing. An Evaluation Harness executes five-fold cross-validation with fixed seeds and shared folds across all methods, reporting mean ROC curves with <inline-formula><tex-math notation="LaTeX">$\pm 1$</tex-math></inline-formula> standard-deviation bands, AUC &#x00B1; SD tables, precision-recall curves, confusion matrices, and variance-explained profiles to quantify representation efficiency. All artifacts (DE lists, enrichment tables, incidence/adjacency, weights, component scores, metrics) are logged per run for reproducibility.</p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Results</title>
+<p>The results highlight how the agentic AI framework transforms a standard bulk RNA-seq workflow into a disease-aware embedding engine. We move step by step from the creation of a compact working gene set, to the construction of pathway-guided embeddings, to evaluation of efficiency and geometry, and finally to classification performance. Across all analyses, the evidence converges on a clear conclusion: when the embedding agent is guided by weights derived from pathway structure, the resulting representation is both more compact and more predictive than plain embeddings or direct use of DE genes.</p>
+<sec id="sec5a">
+<label>A.</label>
+<title>Differential Expression as the Working Feature Set</title>
+<p>Following DESeq2 variance-stabilizing normalization, expression levels were comparable across samples, ensuring that observed differences reflected biology rather than sequencing depth. Differential expression analysis between baseline and LCD samples identified 80 genes with <inline-formula><tex-math notation="LaTeX">$|\log 2 \text{FC}\vert&gt;1$</tex-math></inline-formula> and BH FDR <inline-formula><tex-math notation="LaTeX">$&lt;0.05$</tex-math></inline-formula>. This compact set formed the basis for all downstream experiments: it served as the &#x201C;Raw DE&#x201D; baseline, and it provided the input canvas for the Pathway Miner and Weighting agents to assign biologically informed weights.</p>
+<p>In the <xref ref-type="fig" rid="fig2">Fig. 2</xref>, the volcano plot illustrates the overall transcriptome landscape, with the 80 selected genes occupying the corners of high fold-change and high significance. This figure establishes the biological substrate that the agentic AI framework subsequently processes into a disease-aware embedding.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>Differential expression volcano plot (treated vs. baseline)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-fig-2-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec5b">
+<label>B.</label>
+<title>Representation Efficiency and Geometry</title>
+<p>The central question is whether embeddings shaped by agentic pathway weighting are more efficient and biologically aligned than plain PCA. <xref ref-type="table" rid="table1">Table I</xref> reports cumulative variance explained, and <xref ref-type="fig" rid="fig3">Fig. 3</xref> shows the variance profiles. The advantage is unambiguous: with 10 weighted components the embedding captured 75.5 &#x0025; of the variance, compared to only 59.1 &#x0025; for plain PCA at the same dimensionality. Even at the very first component, the weighted version explained 41.3 &#x0025; versus 26.2 &#x0025; for plain, an early dominance that persisted through 20 components. Importantly, 10 weighted PCs explained more variance than 20 plain PCs on the same DE gene set, confirming that the weighting agent compresses the right structure into fewer axes.Network and Pathway Statistics (degrees, edge weights, database mix, and adjacency heat map).
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Cumulative variance explained by plain vs. pathway-weighted embedding (pca)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="4"/>
+</colgroup>
+<thead>
+<tr>
+<th>#PCs</th>
+<th>Plain PCA</th>
+<th>Weighted PCA</th>
+<th><inline-formula><tex-math notation="LaTeX">$\Delta$</tex-math></inline-formula> (Weighted - Plain)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>26.2 &#x0025;</td>
+<td>41.3 &#x0025;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+15.1 \%$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>5</td>
+<td>47.0 &#x0025;</td>
+<td>63.9 &#x0025;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+16.9 \%$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>10</td>
+<td>59.1 &#x0025;</td>
+<td>75.5 &#x0025;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+16.4 \%$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>15</td>
+<td>67.5 &#x0025;</td>
+<td>82.6 &#x0025;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+15.1 \%$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>20</td>
+<td>74.1 &#x0025;</td>
+<td>87.4 &#x0025;</td>
+<td><inline-formula><tex-math notation="LaTeX">$+13.3 \%$</tex-math></inline-formula></td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+<p>The <xref ref-type="fig" rid="fig3">Fig. 3</xref> shows the weighted embedding consistently rises above the plain curve, showing that biological priors allow the agent to orient axes toward meaningful signal rather than diffuse noise.
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>Variance profiles and cumulative coverage for plain vs pathwayweighted pca</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-fig-3-source.tif"/>
+</fig></p>
+<p>Geometry in two dimensions further illustrates this point. <xref ref-type="fig" rid="fig4">Fig. 4</xref> compares the first two components from plain PCA on all genes with the pathway-weighted embedding of the DE gene set. In the plain embedding, baseline and LCD samples overlap heavily, reflecting axes dominated by unspecific variance. In the pathway-weighted embedding, however, the two groups separate more clearly, with class centroids shifted apart and less intermixing. This visual evidence complements the variance statistics: agentic weighting not only explains more variance but also organizes the geometry along biologically relevant directions.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>Pc1-pc2 scatter comparison: plain pca (all genes) vs pathway-weighted pca (de genes)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-fig-4-source.tif"/>
+</fig></p>
+<p>Using the 80 selected significant genes, the weighted embedding achieves a clearer separation between baseline and treated samples with only 10 components, while the plain embedding still shows noise and overlap even with 20 components. In contrast, using 100 components across all genes prior to differential expression analysis fails to reveal any separation trend between the two classes.</p>
+</sec>
+<sec id="sec5c">
+<label>C.</label>
+<title>Predictive Utility: ROC and AUC Performance</title>
+<p>The most critical test is whether the embedding advantages translate into predictive performance. We evaluated four representations: Raw DE genes, plain PCA on all genes (100 PCs), plain PCA on DE genes (20 PCs), and DE + pathway-weighted embedding (10 PCs) across six classifiers with identical five-fold cross-validation folds.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Roc curves with <inline-formula><tex-math notation="LaTeX">$\pm 1$</tex-math></inline-formula> sd confidence bands across six classifiers (5-fold cv)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-fig-5-source.tif"/>
+</fig></p>
+<p>As shown in the <xref ref-type="fig" rid="fig5">Fig. 5</xref>, across models ranging from Random Forest, Logistic Regression, LASSO, k-NN, XGBoost, and a shallow neural network, the ROC panels consistently show that the pathway-weighted embedding achieves the highest AUC. Confidence bands are also tighter in many cases, suggesting that the representation is not only accurate but also stable across folds.</p>
+<p>Numerical results are summarized in <xref ref-type="table" rid="table2">Table II</xref>. The weighted embedding outperforms the best non-agentic alternative in all six classifiers, with margins ranging from +0.001 to +0.017 AUC. The gains are largest in simple linear models such as Logistic Regression and LASSO, where a better embedding allows a basic classifier to rival or surpass more flexible learners trained on inferior inputs. This underscores the central point: it is the representation, not the classifier, that drives the gain.
+<table-wrap id="table2">
+<label>Table II.</label>
+<caption><title>Auc (mean &#x00B1; sd) by classifier and input representation (5-fold cv)</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415848-table-2-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="6"/>
+</colgroup>
+<thead>
+<tr>
+<th>Classifier</th>
+<th>DE + Agentic (wPCA, 10 PCs)</th>
+<th>Plain PCA (All, 100 PCs)</th>
+<th>Plain PCA (DE, 20 PCs)</th>
+<th>Raw DE (<inline-formula><tex-math notation="LaTeX">$\approx 80$</tex-math></inline-formula> genes)</th>
+<th><inline-formula><tex-math notation="LaTeX">$\Delta$</tex-math></inline-formula> vs. best non-age ntic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Random Forest</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 4 8} \pm \mathbf{0}$</tex-math></inline-formula>. 015</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.871 \pm 0$</tex-math></inline-formula>. 034</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.896 \pm 0$</tex-math></inline-formula>. 038</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.940 \pm 0$</tex-math></inline-formula>. 022</td>
+<td>+0.008 (vs Raw DE)</td>
+</tr>
+<tr>
+<td>Logistic Reg.</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 4 9} \pm \mathbf{0}$</tex-math></inline-formula>. 008</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.851 \pm 0$</tex-math></inline-formula>. 038</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.932 \pm 0$</tex-math></inline-formula>. 039</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.914 \pm 0$</tex-math></inline-formula>. 024</td>
+<td>+0.017 (vs Plain DE)</td>
+</tr>
+<tr>
+<td>k-NN</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.917 \pm 0$</tex-math></inline-formula>. 017</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.859 \pm 0$</tex-math></inline-formula>. 046</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.879 \pm 0$</tex-math></inline-formula>. 043</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.909 \pm 0$</tex-math></inline-formula>. 028</td>
+<td>+0.008 (vs Raw DE)</td>
+</tr>
+<tr>
+<td>LASSO</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.949 \pm 0$</tex-math></inline-formula>. 009</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.900 \pm 0$</tex-math></inline-formula>. 021</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.938 \pm 0$</tex-math></inline-formula>. 035</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.914 \pm 0$</tex-math></inline-formula>. 023</td>
+<td>+0.011 (vs Plain DE)</td>
+</tr>
+<tr>
+<td>Neural Net</td>
+<td><inline-formula><tex-math notation="LaTeX">$\mathbf{0. 9 2 9} \pm \mathbf{0}$</tex-math></inline-formula>. 022</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.831 \pm 0$</tex-math></inline-formula>. 032</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.902 \pm 0$</tex-math></inline-formula>. 046</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.928 \pm 0$</tex-math></inline-formula>. 029</td>
+<td>+0.001 (vs Raw DE)</td>
+</tr>
+<tr>
+<td>XGBoost</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.947 \pm 0$</tex-math></inline-formula>. 014</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.901 \pm 0$</tex-math></inline-formula>. 026</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.929 \pm 0$</tex-math></inline-formula>. 037</td>
+<td><inline-formula><tex-math notation="LaTeX">$0.935 \pm 0$</tex-math></inline-formula>. 031</td>
+<td>+0.012 (vs Raw DE)</td>
+</tr></tbody>
+</table>
+</table-wrap></p>
+</sec>
+<sec id="sec5d">
+<label>D.</label>
+<title>Synethsis</title>
+<p>Taken together, these results demonstrate the advantage of the agentic AI embedding agent. By weighting genes with pathway-derived priors, the embedding compresses more informative variance into fewer components, yields geometries that align with phenotype differences, and delivers higher, more stable classification performance across models. Importantly, these gains are achieved without inflating feature counts or using network graphs as explicit predictors. The agentic orchestration converts biological knowledge into a practical representational advantage, exactly what is required for robust biomarker discovery in sample-limited, high-dimensional omics studies.</p>
+</sec>
+</sec>
+<sec id="sec6">
+<label>VI.</label>
+<title>Conclusion and Discussion</title>
+<sec id="sec6a">
+<label>A.</label>
+<title>Conclusion</title>
+<p>This study demonstrates that agentic AI can power diseaseaware embeddings for omics data by orchestrating the analysis pipeline and dynamically prioritizing pathway knowledge. Using bulk RNA-seq from a low-calorie diet intervention as a proof of concept, we showed that embedding guided by the agent&#x0027;s pathway-derived weights consistently produced more compact representations and higher, more stable classification performance across diverse models. These improvements translate directly into more effective biomarker discovery: with fewer dimensions, the embedding preserved separability between phenotypes and enhanced predictive accuracy.</p>
+<p>The contribution is twofold. First, the orchestration role of agentic AI ensures that each stage of analysis, data preprocessing, enrichment, weighting, and embedding, operates within a coordinated reasoning-and-acting loop rather than as a sequence of ad hoc manual steps. Second, the dynamic pathway selection role highlights the agent&#x0027;s ability to focus embeddings on biologically pertinent programs based on the research context and data, thereby turning prior knowledge into a tangible representational advantage. Together, these results provide evidence that an agentic AI-powered framework can convert complex omics signals into effective, interpretable substrates for biomarker discovery.</p>
+</sec>
+<sec id="sec6b">
+<label>B.</label>
+<title>Discussion and Extended Work</title>
+<p>While our proof of concept focused on bulk RNA-seq as a single-omics example, the approach is inherently extensible. The same agentic framework can be applied to single-cell RNAseq, where embeddings must navigate even greater sparsity and heterogeneity, and to multi-omics integration, where agents could orchestrate pathway-guided embeddings across transcriptomic, proteomic, and metabolomic layers. In these settings, the ability of agentic AI to orchestrate workflows and dynamically adapt pathway priorities becomes even more critical, allowing embeddings to remain aligned with evolving biological questions.</p>
+<p>Equally important, the embedding mechanism demonstrated here is not limited to linear dimensionality reduction. PCA served only as a convenient, transparent demonstrator to show how weights reshape variance and geometry. The same agentic weighting and orchestration strategy is embedding-agnostic and can be extended directly to deep architectures such as autoencoders, variational autoencoders, and transformer-based encoders. In such contexts, pathway-guided conditioning or weighting can steer learned embeddings in the same way, preserving the agentic advantage of coupling statistical representation with biological prior knowledge.</p>
+<p>Taken together, these points highlight the broader potential of agentic AI-driven omics analysis: it moves beyond manual pipelines, scales to modern single-cell RNASeq and multi-omics challenges, and remains compatible with the most advanced embedding families. This combination of orchestration and dynamic knowledge selection positions agentic AI as a promising foundation for reproducible, adaptive, and biologically informed biomarker discovery.</p>
+</sec>
+</sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>The authors would like to thank the reviewers for their constructive comments and the workshop organizers for their support and efforts in facilitating this work.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F. S.</given-names> <surname>Collins</surname></string-name> and <string-name><given-names>H.</given-names> <surname>Varmus</surname></string-name></person-group>, &#x201C;<article-title>A new initiative on precision medicine</article-title>,&#x201D; <source>N. Engl. J. Med.</source>, vol. <volume>372</volume>, no. <issue>9</issue>, pp. <fpage>793</fpage>&#x2013;<lpage>795</lpage>, <year>2015</year>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>K. J.</given-names> <surname>Karczewski</surname></string-name> and <string-name><given-names>M. P.</given-names> <surname>Snyder</surname></string-name></person-group>, &#x201C;<article-title>Integrative omics for health and disease</article-title>,&#x201D; <source>Nat. Rev. Genet.</source>, vol. <volume>19</volume>, no. <issue>5</issue>, pp. <fpage>299</fpage>&#x2013;<lpage>315</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Hasin</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Seldin</surname></string-name>, and <string-name><given-names>A. J.</given-names> <surname>Lusis</surname></string-name></person-group>, &#x201C;<article-title>Multi-omics approaches to disease</article-title>,&#x201D; <source>Genome Biol.</source>, vol. <volume>18</volume>, p. <fpage>83</fpage>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Gerstein</surname></string-name>, and <string-name><given-names>M.</given-names> <surname>Snyder</surname></string-name></person-group>, &#x201C;<article-title>RNA-Seq: A revolutionary tool for transcriptomics</article-title>,&#x201D; <source>Nat. Rev. Genet.</source>, vol. <volume>10</volume>, no. <issue>1</issue>, pp. <fpage>57</fpage>&#x2013;<lpage>63</lpage>, <year>2009</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Conesa</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Madrigal</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Tarazona</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>A survey of best practices for RNA-seq data analysis</article-title>,&#x201D; <source>Genome Biol.</source>, vol. <volume>17</volume>, p. <fpage>13</fpage>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. I.</given-names> <surname>Love</surname></string-name>, <string-name><given-names>W.</given-names> <surname>Huber</surname></string-name>, and <string-name><given-names>S.</given-names> <surname>Anders</surname></string-name></person-group>, &#x201C;<article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>,&#x201D; <source>Genome Biol.</source>, vol. <volume>15</volume>, no. <issue>12</issue>, p. <fpage>550</fpage>, <year>2014</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J. T.</given-names> <surname>Leek</surname></string-name>, <string-name><given-names>R. B.</given-names> <surname>Scharpf</surname></string-name>, <string-name><given-names>H. C.</given-names> <surname>Bravo</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Tackling the widespread and critical impact of batch effects in high-throughput data</article-title>,&#x201D; <source>Nat. Rev. Genet.</source>, vol. <volume>11</volume>, no. <issue>10</issue>, pp. <fpage>733</fpage>&#x2013;<lpage>739</lpage>, <year>2010</year>.</mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Gao</surname></string-name>, <string-name><given-names>H.</given-names> <surname>Chen</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Cui</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Identification of key genes and pathways in rheumatoid arthritis by integrated bioinformatics analysis</article-title>,&#x201D; <source>Medicine</source>, vol. <volume>100</volume>, no. <issue>5</issue>, p. <fpage>e24318</fpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Huang</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Khetan</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Cvitkovic</surname></string-name>, and <string-name><given-names>Z.</given-names> <surname>Karnin</surname></string-name></person-group>, &#x201C;<article-title>TabTransformer: Tabular data modeling using contextual embeddings</article-title>,&#x201D; <source>arXiv</source>:<pub-id pub-id-type="arxiv">2012.06678</pub-id>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Subramanian</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Tamayo</surname></string-name>, <string-name><given-names>V. K.</given-names> <surname>Mootha</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles</article-title>,&#x201D; <source>Proc. Natl. Acad. Sci. USA</source>, vol. <volume>102</volume>, no. <issue>43</issue>, pp. <fpage>15545</fpage>&#x2013;<lpage>15550</lpage>, <year>2005</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Kanehisa</surname></string-name> and <string-name><given-names>S.</given-names> <surname>Goto</surname></string-name></person-group>, &#x201C;<article-title>KEGG: Kyoto Encyclopedia of Genes and Genomes</article-title>,&#x201D; <source>Nucleic Acids Res.</source>, vol. <volume>28</volume>, no. <issue>1</issue>, pp. <fpage>27</fpage>&#x2013;<lpage>30</lpage>, <year>2000</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Yao</surname></string-name>, <string-name><given-names>J.</given-names> <surname>Zhao</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Yu</surname></string-name>, <etal>et al.</etal></person-group>, &#x201C;<article-title>ReAct: Synergizing reasoning and acting in language models</article-title>,&#x201D; in <source>Proc. Int. Conf. Learn. Representations (ICLR)</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Di Tommaso</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Nextflow enables reproducible computational workflows</article-title>,&#x201D; <source>Nat Biotechnol</source>, vol. <volume>35</volume>, no. <issue>4</issue>, pp. <fpage>316</fpage>&#x2013;<lpage>319</lpage>, <year>2017</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>G.</given-names> <surname>Way</surname></string-name> and <string-name><given-names>C.</given-names> <surname>Greene</surname></string-name></person-group>, &#x201C;<article-title>Extracting a biologically relevant latent space from cancer transcriptomes with variational autoencoders</article-title>,&#x201D; <source>PLoS Comput Biol</source>, vol. <volume>14</volume>, no. <issue>4</issue>, p. <fpage>e1006144</fpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Ji</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>scBERT as a foundation model for single-cell RNA-seq</article-title>,&#x201D; <source>Nat Methods</source>, vol. <volume>20</volume>, pp. <fpage>310</fpage>&#x2013;<lpage>321</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Theodoris</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Geneformer: pre-trained transformer for functional genomics</article-title>,&#x201D; <source>bioRxiv</source>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Wu</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Pathway2Vec: a flexible tool for pathway representation learning</article-title>,&#x201D; <source>Bioinformatics</source>, vol. <volume>36</volume>, no. <issue>14</issue>, pp. <fpage>4264</fpage>&#x2013;<lpage>4266</lpage>, <year>2020</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Ryu</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>DeepPath: pathway-aware representation learning for multiomics</article-title>,&#x201D; <source>Nucleic Acids Res</source>, vol. <volume>49</volume>, no. <issue>16</issue>, pp. <fpage>e91</fpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref19"><label>[19]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Ma</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Deep learning with gene sets integrates pathway knowledge into expression models</article-title>,&#x201D; <source>Bioinformatics</source>, vol. <volume>34</volume>, no. <issue>13</issue>, pp. <fpage>2238</fpage>&#x2013;<lpage>2246</lpage>, <year>2018</year>.</mixed-citation></ref>
+<ref id="ref20"><label>[20]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>X.</given-names> <surname>Wang</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Plan-and-Solve prompting: improving LLM reasoning via planning</article-title>,&#x201D; <source>arXiv</source>:<pub-id pub-id-type="arxiv">2305.04091</pub-id>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref21"><label>[21]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Chase</surname></string-name></person-group>, &#x201C;<source>LangChain: building applications with LLMs through composability</source>,&#x201D; <year>2023</year>.</mixed-citation></ref>
+<ref id="ref22"><label>[22]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Q.</given-names> <surname>Tang</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>BioGPT: generative pre-trained transformer for biomedical text mining</article-title>,&#x201D; <source>Brief Bioinform</source>, vol. <volume>24</volume>, no. <issue>1</issue>, pp. <fpage>168</fpage>&#x2013;<lpage>179</lpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref23"><label>[23]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Taylor</surname></string-name> <etal>et al.</etal></person-group>, &#x201C;<article-title>Galactica: a large language model for science</article-title>,&#x201D; <source>arXiv</source>:<pub-id pub-id-type="arxiv">2211.09085</pub-id>, <year>2022</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

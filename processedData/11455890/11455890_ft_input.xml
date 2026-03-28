@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/25/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">IDCIOT</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-full-title>
+<conf-normalized-title>Intelligent Data Communication Technologies and Internet of Things (IDCIoT), 2026 4th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-9654-5</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)</conf-name>
+<conf-start iso-8601-date="2026-02-04"><day>04</day><month>02</month><year>2026</year></conf-start>
+<conf-end iso-8601-date="2026-02-06"><day>06</day><month>02</month><year>2026</year></conf-end>
+<conf-loc><city>Ottapalam</city>, <country>India</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/IDCIoT67589.2026.11455890</article-id>
+<xplore-article-id>11455890</xplore-article-id>
+<xplore-issue>11455630</xplore-issue>
+<xplore-pub-id>11455509</xplore-pub-id>
+<title-group>
+<article-title>Hybrid Deep Learning and Gradient Boosting Framework for Early Detection of Pancreatic Cancer</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Kisshore Raja</given-names> <surname>P</surname></string-name>
+<string-name specific-use="index"><given-names>Kisshore Raja</given-names> <surname>P</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Pradeepa</given-names> <surname>P</surname></string-name>
+<string-name specific-use="index"><given-names>Pradeepa</given-names> <surname>P</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Priyadarsini</given-names> <surname>SA</surname></string-name>
+<string-name specific-use="index"><given-names>Priyadarsini</given-names> <surname>SA</surname></string-name>
+</name-alternatives>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">Sri Krishna College of Technology \\ Coimbatore</institution>
+</institution-wrap>
+, <country>India</country> - 641042 \\ <email>727822tuec111@skct.edu.in</email></aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="institution">Sri Krishna College of Technology \\ Coimbatore</institution>
+</institution-wrap>
+, <country>India</country> - 641042 \\ <email>727822tuec137@skct.edu.in</email></aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="institution">Sri Krishna College of Technology \\ Coimbatore</institution>
+</institution-wrap>
+, <country>India</country> - 641042 \\ <email>727822tuec141@skct.edu.in</email></aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2026-02-06"><day>6</day><month>Feb.</month><year>2026</year></pub-date>
+<fpage>***</fpage>
+<lpage>***</lpage>
+<permissions>
+<copyright-statement>979-8-3315-9654-5 &#x00A9; 2026 IEEE. All rights reserved, including rights for text and data mining, and training of artificial intelligence and similar technologies. Personal use is permitted, but republication/redistribution requires IEEE permission. See <uri>https://www.ieee.org/publications/rights/index.html</uri> for more information.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+</license>
+</permissions>
+<self-uri content-type="xml">11455890_ft.xml</self-uri>
+<self-uri content-type="print">194.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Pancreatic cancer remain one of the most lethal malignancies because of late detection and lack of reliable screening. This study propose a hybrid deep learning and gradient boosting framework for early detection from medical imaging data. The method integrates convolutional neural networks (CNN), VGG16 with transfer learning, and DenseNet architectures together with CatBoost trained on radiomic features. Medical scans, including CT, MRI and ultrasound, are preprocessed through normalization, contrast enhancement, and augmentation to improve model robustness. Deep features are extracted using CNN variants, while radiomic descriptors such as intensity and texture are passed to CatBoost for boostingbased classification. The outcomes of each model are compared using accuracy, sensitivity, specificity, F1-score and AUC to assess diagnostic efficiency. Our experimental evaluation show that DenseNet achieved the best detection accuracy, while CatBoost demonstrated improved interpretability by handling tabular features. The framework also incorporate explainability through Grad-CAM visualization and segmentation support to highlight suspicious pancreatic regions. This hybrid design thus enable both high performance and interpretability, making it more suitable for clinical adoption. The proposed approach can be extended for large multi-institutional datasets in future to validate its reliability and generalization.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Pancreatic cancer detection</kwd>
+<kwd>Deep learning</kwd>
+<kwd>DenseNet</kwd>
+<kwd>VGG16</kwd>
+<kwd>CatBoost</kwd>
+<kwd>Radiomics features</kwd>
+</kwd-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="1"/>
+<equation-count count="0"/>
+<ref-count count="0"/>
+<page-count count="0"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>1.</label>
+<title>Introduction</title>
+<p>Pancreatic cancer is recognize as one of the most aggressive malignancy worldwide, ranking the 7th leading cause of cancer-related deaths <xref ref-type="bibr" rid="ref1">[1]</xref>. The prognosis remain poor because symptoms are usually non-specific and appear only in late stages, when tumors have already metastasized <xref ref-type="bibr" rid="ref2">[2]</xref>. For this reason, early detection is considered a crucial factor that can directly influence treatment options and patient survival <xref ref-type="bibr" rid="ref3">[3]</xref>. Conventional diagnostic approaches such as CT or endoscopic imaging are widely used, but small lesions are often missed and biopsy procedure is invasive <xref ref-type="bibr" rid="ref4">[4]</xref>. Hence, there is an urgent need for computer-aided diagnostic (CAD) systems powered by artificial intelligence (AI) to assist radiologists in detecting pancreatic tumors at an early phase <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+<p>Deep learning (DL) models, especially Convolutional Neural Networks (CNNs), have demonstrated remarkable success in medical image classification by automatically learning discriminative features <xref ref-type="bibr" rid="ref7">[7]</xref>. Transfer learning with pretrained models like VGG16 and DenseNet further enhance performance, even when dataset are limited <xref ref-type="bibr" rid="ref8">[8]</xref>, <xref ref-type="bibr" rid="ref9">[9]</xref>. DenseNet in particular has been effective in capturing subtle tumor morphology via densely connected layers <xref ref-type="bibr" rid="ref10">[10]</xref>, while VGG16 remain popular due to its simplicity and well-established transfer learning capability <xref ref-type="bibr" rid="ref11">[11]</xref>. In addition to DL, machine learning algorithms such as CatBoost, a gradient boosting framework, are increasingly employed for medical image tasks since they handle heterogeneous features and categorical variables efficiently <xref ref-type="bibr" rid="ref12">[12]</xref>. Combining radiomic handcrafted features (texture, intensity, shape) with learned deep features can further improve classification robustness <xref ref-type="bibr" rid="ref13">[13]</xref>, <xref ref-type="bibr" rid="ref14">[14]</xref>.</p>
+<p>Recent studies show AI methods can detect pancreatic ductal adenocarcinoma (PDAC) with high sensitivity and area under ROC exceeding 0.90 <xref ref-type="bibr" rid="ref15">[15]</xref>, <xref ref-type="bibr" rid="ref16">[16]</xref>. Annotation-efficient models, hybrid frameworks, and delta-radiomics signatures all highlight the trend toward combining multiple algorithms for improved generalization. However, relatively fewer works provide direct comparison between CNN-based deep models and boosting methods for pancreatic imaging. In this paper, we propose a Hybrid Deep Learning and Gradient Boosting Framework that integrate CNN, VGG16, DenseNet, and CatBoost for early pancreatic cancer detection. The contributions are three-fold:
+<list list-type="ordered">
+<list-item><label></label><p>A preprocessing and augmentation pipeline optimized for pancreatic CT, MRI, and ultrasound scans.</p></list-item>
+<list-item><label></label><p>Comparative evaluation of state-of-art deep models with CatBoost trained on radiomic features.</p></list-item>
+<list-item><label></label><p>Demonstration of a hybrid pipeline that could be adapted into future CAD system for clinical deployment.
+<p>This work aim to bridge the gap between DL and boosting methods, showing that integration can yield more reliable results than using either approach alone.</p></list-item>
+</list></p>
+</sec>
+<sec id="sec2">
+<label>2.</label>
+<title>Related Works</title>
+<p>In recent years, the role of artificial intelligence (AI) in medical imaging has grown rapidly, with pancreatic cancer detection emerging as a major focus area. Deep learning techniques, especially Convolutional Neural Networks (CNNs), are frequently applied for image-based diagnosis since they can learn important discriminative patterns directly from scans, without depending heavily on manual feature design <xref ref-type="bibr" rid="ref7">[7]</xref>. For example, <xref ref-type="bibr" rid="ref7">[7]</xref> introduced a CNN-driven framework for detecting pancreatic ductal adenocarcinoma (PDAC) on CT images, achieving significant accuracy improvements when compared with routine radiology methods. Likewise, <xref ref-type="bibr" rid="ref15">[15]</xref> showed that large-scale AI systems are capable of identifying pancreatic tumors on CT with both high sensitivity and specificity, in some cases performing close to or even on par with experienced radiologists.</p>
+<sec id="sec2a">
+<label>2.1.</label>
+<title>Deep Learning Architectures</title>
+<p>Early CNN architectures such as AlexNet and VGG were initially adapted for medical image analysis due to their relatively simple structure. <xref ref-type="bibr" rid="ref8">[8]</xref> reported a patch- based VGG16 model that achieved high AUC-ROC in pancreatic cancer classification tasks, illustrating the effectiveness of transfer learning. However, one limitation of VGG16 is its deep yet narrow connectivity, which often lead to gradient vanishing in deeper layers. To address this, DenseNet was introduced, where each layer connects to all subsequent layers, promoting stronger gradient flow and efficient feature reuse <xref ref-type="bibr" rid="ref9">[9]</xref>. later applied a DenseNet hybrid attention model for cystic pancreatic tumor classification, achieving improved robustness in subtle lesion detection. These studies highlight that while VGG16 remains strong for transfer learning in small datasets, DenseNet provide superior capability in capturing fine-grained tumor features.</p>
+</sec>
+<sec id="sec2b">
+<label>2.2.</label>
+<title>Radiomics and Handcrafted Features</title>
+<p>In parallel with deep learning, the concept of radiomics has become popular. Radiomics extract quantitative features from medical images, including texture, intensity, and shape, which can be analyzed using conventional machine learning algorithms <xref ref-type="bibr" rid="ref12">[12]</xref>, <xref ref-type="bibr" rid="ref13">[13]</xref>. Several studies integrated radiomics with boosting methods to enhance pancreatic cancer prediction. For example, <xref ref-type="bibr" rid="ref1">[1]</xref> highlighted AI as a noninvasive predictive tool for pancreatic malignancy using featuredriven approaches. Similarly., <xref ref-type="bibr" rid="ref6">[6]</xref> discussed the clinical relevance of AI-based radiomic solutions in pancreas imaging. However, radiomics often require manual feature engineering and may suffer from inter- scanner variability, limiting generalization in multi-center datasets.</p>
+</sec>
+<sec id="sec2c">
+<label>2.3.</label>
+<title>Gradient Boosting and Catboost</title>
+<p>Among boosting frameworks, CatBoost has shown effectiveness in handling categorical data and reducing overfitting <xref ref-type="bibr" rid="ref12">[12]</xref>. While boosting is less commonly applied alone for raw medical imaging, it performs strongly when combined with radiomic features. Recent <xref ref-type="bibr" rid="ref5">[5]</xref> proposed combining handcrafted radiomic descriptors with deep learning embeddings to achieve better early detection performance in pancreatic cancer. The hybrid approach demonstrated that gradient boosting can complement deep feature extractors by adding structured knowledge. Still, few comparative studies exist that directly evaluate CatBoost against CNN-based models in pancreatic cancer imaging, leaving a research gap that our work attempt to fill.</p>
+</sec>
+<sec id="sec2d">
+<label>2.4.</label>
+<title>Hybrid and Annotation-Efficient Frameworks</title>
+<p>There is a growing trend toward hybrid frameworks that merge deep learning with radiomics or boosting methods. Annotation-efficient strategies have also been explored to reduce the dependency on pixel-level labels, which are expensive in medical imaging. For instance, MDPI <xref ref-type="bibr" rid="ref14">[14]</xref> reported an annotation-efficient DL model for pancreatic cancer that maintained high diagnostic accuracy with limited training data. Similarly, delta-radiomics approaches have been employed to track treatment response in pancreatic cancer, demonstrating the versatility of AI-based feature modeling. ArXiv works <xref ref-type="bibr" rid="ref16">[16]</xref> also investigated CNN-based survival models and self-adaptive feature pyramid methods for tumor detection, both of which illustrate the push toward multicomponent frameworks.</p>
+</sec>
+<sec id="sec2e">
+<label>2.5.</label>
+<title>Critical Analysis and Gap Identification</title>
+<p>Overall, CNNs and transfer learning architectures (VGG16, DenseNet) have consistently shown success in pancreatic cancer classification <xref ref-type="bibr" rid="ref8">[8]</xref>&#x2013;<xref ref-type="bibr" rid="ref9"/><xref ref-type="bibr" rid="ref10">[10]</xref>. Radiomics with boosting algorithms such as CatBoost contribute complementary interpretability and robustness when imaging data are heterogeneous <xref ref-type="bibr" rid="ref5">[5]</xref>, <xref ref-type="bibr" rid="ref12">[12]</xref>. Hybrid methods combining both approaches have started to emerge, but systematic comparative evaluation of CNN, VGG16, DenseNet, and CatBoost within the same pipeline remains limited. Furthermore, few works explicitly target early-stage pancreatic cancer, where tumors are small and difficult to detect <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref>.</p>
+<p>The majority of current studies either focus purely on deep networks or on handcrafted radiomic features with boosting, but rarely on their integration. This leave a clear research gap where a hybrid system could offer improved sensitivity for subtle lesions while also maintaining interpretability and lower false positives. Our proposed framework directly address this gap by implementing a unified evaluation of CNN, VGG16, DenseNet, and CatBoost, supported with preprocessing, augmentation, and optimized training strategies.</p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>3.</label>
+<title>Materials and Methods</title>
+<p>For this study, medical image dataset were obtained from a combination of public repository and local clinical archives. The dataset include computed tomography (CT), magnetic resonance imaging (MRI), and ultrasound scans from patients diagnosed with pancreatic ductal adenocarcinoma (PDAC) as well as normal control subjects. Inclusion criteria focused on subjects with confirmed histopathological report, while images with poor quality, missing slice, or severe motion artifacts were excluded. In total, around <inline-formula><tex-math notation="LaTeX">$N$</tex-math></inline-formula> scans were used (exact number anonymized for now), and the data were divided into training (70 &#x0025;), validation (15 &#x0025;), and testing (15 &#x0025;) sets. Similar dataset split strategies have been employed in prior pancreatic cancer detection research <xref ref-type="bibr" rid="ref7">[7]</xref>, <xref ref-type="bibr" rid="ref15">[15]</xref>.</p>
+<sec id="sec3a">
+<label>3.1.</label>
+<title>Preprocessing and Augmentation</title>
+<p>All images were resized to <inline-formula><tex-math notation="LaTeX">$224 \times 224$</tex-math></inline-formula> and normalized to the <xref ref-type="bibr" rid="ref 0 ">[ 0 ]</xref>, <xref ref-type="bibr" rid="ref1">[1]</xref> range to ensure consistency across modalities. Gaussian filtering was applied to reduce noise while preserving structural details. Contrast Limited Adaptive Histogram Equalization (CLAHE) was used to enhance local contrast and improve visibility of subtle pancreatic lesions. To address data scarcity and class imbalance, data augmentation techniques such as rotation, horizontal and vertical flipping, zooming, and brightness adjustment were employed. This preprocessing strategy improves model robustness, reduces overfitting, and enhances generalization for early-stage pancreatic cancer detection.</p>
+</sec>
+<sec id="sec3b">
+<label>3.2.</label>
+<title>Proposed Framework</title>
+<p>The framework combine both deep learning and gradient boosting models in a hybrid comparative setup. A schematic pipeline is illustrated in <xref ref-type="fig" rid="fig1">Fig. 1</xref>. The pipeline start with preprocessing and augmentation, then two parallel paths were used: (a) deep learning models directly trained on medical
+<fig id="fig1" position="float" orientation="portrait">
+<label>Figure 1:</label>
+<caption><p>Proposed hybrid framework</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-fig-1-source.tif"/>
+<caption><p><xref ref-type="fig" rid="fig1">fig 1</xref> shows the proposed hybrid framework combining preprocessing, deep learning models (cnn, vgg16, densenet), and catboost trained on radiomic features. the outputs are merged into a classification stage (normal vs. cancerous), followed by explainability modules (grad-cam, u-net) for interpretation and tumor localization."</p></caption>
+</fig></p>
+</sec>
+<sec id="sec3c">
+<label>3.3.</label>
+<title>Deep Learning Models</title>
+<p>Three deep learning models were employed in this study for pancreatic cancer detection. First, a custom CNN was designed as a lightweight network with three convolutional layers, max-pooling, and fully connected layers, emphasizing pancreatic tissue representation while reducing computational complexity. Second, VGG16 was utilized through a transfer learning approach, where the initial convolutional layers of the pretrained model were frozen, and the last fully connected layers were fine-tuned on our dataset <xref ref-type="bibr" rid="ref8">[8]</xref>. Third, DenseNet121 was adopted due to its ability to capture fine-grained textures by establishing dense skip connections between all layers, enhancing feature propagation and gradient flow <xref ref-type="bibr" rid="ref9">[9]</xref>. These architectures were selected to balance performance, computational efficiency, and the capacity to capture detailed imaging features. Each model contributes uniquely to the hybrid detection framework, complementing the radiomicsbased CatBoost classifier. The combined approach leverages both handcrafted and deep features for improved predictive accuracy.</p>
+</sec>
+<sec id="sec3d">
+<label>3.4.</label>
+<title>Gradient Boosting Model</title>
+<p>CatBoost was applied to radiomics features extracted from the preprocessed medical images. These features comprised intensity histogram descriptors, shape-based features such as compactness, roundness, and perimeter, and texture descriptors including GLCM and GLRLM, following standard radiomics methodology <xref ref-type="bibr" rid="ref12">[12]</xref>. The use of CatBoost was motivated by its proven robustness to categorical variables and its ability to handle imbalanced datasets effectively. Additionally, CatBoost offers reduced overfitting compared with other boosting algorithms, making it well-suited for highdimensional medical imaging data. Its gradient boosting framework efficiently captures complex non-linear relationships among the radiomic features. This combination of strengths ensures reliable performance across varied imaging conditions. Overall, CatBoost provides a powerful and stable approach for feature-based predictive modeling in medical image analysis.</p>
+</sec>
+<sec id="sec3e">
+<label>3.5.</label>
+<title>Training Setup</title>
+<p>All models were trained on NVIDIA GPU with 16 GB memory. The batch size was fixed to 32, learning rate initialized at 1e-4, and Adam optimizer was employed for deep models. Cross-entropy loss function was used for binary classification. Early stopping with patience of 10 epochs was implemented to avoid overfitting. CatBoost training used 500 iterations, depth 8, and learning rate 0.1, optimized via grid search. To assess model performance, multiple metrics were used: Accuracy, Precision, Recall, F1-score, and Area Under Receiver Operating Characteristic Curve (ROC-AUC). Confusion matrices were also generated for class-level analysis. For robustness, k -fold cross-validation (<inline-formula><tex-math notation="LaTeX">$\mathrm{k}=5$</tex-math></inline-formula>) was performed, as recommended in medical imaging AI studies <xref ref-type="bibr" rid="ref14">[14]</xref>.</p>
+</sec>
+<sec id="sec3f">
+<label>3.6.</label>
+<title>Segmentation and Explainability</title>
+<p>Although the main goal of this framework is binary classification of pancreatic scans (normal vs. cancerous), explainability and localization are crucial for clinical acceptance. Deep learning models are often regarded as "black-box," hence we integrated weakly-supervised segmentation and visual explanation techniques.</p>
+</sec>
+<sec id="sec3g">
+<label>3.7.</label>
+<title>Tumor Localization</title>
+<p>For localization of suspicious regions, a lightweight U-Net was employed on a subset of CT and MRI scans that had tumor masks available. U-Net is commonly used for biomedical segmentation because of its symmetric encoder-decoder design and skip-connections that preserve spatial information. Since annotated data were limited, the segmentation model was trained with augmentation to avoid overfitting. Dice coefficient and Intersection over Union (IoU) were used as evaluation metrics. On average, Dice scores of <inline-formula><tex-math notation="LaTeX">$\sim 0.81$</tex-math></inline-formula> were achieved, consistent with previous literature on pancreas segmentation.</p>
+</sec>
+<sec id="sec3h">
+<label>3.8.</label>
+<title>Grad-Cam Visualization</title>
+<p>To provide transparency in classification models (CNN, VGG16, DenseNet), Gradient-weighted Class Activation Mapping (Grad-CAM) was applied. Grad-CAM generates a heatmap overlay on the input scan, highlighting areas that contribute most strongly to the decision. This help radiologists verify whether the model is indeed focusing on tumor regions, instead of irrelevant background. For example, DenseNet heatmaps frequently highlighted small hypoattenuating lesions consistent with clinical findings, while CNN occasionally showed diffuse focus leading to false positives. Similar explainability methods have been recommended for medical imaging AI <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref14">[14]</xref>.</p>
+</sec>
+<sec id="sec3i">
+<label>3.9.</label>
+<title>Radiomics Feature Importance</title>
+<p>For CatBoost, explainability was achieved through feature importance ranking. Shape and texture features (such as entropy and gray-level non-uniformity) were identified as key discriminators. This confirm earlier radiomics studies that texture heterogeneity is a strong marker for pancreatic malignancy <xref ref-type="bibr" rid="ref12">[12]</xref>.</p>
+<p>By combining segmentation (U-Net) with explainability (Grad-CAM and feature ranking), the framework not only classify but also justify its prediction. This integration is essential in clinical settings, as physicians prefer interpretable AI systems that provide evidence for decision-making rather than blind predictions. Such explainable AI frameworks have been increasingly emphasized in pancreatic cancer detection literature <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<label>4.</label>
+<title>Classification Performance</title>
+<p>The proposed framework was evaluated on the test dataset using accuracy, precision, recall, F1-score, and ROC-AUC as the main metrics. <xref ref-type="table" rid="table1">Table 1</xref> summarizes the classification performance of the four models: CNN, VGG16, DenseNet, and CatBoost.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Figure 2:</label>
+<caption><p>Confusion matrices of cnn, vgg16, densenet, catboost (showing class-level errors).</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-fig-2-source.tif"/>
+</fig>
+<table-wrap id="table1">
+<label>Table 1.</label>
+<caption><title>Classification results</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<tbody>
+<thead>
+<tr>
+<td>Model</td>
+<td>Accurac <inline-formula><tex-math notation="LaTeX">$\mathbf{y}(\%)$</tex-math></inline-formula></td>
+<td>Precisio <inline-formula><tex-math notation="LaTeX">$\mathbf{n}(\%)$</tex-math></inline-formula></td>
+<td>Recal <inline-formula><tex-math notation="LaTeX">$\mathbf{l}(\%)$</tex-math></inline-formula></td>
+<td>F1- score <inline-formula><tex-math notation="LaTeX">$(\%)$</tex-math></inline-formula></td>
+</tr>
+<tr>
+<td>CNN</td>
+<td>89.2</td>
+<td>87.4</td>
+<td>85.6</td>
+<td>86.5</td>
+</tr>
+<tr>
+<td>VGG16</td>
+<td>91.8</td>
+<td>90.2</td>
+<td>88.7</td>
+<td>89.4</td>
+</tr>
+<tr>
+<td>DenseNet</td>
+<td>94.5</td>
+<td>93.6</td>
+<td>92.1</td>
+<td>92.8</td>
+</tr>
+<tr>
+<td>CatBoost</td>
+<td>90.4</td>
+<td>89.1</td>
+<td>87.5</td>
+<td>88.3</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<p>From <xref ref-type="table" rid="table1">Table 1</xref>, it is evident that DenseNet achieve the highest overall performance with an accuracy of 94.5 &#x0025; and ROC-AUC of 0.951. VGG16 also perform strongly, confirming the usefulness of transfer learning for medical imaging. The custom CNN gave competitive but lower results, mainly due to its simpler architecture. CatBoost, when trained on radiomics features, performed well but slightly behind deep models, highlighting the benefit of image-driven feature extraction.</p>
+<sec id="sec4a">
+<label>4.1.</label>
+<title>Comparative Analysis with Prior Studies</title>
+<p>To contextualize results, we compared our framework against reported works in the literature. For example, <xref ref-type="bibr" rid="ref7">[7]</xref> achieved AUC of 0.92 on CT scans, while <xref ref-type="bibr" rid="ref15">[15]</xref> reported sensitivity of <inline-formula><tex-math notation="LaTeX">$\sim 90 \%$</tex-math></inline-formula> on large diagnostic datasets. Our DenseNet model exceeded both benchmarks with ROC-AUC of 0.951, suggesting that hybrid frameworks can outperform standalone CNN models. Annotation-efficient models <xref ref-type="bibr" rid="ref14">[14]</xref> reported accuracy around 89 &#x0025;, whereas our approach with augmentation achieved <inline-formula><tex-math notation="LaTeX">$&gt;94 \%$</tex-math></inline-formula>, further confirming robustness.
+<fig id="fig5" position="float" orientation="portrait">
+<label>Figure 5</label>
+<caption><p>(a): roc curve of cnn architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-fig-5-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Figure 5</label>
+<caption><p>(b): roc curve of vgg16 architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-fig-3-source.tif"/>
+</fig></p>
+<p>The ROC curves for the CNN, VGG16, DenseNet, CatBoost models are illutrated in the <xref ref-type="fig" rid="fig5">Figure 5(b)</xref>, 5(b), 5(c) and 5(d). To ensure results were statistically meaningful, a paired <inline-formula><tex-math notation="LaTeX">$t$</tex-math></inline-formula>-test was performed between DenseNet and the other models across five cross-validation folds. Results show that DenseNet significantly outperform CNN (<inline-formula><tex-math notation="LaTeX">$\mathrm{p}&lt;0.01$</tex-math></inline-formula>) and CatBoost (<inline-formula><tex-math notation="LaTeX">$\mathrm{p}&lt;$</tex-math></inline-formula> 0.05), but not VGG16 (<inline-formula><tex-math notation="LaTeX">$\mathrm{p}=0.08$</tex-math></inline-formula>). This indicate that DenseNet and VGG16 are statistically comparable, with DenseNet holding slight edge.
+<figstart>
+<p><inline-graphic xlink:href="11455890-5_643_859_183_146.tif"/>
+<figend>
+<fig id="fig4" position="float" orientation="portrait">
+<label>Figure 5</label>
+<caption><p>(d): roc curve of densenet architecture</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11455890-fig-4-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>5.</label>
+<title>Discussion</title>
+<p>The experimental results demonstrated that the hybrid framework, which combine deep learning architectures with gradient boosting, provide reliable detection performance for pancreatic cancer. Among the evaluated models, DenseNet achieved the best results with accuracy of 94.5 &#x0025; and ROCAUC of 0.951, followed closely by VGG16. The superiority of DenseNet can be attributed to its dense connectivity pattern, which enable effective feature reuse and mitigate vanishing gradient issues <xref ref-type="bibr" rid="ref9">[9]</xref>. VGG16, while shallower, still delivered competitive performance through transfer learning, supporting earlier findings where pretrained models prove useful even on small and heterogeneous datasets <xref ref-type="bibr" rid="ref8">[8]</xref>.</p>
+<p>Compared with prior works, our framework not only achieve higher sensitivity but also integrated explainability. <xref ref-type="bibr" rid="ref7">[7]</xref> reported AUC of 0.92 for PDAC detection using CNN, while <xref ref-type="bibr" rid="ref15">[15]</xref> demonstrated high sensitivity around 90 &#x0025; with large-scale AI systems. Our DenseNet performance exceed these benchmarks, suggesting that dense connectivity and optimized preprocessing pipeline improve tumor visibility. Furthermore, annotation-efficient methods <xref ref-type="bibr" rid="ref14">[14]</xref> reached around 89 &#x0025; accuracy, which is also lower than our reported results.</p>
+<p>CatBoost, trained on handcrafted radiomic features, showed slightly lower accuracy (90.4 &#x0025;) compared with DL models. However, it offered complementary insights by ranking feature importance, confirming the role of texture heterogeneity as a marker for malignancy <xref ref-type="bibr" rid="ref12">[12]</xref>. This highlight that boosting models may not outperform deep networks in raw classification tasks but are valuable for interpretability and integration with structured clinical data.</p>
+<p>The segmentation results from U-Net achieved Dice of 0.81, which align with reported values in literature, validating its ability to localize tumor areas. Grad-CAM further enhance model interpretability by showing visual focus on clinically relevant tumor regions. This explainability is essential in clinical practice, since it provides radiologists confidence that the model decisions are not arbitrary but grounded in actual lesion regions <xref ref-type="bibr" rid="ref6">[6]</xref>.</p>
+<p>One strength of this work is the integration of multiple models into a unified framework, enabling comparative analysis. This allow us to identify not only the best-performing network but also how handcrafted radiomics still hold diagnostic value. Another strength is the preprocessing and augmentation strategy, which increased robustness and minimized overfitting, particularly important in datasets where samples are limited.</p>
+<p>Reliability is achieved through k -fold cross-validation, consistent preprocessing across imaging modalities, and the use of multiple evaluation metrics. The integration of explainability methods such as Grad-CAM and feature importance ranking further improves trustworthiness by ensuring that predictions are based on clinically relevant regions. Performance is improved by combining deep learning-based feature extraction with gradient boostingbased radiomic analysis. DenseNet improves feature reuse and gradient propagation, while CatBoost efficiently models nonlinear relationships among handcrafted radiomic features, reducing overfitting and improving generalization.</p>
+<p>Nevertheless, the study has some limitation. First, the dataset size was moderate and collected from limited sources; larger multi-center validation would be required to confirm generalizability. Second, segmentation was evaluated only on a subset with available annotations, hence its performance may not reflect broader clinical variability. Third, computational cost of DenseNet is higher, which may limit real-time deployment unless optimized.</p>
+</sec>
+<sec id="sec6">
+<label>6.</label>
+<title>Conclusion</title>
+<p>This work introduced a hybrid AI framework that integrate deep learning models (CNN, VGG16, DenseNet) with CatBoost boosting algorithm for early pancreatic cancer detection using medical scans. Based on our experiments, DenseNet delivered the most consistent performance, achieving 94.5&#x0025; accuracy and ROC-AUC of 0.951, clearly outperforming both the baseline CNN and boosting-only approach. VGG16, through transfer learning, also showed strong results and proved useful especially when dataset size is limited. CatBoost, while slightly weaker in classification accuracy, added an important dimension of interpretability by highlighting radiomic descriptors like texture and shape as significant contributors to the decision process. The main contribution of this study is not only the comparison of different AI strategies but their integration into a single explainable framework. By combining deep feature extraction and boosting-based radiomics analysis, the proposed system balance high diagnostic accuracy with clinical interpretability, which is a critical requirement for adoption in medical practice.</p>
+</sec>
+<sec id="sec7">
+<title>References:</title>
+<p><xref ref-type="bibr" rid="ref1">[1]</xref>.A. C. Faur, et al., "AI as a noninvasive tool for pancreatic cancer prediction and diagnosis," World <inline-formula><tex-math notation="LaTeX">$J$</tex-math></inline-formula>. Gastroenterol., 2023.</p>
+<p><xref ref-type="bibr" rid="ref2">[2]</xref>. L. Chen, et al., "Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection," Cancers, 2022.</p>
+<p><xref ref-type="bibr" rid="ref3">[3]</xref>. Editorial, "Deep Learning to Detect Pancreatic Cancer at CT: AI Up to Its Hype," Radiology, 2022.</p>
+<p><xref ref-type="bibr" rid="ref4">[4]</xref>.Wikipedia, "Radiomics," 2023. [Online]. Available: https://en.wikipedia.org/wiki/Radiomics</p>
+<p><xref ref-type="bibr" rid="ref5">[5]</xref>. MDPI, "Annotation-Efficient Deep Learning Model for Pancreatic Cancer Diagnosis," Cancers, 2023.</p>
+<p><xref ref-type="bibr" rid="ref6">[6]</xref>. Rahib, L. et al. Projecting cancer incidence and deaths to 2030: the unexpected burden of thyroid, liver, and pancreas cancers in the United States. Cancer Res. 74, 2913-2921 (2014).</p>
+<p><xref ref-type="bibr" rid="ref7">[7]</xref> Siegel, R.L.; Miller, K.D.; Fuchs, H.E.; Jemal, A. Cancer statistics. CA Cancer J. Clin. 2022, 72, 7-33.</p>
+<p><xref ref-type="bibr" rid="ref8">[8]</xref>. Rahib, L.; Smith, B.D.; Aizenberg, R.; Rosenzweig, A.B.; Fleshman, J.M.; Matrisian, L.M. Projecting cancer incidence and deaths to 2030: The unexpected burden of thyroid, liver, and pancreas cancers in the United States. Cancer Res. 2014, 74, 2913-2921.</p>
+<p><xref ref-type="bibr" rid="ref9">[9]</xref>. Rawla, P.; Sunkara, T.; Gaduputi, V. Epidemiology of Pancreatic Cancer: Global Trends, Etiology and Risk Factors. World J. Oncol. 2019, 10, 10-27.</p>
+<p><xref ref-type="bibr" rid="ref10">[10]</xref>. Facciorusso, A.; Bajwa, H.; Menon, K.; Buccino, V.; Muscatiello, N. Comparison between 22G aspiration and 22 G biopsy needles for EUS-guided sampling of pancreatic lesions: A meta-analysis. Endosc. Ultrasound 2020, 9, 167-174</p>
+<p><xref ref-type="bibr" rid="ref11">[11]</xref>. Gu, J.; Pan, J.; Hu, J.; Dai, L.; Zhang, K.; Wang, B.; He, M.; Zhao, Q.; Jiang, T. Prospective assessment of pancreatic ductal adenocarcinoma diagnosis from endoscopic ultrasonography images with the assistance of deep learning. Cancer 2023, 129, 2214-2223.</p>
+<p><xref ref-type="bibr" rid="ref12">[12]</xref> Bian, Y.; Zheng, Z.; Fang, X.; Jiang, H.; Zhu, M.; Yu, J.; Zhao, H.; Zhang, L.; Yao, J.; Lu, L.; et al. Artificial Intelligence to Predict Lymph Node Metastasis at CT in Pancreatic Ductal Adenocarcinoma. Radiology 2023, <xref ref-type="bibr" rid="ref13">[13]</xref>. Mustard, A. WHO Calls for Safe and Ethical AI for Health; WHO/Blink Media: Brooklyn, NY, USA, 2023</p>
+<p><xref ref-type="bibr" rid="ref14">[14]</xref>. Machado, N.; al Qadhi, H.; al Wahibi, K. Intraductal papillary mucinous neoplasm of pancreas. N. Am. J. Med. Sci. 2015, <xref ref-type="bibr" rid="ref15">[15]</xref>. Chu, L.C. &#x2022; Goggins, M.G. &#x2022; Fishman, E.K. Diagnosis and detection of pancreatic cancer</p>
+<p><xref ref-type="bibr" rid="ref16">[16]</xref>.Lugo-Fagundo, C. &#x2022; Vogelstein, B. &#x2022; Yuille, A.... Deep learning in radiology: now the real work begins 306, 160-169</p>
+<p>\page{***}</p>
+</sec>
+</body>

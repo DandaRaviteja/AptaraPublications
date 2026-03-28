@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 02/27/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">ICDMW</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-full-title>
+<conf-normalized-title>Data Mining Workshops (ICDMW), 2025 IEEE International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8132-9</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 IEEE International Conference on Data Mining Workshops (ICDMW)</conf-name>
+<conf-start iso-8601-date="2025-11-12"><day>12</day><month>11</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-11-15"><day>15</day><month>11</month><year>2025</year></conf-end>
+<conf-loc><city>Washington</city>, <state>DC</state>, <country>USA</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/ICDMW69685.2025.00265</article-id>
+<xplore-article-id>11415843</xplore-article-id>
+<xplore-issue>11415713</xplore-issue>
+<xplore-pub-id>11415623</xplore-pub-id>
+<title-group>
+<article-title>Understanding NBA Team Formations and Plays</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Christos</given-names> <surname>Gunopulos</surname></string-name>
+<string-name specific-use="index"><given-names>Christos</given-names> <surname>Gunopulos</surname></string-name>
+</name-alternatives>
+<email>cgunopulos@gmail.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Evimaria</given-names> <surname>Terzi</surname></string-name>
+<string-name specific-use="index"><given-names>Evimaria</given-names> <surname>Terzi</surname></string-name>
+</name-alternatives>
+<email>evimaria@cs.bu.edu</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="institution">Moraitis School</institution>
+</institution-wrap>
+<city>Athens</city>
+<country>Greece</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="department">Dept. of Computer Science</institution>
+<institution content-type="institution">Boston University</institution>
+</institution-wrap>
+<city>Boston</city>
+<country>USA</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-11-15"><day>15</day><month>Nov.</month><year>2025</year></pub-date>
+<fpage>2179</fpage>
+<lpage>2184</lpage>
+<permissions>
+<copyright-statement>2375-9259/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11415843_ft.xml</self-uri>
+<self-uri content-type="print">813200c179.pdf</self-uri>
+<abstract xml:lang="en">
+<p>The availability of high precision positional data from NBA games has enabled a recent research initiative to use machine learning techniques in order to improve our understanding of aspects of the game of basketball. Most recent research has focused on individual players&#x0027; abilities, or in identifying limited interactions between offense and defense. This research has shown that machine learning techniques can provide better quantification of players&#x0027; abilities, and can be used to improve performance. However basketball is a team sport and the performance of a player or the success of a play depends crucially on the positions and movements of the entire team, either in offense or in defense. To make progress in the understanding of how teams work we need to address the fundamental problem of data sparsity when we need to focus on specific teams and plays. In this work we present a novel approach to model team interactions in time and space. To represent the relative movements of the players we use a rotation invariant rigid representation that maintains the distances and the spatial relationships between players on the court, and extend this to capture the time dependent changes. This enables a significant simplification on the number of parameters compared to traditional two- or three-dimensional representations. Following and extending recent work, we adapt density-functional fluctuation theory (DFFT) to infer spatial and temporal team interactions by focusing on the distribution of the evolution of pair-wise distances over the time interval of a play. We aim to show that using this approach to model plays can predict the outcome of a play with more robustness than traditional approaches. Finally, we propose an architecture to identify how different spacing could lead to a different play outcome.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>sports analytics</kwd>
+</kwd-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="0"/>
+<equation-count count="1"/>
+<ref-count count="18"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>In recent years, the use of machine learning in predicting sports games outcomes has received increasing interest. The goal of sports analytics is to collect historical statistics and analyze real-time data (i.e., in-game or during practice) in order to gain better insights into how well game strategies are working and ultimately provide a competitive advantage to a team or individual. Sports games are inherently unpredictable, the outcomes are typically influenced by a variety of factors which typically include team composition, individual player performance, the psychological state of the players, tactical choices, refereeing decisions, weather conditions, etc. These elements typically change dynamically throughout the game, adding to the overall uncertainty of the final result <xref ref-type="bibr" rid="ref1">[1]</xref>.</p>
+<p>The use of machine learning has been recently proposed to modeling and forecasting game results. Current work in this area has primarily concentrated on traditional player rating systems for evaluating individual performance, event detection methods such as such as using Hidden Markov Models in basketball <xref ref-type="bibr" rid="ref2">[2]</xref>, <xref ref-type="bibr" rid="ref3">[3]</xref>, as well as machine learning approaches like XGBoost and Support Vector Machines for predicting shot quality <xref ref-type="bibr" rid="ref4">[4]</xref>. Additionally, complex statistical modeling techniques have been employed to analyze game events and outcomes <xref ref-type="bibr" rid="ref5">[5]</xref> <xref ref-type="bibr" rid="ref6">[6]</xref> <xref ref-type="bibr" rid="ref7">[7]</xref>.</p>
+<p>However, it is the availability of high precision positional data from NBA games (such as the National Basketball Association&#x0027;s (NBA) SportVU tracking data) that has recently enabled a research direction to use machine learning techniques in order to improve our understanding of aspects of the game of basketball. STATS SportVU, a six-camera system installed in every NBA arena, was introduced in 2012. SportVU provides spatio-temporal data of 25 frames per second the (x, y) coordinates of each of the ten players on the court, and the (<inline-formula><tex-math notation="LaTeX">$\mathrm{x}, \mathrm{y}, \mathrm{z}$</tex-math></inline-formula>) coordinates of the ball. This level of resolution has enabled the use of novel spatiotemporal mining and analysis techniques and has recently been used in combination with sophisticated machine learning techniques. Most recent research has focused on individual players&#x0027; abilities, or in identifying limited interactions between offense and defense. This research has shown that machine learning techniques can provide better quantification of players&#x0027; abilities, and can be used to improve performance <xref ref-type="bibr" rid="ref8">[8]</xref>, <xref ref-type="bibr" rid="ref9">[9]</xref>, <xref ref-type="bibr" rid="ref10">[10]</xref>, <xref ref-type="bibr" rid="ref11">[11]</xref>, <xref ref-type="bibr" rid="ref12">[12]</xref>, <xref ref-type="bibr" rid="ref13">[13]</xref>.</p>
+<p>In basketball, Cervone et. al <xref ref-type="bibr" rid="ref14">[14]</xref> assume that a rich set of optical tracking data is available from cameras and evaluate actions in a basketball game through a markov-chain approach with stochastic processes. The use of Deep Learning has been recently proposed in <xref ref-type="bibr" rid="ref15">[15]</xref> for estimating the Expected Point Value of an action through subsequences in basketball with a method of Stacked-Long Short Term Model and the use of the embedding layer to represent the players in the court. Their emphasis is mainly on predicting the next action of the team in possession of the ball.</p>
+<p>However basketball is a team sport and the performance of a player or the success of a play depends crucially on the overall team performance. Only recently has research focused on identifying limited interactions between offense and defense <xref ref-type="bibr" rid="ref16">[16]</xref> <xref ref-type="bibr" rid="ref10">[10]</xref>. In recent work, the authors in <xref ref-type="bibr" rid="ref3">[3]</xref> take a new approach in modeling team dynamics, by focusing on determining how the performance levels of different players, themselves a time-dependent variant, interact and affect each other. The key outtake is that the effects of the performance of players on the rest of the team can be modeled and estimated, providing a new lens through which to understand and evaluate team performance.</p>
+<p>Considering that a basketball possession is a sequence of events, an approach to model team interactions in time and space indeed appears mandatory. However fundamental problems remain when using the very accurate SportsVU data to model and analyze team plays. For example, despite the availablity of precise positional and time data, we still lack sufficient data volume to train complex spatiotempral models. Recent work attempts to address this problem by considering specific interactions <xref ref-type="bibr" rid="ref10">[10]</xref> or by looking at spatial approximation methods <xref ref-type="bibr" rid="ref11">[11]</xref>. The work in <xref ref-type="bibr" rid="ref11">[11]</xref> provides a novel formalization that allows a simplification of the problem, using the Density Functional Fluctuation Theory (DFFT) method. We note however that this work has the limitation that time is not properly considered, instead each player is modeled by a two dimensional probability distribution that models the likelihood of the player being in a specific discretized location on the floor within the three seconds preceding the end of the play.</p>
+<p>To summarize, it is empirically known that interactions between entire teams (one in offense and one in defense), although they do boil down to individual players maneuvering and interacting, are quite complex, and the positioning of the entire team has a large impact on the quality of an individual play. It follows that a method that combines (i) modeling the entire team interactions and (ii) approximating the spatiotemporal positioning of the teams, is required to improve the analytical tools currently available for analyzing and fully exploiting the opportunities offered by the SportsVU data available to understand the game.</p>
+<p><bold>Our Contribution:</bold> In this work we present a novel approach to modeling team interactions in time and space. To represent the relative movements of the players we use a rotation invariant rigid representation that maintains the distances and spatial relationships between players on the plane, and extend this to capture the time dependent differences. This provides us a significant simplification in the number of parameters compared to traditional two- or three-dimensional representations.</p>
+<p>Following and extending recent work, we adapt densityfunctional fluctuation theory (DFFT) to infer spatial and temporal team interactions by focusing on the distribution of the evolution of pair-wise distances over the time interval of a play. We aim to show that using this approach to model plays we can predict the outcome of a play with more robustness than traditional approaches. To do so we utilize a Long-Short-Term Memory (LSTM) learning model using the DFFT produced data.</p>
+<p>Finally, we propose an architecture to identify how different spacing could lead to a different play outcome. Our architecture leverages our prediction model coupled with an EncoderDecoder model that maps a play to similar plays that are likely to have different outcomes. The complete architecture is designed to enable the user to understand patterns in offense, and in addition, to evaluate whether small changes can improve the patterns&#x0027; efficiency, i.e. increase the likelihood of a successful play.</p>
+<p>Our early experimental evaluations, using the public NBA movement data of <uri>https://github.com/sealneaward/nba-movement-data</uri>, which includes SportVU movement tracking data (season 2012-2013) demonstrate that our approach presents a valuable tool to analyze the players actions and their pair wise interactions.</p>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Model and Architecture</title>
+<sec id="sec2a">
+<label>A.</label>
+<title>The Problem and The Approach</title>
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig. 1.</label>
+<caption><p>System architecture overview.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-1-source.tif"/>
+</fig>
+<p>Here we report on Work-in-Progess, and our current aim is to formulate the problem and properly set up the analysis pipeline. We initiate a research effort to analyze SportVU spatiotemporal data to understand the functioning of a team and evaluate how different approaches would improve the team&#x0027;s efficiency.</p>
+<p><bold>The Problem:</bold> is to provide novel tools to analyze NBA team positions and interactions. Our objective is to understand team strategy, player ability and play outcomes.</p>
+<p>In particular, we aim to understand how the <italic>concurrent sequences of actions</italic> of the players in offense and defense can be used to accurately predict play outcomes, and evaluate the impact of team spacing on the play outcomes. The main elements of the proposed approach are:
+<list list-type="ordered">
+<list-item><label>1)</label><p><bold>Team spatiotemporal spacing modeling:</bold> We define a simple but effective way to model the spatiotemporal movement of an NBA team during a basketball play.</p></list-item>
+<list-item><label>2)</label><p><bold>Density Functional Fluctuation Theory-based data approximation:</bold> We define a powerful approximation of the team movement data using densities of player distances, that efficiently captures the complexities of offense and defense interactions.</p></list-item>
+<list-item><label>3)</label><p><bold>Play Classification and Explanation of Outcomes:</bold> We show how to build a tool for understanding the outcome of different plays, and for identifying possible changes in the spacing that would impact the play outcomes.</p></list-item>
+</list>
+</p>
+<p><xref ref-type="fig" rid="fig1">Figure 1</xref> describes the individual components of the architecture.</p>
+</sec>
+<sec id="sec2b">
+<label>B.</label>
+<title>Modeling of Team Spatiotemporal Spacing</title>
+<p>The first step is to transform tracking data into a form that allows us to quantify &#x0027;similarity&#x0027; between positions. Such a transformation extends traditional sport metrics that explicitly presume which positions are &#x0027;similar&#x0027;.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig. 2.</label>
+<caption><p>The two figures show the same configuration of offense (red players), defense (green players) and basketball (orange), but rotated by a small amount. the pairwise distances are the same.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-2-source.tif"/>
+</fig>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig. 3.</label>
+<caption><p>The figures show that the locations can be fixed using a smaller amount or distances. on the right we see the next iteration in the movement, with players moving an average of 2 feet.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-3-source.tif"/>
+</fig></p>
+<p>Typically, current work that analyzes the spatial data of NBA teams uses absolute locations. The court is represented in a grid format, with each coordinate in the tracking data mapped to a cell within this grid to reduce dimensional complexity. Such an approach is conceptually simple, but overly constrained, and not flexible enough to identify similar plays in slightly different locations. For example, in <xref ref-type="bibr" rid="ref11">[11]</xref> the half-court is represented as a <inline-formula><tex-math notation="LaTeX">$10 \times 10$</tex-math></inline-formula> grid to streamline analysis, but this results in distance resolution of several feet. In <xref ref-type="bibr" rid="ref10">[10]</xref> where defense strategies are sought, a <inline-formula><tex-math notation="LaTeX">$360 \times 400$</tex-math></inline-formula> grid is required. Furthermore, if time is also incorporated, this approach leads to a sparsity of data, since the addition of a time dimension, if we use a time resolution of 1 second, leads to a 10 -fold increase of the grid (assuming an average 10 second offense).</p>
+<p>Our approach to address this problem is to use a different representation: we use the pairwise distances between the players and the ball as the representation of the teams&#x0027; dispositions and their interactions (see <xref ref-type="fig" rid="fig2">figures 2</xref>, <xref ref-type="fig" rid="fig3">3</xref> for examples). This has several advantages:
+<list list-type="ordered">
+<list-item><label>(i)</label><p>The locations on the players in the floor form a graph, and the relative positions of the players can be analyzed to identify the plays. Current work shows that distances between players can be used to identify sophisticated individual plays such as cuts <xref ref-type="bibr" rid="ref16">[16]</xref>, and this also agrees with empirical observations that highlight the importance of the correct spacing.</p></list-item>
+<list-item><label>(ii)</label><p>The pairwise distances accurately specify the placement of the players in rigid shapes that are rotation invariant or have axis symmetry. Thus, using the distances as the play representation we can easily identify when essentially the same play happens in different locations on the court. This is particularly useful because approaches that use grids typically cannot resolve the position of a player at a resolution better than a foot, thus adding noise when very similar plays occur at slightly different locations on the floor.</p></list-item>
+</list>
+</p>
+<p>In addition to the semantic advantages, the use of distances offers a more compact representation of the plays. In fact, since the graph of the players is planar we can fix the relative positions of the players using a smaller number of pairwise distances, with 20 being sufficient. Finally the temporal dimension is added by looking at the last 8 seconds of each possession, computing the 20 distances in <inline-formula><tex-math notation="LaTeX">$1 / 3$</tex-math></inline-formula> second intervals (this <inline-formula><tex-math notation="LaTeX">$1 / 3$</tex-math></inline-formula> second interval corresponds to 8 frames since the date are captured at a rate of 25 frames per second).</p>
+<p><xref ref-type="fig" rid="fig10">Figure 10</xref> illustrates the distribution of shot attempts by distance (as we discuss in detail in our preliminary experimental results section). For each distance value, the number of shot attempts is normalized as a percentage of total attempts across all distances. This distribution provides insight into shot selection preferences, highlighting the most frequently targeted zones on the court. As expected, peaks in attempt frequency occur near the basket and around the three-point arc-areas typically associated with either high efficiency or high reward in modern offensive schemes.</p>
+</sec>
+<sec id="sec2c">
+<label>C.</label>
+<title>Density Functional Fluctuation Theory-Based Data Approximation</title>
+<p>To efficiently model the player positioning and interactions with respect to play outcome, we use the Density Functional Fluctuation Theory (DFFT). DFFT is a method that uses principles from Density Functional Theory (DFT) to model and predict the behavior of interacting systems, particularly in situations involving collective motion or spatial organization, like crowds or sports teams <xref ref-type="bibr" rid="ref11">[11]</xref>. DFT is a computational framework originally developed in quantum physics and chemistry to model systems composed of many interacting entities incorporating their fluctuations and correlations. Traditional quantum mechanical approaches require solving the manybody Schr&#x00F6;dinger equation, a task that becomes computationally intractable as the number of particles increases due to the exponential growth of the system&#x0027;s state space. The original Density Functional Theory (DFT) addresses this challenge by shifting the focus from tracking the full many-body wavefunction to modeling the system in terms of its particle density-a function that specifies the probability of finding a particle at each point in space. Where DFFT improves on is in its dimensionality reduction: instead of representing a complex high-dimensional state, it relies on a lower-dimensional function that still contains sufficient information to recover important physical quantities, such as total energy or system stability. In doing so, DFT transforms the original quantum problem into a tractable optimization problem over densities.</p>
+<p>More specifically, we follow and extend the approach of <xref ref-type="bibr" rid="ref11">[11]</xref>. Instead of modeling directly the probability of a player being in a given location - an approach that requires computing static probability densities in a grid (of size <inline-formula><tex-math notation="LaTeX">$10 \times 10$</tex-math></inline-formula>) with discretized values, we estimate the probabilities of distances between players. Specifically we estimate separately the distributions of distances between players on offense (&#x201C;offense spacing&#x201D;), the distributions of distances between players on de-fense (&#x201C;defense spacing&#x201D;), and the distances between opposing papers (&#x201C;play interaction&#x201D;). For computing the distributions of the distances using the DFFT method we need to discretize the values of the distances to <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> distinct values. Consequently we use a vector of <inline-formula><tex-math notation="LaTeX">$3 K$</tex-math></inline-formula> values for estimating the density of the distances. Note that the distances in a half-court are bounded by 70 feet so the number of <inline-formula><tex-math notation="LaTeX">$K$</tex-math></inline-formula> can be small (just 25 gives a 3-feet accuracy). To derive our estimate of each of the three densities in each vector cell we follow the treatment of <xref ref-type="bibr" rid="ref11">[11]</xref> and minimize the Kullbak-Leibler (KL) divergence between the observed distribution and the predicted distribution under the constraints of the average distributions (offense spacing, defense spacing, play interaction) for the given cell. The advantage of our technique is that the time dimension can be properly taken into account as a sequence of <inline-formula><tex-math notation="LaTeX">$3 K$</tex-math></inline-formula> vectors, since each vector has a lot fewer parameters than a grid partitioning of the court of the same spatial resolution. To model the temporal movement of the teams during a play we break the last 8 seconds of each play, computing a density vector of distances every 8 frames (achieving a <inline-formula><tex-math notation="LaTeX">$1 / 3 \text{sec}$</tex-math></inline-formula> temporal resolution, since each second has 25 frames). The SportVU tracking data, which includes player and ball positions for each possession, is first preprocessed as described in the previous section. Each possession then contributes to the modeling of the density of distances.</p>
+</sec>
+<sec id="sec2d">
+<label>D.</label>
+<title>Play Classification and Explanation of Outcomes</title>
+<p>To estimate the probabilities of rewarding or punishing actions that leaded to a goal we use a neural network classifier, and more specifically an LSTM (Long Short Term Model <xref ref-type="bibr" rid="ref17">[17]</xref>) network.</p>
+<p>The sequential data for each possession, formatted as a series of distance density vectors over time, is fed into the LSTM. Let <inline-formula><tex-math notation="LaTeX">$x_{1}, x_{2}, \ldots, x_{30}$</tex-math></inline-formula> represent the sequence of frames for possession <inline-formula><tex-math notation="LaTeX">$x$</tex-math></inline-formula>. The LSTM processes the sequences to capture movement patterns across time, learning shifts in positioning, and defensive adjustments.</p>
+<p>In this work we use the LSTM classifier as a black box that describes the quality of each play based on a desired Field Goal percentage (FG&#x0025;) for each play. As shown in <xref ref-type="fig" rid="fig5">Figure 5</xref> our data allow the aggregation of plays along several types of plays. In the next step we provide the user feedback to explain how a specific play could be modified to improve its quality, that is, improve the <inline-formula><tex-math notation="LaTeX">$\text{FG} \%$</tex-math></inline-formula> above a given threshold. In particular we focus on how individual input features contribute to the model&#x0027;s prediction. Formally, consider a machine learning model, such as an LSTM classifier f, defined as: <inline-formula><tex-math notation="LaTeX">$f(\mathbf{X}): \mathbb{R}^{n} \rightarrow \mathbb{R}$</tex-math></inline-formula>
+where <inline-formula><tex-math notation="LaTeX">$\mathbf{X}=\left(x_{1}, x_{2},. ., x_{n}\right)$</tex-math></inline-formula> represents the vector of input features. The goal of explainability is to provide a mathematical mechanism to quantify the influence of each feature <inline-formula><tex-math notation="LaTeX">$x_{n}$</tex-math></inline-formula> on the output <inline-formula><tex-math notation="LaTeX">$f(\mathbf{X})$</tex-math></inline-formula>. A common approach to achieve this involves decomposing the model&#x0027;s prediction into contributions attributed to each input feature:
+<disp-formula><tex-math notation="LaTeX">\begin{equation*}
+x_{n}, f(\mathbf{X})=\phi_{0}+\sum_{m=1}^{n} \phi_{m}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Here, <inline-formula><tex-math notation="LaTeX">$\phi_{0}$</tex-math></inline-formula> denotes the baseline output (e.g., the expected model output without any input), and each <inline-formula><tex-math notation="LaTeX">$\phi_{m}$</tex-math></inline-formula> quantifies the contribution of feature <inline-formula><tex-math notation="LaTeX">$x_{n}$</tex-math></inline-formula> to the prediction. In this work, we use the method of counterfactual explanations in order to identify the minimal changes required to alter the prediction of a classifier. To do that we use a Variational Auto Encoder (VAE) network <xref ref-type="bibr" rid="ref18">[18]</xref> (<xref ref-type="fig" rid="fig4">Figure 4</xref>). The VAE&#x0027;s encoder, which works as a bottleneck, is trained with data X and produces a low-dimensional representation of them in latent space z. The output of z must be reconstructed to its original dimensions in the decoder part of the VAE, thus providing similar examples to the input. To find examples that have a different class (that is, they improve the play outcome over a threshold) we plan to experiment to train the VAE with a loss function that includes the output of the LSTM model.
+<fig id="fig4" position="float" orientation="portrait">
+<label>Fig. 4.</label>
+<caption><p>A vae network that maps input instances to generated similar instances</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-4-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Preliminary Experimental Results</title>
+<fig id="fig5" position="float" orientation="portrait">
+<label>Fig. 5.</label>
+<caption><p>Barplot of the action types and frequences.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-5-source.tif"/>
+</fig>
+<p>We analyzed event data sourced from the NBA&#x0027;s play-by-play logs, stored in a CSV file (<uri>https://github.com/sealneaward/nba-movement-data/tree/master/data</uri>). The data comprises over 32,000 possessions from the 2012-2013 NBA season, representing approximately 630 games. We analyzed these NBA shot data to investigate the distribution of shooting action types, with the goal of categorizing plays, as different plays tend to result in different shot types. <xref ref-type="fig" rid="fig5">Figure 5</xref> presents the relative frequency of each unique action type, defined as the specific movement or technique employed during a shot attempt (e.g., Jump Shot, Layup, Hook Shot). To facilitate comparison across categories, the frequencies were normalized to percentages. This visualization offers a concise overview of league-wide play selection tendencies and serves as a foundational component for downstream tasks. We further examined the distribution of shot action types at the team level across the entire dataset. For each team, we aggregated the total number of shot attempts and made shots for every unique action type. The results (not shown here for lack of space) show the Boston Celtics recorded the highest volume of shot attempts, while the Memphis Grizzlies, San Antonio Spurs, and Miami Heat had the fewest, and that the Golden State Warriors achieved the highest number of made shots during the season, whereas the Memphis Grizzlies registered the lowest.
+<fig id="fig6" position="float" orientation="portrait">
+<label>Fig. 6.</label>
+<caption><p>Average team spacing on shots (top) and shots missed (bottom)</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-6-source.tif"/>
+</fig></p>
+<p>To investigate spatial dynamics in team play, we analyzed team-level data capturing the average teammate spacing throughout a season. We visualized the distribution of average spacing across all teams and further analyzed spacing in the context of missed shots in <xref ref-type="fig" rid="fig6">Figure 6</xref>. Additionally, <xref ref-type="fig" rid="fig7">Figure 7</xref> depicts the spatial locations where these shots occurred, providing geographic context to the spacing metrics. Together, these figures show the clear impact of team spacing on the outcome of the play, as all teams show differences in their spacing when the play is successful (the average spacing across all teams is higher) and when it is not and validate our postulate of the importance of team spacing, motivating our research direction in this area.
+<fig id="fig7" position="float" orientation="portrait">
+<label>Fig. 7.</label>
+<caption><p>Locations of shots made per team.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-7-source.tif"/>
+</fig></p>
+<p><xref ref-type="fig" rid="fig8">Figure 8</xref> presents the field goal percentage (<inline-formula><tex-math notation="LaTeX">$\text{FG} \%$</tex-math></inline-formula>) as a function of action type, based on grouped shot attempt data. Each action type represents a specific classification of shot technique (e.g., Layup, Dunk, Jump Shot), and FG&#x0025; is calculated as the ratio of made shots to total attempts, scaled to a percentage. To ensure statistical robustness, only action types with at least two recorded attempts are included. This visualization enables comparative evaluation of shooting efficiency across different offensive actions, highlighting which techniques are associated with higher success rates.</p>
+<p>In <xref ref-type="fig" rid="fig9">Figure 9</xref> we extend this analysis by plotting <inline-formula><tex-math notation="LaTeX">$\text{FG} \%$</tex-math></inline-formula> as a function of shot distance (in feet). Shot attempts are grouped by discrete distance values, and <inline-formula><tex-math notation="LaTeX">$\text{FG} \%$</tex-math></inline-formula> is computed for each group using the same ratio-based formula. This plot reveals the expected inverse relationship between shot distance and shooting efficiency, <inline-formula><tex-math notation="LaTeX">$\text{FG} \%$</tex-math></inline-formula> generally declines with increased distance due to greater difficulty and defensive pressure.</p>
+<p><xref ref-type="fig" rid="fig10">Figure 10</xref> illustrates the distribution of shot attempts by distance. For each distance value, the number of shot attempts is normalized as a percentage of total attempts across all distances. This distribution provides insight into shot selection preferences, highlighting the most frequently targeted zones on the court. As expected, peaks in attempt frequency occur near the basket and around the three-point arc areas typically associated with either high efficiency or high reward in modern offensive schemes.
+<fig id="fig8" position="float" orientation="portrait">
+<label>Fig. 8.</label>
+<caption><p>Percentage of fg as a function of action type.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-8-source.tif"/>
+</fig>
+<fig id="fig9" position="float" orientation="portrait">
+<label>Fig. 9.</label>
+<caption><p>Percentage of fg as a function of shot distance.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-9-source.tif"/>
+</fig>
+<fig id="fig10" position="float" orientation="portrait">
+<label>Fig. 10.</label>
+<caption><p>Field goals attempted as a function of shot distance.</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11415843-fig-10-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Conclusion</title>
+<p>In this paper we report on a novel research direction at developing tools to analyze NBA team formations and plays, and to better understand team strategies and the interactions between offense and defense. Our objective is to help the user understand the functioning of a team and evaluate how different approaches would improve the team&#x0027;s efficiency. Here we formulate the problem and properly set up the analysis pipeline. We focus on considering the entire team interactions and provide a novel approach for modeling these interactions that leverages recent advances using the Density Functional Fluctuation Theory (DFFT) method. We provide initial experimental results using SportVU spatiotemporal data. The focus of our future work is implementing the analysis pipeline and experimentally validating the approach.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>R.</given-names> <surname>Aoki</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Assun&#x00E7;&#x00E3;o</surname></string-name>, and <string-name><given-names>P. V.</given-names> <surname>de Melo</surname></string-name></person-group>, &#x201C;<article-title>Luck is hard to beat: The diiculty of sports prediction</article-title>,&#x201D; in <source>Proceedings of the ACM SIGKDD 2017</source>, <conf-loc>Halifax, NS,Canada</conf-loc>, <conf-date>2017</conf-date>.</mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Keshri</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Oh</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>G.</given-names> <surname>Iyengar</surname></string-name>, and <string-name><given-names>J.</given-names> <surname>Quant</surname></string-name></person-group>, &#x201C;<article-title>Automatic event detection in basketball using hmm with energy based defensive assignment</article-title>,&#x201D; <source>Anal Sports</source>, vol. <volume>15</volume>, no. <issue>2</issue>, <year>2019</year>.</mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>I.</given-names> <surname>Nikolaou</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Pelechrinis</surname></string-name>, and <string-name><given-names>E.</given-names> <surname>Terzi</surname></string-name></person-group>, &#x201C;<article-title>Understanding team collapse via probabilistic graphical models</article-title>,&#x201D; in <source>Proceedings of the 31st ACM SIGKDD, V.1, KDD 2025</source>, <conf-loc>Toronto, Canada</conf-loc>, <conf-date>August 3-7, 2025</conf-date>. <conf-sponsor>ACM</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M. S.</given-names> <surname>Oughali</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Bahloul</surname></string-name>, and <string-name><given-names>S. A. E.</given-names> <surname>Rahman</surname></string-name></person-group>, &#x201C;<article-title>Analysis of nba players and shot prediction using random forest and xgboost models</article-title>,&#x201D; in In <source>2019 ICCIS</source>, <year>2019</year>.</mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Cervone</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Bornn</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Goldsberry</surname></string-name></person-group>, &#x201C;<source>Pointwise: Predicting points and valuing decisions in real time with nba optical tracking data</source>,&#x201D; in <uri>https://api.semanticscholar.org/CorpusID:1222592</uri>, <year>2014</year>.</mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Cervone</surname></string-name>, <string-name><given-names>A.</given-names> <surname>D&#x0027;Amour</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Bornn</surname></string-name>,, and <string-name><given-names>K.</given-names> <surname>Goldsberry</surname></string-name></person-group>, &#x201C;<article-title>A multiresolution stochastic process model for predicting basketball possession outcomes</article-title>,&#x201D; in <source>Amer. Statist. Assoc.</source> <volume>111</volume>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Harmon</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Lucey</surname></string-name>, and <string-name><given-names>D.</given-names> <surname>Klabjan</surname></string-name></person-group>, &#x201C;<article-title>Predicting shot making in basketball using convolutional neural networks learnt from adversarial multiagent trajectories</article-title>,&#x201D; <source>arXiv preprint</source>, <year>2016</year>. [Online]. Available: <uri>https://arxiv.org/abs/1609.04849</uri></mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>H.</given-names> <surname>Wang</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Sarker</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Hosoi</surname></string-name></person-group>, &#x201C;<article-title>The effect of basketball analytics investment on National Basketball Association (NBA) team performance</article-title>,&#x201D; <source>Journal of Sports Economics</source>, vol. <volume>26</volume>, no. <issue>6</issue>, pp. <fpage>668</fpage>&#x2013;<lpage>688</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>F.</given-names> <surname>Jiao</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Gong</surname></string-name>, <string-name><given-names>R.</given-names> <surname>Cao</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Zhang</surname></string-name>, <string-name><given-names>M.</given-names> <surname>&#x00C1;ngel G&#x00F3;mez Ruano</surname></string-name>, and <string-name><given-names>Y.</given-names> <surname>Cui</surname></string-name></person-group>, &#x201C;<article-title>Using massive spatialtemporal data to analyse nba match performance under different possession outcomes</article-title>,&#x201D; <source>Intelligent Sports and Health</source>, vol. <volume>1</volume>, no. <issue>1</issue>, pp. <fpage>30</fpage>&#x2013;<lpage>39</lpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>J.</given-names> <surname>Li</surname></string-name></person-group>, &#x201C;<article-title>Machine learning-based analysis of defensive strategies in basketball using player movement data</article-title>,&#x201D; <source>Scientific Reports</source>, vol. <volume>15</volume>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Barron</surname></string-name>, <string-name><given-names>N.</given-names> <surname>Sitaraman</surname></string-name>, and <string-name><given-names>T.</given-names> <surname>Arias</surname></string-name></person-group>, &#x201C;<article-title>Analyzing NBA player positions and interactions with density-functional fluctuation theory</article-title>,&#x201D; <source>Scientific Reports</source>, vol. <volume>15</volume>, p. <fpage>19830</fpage>, <year>2025</year>.</mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Nistala</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Guttag</surname></string-name></person-group>, &#x201C;<article-title>Using deep learning to understand patterns of player movement in the NBA</article-title>,&#x201D; in <source>2025 MIT Sloan Sports Analytics Conference</source>, <conf-loc>Boston, MA</conf-loc>, <conf-date>March 7-8 2025</conf-date>. [Online]. Available: <uri>https://www.sloansportsconference.com/</uri></mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Z.</given-names> <surname>Terner</surname></string-name> and <string-name><given-names>A.</given-names> <surname>Franks</surname></string-name></person-group>, &#x201C;<article-title>Modeling player and team performance in basketball</article-title>,&#x201D; <source>Annual Review of Statistics and Its Application</source>, vol. <volume>8</volume>, pp. <fpage>1</fpage>&#x2013;<lpage>23</lpage>, <year>2021</year>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D.</given-names> <surname>Cervone</surname></string-name>, <string-name><given-names>A.</given-names> <surname>D&#x0027;Amour</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Bornn</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Goldsberry</surname></string-name></person-group>, &#x201C;<article-title>A multiresolution stochastic process model for predicting basketball possession outcomes</article-title>,&#x201D; <source>Journal of the American Statistical Association</source>, vol. <volume>111</volume>, no. <issue>514</issue>, <year>2016</year>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.</given-names> <surname>Sicilia</surname></string-name>, <string-name><given-names>K.</given-names> <surname>Pelechrinis</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Goldsberry</surname></string-name></person-group>, &#x201C;<article-title>Deephoops: Evaluating micro-actions in basketball using deep feature representations of spatiotemporal data</article-title>,&#x201D; in <source>Proceedings of the 25th ACM SIGKDD</source>, <conf-date>2019</conf-date>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Supola</surname></string-name>, <string-name><given-names>T.</given-names> <surname>Hoch</surname></string-name>, and <string-name><given-names>A.</given-names> <surname>Baca</surname></string-name></person-group>, &#x201C;<article-title>Modeling the formation of defensive gaps in basketball: Cutting on a teammate&#x0027;s drive</article-title>,&#x201D; <source>PLOS ONE</source>, vol. <volume>18</volume>, no. <issue>2</issue>, p. <fpage>e0281467</fpage>, <year>2023</year>.</mixed-citation></ref>
+<ref id="ref17"><label>[17]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>S.</given-names> <surname>Hochreiter</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Schmidhuber</surname></string-name></person-group>, &#x201C;<article-title>Long short-term memory</article-title>,&#x201D; <source>Neural computation</source>, vol. <volume>9</volume>, no. <issue>8</issue>, pp. <fpage>1735</fpage>&#x2013;<lpage>1780</lpage>, <year>1997</year>.</mixed-citation></ref>
+<ref id="ref18"><label>[18]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. P.</given-names> <surname>Kingma</surname></string-name> and <string-name><given-names>M.</given-names> <surname>Welling</surname></string-name></person-group>, &#x201C;<source>Auto-encoding variational bayes</source>,&#x201D; <year>2022</year>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>

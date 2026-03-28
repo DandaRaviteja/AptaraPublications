@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE conf-article PUBLIC "-//IEEE//IEEE Conferences JATS-based DTD v2.0//EN" "conferences.dtd">
+<conf-article article-type="research" content-type="orig-research" dtd-version="2.0" open-access="no" xml:lang="eng" show-flag="show" peer-reviewed="yes" lifecycle="final" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Article Processing Date: 03/22/2026 -->
+<!-- Vendor Name: Aptara -->
+<!-- IEEE XML JATS Tagging Guidelines version: 20241024 -->
+<!-- IEEE Math Coding Requirements and Guidelines for Vendors version: v2.4 -->
+<conf-front>
+<conf-proc-meta>
+<conf-proc-id conf-proc-id-type="conf-acronym">MACS</conf-proc-id>
+<conf-proc-title-group>
+<conf-full-title>2025 15th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</conf-full-title>
+<conf-normalized-title>Mathematics, Actuarial Science, Computer Science and Statistics (MACS), 2025 15th International Conference on</conf-normalized-title>
+</conf-proc-title-group>
+<volume>00</volume>
+<isbn publication-format="electronic">979-8-3315-8922-6</isbn>
+</conf-proc-meta>
+<conf-meta>
+<conf-name>2025 15th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</conf-name>
+<conf-start iso-8601-date="2025-12-20"><day>20</day><month>12</month><year>2025</year></conf-start>
+<conf-end iso-8601-date="2025-12-21"><day>21</day><month>12</month><year>2025</year></conf-end>
+<conf-loc><city>Karachi</city>, <country>Pakistan</country></conf-loc>
+</conf-meta>
+<conf-article-meta>
+<article-id pub-id-type="doi">10.1109/MACS68476.2025.11453427</article-id>
+<xplore-article-id>11453427</xplore-article-id>
+<xplore-issue>11453321</xplore-issue>
+<xplore-pub-id>11452211</xplore-pub-id>
+<title-group>
+<article-title>Optimizing Search and Rescue Missions Using Artificial Intelligence for Automated Aerial Image Processing and Analysis</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contrib1">
+<name-alternatives>
+<string-name specific-use="display"><given-names>K.</given-names> <surname>Suneetha</surname></string-name>
+<string-name specific-use="index"><given-names>K.</given-names> <surname>Suneetha</surname></string-name>
+</name-alternatives>
+<email>drksuneetha3303@outlook.com</email>
+<xref ref-type="aff" rid="aff1"/>
+</contrib>
+<contrib contrib-type="author" id="contrib2">
+<name-alternatives>
+<string-name specific-use="display"><given-names>O.</given-names> <surname>Kalaipriya</surname></string-name>
+<string-name specific-use="index"><given-names>O.</given-names> <surname>Kalaipriya</surname></string-name>
+</name-alternatives>
+<email>kalaiomprakash@gmail.com</email>
+<xref ref-type="aff" rid="aff2"/>
+</contrib>
+<contrib contrib-type="author" id="contrib3">
+<name-alternatives>
+<string-name specific-use="display"><given-names>Tapasmini</given-names> <surname>Sahoo</surname></string-name>
+<string-name specific-use="index"><given-names>Tapasmini</given-names> <surname>Sahoo</surname></string-name>
+</name-alternatives>
+<email>tapasminisahoo@soa.ac.in</email>
+<xref ref-type="aff" rid="aff3"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution-wrap>
+<institution content-type="department">Department of Computer Science &#x0026; IT</institution>
+<institution content-type="institution">Jain University</institution>
+</institution-wrap>
+<city>Banglore</city>
+<country>India</country>
+</aff>
+<aff id="aff2">
+<institution-wrap>
+<institution content-type="department">Department of Electronics and Communication Engineering</institution>
+<institution content-type="institution">Sathyabama Institute of Science and Technology</institution>
+</institution-wrap>
+<city>Chennai</city>
+<country>India</country>
+</aff>
+<aff id="aff3">
+<institution-wrap>
+<institution content-type="department">Department of Electronics and Communication Engineering</institution>
+<institution content-type="institution">Siksha &#x0027;O&#x0027; Anusandhan (Deemed to be University)</institution>
+</institution-wrap>
+<city>Bhubaneswar</city>
+<state>Odisha</state>
+<country>India</country>
+</aff>
+<pub-date date-type="cover" pub-type="print" iso-8601-date="2025-12-21"><day>21</day><month>Dec.</month><year>2025</year></pub-date>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<permissions>
+<copyright-statement>979-8-3315-8922-6/25/$31.00 &#x00A9;2025 IEEE</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder copyright-owner="IEEE"></copyright-holder>
+<license license-type="IEEE">
+<ali:license_ref></ali:license_ref>
+<license-p><price currency="USD">31.00</price></license-p>
+</license>
+</permissions>
+<self-uri content-type="xml">11453427_ft.xml</self-uri>
+<self-uri content-type="print">54_2026014403.pdf</self-uri>
+<abstract xml:lang="en">
+<p>Search and rescue (SAR) missions are critical operations that need rapid and precise recognition of targets in complex environment. The conventional approach often relies on human expertise, which can result in delay and missed opportunity. The research investigates the application of Artificial Intelligence (AI) to optimize SAR missions through automatic aerial image processing and analysis. Aerial imagery is collected using drones equipped with high-resolution cameras, which capture real-time images of search areas in various environments such as land, seawater, and marine. Data preprocessing method, with noise reduction, ensure high-quality input for subsequent analysis. Feature extraction is perform by a Vision Transformer (ViT) model to procedure the image patches in a transformer-based structure, enabling robust detection and classification of objects such as people, vehicles, and structure in diverse environmental environment. To further improve the model&#x0027;s performance, a Weighted Snake-Inspired Tuned Attention Generative Adversarial Network (WS-Att-GAN) method is employed. WS-Att-GAN utilizes an attention mechanism combined with GANs to refine the image features, focus on significant regions and optimizing detection accuracy. This AI-improved system significantly reduces the time required for manual image analysis, accelerating response times during SAR operations. The system is evaluated on a comprehensive dataset containing a variety of SAR scenarios in urban and forested areas. Results show that the AI-based framework in WS-ATT-GAN achieved 92.1 &#x0025; detection rate, 45s in processing time, 8 false positives, and 5 false negatives. This technique offers substantial development to SAR missions and enables faster, more accurate, and coordinated rescue efforts in serious situations.</p>
+</abstract>
+<kwd-group kwd-group-type="AuthorFree">
+<kwd>Search and rescue (SAR) missions</kwd>
+<kwd>Aerial image</kwd>
+<kwd>Artificial Intelligence (AI)</kwd>
+<kwd>Vision Transformer (ViT)</kwd>
+<kwd>Weighted Snake-Inspired Tuned Attention Generative Adversarial Network (WS-Att-GAN)</kwd>
+</kwd-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="1"/>
+<equation-count count="8"/>
+<ref-count count="16"/>
+<page-count count="6"/>
+</counts>
+</conf-article-meta>
+</conf-front>
+<body>
+<sec id="sec1">
+<label>I.</label>
+<title>Introduction</title>
+<p>The growing difficulty of search and rescue (SAR) operations necessitate more modern and well-organized information to assist development response efforts. Natural disasters, sea accidents, and lost-person incident normally demand prompt help over large and challenging terrains <xref ref-type="bibr" rid="ref1">[1]</xref>. Conventional SAR methods, which rely on manual searches and human-operated aircraft surveys, can be slow, resource-intensive, and unfinished due to ecological constraint. There is a growing demand for intelligent, automatic ways to develop the speed and accuracy of SAR operations <xref ref-type="bibr" rid="ref2">[2]</xref>. Artificial intelligence (AI) has emerged as a game changer in modern SAR operations, particularly when integrated with aerial imaging technology such as drones or satellites. AI-powered aerial image processing delivers real-time data analysis, allowing SAR teams to cover large areas quickly and recognize critical visual signs such as missing individuals, remains, and dangerous zones with enhanced precision <xref ref-type="bibr" rid="ref3">[3]</xref>. AI is capable of evaluate complex visual input faster and more correctly than convolutional methods, resulting in significantly reduced decision-making time. One of the most important and prominent individuality of AI-driven SAR operations is the automation of object recognition and pattern identification in aerial images <xref ref-type="bibr" rid="ref4">[4]</xref>. Advanced image processing technique, including segmentation, enhancement, and anomaly detection, provides serious insights that assist to shape rescue efforts. The project focuses on boosting SAR operations using AI-powered aerial image processing and analysis <xref ref-type="bibr" rid="ref5">[5]</xref>.AI has the potential to change efforts by combining intelligent aerial observation, automatic analysis, and real-time decision-making support, eventually saving more lives in emergency circumstances.</p>
+<sec id="sec1a">
+<label>A.</label>
+<title>Research Objective</title>
+<p>The aim of the research is to enhance SAR operations through AI-based aerial image processing to find missing individuals and hazards sooner and more precisely.</p>
+</sec>
+<sec id="sec1b">
+<label>B.</label>
+<title>Rest of the Research</title>
+<p>The research is divided into several sections: Part 2 covers the related works, Parts 3 and 4 present the methodology and result, and Parts 5 and 6 provide the research discussion and conclusion.</p>
+</sec>
+</sec>
+<sec id="sec2">
+<label>II.</label>
+<title>Related Work</title>
+<p>The research explored its potential in large-scale image processing, such as satellite and drone photographs, street views, and GeoAI (geoscientific data). Geographic artificial intelligence <xref ref-type="bibr" rid="ref6">[6]</xref> revolutionized spatial analytics by merging AI and geography. It focused on GeoAI&#x0027;s major benefits, such as automation, high precision, and sensitivity to small changes. The research employed data from Unmanned Aerial Vehicles (UAV) <xref ref-type="bibr" rid="ref7">[7]</xref> to assess Agro View, an AI-powered cloud application for citrus tree phenotyping. Agro scan found trees with 2.3 &#x0025; MAPE in a 1,871-acre orchard, evaluated tree height at 4.5 &#x0025; and 12.93 &#x0025; MAPE for normal and high-density spacing, and canopy size at 12.9 &#x0025; and 34.6 &#x0025; MAPE, correspondingly. It was a low-cost and rapid solution for field surveys, although it made more mistakes in high-density plants and was dependent on UAV data accuracy. The research investigated the use of GA (Geometric Algebra) <xref ref-type="bibr" rid="ref8">[8]</xref> in AI, computer vision, and geographical research, emphasizing its capacity to analyze multidimensional data without losing information. It investigated the combination of GA and AI for classification issues, with a focus on the CFT (Clifford-Fourier Transform) and quaternions in remote sensing. While GA enhanced feature analysis and coordinate-independent operations, issues like complicated processing and limited software support persist, necessitating more research for large-scale applications. The research looked at how AI and automation can aid marine conservation by enhancing data collection, predictive modeling, and decision-making procedures. AI-powered <xref ref-type="bibr" rid="ref9">[9]</xref> automation minimized monitoring bottlenecks and long-term expenses, allowing for adaptive management using big data analytics. Despite these, adoption was hindered by issues of limited funding, low sample size, and ineffective processing of data. These issues had to be tackled to employ AI in sustainable management of conservation and long-term marine ecosystem protection. The research explored the applications of ANN (artificial neural networks) and ML (machine learning) <xref ref-type="bibr" rid="ref10">[10]</xref>&#x2013;<xref ref-type="bibr" rid="ref11">[11]</xref> in geographic data processing with particular emphasis on disaster risk reduction, health, and weather forecasting <xref ref-type="bibr" rid="ref12">[12]</xref>&#x2013;<xref ref-type="bibr" rid="ref13">[13]</xref>. AI was crucial for threat mapping, real-time event detection, and decision-making. Nonetheless, data quality, computational expenses, ethical concerns, and training dataset biases continue to pose barriers to successful deployment.</p>
+</sec>
+<sec id="sec3">
+<label>III.</label>
+<title>Methodology</title>
+<p>The method utilizes the Aerial dataset of floating objects (AFO) dataset, which is preprocessed on applying a Gaussian Filter (GF) to filter out noise and enhance image quality. Feature extraction is being carried out through Vision Transformer (ViT) to mine spatial as well as contextual information in an efficient way. Then the proposed A Weighted Snake-Inspired Tuned Attention GAN (WS-Att-GAN) model is employed for better image generation and inspection.</p>
+<sec id="sec3a">
+<label>A.</label>
+<title>Dataset Description</title>
+<p>The AFO dataset is the first publicly available dataset that has been specifically crafted for training ML and DL models for maritime Search and Rescue applications. It consists of aerial drone footage with 40,000 carefully annotated individuals and objects drifting in the water, with a large proportion being small and hard to spot.</p>
+</sec>
+<sec id="sec3b">
+<label>B.</label>
+<title>Data Pre-Processing Using Gaussian Filter (GF)</title>
+<p>In SAR operations, the GF is utilized to enhance images before recognizing and classifying objects. This linear filter uses the Gaussian function to apply weighted values to each pixel, which results in smooth refinement and noise reduction. It is more effective in removing generally dispersed noise, which is crucial for improving the quality of aerial and thermal images used in rescue operations. The GF employs a kernel center to maintain important characteristics while removing distortions. The values of each factor in the Gaussian smoothing filter can be calculated numerically utilizing the Gaussian function in <xref ref-type="disp-formula" rid="deqn1">(1)</xref>.
+<disp-formula id="deqn1"><tex-math notation="LaTeX">\begin{equation*}
+g(y, x)=\frac{1}{d} f \frac{y^{2}+x^{2}}{2 \sigma^{2}}
+\tag{1}
+\end{equation*}</tex-math></disp-formula>
+Where <inline-formula><tex-math notation="LaTeX">$\sigma$</tex-math></inline-formula> denote the SE (standard deviation) of the Gaussian kernel, and <inline-formula><tex-math notation="LaTeX">$d$</tex-math></inline-formula> is the normalization invariable, which assure accurate weighting of pixel intensities.</p>
+</sec>
+<sec id="sec3c">
+<label>C.</label>
+<title>Feature Extraction Using Vision Transformer (ViT)</title>
+<p>The Vision Transformer (ViT) improves SAR by identifying individuality in aerial and sensor images. It breaks images into patches, embeds, and uses (Multi-head Self-Attention) and a Feed Forward Network, as in <xref ref-type="disp-formula" rid="deqn2">(2)</xref>:
+<disp-formula id="deqn2"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{Attention}\left(R_{j}, L_{j}, U_{j}\right)=\operatorname{Softmax}\left(\frac{R L^{S}}{\sqrt{c}}\right) U \tag{2}
+\end{equation*}</tex-math></disp-formula></p>
+<p>Self-attention is calculated as <xref ref-type="disp-formula" rid="deqn3">(3)</xref>:
+<disp-formula id="deqn3"><tex-math notation="LaTeX">\begin{equation*}
+\operatorname{MSA}(R, L, U) = [\text{Attention} \left(R_{1}, L_{1}, U_{1}\right); \ldots. ; \text{Attention} \left.\left(R_{S}, L_{S}, U_{S}\right)\right] X_{P} \tag{3}
+\end{equation*}</tex-math></disp-formula>
+</p>
+<p><inline-formula><tex-math notation="LaTeX">$\operatorname{MSA}(R, L, U) \quad$</tex-math></inline-formula> And <inline-formula><tex-math notation="LaTeX">$\quad \operatorname{Attention}\left(R_{1}, L 1, U_{1}\right)$</tex-math></inline-formula>, Attention <inline-formula><tex-math notation="LaTeX">$\left(R_{s}, L s, U_{s}\right) X_{P}$</tex-math></inline-formula> stacked transformer blocks extract spatial patterns, and aid real-time SAR application such as danger recognition. By incorporating ViT, address key challenges in SAR operations, such as detecting small, partially submerged objects, variations in lighting conditions, and the presence of environmental noise in drone-captured images. The self-attention mechanism enables ViT to analyze global spatial relationships, significantly enhancing detection accuracy in real-world scenarios <xref ref-type="bibr" rid="ref15">[15]</xref>&#x2013;<xref ref-type="bibr" rid="ref16">[16]</xref>. This approach is particularly effective in detecting survivors in large-scale aerial imagery, classifying floating objects, and reducing false detections in turbulent water conditions. With the AFO dataset providing diverse real-world scenarios, our method ensures accurate and rapid identification of critical elements in SAR missions, ultimately improving response time and mission success rates.</p>
+</sec>
+<sec id="sec3d">
+<label>D.</label>
+<title>Search and Rescue Missions Using Weighted Snake-Inspired Tuned Attention Generative Adversarial Network (WS-Att-GAN)</title>
+<p>The WS-Att-GAN enhances aerial and thermal image analysis, making SAR missions more effective. Its WS and attention mechanism allow for correct item identification in complex terrains, which can aidin locating missing people or catastrophe survivors. The model&#x0027;s capacity to create and change high-quality image develops situational awareness, and allocates for more capable and precise rescue operations.</p>
+<sec id="sec3d1">
+<label>1)</label>
+<title>Attention Mechanism</title>
+<p>The attention mechanism originated from research into human visual perception and was initially applied to machine translation. It has gained widespread use across various DL applications, including SAR operations, along with image and audio identification. In SAR tasks, various features contribute irregularly to identifying individuals in danger highly complex due to environmental challenges, object variability, and small-sized targets. The attention mechanism directs computational resources toward critical aspects, such as locating survivors, detecting hazards, and assessing terrain circumstances, while filtering out less relevant information to enhance effectiveness and accuracy. n SAR missions, various features such as object size, movement, water turbulence, and lighting conditions contribute irregularly to the detection process. The attention mechanism dynamically prioritizes essential features, such as survivors&#x0027; locations, potential hazards, and environmental conditions, while suppressing less relevant background noise. This results in better identification of distress signals, improved situational awareness, and more accurate classification of floating objects in aerial surveillance footage. The general numerical demonstration of the attention device is given in <xref ref-type="disp-formula" rid="deqn4">(4)</xref>:
+<disp-formula id="deqn4"><tex-math notation="LaTeX">\begin{equation*}
+P=\operatorname{Softmax}\left(R L^{S}\right) \cdot U
+\tag{4}
+\end{equation*}</tex-math></disp-formula></p>
+<p>This technique leverages the YOLO-labeled bounding box annotations in the AFO dataset to systematically analyze each encoder unit&#x0027;s hidden state, assigning higher relevance scores to objects with greater survival importance (e.g., life jackets, boats, and moving persons). By using the softmax function to normalize these weights, the system computes a weighted sum of the hidden states across all frames, ensuring optimal feature prioritization over time. This approach significantly enhances SAR operations by rendering resource allocation more effective, enhancing model performance in complicated maritime environments, and guaranteeing rapid response in cases of emergency. As a result, our method provides a structured and intelligent rescue response by directing focus to high-risk areas, ultimately increasing the success rate of maritime SAR operations.</p>
+</sec>
+<sec id="sec3d2">
+<label>2)</label>
+<title>Generative Adversarial Network (GAN)</title>
+<p>GANs have two primary elements: a generator and a discriminator. In SAR missions, the generator can recreate scenarios of disaster, restore images of missing persons, or enhance aerial surveillance images captured at low resolutions, while the discriminator verifies the results produced as realistic. The generator aims to approximate the distribution of real data, denoted as <inline-formula><tex-math notation="LaTeX">$O_{\text {data }}$</tex-math></inline-formula>, while it&#x0027;s learned distribution is represented as <inline-formula><tex-math notation="LaTeX">$O_{H}(w; \theta)$</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> denotes the model parameters. The objective is to optimize <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> such that <inline-formula><tex-math notation="LaTeX">$O_{H}(w; \theta)$</tex-math></inline-formula>) closely resembles <inline-formula><tex-math notation="LaTeX">$\int_{W} O_{\text {data }}(w)$</tex-math></inline-formula>, as in <xref ref-type="disp-formula" rid="deqn5">(5)</xref>. This approach significantly enhances the identification of survivors and floating objects in drone imagery, optimizing mission-critical decision-making by adversarial training.
+<disp-formula id="deqn5"><tex-math notation="LaTeX">\begin{align*}
+&amp; \quad \theta^{*}=\underset{\theta}{\operatorname{argmax}} \prod_{j=1} O_{H}\left(w^{i}; \theta\right) \\
+&amp; =\underset{\theta}{\operatorname{argmaxlog}} \prod_{j=1} O_{H}\left(w^{i}; \theta\right) \\
+&amp; =\underset{\theta}{\operatorname{argmax}} \sum_{j=1}^{n} \log O_{H}\left(w^{j}; \theta\right)\left\{w^{1}, w^{2}, \ldots, w^{n}\right\} \operatorname{fromO}_{\text {data }}(w) \\
+&amp; \approx \underset{\theta}{\operatorname{argmax} F_{w \sim O_{\text {data }}}\left[\log O_{H}(w; \theta)\right]} \\
+&amp; =\underset{\theta}{\operatorname{argmax}} \underset{\int_{W}}{\int_{W} O_{\text {data }}(w) \log O_{H}(w; \theta) c w-} \tag{5}
+\end{align*}</tex-math></disp-formula></p>
+<p>During SAR operations, the process reduces the gap between real world aerial images from the AFO dataset and the output from the generator such that synthetic data closely matches actual rescue conditions. This enables synthetic training datasets to be created in order to enhance the model&#x0027;s generalization in various maritime scenarios.. In SAR missions, this can be framed as minimizing the divergence between the real data distribution <inline-formula><tex-math notation="LaTeX">$\int_{W} O_{\text {data }}(w)$</tex-math></inline-formula> and the generator&#x0027;s distribution <inline-formula><tex-math notation="LaTeX">$O_{H}(w; \theta)$</tex-math></inline-formula>. The goal is to optimize <inline-formula><tex-math notation="LaTeX">$\theta$</tex-math></inline-formula> so that the generated data closely resembles real-world rescue scenarios, such as terrain maps, survivor locations, or distress signal patterns <xref ref-type="disp-formula" rid="deqn6">(6)</xref>.
+<disp-formula id="deqn6"><tex-math notation="LaTeX">\begin{gather*}
+\operatorname{minmax} U(C, H) \\
+=\mathrm{F}_{w \sim o_{\text {data }}}(w)[\log C(w)]+F_{y \sim o_{y}(y)}[\log (1-C(H(z)))] \tag{6}
+\end{gather*}</tex-math></disp-formula></p>
+<p>In SAR missions, <inline-formula><tex-math notation="LaTeX">$H$</tex-math></inline-formula> represents the generator and <inline-formula><tex-math notation="LaTeX">$C$</tex-math></inline-formula> represents the discriminator, with <inline-formula><tex-math notation="LaTeX">$U(C, H)$</tex-math></inline-formula> as the value function. The generator is trained by minimizing <inline-formula><tex-math notation="LaTeX">$\log (1- C(H(z)))$</tex-math></inline-formula>, meaning <inline-formula><tex-math notation="LaTeX">$H$</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX">$C$</tex-math></inline-formula> engages in a minimax game to improve rescue data accuracy. This development improves mission-critical functions, including survivor discovery, terrain mapping, and distress signal identification.</p>
+</sec>
+<sec id="sec3d3">
+<label>3)</label>
+<title>Weighted Snake (WS)</title>
+<p>Two fundamental strategies are presented to improve WSOA&#x0027;s efficacy in SAR missions. The first strategy is based on the OBL (Opposition-Based Learning) method, which increases solution diversity by treating each candidate as a pair of complimentary answers. This technique increases the algorithm&#x0027;s examination ability, guaranteeing efficient path planning and coverage during SAR missions. The resistance-based equations are stated as <xref ref-type="disp-formula" rid="deqn7-deqn8">(7)</xref> and <xref ref-type="disp-formula" rid="deqn7-deqn8">(8)</xref>:
+<disp-formula id="deqn7-deqn8"><tex-math notation="LaTeX">\begin{gather*}
+Y_{x, \text { male }}^{\text {new }}=Y_{x, \text { male }}^{\max }+Y_{x, \text { male }}^{\min }-Y_{x, \text { male }} \tag{7}\\
+Y_{x, \text { female }}^{\text {new }}=Y_{x, \text { female }}^{\max }+Y_{x, \text { female }}^{\min }-Y_{x, \text { female }} \tag{8}
+\end{gather*}</tex-math></disp-formula></p>
+<p>Another enhancement to WS for SAR missions involves the integration of chaos theory, which replaces completely random variables with quasi-random counterparts. This refinement accelerates convergence and enhances efficiency. To generate chaotic variables, a sinusoidal map is employed, as represented in <xref ref-type="disp-formula" rid="deqn9">(9)</xref>:
+<disp-formula id="deqn9"><tex-math notation="LaTeX">\begin{equation*}
+\mathrm{q}(\mathrm{i}+1)=O. q^{2}(i) \times \sin (\pi. q(i))
+\tag{9}
+\end{equation*}</tex-math></disp-formula></p>
+<p>In SAR operations, itis used for real-time target localization and mission planning. Predicting the most likely locations of missing people or things allows for more effective deployment of search resources, thereby boosting mission success rates. SAR teams can improve their decision-making process, minimize search time, and increase operational effectiveness by utilizing the optimized model.</p>
+<p>The suggested approach WS-Att-GAN enhances SAR missions by combining GANs with weighted attention inspired by snake movement for improved detection and localization. It boosts accuracy, reduces false detections, and speeds up processing, making real-time rescue feasible. Effective in drones, underwater searches, and post-disaster recovery, it adapts dynamically to challenging environments like low visibility and cluttered scenes.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec4">
+<label>IV.</label>
+<title>Result</title>
+<p>The AI-powered SAR system with ViT and WS-Att-GAN improves target identification in challenging situations. Drones gather aerial images in real-time, which are further improved via preprocessing and transformer-based analysis. This system includes an Intel core i7 CPU, Windows 11, Python 3.8, 32 GB RAM, and Jupyter Notebook. It also has a 1TB SSD, guaranteeing express and successful storage. WS-Att-GAN enhances feature extraction, which increases accuracy. Tested on several SAR settings, the technology beats existing approaches, providing faster and more efficient rescues.</p>
+<sec id="sec4a">
+<label>A.</label>
+<title>Impact of Image Resolution on Detection Time in SAR Missions</title>
+<p><xref ref-type="fig" rid="fig1">Fig. 1</xref> depicts the relationship between image resolution and detection time for SAR missions. As picture resolution grows from <inline-formula><tex-math notation="LaTeX">$1280 \times 720$</tex-math></inline-formula> to <inline-formula><tex-math notation="LaTeX">$3840 \times 2160$</tex-math></inline-formula>, the detection time increases continuously. This implies that higher-resolution photographs demand more computer resources and processing time, most likely due to the increasing amount of data that must be evaluated. The trend emphasizes the balance between image quality and processing efficiency in SAR operations.
+<fig id="fig1" position="float" orientation="portrait">
+<label>Fig.1.</label>
+<caption><p>Detection time and image resolution</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453427-fig-1-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4b">
+<label>B.</label>
+<title>ROC Curve for SAR Detection</title>
+<p>The image displays a ROC (Receiver Operating Characteristic) curve for SAR detection. The ROC curve is plotted with the True Positive Rate (TPR) on the Y-axis and the False Positive Rate (FPR) on the X-axis. The AUC (Area under the Curve) is reported as 0.72, indicating that the model has moderate classification ability. <xref ref-type="fig" rid="fig2">Fig. 2</xref> depicts the AUC values closer to 1 signifying better performance, while values closer to 0.5 indicate a performance similar to random guessing.
+<fig id="fig2" position="float" orientation="portrait">
+<label>Fig.2.</label>
+<caption><p>Outcomes of roc curve and sar detection</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453427-fig-2-source.tif"/>
+</fig></p>
+</sec>
+<sec id="sec4c">
+<label>C.</label>
+<title>Comparison of SAR Mission Models</title>
+<p>The base model, GAN, and the WS-Att-GAN calculate the detection rate, processing time, false positives, and false negatives. <xref ref-type="table" rid="table1">Table 1</xref> and <xref ref-type="fig" rid="fig3">Fig. 3</xref> indicate the greatest detection rate and the shortest processing time. The base model has the longest processing time, whereas GAN has a middling performance. False positives and false negatives are lowest in WS-Att-GAN, showing higher accuracy. The figure shows that WS-Att-GAN surpasses the other models in efficiency and accuracy for SAR missions.
+<table-wrap id="table1">
+<label>Table I.</label>
+<caption><title>Comparisons of traditional vs proposed method</title></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453427-table-1-source.tif"/>
+<table rules="all" frame="box" cellpadding="5">
+<colgroup>
+<col span="5"/>
+</colgroup>
+<thead>
+<tr>
+<th>Model</th>
+<th>Detection Rate (&#x0025;)</th>
+<th>Processing Time (s)</th>
+<th>False Positives</th>
+<th>False Negatives</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><bold>BaseModel</bold></td>
+<td>78.3</td>
+<td>120</td>
+<td>22</td>
+<td>14</td>
+</tr>
+<tr>
+<td><bold>GAN</bold></td>
+<td>84.7</td>
+<td>90</td>
+<td>18</td>
+<td>10</td>
+</tr>
+<tr>
+<td><bold>WS-Att-GAN</bold></td>
+<td>92.1</td>
+<td>45</td>
+<td>8</td>
+<td>5</td>
+</tr></tbody>
+</table>
+</table-wrap>
+<fig id="fig3" position="float" orientation="portrait">
+<label>Fig.3.</label>
+<caption><p>Outcomes of roc curve and sar detection</p></caption>
+<graphic position="float" orientation="portrait" xlink:href="11453427-fig-3-source.tif"/>
+</fig></p>
+</sec>
+</sec>
+<sec id="sec5">
+<label>V.</label>
+<title>Conclusion</title>
+<p>The research highlights the potential for AI-driven automated aerial picture processing to improve SAR missions. DL and computer vision can help SAR operations discover victims faster and more accurately. However, obstacles persist, such as visual noise, environmental fluctuations, and computing limits in real-time processing.WS-Att-GAN achieved a92.1&#x0025; detection rate, aprocessing time of45s, 8 false positives and 5 false negatives. Future research should focus on increasing model robustness, integrating multi-sensor data, and creating real-time edge computing solutions. Improving AI-human collaboration and resolving ethical considerations will be critical to properly using AI in SAR operations.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><label>[1]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>B.</given-names> <surname>Mishra</surname></string-name>, <string-name><given-names>D.</given-names> <surname>Garg</surname></string-name>, <string-name><given-names>P.</given-names> <surname>Narang</surname></string-name>, and <string-name><given-names>V.</given-names> <surname>Mishra</surname></string-name></person-group>, &#x201C;<article-title>Drone-surveillance for search and rescue in natural disaster</article-title>,&#x201D; <source>Comput. Commun.</source>, vol. <volume>156</volume>, pp. <fpage>1</fpage>&#x2013;<lpage>10</lpage>, <month>Mar.</month> <year>2020</year>. <uri>https://doi.org/10.1016/j.comcom.2020.03.012</uri></mixed-citation></ref>
+<ref id="ref2"><label>[2]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Pu</surname></string-name></person-group>, &#x201C;<article-title>Deep SAR imaging and motion compensation</article-title>,&#x201D; <source specific-use="IEEE">IEEE Trans. Image Process.</source>, vol. <volume>30</volume>, pp. <fpage>2232</fpage>&#x2013;<lpage>2247</lpage>, <month>Jan.</month> <year>2021</year>. <uri>https://doi.org/10.1109/TIP.2021.3051484</uri></mixed-citation></ref>
+<ref id="ref3"><label>[3]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>P.</given-names> <surname>Dash</surname></string-name> and <string-name><given-names>J.</given-names> <surname>Sar</surname></string-name></person-group>, &#x201C;<article-title>Identification and validation of potential flood hazard area using GIS-based multi-criteria analysis and satellite data-derived water index</article-title>,&#x201D; <source>J. Flood Risk Manag.</source>, vol. <volume>13</volume>, no. <issue>3</issue>, p. <fpage>e12620</fpage>, <year>2020</year>. <pub-id pub-id-type="doi">10.1111/jfr3.12620</pub-id>.</mixed-citation></ref>
+<ref id="ref4"><label>[4]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>M.</given-names> <surname>Kraft</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Piechocki</surname></string-name>, <string-name><given-names>B.</given-names> <surname>Ptak</surname></string-name>, and <string-name><given-names>K.</given-names> <surname>Walas</surname></string-name></person-group>, &#x201C;<article-title>Autonomous, onboard vision-based trash and litter detection in low altitude aerial images collected by an unmanned aerial vehicle</article-title>,&#x201D; <source>Remote Sens.</source>, vol. <volume>13</volume>, no. <issue>5</issue>, p. <fpage>965</fpage>, <year>2021</year>. <uri>https://doi.org/10.3390/rs13050965</uri></mixed-citation></ref>
+<ref id="ref5"><label>[5]</label> <mixed-citation publication-type="online" publication-format="print"><person-group person-group-type="author"><string-name><given-names>D. S.</given-names> <surname>Bhatti</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Choi</surname></string-name>, <string-name><given-names>R. S.</given-names> <surname>Wahidur</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Bakhtawar</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Kim</surname></string-name>, <string-name><given-names>S.</given-names> <surname>Lee</surname></string-name>, <string-name><given-names>Y.</given-names> <surname>Lee</surname></string-name>, and <string-name><given-names>H. N.</given-names> <surname>Lee</surname></string-name></person-group>, &#x201C;<article-title>AI-Driven HSI: Multimodality, fusion, challenges, and the deep learning revolution</article-title>,&#x201D; <source>arXiv preprint</source> arXiv:<pub-id pub-id-type="arxiv">2502.06894</pub-id>, <year>2025</year>. <uri>http://dx.doi.org/10.48550/arXiv.2502.06894</uri></mixed-citation></ref>
+<ref id="ref6"><label>[6]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>W.</given-names> <surname>Li</surname></string-name> and <string-name><given-names>C. Y.</given-names> <surname>Hsu</surname></string-name></person-group>, &#x201C;<article-title>GeoAI for large-scale image analysis and machine vision: Recent progress of artificial intelligence in geography</article-title>,&#x201D; <source>ISPRS Int. J. Geo-Inf.</source>, vol. <volume>11</volume>, no. <issue>7</issue>, p. <fpage>385</fpage>, <year>2022</year>. <uri>https://doi.org/10.3390/ijgi11070385</uri></mixed-citation></ref>
+<ref id="ref7"><label>[7]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>Y.</given-names> <surname>Ampatzidis</surname></string-name>, <string-name><given-names>V.</given-names> <surname>Partel</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Costa</surname></string-name></person-group>, &#x201C;<article-title>Agroview: Cloud-based application to process, analyze and visualize UAV-collected data for precision agriculture applications utilizing artificial intelligence</article-title>,&#x201D; <source>Comput. Electron. Agric.</source>, vol. <volume>174</volume>, p. <fpage>105457</fpage>, <year>2020</year>. <uri>https://doi.org/10.1016/j.compag.2020.105457</uri></mixed-citation></ref>
+<ref id="ref8"><label>[8]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>U. A.</given-names> <surname>Bhatti</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Yu</surname></string-name>, <string-name><given-names>L.</given-names> <surname>Yuan</surname></string-name>, <string-name><given-names>Z.</given-names> <surname>Zeeshan</surname></string-name>, <string-name><given-names>S. A.</given-names> <surname>Nawaz</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Bhatti</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Mehmood</surname></string-name>, <string-name><given-names>Q. U.</given-names> <surname>Ain</surname></string-name>, and <string-name><given-names>L.</given-names> <surname>Wen</surname></string-name></person-group>, &#x201C;<article-title>Geometric algebra applications in geospatial artificial intelligence and remote sensing image processing</article-title>,&#x201D; <source specific-use="IEEE">IEEE Access</source>, vol. <volume>8</volume>, pp. <fpage>155783</fpage>&#x2013;<lpage>155796</lpage>, <year>2020</year>. <uri>https://doi.org/10.1109/ACCESS.2020.3018544</uri></mixed-citation></ref>
+<ref id="ref9"><label>[9]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>E. M.</given-names> <surname>Ditria</surname></string-name>, <string-name><given-names>C. A.</given-names> <surname>Buelow</surname></string-name>, <string-name><given-names>M.</given-names> <surname>Gonzalez-Rivero</surname></string-name>, and <string-name><given-names>R. M.</given-names> <surname>Connolly</surname></string-name></person-group>, &#x201C;<article-title>Artificial intelligence and automated monitoring for assisting conservation of marine ecosystems: A perspective</article-title>,&#x201D; <source>Front. Mar. Sci.</source>, vol. <volume>9</volume>, p. <fpage>918104</fpage>, <year>2022</year>. <uri>https://doi.org/10.3389/fmars.2022.918104</uri></mixed-citation></ref>
+<ref id="ref10"><label>[10]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><given-names>A.K.</given-names> <surname>Goel</surname></string-name>, <string-name><given-names>A.</given-names> <surname>Kumar</surname></string-name></person-group>, &#x201C;<article-title>The role of artificial neural network and machine learning in utilizing spatial information</article-title>,&#x201D; <source>Spat. Inf. Res.</source>, vol. <volume>31</volume>, no. <issue>3</issue>, pp. <fpage>275</fpage>&#x2013;<lpage>285</lpage>, <year>2023</year>.<uri>https://doi.org/10.1007/s41324-022-00494-x</uri></mixed-citation></ref>
+<ref id="ref11"><label>[11]</label> <mixed-citation publication-type="online" publication-format="online"><uri>https://www.kaggle.com/datasets/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects/data</uri></mixed-citation></ref>
+<ref id="ref12"><label>[12]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Humayun</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Almufareh</surname>, <given-names>M. F.</given-names></string-name>, &#x0026; <string-name><surname>Jhanjhi</surname>, <given-names>N. Z.</given-names></string-name></person-group> (<year>2022</year>). <article-title>Autonomous traffic system for emergency vehicles</article-title>. <source>Electronics</source>, <volume>11</volume>(<issue>4</issue>), <fpage>510</fpage>.</mixed-citation></ref>
+<ref id="ref13"><label>[13]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Dogra</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Singh</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Verma</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Kavita</surname></string-name>, <string-name><surname>Jhanjhi</surname>, <given-names>N. Z.</given-names></string-name>, &#x0026; <string-name><surname>Talib</surname>, <given-names>M. N.</given-names></string-name></person-group> (<conf-date>2021</conf-date>). <article-title>Analyzing distilbert for sentiment classification of banking financial news</article-title>. In <source>Intelligent Computing and Innovation on Data Science: Proceedings of ICTIDS 2021</source> (pp. <fpage>501</fpage>&#x2013;<lpage>510</lpage>). <conf-loc>Singapore</conf-loc>: <conf-sponsor>Springer Nature Singapore</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref14"><label>[14]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Zaman</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Tang Jung</surname>, <given-names>L.</given-names></string-name>, &#x0026; <string-name><surname>Yasin</surname>, <given-names>M. M.</given-names></string-name></person-group> (<year>2016</year>). <article-title>[Retracted] Enhancing Energy Efficiency of Wireless Sensor Network through the Design of Energy Efficient Routing Protocol</article-title>. <source>Journal of Sensors</source>, <volume>2016</volume>(<issue>1</issue>), <fpage>9278701</fpage>.</mixed-citation></ref>
+<ref id="ref15"><label>[15]</label> <mixed-citation publication-type="confproc" publication-format="print"><person-group person-group-type="author"><string-name><surname>Zaman</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Low</surname>, <given-names>T. J.</given-names></string-name>, &#x0026; <string-name><surname>Alghamdi</surname>, <given-names>T.</given-names></string-name></person-group> (<conf-date>2014, February</conf-date>). <article-title>Energy efficient routing protocol for wireless sensor network</article-title>. In <source>16th international conference on advanced communication technology</source> (pp. <fpage>808</fpage>&#x2013;<lpage>814</lpage>). <conf-sponsor>IEEE</conf-sponsor>.</mixed-citation></ref>
+<ref id="ref16"><label>[16]</label> <mixed-citation publication-type="periodical" publication-format="print"><person-group person-group-type="author"><string-name><surname>Kumar</surname>, <given-names>M. S.</given-names></string-name>, <string-name><surname>Vimal</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Jhanjhi</surname>, <given-names>N. Z.</given-names></string-name>, <string-name><surname>Dhanabalan</surname>, <given-names>S. S.</given-names></string-name>, &#x0026; <string-name><surname>Alhumyani</surname>, <given-names>H. A.</given-names></string-name></person-group> (<year>2021</year>). <article-title>Blockchain based peer to peer communication in autonomous drone operation</article-title>. <source>Energy Reports</source>, <volume>7</volume>, <fpage>7925</fpage>&#x2013;<lpage>7939</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+</conf-article>
